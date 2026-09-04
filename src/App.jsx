@@ -1,31 +1,72 @@
-import React, { useState } from 'react'
+import { useMemo, useState } from "react"
 
-const marketCards = [
-  { name: 'Flax / Linseed', code: 'FL' },
-  { name: 'Hairy Vetch', code: 'HV' },
-  { name: 'Red Clover', code: 'RC' },
-  { name: 'Phacelia', code: 'PH' },
-  { name: 'Buckwheat', code: 'BW' },
-  { name: 'Mustard', code: 'MU' },
+const marketData = {
+  activity: "+17%",
+  buyerDemand: "Strong",
+  supplyOutlook: "Tightening",
+  importExport: "+12%",
+  rfqDemand: "+28%",
+}
+
+const news = [
+  {
+    tag: "Market Insight",
+    title: "Drought risk increases for winter wheat in Western Europe",
+    body:
+      "Low rainfall and high temperatures may reduce seed yields in key multiplication areas.",
+    date: "4 Sep 2026",
+    region: "Western Europe",
+  },
+  {
+    tag: "Seed Production",
+    title: "Certified seed area expands for selected protein crops",
+    body:
+      "Higher multiplication area could improve availability for the next season.",
+    date: "4 Sep 2026",
+    region: "EU",
+  },
+  {
+    tag: "Market Trend",
+    title: "Flax seed demand strengthens ahead of the 2027 season",
+    body:
+      "Buyer interest is increasing across several European markets.",
+    date: "3 Sep 2026",
+    region: "Europe",
+  },
+  {
+    tag: "Research",
+    title: "Red clover seed supply faces tighter conditions",
+    body:
+      "Lower multiplication area and weather risk remain key factors.",
+    date: "3 Sep 2026",
+    region: "Europe",
+  },
 ]
 
-const rfqs = [
-  { crop: 'Hairy Vetch', qty: '100 MT', spec: 'EU Certified', destination: 'Lithuania', delivery: 'October 2026' },
-  { crop: 'Flax / Linseed', qty: '500 MT', spec: 'Food Grade', destination: 'Germany', delivery: 'Open' },
-  { crop: 'Red Clover', qty: '50 MT', spec: 'EU Certified', destination: 'Poland', delivery: 'Open' },
+const productionRows = [
+  { crop: "Wheat", area: "1,120,000 ha", yoy: "-4%" },
+  { crop: "Barley", area: "420,300 ha", yoy: "+8%" },
+  { crop: "Rapeseed", area: "312,500 ha", yoy: "-6%" },
+  { crop: "Pea", area: "285,600 ha", yoy: "+12%" },
+  { crop: "Flax", area: "98,400 ha", yoy: "-3%" },
 ]
 
-const benefits = [
-  'European Market Coverage',
-  'Professional B2B Network',
-  'Verified Companies',
-  'Seed Market Intelligence',
-  'Import & Export Insights',
-  'Price Monitoring',
-  'RFQ Marketplace',
-  'Supplier Discovery',
-  'Buyer Discovery',
-  'Trade Opportunities',
+const researchItems = [
+  {
+    type: "Research",
+    title: "How flowering-stage drought affects seed yield potential",
+    source: "Research & Partner Insights",
+  },
+  {
+    type: "Analysis",
+    title: "Seed multiplication planning under changing weather patterns",
+    source: "SeedTrade.eu Analysis",
+  },
+  {
+    type: "Partner",
+    title: "Improving certified seed quality through better field monitoring",
+    source: "Partner Insight",
+  },
 ]
 
 function GlobeMark() {
@@ -40,7 +81,6 @@ function GlobeMark() {
       <ellipse className="globe-line" cx="50" cy="50" rx="22" ry="43" />
       <path className="globe-line" d="M8 35H92" />
       <path className="globe-line" d="M8 65H92" />
-
       <path
         className="globe-seed"
         d="M50 84C32 67 31 47 50 29C69 47 68 67 50 84Z"
@@ -49,20 +89,18 @@ function GlobeMark() {
   )
 }
 
-function Logo({ footer = false }) {
+function Logo() {
   return (
-    <div className={`logo ${footer ? 'footer-logo' : ''}`}>
+    <div className="logo">
       <GlobeMark />
-
       <div className="logo-copy">
         <div className="wordmark">
           <span>SEED</span>
           <strong>TRADE</strong>
           <em>.EU</em>
         </div>
-
         <div className="tagline">
-          EUROPEAN SEED TRADING &amp; MARKET INTELLIGENCE
+          EUROPEAN SEED TRADING & MARKET INTELLIGENCE
         </div>
       </div>
     </div>
@@ -70,6 +108,8 @@ function Logo({ footer = false }) {
 }
 
 function Header() {
+  const [language, setLanguage] = useState("EN")
+
   return (
     <header className="topbar">
       <a href="#top" aria-label="SeedTrade.eu home">
@@ -78,153 +118,132 @@ function Header() {
 
       <nav>
         <a href="#market">Market</a>
-        <a href="#rfq">Buying Requests</a>
+        <a href="#requests">Buying Requests</a>
         <a href="#intelligence">Intelligence</a>
-        <a href="#join">Join</a>
+        <a href="#research">Research</a>
+        <a href="#about">About</a>
       </nav>
 
-      <a className="nav-cta" href="#join">
-        Register interest
-      </a>
+      <div className="header-actions">
+        <select
+          className="language-select"
+          value={language}
+          onChange={(e) => setLanguage(e.target.value)}
+          aria-label="Language"
+        >
+          <option value="EN">EN</option>
+          <option value="DE">DE</option>
+          <option value="FR">FR</option>
+          <option value="ES">ES</option>
+          <option value="IT">IT</option>
+        </select>
+
+        <a href="#join" className="nav-cta">
+          Register interest
+        </a>
+      </div>
     </header>
   )
 }
 
-function Hero() {
+function HeroIntro() {
   return (
-    <section className="hero" id="top">
-      <div className="hero-grid-overlay" />
-
+    <section className="hero-intro">
       <div className="hero-copy">
         <div className="eyebrow">
-          EUROPEAN B2B SEED TRADING &amp; MARKET INTELLIGENCE
+          REAL DATA. EXPERT INSIGHTS. A MORE CERTAIN SEED MARKET.
         </div>
 
         <h1>
-          THE EUROPEAN
-          <br />
-          <span>SEED MARKETPLACE</span>
+          European seed market intelligence for{" "}
+          <span>better decisions.</span>
         </h1>
 
         <p className="hero-lead">
-          Trade seeds. Discover demand. Understand the market.
+          Trade seeds. Monitor supply. Anticipate opportunities.
         </p>
 
         <p className="hero-body">
-          SeedTrade.eu connects professional seed buyers and suppliers
-          with market intelligence, trade data and real B2B opportunities
-          across Europe.
+          SeedTrade.eu connects professional seed buyers and suppliers with
+          market intelligence, trade data and real B2B opportunities across
+          Europe.
         </p>
 
         <div className="hero-actions">
           <a className="btn primary" href="#market">
             Explore the market
           </a>
-
-          <a className="hero-text-link" href="#rfq">
-            View buying requests →
+          <a className="btn secondary" href="#requests">
+            View buying requests
           </a>
+        </div>
+
+        <div className="hero-kpis">
+          <div>
+            <strong>12,450</strong>
+            <span>Seed offers</span>
+          </div>
+          <div>
+            <strong>3,280</strong>
+            <span>Active buyers</span>
+          </div>
+          <div>
+            <strong>48</strong>
+            <span>Countries</span>
+          </div>
+          <div>
+            <strong>+17%</strong>
+            <span>Market activity</span>
+          </div>
         </div>
       </div>
 
-      <div className="hero-panel">
-        <div className="panel-head">
-          <div>
-            <span className="panel-label">MARKET SIGNAL</span>
-            <small>European Seed Market</small>
-          </div>
+      <div className="hero-map">
+        <div className="map-circle"></div>
+        <div className="map-node node-a"></div>
+        <div className="map-node node-b"></div>
+        <div className="map-node node-c"></div>
+        <div className="map-node node-d"></div>
+        <div className="map-node node-e"></div>
 
-          <span className="live-dot">DEMO DATA</span>
-        </div>
-
-        <div className="signal-summary">
-          <div>
-            <small>MARKET ACTIVITY</small>
-            <strong>ACTIVE</strong>
-          </div>
-
-          <div>
-            <small>BUYER DEMAND</small>
-            <strong>↑ SIGNAL</strong>
-          </div>
-        </div>
-
-        <div className="signal-chart" aria-label="Demo market signal chart">
-          <span style={{ height: '36%' }} />
-          <span style={{ height: '52%' }} />
-          <span style={{ height: '44%' }} />
-          <span style={{ height: '68%' }} />
-          <span style={{ height: '61%' }} />
-          <span style={{ height: '77%' }} />
-          <span style={{ height: '72%' }} />
-          <span style={{ height: '92%' }} />
-        </div>
-
-        <div className="panel-stat">
-          <div>
-            <b>Import / Export</b>
-            <small>Trade flow visibility</small>
-          </div>
-
-          <div>
-            <b>RFQ Demand</b>
-            <small>Buyer-driven signals</small>
-          </div>
-
-          <div>
-            <b>Price Trends</b>
-            <small>Historical context</small>
-          </div>
+        <div className="map-note">
+          <span>Western EU</span>
+          <strong>Drought risk +</strong>
+          <small>Seed supply watch</small>
         </div>
       </div>
     </section>
   )
 }
 
-function MarketOverview() {
+function TopNews() {
   return (
-    <section className="section" id="market">
-      <div className="section-title-row">
+    <section className="top-news-card">
+      <div className="card-section-head">
         <div>
-          <div className="kicker">SEED MARKET OVERVIEW</div>
-          <h2>One market. Multiple signals.</h2>
-          <p>
-            Structured views of indicative pricing, demand, trading activity
-            and market movement.
-          </p>
+          <span className="kicker">Daily intelligence</span>
+          <h2>Top news</h2>
         </div>
-
-        <div className="demo-badge">
-          ALL VALUES SHOWN AS DEMO DATA
-        </div>
+        <a href="#research">View all →</a>
       </div>
 
-      <div className="market-grid">
-        {marketCards.map((item) => (
-          <article className="market-card" key={item.name}>
-            <div className="card-top">
-              <span className="seed-icon">{item.code}</span>
-              <span className="mini-tag">DEMO</span>
+      <div className="news-list">
+        {news.map((item, index) => (
+          <article className="news-item" key={item.title}>
+            <div className={`news-thumb news-thumb-${index + 1}`}>
+              <span>{item.tag}</span>
             </div>
 
-            <h3>{item.name}</h3>
-
-            <div className="price">DEMO DATA</div>
-
-            <div className="metric-row">
-              <span>30-day trend</span>
-              <b>—</b>
+            <div className="news-copy">
+              <span className="news-tag">{item.tag}</span>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+              <div className="news-meta">
+                {item.date} · {item.region}
+              </div>
             </div>
 
-            <div className="metric-row">
-              <span>Buyer demand</span>
-              <b>—</b>
-            </div>
-
-            <div className="metric-row">
-              <span>Market activity</span>
-              <b>—</b>
-            </div>
+            <div className="news-arrow">→</div>
           </article>
         ))}
       </div>
@@ -232,52 +251,249 @@ function MarketOverview() {
   )
 }
 
-function RFQSection() {
+function MarketSignal() {
+  const bars = useMemo(() => [34, 48, 41, 63, 56, 72, 68, 83], [])
+
   return (
-    <section className="section soft" id="rfq">
-      <div className="section-title-row">
+    <section className="market-signal-card" id="market">
+      <div className="signal-top">
         <div>
-          <div className="kicker">ACTIVE BUYING REQUESTS</div>
-          <h2>What buyers are looking for</h2>
-          <p>
-            Demand-first trading: professional buyers publish requirements
-            and suppliers respond with relevant offers.
-          </p>
+          <span className="panel-label">MARKET SIGNAL</span>
+          <p>European Seed Market</p>
+        </div>
+        <span className="live-badge">DEMO DATA</span>
+      </div>
+
+      <div className="signal-summary">
+        <div>
+          <small>MARKET ACTIVITY</small>
+          <strong>{marketData.activity}</strong>
+          <span>vs. previous 30 days</span>
+        </div>
+        <div>
+          <small>BUYER DEMAND</small>
+          <strong>↑ {marketData.buyerDemand}</strong>
+          <span>Across key species</span>
+        </div>
+        <div>
+          <small>SUPPLY OUTLOOK</small>
+          <strong className="sand-text">{marketData.supplyOutlook}</strong>
+          <span>For next season</span>
+        </div>
+      </div>
+
+      <div className="signal-chart-title">
+        <span>SEED PRICE INDEX</span>
+        <small>Illustrative</small>
+      </div>
+
+      <div className="signal-chart">
+        {bars.map((height, i) => (
+          <span key={i} style={{ height: `${height}%` }} />
+        ))}
+      </div>
+
+      <div className="price-row">
+        <div>
+          <span>Rapeseed</span>
+          <strong>€1,820/t</strong>
+          <em>+4.2%</em>
+        </div>
+        <div>
+          <span>Wheat</span>
+          <strong>€420/t</strong>
+          <em>+2.1%</em>
+        </div>
+        <div>
+          <span>Pea</span>
+          <strong>€980/t</strong>
+          <em className="negative">-1.3%</em>
+        </div>
+        <div>
+          <span>Flax</span>
+          <strong>€1,240/t</strong>
+          <em>+3.8%</em>
+        </div>
+      </div>
+
+      <div className="signal-footer">
+        <div>
+          <small>Import / Export</small>
+          <strong>{marketData.importExport}</strong>
+          <span>Trade flow visibility</span>
+        </div>
+        <div>
+          <small>RFQ Demand</small>
+          <strong>{marketData.rfqDemand}</strong>
+          <span>Buyer-driven signals</span>
+        </div>
+        <div>
+          <small>Price Trends</small>
+          <strong>Mixed</strong>
+          <span>By crop and region</span>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function WeatherRisk() {
+  return (
+    <section className="info-card weather-card" id="intelligence">
+      <div className="card-section-head">
+        <div>
+          <span className="kicker">Weather intelligence</span>
+          <h2>Weather & Seed Risk</h2>
+        </div>
+        <a href="#market">View map →</a>
+      </div>
+
+      <div className="weather-content">
+        <div className="risk-map">
+          <div className="risk-zone high"></div>
+          <div className="risk-zone medium"></div>
+          <div className="risk-zone low"></div>
         </div>
 
-        <a href="#join" className="text-link">
-          Post a buying request →
-        </a>
+        <div>
+          <div className="risk-label">High risk</div>
+          <h3>Drought conditions expanding in Western Europe</h3>
+          <p>
+            Potential impact on winter wheat, rapeseed and legume seed
+            multiplication areas.
+          </p>
+          <small>Updated: 4 Sep 2026 · Demo analysis</small>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function SeedProductionMonitor() {
+  return (
+    <section className="info-card production-card">
+      <div className="card-section-head">
+        <div>
+          <span className="kicker">Seed first</span>
+          <h2>Seed Production Monitor</h2>
+        </div>
+        <a href="#market">View all →</a>
+      </div>
+
+      <div className="production-table">
+        <div className="production-head">
+          <span>Crop</span>
+          <span>Certified area</span>
+          <span>YoY</span>
+        </div>
+
+        {productionRows.map((row) => (
+          <div className="production-row" key={row.crop}>
+            <span>{row.crop}</span>
+            <strong>{row.area}</strong>
+            <em className={row.yoy.startsWith("-") ? "negative" : ""}>
+              {row.yoy}
+            </em>
+          </div>
+        ))}
+      </div>
+
+      <p className="disclaimer">
+        Demo values for interface development. Real official and verified seed
+        production data will replace them.
+      </p>
+    </section>
+  )
+}
+
+function CropFocus() {
+  return (
+    <section className="info-card crop-focus">
+      <div className="card-section-head">
+        <div>
+          <span className="kicker">Crop intelligence</span>
+          <h2>Focus: Winter Wheat</h2>
+        </div>
+        <a href="#research">View analysis →</a>
+      </div>
+
+      <div className="crop-feature">
+        <div className="crop-visual">
+          <span>WINTER WHEAT</span>
+        </div>
+
+        <div>
+          <span className="mini-tag">SEED SUPPLY OUTLOOK 2027</span>
+          <h3>Multiplication area, weather risk and expected availability</h3>
+          <p>
+            Western Europe is currently showing elevated drought risk during
+            critical crop development stages. SeedTrade will combine regional
+            phenology, declared multiplication areas, weather conditions and
+            certification data to estimate future certified seed availability.
+          </p>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function BuyingRequests() {
+  const requests = [
+    {
+      crop: "Winter wheat",
+      qty: "500 t",
+      origin: "Central Europe",
+      destination: "Germany",
+    },
+    {
+      crop: "Flax seed",
+      qty: "300 t",
+      origin: "EU",
+      destination: "Benelux",
+    },
+    {
+      crop: "Red clover",
+      qty: "120 t",
+      origin: "EU",
+      destination: "Northern Europe",
+    },
+  ]
+
+  return (
+    <section className="section soft" id="requests">
+      <div className="section-title-row">
+        <div>
+          <span className="kicker">B2B demand</span>
+          <h2>Active buying requests</h2>
+          <p>
+            Buyer demand is one of the core signals used to understand where
+            the seed market is tightening or expanding.
+          </p>
+        </div>
+        <span className="demo-badge">DEMO DATA</span>
       </div>
 
       <div className="rfq-grid">
-        {rfqs.map((rfq) => (
-          <article className="rfq-card" key={rfq.crop}>
+        {requests.map((request) => (
+          <article className="rfq-card" key={request.crop}>
             <div className="rfq-head">
-              <span className="demo-badge small">DEMO RFQ</span>
-              <span className="status">OPEN</span>
+              <span className="status">ACTIVE</span>
+              <span className="mini-tag">RFQ</span>
             </div>
-
-            <h3>{rfq.crop}</h3>
-            <div className="rfq-qty">{rfq.qty}</div>
-
+            <h3>{request.crop}</h3>
+            <div className="rfq-qty">{request.qty}</div>
             <dl>
               <div>
-                <dt>Specification</dt>
-                <dd>{rfq.spec}</dd>
+                <dt>Origin</dt>
+                <dd>{request.origin}</dd>
               </div>
               <div>
                 <dt>Destination</dt>
-                <dd>{rfq.destination}</dd>
-              </div>
-              <div>
-                <dt>Delivery</dt>
-                <dd>{rfq.delivery}</dd>
+                <dd>{request.destination}</dd>
               </div>
             </dl>
-
-            <a href="#join" className="btn dark full">
-              Submit offer
+            <a href="#join" className="text-link">
+              View request →
             </a>
           </article>
         ))}
@@ -286,146 +502,36 @@ function RFQSection() {
   )
 }
 
-function Intelligence() {
-  const items = [
-    ['Import / Export', 'Trade flows across markets'],
-    ['Trade Volumes', 'Track activity by product'],
-    ['Price Trends', 'See movement over time'],
-    ['Active Buyers', 'Identify market demand'],
-    ['Active Suppliers', 'Map potential supply'],
-    ['Market Signals', 'Spot emerging opportunities'],
-  ]
-
+function ResearchPartnerInsights() {
   return (
-    <section className="section dark-section" id="intelligence">
-      <div className="intelligence-grid">
+    <section className="section" id="research">
+      <div className="section-title-row">
         <div>
-          <div className="kicker light">TRADE INTELLIGENCE</div>
-
-          <h2>Understand the seed market</h2>
-
+          <span className="kicker">Expert content</span>
+          <h2>Research & Partner Insights</h2>
           <p>
-            Turn fragmented seed market information into actionable
-            intelligence. The platform is being designed to combine trade
-            activity, market pricing, RFQs and company-level signals.
+            Scientific, agronomic and market-oriented content focused on seed
+            production, quality, supply and future availability.
           </p>
-
-          <div className="intelligence-list">
-            {items.map(([title, description]) => (
-              <div key={title}>
-                <b>{title}</b>
-                <span>{description}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="data-board">
-          <div className="board-head">
-            <span>EUROPEAN TRADE NETWORK</span>
-            <span>DEMO DATA</span>
-          </div>
-
-          <div className="map-shape">
-            <span className="node n1" />
-            <span className="node n2" />
-            <span className="node n3" />
-            <span className="node n4" />
-            <span className="node n5" />
-
-            <div className="route r1" />
-            <div className="route r2" />
-            <div className="route r3" />
-          </div>
-
-          <div className="board-footer">
-            <div>
-              <b>BUYERS</b>
-              <span>Company discovery</span>
-            </div>
-            <div>
-              <b>SUPPLIERS</b>
-              <span>Supply mapping</span>
-            </div>
-            <div>
-              <b>TRADE</b>
-              <span>Import / export</span>
-            </div>
-          </div>
         </div>
       </div>
-    </section>
-  )
-}
 
-function HowItWorks() {
-  const steps = [
-    ['01', 'DISCOVER', 'Explore seed markets, prices, demand and trade activity.'],
-    ['02', 'CONNECT', 'Find professional buyers and suppliers.'],
-    ['03', 'TRADE', 'Request quotations, submit offers and develop new trading relationships.'],
-  ]
-
-  return (
-    <section className="section">
-      <div className="center-title">
-        <div className="kicker">HOW IT WORKS</div>
-        <h2>From market signal to trading opportunity</h2>
-      </div>
-
-      <div className="steps">
-        {steps.map(([number, title, description]) => (
-          <div className="step" key={number}>
-            <span>{number}</span>
-            <h3>{title}</h3>
-            <p>{description}</p>
-          </div>
+      <div className="research-grid">
+        {researchItems.map((item) => (
+          <article className="research-card" key={item.title}>
+            <span className="research-type">{item.type}</span>
+            <h3>{item.title}</h3>
+            <p>{item.source}</p>
+            <a href="#research" className="text-link">
+              Read article →
+            </a>
+          </article>
         ))}
       </div>
 
-      <div className="audience-grid">
-        <div className="audience-card buyer">
-          <span>FOR BUYERS</span>
-          <h3>Find the seeds you need</h3>
-          <p>
-            Publish your buying requirement and receive offers from
-            relevant suppliers.
-          </p>
-          <a className="btn primary" href="#join">
-            Post buying request
-          </a>
-        </div>
-
-        <div className="audience-card supplier">
-          <span>FOR SUPPLIERS</span>
-          <h3>Find real market demand</h3>
-          <p>
-            Discover what professional buyers are looking for and submit
-            your offer directly to relevant opportunities.
-          </p>
-          <a className="btn dark" href="#rfq">
-            View buying requests
-          </a>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-function Benefits() {
-  return (
-    <section className="section soft">
-      <div className="center-title">
-        <div className="kicker">PLATFORM BENEFITS</div>
-        <h2>Built for professional seed trade</h2>
-      </div>
-
-      <div className="benefit-grid">
-        {benefits.map((benefit, index) => (
-          <div className="benefit" key={benefit}>
-            <span>{String(index + 1).padStart(2, '0')}</span>
-            {benefit}
-          </div>
-        ))}
+      <div className="partner-note">
+        Partner content must remain expert-led and evidence-based. Commercial
+        promotion should never replace analytical or scientific value.
       </div>
     </section>
   )
@@ -434,64 +540,42 @@ function Benefits() {
 function JoinForm() {
   const [submitted, setSubmitted] = useState(false)
 
-  function submit(event) {
-    event.preventDefault()
+  const onSubmit = (e) => {
+    e.preventDefault()
     setSubmitted(true)
   }
 
   return (
     <section className="join-section" id="join">
       <div>
-        <div className="kicker light">COMING SOON</div>
-        <h2>Join SeedTrade.eu</h2>
-
+        <span className="kicker light">SeedTrade.eu</span>
+        <h2>Join the European seed market network</h2>
         <p>
-          SeedTrade.eu is currently under development. Professional seed
-          companies, buyers, suppliers and producers can register their
-          interest.
+          Register your interest as a buyer, supplier, seed producer or market
+          participant.
         </p>
-
-        <div className="note">
-          This MVP form is visual only. No information is currently stored.
-        </div>
       </div>
 
-      <form className="join-form" onSubmit={submit}>
+      <form className="join-form" onSubmit={onSubmit}>
         <input required placeholder="Company name" />
         <input required type="email" placeholder="Business email" />
-
-        <select required defaultValue="">
-          <option value="" disabled>Country</option>
-          <option>Lithuania</option>
-          <option>Latvia</option>
-          <option>Estonia</option>
-          <option>Poland</option>
-          <option>Germany</option>
-          <option>France</option>
-          <option>Netherlands</option>
-          <option>Belgium</option>
-          <option>Italy</option>
-          <option>Other</option>
-        </select>
-
-        <select required defaultValue="">
-          <option value="" disabled>Company type</option>
+        <select defaultValue="">
+          <option value="" disabled>
+            Select role
+          </option>
           <option>Buyer</option>
           <option>Supplier</option>
-          <option>Producer</option>
-          <option>Distributor</option>
-          <option>Trader</option>
-          <option>Processor</option>
-          <option>Other</option>
+          <option>Seed producer</option>
+          <option>Research / Partner</option>
         </select>
-
-        <button className="btn light full" type="submit">
-          {submitted ? 'Interest registered (demo)' : 'Join SeedTrade.eu'}
+        <input placeholder="Country" />
+        <button className="btn primary full" type="submit">
+          Register interest
         </button>
 
         {submitted && (
           <p className="form-msg">
-            Demo only — no data was sent or stored.
+            Demo form submitted. Backend registration will be connected later.
           </p>
         )}
       </form>
@@ -501,27 +585,24 @@ function JoinForm() {
 
 function Footer() {
   return (
-    <footer>
+    <footer id="about">
       <div>
-        <Logo footer />
-
-        <p>European Seed Market Intelligence &amp; Trading Platform</p>
-        <small>SeedTrade.eu is a project developed by LAGRENAS.</small>
+        <Logo />
+        <p>European Seed Trading & Market Intelligence</p>
+        <small>Independent and neutral seed market platform.</small>
       </div>
 
       <div className="footer-links">
         <div>
           <b>Platform</b>
-          <a href="#market">Market Intelligence</a>
-          <a href="#rfq">Buying Requests</a>
-          <a href="#join">Sell Seeds</a>
+          <a href="#market">Market</a>
+          <a href="#requests">Buying Requests</a>
+          <a href="#intelligence">Intelligence</a>
         </div>
-
         <div>
-          <b>Company</b>
-          <a href="#top">About</a>
-          <a href="#join">Contact</a>
-          <a href="#top">Privacy Policy</a>
+          <b>Content</b>
+          <a href="#research">Research</a>
+          <a href="#research">Partner Insights</a>
         </div>
       </div>
     </footer>
@@ -533,13 +614,21 @@ export default function App() {
     <>
       <Header />
 
-      <main>
-        <Hero />
-        <MarketOverview />
-        <RFQSection />
-        <Intelligence />
-        <HowItWorks />
-        <Benefits />
+      <main id="top">
+        <section className="dashboard-hero">
+          <HeroIntro />
+          <TopNews />
+          <MarketSignal />
+        </section>
+
+        <section className="dashboard-row">
+          <WeatherRisk />
+          <SeedProductionMonitor />
+          <CropFocus />
+        </section>
+
+        <BuyingRequests />
+        <ResearchPartnerInsights />
         <JoinForm />
       </main>
 
