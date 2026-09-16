@@ -34,8 +34,8 @@
     },
     {
       "path": "MASTER_STATE.json",
-      "bytes": 9185,
-      "sha256": "dbf41929507bca8c288c73d4794c8d2f3afd58f3d813d15aa42d3a3e80fdba4b",
+      "bytes": 9541,
+      "sha256": "31036f8d834ef6bbfdb5181a5f3e9088baa440e9b092760343aa3356fef0d3b8",
       "status": "REBUILT"
     },
     {
@@ -2167,6 +2167,18 @@
       "bytes": 2195,
       "sha256": "c95be401346a9d60c3d20b44b138887c5d8597c419e0e0d1dccc473983a9b591",
       "status": "RECOVERED"
+    },
+    {
+      "path": "docs/master/BASELINE_TEST_RESULTS.json",
+      "bytes": 11295,
+      "sha256": "90628eddb3061e7485a16e671389c2e299df60d6032b37c69fa9d47a0e00970a",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/master/DECISIONS.md",
+      "bytes": 713,
+      "sha256": "2598586f37d659d02e68af2a761a35b84ae79e1a801da9cbe91a2a72f9af1f4e",
+      "status": "REBUILT"
     },
     {
       "path": "docs/recovery/CONTROL_REVIEW.md",

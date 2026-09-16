@@ -147,7 +147,7 @@
     "BACKUP_WARNING: independent persistent Plan B destination is not connected or verified; C:/SeedTrade persistence is unknown and must not be assumed."
   ],
   "deployment": "NOT_AUTHORIZED_NOT_PERFORMED",
-  "updated_at": "2026-09-16T07:01:25.219785+00:00",
+  "updated_at": "2026-09-16T11:43:29.474799+00:00",
   "github_checkpoint": {
     "status": "PASS",
     "repository": "Gate-V-5/seedtrade-eu",
@@ -174,5 +174,15 @@
     "durable_destination": null,
     "original_source_modified": false
   },
-  "development_gate": "STOP: Master Build requires Plan A and Plan B PASS"
+  "development_gate": "OPEN: user accepts Plan A while Plan B remains PENDING / BACKUP_WARNING",
+  "canonical_workspace": "work/master-build",
+  "recovery_checkpoint": {
+    "branch": "backup/recovery-v1-20260916",
+    "head": "2710fa5a188fc141ea61a4d21c5af9f762def83b"
+  },
+  "master_build": {
+    "stage": "M1_CANONICAL_BASELINE",
+    "recovered_payload_files": 387,
+    "all_recovery_payload_bytes_verified": true
+  }
 }
