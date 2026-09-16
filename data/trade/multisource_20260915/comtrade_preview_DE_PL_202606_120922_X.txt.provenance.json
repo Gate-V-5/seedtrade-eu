@@ -1,0 +1,8 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=276&partnerCode=616&period=202606&cmdCode=120922&flowCode=X&maxRecords=5",
+  "retrieved_at": "2026-09-14T19:36:40.0613756Z",
+  "http_status": 200,
+  "sha256": "9729BDFC4C7BAF0323BCDD8CAEF284D5B2ED9D0785FB41573DBAAEC6C1CBDDE4",
+  "file": "data\\trade\\multisource_20260915\\comtrade_preview_DE_PL_202606_120922_X.txt",
+  "content_type": ""
+}

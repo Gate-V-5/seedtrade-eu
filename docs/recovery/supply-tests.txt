@@ -1,0 +1,19 @@
+test_presented_area_and_year_separation (test_supply_v01.ProvenanceTests.test_presented_area_and_year_separation) ... ok
+test_source_metadata_preserved (test_supply_v01.ProvenanceTests.test_source_metadata_preserved) ... ok
+test_invalid_provisional_type_rejected (test_supply_v01.ProvisionalValidationTests.test_invalid_provisional_type_rejected) ... ok
+test_provisional_needs_valid_as_of (test_supply_v01.ProvisionalValidationTests.test_provisional_needs_valid_as_of) ... ok
+test_unknown_status_not_final (test_supply_v01.ProvisionalValidationTests.test_unknown_status_not_final) ... ok
+test_area_not_mass (test_supply_v01.SupplyTests.test_area_not_mass) ... ok
+test_assessment_reconciliation (test_supply_v01.SupplyTests.test_assessment_reconciliation) ... ok
+test_bad_values_rejected (test_supply_v01.SupplyTests.test_bad_values_rejected) ... ok
+test_duplicates_rejected (test_supply_v01.SupplyTests.test_duplicates_rejected) ... ok
+test_exact_mass_conversion_and_no_inventory (test_supply_v01.SupplyTests.test_exact_mass_conversion_and_no_inventory) ... ok
+test_inputs_unchanged (test_supply_v01.SupplyTests.test_inputs_unchanged) ... ok
+test_missing_distinct_from_zero (test_supply_v01.SupplyTests.test_missing_distinct_from_zero) ... ok
+test_period_and_country_gaps (test_supply_v01.SupplyTests.test_period_and_country_gaps) ... ok
+test_unit_mismatch (test_supply_v01.SupplyTests.test_unit_mismatch) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.004s
+
+OK

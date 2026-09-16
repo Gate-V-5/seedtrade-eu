@@ -1,0 +1,285 @@
+{
+  "version": "0.1",
+  "reference_year": 2025,
+  "observations": [
+    {
+      "country": "FR",
+      "crop_group": "red_clover",
+      "species": "Tr\u00e8fle violet",
+      "year": 2025,
+      "marketing_year": null,
+      "metric": "presented_seed_production_area",
+      "value": "3286",
+      "unit": "ha",
+      "tonnes": null,
+      "status": "OBSERVED",
+      "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "source_locator": 3,
+      "provisional": true,
+      "as_of": "2025-08-26",
+      "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "source_sheet": null,
+      "use_category": "forage",
+      "source_date": null,
+      "limitations": [
+        "Provisional presented hectares, not harvested or approved final hectares.",
+        "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+        "White clover and flax absent from inspected chart, not zero.",
+        "Historical chart points were not digitized or guessed.",
+        "Reuse terms remain unqualified for publication."
+      ],
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "country": "FR",
+      "crop_group": "vetch",
+      "species": "Vesce commune",
+      "year": 2025,
+      "marketing_year": null,
+      "metric": "presented_seed_production_area",
+      "value": "2127",
+      "unit": "ha",
+      "tonnes": null,
+      "status": "OBSERVED",
+      "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "source_locator": 3,
+      "provisional": true,
+      "as_of": "2025-08-26",
+      "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "source_sheet": null,
+      "use_category": "forage",
+      "source_date": null,
+      "limitations": [
+        "Provisional presented hectares, not harvested or approved final hectares.",
+        "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+        "White clover and flax absent from inspected chart, not zero.",
+        "Historical chart points were not digitized or guessed.",
+        "Reuse terms remain unqualified for publication."
+      ],
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "country": "FR",
+      "crop_group": "ryegrass",
+      "species": "Ray-grass anglais",
+      "year": 2025,
+      "marketing_year": null,
+      "metric": "presented_seed_production_area",
+      "value": "538",
+      "unit": "ha",
+      "tonnes": null,
+      "status": "OBSERVED",
+      "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "source_locator": 3,
+      "provisional": true,
+      "as_of": "2025-08-26",
+      "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "source_sheet": null,
+      "use_category": "forage",
+      "source_date": null,
+      "limitations": [
+        "Provisional presented hectares, not harvested or approved final hectares.",
+        "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+        "White clover and flax absent from inspected chart, not zero.",
+        "Historical chart points were not digitized or guessed.",
+        "Reuse terms remain unqualified for publication."
+      ],
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "country": "FR",
+      "crop_group": "ryegrass",
+      "species": "Ray-grass d'Italie",
+      "year": 2025,
+      "marketing_year": null,
+      "metric": "presented_seed_production_area",
+      "value": "2558",
+      "unit": "ha",
+      "tonnes": null,
+      "status": "OBSERVED",
+      "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "source_locator": 3,
+      "provisional": true,
+      "as_of": "2025-08-26",
+      "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "source_sheet": null,
+      "use_category": "forage",
+      "source_date": null,
+      "limitations": [
+        "Provisional presented hectares, not harvested or approved final hectares.",
+        "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+        "White clover and flax absent from inspected chart, not zero.",
+        "Historical chart points were not digitized or guessed.",
+        "Reuse terms remain unqualified for publication."
+      ],
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "country": "FR",
+      "crop_group": "ryegrass",
+      "species": "Ray-grass hybride",
+      "year": 2025,
+      "marketing_year": null,
+      "metric": "presented_seed_production_area",
+      "value": "1102",
+      "unit": "ha",
+      "tonnes": null,
+      "status": "OBSERVED",
+      "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "source_locator": 3,
+      "provisional": true,
+      "as_of": "2025-08-26",
+      "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "source_sheet": null,
+      "use_category": "forage",
+      "source_date": null,
+      "limitations": [
+        "Provisional presented hectares, not harvested or approved final hectares.",
+        "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+        "White clover and flax absent from inspected chart, not zero.",
+        "Historical chart points were not digitized or guessed.",
+        "Reuse terms remain unqualified for publication."
+      ],
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "country": "FR",
+      "crop_group": "ryegrass",
+      "species": "RGA gazon",
+      "year": 2025,
+      "marketing_year": null,
+      "metric": "presented_seed_production_area",
+      "value": "830",
+      "unit": "ha",
+      "tonnes": null,
+      "status": "OBSERVED",
+      "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "source_locator": 3,
+      "provisional": true,
+      "as_of": "2025-08-26",
+      "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "source_sheet": null,
+      "use_category": "turf",
+      "source_date": null,
+      "limitations": [
+        "Provisional presented hectares, not harvested or approved final hectares.",
+        "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+        "White clover and flax absent from inspected chart, not zero.",
+        "Historical chart points were not digitized or guessed.",
+        "Reuse terms remain unqualified for publication."
+      ],
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    }
+  ],
+  "coverage": [
+    {
+      "country": "FR",
+      "crop_group": "red_clover",
+      "status": "HAS_OBSERVATIONS_NOT_FULL_COVERAGE"
+    },
+    {
+      "country": "FR",
+      "crop_group": "white_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "FR",
+      "crop_group": "ryegrass",
+      "status": "HAS_OBSERVATIONS_NOT_FULL_COVERAGE"
+    },
+    {
+      "country": "FR",
+      "crop_group": "vetch",
+      "status": "HAS_OBSERVATIONS_NOT_FULL_COVERAGE"
+    },
+    {
+      "country": "FR",
+      "crop_group": "flax",
+      "status": "MISSING"
+    },
+    {
+      "country": "DE",
+      "crop_group": "red_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "DE",
+      "crop_group": "white_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "DE",
+      "crop_group": "ryegrass",
+      "status": "MISSING"
+    },
+    {
+      "country": "DE",
+      "crop_group": "vetch",
+      "status": "MISSING"
+    },
+    {
+      "country": "DE",
+      "crop_group": "flax",
+      "status": "MISSING"
+    },
+    {
+      "country": "PL",
+      "crop_group": "red_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "PL",
+      "crop_group": "white_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "PL",
+      "crop_group": "ryegrass",
+      "status": "MISSING"
+    },
+    {
+      "country": "PL",
+      "crop_group": "vetch",
+      "status": "MISSING"
+    },
+    {
+      "country": "PL",
+      "crop_group": "flax",
+      "status": "MISSING"
+    },
+    {
+      "country": "IT",
+      "crop_group": "red_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "IT",
+      "crop_group": "white_clover",
+      "status": "MISSING"
+    },
+    {
+      "country": "IT",
+      "crop_group": "ryegrass",
+      "status": "MISSING"
+    },
+    {
+      "country": "IT",
+      "crop_group": "vetch",
+      "status": "MISSING"
+    },
+    {
+      "country": "IT",
+      "crop_group": "flax",
+      "status": "MISSING"
+    }
+  ],
+  "available_supply": null,
+  "cross_country_supply_total": null,
+  "publication_status": "LOCAL_RESEARCH_ONLY"
+}

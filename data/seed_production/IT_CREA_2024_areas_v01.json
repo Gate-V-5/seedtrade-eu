@@ -1,0 +1,113 @@
+{
+  "country": "IT",
+  "reference_year": 2024,
+  "publisher": "CREA",
+  "metric": "officially_controlled_seed_production_area",
+  "source_file": "data\\seed_production\\IT_CREA_history_source.xlsx",
+  "source_sha256": "681de521b8bea219590b68bde0ca824a87532f53d89147dae2d8c6b6bb2a50e6",
+  "source_sheet": "Storico_ha",
+  "source_url": "https://www.crea.gov.it/documents/63509/2309351/Sup_storico-1993-2025-07-08-2026.xlsx/b0cd36fe-d3c0-a331-3503-8df4b7fcefe5?t=1786110698400",
+  "records": [
+    {
+      "source_species": "LINO TESSILE E LINO OLEAGINOSO",
+      "crop_group": "flax",
+      "value": "1.93",
+      "unit": "ha",
+      "source_cell": "AG43",
+      "status": "OBSERVED",
+      "available_supply": null
+    },
+    {
+      "source_species": "LOGLIO D'ITALIA (*)",
+      "crop_group": "ryegrass",
+      "value": "3913.77",
+      "unit": "ha",
+      "source_cell": "AG44",
+      "status": "OBSERVED",
+      "available_supply": null
+    },
+    {
+      "source_species": "LOGLIO IBRIDO",
+      "crop_group": "ryegrass",
+      "value": null,
+      "unit": "ha",
+      "source_cell": "AG45",
+      "status": "SOURCE_BLANK",
+      "available_supply": null
+    },
+    {
+      "source_species": "LOGLIO PERENNE O LOIETTO INGLESE",
+      "crop_group": "ryegrass",
+      "value": null,
+      "unit": "ha",
+      "source_cell": "AG46",
+      "status": "SOURCE_BLANK",
+      "available_supply": null
+    },
+    {
+      "source_species": "LOGLIO RIGIDO",
+      "crop_group": "ryegrass",
+      "value": null,
+      "unit": "ha",
+      "source_cell": "AG47",
+      "status": "SOURCE_BLANK",
+      "available_supply": null
+    },
+    {
+      "source_species": "TRIFOGLIO BIANCO",
+      "crop_group": "white_clover",
+      "value": "2.66",
+      "unit": "ha",
+      "source_cell": "AG72",
+      "status": "OBSERVED",
+      "available_supply": null
+    },
+    {
+      "source_species": "TRIFOGLIO PRATENSE",
+      "crop_group": "red_clover",
+      "value": "180.52",
+      "unit": "ha",
+      "source_cell": "AG76",
+      "status": "OBSERVED",
+      "available_supply": null
+    },
+    {
+      "source_species": "VECCIA COMUNE",
+      "crop_group": "vetch",
+      "value": "4767.47",
+      "unit": "ha",
+      "source_cell": "AG79",
+      "status": "OBSERVED",
+      "available_supply": null
+    },
+    {
+      "source_species": "VECCIA PANNONICA",
+      "crop_group": "vetch",
+      "value": null,
+      "unit": "ha",
+      "source_cell": "AG80",
+      "status": "SOURCE_BLANK",
+      "available_supply": null
+    },
+    {
+      "source_species": "VECCIA VELLUTATA E DI NARBONNE",
+      "crop_group": "vetch",
+      "value": "37.38",
+      "unit": "ha",
+      "source_cell": "AG81",
+      "status": "OBSERVED",
+      "available_supply": null
+    }
+  ],
+  "limitations": [
+    "Blanks retained as missing; no zero inference from percentage formulas.",
+    "Combined flax and combined vetch categories cannot be split.",
+    "Italian ryegrass area includes second-cut production (source A83); not necessarily unique physical hectares.",
+    "Area is not mass or available inventory.",
+    "Publication reuse terms unqualified."
+  ],
+  "source_notes": {
+    "A83": "(*) Superficie controllata comprensiva di produzioni di secondo taglio",
+    "A84": "* domande di ispezioni in campo delle colture presentate"
+  }
+}

@@ -1,0 +1,381 @@
+SEEDTRADE — APPROVED WORK CYCLE
+Cycle: Multi-Source Trade Intelligence v0.1
+Approved until: September 15, 2026, 21:00 Europe/Vilnius  
+APPROVED. Start the new SeedTrade work cycle and continue autonomously until September 15, 2026 at 21:00 Lithuania time.
+Continue from the approved September 14 control review. Preserve the existing SeedTrade baseline, evidence requirements, audit trail and safety gates.
+The main objective of this cycle is to move SeedTrade from a Globalwits-only trade-data concept toward a multi-source, independently validated Trade Intelligence system.
+P0 — Preserve baseline and auditability
+Before development:
+- create a new cycle baseline;
+- preserve the current 328-file baseline and previous control reports;
+- maintain an exact inventory of files created, modified or deleted;
+- continue SHA256 baseline comparison because usable Git history is not currently available in C:\SeedTrade;
+- do not modify frozen classifier v0.7 or the verified boundary audit.
+Clearly separate:
+FACT / OBSERVED DATA / DERIVED RESULT / ASSUMPTION / UNKNOWN.
+P1 — Multi-Source Trade Data Source Register
+Build a structured source register for SeedTrade international trade intelligence.
+At minimum investigate:
+Primary/current source
+- Globalwits GTIS6.0
+Official validation sources
+- Eurostat international trade / COMEXT
+- UN Comtrade
+- ITC Trade Map
+- WTO trade statistics
+- World Bank WITS
+- UNCTAD trade data
+- CEPII BACI for historical/back-testing use
+Commercial alternatives / validation sources
+- S&P Global Trade Atlas
+- Trade Data Monitor
+- Descartes Datamyne
+- Panjiva
+- Volza
+- ImportGenius
+- other credible sources discovered during research.
+For every source document:
+- provider;
+- official/commercial status;
+- countries/reporters covered;
+- historical depth;
+- HS/CN granularity;
+- monthly/annual/etc. frequency;
+- publication lag;
+- import/export availability;
+- reporter and partner dimensions;
+- quantity;
+- net weight/gross weight definitions;
+- value;
+- currency;
+- supplementary units;
+- company/shipment-level information if available;
+- API;
+- CSV/XLSX/export capability;
+- authentication required;
+- practical SeedTrade usefulness;
+- known limitations.
+Do not assume functionality merely because a provider advertises it.
+P2 — Globalwits as one source, not the source of truth
+Continue using the manually authenticated Globalwits GTIS6.0 session where available.
+Do not request, copy, store or expose credentials.
+Globalwits should become one input into SeedTrade Trade Intelligence, not the sole source of truth.
+Preserve already observed Globalwits metadata and investigate additional definitions where possible.
+Do NOT assume daily customs data.
+SeedTrade should use a 7-day source refresh cycle:
+weekly source check
+→ detect newly published reporting period
+→ detect revisions to existing periods
+→ retrieve/process only required delta where technically possible
+→ preserve source vintage
+→ cross-validate
+→ recalculate affected Trade Signals.
+Do not repeatedly download full historical datasets when a delta/revision approach is sufficient.
+P3 — Eurostat COMEXT as primary EU validation reference
+Investigate and use official Eurostat international trade data as the primary independent validation source for EU trade.
+Determine the correct supported API/download mechanism.
+Build a source-neutral ingestion approach.
+Compare equivalent dimensions:
+reporter
++ partner
++ import/export flow
++ reporting month
++ CN8
++ value
++ weight/net mass
+Carefully verify definitions before comparing.
+Do not silently compare non-equivalent measures.
+P4 — Real Globalwits ↔ Eurostat validation
+Target KPI: at least 5 real comparable observations, preferably more if access and data permit.
+Use several combinations of:
+- reporter country;
+- partner country;
+- reporting month;
+- import/export flow;
+- CN8 code.
+Prioritise SeedTrade crops:
+- red clover;
+- white clover;
+- Italian/Westerwolds ryegrass;
+- perennial ryegrass;
+- vetch;
+- flax for sowing.
+Start with the currently verified CN2026 relationships:
+- 12092210
+- 12092280
+- 12092510
+- 12092590
+- 12092945
+- 12040010
+Do not assume this list is complete.
+For every validation observation retain:
+source
+reporter
+partner
+flow
+period
+CN/HS
+description
+weight
+value
+unit
+source publication/update date
+retrieval date
+source vintage
+comparison status.
+Calculate differences in quantity and value where definitions are comparable.
+For exploratory diagnostics, the following categories may be used:
+- <2% — very close;
+- 2–5% — small difference;
+- 5–10% — warning/investigate;
+- >10% — conflict/investigate.
+These are research thresholds, not final SeedTrade business rules.
+Investigate material differences instead of forcing agreement.
+P5 — UN Comtrade cross-validation
+Investigate official UN Comtrade access.
+Where CN8 cannot be compared directly, aggregate compatible CN8 observations to the appropriate HS6 level.
+Compare:
+Globalwits/Eurostat CN8
+→ HS6 aggregation
+→ UN Comtrade.
+Do not treat CN8 and HS6 values as equivalent without correct aggregation.
+Try to obtain several independent validation observations.
+If API authentication/key is required, add it to ACCESS_REQUIRED and continue other work.
+P6 — ITC Trade Map and additional sources
+Determine whether ITC Trade Map can provide useful independent monthly validation without manual authentication.
+Do the same for other credible sources.
+Do not create accounts.
+Do not start paid subscriptions.
+Maintain:
+ACCESS_REQUIRED
+containing:
+- provider;
+- reason access is needed;
+- URL;
+- expected data benefit;
+- whether free registration or paid subscription appears necessary.
+If manual authentication is needed, stop only that specific source task and continue other independent work.
+P7 — Crop Trade Basket v0.2
+Extend the existing Crop Trade Basket architecture.
+One SeedTrade crop may contain multiple CN/HS relationships.
+Preserve:
+DIRECT — sufficiently crop-specific for quantitative use.
+PROXY — includes target crop plus other species/products; useful for code-level market trends, but the complete volume must not be attributed to the target crop.
+CONTEXT — broader category useful as supporting market information.
+Each relationship should preserve:
+- nomenclature edition;
+- jurisdiction;
+- code;
+- description;
+- DIRECT/PROXY/CONTEXT;
+- evidence source;
+- confidence/evidence quality;
+- validity period;
+- known inclusions/exclusions.
+Never invent species shares for mixed codes.
+Preserve parent-child overlap protection to prevent double counting.
+P8 — Source-neutral Trade Observation schema
+Implement a canonical structure such as:
+TradeObservation
+containing at least:
+source
+source_dataset
+source_vintage
+retrieved_at
+reporter
+partner
+flow
+period
+product_code_system
+product_code_edition
+product_code
+product_description
+weight
+weight_type
+quantity
+supplementary_unit
+trade_value
+currency
+value_basis
+status
+provenance.
+Raw source observations must remain immutable and separate from derived analytics.
+P9 — Multi-Source Trade Validation Engine v0.1
+Build a local validation engine capable of comparing equivalent observations across multiple sources.
+Output statuses such as:
+MATCH
+ACCEPTABLE
+WARNING
+CONFLICT
+NOT_COMPARABLE
+The engine must explain why two observations are or are not comparable.
+Examples:
+- different CN/HS edition;
+- different product aggregation;
+- net vs gross weight;
+- different partner definition;
+- CIF vs FOB;
+- revision vintage;
+- missing month;
+- currency/value definition;
+- confidential trade;
+- unknown methodology.
+Do not hide discrepancies.
+P10 — Revision and 7-day Refresh Engine design
+Design a weekly refresh architecture.
+Every seven days:
+check source catalogue/metadata
+→ detect new period
+→ detect revised period
+→ identify affected observations
+→ ingest/process delta
+→ retain previous vintage
+→ cross-validate
+→ recalculate derived indicators
+→ record audit event.
+Never overwrite historical source values without preserving previous versions.
+Design first; automate only where technically appropriate and permitted.
+P11 — Trade Signal v0.1
+Using validated observations, implement or further design:
+- MoM;
+- YoY;
+- rolling 12-month change;
+- import trend;
+- export trend;
+- trade balance;
+- partner concentration;
+- unit-value movement;
+- revision status;
+- data completeness;
+- cross-source agreement.
+Keep:
+raw observations ≠ derived indicators ≠ Trade Signal.
+Do not invent arbitrary DIRECT/PROXY/CONTEXT numerical weights merely to produce a score.
+If evidence is insufficient, return UNKNOWN rather than manufacturing a result.
+P12 — First Supply + Trade integration prototype
+Evaluate how validated Trade Intelligence can complement the existing Supply Engine.
+Target conceptual chain:
+Seed production / certification evidence
++ Weather & Phenology
++ Trade Intelligence
++ RFQ Demand
++ Observed market prices
+→ Supply/Demand Pressure
+→ Price Pressure
+→ SeedTrade Indicative Price Range.
+Do not add hectares, certification quantities and trade tonnes as if they were directly equivalent.
+Do not implement a production Price Engine yet unless evidence unexpectedly becomes sufficient.
+A transparent intermediate Supply/Trade Pressure prototype is preferable to a false precise price.
+P13 — Data-source quality scoring
+Design a transparent source-quality framework considering:
+- official vs commercial source;
+- direct vs derived observation;
+- nomenclature specificity;
+- update lag;
+- revision status;
+- cross-source agreement;
+- missing fields;
+- DIRECT/PROXY/CONTEXT relationship;
+- historical consistency.
+Do not convert this into arbitrary pseudo-probabilities.
+The purpose is to expose uncertainty, not hide it.
+P14 — Tests
+Add unit/regression tests for all new local code.
+At minimum test:
+- multiple sources for one observation;
+- exact matches;
+- acceptable differences;
+- large conflicts;
+- CN8→HS6 aggregation;
+- parent-child double counting;
+- PROXY quantity restrictions;
+- missing values;
+- zero denominators;
+- revisions;
+- source vintages;
+- incompatible weight definitions;
+- incompatible periods;
+- incompatible nomenclature editions;
+- immutable raw observations;
+- unknown values remaining UNKNOWN.
+Existing passing tests must remain passing.
+Do not weaken tests to accommodate implementation.
+P15 — Research commercial alternatives
+Evaluate Globalwits against:
+- S&P Global Trade Atlas;
+- Trade Data Monitor;
+- Descartes Datamyne;
+- Panjiva;
+- Volza;
+- ImportGenius;
+- any stronger provider discovered.
+Produce a comparison focused specifically on SeedTrade:
+coverage
+× HS/CN detail
+× frequency
+× lag
+× quantity/value
+× company/shipment data
+× API/export
+× cost information if publicly available
+× suitability for EU seed trade
+× suitability for worldwide seed trade.
+Do not purchase anything.
+Authentication rules
+Globalwits is already manually authenticated when the session remains active.
+For any source requiring authentication:
+DO NOT request, enter, copy, store or expose credentials.
+Add the service to ACCESS_REQUIRED.
+Ask the user to authenticate manually.
+If authentication is not immediately available, continue all other work.
+Do not let one unavailable source block the entire cycle.
+Hard safety gates
+During this cycle:
+NO Git push.
+NO deployment.
+NO publication to SeedTrade.eu or any web environment.
+NO Gmail or other email-account access.
+NO account creation.
+NO paid purchases/subscriptions.
+NO sending messages or alerts.
+NO account-setting changes.
+NO credentials stored in project files.
+Local research, coding, testing, documentation and data-quality analysis inside the approved SeedTrade workspace are allowed.
+If an action may create an external side effect, stop that action and document it.
+Minimum success criteria for this cycle
+By September 15, 2026 21:00 Lithuania time, aim to deliver:
+1. Multi-Source Trade Source Register.
+2. At least 5 real Globalwits ↔ Eurostat comparable observations, if technically accessible.
+3. At least partial independent UN Comtrade validation.
+4. Crop Trade Basket v0.2.
+5. Source-neutral TradeObservation schema.
+6. Multi-Source Trade Validation Engine v0.1.
+7. 7-day refresh/revision architecture.
+8. Trade Signal v0.1 progress using only defensible indicators.
+9. Globalwits vs alternative-provider comparison.
+10. ACCESS_REQUIRED list for any sources needing manual user authentication.
+11. Full automated test results.
+12. Exact file inventory and baseline integrity check.
+Quality and defensible evidence are more important than artificially completing every target.
+End-of-cycle gate
+At September 15, 2026, 21:00 Europe/Vilnius, STOP ALL FURTHER DEVELOPMENT.
+Prepare a full control review containing:
+- work completed;
+- exact files created/modified/deleted;
+- baseline integrity;
+- tests and exact results;
+- sources investigated;
+- authentication/access requirements;
+- real Globalwits/Eurostat/Comtrade comparisons;
+- differences and explanations;
+- Crop Trade Basket changes;
+- Trade Validation Engine status;
+- weekly refresh architecture;
+- Trade Signal status;
+- Supply integration implications;
+- failures/errors;
+- unresolved questions;
+- risks;
+- recommended next cycle.
+Clearly distinguish facts, observations, derived results, assumptions and unknowns.
+After the report, remain stopped and wait for my explicit approval. Do not automatically begin another cycle.

@@ -1,0 +1,1768 @@
+{
+  "schema_version": "0.1",
+  "status": "IN_PROGRESS",
+  "records": [
+    {
+      "provider": "Globalwits GTIS6.0",
+      "investigation_status": "PRIOR_PARTIAL_AUDIT",
+      "evidence": [
+        "docs/control/GLOBALWITS_AUDIT_2026-09-14.md"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "Eurostat COMEXT",
+      "investigation_status": "OFFICIAL_API_DOCS_READ",
+      "evidence": [
+        "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started/comext-database"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "FACT",
+        "value": "Dedicated COMEXT dissemination API; filtered trade queries required",
+        "evidence_refs": [
+          "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started/comext-database"
+        ]
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "UN Comtrade",
+      "investigation_status": "PUBLIC_PREVIEW_OBSERVED_NOT_YET_VALIDATED",
+      "evidence": [
+        "https://uncomtrade.org/docs/un-comtrade-api/",
+        "data/trade/multisource_20260915/comtrade_preview_DE_PL_202606_120922_X.decoded.json.provenance.json"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "FACT",
+        "value": "Public preview and availability routes documented; other routes use subscription",
+        "evidence_refs": [
+          "https://uncomtrade.org/docs/un-comtrade-api/"
+        ]
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "OBSERVED DATA",
+        "value": "Scoped public preview succeeded without account/key; other routes not tested",
+        "evidence_refs": [
+          "data/trade/multisource_20260915/comtrade_preview_DE_PL_202606_120922_X.decoded.json.provenance.json"
+        ]
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "ITC Trade Map",
+      "investigation_status": "OFFICIAL_INDEXED_FAQ_READ_LIVE_EMPTY",
+      "evidence": [
+        "https://www.trademap.org/stFAQ.aspx?AspxAutoDetectCookieSupport=1"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "FACT",
+        "value": "Indexed FAQ says average3-4months, not measured current lag; live page empty in reader",
+        "evidence_refs": [
+          "https://www.trademap.org/stFAQ.aspx?AspxAutoDetectCookieSupport=1"
+        ]
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "FACT",
+        "value": "Indexed FAQ: table Excel/Word/text; some country exports disabled; no bulk UI; API only specific circumstances",
+        "evidence_refs": [
+          "https://www.trademap.org/stFAQ.aspx?AspxAutoDetectCookieSupport=1"
+        ]
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": "FAQ describes registration/subscriptions; newer beta indexed; current anonymous detailed access not tested",
+        "evidence_refs": [
+          "https://www.trademap.org/stFAQ.aspx?AspxAutoDetectCookieSupport=1"
+        ]
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "FACT",
+        "value": "Indexed FAQ cautions never sum direct and mirror flows; older nomenclature statements may be stale",
+        "evidence_refs": [
+          "https://www.trademap.org/stFAQ.aspx?AspxAutoDetectCookieSupport=1"
+        ]
+      },
+      "upstream_lineage": {
+        "status": "FACT",
+        "value": "Indexed official FAQ: annual HS2/4/6 mainly Comtrade; monthly/quarterly national/regional sources; mirror estimates distinguished",
+        "evidence_refs": [
+          "https://www.trademap.org/stFAQ.aspx?AspxAutoDetectCookieSupport=1"
+        ]
+      }
+    },
+    {
+      "provider": "WTO trade statistics",
+      "investigation_status": "OFFICIAL_DOCS_READ",
+      "evidence": [
+        "https://data.wto.org/dataset/montrdstat",
+        "https://apiportal.wto.org/"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "FACT",
+        "value": "Official WTO dissemination; monthly dashboard upstream TDM",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      },
+      "reporter_coverage": {
+        "status": "FACT",
+        "value": "Monthly dashboard: over120 economies, over200 partners",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      },
+      "historical_depth": {
+        "status": "FACT",
+        "value": "Monthly dashboard:2018-present, latest differs by economy",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      },
+      "granularity": {
+        "status": "FACT",
+        "value": "72 MTN subcategories for audited monthly dashboard; not CN8",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      },
+      "frequency": {
+        "status": "FACT",
+        "value": "Monthly/quarterly/YTD views; dashboard updated weekly, not daily reporting",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "FACT",
+        "value": "Timeseries API documented separately; applicability to monthly dashboard not verified",
+        "evidence_refs": [
+          "https://apiportal.wto.org/"
+        ]
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "FACT",
+        "value": "Timeseries API requires free sign-up/key; no account created",
+        "evidence_refs": [
+          "https://apiportal.wto.org/"
+        ]
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "DERIVED RESULT",
+        "value": "Broad market context; audited dashboard cannot resolve requested CN8 seed codes",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "FACT",
+        "value": "TDM sourcing government statistics; not independent of TDM",
+        "evidence_refs": [
+          "https://data.wto.org/dataset/montrdstat"
+        ]
+      }
+    },
+    {
+      "provider": "World Bank WITS",
+      "investigation_status": "OFFICIAL_DOCS_READ",
+      "evidence": [
+        "https://wits.worldbank.org/witsapiintro.aspx"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "FACT",
+        "value": "World Bank official dissemination with partner-source datasets",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "FACT",
+        "value": "Trade Stats documented start1988; dataset-specific coverage required",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "granularity": {
+        "status": "FACT",
+        "value": "Trade Stats uses sector/processing/SITC groups; TRAINS HS6 is tariff data",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "frequency": {
+        "status": "FACT",
+        "value": "Documented query uses year",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "FACT",
+        "value": "Trade Stats ISO3 reporter/partner; special codes for not-applicable dimensions",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "FACT",
+        "value": "Trade Stats and UNCTAD TRAINS REST, SDMX/URL; XML/JSON",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "DERIVED RESULT",
+        "value": "Context/tariff evidence; reviewed API not demonstrated monthly CN8 net-mass validation",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "limitations": {
+        "status": "FACT",
+        "value": "Whole database requests disallowed; at most two All dimensions; all reporters plus all partners disallowed",
+        "evidence_refs": [
+          "https://wits.worldbank.org/witsapiintro.aspx"
+        ]
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "UNCTAD trade data",
+      "investigation_status": "OFFICIAL_LANDING_FETCH_403",
+      "evidence": [
+        "https://unctadstat.unctad.org/EN/"
+      ],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "CEPII BACI",
+      "investigation_status": "PENDING",
+      "evidence": [],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "S&P Global Trade Atlas",
+      "investigation_status": "PUBLIC_PROVIDER_CLAIMS_REVIEWED_NOT_PRODUCT_TESTED",
+      "evidence": [
+        "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+      ],
+      "accessed_date": "2026-09-15",
+      "provider_status": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Commercial",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "reporter_coverage": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Official page inconsistent: headline101 monthly, FAQ144 monthly; annual about200+. Exact current country coverage unresolved.",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "historical_depth": {
+        "status": "PROVIDER_CLAIM",
+        "value": "20+ years advertised; country-specific start dates untested",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "granularity": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Most detailed national HS level advertised; six seed CN8 availability untested",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "frequency": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Monthly bilateral merchandise statistics; annual coverage also advertised",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Imports and exports",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Quantity and unit price advertised",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Merchandise value advertised",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "currency": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Currency converter advertised; basis not tested",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "PROVIDER_CLAIM",
+        "value": "API advertised, no authenticated documentation or request tested",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "exports": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Excel and scheduled extracts advertised",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "authentication": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Annual subscription advertised; no account or demo requested",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Country-count contradiction; net/gross definitions, exact lag, rights and CN8 coverage UNKNOWN",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      },
+      "upstream_lineage": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Official import/export statistics; not demonstrated independent measurement",
+        "evidence_refs": [
+          "https://www.spglobal.com/market-intelligence/en/solutions/products/maritime-global-trade-atlas"
+        ]
+      }
+    },
+    {
+      "provider": "Trade Data Monitor",
+      "investigation_status": "PUBLIC_PROVIDER_CLAIMS_REVIEWED_NOT_PRODUCT_TESTED",
+      "evidence": [
+        "https://tradedatamonitor.com/"
+      ],
+      "accessed_date": "2026-09-15",
+      "provider_status": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Commercial",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "reporter_coverage": {
+        "status": "PROVIDER_CLAIM",
+        "value": "120+ monthly and182+ annual reporting countries advertised",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Detailed harmonized tariff codes advertised; actual EU seed CN8 untested",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "frequency": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Monthly statistics; provider says updated on release",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "publication_lag": {
+        "status": "PROVIDER_CLAIM",
+        "value": "On-release update claim is not measured reporting-period lag",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "flows": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Imports and exports",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Weights advertised; net/gross definition UNKNOWN",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "trade_value": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Values advertised",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "currency": {
+        "status": "PROVIDER_CLAIM",
+        "value": "50+ currencies advertised; conversion method UNKNOWN",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Excel, Text and CSV advertised",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "PROVIDER_CLAIM",
+        "value": "API contract, exact history, seed-code coverage and reuse rights not verified",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      },
+      "upstream_lineage": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Customs agencies and national statistics institutes; also upstream of WTO monthly dashboard",
+        "evidence_refs": [
+          "https://tradedatamonitor.com/"
+        ]
+      }
+    },
+    {
+      "provider": "Descartes Datamyne",
+      "investigation_status": "PUBLIC_PROVIDER_CLAIMS_REVIEWED_NOT_PRODUCT_TESTED",
+      "evidence": [
+        "https://www.datamyne.com/"
+      ],
+      "accessed_date": "2026-09-15",
+      "provider_status": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Commercial",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      },
+      "reporter_coverage": {
+        "status": "PROVIDER_CLAIM",
+        "value": "190+ countries advertised, not verified uniform shipment coverage",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Daily refresh claim specifically US maritime imports; do not extend to EU statistics",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      },
+      "publication_lag": {
+        "status": "PROVIDER_CLAIM",
+        "value": "US bill-of-lading availability within24h of receipt from Customs advertised, not24h from shipment",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "PROVIDER_CLAIM",
+        "value": "US maritime bills of lading, company names and shipment fields advertised",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "PROVIDER_CLAIM",
+        "value": "API and coverage page opens returned reader internal errors; not proof of provider authentication requirement. EU CN8, net mass, exports, price and reuse UNKNOWN",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      },
+      "upstream_lineage": {
+        "status": "PROVIDER_CLAIM",
+        "value": "Official customs and government sources advertised",
+        "evidence_refs": [
+          "https://www.datamyne.com/"
+        ]
+      }
+    },
+    {
+      "provider": "Panjiva",
+      "investigation_status": "PENDING",
+      "evidence": [],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "Volza",
+      "investigation_status": "PENDING",
+      "evidence": [],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    },
+    {
+      "provider": "ImportGenius",
+      "investigation_status": "PENDING",
+      "evidence": [],
+      "accessed_date": "2026-09-14",
+      "provider_status": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_coverage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "historical_depth": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "granularity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "frequency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "publication_lag": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "flows": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "reporter_partner_definitions": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "quantity": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "weight_definition": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "trade_value": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "currency": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "supplementary_units": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "company_shipment_data": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "api": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "exports": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "authentication": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "licensing": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "cost": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "seedtrade_usefulness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "limitations": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      },
+      "upstream_lineage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_refs": []
+      }
+    }
+  ]
+}

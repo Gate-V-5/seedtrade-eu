@@ -1,0 +1,100 @@
+{
+  "country": "PL",
+  "reference_year": 2024,
+  "source_date": "2024-12-16",
+  "publisher": "PIORiN",
+  "source_url": "https://www.gov.pl/attachment/e0543140-15d0-4925-8fb8-b992cca18b54",
+  "accessed_utc": "2026-09-12T21:18:36.2975070Z",
+  "metric": "seed_field_assessment_area",
+  "unit": "ha",
+  "records": [
+    {
+      "source_species": "Koniczyna biała",
+      "crop_group": "white_clover",
+      "assessed_area_ha": "328.68",
+      "qualified_area_ha": "273.09",
+      "disqualified_area_ha": "55.59",
+      "page": 1,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Koniczyna łąkowa(czerwona)",
+      "crop_group": "red_clover",
+      "assessed_area_ha": "6621.45",
+      "qualified_area_ha": "5996.64",
+      "disqualified_area_ha": "624.81",
+      "page": 2,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Wyka kosmata",
+      "crop_group": "vetch",
+      "assessed_area_ha": "1630.00",
+      "qualified_area_ha": "1597.38",
+      "disqualified_area_ha": "32.62",
+      "page": 3,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Wyka siewna",
+      "crop_group": "vetch",
+      "assessed_area_ha": "1978.65",
+      "qualified_area_ha": "1878.94",
+      "disqualified_area_ha": "99.71",
+      "page": 4,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Len zwyczajny oleisty",
+      "crop_group": "flax",
+      "assessed_area_ha": "241.89",
+      "qualified_area_ha": "232.50",
+      "disqualified_area_ha": "9.39",
+      "page": 7,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Życica mieszańcowa",
+      "crop_group": "ryegrass",
+      "assessed_area_ha": "1187.18",
+      "qualified_area_ha": "1088.56",
+      "disqualified_area_ha": "98.62",
+      "page": 11,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Życica trwała",
+      "crop_group": "ryegrass",
+      "assessed_area_ha": "8126.13",
+      "qualified_area_ha": "7263.43",
+      "disqualified_area_ha": "862.70",
+      "page": 11,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Życica wielokwiatowa",
+      "crop_group": "ryegrass",
+      "assessed_area_ha": "3090.28",
+      "qualified_area_ha": "2981.61",
+      "disqualified_area_ha": "108.67",
+      "page": 12,
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    }
+  ],
+  "limitations": [
+    "Assessment area is not harvested seed quantity or available inventory.",
+    "Text extraction has displaced columns and mixed decimal formats; species total lines and area reconciliation inspected; visual verification pending.",
+    "Qualified plus disqualified equals assessed; never sum these three measures.",
+    "Only eight explicitly inspected species categories included; this is not proof of full crop-group coverage.",
+    "Flax record is oilseed flax, not all flax.",
+    "Reuse terms not yet qualified for publication."
+  ]
+}

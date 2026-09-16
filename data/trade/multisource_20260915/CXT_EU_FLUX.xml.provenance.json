@@ -1,0 +1,6 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/sdmx/2.1/codelist/ESTAT/CXT_EU_FLUX?compress=false",
+  "retrieved_at": "2026-09-14T20:39:09.7768446Z",
+  "sha256": "D2F4A5A783BF69DCC75075D4DF46233753215DD18681B4516CD6791CF3DF6608",
+  "file": "data/trade/multisource_20260915/CXT_EU_FLUX.xml"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/sdmx/2.1/data/DS-045409/M.DE.PL.12092210+12092280+12092510+12092590+12092945+12040010.2.VALUE_IN_EUROS+QUANTITY_IN_100KG?startPeriod=2025-06&endPeriod=2025-06&format=SDMX-CSV&compressed=false",
+  "retrieved_at": "2026-09-14T21:43:28.8116849Z",
+  "sha256": "31EA676568DB74ED818DAAFD1EB84B55C0E14DA4338A17CF6BAD988AC5864243",
+  "file": "data/trade/multisource_20260915/comext_DE_PL_202506_six_CN8_exports.csv",
+  "scope": "Historical availability probe, code semantics for CN2025 not yet verified"
+}

@@ -1,0 +1,119 @@
+{
+  "country": "DE",
+  "reference_year": 2024,
+  "marketing_year": "2024/2025",
+  "publisher": "Bundessortenamt",
+  "source_url": "https://www.bundessortenamt.de/bsa/media/Files/Saatgut/P1_anerkMengen_LW_20250812.pdf",
+  "accessed_utc": "2026-09-12T19:15:42.9675101Z",
+  "source_revision_status": "not_explicitly_verified",
+  "records": [
+    {
+      "source_species": "Rotklee",
+      "crop_group": "red_clover",
+      "value": "11115.77",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Weißklee",
+      "crop_group": "white_clover",
+      "value": "688.03",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Bastardweidelgras",
+      "crop_group": "ryegrass",
+      "value": "8711.67",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Deutsches Weidelgras",
+      "crop_group": "ryegrass",
+      "value": "77344.07",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Einjähriges Weidelgras",
+      "crop_group": "ryegrass",
+      "value": "56847.52",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Welsches Weidelgras",
+      "crop_group": "ryegrass",
+      "value": "60108.61",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Saatwicke",
+      "crop_group": "vetch",
+      "value": "4502.98",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Pannonische Wicke",
+      "crop_group": "vetch",
+      "value": "572.02",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Zottelwicke",
+      "crop_group": "vetch",
+      "value": "1340.24",
+      "unit": "dt",
+      "page": 32,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    },
+    {
+      "source_species": "Lein",
+      "crop_group": "flax",
+      "value": "7985.33",
+      "unit": "dt",
+      "page": 33,
+      "metric": "officially_recognized_seed_quantity_all_reported_classes",
+      "available_supply": null,
+      "extraction_status": "text_verified_visual_pending"
+    }
+  ],
+  "limitations": [
+    "Totals include reported basic and certified classes; not just certified commercial generation.",
+    "Certification quantities are not current available inventory or independently established domestic harvested production.",
+    "German source species retained; botanical crosswalk not yet verified.",
+    "Screenshot tool failed; PDF text extraction inspected.",
+    "No complete PDF archived locally.",
+    "Absent/dash class cells treated as zero only for arithmetic reconciliation, not stored as observed class zeros."
+  ]
+}

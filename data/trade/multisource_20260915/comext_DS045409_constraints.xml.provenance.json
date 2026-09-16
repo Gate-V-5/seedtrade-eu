@@ -1,0 +1,6 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/sdmx/2.1/contentconstraint/ESTAT/DS-045409?compress=false",
+  "retrieved_at": "2026-09-14T21:42:40.1324267Z",
+  "sha256": "AE12E607ECAB69B31130A6AD1F879A3151D01443E242A110688C2832B2C7430C",
+  "file": "data/trade/multisource_20260915/comext_DS045409_constraints.xml"
+}

@@ -1,0 +1,2037 @@
+{
+  "captured_utc": "2026-09-14T18:32:26.8433851Z",
+  "root": "C:\\SeedTrade",
+  "file_count": 338,
+  "git_directory_present": false,
+  "notes": "Sequential read-only SHA256 scan before new-cycle edits, not atomic. Preserve all previous baselines and reports.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 456,
+      "sha256": "623C6509743CEE08A102826CE956DDDD9CE31F605595C34B4D3A2935B7C91636",
+      "modified_utc": "2026-09-06T13:18:33.8004744Z"
+    },
+    {
+      "path": "collectors/crop_models/winter_wheat.py",
+      "bytes": 22547,
+      "sha256": "DACB5D76949382F61CC645F321DB07F0F9260BF9B43A95C9F32515216DF1CE56",
+      "modified_utc": "2026-09-06T06:39:19.0784997Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_auth_test.py",
+      "bytes": 8272,
+      "sha256": "66F46D73B7842CC822C76714AE587FCE20BA6EC6DF4C3AA2AF20218AD1A2FD82",
+      "modified_utc": "2026-09-06T13:21:25.8628554Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_emergence_process.py",
+      "bytes": 21950,
+      "sha256": "A8B79CC0BE286D9F816A12BDCC56360722645E01E21F2B60F6EAF814B67AA583",
+      "modified_utc": "2026-09-06T14:10:35.9713471Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_emergence.py",
+      "bytes": 32978,
+      "sha256": "394B4EC34B7E742585DC7230F1ECF5E87CB764AD45AA70FE3C33578718E79910",
+      "modified_utc": "2026-09-06T14:05:26.0273811Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_layers.py",
+      "bytes": 5590,
+      "sha256": "706FFA83266DE0E56BB09F817218C0F166D540F6C371749640DABA95BB86CA29",
+      "modified_utc": "2026-09-06T18:39:23.0952881Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_lithuania_validation_collector_2021.py",
+      "bytes": 17868,
+      "sha256": "3EB57F65598BA7924A6428682D3F13F4B5799A6F651D153884CA52C5307C79A4",
+      "modified_utc": "2026-09-07T17:49:05.3880523Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_lithuania_validation_collector_2022.py",
+      "bytes": 17868,
+      "sha256": "E1824A7682FE5613658A4D857C541EF62F90551828E749B7BA0DFF4671D87705",
+      "modified_utc": "2026-09-07T17:29:58.4625741Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_lithuania_validation_collector_2023.py",
+      "bytes": 17868,
+      "sha256": "28B780A8F4B4C6423981BC7E5E339A976235879A44CB79738638414F1538A553",
+      "modified_utc": "2026-09-07T16:46:48.8801126Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_multiyear_validation_collector_2021.py",
+      "bytes": 17355,
+      "sha256": "EE1781F0F53C84A8B77132549BA987AB208C53DBE81FD31AFC23EE4DAC0A32DE",
+      "modified_utc": "2026-09-07T17:49:40.4212488Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_multiyear_validation_collector.py",
+      "bytes": 17231,
+      "sha256": "45B4FDB80D46362B6D9B1D0606A2179F02D295F3E60C9A60AE5A2ED610E80B1E",
+      "modified_utc": "2026-09-07T11:28:04.9640540Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_phenology.py",
+      "bytes": 29457,
+      "sha256": "93B7678A4D49E35E80C8BA4403FC9C12EE3121411CA8B21267D472A830D1A0FC",
+      "modified_utc": "2026-09-06T13:46:43.6903980Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence_v07_multisample.py",
+      "bytes": 7278,
+      "sha256": "11C3BFC41F6529C974A91A7890F0F30C27F3E17D720D665906EAF973A01DDBA1",
+      "modified_utc": "2026-09-07T09:28:44.9439903Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence_v08_cpcsy.py",
+      "bytes": 61535,
+      "sha256": "44AAF69E9C128F1F2116D123F0F00B5EDF58452BAF07FF2474D1C54D33811942",
+      "modified_utc": "2026-09-07T10:05:37.4240976Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence_v09_multisample_cpcsy.py",
+      "bytes": 16340,
+      "sha256": "A553172DF12E89189BECA29E8DCD41DCAEF393383C7F4127B5B7CECD99699C44",
+      "modified_utc": "2026-09-07T10:15:20.8826978Z"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence.py",
+      "bytes": 56384,
+      "sha256": "A8E3EB3EE55BFC8A23FC2E6E1E2241DB848D1F5466B77D81495DA1C3CAC2B34C",
+      "modified_utc": "2026-09-07T09:27:46.7785729Z"
+    },
+    {
+      "path": "collectors/phenology/cpcsy_multisample_validation.py",
+      "bytes": 23848,
+      "sha256": "312C269C21E51C1E2C7DAE4D4FDE0759309D43CEB288DE7BCF6A5289376CABA7",
+      "modified_utc": "2026-09-07T10:38:03.1592293Z"
+    },
+    {
+      "path": "collectors/phenology/cpcsy_validation.py",
+      "bytes": 11509,
+      "sha256": "D0E821CCB5531D7AD46C8D8E4E761920BA062B769A54615C1280FC1F88290B72",
+      "modified_utc": "2026-09-07T10:10:31.7220709Z"
+    },
+    {
+      "path": "collectors/phenology/multiyear_evidence_diagnostics.py",
+      "bytes": 18546,
+      "sha256": "67EC5F2F5F30ED549D1DF1E1E18C462A07B78FE3BCEE3BBB2AFC1BFF48AB025F",
+      "modified_utc": "2026-09-07T12:01:47.2001624Z"
+    },
+    {
+      "path": "collectors/phenology/reference_eligibility_v01.py",
+      "bytes": 3885,
+      "sha256": "D5BA984D6BB02EF4AEF9F35085AB8D259CC56A2DFB9D94AEAAB3FD6141AD249F",
+      "modified_utc": "2026-09-11T21:31:07.9169580Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_lithuania_validation_2021.py",
+      "bytes": 41470,
+      "sha256": "1E75D9A6C4571440640933CE51A5679EA501BC2916194BEC4ED1D760E4DE179B",
+      "modified_utc": "2026-09-07T17:52:53.7883899Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_lithuania_validation_2022.py",
+      "bytes": 41470,
+      "sha256": "865D2B45C54F459098D68C9DFA5DC36434816F58A6C477F77BEA9E5C34ACC28C",
+      "modified_utc": "2026-09-07T17:33:10.6082539Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_lithuania_validation_2023.py",
+      "bytes": 41470,
+      "sha256": "65C6FDA35C7AAEB59238DB525F44FECBADF6FE4A388181E813282895AA5BB5DF",
+      "modified_utc": "2026-09-07T17:11:36.6304853Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_multiyear_validation_2021.py",
+      "bytes": 40002,
+      "sha256": "B6744437B30CF612859CDA553821519A93AE276FA88995758F8C4627C9442C8C",
+      "modified_utc": "2026-09-07T12:26:46.2623274Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_multiyear_validation.py",
+      "bytes": 40002,
+      "sha256": "7F6526E2585A949AB59F18CB11BAC0EBEE8ED42509A17BFA7F3B836CFDE37980",
+      "modified_utc": "2026-09-07T11:38:50.6846787Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v05_transitional.py",
+      "bytes": 57278,
+      "sha256": "D71C0728C2342FFBFA3F81B32B6640372423AD9BA005A212CCFE9BCF8718CA16",
+      "modified_utc": "2026-09-07T10:51:42.4294964Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v06_clms_rules.py",
+      "bytes": 17601,
+      "sha256": "7AB4886DEEFE17B6E42A6CA513ADF11B3BED84C50CB2E309C810D0DC41137347",
+      "modified_utc": "2026-09-07T11:02:27.8266145Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_hybrid.py",
+      "bytes": 24341,
+      "sha256": "1B4E7A44012BB78EA3065B9AB63715E005E47BFC0F7A688B5BDCF9EE04AB7A48",
+      "modified_utc": "2026-09-07T11:18:02.2094779Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_lithuania_validation_2021.py",
+      "bytes": 25795,
+      "sha256": "9C201734BAC0777275D2C38C6A83A61372CEF62C4C569DE25DD5E2495BAC3E78",
+      "modified_utc": "2026-09-07T17:54:53.7363568Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_lithuania_validation_2022.py",
+      "bytes": 25795,
+      "sha256": "E23BD9FFF8F025033C3412769E13B7B6FAB24AA75D9146DA474FA04091305298",
+      "modified_utc": "2026-09-07T17:36:37.0981697Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_lithuania_validation_2023.py",
+      "bytes": 25795,
+      "sha256": "A61F58BEBB28B5A5573D4D6B2D46EF680901A526D2E38FA7E432A3C2BD5C3C11",
+      "modified_utc": "2026-09-07T17:14:36.6037161Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_multiyear_validation_2021.py",
+      "bytes": 24978,
+      "sha256": "D39A879AA933E09954774756022B3B0B06C4655056CE450EAE0DB2FC3E6D7560",
+      "modified_utc": "2026-09-07T16:15:14.4065895Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_multiyear_validation.py",
+      "bytes": 24978,
+      "sha256": "9F34FC225179F2755BA0A49749641F3E881AE46E60D1DC69777F86D389ED5A84",
+      "modified_utc": "2026-09-07T12:19:25.5287576Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier.py",
+      "bytes": 39180,
+      "sha256": "2371B956BFE70AE32D1A8A49A9CA7653748E1766786F205F962BA50BE498DE5F",
+      "modified_utc": "2026-09-07T09:39:10.1586887Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_conflict_diagnostics.py",
+      "bytes": 17820,
+      "sha256": "472B1BAF3109FCDF1148A17801827B43D3E03C4D2C63DF4769E6BEF3F190B712",
+      "modified_utc": "2026-09-07T11:11:11.0055966Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_cross_validator.py",
+      "bytes": 21542,
+      "sha256": "94EEC45E170C934C22F88262C634EE18C399627EFF507BED62F2E6DFFB29E34B",
+      "modified_utc": "2026-09-07T11:08:03.4570884Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_diagnostics.py",
+      "bytes": 19658,
+      "sha256": "CDEC8C401586799D03F1C15AA2504CE4799F34638666899A74C85164F472FE8F",
+      "modified_utc": "2026-09-07T09:57:31.0612313Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_emergence_uncertainty_diagnostics_v01_2023.py",
+      "bytes": 5461,
+      "sha256": "38E3C8B305D9BEE4E69D1180D3FAC7D1657C9CB6CF9F3DBC63D03D5AF027E71D",
+      "modified_utc": "2026-09-08T12:44:23.3234739Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_emergence_uncertainty_multiyear_diagnostics_v01.py",
+      "bytes": 9107,
+      "sha256": "D8643F418F41D91D793CE87D7EA0C6C748EE867ABC13D7909E3ED684361DE0B3",
+      "modified_utc": "2026-09-08T12:53:09.6401656Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_evidence_audit.py",
+      "bytes": 21507,
+      "sha256": "AEB586750D7505D3CFC1F2C1785E53EED6BAF4BED297E1B1ECA32B62CC4AF621",
+      "modified_utc": "2026-09-07T11:14:26.6237724Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2021_conflict_diagnostics_v02.py",
+      "bytes": 17245,
+      "sha256": "3E22B1C56E27E0A7643E365B25E9FCF983958DC39A46B2EC3F2C9765CA37A066",
+      "modified_utc": "2026-09-07T18:01:51.0704783Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2022_conflict_diagnostics_v02.py",
+      "bytes": 17245,
+      "sha256": "443D0B7B53FF8060073AE7F25FCBCCB65BFE4ADF754BD3CF880E12B484E035C5",
+      "modified_utc": "2026-09-07T17:42:08.8090116Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2023_conflict_diagnostics_v02.py",
+      "bytes": 17231,
+      "sha256": "E97EF2826539704587A3099EFDAD3A0FBF0F6A58EACF5AB1CE5C8443DE9127DF",
+      "modified_utc": "2026-09-07T17:25:26.3937763Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2023_conflict_diagnostics.py",
+      "bytes": 16482,
+      "sha256": "7A5B3BEDBB3350F41E735D34C2FC78795352C0393E9DA0A795F47EFAA864BE16",
+      "modified_utc": "2026-09-07T17:23:00.2461599Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_multiyear_conflict_diagnostics.py",
+      "bytes": 16295,
+      "sha256": "A93F6B18B281C07ACCB75C2300AD484A717C48CA10D271478A71B51CF2F00C4C",
+      "modified_utc": "2026-09-07T16:21:27.1777671Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_rule_audit.py",
+      "bytes": 32629,
+      "sha256": "93DCA5AFB37C283CDBA93F60EF22593160C026511F1C7D56773F8B06D6663E84",
+      "modified_utc": "2026-09-07T10:44:26.4624030Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_8band_tiff_direct_provenance_audit_v02_2023.py",
+      "bytes": 8883,
+      "sha256": "1B1AABC39069EAA2E9D706A7B01C11C443DCA3EC57E3389BEFA0C2D361608CBB",
+      "modified_utc": "2026-09-08T14:47:51.3931097Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_cty_component_event_diagnostics_v01_2023.py",
+      "bytes": 9155,
+      "sha256": "70AD71108AA127CE2744ACFE0560E7AF01F52712BA437458C311CC7E206236E7",
+      "modified_utc": "2026-09-08T14:26:50.8904369Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_cty_dominant_event_overlay_v01_2023.py",
+      "bytes": 12063,
+      "sha256": "BBAEA2DDFAA6CC04067DD0E57FDC12C47E3FB582DEC6FAC6A3309A5E186F3366",
+      "modified_utc": "2026-09-08T13:41:04.6585693Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_event_pattern_diagnostics_v01_2023.py",
+      "bytes": 10035,
+      "sha256": "D2F049D46B064C5ED3BB2422B3FDB4F07F94D1567DC174588E52B5650D6A9A30",
+      "modified_utc": "2026-09-08T13:15:42.5131339Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_geographic_event_diagnostics_v01_2023.py",
+      "bytes": 12482,
+      "sha256": "A9D7272A050218DDD6366BE1CD02B97FAFAC1F33ABA2598D52048DFF0E9E5F4F",
+      "modified_utc": "2026-09-08T13:28:37.5217095Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_interactive_cty_event_map_v01_2023.py",
+      "bytes": 5682,
+      "sha256": "2B9D73621E5BFB0A19C2157C066A5D72BFEEFCE88AB77D7E39587EFC022DFE4E",
+      "modified_utc": "2026-09-08T14:09:10.4613844Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_interactive_cty_event_map_v02_2023.py",
+      "bytes": 9202,
+      "sha256": "D8E8803B44770CB94CA67CDBC189DCE883FA69DCEFED34ABA0096C2637FD584C",
+      "modified_utc": "2026-09-08T14:22:18.7610716Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_original_raster_provenance_decoder_audit_v01_2023.py",
+      "bytes": 10868,
+      "sha256": "A18EF1F837879F3C2F0136EA2B9926C1D006D659EFCF9AA34A0C34236EEBA4AA",
+      "modified_utc": "2026-09-08T14:44:41.5492890Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_primary_boundary_36px_audit_v01_2023.py",
+      "bytes": 12517,
+      "sha256": "E0AFAA6F8D582EBDBF3C9F346CCC4AF8DD3A1693B526665F5C1553840A78B5FB",
+      "modified_utc": "2026-09-10T18:50:16.1412327Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_raw_clms_provenance_diagnostics_v01_2023.py",
+      "bytes": 12198,
+      "sha256": "631964F8AECD76E7F917DC3D0E1B0E301A0238EB4CA91E96102D81B8969B6EDA",
+      "modified_utc": "2026-09-08T14:39:22.5393762Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_spatial_event_multiyear_comparison_v01.py",
+      "bytes": 12385,
+      "sha256": "3FE9A15C66FDB88E16563EEA975E7EB9A61FB02DFB5489DFA110948F2C5539EE",
+      "modified_utc": "2026-09-08T14:31:59.8439134Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_spatial_event_multiyear_comparison_v02.py",
+      "bytes": 13608,
+      "sha256": "FC2C983DC98E4094B0AC4D7652CF684FB601DDFA1193395DA2700B8BC84B8632",
+      "modified_utc": "2026-09-08T14:35:57.5910887Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_spatial_event_pattern_diagnostics_v01_2023.py",
+      "bytes": 9628,
+      "sha256": "B0EDDF724264DD020BAFED11A1FFB13433E2E3EA2F580D7D41C15AD193EC60C3",
+      "modified_utc": "2026-09-08T13:19:14.6816967Z"
+    },
+    {
+      "path": "collectors/phenology/season_type_sample_crop_emergence_uncertainty_diagnostics_v01.py",
+      "bytes": 5104,
+      "sha256": "470807550D870A5A4F33800B5941E5CD2E264DB2AF44F2304B7695525A71099F",
+      "modified_utc": "2026-09-08T13:10:50.0044723Z"
+    },
+    {
+      "path": "collectors/phenology/selection_event_validation_v01.py",
+      "bytes": 6696,
+      "sha256": "AAF0953895729F3BA0CFD43CE8959C3ADF327EAD9C806D6A4F44AD09C9F9C7AF",
+      "modified_utc": "2026-09-10T19:36:27.3480786Z"
+    },
+    {
+      "path": "collectors/phenology/spatial_geometry_validation_v01.py",
+      "bytes": 3630,
+      "sha256": "E995870B10577CF7ED11F843BF066C664FA57FFBCD38B007B2B90C5295F9FD3B",
+      "modified_utc": "2026-09-11T04:35:10.1459936Z"
+    },
+    {
+      "path": "collectors/phenology/test_reference_eligibility_v01.py",
+      "bytes": 3617,
+      "sha256": "AE9B41D88979D0B0711EF7007C4F3B4EED93D099561AD16732C7EF258448FEB8",
+      "modified_utc": "2026-09-11T21:31:19.2866556Z"
+    },
+    {
+      "path": "collectors/phenology/test_selection_event_validation_v01.py",
+      "bytes": 3207,
+      "sha256": "7E49933D3FA6578177D6842236269D007C4E44B8ED3C5607476D1FB9141D08A9",
+      "modified_utc": "2026-09-10T19:40:34.9193604Z"
+    },
+    {
+      "path": "collectors/phenology/test_spatial_geometry_validation_v01.py",
+      "bytes": 1110,
+      "sha256": "5410DE4782AAD80CB653BA72EB82D23412D2375136D8A4EAD868E46F1A37AA20",
+      "modified_utc": "2026-09-11T04:35:20.3131378Z"
+    },
+    {
+      "path": "collectors/phenology/transitional_weight_sensitivity.py",
+      "bytes": 22744,
+      "sha256": "E70B7DFE6D7E53541AA470068F95E3CC49B1551F4CA9E5F0CFE3ACF3EC3A661B",
+      "modified_utc": "2026-09-07T10:55:00.1715542Z"
+    },
+    {
+      "path": "collectors/supply/build_reviewed_2024.py",
+      "bytes": 2742,
+      "sha256": "95A4262E58C64FF74459B111E12C16DC6AD82545959D00BBF13D83FB74B293F4",
+      "modified_utc": "2026-09-13T08:41:01.9627126Z"
+    },
+    {
+      "path": "collectors/supply/supply_v01.py",
+      "bytes": 5622,
+      "sha256": "E8D5C37515732E5A212D9319D504166EAF330A13D5F0B0C4DD08ADA6BA334614",
+      "modified_utc": "2026-09-13T09:42:45.5054810Z"
+    },
+    {
+      "path": "collectors/supply/test_supply_v01.py",
+      "bytes": 3825,
+      "sha256": "0EE7EC5257E6478C1DFB369CB6E85B2626CFFA1512E26F3B43C93CCA733EAA2F",
+      "modified_utc": "2026-09-13T09:42:21.6150747Z"
+    },
+    {
+      "path": "collectors/trade/cn_mapping_v01.py",
+      "bytes": 1332,
+      "sha256": "5D4723398982F642DDFD83EE4A6AE8C86E60658DDF500BFB7EAA2A62FD42AFCE",
+      "modified_utc": "2026-09-13T02:28:55.6708489Z"
+    },
+    {
+      "path": "collectors/trade/crop_basket_v01.py",
+      "bytes": 3999,
+      "sha256": "95536CC974C229F358774736A0213BE716E19A270B9160937DBC8769804BA9B9",
+      "modified_utc": "2026-09-14T08:01:33.6832434Z"
+    },
+    {
+      "path": "collectors/trade/test_cn_mapping_v01.py",
+      "bytes": 1499,
+      "sha256": "0F5287287C983E57B3A2DB5DD11D11963849E0CF75901629ABC6C3592EFAFD6F",
+      "modified_utc": "2026-09-13T02:28:55.6808190Z"
+    },
+    {
+      "path": "collectors/trade/test_crop_basket_v01.py",
+      "bytes": 3770,
+      "sha256": "C8667A6266B655569FE38D91840211DF29B6B8A0E0BFC7D664649ED6206E6765",
+      "modified_utc": "2026-09-14T08:01:33.6971579Z"
+    },
+    {
+      "path": "collectors/weather/crop_calendar.py",
+      "bytes": 10185,
+      "sha256": "0EA5E675FD62E0C0DF30CD9EDD781E55F7A32F3415A571F8A0FC549CADAFE557",
+      "modified_utc": "2026-09-06T05:55:17.9374532Z"
+    },
+    {
+      "path": "collectors/weather/crop_profiles.py",
+      "bytes": 14098,
+      "sha256": "8F6320CABE98982AFEC5592121B7CC9DFE165ED6F92F477216F891B0FDCF003E",
+      "modified_utc": "2026-09-06T05:50:56.2825929Z"
+    },
+    {
+      "path": "collectors/weather/crop_weather_engine.py",
+      "bytes": 17976,
+      "sha256": "12C3F9AB604FE8E377AC2BD82AB8684173241196EA06B9FD0AEB9A7BC8A34523",
+      "modified_utc": "2026-09-06T06:35:59.5632904Z"
+    },
+    {
+      "path": "collectors/weather/cumulative_stress.py",
+      "bytes": 19139,
+      "sha256": "E7868E455F116F3824BBB391B875C0C6ED143B9FCE8482ACE7211F8093C9207B",
+      "modified_utc": "2026-09-06T08:05:14.3527653Z"
+    },
+    {
+      "path": "collectors/weather/phenology_engine.py",
+      "bytes": 15799,
+      "sha256": "5B2B02EC829B673000095ED953E8F9C75A2DEB87EB8006BE0BEDDCEEB19AF351",
+      "modified_utc": "2026-09-06T08:07:30.2188041Z"
+    },
+    {
+      "path": "collectors/weather/regions.py",
+      "bytes": 4265,
+      "sha256": "20D68EBBD08B5568537B3409FD2F3479815F7C3553FC3EBAD4C7C20D257C4AD7",
+      "modified_utc": "2026-09-05T19:30:53.7921857Z"
+    },
+    {
+      "path": "collectors/weather/weather_analyzer.py",
+      "bytes": 7207,
+      "sha256": "576D14DFA51915921109446F91458CB90A22102B9AFCCF8FC6DCFB691885B88E",
+      "modified_utc": "2026-09-05T19:38:52.6409600Z"
+    },
+    {
+      "path": "collectors/weather/weather_collector.py",
+      "bytes": 3672,
+      "sha256": "D3E78D3C2D7D2ED02385B8A856097DE87442D0647D12AF770BC4A554CE1E0CD8",
+      "modified_utc": "2026-09-05T19:36:53.8728462Z"
+    },
+    {
+      "path": "collectors/weather/weather_history.py",
+      "bytes": 13736,
+      "sha256": "5EC5CDFC3072843D8A28C03E20A7D79B308EC1CB06113B8813F4A7C5F5D7A344",
+      "modified_utc": "2026-09-06T08:02:52.8724231Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_emergence_uncertainty_diagnostics_v01_2023_5samples_2000ha_2026-09-08.json",
+      "bytes": 31722,
+      "sha256": "B5BA5F456DDD0526934BC1A5B5E2E3AAD3DA4E31E620187F209E2D6B3E17172A",
+      "modified_utc": "2026-09-08T12:44:33.9896772Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_emergence_uncertainty_multiyear_diagnostics_v01_2021_2022_2023_5samples_2000ha_2026-09-08.json",
+      "bytes": 149980,
+      "sha256": "C1122DF6FAAE6DD7682A30642BB736310DA5F681780EFD8826CD788EE8812FEF",
+      "modified_utc": "2026-09-08T12:53:26.8210066Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 15231,
+      "sha256": "326742278B6DB96191345EC8B2A69592F7FB64DE8B71A8A1FB1BA94F9C3ECAAA",
+      "modified_utc": "2026-09-07T17:51:31.2293321Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 52605231,
+      "sha256": "36A308A2DA15C19DF3EFB5A4A99FD93F4B67EAC7547A7E05243AB1FA6B02E052",
+      "modified_utc": "2026-09-07T17:51:09.7135058Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 12753,
+      "sha256": "3DF8D5700B9EF372FE8128239B51E8D206EAFBFEEB0D0C102004D5FAE9597ACA",
+      "modified_utc": "2026-09-07T17:51:05.2284008Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 53524507,
+      "sha256": "777E87091404B41CDDE988D955F1796B3E41F4B31BB301162E50B4601B845962",
+      "modified_utc": "2026-09-07T17:51:15.3141595Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 9445,
+      "sha256": "F261245B7E04F0DD71D34BAAB2846A212B2DAF32A2DA6E79224F6B7031BD31D2",
+      "modified_utc": "2026-09-07T17:51:11.1836725Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 53468017,
+      "sha256": "43B263F6B11A0EF7C01F37386A9BD3848803E3B1CD6097B2429544EF289A7FB6",
+      "modified_utc": "2026-09-07T17:51:20.9537925Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 12441,
+      "sha256": "A1F9F0CEE718EE3902E4D07220A940186E719CA3DFC6B3C5899E8B6463CCA932",
+      "modified_utc": "2026-09-07T17:51:16.7988019Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55295826,
+      "sha256": "E17A236791A29AFB3B656EA46D692796EDE24B0AEC5117DC0942F99BDFE09B8D",
+      "modified_utc": "2026-09-07T17:51:26.3580646Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 4618,
+      "sha256": "38FEB09F5B4E67F9F4DFEDB63E23028F7446CAB0DFECFB1F7FD3AAF8C1DCFE8A",
+      "modified_utc": "2026-09-07T17:51:21.9885298Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 55897357,
+      "sha256": "449305655E07B4834838714C19D0B57F1D7013B64F0CCB011546E8198B75BE8D",
+      "modified_utc": "2026-09-07T17:51:31.2079295Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 2890,
+      "sha256": "757443734D98EF259C84525285D928417230561809D51569250E4FA4BE5C2FEF",
+      "modified_utc": "2026-09-07T17:51:27.4165630Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 14907,
+      "sha256": "0C7D83F5091D352BAEF4A222F2434FAEDCF25495BED34AF2935057EB59B2F02B",
+      "modified_utc": "2026-09-07T17:30:37.9245378Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 52313572,
+      "sha256": "5FA867847792527D0A9DF93B6A71148186E3B857E6D312C670CDF9E24B2C8CDE",
+      "modified_utc": "2026-09-07T17:30:16.7927808Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 14919,
+      "sha256": "4FC98F47C48606C2F9B2ECB533F2942011812CF0C7AC8B4E9ADCFBC160322893",
+      "modified_utc": "2026-09-07T17:30:12.3137697Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 53919461,
+      "sha256": "C5D73F8FB30C60D12D15976A128BB0B865DCDE61AD1055001C5FE15EEFC93019",
+      "modified_utc": "2026-09-07T17:30:22.0526464Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 9244,
+      "sha256": "DEA6050690D5C2AF43E538F8E533AF6E103351CE61ED5F4D703F5EA6644C084D",
+      "modified_utc": "2026-09-07T17:30:18.2882612Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 53899073,
+      "sha256": "9C06B94701C391F1A957DAC3BEB326644279947A4C33D4682F316F6D2ED0F462",
+      "modified_utc": "2026-09-07T17:30:27.3179477Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 15002,
+      "sha256": "80A5757E17C6C50AA86870740A323295E67F9A0D23DE86A2B255658792976FB3",
+      "modified_utc": "2026-09-07T17:30:23.4885535Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55263314,
+      "sha256": "30E8A5527A4082417F89C6595904B5CEBACD902D3891A87BFA327C2F23C23C39",
+      "modified_utc": "2026-09-07T17:30:32.1718017Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 4805,
+      "sha256": "94DDD4B32494EF85FE80AD0ACBC4AED95A25378FF4C28C65A1E093D3FD71A53A",
+      "modified_utc": "2026-09-07T17:30:28.5605595Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 55879991,
+      "sha256": "5EFEC846651812B787C561D81EFA296B224B1B6193586C64EB6FC37E8C2956EA",
+      "modified_utc": "2026-09-07T17:30:37.8965156Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 3001,
+      "sha256": "7E916E589DF3042F79C504602F6F5A3CD98312BA0483C291CE42077C7F307129",
+      "modified_utc": "2026-09-07T17:30:33.4105997Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 15209,
+      "sha256": "135D464F71AAEDCD5563CDB620FB45BA646EDABE580487F829F0A931E3DBD105",
+      "modified_utc": "2026-09-07T16:47:36.3696718Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 52254817,
+      "sha256": "3337EA4AD5DF9821EEB923FEAD7889C97756099F0555902D98746B34ACCDD457",
+      "modified_utc": "2026-09-07T16:47:10.0783830Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13570,
+      "sha256": "448AEF00ACFD6CB84E2779C000380FADED01B80F57474D1D91FD2402732FC04A",
+      "modified_utc": "2026-09-07T16:47:01.8162703Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 53453762,
+      "sha256": "C3BB77D166B87DCE73AD93E6416F4B83A9FA7024282740FC48C91CB217490005",
+      "modified_utc": "2026-09-07T16:47:17.9328012Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 9193,
+      "sha256": "E9C72E317B8CFFC008168469153E0C12C14F44EF83B0D0AD3604AF7CBC0E7E7B",
+      "modified_utc": "2026-09-07T16:47:11.4308628Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 53693529,
+      "sha256": "689B6B651EC0B417CB6CCCA84506AA223745CC3D5D13E7F62E36AF77179DCA6D",
+      "modified_utc": "2026-09-07T16:47:26.3845115Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 15326,
+      "sha256": "6A72C21A445B04CABF3A66DEB3AD858EEF7C89F4992895F3A889F37C6926C5AB",
+      "modified_utc": "2026-09-07T16:47:19.1719461Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55321272,
+      "sha256": "CDC618177C963E3F305EE147BD741E5BFBEAAB6F71A2BD8A03905F24A6C6FD6C",
+      "modified_utc": "2026-09-07T16:47:31.7527224Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 4774,
+      "sha256": "9CDAD9BD1BC49F68F91E4CF142B913C3ACEB280E8445234FF30A7A5ED8A7CE65",
+      "modified_utc": "2026-09-07T16:47:27.7546489Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 55898245,
+      "sha256": "60AB6DF1514923DC835E80FF2BF773D81A3578DA25622C03C3C005B462F41EDC",
+      "modified_utc": "2026-09-07T16:47:36.3451998Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 2695,
+      "sha256": "E6728348DCEED36F15941B388F9F7E9FA30851DA9FB72DB5E8F4EE0D4943706D",
+      "modified_utc": "2026-09-07T16:47:33.0984403Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_8band_TIFF_direct_provenance_audit_v02_2023_2026-09-08.json",
+      "bytes": 14919,
+      "sha256": "866152D6533F6402248EFF974D79CCBD8985BB378B97EC0FE900505315B04BA7",
+      "modified_utc": "2026-09-08T14:48:07.5451202Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_component_x_event_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 26805,
+      "sha256": "9D54F33F7887C5ADF3C3ACDACEE21C1F8B1FF169D2AB9C9069B646041F3CAFDD",
+      "modified_utc": "2026-09-08T14:27:01.9923433Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_dominant_event_overlay_v01_2023_2026-09-08.geojson",
+      "bytes": 12180441,
+      "sha256": "983461186E4730C7E8062A922408783680E087FCBBA88FE6F0A8BEC8BC2DE5B0",
+      "modified_utc": "2026-09-08T13:41:59.8441514Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_dominant_event_overlay_v01_2023_2026-09-08.json",
+      "bytes": 12180441,
+      "sha256": "983461186E4730C7E8062A922408783680E087FCBBA88FE6F0A8BEC8BC2DE5B0",
+      "modified_utc": "2026-09-08T13:41:59.8544005Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_event_interactive_v01_2023_2026-09-08.html",
+      "bytes": 940456,
+      "sha256": "6B53E8A30CC3D6AEFA28D28CF58ACAF3D0F90A4946480C0D4405F41EFB956608",
+      "modified_utc": "2026-09-08T14:09:26.9910186Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_event_interactive_v02_2023_2026-09-08.html",
+      "bytes": 1086091,
+      "sha256": "71F80DD7FC0683B2AD9E248C00B789AE472ECA91E6869E849404AFA8F1F3142F",
+      "modified_utc": "2026-09-08T14:22:31.9071883Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_dominant_patterns_v01_2023_2026-09-08.json",
+      "bytes": 3471335,
+      "sha256": "36BAAA572DF33BA5A17327AD2D58F14A91F554A0E9349DB77136B73FF73737AC",
+      "modified_utc": "2026-09-08T13:28:48.3507065Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_event_pattern_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 121447,
+      "sha256": "6205B6543EEFD9886356CAB3A9C698C12C53B24586BBF199BBE8132280123A7F",
+      "modified_utc": "2026-09-08T13:15:59.2932377Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_geographic_conflict_pixels_v01_2023_2026-09-08.csv",
+      "bytes": 961256,
+      "sha256": "E28B25833140B311101D66646186BE4B58C2631A07002772CD81D2BF8E5EA4C3",
+      "modified_utc": "2026-09-08T13:28:48.0653792Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_geographic_event_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 3185,
+      "sha256": "7D89DCE2844C9E57C7BDEA1223FB1E50A70079103A8F4707E0A3429F17E65594",
+      "modified_utc": "2026-09-08T13:28:48.0688768Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_original_raster_provenance_decoder_audit_v01_2023_2026-09-08.json",
+      "bytes": 20679,
+      "sha256": "A7B18212514F78D7269FD4B12A8FABFEB0F0BC64998325CD010122DF2FD228E9",
+      "modified_utc": "2026-09-08T14:44:56.5743224Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_raw_CLMS_provenance_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 83224,
+      "sha256": "B952FA18860F14704EAAA3CAD11D2500EA7BCF2FF60D2CBA00A378602AC7BBA0",
+      "modified_utc": "2026-09-08T14:40:10.5138341Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_spatial_event_multiyear_comparison_v01_2021_2022_2023_2026-09-08.json",
+      "bytes": 18071,
+      "sha256": "05F11FB37FEB077751F6A3C32BA9E6B09645801226FAAE7B1CD3E1E4850FACF7",
+      "modified_utc": "2026-09-08T14:33:03.2109922Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_spatial_event_multiyear_comparison_v02_2021_2022_2023_2026-09-08.json",
+      "bytes": 20041,
+      "sha256": "8CC4C2BAFF5D867F05BACA905950B32F271AC55337F36450DE9C2A7D7E9AED3C",
+      "modified_utc": "2026-09-08T14:36:14.9058489Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_spatial_event_pattern_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 11466,
+      "sha256": "434893611083A2A1784E777F0E2C50B289BF3ED13B64AC0EDB3F56B568627D5F",
+      "modified_utc": "2026-09-08T13:19:27.3882414Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_sample_crop_emergence_uncertainty_diagnostics_v01_2021_2022_2023_5samples_2000ha_2026-09-08.json",
+      "bytes": 25717,
+      "sha256": "070BA7A47B422AF8580519BDAC07C5B0D7730D83B6A79DC86253E015CE1A2A0C",
+      "modified_utc": "2026-09-08T13:11:04.1716985Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13832,
+      "sha256": "2FD23A09EB18AC63DF71C670555D3305717301E3E219F62D863E988813D907BC",
+      "modified_utc": "2026-09-07T17:53:26.3273496Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 57216470,
+      "sha256": "2034AEBDFD0BB22BC4E9CCFC9AD190C7AE6525B582D93A91DDC60B92E58B2591",
+      "modified_utc": "2026-09-07T17:53:07.1295474Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 50046931,
+      "sha256": "E9E5302821585955EAD462A3D072F6F4C05BB8E38B8357FF2E2AAD17EA05B094",
+      "modified_utc": "2026-09-07T17:53:12.6360652Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 48889130,
+      "sha256": "0E7EFE572D818B347E1082CE1AB053157BACBE7D050145571B93F29E8F67195B",
+      "modified_utc": "2026-09-07T17:53:20.1054703Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 25994609,
+      "sha256": "6206BD512844C63526A82C1CB1B489141EA22F5A4AF2C32266D66537850AA574",
+      "modified_utc": "2026-09-07T17:53:22.6804710Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 27502540,
+      "sha256": "C22FDEBC1813F37E4E6DC91323D976B70F803F07168383AB6D282590C15111B6",
+      "modified_utc": "2026-09-07T17:53:25.8662246Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13713,
+      "sha256": "C56A898ABFA2A4BA75D75FAEDE8089D61F4BEAD6A6BE67E06325795AD8EEF5FD",
+      "modified_utc": "2026-09-07T17:34:12.3231251Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 58747516,
+      "sha256": "EF1E9388002EDD8D752F654A4BF974A209EA0C8E6AE3AB67B3923A275EBA4283",
+      "modified_utc": "2026-09-07T17:33:57.1981457Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 43495097,
+      "sha256": "3C8AD8A6F536FE5289EDF69BFCB908A3601CDC585CCD5186B7C4A80CE1460975",
+      "modified_utc": "2026-09-07T17:34:01.7984302Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 45445041,
+      "sha256": "73D5FC29C0826BF01A69B5E113344A9961E291B81F049FF645F461F3CE187934",
+      "modified_utc": "2026-09-07T17:34:06.3265801Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 27464237,
+      "sha256": "6F05F7408A58052BCEFACF90F10525D7F8BC188259D2A2F0C2D828207CB21D44",
+      "modified_utc": "2026-09-07T17:34:09.0919679Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 27517251,
+      "sha256": "FA6B5B27C2180F1E5453940AF0346DB5F19453D6D3A84EAB809ED313CA70FD77",
+      "modified_utc": "2026-09-07T17:34:11.8826600Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 12884,
+      "sha256": "5DAD810A8222E9CA5826EA74CEB5BA1E84B49DA8A493516BBA12313520C7DB5B",
+      "modified_utc": "2026-09-07T17:12:09.2181571Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 55025583,
+      "sha256": "572B1A3D0951E45151F7EDEC4AB8E270DFA079D86ADA231D56BF35FE42ED26E2",
+      "modified_utc": "2026-09-07T17:11:50.9566004Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 47288071,
+      "sha256": "8983A1C2E96F7B1CDF0A318C8C64CC741C72042AF3C1A9BB1DEF06C8890ED14F",
+      "modified_utc": "2026-09-07T17:11:56.2778631Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 48337129,
+      "sha256": "72C29402560DEA402E9D8B85EABD32CE6EE3B6A3C5691488D068B1E7A6540303",
+      "modified_utc": "2026-09-07T17:12:01.7869007Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31932803,
+      "sha256": "2685E8D58717B51EE281DAE3E59D4E701A01173BDC48983BA57F30822B792FF8",
+      "modified_utc": "2026-09-07T17:12:05.7094853Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 27297256,
+      "sha256": "C8FC68AB2AC12299CF7F6652542698AD64B90AC675BDE4C27D3FEFC69D91A3C6",
+      "modified_utc": "2026-09-07T17:12:08.7451026Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2021_5samples_2000ha_2026-09-07.json",
+      "bytes": 114767498,
+      "sha256": "3910C8FAA385EBF59610AC9102719418F21513D3D2049179ADE0B1AA2FA29F17",
+      "modified_utc": "2026-09-07T17:55:23.9599796Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2022_5samples_2000ha_2026-09-07.json",
+      "bytes": 113557199,
+      "sha256": "B1B4A37F339FDDF220765FFA1F68284645C653299ACAD529499445F25D197316",
+      "modified_utc": "2026-09-07T17:37:25.8679508Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 111396378,
+      "sha256": "C49CE4A4CC50E4C85CA46CA56BEC742F22A10CF486402247236D5AA541F259EB",
+      "modified_utc": "2026-09-07T17:15:02.4482260Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 1429,
+      "sha256": "BDB2FC5A125ED0FFEA97BF469DB14AF0FDF7D40DEE9A7930D297E17DBF94288C",
+      "modified_utc": "2026-09-07T17:23:22.3980569Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v02_2021_5samples_2000ha_2026-09-07.json",
+      "bytes": 4695389,
+      "sha256": "A6E17056A760C86505E67190D28F66213ECB7013732EF2F1E9256B3CC6710B16",
+      "modified_utc": "2026-09-07T18:02:11.4081645Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v02_2022_5samples_2000ha_2026-09-07.json",
+      "bytes": 126555,
+      "sha256": "788AC99C1D9915E93F7AB7E903D4F5FBC605CB952E7C8D5728D7CBDBE64DC928",
+      "modified_utc": "2026-09-07T17:39:24.4504935Z"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v02_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 23521056,
+      "sha256": "1212BF692214B9A7770EEBF8C0C240FEA2333C48247200BC77AF2DA554773B37",
+      "modified_utc": "2026-09-07T17:25:44.7324005Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_catalogue_2026-09-06.json",
+      "bytes": 1368,
+      "sha256": "EECA60327EF0E330EB9782FE24FF55440EB518EB6C6511DED17ED318B75E31F1",
+      "modified_utc": "2026-09-06T08:12:34.6112072Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_clms_byoc_2026-09-06.json",
+      "bytes": 3437,
+      "sha256": "FD6312785BCCC17389788E4EB23DC5BD8B6481AB8266DBA8881E62728B88EC0D",
+      "modified_utc": "2026-09-06T08:15:29.0175828Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_cpcsy_multisample_validation_v02_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 320659,
+      "sha256": "9B7841EF6661FB2EAF0B1492A2D5CC4316A37E498721D2B2019458349D6FE3F6",
+      "modified_utc": "2026-09-07T10:38:30.7012975Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_cpcsy_validation_v01_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 81197,
+      "sha256": "7436B4757D591412B7FAEF2C3554DF85540D925690C17453111D206364F3A871",
+      "modified_utc": "2026-09-07T10:10:45.9937160Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CPMCE_2023_100m_test_2026-09-06.json",
+      "bytes": 1064,
+      "sha256": "9685D50ADE8D81D5F02A18AEE4D7F78AF605947BE723CF7C75A2C1A1A69D2D46",
+      "modified_utc": "2026-09-06T14:10:48.2311173Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CPMCE_2023_100m_test_2026-09-06.tif",
+      "bytes": 451,
+      "sha256": "4F9DF94993F2AB70990B1B51349AF7F7E4E57E4D20B2353D60CFE78D308A16E8",
+      "modified_utc": "2026-09-06T14:10:48.2288802Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_crop_distribution_2023_2026-09-06.json",
+      "bytes": 507100,
+      "sha256": "2435461F7D45A4AADC098E5E64E09A58CEB48B7620B449F78E101578DA3EB890",
+      "modified_utc": "2026-09-06T13:46:52.6216946Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_crop_types_2023_2026-09-06.json",
+      "bytes": 501673,
+      "sha256": "8BF45A6156A26776C58CA352A73D34C96EF5E0A3787472038EC9109C53240BFB",
+      "modified_utc": "2026-09-06T13:25:29.7687437Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CTY_CPMCE_2023_100m_test_2026-09-06.tif",
+      "bytes": 474,
+      "sha256": "3B0158AAC0490E6C1D8E1B4FE9827E6A29006C87AB57EDC58B26FC9AE4634CA0",
+      "modified_utc": "2026-09-06T14:15:06.3677723Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CTY_CPMCE_CPMCECL_2023_100m_test_2026-09-06.tif",
+      "bytes": 502,
+      "sha256": "134A378BADCD14D2C4ADCD7D169825976E31F754E7D275B5CED91F2EE401BFA1",
+      "modified_utc": "2026-09-06T15:09:48.1432518Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_evidence_diagnostics_v01_2022_vs_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 100500,
+      "sha256": "8F609FBC177DFF5D14016721C670CE129A844A9250F12404536B6D5B8E187B0C",
+      "modified_utc": "2026-09-07T12:02:18.8055698Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 16859,
+      "sha256": "661B7BB776CD78F29DB9CA41B3BD4155D6FC346B0B1A0354C1B6F1B4D5F8E412",
+      "modified_utc": "2026-09-07T12:25:26.3269464Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 53689081,
+      "sha256": "2D284DEFA1EED94F8B08DEF5132ED9BDA64FE62CC20BFEAF107379E53B4385EC",
+      "modified_utc": "2026-09-07T17:50:23.7778534Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24620,
+      "sha256": "35D7B5141CFB2FD0BF94FB03B236D6F3B81DB79C9D4B7ECC624168416F203EAC",
+      "modified_utc": "2026-09-07T17:50:19.3425970Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 54972561,
+      "sha256": "53E128CA931E76B11445D01050EB520220255C59FDE7CC7049F6CEB513B9C1A9",
+      "modified_utc": "2026-09-07T17:50:29.1181872Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 18184,
+      "sha256": "6AA4BF995C69B050E46BB85B6B901F0479E306A3C6FEE8F127BCA12037D49625",
+      "modified_utc": "2026-09-07T17:50:25.2482862Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 55519483,
+      "sha256": "B6CC6A99998C713A664701993B04662BA0795FD23A62B3C41E02FBA3AA9C204E",
+      "modified_utc": "2026-09-07T17:50:34.8965156Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 10473,
+      "sha256": "98819323E745B7B3ED66644F4B4BAB5ED078BC8EBF7907350283BAA118B52DDB",
+      "modified_utc": "2026-09-07T17:50:31.0214164Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55952610,
+      "sha256": "FA274792E7FEC2252D907B5028881A852099F72DBD408CB846456D805D662806",
+      "modified_utc": "2026-09-07T17:50:40.3397582Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13494,
+      "sha256": "ABD4AE99895E04EA35E9432F40C860FDB7224D170F0DFE78BA0F895F8C228AF3",
+      "modified_utc": "2026-09-07T17:50:36.2684719Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 56093667,
+      "sha256": "8B815E22D6528B2637EFA4BA6122AE320E73F9D577BF087396487532B572E54D",
+      "modified_utc": "2026-09-07T17:50:45.6132933Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5868,
+      "sha256": "BBE2E47C0D918B4ADB0AE8F4FDC77D713EBEFA0981F0FE7E456193754E0138EB",
+      "modified_utc": "2026-09-07T17:50:41.8096135Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 17612,
+      "sha256": "F4C6E5FC02632010653684AF99F72752C9FAAD4750F45A043A419A6C103D2482",
+      "modified_utc": "2026-09-07T11:28:46.7991890Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 53900168,
+      "sha256": "623B20EF7E83B086DF3E4793F8F5301F455223154EC4723A5D5F424290B23867",
+      "modified_utc": "2026-09-07T11:28:23.3203117Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24114,
+      "sha256": "BDA6DEF9344C21B9E940C28217C45A529E74FC06C4635B99A3B9E7F8FC058CA1",
+      "modified_utc": "2026-09-07T11:28:19.0262394Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 54963107,
+      "sha256": "394802330A8F9C82EA866C7099C212389C00835FB25C05017DFB7606AC66A3F0",
+      "modified_utc": "2026-09-07T11:28:28.7382854Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 17554,
+      "sha256": "E5200EDD51F3262565ECC070A575FE393713E2AAD18B7F0D4DC1B8F94E7094D4",
+      "modified_utc": "2026-09-07T11:28:24.9789726Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 55511874,
+      "sha256": "1CA2F0C1065B4EEAF7E4148C69ED3F5D0979B44ED593132D0FD9CDF04BC3B5E0",
+      "modified_utc": "2026-09-07T11:28:34.3680291Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 10765,
+      "sha256": "B5E11ABA1C436834215BD1F856D502738503961B314A748CE6294DBC4F864877",
+      "modified_utc": "2026-09-07T11:28:30.6014293Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 56109690,
+      "sha256": "B2B1012D98B8FF2945CCE5367877B23EFD265B01906ECFB4466DFE9A0912484A",
+      "modified_utc": "2026-09-07T11:28:41.1595498Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13313,
+      "sha256": "E72986441110256AD96A22A46C27F7F2F69DA5932B6819BAB3A4107718545401",
+      "modified_utc": "2026-09-07T11:28:36.9386474Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 56094205,
+      "sha256": "8E0A242417F9D96C647F7AAB557063AAA86A80B45FC6E0B19A0F57EAD8412E96",
+      "modified_utc": "2026-09-07T11:28:46.7593588Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5563,
+      "sha256": "6E85122FE312E56A07ED0A483C9896BA4D1F43770E6D9E791CA41D3A2C25034B",
+      "modified_utc": "2026-09-07T11:28:42.5539655Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_2023_100m_test_2026-09-06.json",
+      "bytes": 21951,
+      "sha256": "6836F2A5D5A91CA43A02123AB76A234E9BA868B5030AC7887212F3BBBB921703",
+      "modified_utc": "2026-09-06T14:15:06.5420146Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v02_2023_100m_test_2026-09-06.json",
+      "bytes": 51174,
+      "sha256": "285E43B6E57A267150AF900F98D44DD273AA0A3479707860492344E384ADE9C6",
+      "modified_utc": "2026-09-06T15:09:48.5471296Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v03_2023_100m_test_2026-09-06.json",
+      "bytes": 83301,
+      "sha256": "D5B2FA538DBDDC551795B01D698CC4F9F02691BC39CC6F89212166826C139D8A",
+      "modified_utc": "2026-09-06T15:11:10.1924802Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v03_2023_100m_test_2026-09-06.tif",
+      "bytes": 528,
+      "sha256": "B37AEE367720A722FA6799832D9511FAFFD461DDE41B24F45051957A754F6DB2",
+      "modified_utc": "2026-09-06T15:11:10.0628218Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v04_2023_100m_test_2026-09-06.json",
+      "bytes": 99130,
+      "sha256": "239228618CA04E1A7BFDE40DA8C5F68267DD794F7F429C2BD81E6245B635629F",
+      "modified_utc": "2026-09-06T17:43:41.4320064Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v04_2023_100m_test_2026-09-06.tif",
+      "bytes": 538,
+      "sha256": "259D5B6ACF0D03B45A221C0B12BEE1DB084F2206E12E54F6BB44F312D014B8F6",
+      "modified_utc": "2026-09-06T17:43:41.1517813Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v05_2023_100m_test_2026-09-06.json",
+      "bytes": 122753,
+      "sha256": "5688D381EDA46B64F679D9EE1382DEABAF50FB34B8498CDC8C57A7653221BE7A",
+      "modified_utc": "2026-09-06T18:54:13.4729199Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v05_2023_100m_test_2026-09-06.tif",
+      "bytes": 553,
+      "sha256": "1F63EDE71089E696B335939FF7CA1CA028422120B7F4A01FC470760277116624",
+      "modified_utc": "2026-09-06T18:54:13.1534482Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v06_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 47376336,
+      "sha256": "3E2F30DA9A9C5E5C994D842D22D908B65794EB408DFBE659B629FDF939BEE817",
+      "modified_utc": "2026-09-07T08:05:04.3919925Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v06_2023_2km_400ha_test_2026-09-07.tif",
+      "bytes": 23548,
+      "sha256": "A02EF72222A361FD08033922C4B20931882C6EE51003EC88061DA7CDA33690BE",
+      "modified_utc": "2026-09-07T08:04:49.5532708Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13070,
+      "sha256": "FE3CAE3BD2E9670D8CAF3D27D502F89993E1ED92105AE0272C4F7AEF4D4AF37B",
+      "modified_utc": "2026-09-07T09:30:06.0723771Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 47376539,
+      "sha256": "7B0F3AA90050AAED51047D85CBC9B776DD863FE2CFFDA4BD4C0840EB6610E379",
+      "modified_utc": "2026-09-07T09:29:29.0024552Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 23548,
+      "sha256": "A02EF72222A361FD08033922C4B20931882C6EE51003EC88061DA7CDA33690BE",
+      "modified_utc": "2026-09-07T09:29:22.4914540Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 48670162,
+      "sha256": "D5C7ADBE5751BDE54F7F361C4271C135041A14E543F04E99DE44A327F374EBAD",
+      "modified_utc": "2026-09-07T09:29:36.6684589Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 17091,
+      "sha256": "2C9FF9DB24F952C9CEAEC6000A6D8EDDE3F708ACFA40D6F3BC0039C6ADA6CF98",
+      "modified_utc": "2026-09-07T09:29:30.3684369Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 49307558,
+      "sha256": "C6FC6021685756CEB77267F898BE7B711CD4A937B3DA1FC35201C7B549F1412C",
+      "modified_utc": "2026-09-07T09:29:46.5661640Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 10665,
+      "sha256": "E26FC0749F191E1202F479553036406F9FF99878C94CD607DB7E79054DC37B1B",
+      "modified_utc": "2026-09-07T09:29:38.5434983Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 49727909,
+      "sha256": "D32D9A617ADFA343B15B9FA5975EEF5A16BDC26C66BDD0CB85AD761CFBE3213E",
+      "modified_utc": "2026-09-07T09:29:55.8111321Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13036,
+      "sha256": "27180DD851F8682A9783AD9ACA31F0F5BB9D00E91A8D791B73885DEB4675D0F2",
+      "modified_utc": "2026-09-07T09:29:47.7207816Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 49935385,
+      "sha256": "E4742AD1BBD18EA6BE6FD0EFD9FC165DF97882C610FB09447B5EB155F1F77BEA",
+      "modified_utc": "2026-09-07T09:30:06.0127882Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5040,
+      "sha256": "66BA6D272F6DDF0FE180F9CFC1F180C940D233A0126B6DE09C04612C41085529",
+      "modified_utc": "2026-09-07T09:29:57.1787407Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v08_cpcsy_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 53606586,
+      "sha256": "FE7BD6C44F528E4EBDB28E7F97A3490E28EF57343BD43D29CDA093A28E74FA2A",
+      "modified_utc": "2026-09-07T10:05:55.7877992Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v08_cpcsy_2023_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24896,
+      "sha256": "E7B413F278D590A7B5E1CA088793DC0764EE03D724C0119AE002BFA4AAF4C8DA",
+      "modified_utc": "2026-09-07T10:05:51.1382256Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 17730,
+      "sha256": "9231240027B0356880D33E5B51E60532DDDF1FA7E3EC053A6BE0433D53783177",
+      "modified_utc": "2026-09-07T10:16:16.5722919Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 53606875,
+      "sha256": "F72C3B7BA8E19C2602ACD606DB4CA648ABBE47628F2554751AC29D21244720AA",
+      "modified_utc": "2026-09-07T10:15:44.4883449Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24896,
+      "sha256": "E7B413F278D590A7B5E1CA088793DC0764EE03D724C0119AE002BFA4AAF4C8DA",
+      "modified_utc": "2026-09-07T10:15:37.5131700Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 54865930,
+      "sha256": "10DD72E86ADE5989640BB5D46FFA1A61F41634B7B1F25AA3DB6E1FAD3275AC00",
+      "modified_utc": "2026-09-07T10:15:52.3797357Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 18149,
+      "sha256": "18686DCE278B808ED28F2C8D360ED1D02677F50419292E390BC2F0D760265FD1",
+      "modified_utc": "2026-09-07T10:15:45.9108726Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 55478890,
+      "sha256": "C7B5CF70970B4669720055125FA538D22CF8784CEC8F06902BE31E21544476E8",
+      "modified_utc": "2026-09-07T10:15:59.8589503Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 11308,
+      "sha256": "605E0ED24CA461EDEACE18FED96BE7453D878719D4E90355E801FD1EEF6C957D",
+      "modified_utc": "2026-09-07T10:15:54.0039218Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55974499,
+      "sha256": "B391393120DB90C9049755181BE12AF79F62C523B85217D42CF0A1AF7800D08E",
+      "modified_utc": "2026-09-07T10:16:09.0180628Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13823,
+      "sha256": "AB18A0AB950A4FE6EA10E20182128E4FDA2BDF5EFF7384A66214E4637E5A07EB",
+      "modified_utc": "2026-09-07T10:16:01.7626278Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 56077274,
+      "sha256": "A0E044CF7E36757F90C4806F85DA2DC5C566123F73A123760B5A2191F4926AA7",
+      "modified_utc": "2026-09-07T10:16:16.5186972Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5392,
+      "sha256": "E5127C74E99DE25B3CAD430274F7263E61D3CDD3489CE864BA586AECD449CD7D",
+      "modified_utc": "2026-09-07T10:16:10.2751627Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_rapeseed_transitional_weight_sensitivity_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 60542,
+      "sha256": "13ABAB3153BE811BECF34973F36B65F794864F4E81ACA80F182D6535CF7B8254",
+      "modified_utc": "2026-09-07T10:55:14.8703540Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v01_2023_100m_test.json",
+      "bytes": 27270,
+      "sha256": "EC9E0D684A414A9AB388ABDA58A4B65E9E9113848C8DBE682BD8CEC5919396FE",
+      "modified_utc": "2026-09-06T18:57:30.5993075Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v02_2023_100m_test.json",
+      "bytes": 71484,
+      "sha256": "670F8C5DAADAE1AE70474F780A334EEE03331E7897B4968D9397CCCBCDD9354C",
+      "modified_utc": "2026-09-07T08:21:45.9224296Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v03_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 49547371,
+      "sha256": "4E98117900255E62AF9C936A1A2179197E74290FDBBFECC1A2B4B4729FBA846F",
+      "modified_utc": "2026-09-07T08:24:24.8093251Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13607,
+      "sha256": "11E0AA14B2F64FA3E9EE244259671D5A22B5A22E117DAED9ED7512CAC55E1122",
+      "modified_utc": "2026-09-07T09:40:09.8892564Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 49547398,
+      "sha256": "C99E9D370ABD4B9704ED415B6DD06E223096B729DD2EE55CFA33C517A9B4AFEB",
+      "modified_utc": "2026-09-07T09:39:35.2737009Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 39687817,
+      "sha256": "FF9206B68C1DC5F6E12350AB401E8824C8F9B150B1EE21B09AC76DAF483C3241",
+      "modified_utc": "2026-09-07T09:39:47.0183392Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31195202,
+      "sha256": "7C2DEC493BC0FC1767CB1A5B63CE517D827E3C7733797DF7AEC7333DB87AD95D",
+      "modified_utc": "2026-09-07T09:39:54.0279899Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31137318,
+      "sha256": "795771E41E603752091476665D7ECBC991334A92EE8F5DA43D08D88DB82F32F9",
+      "modified_utc": "2026-09-07T09:40:01.9601656Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26139233,
+      "sha256": "06C770360A981BE1F3BE17EDF1CF8870BA420A0DC13E7D1F7F3E99BCFB5052F4",
+      "modified_utc": "2026-09-07T09:40:09.5183156Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 14209,
+      "sha256": "70CA93C7B6C4F8540F65F3382E88B0D5B50CFBA667AB82E83D763F5863810E78",
+      "modified_utc": "2026-09-07T15:36:18.0182279Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 46342622,
+      "sha256": "D3EA9769A99CD8376D785F66A53D896EA836E30CB709A746C29A5F85EBC30BB1",
+      "modified_utc": "2026-09-07T15:36:04.4218268Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 38431931,
+      "sha256": "D6C970AFC5608A27B5BC13CC6AE64A203468CF4413DC9A22F75BD91BF85E0637",
+      "modified_utc": "2026-09-07T15:36:08.8580763Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31307230,
+      "sha256": "3559CCD678AC478E0CFC93DA9C0E203B3753D69CC3D970DE2765EA97B901BC18",
+      "modified_utc": "2026-09-07T15:36:11.9204429Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 32051182,
+      "sha256": "5AC0DE9D5731B70AA28B1AD85D70C66830FDEDA0A8C84A612876882B73086AB5",
+      "modified_utc": "2026-09-07T15:36:15.1205522Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26289472,
+      "sha256": "E294DE3BBBC0C968AE0FF356BA41DF60F96063797846FE628609AE3183584F26",
+      "modified_utc": "2026-09-07T15:36:17.8617284Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 14167,
+      "sha256": "4A5AB7D77EF84B2999B60646ABDEBC9BD8DCD092AC130C9B0605B0097F29A407",
+      "modified_utc": "2026-09-07T11:39:26.4265221Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 45708098,
+      "sha256": "D3665FAAFF3C71A0B09417859B86AC370BA113EF7069D2F6B9A4CFCA572634E8",
+      "modified_utc": "2026-09-07T11:39:04.1081389Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 39006841,
+      "sha256": "20CDFCE632DAFF434EAC46742BA6458A5BFC09F7695638849FCC46E61A66D59A",
+      "modified_utc": "2026-09-07T11:39:11.2181693Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31011133,
+      "sha256": "01B360225F91B898BD7B6D95AC59DE80824AB8C153CA26D1959A4CF67C712E95",
+      "modified_utc": "2026-09-07T11:39:16.8211922Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31272927,
+      "sha256": "983F3B7CFCE44D7A6CF32D227C7B699437CBF41705A97CCA999F454E6625A693",
+      "modified_utc": "2026-09-07T11:39:22.3781950Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26180501,
+      "sha256": "A393C8C98618B549AE969162E2C679340E2E05878662607B3CACA04E138639D3",
+      "modified_utc": "2026-09-07T11:39:26.2495405Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13830,
+      "sha256": "ECFA186EE347B76440ECFFBE3BC32AC912E6052D29A2202D6A207E4C1668FCFA",
+      "modified_utc": "2026-09-07T10:52:17.5123767Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 49813228,
+      "sha256": "404231ED7C01C4EEF4BEAF1CB0810C302FCDB0C5E6ED46C0DE3FBB4150CAE3EA",
+      "modified_utc": "2026-09-07T10:52:01.1497243Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 40182066,
+      "sha256": "E0DC9D11D9ABA10603473D951A9D14632E4FB51BDA792828EE06B53CB5B27237",
+      "modified_utc": "2026-09-07T10:52:06.6531301Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31195280,
+      "sha256": "AA2DD7A304BD1E521EAC2D815C0C0FE3D1622565732D4DA83E5138A13E83594A",
+      "modified_utc": "2026-09-07T10:52:10.3434496Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31137396,
+      "sha256": "67E79711606E4F4EA73DAC115F3646B899D227A49E5D3D7353951356FB936D83",
+      "modified_utc": "2026-09-07T10:52:14.2800897Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26139311,
+      "sha256": "1AE3D17919262C5B8EBBF1C5C73B9C69E0E5687039E5C81441654341D435F1FF",
+      "modified_utc": "2026-09-07T10:52:17.3392972Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_vs_v04_comparison_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 555051,
+      "sha256": "42481042F5457ED8A474888630400A3A66E444D838575DB8272E299949DB4993",
+      "modified_utc": "2026-09-07T10:52:25.8101433Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v06_clms_rules_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 5714771,
+      "sha256": "04908F0BACB464893EF55C473F80BB74F54A5B3E2EECA06F1EC3130CBBF3B8B9",
+      "modified_utc": "2026-09-07T11:02:52.2183924Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v07_hybrid_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 86637427,
+      "sha256": "5A4D55AC215154B9F1F985D83B53D0EA513A1285E10E7C6C0D882BADA227B316",
+      "modified_utc": "2026-09-07T11:18:29.1082787Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v07_hybrid_multiyear_validation_2021_5samples_2000ha_2026-09-07.json",
+      "bytes": 79942740,
+      "sha256": "B3CCE97E612D0485BEBBD4FE10CE0DD3D0FDD905BEB8E5093A4ADD8DA6937359",
+      "modified_utc": "2026-09-07T16:15:37.7082153Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v07_hybrid_multiyear_validation_2022_5samples_2000ha_2026-09-07.json",
+      "bytes": 81793558,
+      "sha256": "63A4CC2E4AF28C81E1839296386D41DD0F5CABE739073CC5BBB9A89067E09BCD",
+      "modified_utc": "2026-09-07T16:13:36.8197507Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_conflict_diagnostics_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 34102,
+      "sha256": "14FCF9702B3415F47ED1198355DF4E8E003FB672F9976D6A92F608CB15074029",
+      "modified_utc": "2026-09-07T11:11:29.5070283Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_cross_validator_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 69929,
+      "sha256": "2DB56D240B2CA01039FD8867C6C3F6FD25425535AB45244B34AEAF6A1118B90E",
+      "modified_utc": "2026-09-07T11:08:31.2479978Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_diagnostics_v01_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 49127,
+      "sha256": "08B8E8E87BA8FE52281333E72EA2A32A5CBC8292C06B8F72AFA57124F5D0069D",
+      "modified_utc": "2026-09-07T09:54:37.1081360Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_diagnostics_v02_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 211279,
+      "sha256": "CD98A6FEDDFFEB4265CEF59B40A82EB627881E89A46C96CC349D42DCED3819BF",
+      "modified_utc": "2026-09-07T09:58:01.4465078Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_evidence_audit_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 41158,
+      "sha256": "81F20BF1915D192590AA1F7A723DA23F4CD2EF679E19E5C82119BE23368FB70C",
+      "modified_utc": "2026-09-07T11:14:53.0098626Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_multiyear_conflict_diagnostics_v01_2021_2022_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 97993,
+      "sha256": "C4C06BF00C3CD460E42D6FE76A2686FB13D9D9445D1735943E69AF172CC17AFB",
+      "modified_utc": "2026-09-07T16:21:40.6222504Z"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_rule_audit_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 298312,
+      "sha256": "351AC1EA6E2B0FE759DF6384ACBCE3BFDACE5E36E97E7E5267CC56B8E3C7CC87",
+      "modified_utc": "2026-09-07T10:44:47.3840423Z"
+    },
+    {
+      "path": "data/raw/geojson.io _ Powered by Mapbox.url",
+      "bytes": 263,
+      "sha256": "E87F4B572B990944CAF106EF7143CEEC9000301C5EE36728E30409296B4C38AD",
+      "modified_utc": "2026-09-08T13:30:14.9787253Z"
+    },
+    {
+      "path": "data/raw/weather_history/PL_EAST_2026-09-05.json",
+      "bytes": 1621,
+      "sha256": "4325DC4E457AB82508DF3047243EF2FF3C21E675EDC55816442E9F331CBDB243",
+      "modified_utc": "2026-09-06T08:03:09.4900619Z"
+    },
+    {
+      "path": "data/raw/weather/2026-09-05.json",
+      "bytes": 331004,
+      "sha256": "00601FF50843FF53F18CB6CBD040E8EB49B58255B5A723622A1F6788105CDA79",
+      "modified_utc": "2026-09-05T19:37:32.0008341Z"
+    },
+    {
+      "path": "data/seed_production/DE_BSA_2024_quantities_v01.json",
+      "bytes": 4176,
+      "sha256": "AAE4A7410249A7A723F7A3C4E39D3F8338FD413AAA7A4A6370A56743A62E0455",
+      "modified_utc": "2026-09-12T19:15:43.6438635Z"
+    },
+    {
+      "path": "data/seed_production/DE_BSA_2024_source.pdf",
+      "bytes": 464435,
+      "sha256": "36CB61014DA47FFBBAEFE2F8CF3CA61B4AD40FCED77FB9C687D8E29767A686FC",
+      "modified_utc": "2026-09-13T06:36:34.2993083Z"
+    },
+    {
+      "path": "data/seed_production/DE_verify-32.png",
+      "bytes": 320379,
+      "sha256": "89E92930B3DF260B0EA29E9336F196143C55A54648426348B794664F4DFBAA2B",
+      "modified_utc": "2026-09-13T06:36:46.9411532Z"
+    },
+    {
+      "path": "data/seed_production/DE_verify-33.png",
+      "bytes": 249032,
+      "sha256": "9EF04A9DF54DB85EE5A76A07094AED41CB6FD5D397315E27F6B592BA2290D2CB",
+      "modified_utc": "2026-09-13T06:36:47.5148521Z"
+    },
+    {
+      "path": "data/seed_production/DE_visual_verification_v01.json",
+      "bytes": 836,
+      "sha256": "8C912EDE82F9BA8732595EFE38E21164CA37DF16034BE1FE098595A58D06F197",
+      "modified_utc": "2026-09-13T06:37:26.2183997Z"
+    },
+    {
+      "path": "data/seed_production/FR_chart_check.png",
+      "bytes": 192276,
+      "sha256": "46C553FB142EAE40A41D63AB5A5C784FF6EB36BDEAA028066D0C20A6D2149CC7",
+      "modified_utc": "2026-09-13T03:30:57.6459581Z"
+    },
+    {
+      "path": "data/seed_production/FR_SEMAE_2025_note.pdf",
+      "bytes": 744950,
+      "sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+      "modified_utc": "2026-09-13T03:30:30.5289296Z"
+    },
+    {
+      "path": "data/seed_production/FR_SEMAE_2025_provisional_areas_v01.json",
+      "bytes": 2523,
+      "sha256": "12490AAD9B8E0A94AC6A67CB56CE186F9E9E4DF55411C07A626876D45971E21A",
+      "modified_utc": "2026-09-13T03:31:35.7706391Z"
+    },
+    {
+      "path": "data/seed_production/IT_CREA_2024_areas_v01.json",
+      "bytes": 3415,
+      "sha256": "3CA7555F0E4119BC83793CFEEE2C3AB5709A61FB7246CD433600CFCFD45DA5E3",
+      "modified_utc": "2026-09-12T22:21:11.3153200Z"
+    },
+    {
+      "path": "data/seed_production/IT_CREA_history_source.xlsx",
+      "bytes": 213149,
+      "sha256": "681DE521B8BEA219590B68BDE0CA824A87532F53D89147DAE2D8C6B6BB2A50E6",
+      "modified_utc": "2026-09-12T22:19:52.4095082Z"
+    },
+    {
+      "path": "data/seed_production/PL_PIORIN_2024_areas_v01.json",
+      "bytes": 3470,
+      "sha256": "A64FEFF550211E00FE0829FB932FC86DEEF5B77F9A3C20F0E02574D0A5B73FF6",
+      "modified_utc": "2026-09-12T21:18:37.3473825Z"
+    },
+    {
+      "path": "data/seed_production/PL_PIORIN_2024_source.pdf",
+      "bytes": 118580,
+      "sha256": "62624C1B0D8F61821F608C78150D0A996CCE73322CB1D4D8FE4E6249A063F359",
+      "modified_utc": "2026-09-13T07:38:05.4512366Z"
+    },
+    {
+      "path": "data/seed_production/PL_PIORIN_2024_westerwolds_supplement.json",
+      "bytes": 998,
+      "sha256": "3E9F37ABFD76A85AE83091AC3478DFDF4CC0F6EC651C64367D1461CB3194C3AF",
+      "modified_utc": "2026-09-13T07:39:54.2596740Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_1.png",
+      "bytes": 242714,
+      "sha256": "5D1A4047B477C6F160B2ECFA0216A1EE4F667A54C8B3DA2565827AD5D211F3EF",
+      "modified_utc": "2026-09-13T07:38:06.5792896Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_11.png",
+      "bytes": 213244,
+      "sha256": "45AED9EED9E422F07C0AA2F02F36FC52478DA584C662A2974E6304AEDC53105F",
+      "modified_utc": "2026-09-13T07:38:10.8127257Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_12.png",
+      "bytes": 232559,
+      "sha256": "F6FE0B054AE838CD4FEBABD38CE9ACA0DD1D4293BB200866E44856EDADD39F9F",
+      "modified_utc": "2026-09-13T07:38:11.9741725Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_2.png",
+      "bytes": 245069,
+      "sha256": "821517739B83238BF83C728A959D7A2F48038F76F51A9CC11A9E3D74EC3F3DAF",
+      "modified_utc": "2026-09-13T07:38:07.5046266Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_3.png",
+      "bytes": 213925,
+      "sha256": "631330D5E48DA6C5A10CD7A4516D30BB85A2A6A90A69CBC808A8F9EE0D8EB8B3",
+      "modified_utc": "2026-09-13T07:38:08.5125908Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_4.png",
+      "bytes": 219242,
+      "sha256": "83FFADAC2B1756B1569D0FF4D0CAC83CD6CD6EA00C005AC7E5D7E8AB360769E0",
+      "modified_utc": "2026-09-13T07:38:09.3936848Z"
+    },
+    {
+      "path": "data/seed_production/PL_verify_7.png",
+      "bytes": 205421,
+      "sha256": "B9A8C541F0FD97EA9C9D304D8D995D7F33FFA475B509080EDD07781E767E75A5",
+      "modified_utc": "2026-09-13T07:38:10.1091097Z"
+    },
+    {
+      "path": "data/seed_production/PL_visual_verification_v01.json",
+      "bytes": 700,
+      "sha256": "6590F1C6BAB20CE975469B07A4F74BD2045C6680B029C1E6342BCC5E92B5DF15",
+      "modified_utc": "2026-09-13T07:39:54.2196265Z"
+    },
+    {
+      "path": "data/seed_production/supply_v01_2024_r02.json",
+      "bytes": 65338,
+      "sha256": "D4BA37F857C44A656895A7CF62508BBF97913AB6C8959004E3A275EA2DFCE95F",
+      "modified_utc": "2026-09-13T08:41:02.5891641Z"
+    },
+    {
+      "path": "data/seed_production/supply_v01_2024.json",
+      "bytes": 51188,
+      "sha256": "87945D38AC33D3E63832041786F6125AB938F2672424DEE64414EC64DA1E7ADA",
+      "modified_utc": "2026-09-13T00:25:25.7534254Z"
+    },
+    {
+      "path": "data/seed_production/supply_v01_2025.json",
+      "bytes": 9271,
+      "sha256": "312C127B2966ED9B9DC2215579ACC9E1D99DB6F617EF3862B9DAE83B99C3D6E0",
+      "modified_utc": "2026-09-13T04:33:05.7497247Z"
+    },
+    {
+      "path": "data/trade/CN_2026_official.pdf",
+      "bytes": 14185342,
+      "sha256": "103BC36C6357D67EC24551288C493398B593627CE7F87744BE7B988E2B5EE057",
+      "modified_utc": "2026-09-13T01:26:59.2636565Z"
+    },
+    {
+      "path": "data/trade/CN_2026_source_hash.json",
+      "bytes": 173,
+      "sha256": "FB5D801898FFAD5A17D863E6C182E322B88DF1B18D719FE02C0919F2F7A1C90C",
+      "modified_utc": "2026-09-13T01:27:44.1440016Z"
+    },
+    {
+      "path": "data/validation/lt_2023_declared_season_vocabulary.json",
+      "bytes": 1887,
+      "sha256": "2F5C8F8C83231ACC62D42F2C349221D07BF87A0743E933E553E6C31F7526410B",
+      "modified_utc": "2026-09-11T06:42:00.5760706Z"
+    },
+    {
+      "path": "data/validation/lt_public_release_schema_v01.json",
+      "bytes": 1396,
+      "sha256": "100C848504E2AA6863E027912605494309D67B9807BB22ABD296FC73506ACEF9",
+      "modified_utc": "2026-09-11T09:50:42.0857722Z"
+    },
+    {
+      "path": "data/validation/selection_event_v01.json",
+      "bytes": 30548,
+      "sha256": "E5806C9FBC1BE9022B40015F893CF2D7A01C8707540A496DF604EED5AB1505F9",
+      "modified_utc": "2026-09-10T19:38:44.7532394Z"
+    },
+    {
+      "path": "data/validation/spatial_geometry_v01.json",
+      "bytes": 11734,
+      "sha256": "0A317C9A3808D5B2909CF6FC343C22A936B0106C7059D172FDFCCD757DB35847",
+      "modified_utc": "2026-09-11T04:36:02.7020494Z"
+    },
+    {
+      "path": "docs/control/BASELINE_2026-09-12_cycle.json",
+      "bytes": 81237,
+      "sha256": "EB383951E1E5A36A6BD9D33315FF62A871C4F3CE5E3D6BCC161EEE2958DCEBD8",
+      "modified_utc": "2026-09-12T18:12:53.9082799Z"
+    },
+    {
+      "path": "docs/control/BASELINE_2026-09-14_cycle.json",
+      "bytes": 90826,
+      "sha256": "295829B83888F26532B7B280BA11A1B8C557C722CB06123F384C9545F0410251",
+      "modified_utc": "2026-09-14T03:38:10.8635583Z"
+    },
+    {
+      "path": "docs/control/CONTROL_REVIEW_2026-09-13.md",
+      "bytes": 10688,
+      "sha256": "384384FC4D23319A7617E0703B94354A00020440C709FBD2BB3B49A8BFF26A63",
+      "modified_utc": "2026-09-13T18:00:31.8987040Z"
+    },
+    {
+      "path": "docs/control/CONTROL_REVIEW_2026-09-14.md",
+      "bytes": 12120,
+      "sha256": "0853B80F24914FC6F94762EBF956F898C2838E289F42515DA1A553B20DD7BC8E",
+      "modified_utc": "2026-09-14T18:10:02.2752174Z"
+    },
+    {
+      "path": "docs/control/CROP_TRADE_BASKET_V01.md",
+      "bytes": 6124,
+      "sha256": "CE638ACBA9094DA5140DF661E4FC905FF5B8F8B15E2A0A1B43563ADBF6BEEA89",
+      "modified_utc": "2026-09-14T09:02:52.8541037Z"
+    },
+    {
+      "path": "docs/control/CYCLE_2026-09-13.md",
+      "bytes": 19784,
+      "sha256": "D66F4A97E5F667921525A7A75CB063FFB5847A421FC26E82630BFE49713E6FB6",
+      "modified_utc": "2026-09-13T18:00:31.9333975Z"
+    },
+    {
+      "path": "docs/control/CYCLE_2026-09-14.md",
+      "bytes": 6880,
+      "sha256": "94085BFDB56578D804A818BA128ABAC779DA8614DDB9831EF24AF1834BE131D9",
+      "modified_utc": "2026-09-14T18:10:02.2993718Z"
+    },
+    {
+      "path": "docs/control/FILE_INVENTORY_2026-09-14.json",
+      "bytes": 820,
+      "sha256": "0B85361DE7C4DAC43E4A05429771198A9D7505C6ED415E21C459793249B40E14",
+      "modified_utc": "2026-09-14T18:10:02.4216865Z"
+    },
+    {
+      "path": "docs/control/FINAL_FILE_DIFF_2026-09-13.json",
+      "bytes": 2479,
+      "sha256": "83C6BD1A68076DA8B71C77B7B161D286AB09F9692514F130FE3998B29046F38A",
+      "modified_utc": "2026-09-13T17:54:04.3850445Z"
+    },
+    {
+      "path": "docs/control/FINAL_FILE_DIFF_2026-09-14.json",
+      "bytes": 947,
+      "sha256": "217D01B4B45BBFE8EAE4A87D9767F091E74547222156E848C0A5949E2A70B8A7",
+      "modified_utc": "2026-09-14T18:08:23.9021996Z"
+    },
+    {
+      "path": "docs/control/GLOBALWITS_AUDIT_2026-09-14.md",
+      "bytes": 7807,
+      "sha256": "FBEB036E0539E3FD4620A1AA885512EF19352F4B64014892BB960F3406A5DF08",
+      "modified_utc": "2026-09-14T06:59:41.5038156Z"
+    },
+    {
+      "path": "docs/control/INTERIM_FILE_DIFF_2026-09-13.json",
+      "bytes": 1180,
+      "sha256": "1496FD9799FB90F50B3E54A804E7919C49DFC8DE6F367FA266D10056B61AAE5A",
+      "modified_utc": "2026-09-13T05:34:33.9465321Z"
+    },
+    {
+      "path": "docs/control/PRICE_ENGINE_V01_ARCHITECTURE.md",
+      "bytes": 2696,
+      "sha256": "F84608140948106B1F2EA2F4FDC053B44E08058AF9E1DCF27341614554432731",
+      "modified_utc": "2026-09-13T02:29:34.2508121Z"
+    },
+    {
+      "path": "docs/control/SEED_SOURCE_REGISTER.md",
+      "bytes": 4041,
+      "sha256": "A870D024499B8DB41A2C3A9BABC9632640F84F0774298C6199AE5B7C12E19157",
+      "modified_utc": "2026-09-13T10:44:36.8006091Z"
+    },
+    {
+      "path": "docs/control/SUPPLY_ENGINE_V01.md",
+      "bytes": 3150,
+      "sha256": "FEE9E3B89AAD5D9388D97E2A40A6D30D22DBA9A6B9019FB6974D08EDC6C451FF",
+      "modified_utc": "2026-09-13T09:43:07.6609747Z"
+    },
+    {
+      "path": "docs/control/TRADE_MAPPING_CN2026.md",
+      "bytes": 1679,
+      "sha256": "30EA7D52626B416515D093A203B85C3EF1A452C37B8ECEF5EAA525323D58844D",
+      "modified_utc": "2026-09-13T01:27:43.8940562Z"
+    },
+    {
+      "path": "docs/control/TRADE_SIGNAL_SUPPLY_DESIGN_V01.md",
+      "bytes": 3492,
+      "sha256": "B439D6EF2CF23B1935D20F2A861490A23E517A67B3B697FE7E0083271E0D3208",
+      "modified_utc": "2026-09-14T03:51:32.9946223Z"
+    },
+    {
+      "path": "docs/validation/DAILY_REVIEW_2026-09-11.md",
+      "bytes": 4555,
+      "sha256": "57AF4FA9B356656D8BE401F5CC3C5D4285B51AB15E92C7C7B7DF524FD7BB6814",
+      "modified_utc": "2026-09-11T19:00:29.2102565Z"
+    },
+    {
+      "path": "docs/validation/DAILY_REVIEW_2026-09-12.md",
+      "bytes": 4671,
+      "sha256": "47DDD3A9B5A578540A423535632ACF970B536FEE778C890E210DC34999FEA489",
+      "modified_utc": "2026-09-12T00:40:42.8551449Z"
+    },
+    {
+      "path": "docs/validation/EUROCROPS_REFERENCE_LEAD.md",
+      "bytes": 3054,
+      "sha256": "45A6F2CC47E0EF122C7FE41DCE825D5B17A6366B0EED048BB4482249EAF346D0",
+      "modified_utc": "2026-09-11T20:28:38.0207932Z"
+    },
+    {
+      "path": "docs/validation/INDEPENDENT_VALIDATION_PROTOCOL.md",
+      "bytes": 3219,
+      "sha256": "4338229DDA2199D26BAC1E7B977997EA9A42DE3AA07527B8E2205B6836FF0B69",
+      "modified_utc": "2026-09-11T04:36:19.9503582Z"
+    },
+    {
+      "path": "docs/validation/LT_2023_SEASON_VOCABULARY.md",
+      "bytes": 1698,
+      "sha256": "CD3927ECC918DD79C5A19E6554A4449708AF1D3FEEA1F492C4F3074872DD55F7",
+      "modified_utc": "2026-09-11T06:42:14.1166412Z"
+    },
+    {
+      "path": "docs/validation/LT_GEOMETRY_LINKAGE.md",
+      "bytes": 2240,
+      "sha256": "74562876856EED6DABDC0915DB3B7BC876445528FDEBFEEB04F0FBBC7CB85A36",
+      "modified_utc": "2026-09-11T10:56:47.7233833Z"
+    },
+    {
+      "path": "docs/validation/LT_REFERENCE_AVAILABILITY.md",
+      "bytes": 3714,
+      "sha256": "BD749DF259B1E6495913408568AD3FE17ECDE3866F1C538EDF0E77440D93FC2F",
+      "modified_utc": "2026-09-11T09:50:53.1114967Z"
+    },
+    {
+      "path": "docs/validation/LUCAS_2022_SUITABILITY.md",
+      "bytes": 2653,
+      "sha256": "88E10981D2D1A4AFAA150006EFFE49DBBAD8A6225DCFC84A32D5B38FD156E906",
+      "modified_utc": "2026-09-11T23:38:10.4226132Z"
+    },
+    {
+      "path": "docs/validation/NEXT_STEPS.md",
+      "bytes": 9187,
+      "sha256": "4C0021AE0FEAE2DF7C05089C2AAC20EBB6834CCBB2B950F027B704951BDCA29D",
+      "modified_utc": "2026-09-12T12:27:40.8686272Z"
+    },
+    {
+      "path": "docs/validation/REFERENCE_NOTES.md",
+      "bytes": 2012,
+      "sha256": "71315801A926FEB72A9E7F95791AC332089EB1641616AC23C8D9B580C53B5999",
+      "modified_utc": "2026-09-10T19:39:12.0247404Z"
+    },
+    {
+      "path": "docs/validation/REFERENCE_SCREENING.md",
+      "bytes": 2360,
+      "sha256": "79CB888C54EA4FA7856D3DD88065736D257421A718E2AF0FA0C724F0B604FA0D",
+      "modified_utc": "2026-09-11T21:31:29.6768650Z"
+    },
+    {
+      "path": "docs/validation/REPRODUCTION.md",
+      "bytes": 1943,
+      "sha256": "F9764F7CBF526CBB5083CE8B4957851344B565622E4B74996BF56BF27DC8A76E",
+      "modified_utc": "2026-09-11T21:32:53.1285581Z"
+    },
+    {
+      "path": "docs/validation/WORK_LOG.md",
+      "bytes": 17163,
+      "sha256": "30D10F023EFC86F6EA900B22F380EE94452BB3F987AE7DB28B3C363A7C2A408D",
+      "modified_utc": "2026-09-12T12:27:40.8821213Z"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2511,
+      "sha256": "D1777E1C0D7444B94C651A83C7E715E9E0CB916B584D80AE2045D5A9F99B6F23",
+      "modified_utc": "2026-09-05T18:48:23.0649856Z"
+    },
+    {
+      "path": "package.json",
+      "bytes": 365,
+      "sha256": "890A057E0A77280FDB4B302E49F2593A65E541DE7E88C6722B7E3C537716B909",
+      "modified_utc": "2026-09-05T18:48:23.0680954Z"
+    },
+    {
+      "path": "README.md",
+      "bytes": 587,
+      "sha256": "B4D484510EB8E35120DAF41D7BAC46089A2AD17A438DBEA4B579A23DCF76955C",
+      "modified_utc": "2026-09-05T18:48:23.0619868Z"
+    },
+    {
+      "path": "RUN_IN_SANDBOX.ps1",
+      "bytes": 89,
+      "sha256": "051A6C7D1AB5EF560F4091938CCECCEF41B1789F511942AC81E78E21816255ED",
+      "modified_utc": "2026-09-09T18:27:46.2123260Z"
+    },
+    {
+      "path": "SANDBOX_TEST.txt",
+      "bytes": 28,
+      "sha256": "1ABFBA7E393C850277C0D90D688F25054D1EB06A910D912F9C04948DDD8B612A",
+      "modified_utc": "2026-09-10T15:12:27.5052417Z"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 17889,
+      "sha256": "8CCD9C4FF7D3EEE310F0DA1450B6B4594D5F4B512608F8A7D4C0CBFB1ADCBFD9",
+      "modified_utc": "2026-09-05T18:48:23.0753265Z"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 242,
+      "sha256": "FF25DA2C85551A308593923CC74FE9EE4391EAE03577C73B865240ADACFBC1BF",
+      "modified_utc": "2026-09-05T18:48:23.0797616Z"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 21677,
+      "sha256": "763C6EA1C345F77A9A40E058C82A84D4CC8B8FDF71EC68CEF55195962D2832B8",
+      "modified_utc": "2026-09-05T18:48:23.0813049Z"
+    },
+    {
+      "path": "WORK_TEST.txt",
+      "bytes": 19,
+      "sha256": "133760F263EFBDF8E675E3C8CA36E34AC88E3FFF281BA8EC95F934AD13FB9BA3",
+      "modified_utc": "2026-09-10T18:16:17.2032418Z"
+    },
+    {
+      "path": "WORK_WRITE_TEST.txt",
+      "bytes": 28,
+      "sha256": "B76C346C3B651A9CD81FC7BF67CCC15634DC5C370540DD0CF61D6E1A5FC787F2",
+      "modified_utc": "2026-09-10T17:51:09.2325245Z"
+    }
+  ]
+}

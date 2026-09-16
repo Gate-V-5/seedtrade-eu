@@ -1,0 +1,7 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/sdmx/2.1/data/DS-045409/M.DE.PL.12092210+12092280+12092510+12092590+12092945+12040010.2.VALUE_IN_EUROS+QUANTITY_IN_100KG?startPeriod=2026-06&endPeriod=2026-06&format=SDMX-CSV&compressed=false",
+  "retrieved_at": "2026-09-14T21:42:58.9785116Z",
+  "sha256": "014BBE53ECC5C0A12810B5D99EDEDB5A8A0765E4BB1AF11A9B7F7525F06B8148",
+  "file": "data/trade/multisource_20260915/comext_DE_PL_202606_six_CN8_exports.csv",
+  "scope": "one month, one reporter/partner, six CN8, export, two indicators"
+}

@@ -1,0 +1,459 @@
+{
+  "created_utc": "2026-09-11T04:36:02.305481+00:00",
+  "diagnostic_only": true,
+  "inputs_unchanged": true,
+  "input_hashes": {
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.json": "36a308a2da15c19df3efb5a4a99fd93f4b67eac7547a7e05243ab1fa6b02e052",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.json": "777e87091404b41cdde988d955f1796b3e41f4b31bb301162e50b4601b845962",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.json": "43b263f6b11a0ef7c01f37386a9bd3848803e3b1cd6097b2429544ef289a7fb6",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.json": "e17a236791a29afb3b656ea46d692796ede24b0aec5117dc0942f99bdfe09b8d",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.json": "449305655e07b4834838714c19d0b57f1d7013b64f0ccb011546e8198b75be8d",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.json": "5fa867847792527d0a9df93b6a71148186e3b857e6d312c670cdf9e24b2c8cde",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.json": "c5d73f8fb30c60d12d15976a128bb0b865dcde61ad1055001c5fe15eefc93019",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.json": "9c06b94701c391f1a957dac3beb326644279947a4c33d4682f316f6d2ed0f462",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.json": "30e8a5527a4082417f89c6595904b5cebacd902d3891a87bfa327c2f23c23c39",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.json": "5efec846651812b787c561d81efa296b224b1b6193586c64eb6fc37e8c2956ea",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S01_2km_400ha_test_2026-09-07.json": "3337ea4ad5df9821eeb923fead7889c97756099f0555902d98746b34accdd457",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S02_2km_400ha_test_2026-09-07.json": "c3bb77d166b87dce73ad93e6416f4b83a9fa7024282740fc48c91cb217490005",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S03_2km_400ha_test_2026-09-07.json": "689b6b651ec0b417cb6ccca84506aa223745cc3d5d13e7f62e36af77179dca6d",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S04_2km_400ha_test_2026-09-07.json": "cdc618177c963e3f305ee147bd741e5bfbeaab6f71a2bd8a03905f24a6c6fd6c",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S05_2km_400ha_test_2026-09-07.json": "60ab6df1514923dc835e80ff2bf773d81a3578da25622c03c3c005b462f41edc"
+  },
+  "grids": [
+    {
+      "year": 2021,
+      "sample_id": "S01",
+      "crs": "EPSG:32634",
+      "bbox": [
+        666934.5618167194,
+        6219494.643251978,
+        668934.5618167194,
+        6221494.643251978
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2021,
+      "sample_id": "S02",
+      "crs": "EPSG:32634",
+      "bbox": [
+        677408.9192404092,
+        6192058.532137713,
+        679408.9192404092,
+        6194058.532137713
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2021,
+      "sample_id": "S03",
+      "crs": "EPSG:32634",
+      "bbox": [
+        679693.6001151103,
+        6136438.419959509,
+        681693.6001151103,
+        6138438.419959509
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2021,
+      "sample_id": "S04",
+      "crs": "EPSG:32634",
+      "bbox": [
+        639543.8596244997,
+        6101567.471596861,
+        641543.8596244997,
+        6103567.471596861
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2021,
+      "sample_id": "S05",
+      "crs": "EPSG:32634",
+      "bbox": [
+        663518.6590388329,
+        6057831.779112523,
+        665518.6590388329,
+        6059831.779112523
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2022,
+      "sample_id": "S01",
+      "crs": "EPSG:32634",
+      "bbox": [
+        666934.5618167194,
+        6219494.643251978,
+        668934.5618167194,
+        6221494.643251978
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2022,
+      "sample_id": "S02",
+      "crs": "EPSG:32634",
+      "bbox": [
+        677408.9192404092,
+        6192058.532137713,
+        679408.9192404092,
+        6194058.532137713
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2022,
+      "sample_id": "S03",
+      "crs": "EPSG:32634",
+      "bbox": [
+        679693.6001151103,
+        6136438.419959509,
+        681693.6001151103,
+        6138438.419959509
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2022,
+      "sample_id": "S04",
+      "crs": "EPSG:32634",
+      "bbox": [
+        639543.8596244997,
+        6101567.471596861,
+        641543.8596244997,
+        6103567.471596861
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2022,
+      "sample_id": "S05",
+      "crs": "EPSG:32634",
+      "bbox": [
+        663518.6590388329,
+        6057831.779112523,
+        665518.6590388329,
+        6059831.779112523
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2023,
+      "sample_id": "S01",
+      "crs": "EPSG:32634",
+      "bbox": [
+        666934.5618167194,
+        6219494.643251978,
+        668934.5618167194,
+        6221494.643251978
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2023,
+      "sample_id": "S02",
+      "crs": "EPSG:32634",
+      "bbox": [
+        677408.9192404092,
+        6192058.532137713,
+        679408.9192404092,
+        6194058.532137713
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2023,
+      "sample_id": "S03",
+      "crs": "EPSG:32634",
+      "bbox": [
+        679693.6001151103,
+        6136438.419959509,
+        681693.6001151103,
+        6138438.419959509
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2023,
+      "sample_id": "S04",
+      "crs": "EPSG:32634",
+      "bbox": [
+        639543.8596244997,
+        6101567.471596861,
+        641543.8596244997,
+        6103567.471596861
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    },
+    {
+      "year": 2023,
+      "sample_id": "S05",
+      "crs": "EPSG:32634",
+      "bbox": [
+        663518.6590388329,
+        6057831.779112523,
+        665518.6590388329,
+        6059831.779112523
+      ],
+      "width": 200,
+      "height": 200,
+      "dx": 10.0,
+      "dy": 10.0
+    }
+  ],
+  "temporal": [
+    {
+      "sample_id": "S01",
+      "same_grid_all_years": true
+    },
+    {
+      "sample_id": "S02",
+      "same_grid_all_years": true
+    },
+    {
+      "sample_id": "S03",
+      "same_grid_all_years": true
+    },
+    {
+      "sample_id": "S04",
+      "same_grid_all_years": true
+    },
+    {
+      "sample_id": "S05",
+      "same_grid_all_years": true
+    }
+  ],
+  "within_year_pairs": [
+    {
+      "year": 2021,
+      "sample_a": "S01",
+      "sample_b": "S02",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S01",
+      "sample_b": "S03",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S01",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S01",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S02",
+      "sample_b": "S03",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S02",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S02",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S03",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S03",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2021,
+      "sample_a": "S04",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S01",
+      "sample_b": "S02",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S01",
+      "sample_b": "S03",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S01",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S01",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S02",
+      "sample_b": "S03",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S02",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S02",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S03",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S03",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2022,
+      "sample_a": "S04",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S01",
+      "sample_b": "S02",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S01",
+      "sample_b": "S03",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S01",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S01",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S02",
+      "sample_b": "S03",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S02",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S02",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S03",
+      "sample_b": "S04",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S03",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    },
+    {
+      "year": 2023,
+      "sample_a": "S04",
+      "sample_b": "S05",
+      "overlap_m2": 0
+    }
+  ],
+  "limitations": [
+    "Saved metadata comparison, not independent geolocation validation.",
+    "Non-overlap does not establish statistical independence.",
+    "Repeated years at a site must remain grouped for validation.",
+    "Extent area is not crop acreage."
+  ]
+}

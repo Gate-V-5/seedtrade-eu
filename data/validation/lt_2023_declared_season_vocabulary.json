@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "reference_year": 2023,
+  "status": "VOCABULARY_ONLY_NOT_PARCEL_REFERENCE",
+  "source_url": "https://zudc.lt/wp-content/uploads/2024/01/4_Deklaruotos-zemes-ukio-naudmenos-ir-kiti-plotai_2023.pdf",
+  "source_page": 1,
+  "source_title": "2023 m. deklaruotas bendras plotas pagal žemės ūkio naudmenų ir kitų plotų klasifikatoriaus kodą",
+  "accessed_utc_date": "2026-09-11",
+  "verification": "Official PDF text extracted by web retrieval; screenshot retrieval failed. No parcel records acquired.",
+  "entries": [
+    {"code": "KVV", "source_label": "Vasariniai kviečiai", "english_label": "Spring wheat", "declared_season": "SPRING"},
+    {"code": "KVŽ", "source_label": "Žieminiai kviečiai", "english_label": "Winter wheat", "declared_season": "WINTER"},
+    {"code": "MIV", "source_label": "Vasariniai miežiai", "english_label": "Spring barley", "declared_season": "SPRING"},
+    {"code": "MIŽ", "source_label": "Žieminiai miežiai", "english_label": "Winter barley", "declared_season": "WINTER"},
+    {"code": "RAV", "source_label": "Vasariniai rapsai", "english_label": "Spring rapeseed", "declared_season": "SPRING"},
+    {"code": "RAŽ", "source_label": "Žieminiai rapsai", "english_label": "Winter rapeseed", "declared_season": "WINTER"}
+  ],
+  "unknown_code_policy": "UNMAPPED: preserve original code; never infer season from suffix or national prevalence",
+  "other_year_policy": "UNVERIFIED: verify the relevant year-specific source before applying",
+  "cty_crosswalk_status": "NOT_ESTABLISHED",
+  "limitations": [
+    "Declared crop season is not an observed emergence or harvest date.",
+    "This vocabulary does not establish parcel geometry, site coverage or source independence.",
+    "No numeric CLMS CTY crosswalk is asserted.",
+    "Codes outside these six entries, including other cereals, require separate evidence."
+  ]
+}

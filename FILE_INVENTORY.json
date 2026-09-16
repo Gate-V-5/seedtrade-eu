@@ -1,0 +1,2334 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "SHA256",
+  "excluded_directories": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "dist",
+    "node_modules",
+    "venv"
+  ],
+  "excluded_self_referential_manifests": [
+    "FILE_INVENTORY.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 456,
+      "sha256": "623c6509743cee08a102826ce956dddd9ce31f605595c34b4d3a2935b7c91636",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "ACCESS_REQUIRED.md",
+      "bytes": 990,
+      "sha256": "d5514273a8d99fa40eef4362a012c3115f81716b56d0bd04b3d5590ca1127aa1",
+      "status": "REBUILT"
+    },
+    {
+      "path": "MASTER_ROADMAP.md",
+      "bytes": 2561,
+      "sha256": "11a702ff28368b079dc3bfb8a296cea1b00935ffaf051882f83429c9c247a4aa",
+      "status": "REBUILT"
+    },
+    {
+      "path": "MASTER_STATE.json",
+      "bytes": 7750,
+      "sha256": "025424edd186230f241b0ff461cff8f0fb9b61a45f560efdc68e091480190fae",
+      "status": "REBUILT"
+    },
+    {
+      "path": "README.md",
+      "bytes": 587,
+      "sha256": "b4d484510eb8e35120daf41d7bac46089a2ad17a438dbea4b579a23dcf76955c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "RUN_IN_SANDBOX.ps1",
+      "bytes": 89,
+      "sha256": "051a6c7d1ab5ef560f4091938cceccef41b1789f511942ac81e78e21816255ed",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "SANDBOX_TEST.txt",
+      "bytes": 28,
+      "sha256": "1abfba7e393c850277c0d90d688f25054d1eb06a910d912f9c04948ddd8b612a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "WORK_TEST.txt",
+      "bytes": 19,
+      "sha256": "133760f263efbdf8e675e3c8ca36e34ac88e3fff281ba8ec95f934ad13fb9ba3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "WORK_WRITE_TEST.txt",
+      "bytes": 28,
+      "sha256": "b76c346c3b651a9cd81fc7bf67ccc15634dc5c370540dd0cf61d6e1a5fc787f2",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2511,
+      "sha256": "d1777e1c0d7444b94c651a83c7e715e9e0cb916b584d80ae2045d5a9f99b6f23",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "package.json",
+      "bytes": 365,
+      "sha256": "890a057e0a77280fdb4b302e49f2593a65e541de7e88c6722b7e3c537716b909",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 15889,
+      "sha256": "7450a99f14c845b17ab35260b54f78a6c36596b6a76ffd7c4b831478aa1985cd",
+      "status": "REBUILT"
+    },
+    {
+      "path": "collectors/crop_models/winter_wheat.py",
+      "bytes": 22547,
+      "sha256": "dacb5d76949382f61cc645f321db07f0f9260bf9b43a95c9f32515216df1ce56",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_auth_test.py",
+      "bytes": 8272,
+      "sha256": "66f46d73b7842cc822c76714ae587fce20ba6ec6df4c3aa2af20218ad1a2fd82",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_emergence.py",
+      "bytes": 32978,
+      "sha256": "394b4ec34b7e742585dc7230f1ecf5e87cb764ad45aa70fe3c33578718e79910",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_emergence_process.py",
+      "bytes": 21950,
+      "sha256": "a8b79cc0be286d9f816a12bdcc56360722645e01e21f2b60f6eaf814b67aa583",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_layers.py",
+      "bytes": 5590,
+      "sha256": "706ffa83266de0e56bb09f817218c0f166d540f6c371749640daba95bb86ca29",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_lithuania_validation_collector_2021.py",
+      "bytes": 17868,
+      "sha256": "3eb57f65598ba7924a6428682d3f13f4b5799a6f651d153884ca52c5307c79a4",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_lithuania_validation_collector_2022.py",
+      "bytes": 17868,
+      "sha256": "e1824a7682fe5613658a4d857c541ef62f90551828e749b7ba0dff4671d87705",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_lithuania_validation_collector_2023.py",
+      "bytes": 17868,
+      "sha256": "28b780a8f4b4c6423981bc7e5e339a976235879a44cb79738638414f1538a553",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_multiyear_validation_collector.py",
+      "bytes": 17231,
+      "sha256": "45b4fdb80d46362b6d9b1d0606a2179f02d295f3e60c9a60ae5a2ed610e80b1e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_multiyear_validation_collector_2021.py",
+      "bytes": 17355,
+      "sha256": "ee1781f0f53c84a8b77132549ba987ab208c53dbe81fd31afc23ee4dac0a32de",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_phenology.py",
+      "bytes": 29457,
+      "sha256": "93b7678a4d49e35e80c8ba4403fc9c12ee3121411ca8b21267d472a830d1a0fc",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence.py",
+      "bytes": 56384,
+      "sha256": "a8e3eb3ee55bfc8a23fc2e6e1e2241db848d1f5466b77d81495da1c3cac2b34c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence_v07_multisample.py",
+      "bytes": 7278,
+      "sha256": "11c3bfc41f6529c974a91a7890f0f30c27f3e17d720d665906eaf973a01ddba1",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence_v08_cpcsy.py",
+      "bytes": 61535,
+      "sha256": "44aaf69e9c128f1f2116d123f0f00b5edf58452baf07ff2474d1c54d33811942",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/copernicus_pixel_intelligence_v09_multisample_cpcsy.py",
+      "bytes": 16340,
+      "sha256": "a553172df12e89189beca29e8dcd41dcaef393383c7f4127b5b7cecd99699c44",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/cpcsy_multisample_validation.py",
+      "bytes": 23848,
+      "sha256": "312c269c21e51c1e2c7dae4d4fde0759309d43ceb288de7bcf6a5289376caba7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/cpcsy_validation.py",
+      "bytes": 11509,
+      "sha256": "d0e821ccb5531d7ad46c8d8e4e761920ba062b769a54615c1280fc1f88290b72",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/multiyear_evidence_diagnostics.py",
+      "bytes": 18546,
+      "sha256": "67ec5f2f5f30ed549d1df1e1e18c462a07b78fe3bcee3bbb2afc1bff48ab025f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/reference_eligibility_v01.py",
+      "bytes": 3885,
+      "sha256": "d5ba984d6bb02ef4aef9f35085ab8d259cc56a2dfb9d94aeaab3fd6141ad249f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier.py",
+      "bytes": 39180,
+      "sha256": "2371b956bfe70ae32d1a8a49a9ca7653748e1766786f205f962ba50be498de5f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_lithuania_validation_2021.py",
+      "bytes": 41470,
+      "sha256": "1e75d9a6c4571440640933ce51a5679ea501bc2916194bec4ed1d760e4de179b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_lithuania_validation_2022.py",
+      "bytes": 41470,
+      "sha256": "865d2b45c54f459098d68c9dfa5dc36434816f58a6c477f77bea9e5c34acc28c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_lithuania_validation_2023.py",
+      "bytes": 41470,
+      "sha256": "65c6fda35c7aaeb59238db525f44fecbadf6fe4a388181e813282895aa5bb5df",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_multiyear_validation.py",
+      "bytes": 40002,
+      "sha256": "7f6526e2585a949ab59f18cb11bac0ebee8ed42509a17bfa7f3b836cfde37980",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v04_multiyear_validation_2021.py",
+      "bytes": 40002,
+      "sha256": "b6744437b30cf612859cda553821519a93ae276fa88995758f8c4627c9442c8c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v05_transitional.py",
+      "bytes": 57278,
+      "sha256": "d71c0728c2342ffbfa3f81b32b6640372423ad9ba005a212ccfe9bcf8718ca16",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v06_clms_rules.py",
+      "bytes": 17601,
+      "sha256": "7ab4886deefe17b6e42a6ca513adf11b3bed84c50cb2e309c810d0dc41137347",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_hybrid.py",
+      "bytes": 24341,
+      "sha256": "1b4e7a44012bb78ea3065b9ab63715e005e47bfc0f7a688b5bdcf9ee04ab7a48",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_lithuania_validation_2021.py",
+      "bytes": 25795,
+      "sha256": "9c201734bac0777275d2c38c6a83a61372cef62c4c569de25dd5e2495bac3e78",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_lithuania_validation_2022.py",
+      "bytes": 25795,
+      "sha256": "e23bd9fff8f025033c3412769e13b7b6fab24aa75d9146da474fa04091305298",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_lithuania_validation_2023.py",
+      "bytes": 25795,
+      "sha256": "a61f58bebb28b5a5573d4d6b2d46ef680901a526d2e38fa7e432a3c2bd5c3c11",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_multiyear_validation.py",
+      "bytes": 24978,
+      "sha256": "9f34fc225179f2755ba0a49749641f3e881ae46e60d1dc69777f86d389ed5a84",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_classifier_v07_multiyear_validation_2021.py",
+      "bytes": 24978,
+      "sha256": "d39a879aa933e09954774756022b3b0b06c4655056ce450eae0db2fc3e6d7560",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_conflict_diagnostics.py",
+      "bytes": 17820,
+      "sha256": "472b1baf3109fcdf1148a17801827b43d3e03c4d2c63df4769e6bef3f190b712",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_cross_validator.py",
+      "bytes": 21542,
+      "sha256": "94eec45e170c934c22f88262c634ee18c399627eff507bed62f2e6dffb29e34b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_diagnostics.py",
+      "bytes": 19658,
+      "sha256": "cdec8c401586799d03f1c15aa2504ce4799f34638666899a74c85164f472fe8f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_emergence_uncertainty_diagnostics_v01_2023.py",
+      "bytes": 5461,
+      "sha256": "38e3c8b305d9bee4e69d1180d3fac7d1657c9cb6cf9f3dbc63d03d5af027e71d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_emergence_uncertainty_multiyear_diagnostics_v01.py",
+      "bytes": 9107,
+      "sha256": "d8643f418f41d91d793ce87d7ea0c6c748ee867abc13d7909e3ed684361de0b3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_evidence_audit.py",
+      "bytes": 21507,
+      "sha256": "aeb586750d7505d3cfc1f2c1785e53eed6baf4bed297e1b1eca32b62cc4af621",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2021_conflict_diagnostics_v02.py",
+      "bytes": 17245,
+      "sha256": "3e22b1c56e27e0a7643e365b25e9fcf983958dc39a46b2ec3f2c9765ca37a066",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2022_conflict_diagnostics_v02.py",
+      "bytes": 17245,
+      "sha256": "443d0b7b53ff8060073ae7f25fcbccb65bfe4adf754bd3cf880e12b484e035c5",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2023_conflict_diagnostics.py",
+      "bytes": 16482,
+      "sha256": "7a5b3bedbb3350f41e735d34c2fc78795352c0393e9da0a795f47efaa864be16",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_lithuania_2023_conflict_diagnostics_v02.py",
+      "bytes": 17231,
+      "sha256": "e97ef2826539704587a3099efdad3a0fbf0f6a58eacf5ab1ce5c8443de9127df",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_multiyear_conflict_diagnostics.py",
+      "bytes": 16295,
+      "sha256": "a93f6b18b281c07accb75c2300ad484a717c48ca10d271478a71b51cf2f00c4c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_rule_audit.py",
+      "bytes": 32629,
+      "sha256": "93dca5afb37c283cdba93f60ef22593160c026511f1c7d56773f8b06d6663e84",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_8band_tiff_direct_provenance_audit_v02_2023.py",
+      "bytes": 8883,
+      "sha256": "1b1aabc39069eaa2e9d706a7b01c11c443dca3ec57e3389befa0c2d361608cbb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_cty_component_event_diagnostics_v01_2023.py",
+      "bytes": 9155,
+      "sha256": "70ad71108aa127ce2744acfe0560e7af01f52712ba437458c311cc7e206236e7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_cty_dominant_event_overlay_v01_2023.py",
+      "bytes": 12063,
+      "sha256": "bbaea2ddfaa6cc04067dd0e57fdc12c47e3fb582dec6fac6a3309a5e186f3366",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_event_pattern_diagnostics_v01_2023.py",
+      "bytes": 10035,
+      "sha256": "d2f049d46b064c5ed3bb2422b3fdb4f07f94d1567dc174588e52b5650d6a9a30",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_geographic_event_diagnostics_v01_2023.py",
+      "bytes": 12482,
+      "sha256": "a9d7272a050218ddd6366be1cd02b97fafac1f33aba2598d52048dff0e9e5f4f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_interactive_cty_event_map_v01_2023.py",
+      "bytes": 5682,
+      "sha256": "2b9d73621e5bfb0a19c2157c066a5d72bfeefce88ab77d7e39587efc022dfe4e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_interactive_cty_event_map_v02_2023.py",
+      "bytes": 9202,
+      "sha256": "d8e8803b44770cb94ca67cdbc189dce883fa69dcefed34aba0096c2637fd584c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_original_raster_provenance_decoder_audit_v01_2023.py",
+      "bytes": 10868,
+      "sha256": "a18ef1f837879f3c2f0136ea2b9926c1d006d659efcf9aa34a0c34236eeba4aa",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_primary_boundary_36px_audit_v01_2023.py",
+      "bytes": 12517,
+      "sha256": "e0afaa6f8d582ebdbf3c9f346ccc4af8dd3a1693b526665f5c1553840a78b5fb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_raw_clms_provenance_diagnostics_v01_2023.py",
+      "bytes": 12198,
+      "sha256": "631964f8aecd76e7f917dc3d0e1b0e301a0238eb4ca91e96102d81b8969b6eda",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_spatial_event_multiyear_comparison_v01.py",
+      "bytes": 12385,
+      "sha256": "3fe9a15c66fdb88e16563eea975e7eb9a61fb02dfb5489dfa110948f2c5539ee",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_spatial_event_multiyear_comparison_v02.py",
+      "bytes": 13608,
+      "sha256": "fc2c983dc98e4094b0ac4d7652cf684fb601ddfa1193395da2700b8bc84b8632",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_s03_spatial_event_pattern_diagnostics_v01_2023.py",
+      "bytes": 9628,
+      "sha256": "b0eddf724264dd020bafed11a1ffb13433e2e3ea2f580d7d41c15ad193ec60c3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/season_type_sample_crop_emergence_uncertainty_diagnostics_v01.py",
+      "bytes": 5104,
+      "sha256": "470807550d870a5a4f33800b5941e5cd2e264db2af44f2304b7695525a71099f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/selection_event_validation_v01.py",
+      "bytes": 6696,
+      "sha256": "aaf0953895729f3ba0cfd43ce8959c3adf327ead9c806d6a4f44ad09c9f9c7af",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/spatial_geometry_validation_v01.py",
+      "bytes": 3630,
+      "sha256": "e995870b10577cf7ed11f843bf066c664fa57ffbcd38b007b2b90c5295f9fd3b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/test_reference_eligibility_v01.py",
+      "bytes": 3617,
+      "sha256": "ae9b41d88979d0b0711ef7007c4f3b4eed93d099561ad16732c7ef258448feb8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/test_selection_event_validation_v01.py",
+      "bytes": 3207,
+      "sha256": "7e49933d3fa6578177d6842236269d007c4e44b8ed3c5607476d1fb9141d08a9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/test_spatial_geometry_validation_v01.py",
+      "bytes": 1110,
+      "sha256": "5410de4782aad80cb653ba72eb82d23412d2375136d8a4ead868e46f1a37aa20",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/phenology/transitional_weight_sensitivity.py",
+      "bytes": 22744,
+      "sha256": "e70b7dfe6d7e53541aa470068f95e3cc49b1551f4ca9e5f0cfe3acf3ec3a661b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/supply/build_reviewed_2024.py",
+      "bytes": 2742,
+      "sha256": "95a4262e58c64ff74459b111e12c16dc6ad82545959d00bbf13d83fb74b293f4",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/supply/supply_v01.py",
+      "bytes": 5622,
+      "sha256": "e8d5c37515732e5a212d9319d504166eaf330a13d5f0b0c4dd08ada6ba334614",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/supply/test_supply_v01.py",
+      "bytes": 3825,
+      "sha256": "0ee7ec5257e6478c1dfb369cb6e85b2626cffa1512e26f3b43c93cca733eaa2f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/cn_mapping_v01.py",
+      "bytes": 1332,
+      "sha256": "5d4723398982f642ddfd83ee4a6ae8c86e60658ddf500bfb7eaa2a62fd42afce",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/crop_basket_v01.py",
+      "bytes": 3999,
+      "sha256": "95536cc974c229f358774736a0213be716e19a270b9160937dbc8769804ba9b9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/crop_basket_v02.py",
+      "bytes": 4221,
+      "sha256": "8827fb2e69b279e1dec6ff135794d3ecd39db547e9738760e4cad1ed91a011fb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/test_cn_mapping_v01.py",
+      "bytes": 1499,
+      "sha256": "0f5287287c983e57b3a2db5dd11d11963849e0cf75901629abc6c3592efafd6f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/test_crop_basket_v01.py",
+      "bytes": 3770,
+      "sha256": "c8667a6266b655569fe38d91840211df29b6b8a0e0bfc7d664649ed6206e6765",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/test_crop_basket_v02.py",
+      "bytes": 2820,
+      "sha256": "234d082e90e2445a53f53bb241660dd6279008f6d6b0566a0d408dee509f4749",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/test_trade_aggregation_v01.py",
+      "bytes": 3615,
+      "sha256": "482d09dc43d0fd3c62f2a0a703a068f91d22a2b14ab9683b3b0c20392ff4c4c4",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/test_trade_validation_v01.py",
+      "bytes": 4308,
+      "sha256": "f6a20648ff1b11972b58c8e98a5ca8ef289597f41bd99b2d35836aa494c5db18",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/trade_aggregation_v01.py",
+      "bytes": 4448,
+      "sha256": "1228cb26ea35b93ce8e3b3802f8c57254b91452edfa83e45c0b89f6701be7c81",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/trade_observation_v01.py",
+      "bytes": 2997,
+      "sha256": "2a09b09af948ca619efbdedd1b19659f4fa008a0ea4e722c99c7e1eb8026e4b5",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/trade/trade_validation_v01.py",
+      "bytes": 2760,
+      "sha256": "442d15b5de755974b5b921687433fac119e240f204ab7ec73a3bfe7e7f5a1e60",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/crop_calendar.py",
+      "bytes": 10185,
+      "sha256": "0ea5e675fd62e0c0df30cd9edd781e55f7a32f3415a571f8a0fc549cadafe557",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/crop_profiles.py",
+      "bytes": 14098,
+      "sha256": "8f6320cabe98982afec5592121b7cc9dfe165ed6f92f477216f891b0fdcf003e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/crop_weather_engine.py",
+      "bytes": 17976,
+      "sha256": "12c3f9ab604fe8e377ac2bd82ab8684173241196ea06b9fd0aeb9a7bc8a34523",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/cumulative_stress.py",
+      "bytes": 19139,
+      "sha256": "e7868e455f116f3824bbb391b875c0c6ed143b9fce8482ace7211f8093c9207b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/phenology_engine.py",
+      "bytes": 15799,
+      "sha256": "5b2b02ec829b673000095ed953e8f9c75a2deb87eb8006be0beddceeb19af351",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/regions.py",
+      "bytes": 4265,
+      "sha256": "20d68ebbd08b5568537b3409fd2f3479815f7c3553fc3ebad4c7c20d257c4ad7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/weather_analyzer.py",
+      "bytes": 7207,
+      "sha256": "576d14dfa51915921109446f91458cb90a22102b9afccf8fc6dcfb691885b88e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/weather_collector.py",
+      "bytes": 3672,
+      "sha256": "d3e78d3c2d7d2ed02385b8a856097de87442d0647d12af770bc4a554ce1e0cd8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "collectors/weather/weather_history.py",
+      "bytes": 13736,
+      "sha256": "5ec5cdfc3072843d8a28c03e20a7d79b308ec1cb06113b8813f4a7c5f5d7a344",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/geojson.io _ Powered by Mapbox.url",
+      "bytes": 263,
+      "sha256": "e87f4b572b990944caf106ef7143ceec9000301c5ee36728e30409296b4c38ad",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_8band_TIFF_direct_provenance_audit_v02_2023_2026-09-08.json",
+      "bytes": 14919,
+      "sha256": "866152d6533f6402248eff974d79ccbd8985bb378b97ec0fe900505315b04ba7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_component_x_event_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 26805,
+      "sha256": "9d54f33f7887c5adf3c3acdacee21c1f8b1ff169d2ab9c9069b646041f3cafdd",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_dominant_event_overlay_v01_2023_2026-09-08.geojson",
+      "bytes": 12180441,
+      "sha256": "983461186e4730c7e8062a922408783680e087fcbba88fe6f0a8bec8bc2de5b0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_dominant_event_overlay_v01_2023_2026-09-08.json",
+      "bytes": 12180441,
+      "sha256": "983461186e4730c7e8062a922408783680e087fcbba88fe6f0a8bec8bc2de5b0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_event_interactive_v01_2023_2026-09-08.html",
+      "bytes": 940456,
+      "sha256": "6b53e8a30cc3d6aefa28d28cf58acaf3d0f90a4946480c0d4405f41efb956608",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_CTY_x_event_interactive_v02_2023_2026-09-08.html",
+      "bytes": 1086091,
+      "sha256": "71f80dd7fc0683b2ad9e248c00b789ae472eca91e6869e849404afa8f1f3142f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_dominant_patterns_v01_2023_2026-09-08.json",
+      "bytes": 3471335,
+      "sha256": "36baaa572df33ba5a17327ad2d58f14a91f554a0e9349db77136b73ff73737ac",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_event_pattern_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 121447,
+      "sha256": "6205b6543eefd9886356cab3a9c698c12c53b24586bbf199bbe8132280123a7f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_geographic_conflict_pixels_v01_2023_2026-09-08.csv",
+      "bytes": 961256,
+      "sha256": "e28b25833140b311101d66646186be4b58c2631a07002772cd81d2bf8e5ea4c3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_geographic_event_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 3185,
+      "sha256": "7d89dce2844c9e57c7bdea1223fb1e50a70079103a8f4707e0a3429f17e65594",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_original_raster_provenance_decoder_audit_v01_2023_2026-09-08.json",
+      "bytes": 20679,
+      "sha256": "a7b18212514f78d7269fd4b12a8fabfeb0f0bc64998325cd010122df2fd228e9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_raw_CLMS_provenance_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 83224,
+      "sha256": "b952fa18860f14704eaaa3cad11d2500ea7bcf2ff60d2cba00a378602ac7bba0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_spatial_event_multiyear_comparison_v01_2021_2022_2023_2026-09-08.json",
+      "bytes": 18071,
+      "sha256": "05f11fb37feb077751f6a3c32ba9e6b09645801226faae7b1cd3e1e4850facf7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_spatial_event_multiyear_comparison_v02_2021_2022_2023_2026-09-08.json",
+      "bytes": 20041,
+      "sha256": "8cc4c2baff5d867f05baca905950b32f271ac55337f36450de9c2a7d7e9aed3c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_S03_spatial_event_pattern_diagnostics_v01_2023_2026-09-08.json",
+      "bytes": 11466,
+      "sha256": "434893611083a2a1784e777f0e2c50b289bf3ed13b64ac0edb3f56b568627d5f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_emergence_uncertainty_diagnostics_v01_2023_5samples_2000ha_2026-09-08.json",
+      "bytes": 31722,
+      "sha256": "b5ba5f456ddd0526934bc1a5b5e2e3aad3da4e31e620187f209e2d6b3e17172a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_emergence_uncertainty_multiyear_diagnostics_v01_2021_2022_2023_5samples_2000ha_2026-09-08.json",
+      "bytes": 149980,
+      "sha256": "c1122df6faae6dd7682a30642bb736310da5f681780efd8826cd788ee8812fef",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 15231,
+      "sha256": "326742278b6db96191345ec8b2a69592f7fb64de8b71a8a1fb1ba94f9c3ecaaa",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 52605231,
+      "sha256": "36a308a2da15c19df3efb5a4a99fd93f4b67eac7547a7e05243ab1fa6b02e052",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 12753,
+      "sha256": "3df8d5700b9ef372fe8128239b51e8d206eafbfeeb0d0c102004d5fae9597aca",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 53524507,
+      "sha256": "777e87091404b41cdde988d955f1796b3e41f4b31bb301162e50b4601b845962",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 9445,
+      "sha256": "f261245b7e04f0dd71d34baab2846a212b2daf32a2da6e79224f6b7031bd31d2",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 53468017,
+      "sha256": "43b263f6b11a0ef7c01f37386a9bd3848803e3b1cd6097b2429544ef289a7fb6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 12441,
+      "sha256": "a1f9f0cee718ee3902e4d07220a940186e719ca3dfc6b3c5899e8b6463cca932",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55295826,
+      "sha256": "e17a236791a29afb3b656ea46d692796ede24b0aec5117dc0942f99bdfe09b8d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 4618,
+      "sha256": "38feb09f5b4e67f9f4dfedb63e23028f7446cab0dfecfb1f7fd3aaf8c1dcfe8a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 55897357,
+      "sha256": "449305655e07b4834838714c19d0b57f1d7013b64f0ccb011546e8198b75be8d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 2890,
+      "sha256": "757443734d98ef259c84525285d928417230561809d51569250e4fa4be5c2fef",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 14907,
+      "sha256": "0c7d83f5091d352baef4a222f2434faedcf25495bed34af2935057eb59b2f02b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 52313572,
+      "sha256": "5fa867847792527d0a9df93b6a71148186e3b857e6d312c670cdf9e24b2c8cde",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 14919,
+      "sha256": "4fc98f47c48606c2f9b2ecb533f2942011812cf0c7ac8b4e9adcfbc160322893",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 53919461,
+      "sha256": "c5d73f8fb30c60d12d15976a128bb0b865dcde61ad1055001c5fe15eefc93019",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 9244,
+      "sha256": "dea6050690d5c2af43e538f8e533af6e103351ce61ed5f4d703f5ea6644c084d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 53899073,
+      "sha256": "9c06b94701c391f1a957dac3beb326644279947a4c33d4682f316f6d2ed0f462",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 15002,
+      "sha256": "80a5757e17c6c50aa86870740a323295e67f9a0d23de86a2b255658792976fb3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55263314,
+      "sha256": "30e8a5527a4082417f89c6595904b5cebacd902d3891a87bfa327c2f23c23c39",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 4805,
+      "sha256": "94ddd4b32494ef85fe80ad0acbc4aed95a25378ff4c28c65a1e093d3fd71a53a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 55879991,
+      "sha256": "5efec846651812b787c561d81efa296b224b1b6193586c64eb6fc37e8c2956ea",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 3001,
+      "sha256": "7e916e589df3042f79c504602f6f5a3cd98312ba0483c291ce42077c7f307129",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 15209,
+      "sha256": "135d464f71aaedcd5563cdb620fb45ba646edabe580487f829f0a931e3dbd105",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 52254817,
+      "sha256": "3337ea4ad5df9821eeb923fead7889c97756099f0555902d98746b34accdd457",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13570,
+      "sha256": "448aef00acfd6cb84e2779c000380faded01b80f57474d1d91fd2402732fc04a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 53453762,
+      "sha256": "c3bb77d166b87dce73ad93e6416f4b83a9fa7024282740fc48c91cb217490005",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 9193,
+      "sha256": "e9c72e317b8cffc008168469153e0c12c14f44ef83b0d0ad3604af7cbc0e7e7b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 53693529,
+      "sha256": "689b6b651ec0b417cb6ccca84506aa223745cc3d5d13e7f62e36af77179dca6d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 15326,
+      "sha256": "6a72c21a445b04cabf3a66deb3ad858eef7c89f4992895f3a889f37c6926c5ab",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55321272,
+      "sha256": "cdc618177c963e3f305ee147bd741e5bfbeaab6f71a2bd8a03905f24a6c6fd6c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 4774,
+      "sha256": "9cdad9bd1bc49f68f91e4cf142b913c3aceb280e8445234ff30a7a5ed8a7ce65",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 55898245,
+      "sha256": "60ab6df1514923dc835e80ff2bf773d81a3578da25622c03c3c005b462f41edc",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 2695,
+      "sha256": "e6728348dceed36f15941b388f9f7e9fa30851da9fb72db5e8f4ee0d4943706d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_sample_crop_emergence_uncertainty_diagnostics_v01_2021_2022_2023_5samples_2000ha_2026-09-08.json",
+      "bytes": 25717,
+      "sha256": "070ba7a47b422af8580519bdac07c5b0d7730d83b6a79dc86253e015ce1a2a0c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13832,
+      "sha256": "2fd23a09eb18ac63df71c670555d3305717301e3e219f62d863e988813d907bc",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 57216470,
+      "sha256": "2034aebdfd0bb22bc4e9ccfc9ad190c7ae6525b582d93a91ddc60b92e58b2591",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 50046931,
+      "sha256": "e9e5302821585955ead462a3d072f6f4c05bb8e38b8357ff2e2aad17ea05b094",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 48889130,
+      "sha256": "0e7efe572d818b347e1082ce1ab053157bacbe7d050145571b93f29e8f67195b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 25994609,
+      "sha256": "6206bd512844c63526a82c1cb1b489141ea22f5a4af2c32266d66537850aa574",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 27502540,
+      "sha256": "c22fdebc1813f37e4e6dc91323d976b70f803f07168383ab6d282590c15111b6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13713,
+      "sha256": "c56a898abfa2a4ba75d75faede8089d61f4bead6a6be67e06325795ad8eef5fd",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 58747516,
+      "sha256": "ef1e9388002edd8d752f654a4bf974a209ea0c8e6ae3ab67b3923a275eba4283",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 43495097,
+      "sha256": "3c8ad8a6f536fe5289edf69bfcb908a3601cdc585ccd5186b7c4a80ce1460975",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 45445041,
+      "sha256": "73d5fc29c0826bf01a69b5e113344a9961e291b81f049ff645f461f3ce187934",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 27464237,
+      "sha256": "6f05f7408a58052bcefacf90f10525d7f8bc188259d2a2f0c2d828207cb21d44",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 27517251,
+      "sha256": "fa6b5b27c2180f1e5453940af0346db5f19453d6d3a84eab809ed313ca70fd77",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 12884,
+      "sha256": "5dad810a8222e9ca5826ea74ceb5ba1e84b49da8a493516bba12313520c7db5b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 55025583,
+      "sha256": "572b1a3d0951e45151f7edec4ab8e270dfa079d86ada231d56bf35fe42ed26e2",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 47288071,
+      "sha256": "8983a1c2e96f7b1cdf0a318c8c64cc741c72042af3c1a9bb1def06c8890ed14f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 48337129,
+      "sha256": "72c29402560dea402e9d8b85eabd32ce6ee3b6a3c5691488d068b1e7a6540303",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31932803,
+      "sha256": "2685e8d58717b51ee281dae3e59d4e701a01173bdc48983ba57f30822b792ff8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 27297256,
+      "sha256": "c8fc68ab2ac12299cf7f6652542698ad64b90ac675bde4c27d3fefc69d91a3c6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2021_5samples_2000ha_2026-09-07.json",
+      "bytes": 114767498,
+      "sha256": "3910c8faa385ebf59610ac9102719418f21513d3d2049179ade0b1aa2fa29f17",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2022_5samples_2000ha_2026-09-07.json",
+      "bytes": 113557199,
+      "sha256": "b1b4a37f339fddf220765ffa1f68284645c653299acad529499445f25d197316",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 111396378,
+      "sha256": "c49ce4a4cc50e4c85ca46ca56bec742f22a10cf486402247236d5aa541f259eb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 1429,
+      "sha256": "bdb2fc5a125ed0ffea97bf469db14af0fdf7d40dee9a7930d297e17dbf94288c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v02_2021_5samples_2000ha_2026-09-07.json",
+      "bytes": 4695389,
+      "sha256": "a6e17056a760c86505e67190d28f66213ecb7013732ef2f1e9256b3cc6710b16",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v02_2022_5samples_2000ha_2026-09-07.json",
+      "bytes": 126555,
+      "sha256": "788ac99c1d9915e93f7ab7e903d4f5fbc605cb952e7c8d5728d7cbdbe64dc928",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/LT_VALIDATION_season_type_conflict_diagnostics_v02_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 23521056,
+      "sha256": "1212bf692214b9a7770eebf8c0c240fea2333c48247200bc77af2da554773b37",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CPMCE_2023_100m_test_2026-09-06.json",
+      "bytes": 1064,
+      "sha256": "9685d50ade8d81d5f02a18aee4d7f78af605947be723cf7c75a2c1a1a69d2d46",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CPMCE_2023_100m_test_2026-09-06.tif",
+      "bytes": 451,
+      "sha256": "4f9df94993f2ab70990b1b51349af7f7e4e57e4d20b2353d60cfe78d308a16e8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CTY_CPMCE_2023_100m_test_2026-09-06.tif",
+      "bytes": 474,
+      "sha256": "3b0158aac0490e6c1d8e1b4fe9827e6a29006c87ab57edc58b26fc9ae4634ca0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_CTY_CPMCE_CPMCECL_2023_100m_test_2026-09-06.tif",
+      "bytes": 502,
+      "sha256": "134a378badcd14d2c4adcd7d169825976e31f754e7d275b5ced91f2ee401bfa1",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_catalogue_2026-09-06.json",
+      "bytes": 1368,
+      "sha256": "eeca60327ef0e330eb9782fe24ff55440eb518eb6c6511ded17ed318b75e31f1",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_clms_byoc_2026-09-06.json",
+      "bytes": 3437,
+      "sha256": "fd6312785bccc17389788e4eb23dc5bd8b6481ab8266dba8881e62728b88ec0d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_cpcsy_multisample_validation_v02_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 320659,
+      "sha256": "9b7841ef6661fb2eaf0b1492a2d5cc4316a37e498721d2b2019458349d6fe3f6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_cpcsy_validation_v01_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 81197,
+      "sha256": "7436b4757d591412b7faef2c3554df85540d925690c17453111d206364f3a871",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_crop_distribution_2023_2026-09-06.json",
+      "bytes": 507100,
+      "sha256": "2435461f7d45a4aadc098e5e64e09a58ceb48b7620b449f78e101578da3eb890",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_crop_types_2023_2026-09-06.json",
+      "bytes": 501673,
+      "sha256": "8bf45a6156a26776c58ca352a73d34c96ef5e0a3787472038ec9109c53240bfb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_evidence_diagnostics_v01_2022_vs_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 100500,
+      "sha256": "8f609fbc177dff5d14016721c670ce129a844a9250f12404536b6d5b8e187b0c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 16859,
+      "sha256": "661b7bb776cd78f29db9ca41b3bd4155d6fc346b0b1a0354c1b6f1b4d5f8e412",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 53689081,
+      "sha256": "2d284defa1eed94f8b08def5132ed9bda64fe62cc20bfeaf107379e53b4385ec",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24620,
+      "sha256": "35d7b5141cfb2fd0bf94fb03b236d6f3b81db79c9d4b7ecc624168416f203eac",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 54972561,
+      "sha256": "53e128ca931e76b11445d01050eb520220255c59fde7cc7049f6ceb513b9c1a9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 18184,
+      "sha256": "6aa4bf995c69b050e46bb85b6b901f0479e306a3c6fee8f127bca12037d49625",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 55519483,
+      "sha256": "b6cc6a99998c713a664701993b04662ba0795fd23a62b3c41e02fba3aa9c204e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 10473,
+      "sha256": "98819323e745b7b3ed66644f4b4bab5ed078bc8ebf7907350283baa118b52ddb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55952610,
+      "sha256": "fa274792e7fec2252d907b5028881a852099f72dbd408cb846456d805d662806",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13494,
+      "sha256": "abd4ae99895e04ea35e9432f40c860fdb7224d170f0dfe78ba0f895f8c228af3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 56093667,
+      "sha256": "8b815e22d6528b2637efa4ba6122ae320e73f9d577bf087396487532b572e54d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5868,
+      "sha256": "bbe2e47c0d918b4adb0ae8f4fdc77d713ebefa0981f0fe7e456193754e0138eb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 17612,
+      "sha256": "f4c6e5fc02632010653684af99f72752c9faad4750f45a043a419a6c103d2482",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 53900168,
+      "sha256": "623b20ef7e83b086df3e4793f8f5301f455223154ec4723a5d5f424290b23867",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24114,
+      "sha256": "bda6def9344c21b9e940c28217c45a529e74fc06c4635b99a3b9e7f8fc058ca1",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 54963107,
+      "sha256": "394802330a8f9c82ea866c7099c212389c00835fb25c05017dfb7606ac66a3f0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 17554,
+      "sha256": "e5200edd51f3262565ecc070a575fe393713e2aad18b7f0d4dc1b8f94e7094d4",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 55511874,
+      "sha256": "1ca2f0c1065b4eeaf7e4148c69ed3f5d0979b44ed593132d0fd9cdf04bc3b5e0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 10765,
+      "sha256": "b5e11aba1c436834215bd1f856d502738503961b314a748ce6294dbc4f864877",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 56109690,
+      "sha256": "b2b1012d98b8ff2945cce5367877b23efd265b01906ecfb4466dfe9a0912484a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13313,
+      "sha256": "e72986441110256ad96a22a46c27f7f2f69da5932b6819bab3a4107718545401",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 56094205,
+      "sha256": "8e0a242417f9d96c647f7aab557063aaa86a80b45fc6e0b19a0f57ead8412e96",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5563,
+      "sha256": "6e85122fe312e56a07ed0a483c9896ba4d1f43770e6d9e791ca41d3a2c25034b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_2023_100m_test_2026-09-06.json",
+      "bytes": 21951,
+      "sha256": "6836f2a5d5a91ca43a02123ab76a234e9ba868b5030ac7887212f3bbbb921703",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v02_2023_100m_test_2026-09-06.json",
+      "bytes": 51174,
+      "sha256": "285e43b6e57a267150af900f98d44dd273aa0a3479707860492344e384ade9c6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v03_2023_100m_test_2026-09-06.json",
+      "bytes": 83301,
+      "sha256": "d5b2fa538dbddc551795b01d698cc4f9f02691bc39cc6f89212166826c139d8a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v03_2023_100m_test_2026-09-06.tif",
+      "bytes": 528,
+      "sha256": "b37aee367720a722fa6799832d9511faffd461dde41b24f45051957a754f6db2",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v04_2023_100m_test_2026-09-06.json",
+      "bytes": 99130,
+      "sha256": "239228618ca04e1a7bfde40da8c5f68267dd794f7f429c2bd81e6245b635629f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v04_2023_100m_test_2026-09-06.tif",
+      "bytes": 538,
+      "sha256": "259d5b6acf0d03b45a221c0b12bee1db084f2206e12e54f6bb44f312d014b8f6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v05_2023_100m_test_2026-09-06.json",
+      "bytes": 122753,
+      "sha256": "5688d381eda46b64f679d9ee1382deabaf50fb34b8498cdc8c57a7653221be7a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v05_2023_100m_test_2026-09-06.tif",
+      "bytes": 553,
+      "sha256": "1f63ede71089e696b335939ff7ca1ca028422120b7f4a01fc470760277116624",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v06_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 47376336,
+      "sha256": "3e2f30da9a9c5e5c994d842d22d908b65794eb408dfbe659b629fdf939bee817",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v06_2023_2km_400ha_test_2026-09-07.tif",
+      "bytes": 23548,
+      "sha256": "a02ef72222a361fd08033922c4b20931882c6ee51003ec88061da7cda33690be",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13070,
+      "sha256": "fe3cae3bd2e9670d8caf3d27d502f89993e1ed92105ae0272c4f7aef4d4af37b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 47376539,
+      "sha256": "7b0f3aa90050aaed51047d85cbc9b776dd863fe2cffda4bd4c0840eb6610e379",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 23548,
+      "sha256": "a02ef72222a361fd08033922c4b20931882c6ee51003ec88061da7cda33690be",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 48670162,
+      "sha256": "d5c7adbe5751bde54f7f361c4271c135041a14e543f04e99de44a327f374ebad",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 17091,
+      "sha256": "2c9ff9db24f952c9ceaec6000a6d8edde3f708acfa40d6f3bc0039c6ada6cf98",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 49307558,
+      "sha256": "c6fc6021685756ceb77267f898be7b711cd4a937b3da1fc35201c7b549f1412c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 10665,
+      "sha256": "e26fc0749f191e1202f479553036406f9ff99878c94cd607db7e79054dc37b1b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 49727909,
+      "sha256": "d32d9a617adfa343b15b9fa5975eef5a16bdc26c66bdd0cb85ad761cfbe3213e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13036,
+      "sha256": "27180dd851f8682a9783ad9aca31f0f5bb9d00e91a8d791b73885deb4675d0f2",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 49935385,
+      "sha256": "e4742ad1bbd18ea6be6fd0efd9fc165df97882c610fb09447b5eb155f1f77bea",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v07_2023_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5040,
+      "sha256": "66ba6d272f6ddf0fe180f9cfc1f180c940d233a0126b6de09c04612c41085529",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v08_cpcsy_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 53606586,
+      "sha256": "fe7bd6c44f528e4ebdb28e7f97a3490e28ef57343bd43d29cda093a28e74fa2a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v08_cpcsy_2023_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24896,
+      "sha256": "e7b413f278d590a7b5e1ca088793dc0764ee03d724c0119ae002bfa4aaf4c8da",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 17730,
+      "sha256": "9231240027b0356880d33e5b51e60532dddf1fa7e3ec053a6be0433d53783177",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 53606875,
+      "sha256": "f72c3b7ba8e19c2602acd606db4ca648abbe47628f2554751ac29d21244720aa",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S01_2km_400ha_test_2026-09-07.tif",
+      "bytes": 24896,
+      "sha256": "e7b413f278d590a7b5e1ca088793dc0764ee03d724c0119ae002bfa4aaf4c8da",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 54865930,
+      "sha256": "10dd72e86ade5989640bb5d46ffa1a61f41634b7b1f25aa3db6e1fad3275ac00",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S02_2km_400ha_test_2026-09-07.tif",
+      "bytes": 18149,
+      "sha256": "18686dce278b808ed28f2c8d360ed1d02677f50419292e390bc2f0d760265fd1",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 55478890,
+      "sha256": "c7b5cf70970b4669720055125fa538d22cf8784cec8f06902be31e21544476e8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S03_2km_400ha_test_2026-09-07.tif",
+      "bytes": 11308,
+      "sha256": "605e0ed24ca461edeace18fed96be7453d878719d4e90355e801fd1eef6c957d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 55974499,
+      "sha256": "b391393120db90c9049755181be12af79f62c523b85217d42cf0a1af7800d08e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S04_2km_400ha_test_2026-09-07.tif",
+      "bytes": 13823,
+      "sha256": "ab18a0ab950a4fe6ea10e20182128e4fda2bdf5eff7384a66214e4637e5a07eb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 56077274,
+      "sha256": "a0e044cf7e36757f90c4806f85da2dc5c566123f73a123760b5a2191f4926aa7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_pixel_intelligence_v09_cpcsy_2023_S05_2km_400ha_test_2026-09-07.tif",
+      "bytes": 5392,
+      "sha256": "e5127c74e99de25b3cad430274f7263e61d3cdd3489ce864ba586aecd449cd7d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_rapeseed_transitional_weight_sensitivity_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 60542,
+      "sha256": "13abab3153be811becf34973f36b65f794864f4e81aca80f182d6535cf7b8254",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v01_2023_100m_test.json",
+      "bytes": 27270,
+      "sha256": "ec9e0d684a414a9ab388abda58a4b65e9e9113848c8dbe682bd8cec5919396fe",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v02_2023_100m_test.json",
+      "bytes": 71484,
+      "sha256": "670f8c5daadae1ae70474f780a334eee03331e7897b4968d9397cccbcdd9354c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v03_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 49547371,
+      "sha256": "4e98117900255e62af9c936a1a2179197e74290fdbbfecc1a2b4b4729fba846f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13607,
+      "sha256": "11e0aa14b2f64fa3e9ee244259671d5a22b5a22e117daed9ed7512cac55e1122",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 49547398,
+      "sha256": "c99e9d370abd4b9704ed415b6dd06e223096b729dd2ee55cfa33c517a9b4afeb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 39687817,
+      "sha256": "ff9206b68c1dc5f6e12350ab401e8824c8f9b150b1ee21b09ac76daf483c3241",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31195202,
+      "sha256": "7c2dec493bc0fc1767cb1a5b63ce517d827e3c7733797df7aec7333db87ad95d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31137318,
+      "sha256": "795771e41e603752091476665d7ecbc991334a92ee8f5da43d08d88db82f32f9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26139233,
+      "sha256": "06c770360a981be1f3be17edf1cf8870ba420a0dc13e7d1f7f3e99bcfb5052f4",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 14209,
+      "sha256": "70ca93c7b6c4f8540f65f3382e88b0d5b50cfba667ab82e83d763f5863810e78",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 46342622,
+      "sha256": "d3ea9769a99cd8376d785f66a53d896ea836e30cb709a746c29a5f85ebc30bb1",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 38431931,
+      "sha256": "d6c970afc5608a27b5bc13cc6ae64a203468cf4413dc9a22f75bd91bf85e0637",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31307230,
+      "sha256": "3559ccd678ac478e0cfc93da9c0e203b3753d69cc3d970de2765ea97b901bc18",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 32051182,
+      "sha256": "5ac0de9d5731b70aa28b1ad85d70c66830fdeda0a8c84a612876882b73086ab5",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2021_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26289472,
+      "sha256": "e294de3bbbc0c968ae0ff356ba41df60f96063797846fe628609ae3183584f26",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 14167,
+      "sha256": "4a5ab7d77ef84b2999b60646abdebc9bd8dcd092ac130c9b0605b0097f29a407",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 45708098,
+      "sha256": "d3665faaff3c71a0b09417859b86ac370ba113ef7069d2f6b9a4cfca572634e8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 39006841,
+      "sha256": "20cdfce632daff434eac46742ba6458a5bfc09f7695638849fcc46e61a66d59a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31011133,
+      "sha256": "01b360225f91b898bd7b6d95ac59de80824ab8c153ca26d1959a4cf67c712e95",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31272927,
+      "sha256": "983f3b7cfce44d7a6cf32d227c7b699437cbf41705a97cca999f454e6625a693",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v04_multiyear_validation_2022_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26180501,
+      "sha256": "a393c8c98618b549ae969162e2c679340e2e05878662607b3caca04e138639d3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_5samples_2000ha_summary_2026-09-07.json",
+      "bytes": 13830,
+      "sha256": "ecfa186ee347b76440ecffbe3bc32ac912e6052d29a2202d6a207e4c1668fcfa",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S01_2km_400ha_test_2026-09-07.json",
+      "bytes": 49813228,
+      "sha256": "404231ed7c01c4eef4beaf1cb0810c302fcdb0c5e6ed46c0de3fbb4150cae3ea",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S02_2km_400ha_test_2026-09-07.json",
+      "bytes": 40182066,
+      "sha256": "e0dc9d11d9aba10603473d951a9d14632e4fb51bda792828ee06b53cb5b27237",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S03_2km_400ha_test_2026-09-07.json",
+      "bytes": 31195280,
+      "sha256": "aa2dd7a304bd1e521eac2d815c0c0fe3d1622565732d4da83e5138a13e83594a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S04_2km_400ha_test_2026-09-07.json",
+      "bytes": 31137396,
+      "sha256": "67e79711606e4f4ea73dac115f3646b899d227a49e5d3d7353951356fb936d83",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_2023_S05_2km_400ha_test_2026-09-07.json",
+      "bytes": 26139311,
+      "sha256": "1ae3d17919262c5b8ebbf1c5c73b9c69e0e5687039e5c81441654341d435f1ff",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v05_transitional_vs_v04_comparison_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 555051,
+      "sha256": "42481042f5457ed8a474888630400a3a66e444d838575db8272e299949db4993",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v06_clms_rules_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 5714771,
+      "sha256": "04908f0bacb464893ef55c473f80bb74f54a5b3e2eeca06f1ec3130cbbf3b8b9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v07_hybrid_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 86637427,
+      "sha256": "5a4d55ac215154b9f1f985d83b53d0ea513a1285e10e7c6c0d882bada227b316",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v07_hybrid_multiyear_validation_2021_5samples_2000ha_2026-09-07.json",
+      "bytes": 79942740,
+      "sha256": "b3cce97e612d0485bebbd4fe10ce0dd3d0fdd905beb8e5093a4add8da6937359",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_classifier_v07_hybrid_multiyear_validation_2022_5samples_2000ha_2026-09-07.json",
+      "bytes": 81793558,
+      "sha256": "63a4cc2e4af28c81e1839296386d41dd0f5cabe739073cc5bbb9a89067e09bcd",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_conflict_diagnostics_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 34102,
+      "sha256": "14fcf9702b3415f47ed1198355df4e8e003fb672f9976d6a92f608cb15074029",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_cross_validator_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 69929,
+      "sha256": "2db56d240b2ca01039fd8867c6c3f6fd25425535ab45244b34aeaf6a1118b90e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_diagnostics_v01_2023_2km_400ha_test_2026-09-07.json",
+      "bytes": 49127,
+      "sha256": "08b8e8e87ba8fe52281333e72ea2a32a5cbc8292c06b8f72afa57124f5d0069d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_diagnostics_v02_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 211279,
+      "sha256": "cd98a6feddffeb4265cef59b40a82eb627881e89a46c96cc349d42dced3819bf",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_evidence_audit_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 41158,
+      "sha256": "81f20bf1915d192590aa1f7a723da23f4cd2ef679e19e5c82119be23368fb70c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_multiyear_conflict_diagnostics_v01_2021_2022_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 97993,
+      "sha256": "c4c06bf00c3cd460e42d6fe76a2686fb13d9d9445d1735943e69af172cc17afb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/copernicus/PL_EAST_season_type_rule_audit_v01_2023_5samples_2000ha_2026-09-07.json",
+      "bytes": 298312,
+      "sha256": "351ac1ea6e2b0fe759df6384acbce3bfdace5e36e97e7e5267cc56b8e3c7cc87",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/weather/2026-09-05.json",
+      "bytes": 331004,
+      "sha256": "00601ff50843ff53f18cb6cbd040e8eb49b58255b5a723622a1f6788105cda79",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/raw/weather_history/PL_EAST_2026-09-05.json",
+      "bytes": 1621,
+      "sha256": "4325dc4e457ab82508df3047243ef2ff3c21e675edc55816442e9f331cbdb243",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/DE_BSA_2024_quantities_v01.json",
+      "bytes": 4176,
+      "sha256": "aae4a7410249a7a723f7a3c4e39d3f8338fd413aaa7a4a6370a56743a62e0455",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/DE_BSA_2024_source.pdf",
+      "bytes": 464435,
+      "sha256": "36cb61014da47ffbbaefe2f8cf3ca61b4ad40fced77fb9c687d8e29767a686fc",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/DE_verify-32.png",
+      "bytes": 320379,
+      "sha256": "89e92930b3df260b0ea29e9336f196143c55a54648426348b794664f4dfbaa2b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/DE_verify-33.png",
+      "bytes": 249032,
+      "sha256": "9ef04a9df54db85ee5a76a07094aed41cb6fd5d397315e27f6b592ba2290d2cb",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/DE_visual_verification_v01.json",
+      "bytes": 836,
+      "sha256": "8c912ede82f9ba8732595efe38e21164ca37df16034be1fe098595a58d06f197",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/FR_SEMAE_2025_note.pdf",
+      "bytes": 744950,
+      "sha256": "4095a13fcda1004859feb8a86cec63bb773a6bceac02492dc2470a2e365ac1ab",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/FR_SEMAE_2025_provisional_areas_v01.json",
+      "bytes": 2523,
+      "sha256": "12490aad9b8e0a94ac6a67cb56ce186f9e9e4df55411c07a626876d45971e21a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/FR_chart_check.png",
+      "bytes": 192276,
+      "sha256": "46c553fb142eae40a41d63ab5a5c784ff6eb36bdeaa028066d0c20a6d2149cc7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/IT_CREA_2024_areas_v01.json",
+      "bytes": 3415,
+      "sha256": "3ca7555f0e4119bc83793cfeee2c3ab5709a61fb7246cd433600cfcfd45da5e3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/IT_CREA_history_source.xlsx",
+      "bytes": 213149,
+      "sha256": "681de521b8bea219590b68bde0ca824a87532f53d89147dae2d8c6b6bb2a50e6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_PIORIN_2024_areas_v01.json",
+      "bytes": 3470,
+      "sha256": "a64feff550211e00fe0829fb932fc86deef5b77f9a3c20f0e02574d0a5b73ff6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_PIORIN_2024_source.pdf",
+      "bytes": 118580,
+      "sha256": "62624c1b0d8f61821f608c78150d0a996cce73322cb1d4d8fe4e6249a063f359",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_PIORIN_2024_westerwolds_supplement.json",
+      "bytes": 998,
+      "sha256": "3e9f37abfd76a85ae83091ac3478dfdf4cc0f6ec651c64367d1461cb3194c3af",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_1.png",
+      "bytes": 242714,
+      "sha256": "5d1a4047b477c6f160b2ecfa0216a1ee4f667a54c8b3da2565827ad5d211f3ef",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_11.png",
+      "bytes": 213244,
+      "sha256": "45aed9eed9e422f07c0aa2f02f36fc52478da584c662a2974e6304aedc53105f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_12.png",
+      "bytes": 232559,
+      "sha256": "f6fe0b054ae838cd4febabd38ce9aca0dd1d4293bb200866e44856edadd39f9f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_2.png",
+      "bytes": 245069,
+      "sha256": "821517739b83238bf83c728a959d7a2f48038f76f51a9cc11a9e3d74ec3f3daf",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_3.png",
+      "bytes": 213925,
+      "sha256": "631330d5e48da6c5a10cd7a4516d30bb85a2a6a90a69cbc808a8f9ee0d8eb8b3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_4.png",
+      "bytes": 219242,
+      "sha256": "83ffadac2b1756b1569d0ff4d0cac83cd6cd6ea00c005ac7e5d7e8ab360769e0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_verify_7.png",
+      "bytes": 205421,
+      "sha256": "b9a8c541f0fd97ea9c9d304d8d995d7f33ffa475b509080edd07781e767e75a5",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/PL_visual_verification_v01.json",
+      "bytes": 700,
+      "sha256": "6590f1c6bab20ce975469b07a4f74bd2045c6680b029c1e6342bcc5e92b5df15",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/supply_v01_2024.json",
+      "bytes": 51188,
+      "sha256": "87945d38ac33d3e63832041786f6125ab938f2672424dee64414ec64da1e7ada",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/supply_v01_2024_r02.json",
+      "bytes": 65338,
+      "sha256": "d4ba37f857c44a656895a7cf62508bbf97913ab6c8959004e3a275ea2dfce95f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/seed_production/supply_v01_2025.json",
+      "bytes": 9271,
+      "sha256": "312c127b2966ed9b9dc2215579acc9e1d99db6f617ef3862b9dae83b99c3d6e0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/CN_2026_official.pdf",
+      "bytes": 14185342,
+      "sha256": "103bc36c6357d67ec24551288c493398b593627ce7f87744be7b988e2b5ee057",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/CN_2026_source_hash.json",
+      "bytes": 173,
+      "sha256": "fb5d801898ffad5a17d863e6c182e322b88df1b18d719fe02c0919f2f7a1c90c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/CXT_EU_FLUX.xml",
+      "bytes": 1350,
+      "sha256": "d2f4a5a783bf69dcc75075d4df46233753215dd18681b4516cd6791cf3df6608",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/CXT_EU_FLUX.xml.provenance.json",
+      "bytes": 318,
+      "sha256": "c9b93bb4fa44cc07982a5479938caf59d3fb62b3cb9fbf8abf866e3666a376b6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/CXT_INDICATORS.xml",
+      "bytes": 13899,
+      "sha256": "bac4e91eeaefa152f85728303961136abf2d0ccd4a2ff2039d26382087ecf716",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/CXT_INDICATORS.xml.provenance.json",
+      "bytes": 324,
+      "sha256": "424018d0c7fe52e7637766fb5453367e364dddeaefce99eafda4b99ab9bc5bdc",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DE_PL_202506_six_CN8_exports.csv",
+      "bytes": 625,
+      "sha256": "31ea676568db74ed818daafd1eb84b55c0e14da4338a17cf6bad988ac5864243",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DE_PL_202506_six_CN8_exports.csv.provenance.json",
+      "bytes": 572,
+      "sha256": "b283f7be885e42cbdae781048316b07eba92535dba626d5d3c4b9c0d241427be",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DE_PL_202606_six_CN8_exports.csv",
+      "bytes": 90,
+      "sha256": "014bbe53ecc5c0a12810b5d99ededb5a8a0765e4bb1af11a9b7f7525f06b8148",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DE_PL_202606_six_CN8_exports.csv.provenance.json",
+      "bytes": 563,
+      "sha256": "b729036c9be796c96f01aa938bea9f9467af1e209fbd3a7775152bfaa7e7759d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DS045409_constraints.xml",
+      "bytes": 999384,
+      "sha256": "ae12e607ecab69b31130a6ad1f879a3151d01443e242a110688c2832b2c7430c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DS045409_constraints.xml.provenance.json",
+      "bytes": 341,
+      "sha256": "05445933901d330acde670d5d5057ff3cebc683b3d5ffe0879cc00f7a45c274b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DS045409_structure_children.xml",
+      "bytes": 6909,
+      "sha256": "6e7186c37072921e9f9f57e515852b03480717419c7862498e8aee29239172db",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comext_DS045409_structure_children.xml.provenance.json",
+      "bytes": 359,
+      "sha256": "4040dbcfe9c330529e2ec5588c7d0a6fcea0a83c7b9a5bc61f9062f8b9e6230c",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comtrade_DE_PL_202506_120925_X_totals.json",
+      "bytes": 959,
+      "sha256": "db1d4bcd1fe801f642885f55bd1ecdaaf651cc7345605a01f6a4caf410657048",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comtrade_DE_PL_202506_120925_X_totals.json.provenance.json",
+      "bytes": 511,
+      "sha256": "8eb30f44fded097bd26603bf64001298a69112d1d836ec9b129d7082302d1baf",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comtrade_preview_DE_PL_202606_120922_X.decoded.json",
+      "bytes": 7301,
+      "sha256": "12e9175b099d5a53dcb4cde2ada253f6cf4e3ee8f6a59ab73334ff90bb021c80",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comtrade_preview_DE_PL_202606_120922_X.decoded.json.provenance.json",
+      "bytes": 540,
+      "sha256": "7dbc120db9bfc772d2cd6a51c3f5213665385e6f02669795bcf3cc2d50cf105f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comtrade_preview_DE_PL_202606_120922_X.txt",
+      "bytes": 25751,
+      "sha256": "9729bdfc4c7baf0323bcdd8caef284d5b2ed9d0785fb41573dbaaec6c1cbdde4",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/trade/multisource_20260915/comtrade_preview_DE_PL_202606_120922_X.txt.provenance.json",
+      "bytes": 426,
+      "sha256": "bdc6dccc1f8ca57b30d9320e250a1b67dfc0eee06aeb1f6963709a1e895d47e3",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/validation/lt_2023_declared_season_vocabulary.json",
+      "bytes": 1887,
+      "sha256": "2f5c8f8c83231acc62d42f2c349221d07bf87a0743e933e553e6c31f7526410b",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/validation/lt_public_release_schema_v01.json",
+      "bytes": 1396,
+      "sha256": "100c848504e2aa6863e027912605494309d67b9807bb22abd296fc73506acef9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/validation/selection_event_v01.json",
+      "bytes": 30548,
+      "sha256": "e5806c9fbc1be9022b40015f893cf2d7a01c8707540a496df604eed5ab1505f9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "data/validation/spatial_geometry_v01.json",
+      "bytes": 11734,
+      "sha256": "0a317c9a3808d5b2909cf6fc343c22a936b0106c7059d172fdfccd757db35847",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/ACCESS_REQUIRED_2026-09-15.md",
+      "bytes": 1617,
+      "sha256": "c865dac9e0c72adf5f5977eb0dcdfe06e902be768a8e11d27570bbcfdce180e2",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/APPROVED_SCOPE_2026-09-15.txt",
+      "bytes": 13376,
+      "sha256": "254db034af4f02a2e62b621b5d9ef5516257067eb903b760050c5d54c1b1040d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/BASELINE_2026-09-12_cycle.json",
+      "bytes": 81237,
+      "sha256": "eb383951e1e5a36a6bd9d33315ff62a871c4f3ce5e3d6bcc161eee2958dcebd8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/BASELINE_2026-09-14_cycle.json",
+      "bytes": 90826,
+      "sha256": "295829b83888f26532b7b280ba11a1b8c557c722cb06123f384c9545f0410251",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/BASELINE_2026-09-15_cycle.json",
+      "bytes": 93180,
+      "sha256": "4b106f55af3071e70658072a20e6a2af1b62968245b8ca35ab43bb3e830758ba",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/CONTROL_REVIEW_2026-09-13.md",
+      "bytes": 10688,
+      "sha256": "384384fc4d23319a7617e0703b94354a00020440c709fbd2bb3b49a8bff26a63",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/CONTROL_REVIEW_2026-09-14.md",
+      "bytes": 12120,
+      "sha256": "0853b80f24914fc6f94762ebf956f898c2838e289f42515da1a553b20dd7bc8e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/CROP_TRADE_BASKET_V01.md",
+      "bytes": 6124,
+      "sha256": "ce638acba9094da5140df661e4fc905ff5b8f8b15e2a0a1b43563adbf6beea89",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/CYCLE_2026-09-13.md",
+      "bytes": 19784,
+      "sha256": "d66f4a97e5f667921525a7a75cb063ffb5847a421fc26e82630bfe49713e6fb6",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/CYCLE_2026-09-14.md",
+      "bytes": 6880,
+      "sha256": "94085bfdb56578d804a818ba128abac779da8614ddb9831ef24af1834be131d9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/CYCLE_2026-09-15.md",
+      "bytes": 15383,
+      "sha256": "abf23c94f7206d8ded83ce8973186cdc64a5f866f03799f07370b38b469c034a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/FILE_INVENTORY_2026-09-14.json",
+      "bytes": 820,
+      "sha256": "0b85361de7c4dac43e4a05429771198a9d7505c6ed415e21c459793249b40e14",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/FILE_INVENTORY_2026-09-15.json",
+      "bytes": 2533,
+      "sha256": "6e9ef491e31c59a55dc6eace4d8ffdfb86d3decfafef0022c5213065b50abadd",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/FINAL_FILE_DIFF_2026-09-13.json",
+      "bytes": 2479,
+      "sha256": "83c6bd1a68076da8b71c77b7b161d286ab09f9692514f130fe3998b29046f38a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/FINAL_FILE_DIFF_2026-09-14.json",
+      "bytes": 947,
+      "sha256": "217d01b4b45bbfe8eae4a87d9767f091e74547222156e848c0a5949e2a70b8a7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/GLOBALWITS_AUDIT_2026-09-14.md",
+      "bytes": 7807,
+      "sha256": "fbeb036e0539e3fd4620a1aa885512ef19352f4b64014892bb960f3406a5df08",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/INTERIM_FILE_DIFF_2026-09-13.json",
+      "bytes": 1180,
+      "sha256": "1496fd9799fb90f50b3e54a804e7919c49dfc8de6f367fa266d10056b61aae5a",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/PRICE_ENGINE_V01_ARCHITECTURE.md",
+      "bytes": 2696,
+      "sha256": "f84608140948106b1f2ea2f4fdc053b44e08058af9e1dcf27341614554432731",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/SEED_SOURCE_REGISTER.md",
+      "bytes": 4041,
+      "sha256": "a870d024499b8db41a2c3a9babc9632640f84f0774298c6199ae5b7c12e19157",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/SUPPLY_ENGINE_V01.md",
+      "bytes": 3150,
+      "sha256": "fee9e3b89aad5d9388d97e2a40a6d30d22dba9a6b9019fb6974d08edc6c451ff",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/TRADE_MAPPING_CN2026.md",
+      "bytes": 1679,
+      "sha256": "30ea7d52626b416515d093a203b85c3ef1a452c37b8ecef5eaa525323d58844d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/TRADE_REFRESH_SIGNAL_DESIGN_V01.md",
+      "bytes": 7892,
+      "sha256": "7ab45d1a07356de2fb2d63a728d3859fb4c4c1b2930a875ba89fcba0b4f9dead",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/TRADE_SIGNAL_SUPPLY_DESIGN_V01.md",
+      "bytes": 3492,
+      "sha256": "b439d6ef2cf23b1935d20f2a861490a23e517a67b3b697fe7e0083271e0d3208",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/TRADE_SOURCE_REGISTER_2026-09-15.json",
+      "bytes": 48382,
+      "sha256": "1f690d2fa48d5963ea5205c1fa5ed2f0a8dca9d3bced136a359b7fe0e7292f0f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/control/TRADE_VALIDATION_ENGINE_V01.md",
+      "bytes": 2195,
+      "sha256": "c95be401346a9d60c3d20b44b138887c5d8597c419e0e0d1dccc473983a9b591",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/recovery/CONTROL_REVIEW.md",
+      "bytes": 3715,
+      "sha256": "bfeb904a41a8981c6d34f02ad2aa36fb84709e40ee3d34925be5dd84a4a5cfca",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/RECOVERED_BASELINE.json",
+      "bytes": 97906,
+      "sha256": "1170065539a411ade2c31439a4df5364b248ed7f9287df0c4fb56ea8a1fca161",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/RECOVERED_TEST_RESULTS.json",
+      "bytes": 11337,
+      "sha256": "76414caa64d1e529b1259893f8c1547a780a4bf581ddc0c14c0a0947c2bd18c1",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/RECOVERY.md",
+      "bytes": 2798,
+      "sha256": "f567f8066f9a805ae9fed4f022081fcbd592c757dccd9ca7a3d21ce7056f75d5",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/phenology-tests.txt",
+      "bytes": 2954,
+      "sha256": "e0ab321999ff309eea56c2f0071527ab3a40d4b450ec061b3546123b32520b71",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/recovery-tests.txt",
+      "bytes": 773,
+      "sha256": "14d897514786ef9b748eb4b1bbedd5e30546c235a04e12dfe75a5e72be57d64a",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/supply-tests.txt",
+      "bytes": 1531,
+      "sha256": "a617eb482b40c7e51bd88e29bb08efb5bcd55f9465b79f1e8d8aa13dbb551dab",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/trade-tests.txt",
+      "bytes": 5690,
+      "sha256": "af92ce0bb96b3b3196e3bc62d398524f69f0344ac62390b8c243e94fef5269c7",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/web-build.txt",
+      "bytes": 361,
+      "sha256": "6e1e77006ec006fd187c5d73a651eeff531698dfb0a1f77bc815aed5b48bebcc",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/validation/DAILY_REVIEW_2026-09-11.md",
+      "bytes": 4555,
+      "sha256": "57af4fa9b356656d8be401f5cc3c5d4285b51ab15e92c7c7b7df524fd7bb6814",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/DAILY_REVIEW_2026-09-12.md",
+      "bytes": 4671,
+      "sha256": "47ddd3a9b5a578540a423535632acf970b536fee778c890e210dc34999fea489",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/EUROCROPS_REFERENCE_LEAD.md",
+      "bytes": 3054,
+      "sha256": "45a6f2cc47e0ef122c7fe41dce825d5b17a6366b0eed048bb4482249eaf346d0",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/INDEPENDENT_VALIDATION_PROTOCOL.md",
+      "bytes": 3219,
+      "sha256": "4338229dda2199d26bac1e7b977997ea9a42de3aa07527b8e2205b6836ff0b69",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/LT_2023_SEASON_VOCABULARY.md",
+      "bytes": 1698,
+      "sha256": "cd3927ecc918dd79c5a19e6554a4449708af1d3feea1f492c4f3074872dd55f7",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/LT_GEOMETRY_LINKAGE.md",
+      "bytes": 2240,
+      "sha256": "74562876856eed6dabdc0915db3b7bc876445528fdebfeeb04f0fbbc7cb85a36",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/LT_REFERENCE_AVAILABILITY.md",
+      "bytes": 3714,
+      "sha256": "bd749df259b1e6495913408568ad3fe17ecde3866f1c538edf0e77440d93fc2f",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/LUCAS_2022_SUITABILITY.md",
+      "bytes": 2653,
+      "sha256": "88e10981d2d1a4afaa150006effe49dbbad8a6225dcfc84a32d5b38fd156e906",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/NEXT_STEPS.md",
+      "bytes": 9187,
+      "sha256": "4c0021ae0feae2df7c05089c2aac20ebb6834ccbb2b950f027b704951bdca29d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/REFERENCE_NOTES.md",
+      "bytes": 2012,
+      "sha256": "71315801a926feb72a9e7f95791ac332089eb1641616ac23c8d9b580c53b5999",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/REFERENCE_SCREENING.md",
+      "bytes": 2360,
+      "sha256": "79cb888c54ea4fa7856d3dd88065736d257421a718e2af0fa0c724f0b604fa0d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/REPRODUCTION.md",
+      "bytes": 1943,
+      "sha256": "f9764f7cbf526cbb5083ce8b4957851344b565622e4b74996bf56bf27dc8a76e",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "docs/validation/WORK_LOG.md",
+      "bytes": 17163,
+      "sha256": "30d10f023efc86f6ea900b22f380ee94452bb3f987ae7db28b3c363a7c2a408d",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 17889,
+      "sha256": "8ccd9c4ff7d3eee310f0da1450b6b4594d5f4b512608f8a7d4c0cbfb1adcbfd9",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 242,
+      "sha256": "ff25da2c85551a308593923cc74fe9ee4391eae03577c73b865240adacfbc1bf",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 21677,
+      "sha256": "763c6ea1c345f77a9a40e058c82a84d4cc8b8fdf71ec68cef55195962d2832b8",
+      "status": "RECOVERED"
+    },
+    {
+      "path": "tools/recovery.py",
+      "bytes": 4871,
+      "sha256": "8d6e3b4e0b4714db86c1ef89c7c4c167f3774e1fecb8a2d9aead25549ab47d7d",
+      "status": "REBUILT"
+    },
+    {
+      "path": "tools/test_recovery.py",
+      "bytes": 1847,
+      "sha256": "9618d2e7599abe0f97b2d161daaa2cb6f438dd64c811b708ad719d0c85202be5",
+      "status": "REBUILT"
+    }
+  ]
+}

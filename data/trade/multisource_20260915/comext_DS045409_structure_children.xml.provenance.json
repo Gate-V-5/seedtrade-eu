@@ -1,0 +1,6 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/sdmx/2.1/dataflow/ESTAT/DS-045409?references=children&compress=false",
+  "retrieved_at": "2026-09-14T20:38:46.8776283Z",
+  "sha256": "6E7186C37072921E9F9F57E515852B03480717419C7862498E8AEE29239172DB",
+  "file": "data/trade/multisource_20260915/comext_DS045409_structure_children.xml"
+}

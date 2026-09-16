@@ -1,0 +1,19 @@
+{
+  "as_of_utc": "2026-09-14T18:10:01.4304538Z",
+  "baseline": "docs/control/BASELINE_2026-09-14_cycle.json",
+  "created": [
+    "collectors/trade/crop_basket_v01.py",
+    "collectors/trade/test_crop_basket_v01.py",
+    "docs/control/BASELINE_2026-09-14_cycle.json",
+    "docs/control/CONTROL_REVIEW_2026-09-14.md",
+    "docs/control/CROP_TRADE_BASKET_V01.md",
+    "docs/control/CYCLE_2026-09-14.md",
+    "docs/control/FILE_INVENTORY_2026-09-14.json",
+    "docs/control/FINAL_FILE_DIFF_2026-09-14.json",
+    "docs/control/GLOBALWITS_AUDIT_2026-09-14.md",
+    "docs/control/TRADE_SIGNAL_SUPPLY_DESIGN_V01.md"
+  ],
+  "modified": [],
+  "deleted": [],
+  "note": "Final path list reconciled. See FINAL_FILE_DIFF_2026-09-14.json for SHA256 baseline comparison; all 328 originals unchanged, no deletions."
+}

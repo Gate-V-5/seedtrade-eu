@@ -1,0 +1,59 @@
+{
+  "executed_at": "2026-09-16T03:21:18.012211+00:00",
+  "suites": [
+    {
+      "suite": "phenology",
+      "command": [
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "collectors/phenology",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_complete_metadata_is_only_candidate_and_immutable (test_reference_eligibility_v01.ReferenceTests.test_complete_metadata_is_only_candidate_and_immutable) ... ok\ntest_duplicate_ids_reject_both (test_reference_eligibility_v01.ReferenceTests.test_duplicate_ids_reject_both) ... ok\ntest_empty_manifest_does_not_establish_accuracy (test_reference_eligibility_v01.ReferenceTests.test_empty_manifest_does_not_establish_accuracy) ... ok\ntest_group_cannot_cross_splits (test_reference_eligibility_v01.ReferenceTests.test_group_cannot_cross_splits) ... ok\ntest_missing_geometry_or_unknown_training_is_pending (test_reference_eligibility_v01.ReferenceTests.test_missing_geometry_or_unknown_training_is_pending) ... ok\ntest_padded_group_cannot_enter_holdout (test_reference_eligibility_v01.ReferenceTests.test_padded_group_cannot_enter_holdout) ... ok\ntest_padded_reference_id_rejected (test_reference_eligibility_v01.ReferenceTests.test_padded_reference_id_rejected) ... ok\ntest_previously_inspected_holdout_rejected (test_reference_eligibility_v01.ReferenceTests.test_previously_inspected_holdout_rejected) ... ok\ntest_unsuitable_reference_rejected (test_reference_eligibility_v01.ReferenceTests.test_unsuitable_reference_rejected) ... ok\ntest_changed_phenology_rejected (test_selection_event_validation_v01.ValidationTests.test_changed_phenology_rejected) ... ok\ntest_connectivity_excludes_diagonals (test_selection_event_validation_v01.ValidationTests.test_connectivity_excludes_diagonals) ... ok\ntest_duplicate_and_out_of_bounds_rejected (test_selection_event_validation_v01.ValidationTests.test_duplicate_and_out_of_bounds_rejected) ... ok\ntest_incomplete_grid_rejected (test_selection_event_validation_v01.ValidationTests.test_incomplete_grid_rejected) ... ok\ntest_missing_selected_record_rejected (test_selection_event_validation_v01.ValidationTests.test_missing_selected_record_rejected) ... ok\ntest_selection_exclusions_and_missing_baseline_separated (test_selection_event_validation_v01.ValidationTests.test_selection_exclusions_and_missing_baseline_separated) ... ok\ntest_successful_conflict_preserves_inputs (test_selection_event_validation_v01.ValidationTests.test_successful_conflict_preserves_inputs) ... ok\ntest_zero_denominator_is_unavailable (test_selection_event_validation_v01.ValidationTests.test_zero_denominator_is_unavailable) ... ok\ntest_overlap_touch_and_disjoint (test_spatial_geometry_validation_v01.GeometryTests.test_overlap_touch_and_disjoint) ... ok\ntest_resolution_mismatch_fails (test_spatial_geometry_validation_v01.GeometryTests.test_resolution_mismatch_fails) ... ok\ntest_reversed_bbox_fails (test_spatial_geometry_validation_v01.GeometryTests.test_reversed_bbox_fails) ... ok\ntest_shifted_grid_is_different (test_spatial_geometry_validation_v01.GeometryTests.test_shifted_grid_is_different) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.005s\n\nOK\n"
+    },
+    {
+      "suite": "supply",
+      "command": [
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "collectors/supply",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_presented_area_and_year_separation (test_supply_v01.ProvenanceTests.test_presented_area_and_year_separation) ... ok\ntest_source_metadata_preserved (test_supply_v01.ProvenanceTests.test_source_metadata_preserved) ... ok\ntest_invalid_provisional_type_rejected (test_supply_v01.ProvisionalValidationTests.test_invalid_provisional_type_rejected) ... ok\ntest_provisional_needs_valid_as_of (test_supply_v01.ProvisionalValidationTests.test_provisional_needs_valid_as_of) ... ok\ntest_unknown_status_not_final (test_supply_v01.ProvisionalValidationTests.test_unknown_status_not_final) ... ok\ntest_area_not_mass (test_supply_v01.SupplyTests.test_area_not_mass) ... ok\ntest_assessment_reconciliation (test_supply_v01.SupplyTests.test_assessment_reconciliation) ... ok\ntest_bad_values_rejected (test_supply_v01.SupplyTests.test_bad_values_rejected) ... ok\ntest_duplicates_rejected (test_supply_v01.SupplyTests.test_duplicates_rejected) ... ok\ntest_exact_mass_conversion_and_no_inventory (test_supply_v01.SupplyTests.test_exact_mass_conversion_and_no_inventory) ... ok\ntest_inputs_unchanged (test_supply_v01.SupplyTests.test_inputs_unchanged) ... ok\ntest_missing_distinct_from_zero (test_supply_v01.SupplyTests.test_missing_distinct_from_zero) ... ok\ntest_period_and_country_gaps (test_supply_v01.SupplyTests.test_period_and_country_gaps) ... ok\ntest_unit_mismatch (test_supply_v01.SupplyTests.test_unit_mismatch) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.004s\n\nOK\n"
+    },
+    {
+      "suite": "trade",
+      "command": [
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "collectors/trade",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_exact_code_required (test_cn_mapping_v01.MappingTests.test_exact_code_required) ... ok\ntest_historical_year_not_assumed (test_cn_mapping_v01.MappingTests.test_historical_year_not_assumed) ... ok\ntest_hybrid_and_unknown_not_guessed (test_cn_mapping_v01.MappingTests.test_hybrid_and_unknown_not_guessed) ... ok\ntest_mixed_species (test_cn_mapping_v01.MappingTests.test_mixed_species) ... ok\ntest_non_sowing_flax_rejected (test_cn_mapping_v01.MappingTests.test_non_sowing_flax_rejected) ... ok\ntest_specific_codes (test_cn_mapping_v01.MappingTests.test_specific_codes) ... ok\ntest_wrong_species_rejected (test_cn_mapping_v01.MappingTests.test_wrong_species_rejected) ... ok\ntest_context_not_crop_quantity_or_direct_trend (test_crop_basket_v01.BasketTests.test_context_not_crop_quantity_or_direct_trend) ... ok\ntest_duplicate_and_cross_crop_rejected (test_crop_basket_v01.BasketTests.test_duplicate_and_cross_crop_rejected) ... ok\ntest_inputs_immutable (test_crop_basket_v01.BasketTests.test_inputs_immutable) ... ok\ntest_invalid_relationships_rejected (test_crop_basket_v01.BasketTests.test_invalid_relationships_rejected) ... ok\ntest_multiple_codes_retained (test_crop_basket_v01.BasketTests.test_multiple_codes_retained) ... ok\ntest_no_invented_share_weight_signal_or_permission (test_crop_basket_v01.BasketTests.test_no_invented_share_weight_signal_or_permission) ... ok\ntest_parent_child_overlap_not_aggregated (test_crop_basket_v01.BasketTests.test_parent_child_overlap_not_aggregated) ... ok\ntest_proxy_trend_without_crop_quantity (test_crop_basket_v01.BasketTests.test_proxy_trend_without_crop_quantity) ... ok\ntest_unknown_evidence_does_not_authorize (test_crop_basket_v01.BasketTests.test_unknown_evidence_does_not_authorize) ... ok\ntest_unmapped_crop_not_guessed (test_crop_basket_v01.BasketTests.test_unmapped_crop_not_guessed) ... ok\ntest_wrong_year_edition_jurisdiction_fail_closed (test_crop_basket_v01.BasketTests.test_wrong_year_edition_jurisdiction_fail_closed) ... ok\ntest_direct_and_metadata_preserved (test_crop_basket_v02.BasketV02Tests.test_direct_and_metadata_preserved) ... ok\ntest_duplicate_and_cross_crop_rejected (test_crop_basket_v02.BasketV02Tests.test_duplicate_and_cross_crop_rejected) ... ok\ntest_invalid_metadata_rejected (test_crop_basket_v02.BasketV02Tests.test_invalid_metadata_rejected) ... ok\ntest_no_implicit_hs_concordance (test_crop_basket_v02.BasketV02Tests.test_no_implicit_hs_concordance) ... ok\ntest_parent_overlap_and_no_total (test_crop_basket_v02.BasketV02Tests.test_parent_overlap_and_no_total) ... ok\ntest_proxy_never_species_quantity (test_crop_basket_v02.BasketV02Tests.test_proxy_never_species_quantity) ... ok\ntest_unknown_and_invalid_scope_fail_closed (test_crop_basket_v02.BasketV02Tests.test_unknown_and_invalid_scope_fail_closed) ... ok\ntest_complete_partition_and_lineage (test_trade_aggregation_v01.AggregationTests.test_complete_partition_and_lineage) ... ok\ntest_incompatible_dimensions_and_revisions (test_trade_aggregation_v01.AggregationTests.test_incompatible_dimensions_and_revisions) ... ok\ntest_mapping_requires_immutable_explicit_evidence (test_trade_aggregation_v01.AggregationTests.test_mapping_requires_immutable_explicit_evidence) ... ok\ntest_mapping_validity_entire_month (test_trade_aggregation_v01.AggregationTests.test_mapping_validity_entire_month) ... ok\ntest_missing_duplicate_extra_and_parent_rejected (test_trade_aggregation_v01.AggregationTests.test_missing_duplicate_extra_and_parent_rejected) ... ok\ntest_missing_metric_does_not_become_partial_total (test_trade_aggregation_v01.AggregationTests.test_missing_metric_does_not_become_partial_total) ... ok\ntest_unknown_units_remain_unknown (test_trade_aggregation_v01.AggregationTests.test_unknown_units_remain_unknown) ... ok\ntest_unknown_vintage_rejected (test_trade_aggregation_v01.AggregationTests.test_unknown_vintage_rejected) ... ok\ntest_zero_is_preserved (test_trade_aggregation_v01.AggregationTests.test_zero_is_preserved) ... ok\ntest_confidential_not_compared (test_trade_validation_v01.ValidationTests.test_confidential_not_compared) ... ok\ntest_incompatible_dimensions_explained (test_trade_validation_v01.ValidationTests.test_incompatible_dimensions_explained) ... ok\ntest_invalid_period_code_timestamp (test_trade_validation_v01.ValidationTests.test_invalid_period_code_timestamp) ... ok\ntest_invalid_values_rejected (test_trade_validation_v01.ValidationTests.test_invalid_values_rejected) ... ok\ntest_missing_not_zero (test_trade_validation_v01.ValidationTests.test_missing_not_zero) ... ok\ntest_raw_immutable (test_trade_validation_v01.ValidationTests.test_raw_immutable) ... ok\ntest_threshold_boundaries (test_trade_validation_v01.ValidationTests.test_threshold_boundaries) ... ok\ntest_two_sources_exact_match (test_trade_validation_v01.ValidationTests.test_two_sources_exact_match) ... ok\ntest_unknown_methodology_not_match (test_trade_validation_v01.ValidationTests.test_unknown_methodology_not_match) ... ok\ntest_unknown_vintage_flag (test_trade_validation_v01.ValidationTests.test_unknown_vintage_flag) ... ok\ntest_value_basis_mismatch (test_trade_validation_v01.ValidationTests.test_value_basis_mismatch) ... ok\ntest_vintages_preserved_and_flagged (test_trade_validation_v01.ValidationTests.test_vintages_preserved_and_flagged) ... ok\ntest_weight_type_and_currency_checked_per_metric (test_trade_validation_v01.ValidationTests.test_weight_type_and_currency_checked_per_metric) ... ok\ntest_zero_denominators (test_trade_validation_v01.ValidationTests.test_zero_denominators) ... ok\n\n----------------------------------------------------------------------\nRan 48 tests in 0.023s\n\nOK\n"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "collectors/phenology/copernicus_auth_test.py",
+      "reason": "Live authentication integration script requires absent credentials; not a unit test. ACCESS_REQUIRED; not executed."
+    }
+  ]
+}

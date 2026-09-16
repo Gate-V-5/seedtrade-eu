@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-09-13T05:34:33.0638709Z",
+  "baseline_count": 288,
+  "modified": [],
+  "deleted": [],
+  "added": [
+    "collectors/supply/supply_v01.py",
+    "collectors/supply/test_supply_v01.py",
+    "collectors/trade/cn_mapping_v01.py",
+    "collectors/trade/test_cn_mapping_v01.py",
+    "data/seed_production/DE_BSA_2024_quantities_v01.json",
+    "data/seed_production/FR_chart_check.png",
+    "data/seed_production/FR_SEMAE_2025_note.pdf",
+    "data/seed_production/FR_SEMAE_2025_provisional_areas_v01.json",
+    "data/seed_production/IT_CREA_2024_areas_v01.json",
+    "data/seed_production/IT_CREA_history_source.xlsx",
+    "data/seed_production/PL_PIORIN_2024_areas_v01.json",
+    "data/seed_production/supply_v01_2024.json",
+    "data/seed_production/supply_v01_2025.json",
+    "data/trade/CN_2026_official.pdf",
+    "data/trade/CN_2026_source_hash.json",
+    "docs/control/BASELINE_2026-09-12_cycle.json",
+    "docs/control/CYCLE_2026-09-13.md",
+    "docs/control/PRICE_ENGINE_V01_ARCHITECTURE.md",
+    "docs/control/SEED_SOURCE_REGISTER.md",
+    "docs/control/SUPPLY_ENGINE_V01.md",
+    "docs/control/TRADE_MAPPING_CN2026.md"
+  ]
+}

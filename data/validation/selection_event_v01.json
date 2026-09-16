@@ -1,0 +1,880 @@
+{
+  "diagnostic_version": "0.1",
+  "created_utc": "2026-09-10T19:38:44.693093+00:00",
+  "v07_frozen": true,
+  "boundary_audit_rerun": false,
+  "limitations": [
+    "Descriptive cross-layer disagreement, not accuracy.",
+    "Events and components are not independent field observations.",
+    "No regional acreage inference; no classifier execution."
+  ],
+  "input_hashes": {
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2021_5samples_2000ha_2026-09-07.json": "3910c8faa385ebf59610ac9102719418f21513d3d2049179ade0b1aa2fa29f17",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S01_2km_400ha_test_2026-09-07.json": "36a308a2da15c19df3efb5a4a99fd93f4b67eac7547a7e05243ab1fa6b02e052",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S01_2km_400ha_test_2026-09-07.json": "2034aebdfd0bb22bc4e9ccfc9ad190c7ae6525b582d93a91ddc60b92e58b2591",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S02_2km_400ha_test_2026-09-07.json": "777e87091404b41cdde988d955f1796b3e41f4b31bb301162e50b4601b845962",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S02_2km_400ha_test_2026-09-07.json": "e9e5302821585955ead462a3d072f6f4c05bb8e38b8357ff2e2aad17ea05b094",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S03_2km_400ha_test_2026-09-07.json": "43b263f6b11a0ef7c01f37386a9bd3848803e3b1cd6097b2429544ef289a7fb6",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S03_2km_400ha_test_2026-09-07.json": "0e7efe572d818b347e1082ce1ab053157bacbe7d050145571b93f29e8f67195b",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S04_2km_400ha_test_2026-09-07.json": "e17a236791a29afb3b656ea46d692796ede24b0aec5117dc0942f99bdfe09b8d",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S04_2km_400ha_test_2026-09-07.json": "6206bd512844c63526a82c1cb1b489141ea22f5a4af2c32266d66537850aa574",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2021_S05_2km_400ha_test_2026-09-07.json": "449305655e07b4834838714c19d0b57f1d7013b64f0ccb011546e8198b75be8d",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2021_S05_2km_400ha_test_2026-09-07.json": "c22fdebc1813f37e4e6dc91323d976b70f803f07168383ab6d282590c15111b6",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2022_5samples_2000ha_2026-09-07.json": "b1b4a37f339fddf220765ffa1f68284645c653299acad529499445f25d197316",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S01_2km_400ha_test_2026-09-07.json": "5fa867847792527d0a9df93b6a71148186e3b857e6d312c670cdf9e24b2c8cde",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S01_2km_400ha_test_2026-09-07.json": "ef1e9388002edd8d752f654a4bf974a209ea0c8e6ae3ab67b3923a275eba4283",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S02_2km_400ha_test_2026-09-07.json": "c5d73f8fb30c60d12d15976a128bb0b865dcde61ad1055001c5fe15eefc93019",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S02_2km_400ha_test_2026-09-07.json": "3c8ad8a6f536fe5289edf69bfcb908a3601cdc585ccd5186b7c4a80ce1460975",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S03_2km_400ha_test_2026-09-07.json": "9c06b94701c391f1a957dac3beb326644279947a4c33d4682f316f6d2ed0f462",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S03_2km_400ha_test_2026-09-07.json": "73d5fc29c0826bf01a69b5e113344a9961e291b81f049ff645f461f3ce187934",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S04_2km_400ha_test_2026-09-07.json": "30e8a5527a4082417f89c6595904b5cebacd902d3891a87bfa327c2f23c23c39",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S04_2km_400ha_test_2026-09-07.json": "6f05f7408a58052bcefacf90f10525d7f8bc188259d2a2f0c2d828207cb21d44",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2022_S05_2km_400ha_test_2026-09-07.json": "5efec846651812b787c561d81efa296b224b1b6193586c64eb6fc37e8c2956ea",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2022_S05_2km_400ha_test_2026-09-07.json": "fa6b5b27c2180f1e5453940af0346db5f19453d6d3a84eab809ed313ca70fd77",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v07_hybrid_multiyear_validation_2023_5samples_2000ha_2026-09-07.json": "c49ce4a4cc50e4c85ca46ca56bec742f22a10cf486402247236d5aa541f259eb",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S01_2km_400ha_test_2026-09-07.json": "3337ea4ad5df9821eeb923fead7889c97756099f0555902d98746b34accdd457",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S01_2km_400ha_test_2026-09-07.json": "572b1a3d0951e45151f7edec4ab8e270dfa079d86ada231d56bf35fe42ed26e2",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S02_2km_400ha_test_2026-09-07.json": "c3bb77d166b87dce73ad93e6416f4b83a9fa7024282740fc48c91cb217490005",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S02_2km_400ha_test_2026-09-07.json": "8983a1c2e96f7b1cdf0a318c8c64cc741c72042af3c1a9bb1def06c8890ed14f",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S03_2km_400ha_test_2026-09-07.json": "689b6b651ec0b417cb6ccca84506aa223745cc3d5d13e7f62e36af77179dca6d",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S03_2km_400ha_test_2026-09-07.json": "72c29402560dea402e9d8b85eabd32ce6ee3b6a3c5691488d068b1e7a6540303",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S04_2km_400ha_test_2026-09-07.json": "cdc618177c963e3f305ee147bd741e5bfbeaab6f71a2bd8a03905f24a6c6fd6c",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S04_2km_400ha_test_2026-09-07.json": "2685e8d58717b51ee281dae3e59d4e701a01173bdc48983ba57f30822b792ff8",
+    "data\\raw\\copernicus\\LT_VALIDATION_multiyear_validation_pixel_intelligence_2023_S05_2km_400ha_test_2026-09-07.json": "60ab6df1514923dc835e80ff2bf773d81a3578da25622c03c3c005b462f41edc",
+    "data\\raw\\copernicus\\LT_VALIDATION_season_type_classifier_v04_multiyear_validation_2023_S05_2km_400ha_test_2026-09-07.json": "c8fc68ab2ac12299cf7f6652542698ad64b90ac675bde4c27d3fefc69d91a3c6"
+  },
+  "inputs_unchanged": true,
+  "samples": [
+    {
+      "year": 2021,
+      "sample_id": "S01",
+      "raw_pixels": 40000,
+      "target_pixels": 28345,
+      "selected_pixels": 28345,
+      "non_target_exclusions": 11655,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 24991,
+        "AGRONOMIC_CONFLICT": 2637,
+        "AGRONOMIC_INSUFFICIENT": 520,
+        "AGRONOMIC_WEAK_SUPPORT": 197
+      },
+      "conflict_pixels": 2637,
+      "conflict_fraction_selected": 0.09303228082554242,
+      "conflict_fraction_directional_comparison": 0.0954466483277834,
+      "conflict_event_count": 2,
+      "largest_event_fraction_of_conflicts": 0.975350777398559,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2021-02-21",
+            "emergence_uncertainty_days": 1,
+            "duration_days": 136,
+            "harvest_date": "2021-07-07"
+          },
+          "pixels": 2572,
+          "component_count": 1,
+          "component_sizes": [
+            2572
+          ],
+          "by_cty": {
+            "1110": 2572
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2021-02-22",
+            "emergence_uncertainty_days": 1,
+            "duration_days": 135,
+            "harvest_date": "2021-07-07"
+          },
+          "pixels": 65,
+          "component_count": 1,
+          "component_sizes": [
+            65
+          ],
+          "by_cty": {
+            "1110": 65
+          }
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "sample_id": "S02",
+      "raw_pixels": 40000,
+      "target_pixels": 22335,
+      "selected_pixels": 22335,
+      "non_target_exclusions": 17665,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 19674,
+        "AGRONOMIC_CONFLICT": 477,
+        "AGRONOMIC_INSUFFICIENT": 145,
+        "AGRONOMIC_WEAK_SUPPORT": 2039
+      },
+      "conflict_pixels": 477,
+      "conflict_fraction_selected": 0.021356615177971792,
+      "conflict_fraction_directional_comparison": 0.023671281822242072,
+      "conflict_event_count": 2,
+      "largest_event_fraction_of_conflicts": 0.9329140461215933,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2021-03-24",
+            "emergence_uncertainty_days": 18,
+            "duration_days": 111,
+            "harvest_date": "2021-07-13"
+          },
+          "pixels": 445,
+          "component_count": 1,
+          "component_sizes": [
+            445
+          ],
+          "by_cty": {
+            "1110": 437,
+            "1430": 8
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2021-02-27",
+            "emergence_uncertainty_days": 1,
+            "duration_days": 136,
+            "harvest_date": "2021-07-13"
+          },
+          "pixels": 32,
+          "component_count": 1,
+          "component_sizes": [
+            32
+          ],
+          "by_cty": {
+            "1110": 32
+          }
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "sample_id": "S03",
+      "raw_pixels": 40000,
+      "target_pixels": 23716,
+      "selected_pixels": 23716,
+      "non_target_exclusions": 16284,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 13426,
+        "AGRONOMIC_CONFLICT": 30,
+        "AGRONOMIC_INSUFFICIENT": 361,
+        "AGRONOMIC_WEAK_SUPPORT": 9872,
+        "NO_CLMS_LABEL": 27
+      },
+      "conflict_pixels": 30,
+      "conflict_fraction_selected": 0.0012649687974363299,
+      "conflict_fraction_directional_comparison": 0.0022294887039239,
+      "conflict_event_count": 2,
+      "largest_event_fraction_of_conflicts": 0.9,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2021-02-06",
+            "emergence_uncertainty_days": 17,
+            "duration_days": 157,
+            "harvest_date": "2021-07-13"
+          },
+          "pixels": 27,
+          "component_count": 2,
+          "component_sizes": [
+            20,
+            7
+          ],
+          "by_cty": {
+            "1150": 27
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2021-02-07",
+            "emergence_uncertainty_days": 15,
+            "duration_days": 156,
+            "harvest_date": "2021-07-13"
+          },
+          "pixels": 3,
+          "component_count": 3,
+          "component_sizes": [
+            1,
+            1,
+            1
+          ],
+          "by_cty": {
+            "1150": 3
+          }
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "sample_id": "S04",
+      "raw_pixels": 40000,
+      "target_pixels": 654,
+      "selected_pixels": 654,
+      "non_target_exclusions": 39346,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 256,
+        "AGRONOMIC_CONFLICT": 332,
+        "AGRONOMIC_WEAK_SUPPORT": 66
+      },
+      "conflict_pixels": 332,
+      "conflict_fraction_selected": 0.5076452599388379,
+      "conflict_fraction_directional_comparison": 0.564625850340136,
+      "conflict_event_count": 1,
+      "largest_event_fraction_of_conflicts": 1.0,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2021-03-27",
+            "emergence_uncertainty_days": 17,
+            "duration_days": 114,
+            "harvest_date": "2021-07-19"
+          },
+          "pixels": 332,
+          "component_count": 1,
+          "component_sizes": [
+            332
+          ],
+          "by_cty": {
+            "1110": 332
+          }
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "sample_id": "S05",
+      "raw_pixels": 40000,
+      "target_pixels": 1928,
+      "selected_pixels": 1928,
+      "non_target_exclusions": 38072,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 1915,
+        "AGRONOMIC_INSUFFICIENT": 13
+      },
+      "conflict_pixels": 0,
+      "conflict_fraction_selected": 0.0,
+      "conflict_fraction_directional_comparison": 0.0,
+      "conflict_event_count": 0,
+      "largest_event_fraction_of_conflicts": null,
+      "conflict_events": []
+    },
+    {
+      "year": 2022,
+      "sample_id": "S01",
+      "raw_pixels": 40000,
+      "target_pixels": 30491,
+      "selected_pixels": 30491,
+      "non_target_exclusions": 9509,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 27067,
+        "AGRONOMIC_INSUFFICIENT": 485,
+        "AGRONOMIC_WEAK_SUPPORT": 2939
+      },
+      "conflict_pixels": 0,
+      "conflict_fraction_selected": 0.0,
+      "conflict_fraction_directional_comparison": 0.0,
+      "conflict_event_count": 0,
+      "largest_event_fraction_of_conflicts": null,
+      "conflict_events": []
+    },
+    {
+      "year": 2022,
+      "sample_id": "S02",
+      "raw_pixels": 40000,
+      "target_pixels": 21918,
+      "selected_pixels": 21918,
+      "non_target_exclusions": 18082,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 5237,
+        "AGRONOMIC_INSUFFICIENT": 1598,
+        "AGRONOMIC_WEAK_SUPPORT": 15083
+      },
+      "conflict_pixels": 0,
+      "conflict_fraction_selected": 0.0,
+      "conflict_fraction_directional_comparison": 0.0,
+      "conflict_event_count": 0,
+      "largest_event_fraction_of_conflicts": null,
+      "conflict_events": []
+    },
+    {
+      "year": 2022,
+      "sample_id": "S03",
+      "raw_pixels": 40000,
+      "target_pixels": 19608,
+      "selected_pixels": 19608,
+      "non_target_exclusions": 20392,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 16066,
+        "AGRONOMIC_CONFLICT": 86,
+        "AGRONOMIC_INSUFFICIENT": 2124,
+        "AGRONOMIC_WEAK_SUPPORT": 1332
+      },
+      "conflict_pixels": 86,
+      "conflict_fraction_selected": 0.0043859649122807015,
+      "conflict_fraction_directional_comparison": 0.005324418028727093,
+      "conflict_event_count": 1,
+      "largest_event_fraction_of_conflicts": 1.0,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2022-03-05",
+            "emergence_uncertainty_days": 3,
+            "duration_days": 130,
+            "harvest_date": "2022-07-13"
+          },
+          "pixels": 86,
+          "component_count": 1,
+          "component_sizes": [
+            86
+          ],
+          "by_cty": {
+            "1150": 86
+          }
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "sample_id": "S04",
+      "raw_pixels": 40000,
+      "target_pixels": 2027,
+      "selected_pixels": 2027,
+      "non_target_exclusions": 37973,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 1748,
+        "AGRONOMIC_AMBIGUOUS": 195,
+        "AGRONOMIC_INSUFFICIENT": 15,
+        "AGRONOMIC_WEAK_SUPPORT": 69
+      },
+      "conflict_pixels": 0,
+      "conflict_fraction_selected": 0.0,
+      "conflict_fraction_directional_comparison": 0.0,
+      "conflict_event_count": 0,
+      "largest_event_fraction_of_conflicts": null,
+      "conflict_events": []
+    },
+    {
+      "year": 2022,
+      "sample_id": "S05",
+      "raw_pixels": 40000,
+      "target_pixels": 1948,
+      "selected_pixels": 1948,
+      "non_target_exclusions": 38052,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 1925,
+        "AGRONOMIC_CONFLICT": 4,
+        "AGRONOMIC_INSUFFICIENT": 19
+      },
+      "conflict_pixels": 4,
+      "conflict_fraction_selected": 0.002053388090349076,
+      "conflict_fraction_directional_comparison": 0.002073613271124935,
+      "conflict_event_count": 1,
+      "largest_event_fraction_of_conflicts": 1.0,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2022-02-02",
+            "emergence_uncertainty_days": 2,
+            "duration_days": 179,
+            "harvest_date": "2022-07-31"
+          },
+          "pixels": 4,
+          "component_count": 1,
+          "component_sizes": [
+            4
+          ],
+          "by_cty": {
+            "1150": 4
+          }
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "sample_id": "S01",
+      "raw_pixels": 40000,
+      "target_pixels": 26771,
+      "selected_pixels": 26771,
+      "non_target_exclusions": 13229,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 20785,
+        "AGRONOMIC_AMBIGUOUS": 522,
+        "AGRONOMIC_CONFLICT": 4721,
+        "AGRONOMIC_INSUFFICIENT": 694,
+        "AGRONOMIC_WEAK_SUPPORT": 49
+      },
+      "conflict_pixels": 4721,
+      "conflict_fraction_selected": 0.17634754024877666,
+      "conflict_fraction_directional_comparison": 0.18509370344232728,
+      "conflict_event_count": 2,
+      "largest_event_fraction_of_conflicts": 0.5278542681635247,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2023-03-30",
+            "emergence_uncertainty_days": 1,
+            "duration_days": 117,
+            "harvest_date": "2023-07-25"
+          },
+          "pixels": 2492,
+          "component_count": 1,
+          "component_sizes": [
+            2492
+          ],
+          "by_cty": {
+            "1110": 2492
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-24",
+            "emergence_uncertainty_days": 6,
+            "duration_days": 123,
+            "harvest_date": "2023-07-25"
+          },
+          "pixels": 2229,
+          "component_count": 1,
+          "component_sizes": [
+            2229
+          ],
+          "by_cty": {
+            "1110": 53,
+            "1430": 2176
+          }
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "sample_id": "S02",
+      "raw_pixels": 40000,
+      "target_pixels": 19489,
+      "selected_pixels": 19489,
+      "non_target_exclusions": 20511,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 16690,
+        "AGRONOMIC_CONFLICT": 2212,
+        "AGRONOMIC_INSUFFICIENT": 194,
+        "AGRONOMIC_WEAK_SUPPORT": 393
+      },
+      "conflict_pixels": 2212,
+      "conflict_fraction_selected": 0.11349992303350608,
+      "conflict_fraction_directional_comparison": 0.11702465347582267,
+      "conflict_event_count": 5,
+      "largest_event_fraction_of_conflicts": 0.6342676311030742,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2023-03-18",
+            "emergence_uncertainty_days": 5,
+            "duration_days": 117,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 1403,
+          "component_count": 1,
+          "component_sizes": [
+            1403
+          ],
+          "by_cty": {
+            "1430": 1403
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-23",
+            "emergence_uncertainty_days": 1,
+            "duration_days": 118,
+            "harvest_date": "2023-07-19"
+          },
+          "pixels": 542,
+          "component_count": 1,
+          "component_sizes": [
+            542
+          ],
+          "by_cty": {
+            "1110": 542
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-26",
+            "emergence_uncertainty_days": 1,
+            "duration_days": 133,
+            "harvest_date": "2023-08-06"
+          },
+          "pixels": 102,
+          "component_count": 1,
+          "component_sizes": [
+            102
+          ],
+          "by_cty": {
+            "1110": 102
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-26",
+            "emergence_uncertainty_days": 2,
+            "duration_days": 133,
+            "harvest_date": "2023-08-06"
+          },
+          "pixels": 89,
+          "component_count": 1,
+          "component_sizes": [
+            89
+          ],
+          "by_cty": {
+            "1110": 89
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-20",
+            "emergence_uncertainty_days": 3,
+            "duration_days": 121,
+            "harvest_date": "2023-07-19"
+          },
+          "pixels": 76,
+          "component_count": 1,
+          "component_sizes": [
+            76
+          ],
+          "by_cty": {
+            "1430": 76
+          }
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "sample_id": "S03",
+      "raw_pixels": 40000,
+      "target_pixels": 20991,
+      "selected_pixels": 20991,
+      "non_target_exclusions": 19009,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 9277,
+        "AGRONOMIC_AMBIGUOUS": 732,
+        "AGRONOMIC_CONFLICT": 9049,
+        "AGRONOMIC_INSUFFICIENT": 748,
+        "AGRONOMIC_WEAK_SUPPORT": 1180,
+        "NO_CLMS_LABEL": 5
+      },
+      "conflict_pixels": 9049,
+      "conflict_fraction_selected": 0.4310895145538564,
+      "conflict_fraction_directional_comparison": 0.4937793299137837,
+      "conflict_event_count": 12,
+      "largest_event_fraction_of_conflicts": 0.6757652779312632,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2023-03-28",
+            "emergence_uncertainty_days": 17,
+            "duration_days": 119,
+            "harvest_date": "2023-07-25"
+          },
+          "pixels": 6115,
+          "component_count": 1,
+          "component_sizes": [
+            6115
+          ],
+          "by_cty": {
+            "1110": 2891,
+            "1120": 906,
+            "1150": 63,
+            "1430": 2255
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-31",
+            "emergence_uncertainty_days": 19,
+            "duration_days": 104,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 1156,
+          "component_count": 1,
+          "component_sizes": [
+            1156
+          ],
+          "by_cty": {
+            "1110": 875,
+            "1120": 77,
+            "1150": 197,
+            "1430": 7
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-31",
+            "emergence_uncertainty_days": 9,
+            "duration_days": 104,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 651,
+          "component_count": 1,
+          "component_sizes": [
+            651
+          ],
+          "by_cty": {
+            "1110": 6,
+            "1430": 645
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-21",
+            "emergence_uncertainty_days": 11,
+            "duration_days": 120,
+            "harvest_date": "2023-07-19"
+          },
+          "pixels": 362,
+          "component_count": 1,
+          "component_sizes": [
+            362
+          ],
+          "by_cty": {
+            "1430": 362
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-20",
+            "emergence_uncertainty_days": 21,
+            "duration_days": 121,
+            "harvest_date": "2023-07-19"
+          },
+          "pixels": 361,
+          "component_count": 1,
+          "component_sizes": [
+            361
+          ],
+          "by_cty": {
+            "1430": 361
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-25",
+            "emergence_uncertainty_days": 15,
+            "duration_days": 110,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 149,
+          "component_count": 1,
+          "component_sizes": [
+            149
+          ],
+          "by_cty": {
+            "1110": 7,
+            "1150": 5,
+            "1430": 137
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-19",
+            "emergence_uncertainty_days": 12,
+            "duration_days": 128,
+            "harvest_date": "2023-07-25"
+          },
+          "pixels": 79,
+          "component_count": 1,
+          "component_sizes": [
+            79
+          ],
+          "by_cty": {
+            "1110": 79
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-19",
+            "emergence_uncertainty_days": 5,
+            "duration_days": 122,
+            "harvest_date": "2023-07-19"
+          },
+          "pixels": 58,
+          "component_count": 1,
+          "component_sizes": [
+            58
+          ],
+          "by_cty": {
+            "1430": 58
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-22",
+            "emergence_uncertainty_days": 6,
+            "duration_days": 125,
+            "harvest_date": "2023-07-25"
+          },
+          "pixels": 44,
+          "component_count": 1,
+          "component_sizes": [
+            44
+          ],
+          "by_cty": {
+            "1430": 44
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-03",
+            "emergence_uncertainty_days": 14,
+            "duration_days": 132,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 33,
+          "component_count": 1,
+          "component_sizes": [
+            33
+          ],
+          "by_cty": {
+            "1110": 33
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-17",
+            "emergence_uncertainty_days": 7,
+            "duration_days": 130,
+            "harvest_date": "2023-07-25"
+          },
+          "pixels": 24,
+          "component_count": 1,
+          "component_sizes": [
+            24
+          ],
+          "by_cty": {
+            "1110": 24
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-13",
+            "emergence_uncertainty_days": 25,
+            "duration_days": 146,
+            "harvest_date": "2023-08-06"
+          },
+          "pixels": 17,
+          "component_count": 1,
+          "component_sizes": [
+            17
+          ],
+          "by_cty": {
+            "1110": 17
+          }
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "sample_id": "S04",
+      "raw_pixels": 40000,
+      "target_pixels": 5874,
+      "selected_pixels": 5874,
+      "non_target_exclusions": 34126,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 4348,
+        "AGRONOMIC_CONFLICT": 1390,
+        "AGRONOMIC_INSUFFICIENT": 63,
+        "AGRONOMIC_WEAK_SUPPORT": 73
+      },
+      "conflict_pixels": 1390,
+      "conflict_fraction_selected": 0.23663602315287707,
+      "conflict_fraction_directional_comparison": 0.24224468455907983,
+      "conflict_event_count": 2,
+      "largest_event_fraction_of_conflicts": 0.9705035971223022,
+      "conflict_events": [
+        {
+          "signature": {
+            "emergence_date": "2023-03-24",
+            "emergence_uncertainty_days": 5,
+            "duration_days": 111,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 1349,
+          "component_count": 1,
+          "component_sizes": [
+            1349
+          ],
+          "by_cty": {
+            "1110": 1076,
+            "1150": 273
+          }
+        },
+        {
+          "signature": {
+            "emergence_date": "2023-03-24",
+            "emergence_uncertainty_days": 18,
+            "duration_days": 111,
+            "harvest_date": "2023-07-13"
+          },
+          "pixels": 41,
+          "component_count": 1,
+          "component_sizes": [
+            41
+          ],
+          "by_cty": {
+            "1110": 41
+          }
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "sample_id": "S05",
+      "raw_pixels": 40000,
+      "target_pixels": 1760,
+      "selected_pixels": 1760,
+      "non_target_exclusions": 38240,
+      "target_missing_baseline": 0,
+      "selection_and_saved_fields_pass": true,
+      "statuses": {
+        "AGRONOMIC_AGREE": 1741,
+        "AGRONOMIC_INSUFFICIENT": 19
+      },
+      "conflict_pixels": 0,
+      "conflict_fraction_selected": 0.0,
+      "conflict_fraction_directional_comparison": 0.0,
+      "conflict_event_count": 0,
+      "largest_event_fraction_of_conflicts": null,
+      "conflict_events": []
+    }
+  ]
+}

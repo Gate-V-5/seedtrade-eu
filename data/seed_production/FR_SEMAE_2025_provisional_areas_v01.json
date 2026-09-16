@@ -1,0 +1,85 @@
+{
+  "country": "FR",
+  "reference_year": 2025,
+  "publisher": "SEMAE",
+  "metric": "presented_seed_production_area",
+  "provisional": true,
+  "as_of": "2025-08-26",
+  "source_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+  "source_sha256": "4095A13FCDA1004859FEB8A86CEC63BB773A6BCEAC02492DC2470A2E365AC1AB",
+  "records": [
+    {
+      "source_species": "Trèfle violet",
+      "crop_group": "red_clover",
+      "value": "3286",
+      "unit": "ha",
+      "use_category": "forage",
+      "page": 3,
+      "printed_page": 2,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "source_species": "Vesce commune",
+      "crop_group": "vetch",
+      "value": "2127",
+      "unit": "ha",
+      "use_category": "forage",
+      "page": 3,
+      "printed_page": 2,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "source_species": "Ray-grass anglais",
+      "crop_group": "ryegrass",
+      "value": "538",
+      "unit": "ha",
+      "use_category": "forage",
+      "page": 3,
+      "printed_page": 2,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "source_species": "Ray-grass d'Italie",
+      "crop_group": "ryegrass",
+      "value": "2558",
+      "unit": "ha",
+      "use_category": "forage",
+      "page": 3,
+      "printed_page": 2,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "source_species": "Ray-grass hybride",
+      "crop_group": "ryegrass",
+      "value": "1102",
+      "unit": "ha",
+      "use_category": "forage",
+      "page": 3,
+      "printed_page": 2,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    },
+    {
+      "source_species": "RGA gazon",
+      "crop_group": "ryegrass",
+      "value": "830",
+      "unit": "ha",
+      "use_category": "turf",
+      "page": 3,
+      "printed_page": 2,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    }
+  ],
+  "limitations": [
+    "Provisional presented hectares, not harvested or approved final hectares.",
+    "Forage and turf ryegrass retained separately; no whole-species total inferred.",
+    "White clover and flax absent from inspected chart, not zero.",
+    "Historical chart points were not digitized or guessed.",
+    "Reuse terms remain unqualified for publication."
+  ]
+}

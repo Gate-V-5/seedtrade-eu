@@ -1,0 +1,27 @@
+{
+  "country": "PL",
+  "reference_year": 2024,
+  "source_date": "2024-12-16",
+  "publisher": "PIORiN",
+  "metric": "seed_field_assessment_area",
+  "unit": "ha",
+  "source_url": "https://www.gov.pl/attachment/e0543140-15d0-4925-8fb8-b992cca18b54",
+  "source_sha256": "62624C1B0D8F61821F608C78150D0A996CCE73322CB1D4D8FE4E6249A063F359",
+  "records": [
+    {
+      "source_species": "Życica wielokwiatowa westerwoldzka",
+      "crop_group": "ryegrass",
+      "assessed_area_ha": "3700.73",
+      "qualified_area_ha": "3477.03",
+      "disqualified_area_ha": "223.70",
+      "page": 12,
+      "extraction_status": "VISUALLY_VERIFIED",
+      "available_supply": null
+    }
+  ],
+  "limitations": [
+    "Supplement to original eight categories; separate Westerwolds category, not an overlapping total.",
+    "Field assessment hectares do not establish harvested seed quantity.",
+    "Qualified and disqualified are components of assessed area, not additive alongside it."
+  ]
+}

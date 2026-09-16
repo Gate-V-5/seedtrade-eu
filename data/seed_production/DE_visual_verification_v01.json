@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-09-13T06:37:24.8758120Z",
+  "source": "data/seed_production/DE_BSA_2024_source.pdf",
+  "sha256": "36CB61014DA47FFBBAEFE2F8CF3CA61B4AD40FCED77FB9C687D8E29767A686FC",
+  "input_dataset": "data/seed_production/DE_BSA_2024_quantities_v01.json",
+  "pages": [
+    32,
+    33
+  ],
+  "method": "Local Poppler render and visual comparison of species rows, total column, units and period",
+  "records_checked": 10,
+  "discrepancies": 0,
+  "result": "VISUALLY_VERIFIED",
+  "limitations": [
+    "Render warned of unavailable Symbol/ArialUnicode fonts; relevant labels and numeric columns were legible.",
+    "Verification confirms transcription, not inventory or production interpretation.",
+    "Original dataset and engine outputs unchanged; this report supplements prior visual-pending status."
+  ]
+}

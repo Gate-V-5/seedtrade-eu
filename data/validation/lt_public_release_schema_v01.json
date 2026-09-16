@@ -1,0 +1,26 @@
+{
+  "observed_utc_date": "2026-09-11",
+  "catalogue_url": "https://data.gov.lt/datasets/283/?resource_version=255",
+  "download_url": "https://data.gov.lt/datasets/283/distribution/14323/download/",
+  "resolved_url": "https://data.gov.lt/media/filer_public/18/9e/189e47e8-4be6-46ae-8c6d-f9b573a9be1b/ziemvasarjavai_2023-07-15_070000.csv",
+  "content_type": "text/csv",
+  "inspection_scope": "First 4096 bytes only; not a complete-file audit",
+  "delimiter": ";",
+  "decoding": "utf-8-sig",
+  "header": ["LAUKO_ID", "METAI", "PLOTAS", "KULTUROS_KODAS", "KULTUROS_PAVADINIMAS", "PAPILD_INFO", "VALDOS_CENTR_SAV", "VALDOS_CENTR_SEN"],
+  "geometry_columns_present": false,
+  "coordinates_columns_present": false,
+  "field_identifier_column": "LAUKO_ID",
+  "year_column": "METAI",
+  "season_code_column": "KULTUROS_KODAS",
+  "observed_sample_year": 2023,
+  "observed_sample_season_codes": ["KVŽ", "RAŽ", "MIV", "KVV", "MIŽ"],
+  "spatial_join_status": "NOT_ESTABLISHED",
+  "training_independence_status": "UNKNOWN",
+  "limitations": [
+    "No full-file row count, identifier uniqueness, coverage or code-domain verification.",
+    "Administrative fields describe holding-centre areas; they are not parcel coordinates.",
+    "Field IDs require a documented year-compatible geometry join before raster comparison.",
+    "Only schema metadata retained locally; no raw declaration records saved."
+  ]
+}

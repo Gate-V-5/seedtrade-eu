@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-09-13T07:39:53.2247182Z",
+  "source": "data/seed_production/PL_PIORIN_2024_source.pdf",
+  "sha256": "62624C1B0D8F61821F608C78150D0A996CCE73322CB1D4D8FE4E6249A063F359",
+  "input_dataset": "data/seed_production/PL_PIORIN_2024_areas_v01.json",
+  "pages": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    11,
+    12
+  ],
+  "records_checked": 8,
+  "measurements_checked": 24,
+  "discrepancies": 0,
+  "result": "VISUALLY_VERIFIED",
+  "limitations": [
+    "Font warnings emitted; relevant source rows and columns legible.",
+    "Confirms transcription, not available supply.",
+    "Original extracts unchanged; this report supplements visual-pending status."
+  ]
+}

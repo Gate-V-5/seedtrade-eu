@@ -1,0 +1,7 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?reporterCode=276&partnerCode=616&period=202506&cmdCode=120925&flowCode=X&partner2Code=0&customsCode=C00&motCode=0&maxRecords=5",
+  "retrieved_at": "2026-09-15T00:49:16.3740194Z",
+  "sha256": "DB1D4BCD1FE801F642885F55BD1ECDAAF651CC7345605A01F6A4CAF410657048",
+  "file": "data/trade/multisource_20260915/comtrade_DE_PL_202506_120925_X_totals.json",
+  "scope": "one HS6, one month, reporter/partner/export; explicit secondary total filters"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/sdmx/2.1/codelist/ESTAT/CXT_INDICATORS?compress=false",
+  "retrieved_at": "2026-09-14T20:39:10.4354912Z",
+  "sha256": "BAC4E91EEAEFA152F85728303961136ABF2D0CCD4A2FF2039D26382087ECF716",
+  "file": "data/trade/multisource_20260915/CXT_INDICATORS.xml"
+}

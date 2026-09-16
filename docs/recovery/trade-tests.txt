@@ -1,0 +1,53 @@
+test_exact_code_required (test_cn_mapping_v01.MappingTests.test_exact_code_required) ... ok
+test_historical_year_not_assumed (test_cn_mapping_v01.MappingTests.test_historical_year_not_assumed) ... ok
+test_hybrid_and_unknown_not_guessed (test_cn_mapping_v01.MappingTests.test_hybrid_and_unknown_not_guessed) ... ok
+test_mixed_species (test_cn_mapping_v01.MappingTests.test_mixed_species) ... ok
+test_non_sowing_flax_rejected (test_cn_mapping_v01.MappingTests.test_non_sowing_flax_rejected) ... ok
+test_specific_codes (test_cn_mapping_v01.MappingTests.test_specific_codes) ... ok
+test_wrong_species_rejected (test_cn_mapping_v01.MappingTests.test_wrong_species_rejected) ... ok
+test_context_not_crop_quantity_or_direct_trend (test_crop_basket_v01.BasketTests.test_context_not_crop_quantity_or_direct_trend) ... ok
+test_duplicate_and_cross_crop_rejected (test_crop_basket_v01.BasketTests.test_duplicate_and_cross_crop_rejected) ... ok
+test_inputs_immutable (test_crop_basket_v01.BasketTests.test_inputs_immutable) ... ok
+test_invalid_relationships_rejected (test_crop_basket_v01.BasketTests.test_invalid_relationships_rejected) ... ok
+test_multiple_codes_retained (test_crop_basket_v01.BasketTests.test_multiple_codes_retained) ... ok
+test_no_invented_share_weight_signal_or_permission (test_crop_basket_v01.BasketTests.test_no_invented_share_weight_signal_or_permission) ... ok
+test_parent_child_overlap_not_aggregated (test_crop_basket_v01.BasketTests.test_parent_child_overlap_not_aggregated) ... ok
+test_proxy_trend_without_crop_quantity (test_crop_basket_v01.BasketTests.test_proxy_trend_without_crop_quantity) ... ok
+test_unknown_evidence_does_not_authorize (test_crop_basket_v01.BasketTests.test_unknown_evidence_does_not_authorize) ... ok
+test_unmapped_crop_not_guessed (test_crop_basket_v01.BasketTests.test_unmapped_crop_not_guessed) ... ok
+test_wrong_year_edition_jurisdiction_fail_closed (test_crop_basket_v01.BasketTests.test_wrong_year_edition_jurisdiction_fail_closed) ... ok
+test_direct_and_metadata_preserved (test_crop_basket_v02.BasketV02Tests.test_direct_and_metadata_preserved) ... ok
+test_duplicate_and_cross_crop_rejected (test_crop_basket_v02.BasketV02Tests.test_duplicate_and_cross_crop_rejected) ... ok
+test_invalid_metadata_rejected (test_crop_basket_v02.BasketV02Tests.test_invalid_metadata_rejected) ... ok
+test_no_implicit_hs_concordance (test_crop_basket_v02.BasketV02Tests.test_no_implicit_hs_concordance) ... ok
+test_parent_overlap_and_no_total (test_crop_basket_v02.BasketV02Tests.test_parent_overlap_and_no_total) ... ok
+test_proxy_never_species_quantity (test_crop_basket_v02.BasketV02Tests.test_proxy_never_species_quantity) ... ok
+test_unknown_and_invalid_scope_fail_closed (test_crop_basket_v02.BasketV02Tests.test_unknown_and_invalid_scope_fail_closed) ... ok
+test_complete_partition_and_lineage (test_trade_aggregation_v01.AggregationTests.test_complete_partition_and_lineage) ... ok
+test_incompatible_dimensions_and_revisions (test_trade_aggregation_v01.AggregationTests.test_incompatible_dimensions_and_revisions) ... ok
+test_mapping_requires_immutable_explicit_evidence (test_trade_aggregation_v01.AggregationTests.test_mapping_requires_immutable_explicit_evidence) ... ok
+test_mapping_validity_entire_month (test_trade_aggregation_v01.AggregationTests.test_mapping_validity_entire_month) ... ok
+test_missing_duplicate_extra_and_parent_rejected (test_trade_aggregation_v01.AggregationTests.test_missing_duplicate_extra_and_parent_rejected) ... ok
+test_missing_metric_does_not_become_partial_total (test_trade_aggregation_v01.AggregationTests.test_missing_metric_does_not_become_partial_total) ... ok
+test_unknown_units_remain_unknown (test_trade_aggregation_v01.AggregationTests.test_unknown_units_remain_unknown) ... ok
+test_unknown_vintage_rejected (test_trade_aggregation_v01.AggregationTests.test_unknown_vintage_rejected) ... ok
+test_zero_is_preserved (test_trade_aggregation_v01.AggregationTests.test_zero_is_preserved) ... ok
+test_confidential_not_compared (test_trade_validation_v01.ValidationTests.test_confidential_not_compared) ... ok
+test_incompatible_dimensions_explained (test_trade_validation_v01.ValidationTests.test_incompatible_dimensions_explained) ... ok
+test_invalid_period_code_timestamp (test_trade_validation_v01.ValidationTests.test_invalid_period_code_timestamp) ... ok
+test_invalid_values_rejected (test_trade_validation_v01.ValidationTests.test_invalid_values_rejected) ... ok
+test_missing_not_zero (test_trade_validation_v01.ValidationTests.test_missing_not_zero) ... ok
+test_raw_immutable (test_trade_validation_v01.ValidationTests.test_raw_immutable) ... ok
+test_threshold_boundaries (test_trade_validation_v01.ValidationTests.test_threshold_boundaries) ... ok
+test_two_sources_exact_match (test_trade_validation_v01.ValidationTests.test_two_sources_exact_match) ... ok
+test_unknown_methodology_not_match (test_trade_validation_v01.ValidationTests.test_unknown_methodology_not_match) ... ok
+test_unknown_vintage_flag (test_trade_validation_v01.ValidationTests.test_unknown_vintage_flag) ... ok
+test_value_basis_mismatch (test_trade_validation_v01.ValidationTests.test_value_basis_mismatch) ... ok
+test_vintages_preserved_and_flagged (test_trade_validation_v01.ValidationTests.test_vintages_preserved_and_flagged) ... ok
+test_weight_type_and_currency_checked_per_metric (test_trade_validation_v01.ValidationTests.test_weight_type_and_currency_checked_per_metric) ... ok
+test_zero_denominators (test_trade_validation_v01.ValidationTests.test_zero_denominators) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.023s
+
+OK
