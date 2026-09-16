@@ -27,3 +27,11 @@ Initial Git clone failed because the bundled HTTPS helper path was absent; setti
 ## Pre-commit checks
 
 High-specificity credential-pattern scan of staged text: no matches (not a guarantee of absence). Git whitespace inspection: 6 pre-existing/recovered formatting findings; original bytes retained for baseline integrity. No blanket whitespace rewrite.
+
+## Plan A completion update
+
+GitHub write access now works. Verified backup/recovery-v1-20260916 at 92b93aceb6838390fce603b9f8544bf833a3fa6f with tree 9aefb2d4e0014d7b97193279ab08da04727504a4. All 202 Git-eligible files match the local SHA256-checked recovery bytes through their content-addressed Git blob IDs and exact sizes. Recursive tree was not truncated. No files were added or omitted from the approved Git selection; the 186 raw files are exclusively in Plan B. This is cryptographic content-address verification, not a separate SHA256 re-download of every remote file.
+
+Correction to the earlier website comparison: the original six website files are semantically identical to main but recovered copies use CRLF line endings, whereas original Git blobs used LF. The recovery checkpoint preserves exact CRLF bytes from FILE_INVENTORY. No source-code rewrite occurred. The user explicitly accepted a new remote commit SHA; original local d276dc6 remains preserved in the historical bundle.
+
+MASTER_STATE records the verified GitHub checkpoint and main HEAD. A successor metadata commit records this result without attempting to embed its own unknowable SHA; the external receipt binds final branch HEAD to the delivered ZIP. Plan B remains PENDING until a private persistent store is connected, the archive uploaded and its stored bytes verified. No Master Build work or deployment has occurred.

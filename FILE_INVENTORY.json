@@ -34,8 +34,8 @@
     },
     {
       "path": "MASTER_STATE.json",
-      "bytes": 7750,
-      "sha256": "025424edd186230f241b0ff461cff8f0fb9b61a45f560efdc68e091480190fae",
+      "bytes": 9185,
+      "sha256": "dbf41929507bca8c288c73d4794c8d2f3afd58f3d813d15aa42d3a3e80fdba4b",
       "status": "REBUILT"
     },
     {
@@ -2170,8 +2170,14 @@
     },
     {
       "path": "docs/recovery/CONTROL_REVIEW.md",
-      "bytes": 3715,
-      "sha256": "bfeb904a41a8981c6d34f02ad2aa36fb84709e40ee3d34925be5dd84a4a5cfca",
+      "bytes": 5128,
+      "sha256": "8780b7005d8d075c540a5bd522ef51953af79bcff543c752d556332b68cc77be",
+      "status": "REBUILT"
+    },
+    {
+      "path": "docs/recovery/GITHUB_CONTENT_VERIFICATION.json",
+      "bytes": 58944,
+      "sha256": "b1115c83e2c97cf8ef7194e380a092caf79dcab7e69c2d3c03f6886a184bc43d",
       "status": "REBUILT"
     },
     {

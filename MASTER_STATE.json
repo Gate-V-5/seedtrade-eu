@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "checkpoint_id": "recovery-v1-20260916",
-  "status": "RECOVERED_VERIFIED_LOCAL",
+  "status": "PLAN_A_PASS_PLAN_B_PENDING",
   "source_root": "C:/SeedTrade",
   "source_file_count": 371,
   "source_bytes": 4042227819,
@@ -144,8 +144,35 @@
     "web_build": "PASS: vite 8.3.0"
   },
   "backup_warning": [
-    "Full ZIP persistence beyond Sandbox is not confirmed. Git excludes data/raw and is not a complete raw-evidence backup."
+    "BACKUP_WARNING: independent persistent Plan B destination is not connected or verified; C:/SeedTrade persistence is unknown and must not be assumed."
   ],
   "deployment": "NOT_AUTHORIZED_NOT_PERFORMED",
-  "updated_at": "2026-09-16T03:28:02.974122+00:00"
+  "updated_at": "2026-09-16T07:01:25.219785+00:00",
+  "github_checkpoint": {
+    "status": "PASS",
+    "repository": "Gate-V-5/seedtrade-eu",
+    "branch": "backup/recovery-v1-20260916",
+    "commit_sha": "92b93aceb6838390fce603b9f8544bf833a3fa6f",
+    "github_head_at_verification": "92b93aceb6838390fce603b9f8544bf833a3fa6f",
+    "tree_sha": "9aefb2d4e0014d7b97193279ab08da04727504a4",
+    "default_branch": "main",
+    "default_branch_head": "44479ed8396dbc2161571511a0d084a91ee2712d",
+    "verified_at": "2026-09-16T07:01:25.219785+00:00",
+    "content_verified_files": 202,
+    "verification_report": "docs/recovery/GITHUB_CONTENT_VERIFICATION.json",
+    "original_local_commit": "d276dc6bd51478c58374bb1c9754b69468e55da2",
+    "sha_difference_authorized": true,
+    "head_binding_note": "This records the already verified checkpoint. The successor metadata commit containing this record has its exact HEAD recorded in the external CHECKPOINT_RECEIPT, avoiding self-reference."
+  },
+  "plan_b": {
+    "status": "PENDING_PERSISTENT_STORAGE",
+    "local_zip_verified": true,
+    "local_zip": "SeedTrade-recovery-v1-20260916.zip",
+    "local_zip_sha256": "be2091b16abd65ef8c25d4d8395d86d632068b7cbe13dc0a3dac7b3097440ac2",
+    "raw_files": 186,
+    "raw_bytes": 4020947224,
+    "durable_destination": null,
+    "original_source_modified": false
+  },
+  "development_gate": "STOP: Master Build requires Plan A and Plan B PASS"
 }
