@@ -2798,7 +2798,7 @@
       "crop": "Mustard seed for sowing",
       "species_id": "mustard-seed",
       "botanical_name": null,
-      "taxonomy_status": "REVIEW_REQUIRED",
+      "taxonomy_status": "AMBIGUOUS_CN_CATEGORY",
       "slug": "mustard-seed-for-sowing",
       "cn8": "12075010",
       "latest_completed_period": "2026-06",

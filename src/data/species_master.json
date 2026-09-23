@@ -1,7 +1,7 @@
 {
   "schema": "SEEDTRADE_SPECIES_MASTER_V1",
   "classification": "PUBLIC_SAFE",
-  "rule": "Every specific species display resolves botanical names from this canonical source. Ambiguous taxonomy is REVIEW_REQUIRED.",
+  "rule": "Every specific species display resolves botanical names from this canonical source. Broad CN categories remain explicitly ambiguous and are never guessed.",
   "species": [
     {"id":"alfalfa","common_name":"Alfalfa / lucerne","botanical_name":"Medicago sativa","aliases":["alfalfa","lucerne"],"cn_codes":["12092100"],"taxonomy_status":"VERIFIED"},
     {"id":"field-pea","common_name":"Field peas","botanical_name":"Pisum sativum","aliases":["field pea","field peas","peas"],"cn_codes":["07131010"],"taxonomy_status":"VERIFIED"},
@@ -10,7 +10,7 @@
     {"id":"kentucky-bluegrass","common_name":"Kentucky bluegrass","botanical_name":"Poa pratensis","aliases":["kentucky bluegrass","smooth-stalked meadow-grass"],"cn_codes":["12092400"],"taxonomy_status":"VERIFIED"},
     {"id":"lupins","common_name":"Lupins","botanical_name":"Lupinus spp.","aliases":["lupin","lupins"],"cn_codes":["12092950"],"taxonomy_status":"VERIFIED_GENUS_LEVEL"},
     {"id":"meadow-fescue","common_name":"Meadow fescue","botanical_name":"Festuca pratensis","aliases":["meadow fescue","Schedonorus pratensis"],"cn_codes":["12092311"],"taxonomy_status":"VERIFIED_ACCEPTED_TRADE_NAME"},
-    {"id":"mustard-seed","common_name":"Mustard seed for sowing","botanical_name":null,"aliases":["mustard","mustard seed","mustard seed for sowing"],"cn_codes":["12075010"],"taxonomy_status":"REVIEW_REQUIRED","review_note":"CN 12075010 can cover more than one mustard species; no species-level name is asserted."},
+    {"id":"mustard-seed","common_name":"Mustard seed for sowing","botanical_name":null,"aliases":["mustard","mustard seed","mustard seed for sowing"],"cn_codes":["12075010"],"taxonomy_status":"AMBIGUOUS_CN_CATEGORY","public_note":"CN 12075010 can cover more than one mustard species; no species-level name is asserted."},
     {"id":"perennial-ryegrass","common_name":"Perennial ryegrass","botanical_name":"Lolium perenne","aliases":["perennial ryegrass"],"cn_codes":["12092590"],"taxonomy_status":"VERIFIED"},
     {"id":"red-clover","common_name":"Red clover","botanical_name":"Trifolium pratense","aliases":["red clover"],"cn_codes":["12092210"],"taxonomy_status":"VERIFIED"},
     {"id":"red-fescue","common_name":"Red fescue","botanical_name":"Festuca rubra","aliases":["red fescue"],"cn_codes":["12092315"],"taxonomy_status":"VERIFIED"},

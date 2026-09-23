@@ -1,0 +1,15 @@
+{
+  "schema": "SEEDTRADE_PUBLIC_SUPPLY_SUMMARY_V1",
+  "classification": "PUBLIC_SAFE",
+  "publication_eligible": true,
+  "evidence_status": "INSUFFICIENT_EVIDENCE",
+  "generated_from_verified_state": "2026-09-20",
+  "verified_country_coverage_percent": 23.5294,
+  "comparable_series_coverage_percent": 5.8824,
+  "priority_countries_with_observed_evidence": 4,
+  "priority_countries_with_data_gaps": 4,
+  "eu_total": null,
+  "directional_signal": null,
+  "separation_rule": "Certified-seed and multiplication-area evidence is kept separate from commodity crop area.",
+  "public_note": "Available official evidence is not yet sufficiently comparable for an EU-wide supply total or directional signal."
+}

@@ -23,7 +23,7 @@ class HomepageMarketplaceV5Tests(unittest.TestCase):
     def test_no_uncertain_taxonomy_is_guessed(self):
         mustard = next(x for x in self.master["species"] if x["id"] == "mustard-seed")
         self.assertIsNone(mustard["botanical_name"])
-        self.assertEqual(mustard["taxonomy_status"], "REVIEW_REQUIRED")
+        self.assertEqual(mustard["taxonomy_status"], "AMBIGUOUS_CN_CATEGORY")
 
     def test_public_market_crops_resolve_through_master(self):
         mapped = {cn for item in self.master["species"] for cn in item.get("cn_codes", [])}

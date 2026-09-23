@@ -1,0 +1,50 @@
+{
+  "schema": "SEEDTRADE_PUBLIC_DATA_MANIFEST_V1",
+  "generated_at": "2026-09-23T00:00:00Z",
+  "classification": "PUBLIC_SAFE",
+  "publication_eligible": true,
+  "datasets": {
+    "comext": {
+      "source": "Eurostat COMEXT DS-045409",
+      "period": "2024-01/2026-07",
+      "latest_completed_period": "2026-06",
+      "partial_period": "2026-07",
+      "total_observations": 72046,
+      "public_safe_observations": 56741,
+      "price_eligible_observations": 45553,
+      "supported_categories": 11,
+      "public_monthly_points": 330,
+      "public_corridors": 55,
+      "artifact": "market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    "weather": {
+      "source": "Open-Meteo",
+      "observed_date": "2026-09-20",
+      "regions": 23,
+      "analyses": 46,
+      "model_status": "PRELIMINARY_RULE_BASED_MODEL",
+      "artifact": "weather_public.json",
+      "sha256": "fc7c34e001aa16c2529ecfd30fac9c46d18c9108617cf27b8969e1f9519b0528"
+    },
+    "supply": {
+      "source": "Official national certified-seed and multiplication evidence",
+      "evidence_status": "INSUFFICIENT_EVIDENCE",
+      "published_records": 0,
+      "artifact": "supply_public.json",
+      "sha256": "a19c62a661dcbfbcff5698f05f8c5dcf576ba0db0a72f3fa542ea432e5ea96ba"
+    },
+    "marketplace": {
+      "source": "SeedTrade owner-approved listings",
+      "active_real_listings": 0,
+      "artifact": "rfqs_public.json",
+      "sha256": "be2cd257c289789d7b4dd3940d29370e7a7b91c15b93734126b42507468d74cf"
+    },
+    "species_master": {
+      "source": "SeedTrade Species/CN Master",
+      "specific_species_rule": "Common name plus botanical name; broad CN categories are explicitly marked ambiguous",
+      "artifact": "../data/species_master_v1_1.json",
+      "sha256": "a16e73cbae9382f753b73812b40362d70eddb67edda248741c2956311806eb11"
+    }
+  }
+}

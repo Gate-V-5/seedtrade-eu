@@ -12,7 +12,7 @@ class MasterHomepageDesignTests(unittest.TestCase):
     def test_signal_mini_chart(self): self.assertIn('className="mini-chart"',APP)
     def test_data_rotation_disclaimer(self): self.assertIn("this is not a data-refresh interval",APP.lower())
     def test_kpi_strip(self):
-        for value in ("37,667+","23","latest completed period"): self.assertIn(value,APP)
+        for value in ("publicData.datasets.comext.public_safe_observations","weather.region_count","latest completed period"): self.assertIn(value,APP)
     def test_top_news_is_four_card_row(self):
         self.assertIn('news.items.slice(0,4)',APP)
         self.assertIn('grid-template-columns:repeat(4,minmax(0,1fr))',CSS)

@@ -23,7 +23,7 @@ class MobileContentConsistencyV51Tests(unittest.TestCase):
     def test_uncertain_taxonomy_fails_closed(self):
         mustard = next(item for item in self.master["species"] if item["species_id"] == "mustard-seed")
         self.assertIsNone(mustard["botanical_name"])
-        self.assertEqual("REVIEW_REQUIRED", mustard["status"])
+        self.assertEqual("AMBIGUOUS_CN_CATEGORY", mustard["status"])
 
     def test_app_uses_only_v11_master(self):
         self.assertIn('species_master_v1_1.json', self.app)

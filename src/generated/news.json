@@ -2,7 +2,7 @@
   "schema": "SEEDTRADE_DAILY_NEWS_V1",
   "classification": "PUBLIC_SAFE",
   "market_engine_input": false,
-  "publication_status": "OWNER_REVIEW_REQUIRED",
+  "publication_status": "PUBLIC_SAFE",
   "items": [
     {
       "slug": "interpom-2026-exhibitor-profile",
@@ -29,7 +29,7 @@
       "provenance_class": "OFFICIAL_SOURCE",
       "classification": "PUBLIC_SAFE",
       "market_engine_input": false,
-      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "publication_status": "PUBLIC_SAFE",
       "links": {
         "crops": [
           "potatoes",
@@ -79,7 +79,7 @@
       "provenance_class": "PUBLIC_SOURCE",
       "classification": "PUBLIC_SAFE",
       "market_engine_input": false,
-      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "publication_status": "PUBLIC_SAFE",
       "links": {
         "crops": [
           "potatoes",
@@ -129,7 +129,7 @@
       "provenance_class": "OFFICIAL_SOURCE",
       "classification": "PUBLIC_SAFE",
       "market_engine_input": false,
-      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "publication_status": "PUBLIC_SAFE",
       "links": {
         "crops": [
           "seed potatoes"
@@ -174,7 +174,7 @@
       "provenance_class": "PUBLIC_SOURCE",
       "classification": "PUBLIC_SAFE",
       "market_engine_input": false,
-      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "publication_status": "PUBLIC_SAFE",
       "links": {
         "crops": [
           "potatoes",

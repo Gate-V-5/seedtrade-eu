@@ -57,6 +57,6 @@ class HomepageV2BrandRFQTests(unittest.TestCase):
     def test_market_signal_fail_closed(self): self.assertIn("Directional signal is withheld",self.app)
     def test_market_signal_rotation_disclaimer(self): self.assertIn("this is not a data-refresh interval",self.app.lower())
     def test_disabled_join_submission(self): self.assertIn('onSubmit={event => event.preventDefault()}',self.app); self.assertIn("Register interest",self.app)
-    def test_verified_homepage_observation_count(self): self.assertIn("37,667+",self.app)
+    def test_verified_homepage_observation_count(self): self.assertIn("publicData.datasets.comext.public_safe_observations",self.app)
 
 if __name__=="__main__": unittest.main()
