@@ -1,0 +1,36 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.pem
+*.key
+
+# Private working and recovery material
+data/private/
+data/raw/
+private/
+recovery/
+verification/
+*.zip
+*.zip.sha256
+
+# Temporary, editor, and operating-system files
+tmp/
+temp/
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]

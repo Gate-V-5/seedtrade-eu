@@ -1,0 +1,216 @@
+{
+  "schema": "RESEARCH_PARTNER_INSIGHTS_V1",
+  "classification": "PUBLIC_SAFE",
+  "articles": [
+    {
+      "slug": "euroseeds-2026-congress-valencia",
+      "title": "Euroseeds 2026 Congress: Europe’s seed sector meets in Valencia",
+      "summary": "The Euroseeds Congress will bring the European seed sector to Valencia from 25–28 October 2026 for crop-section meetings, innovation and industry exchange.",
+      "publication_date": "2026-09-21",
+      "updated_date": "2026-09-21",
+      "category": "EVENT",
+      "secondary_category": "INDUSTRY NEWS",
+      "author": "SeedTrade Editorial",
+      "image": null,
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "content": [
+        {
+          "heading": "Official event information",
+          "body": "Euroseeds lists its 2026 Congress for 25–28 October at the Valencia Conference Centre in Valencia, Spain. The programme covers the sector’s crop sections, innovation and opportunities for professional exchange."
+        },
+        {
+          "heading": "Programme relevance",
+          "body": "The official programme includes Forages & Grasses, Cereals & Pulses, Oil & Fibre, Vegetables & Ornamentals, Maize & Sorghum and Potatoes, alongside InnovAction and NextGen activities."
+        },
+        {
+          "heading": "Why it matters",
+          "body": "For European seed-market participants, the congress offers a concentrated setting to follow sector priorities, regulatory and industry discussions, innovation, and international commercial relationships. This paragraph is SeedTrade editorial analysis, not an official Euroseeds statement."
+        },
+        {
+          "heading": "Registration",
+          "body": "Registration and eligibility conditions are maintained by Euroseeds. Prospective participants should use the official congress website for current programme, venue and registration information."
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Event dates and Valencia Conference Centre location",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "claim": "Programme section names",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "claim": "Relevance to market participants",
+          "provenance_class": "SEEDTRADE_ANALYSIS"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official Euroseeds Congress website",
+          "url": "https://euroseedscongress.com/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "label": "Official programme",
+          "url": "https://euroseedscongress.com/programme/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "label": "Official venue information",
+          "url": "https://euroseedscongress.com/venue/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "label": "Official practical information",
+          "url": "https://euroseedscongress.com/practical-information/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        }
+      ],
+      "seo": {
+        "title": "Euroseeds 2026 Congress in Valencia | SeedTrade.eu",
+        "description": "Official dates, venue and seed-sector programme context for the Euroseeds 2026 Congress in Valencia.",
+        "canonical": "https://seedtrade.eu/insights/euroseeds-2026-congress-valencia",
+        "og_type": "article",
+        "structured_data_type": "Event"
+      }
+    },
+    {
+      "slug": "interpom-2026-europe-potato-value-chain",
+      "title": "INTERPOM 2026: a view across Europe’s potato value chain",
+      "summary": "INTERPOM will bring the professional potato chain to Kortrijk Xpo from 29 November to 1 December 2026, with seed potatoes, cultivation, storage, technology, processing and trade represented.",
+      "publication_date": "2026-09-21",
+      "updated_date": "2026-09-21",
+      "category": "EVENT",
+      "secondary_category": "POTATO MARKET",
+      "author": "SeedTrade Editorial",
+      "image": null,
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "content": [
+        {
+          "heading": "Official event information",
+          "body": "INTERPOM lists its 23rd edition for 29 November–1 December 2026 at Kortrijk Xpo in Belgium. The organiser’s current event profile reports 332 exhibitors from 15 countries, 24,000 visitors from 60 countries and 35,000 square metres of exhibition space."
+        },
+        {
+          "heading": "Seed potato and production relevance",
+          "body": "The official exhibitor directory includes seeds, cultivation and storage alongside mechanisation, processing, packaging, marketing, research and transport. This breadth makes the event relevant across the seed-potato, growing, storage and downstream value chain."
+        },
+        {
+          "heading": "Why it matters",
+          "body": "For SeedTrade users, the event is a practical point for observing how propagation material, crop conditions, storage, processing demand and commercial logistics interact. This is SeedTrade editorial analysis and does not constitute a Market Signal or a forecast."
+        },
+        {
+          "heading": "Practical control",
+          "body": "Dates, opening times, exhibitors and access conditions can change. Visitors should verify the latest information and registration conditions on the official INTERPOM website before making arrangements."
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Event dates, venue and edition",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "claim": "Exhibitor, country, visitor and floor-space figures",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "claim": "SeedTrade relevance analysis",
+          "provenance_class": "SEEDTRADE_ANALYSIS"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official INTERPOM website",
+          "url": "https://www.interpom.be/en/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "label": "Official exhibitor directory",
+          "url": "https://www.interpom.be/en/discover-the-fair/exhibitors/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        },
+        {
+          "label": "Official practical information",
+          "url": "https://www.interpom.be/en/plan-your-visit/practical-information/",
+          "provenance_class": "OFFICIAL_SOURCE"
+        }
+      ],
+      "seo": {
+        "title": "INTERPOM 2026 potato value-chain guide | SeedTrade.eu",
+        "description": "Official event facts and SeedTrade context for INTERPOM 2026, covering seed potatoes, growing, storage, technology, processing and trade.",
+        "canonical": "https://seedtrade.eu/insights/interpom-2026-europe-potato-value-chain",
+        "og_type": "article",
+        "structured_data_type": "Event"
+      }
+    },
+    {
+      "slug": "lagrenas-contract-seed-multiplication-lithuania",
+      "title": "Lagrenas and contract seed multiplication opportunities in Lithuania",
+      "summary": "A transparent Partner Insight on how a Lithuanian cooperative network could help European seed companies identify and coordinate suitable multiplication farms.",
+      "publication_date": "2026-09-21",
+      "updated_date": "2026-09-21",
+      "category": "PARTNER INSIGHT",
+      "author": "SeedTrade Partner Insights",
+      "image": null,
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "partner_disclosure": "This Partner Insight includes information supplied by Lagrenas. Partner-provided claims are identified and are not treated as independent SeedTrade market evidence.",
+      "content": [
+        {
+          "heading": "Cooperative network",
+          "body": "Lagrenas publicly describes a Lithuanian network of seven agricultural cooperatives and 630 members, supporting collective purchasing, advice, experience sharing, product trials and market analysis."
+        },
+        {
+          "heading": "Potential cooperation model",
+          "body": "A European seed company could work through Lagrenas coordination to identify suitable cooperative or member farms for a contract seed-multiplication project in Lithuania. Any capacity, technical, certification and commercial terms would require project-specific verification."
+        },
+        {
+          "heading": "Partner-provided capabilities",
+          "body": "Lagrenas states that its network includes experienced farmers with modern agricultural equipment and developed agricultural infrastructure. Potential crops identified by the partner include flax or linseed, hemp, vetch species, caraway, clovers and other suitable seed crops."
+        },
+        {
+          "heading": "Commercial boundaries",
+          "body": "No production hectares, volumes, customers, contracts, certification status, equipment inventory, completed projects, yields or commercial results are asserted here. Suitability and capacity are not guaranteed."
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Seven cooperatives and 630 members",
+          "provenance_class": "PUBLIC_SOURCE"
+        },
+        {
+          "claim": "Collective purchasing, advice, experience sharing, trials and market analysis",
+          "provenance_class": "PUBLIC_SOURCE"
+        },
+        {
+          "claim": "Experienced farmers, modern equipment and developed infrastructure",
+          "provenance_class": "PARTNER_PROVIDED"
+        },
+        {
+          "claim": "Potential multiplication crops",
+          "provenance_class": "PARTNER_PROVIDED"
+        },
+        {
+          "claim": "Potential coordination model and benefits",
+          "provenance_class": "SEEDTRADE_ANALYSIS"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lagrenas official website",
+          "url": "https://www.lagren.lt/",
+          "provenance_class": "PUBLIC_SOURCE"
+        }
+      ],
+      "seo": {
+        "title": "Lagrenas seed multiplication in Lithuania | SeedTrade.eu",
+        "description": "Partner Insight on a Lithuanian cooperative network and potential contract seed multiplication cooperation.",
+        "canonical": "https://seedtrade.eu/insights/lagrenas-contract-seed-multiplication-lithuania",
+        "og_type": "article",
+        "structured_data_type": "Article"
+      }
+    }
+  ]
+}

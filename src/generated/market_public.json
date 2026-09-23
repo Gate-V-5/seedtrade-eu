@@ -1,0 +1,4387 @@
+{
+  "schema": "SEEDTRADE_PUBLIC_LAUNCH_DATASET_V1",
+  "classification": "PUBLIC_SAFE",
+  "publication_eligible": true,
+  "latest_available_period": "2026-07",
+  "latest_completed_period": "2026-06",
+  "partial_period_notice": "2026-07 is latest available but unconfirmed/partial and is excluded from public trend calculations.",
+  "source": "Eurostat COMEXT DS-045409",
+  "provenance": [
+    "TRADE_INTELLIGENCE_V1",
+    "PRICE_ENGINE_V1_1",
+    "INTERNAL_EU_SEED_MARKET_DASHBOARD_V2"
+  ],
+  "quality_status": "VERIFIED_DERIVED_PUBLIC_SAFE",
+  "freshness": "2026-09-21",
+  "crops": [
+    {
+      "crop": "Alfalfa / lucerne",
+      "species_id": "alfalfa",
+      "botanical_name": "Medicago sativa",
+      "taxonomy_status": "VERIFIED",
+      "slug": "alfalfa-lucerne",
+      "cn8": "12092100",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "3.596360524593854878314770385",
+      "price_eur_t": "3596.360524593854878314770385",
+      "price_yoy_percent": "40.15565549309740621755497465",
+      "volume_kg": "1137032.00",
+      "volume_yoy_percent": "-26.17504656944382221997139282",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "4.198091947474246646362850302",
+          "volume_kg": "3977249.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "4.469814294350348396949803264",
+          "volume_kg": "4714450.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "4.456596188318624613424669067",
+          "volume_kg": "4679877.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "3.762699718793678554714388353",
+          "volume_kg": "3185917.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "3.755761050911347860994539315",
+          "volume_kg": "1931809.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "3.963798516576807363498257425",
+          "volume_kg": "839275.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "3.081250932188279043061771702",
+          "volume_kg": "891719.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "3.577996152068140984530642532",
+          "volume_kg": "1429859.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "3.256936670785101960928764388",
+          "volume_kg": "1601741.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "2.478014198296008505259444708",
+          "volume_kg": "1224654.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "3.198037122639612127512770770",
+          "volume_kg": "1615995.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "4.097966180587131211305605179",
+          "volume_kg": "1856212.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "4.371709431183990243890797445",
+          "volume_kg": "3352156.00",
+          "price_yoy_percent": "4.135628420768615395846237687",
+          "volume_yoy_percent": "-15.71671776144767400783808105"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "4.362851333918071138473460459",
+          "volume_kg": "4707523.00",
+          "price_yoy_percent": "-2.393006809421004493316354366",
+          "volume_yoy_percent": "-0.1469312433051575475400099693"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "4.424495577007285459174939318",
+          "volume_kg": "5549410.00",
+          "price_yoy_percent": "-0.7202943671558002756802590052",
+          "volume_yoy_percent": "18.58025328443461227720301196"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "4.180633486110092693752762113",
+          "volume_kg": "3532169.00",
+          "price_yoy_percent": "11.10728462409441738411525575",
+          "volume_yoy_percent": "10.86820529222826583366735543"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "2.584076321814833072846018701",
+          "volume_kg": "2237473.00",
+          "price_yoy_percent": "-31.19699877637853470751293495",
+          "volume_yoy_percent": "15.82268226310157991809749308"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "2.565976029965464918551357542",
+          "volume_kg": "1540173.00",
+          "price_yoy_percent": "-35.26472096817175703502309933",
+          "volume_yoy_percent": "83.51231717851717255964969766"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "2.593261163098715628603552207",
+          "volume_kg": "1319011.00",
+          "price_yoy_percent": "-15.83739136568786685072732410",
+          "volume_yoy_percent": "47.91778575986381360047279468"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "2.517681488210933139435010175",
+          "volume_kg": "1775501.00",
+          "price_yoy_percent": "-29.63431537634070465146990511",
+          "volume_yoy_percent": "24.17315273743774735830595884"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "3.393145433656827143459209182",
+          "volume_kg": "1732130.00",
+          "price_yoy_percent": "4.182112722470938728387190899",
+          "volume_yoy_percent": "8.140454667764638602620523543"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "2.967210853047251979029454120",
+          "volume_kg": "2051258.00",
+          "price_yoy_percent": "19.74147908787756738292413794",
+          "volume_yoy_percent": "67.49694199341201678188288284"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "3.979718114530015716679371285",
+          "volume_kg": "1655566.00",
+          "price_yoy_percent": "24.44252402064725755426420448",
+          "volume_yoy_percent": "2.448708071497745970748671871"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "3.585576969059346755296255559",
+          "volume_kg": "2112011.00",
+          "price_yoy_percent": "-12.50350024739278115641337586",
+          "volume_yoy_percent": "13.78069961836255772508743613"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "5.052364509260438071006128164",
+          "volume_kg": "3196879.00",
+          "price_yoy_percent": "15.56954067489581494225600554",
+          "volume_yoy_percent": "-4.632153157549946959509044328"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "5.130150393599893515946570416",
+          "volume_kg": "4627923.00",
+          "price_yoy_percent": "17.58710075029641816562877423",
+          "volume_yoy_percent": "-1.690910485195717578012895529"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "4.910610935251506316220281165",
+          "volume_kg": "3938748.00",
+          "price_yoy_percent": "10.98691025414082836101316765",
+          "volume_yoy_percent": "-29.02402237354962059029698653"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "5.028943894077463102305239410",
+          "volume_kg": "2538912.00",
+          "price_yoy_percent": "20.29143216658029285754217855",
+          "volume_yoy_percent": "-28.12031360900341971179748194"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "4.771140934621933047838152403",
+          "volume_kg": "1214031.00",
+          "price_yoy_percent": "84.63622356444541073526353414",
+          "volume_yoy_percent": "-45.74097653915823788711640319"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "3.596360524593854878314770385",
+          "volume_kg": "1137032.00",
+          "price_yoy_percent": "40.15565549309740621755497465",
+          "volume_yoy_percent": "-26.17504656944382221997139282"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "2464.00",
+          "market_share_percent": "0.2167045430559562087962344068"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "3620.00",
+          "market_share_percent": "0.3183727458857798197412210035"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BG",
+          "volume_kg": "1580.00",
+          "market_share_percent": "0.1389582703037381533677152446"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "20500.00",
+          "market_share_percent": "1.802939583054830470910229439"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "82319.00",
+          "market_share_percent": "7.239813831097101928529715962"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "3730.00",
+          "market_share_percent": "0.3280470558436350076339100395"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "4188.00",
+          "market_share_percent": "0.3683273645772502444961971167"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BG",
+          "volume_kg": "3970.00",
+          "market_share_percent": "0.3491546412062281448543224817"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BY",
+          "volume_kg": "31000.00",
+          "market_share_percent": "2.726396442668280224303273786"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "38312.00",
+          "market_share_percent": "3.369474210048617804951839526"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "exporter": "ES",
+          "importer": "PT",
+          "volume_kg": "184326.00",
+          "value_eur": "51897",
+          "weighted_eur_per_kg": "0.2815500797500081377559324241",
+          "yoy_volume_percent": "33052.15827338129496402877698"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "DE",
+          "volume_kg": "110964.00",
+          "value_eur": "506130",
+          "weighted_eur_per_kg": "4.561209040769979452795501244",
+          "yoy_volume_percent": "-25.56847909204330502676379442"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "exporter": "ES",
+          "importer": "FR",
+          "volume_kg": "91878.00",
+          "value_eur": "16450",
+          "weighted_eur_per_kg": "0.1790417727856505365811184397",
+          "yoy_volume_percent": "1305.507113354749885268471776"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "exporter": "IT",
+          "importer": "FR",
+          "volume_kg": "80567.00",
+          "value_eur": "473982",
+          "weighted_eur_per_kg": "5.883078679856516936214579170",
+          "yoy_volume_percent": "120.5623083661848445028471310"
+        },
+        {
+          "crop": "Alfalfa / lucerne",
+          "cn8": "12092100",
+          "period": "2026-06",
+          "exporter": "FR",
+          "importer": "IT",
+          "volume_kg": "64290.00",
+          "value_eur": "150423",
+          "weighted_eur_per_kg": "2.339757349510032664489034064",
+          "yoy_volume_percent": "3817.733089579524680073126143"
+        }
+      ],
+      "concentration": {
+        "exporter": "1928.994616272878269923417769",
+        "importer": "1013.544005349718047260589990"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Field peas",
+      "species_id": "field-pea",
+      "botanical_name": "Pisum sativum",
+      "taxonomy_status": "VERIFIED",
+      "slug": "field-peas",
+      "cn8": "07131010",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "0.8358094243339503738715928420",
+      "price_eur_t": "835.8094243339503738715928420",
+      "price_yoy_percent": "-27.92254771099687023068840970",
+      "volume_kg": "2837739.00",
+      "volume_yoy_percent": "42.66554722397484270405739322",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "1.371286937619713710601090766",
+          "volume_kg": "10258850.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "1.441056158082666581058777130",
+          "volume_kg": "12989457.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "1.522038228578866280923535563",
+          "volume_kg": "10302711.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "0.9599065671458343890261139760",
+          "volume_kg": "9275110.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "1.144053013761719654179224504",
+          "volume_kg": "2514366.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "0.8785293998375934554712311939",
+          "volume_kg": "1011043.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "0.5620155876377949352669119166",
+          "volume_kg": "9486107.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "0.7211602066048274736723192208",
+          "volume_kg": "6373520.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "1.050019869277877965610330140",
+          "volume_kg": "4456629.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "1.356522424886463446010620732",
+          "volume_kg": "5072155.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "1.483365409730546602797613773",
+          "volume_kg": "6860704.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "1.574119518215748328105065783",
+          "volume_kg": "5112911.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "1.382956306231208090703862286",
+          "volume_kg": "8649334.00",
+          "price_yoy_percent": "0.8509793458508490424094468031",
+          "volume_yoy_percent": "-15.68904896747686144158458307"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "1.411899569328411372320445567",
+          "volume_kg": "12352800.00",
+          "price_yoy_percent": "-2.023279147777850378651825670",
+          "volume_yoy_percent": "-4.901336522381189606309178282"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "1.416309690221581390321405991",
+          "volume_kg": "11360927.00",
+          "price_yoy_percent": "-6.946510039764512818857052077",
+          "volume_yoy_percent": "10.27123831775927714559789166"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "1.207251744292470701420550085",
+          "volume_kg": "4698180.00",
+          "price_yoy_percent": "25.76763047700435681275947213",
+          "volume_yoy_percent": "-49.34636893794251496747747466"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "1.226999178891214135991255106",
+          "volume_kg": "2352916.00",
+          "price_yoy_percent": "7.250202930436079461906971665",
+          "volume_yoy_percent": "-6.421101780727229050981440252"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "1.159599011605838865609061453",
+          "volume_kg": "1989085.00",
+          "price_yoy_percent": "31.99319360515475638679378660",
+          "volume_yoy_percent": "96.73594495980883107840121538"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "0.6593597386316316225640485086",
+          "volume_kg": "3642981.00",
+          "price_yoy_percent": "17.32054290575523519839624757",
+          "volume_yoy_percent": "-61.59666974028439696073426117"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.264476754464052604195828833",
+          "volume_kg": "3179062.00",
+          "price_yoy_percent": "75.33923015762641346810028141",
+          "volume_yoy_percent": "-50.12078098131017083181664135"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "0.6898710986530754323336072493",
+          "volume_kg": "13427478.00",
+          "price_yoy_percent": "-34.29923386806812128849400357",
+          "volume_yoy_percent": "201.2922547512929615635494900"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "1.207703220203083738380788681",
+          "volume_kg": "6595112.00",
+          "price_yoy_percent": "-10.97064095315898631890264223",
+          "volume_yoy_percent": "30.02583714417244741140600001"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "1.467739750996881535598236143",
+          "volume_kg": "3544052.00",
+          "price_yoy_percent": "-1.053392416404226983508475233",
+          "volume_yoy_percent": "-48.34273567260735924476555176"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "1.363822307653350504177777642",
+          "volume_kg": "5252314.00",
+          "price_yoy_percent": "-13.35967238375698446291790780",
+          "volume_yoy_percent": "2.726489860668413747080674786"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "1.618073119403345470575597518",
+          "volume_kg": "8075695.00",
+          "price_yoy_percent": "17.00102975869648506209983205",
+          "volume_yoy_percent": "-6.632175379052306223808677061"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "1.476362370990130434283835097",
+          "volume_kg": "10983462.00",
+          "price_yoy_percent": "4.565678966272483720441459608",
+          "volume_yoy_percent": "-11.08524383135807266368758500"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "1.366980206740237768551104470",
+          "volume_kg": "10070802.00",
+          "price_yoy_percent": "-3.482958834633549189386557324",
+          "volume_yoy_percent": "-11.35580749704667585664444460"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "1.241727897000375156995046840",
+          "volume_kg": "4598075.00",
+          "price_yoy_percent": "2.855755054477867769045237589",
+          "volume_yoy_percent": "-2.130718703838507677441051641"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "1.052173082446524480965587416",
+          "volume_kg": "1507559.00",
+          "price_yoy_percent": "-14.24826515390763381917495439",
+          "volume_yoy_percent": "-35.92805693020915323793964595"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "0.8358094243339503738715928420",
+          "volume_kg": "2837739.00",
+          "price_yoy_percent": "-27.92254771099687023068840970",
+          "volume_yoy_percent": "42.66554722397484270405739322"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "11286.00",
+          "market_share_percent": "0.3977109945629249201565048794"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "356325.00",
+          "market_share_percent": "12.55665161595199558521766801"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "779968.00",
+          "market_share_percent": "27.48554394889734397701832339"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "111960.00",
+          "market_share_percent": "3.945394555313226480659426395"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "221192.00",
+          "market_share_percent": "7.794656238646330758396032898"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AR",
+          "volume_kg": "564.00",
+          "market_share_percent": "0.01987497793137423843419003650"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "20967.00",
+          "market_share_percent": "0.7388628763956093213646498145"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BA",
+          "volume_kg": "4723.00",
+          "market_share_percent": "0.1664353205139725675969495433"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "81518.00",
+          "market_share_percent": "2.872639097535044625316140773"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BG",
+          "volume_kg": "303.00",
+          "market_share_percent": "0.01067751473972764937155954089"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "exporter": "CZ",
+          "importer": "DE",
+          "volume_kg": "482800.00",
+          "value_eur": "132138",
+          "weighted_eur_per_kg": "0.2736909693454846727423363712",
+          "yoy_volume_percent": "555.8000543330616680249932084"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "DE",
+          "volume_kg": "413973.00",
+          "value_eur": "98422",
+          "weighted_eur_per_kg": "0.2377498049389694496984102828",
+          "yoy_volume_percent": "1641.211356466876971608832808"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "exporter": "BE",
+          "importer": "NL",
+          "volume_kg": "210428.00",
+          "value_eur": "37848",
+          "weighted_eur_per_kg": "0.1798619955519227479232801718",
+          "yoy_volume_percent": "549.6094835303923687216373908"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "exporter": "FR",
+          "importer": "IT",
+          "volume_kg": "187689.00",
+          "value_eur": "188822",
+          "weighted_eur_per_kg": "1.006036581792220108796999291",
+          "yoy_volume_percent": "-50.49716733307310074166288626"
+        },
+        {
+          "crop": "Field peas",
+          "cn8": "07131010",
+          "period": "2026-06",
+          "exporter": "CZ",
+          "importer": "PL",
+          "volume_kg": "165064.00",
+          "value_eur": "65124",
+          "weighted_eur_per_kg": "0.3945378762177094944991033781",
+          "yoy_volume_percent": null
+        }
+      ],
+      "concentration": {
+        "exporter": "1556.298170734618012684657413",
+        "importer": "1857.373299755454387610414548"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Flax / linseed for sowing",
+      "species_id": "flax",
+      "botanical_name": "Linum usitatissimum",
+      "taxonomy_status": "VERIFIED",
+      "slug": "flax-linseed-for-sowing",
+      "cn8": "12040010",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "0.9879172606119362606007860324",
+      "price_eur_t": "987.9172606119362606007860324",
+      "price_yoy_percent": "-31.51150302634931581914900660",
+      "volume_kg": "1704001.00",
+      "volume_yoy_percent": "20.05629396865433460035861865",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "0.8570529524361015940420466792",
+          "volume_kg": "994704.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "1.464917405277333112845793816",
+          "volume_kg": "1475518.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "1.843850043475411652993646037",
+          "volume_kg": "2273699.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "1.450653366283930243074617750",
+          "volume_kg": "2397124.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "1.535398833591086101846503568",
+          "volume_kg": "1341725.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "1.001040698324250792620924102",
+          "volume_kg": "1467284.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "1.001150276097408037606138405",
+          "volume_kg": "963247.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "0.9797243906244495110399774520",
+          "volume_kg": "794748.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "0.9364102395119379377871507118",
+          "volume_kg": "1274592.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "1.074576572262683523969137852",
+          "volume_kg": "1294790.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "0.9679186381648643590970270734",
+          "volume_kg": "1277159.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "0.9499487328705435701320474983",
+          "volume_kg": "1443420.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "0.9594081596840438127097730064",
+          "volume_kg": "1800756.00",
+          "price_yoy_percent": "11.94269350067648351553898805",
+          "volume_yoy_percent": "81.03435795975486174781643584"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "1.382386961820458583494731162",
+          "volume_kg": "2386959.00",
+          "price_yoy_percent": "-5.633794994827722066730199283",
+          "volume_yoy_percent": "61.77091706099146198148717942"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "1.285275965641532645459969035",
+          "volume_kg": "3295374.00",
+          "price_yoy_percent": "-30.29389943127052222495954225",
+          "volume_yoy_percent": "44.93448781039178888674358391"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "1.748536852124653369471438964",
+          "volume_kg": "3030965.00",
+          "price_yoy_percent": "20.53443591447328931306223553",
+          "volume_yoy_percent": "26.44172767032493938569719380"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "1.702564850285731314119261627",
+          "volume_kg": "1879213.00",
+          "price_yoy_percent": "10.88746539579341450983607489",
+          "volume_yoy_percent": "40.05947567497065344985000652"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "1.442457207072326124558331895",
+          "volume_kg": "1419335.00",
+          "price_yoy_percent": "44.09576049075823678788131735",
+          "volume_yoy_percent": "-3.267874521905779658198412850"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "1.066583796600025321409251522",
+          "volume_kg": "955713.00",
+          "price_yoy_percent": "6.535834036592809781822803905",
+          "volume_yoy_percent": "-0.7821462200245627549320163987"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.028161128575511158452625289",
+          "volume_kg": "769820.00",
+          "price_yoy_percent": "4.943914677901342884835114208",
+          "volume_yoy_percent": "-3.136591724672474797042584568"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "0.6997709706868366772780536163",
+          "volume_kg": "2626738.00",
+          "price_yoy_percent": "-25.27089718160695492109706203",
+          "volume_yoy_percent": "106.0846137430644472897994025"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "1.444528395448376657271113895",
+          "volume_kg": "2298960.00",
+          "price_yoy_percent": "34.42768367885627796782160367",
+          "volume_yoy_percent": "77.55466137365904895774604376"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "0.9137798002927493804437616846",
+          "volume_kg": "1725025.00",
+          "price_yoy_percent": "-5.593325279360265689938712353",
+          "volume_yoy_percent": "35.06736436105449673846404402"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "0.9905576041392302781659174207",
+          "volume_kg": "1792024.00",
+          "price_yoy_percent": "4.274848722201598491093297602",
+          "volume_yoy_percent": "24.15125188787740228069446176"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "0.7283659125062974280657889260",
+          "volume_kg": "2090139.00",
+          "price_yoy_percent": "-24.08174715272738088663059842",
+          "volume_yoy_percent": "16.07008389809613295749118703"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "1.243215316109564831423841936",
+          "volume_kg": "2946858.00",
+          "price_yoy_percent": "-10.06748830498367093107459361",
+          "volume_yoy_percent": "23.45658220354853183485765780"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "1.516214951187981990817099808",
+          "volume_kg": "4576332.00",
+          "price_yoy_percent": "17.96804668569200701710224176",
+          "volume_yoy_percent": "38.87139972579743604216092013"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "1.534866377788107177815402790",
+          "volume_kg": "4513546.00",
+          "price_yoy_percent": "-12.21995830839449770296390516",
+          "volume_yoy_percent": "48.91448763017718779332654782"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "1.012446732020412815881311050",
+          "volume_kg": "2737104.00",
+          "price_yoy_percent": "-40.53402830144767093639638597",
+          "volume_yoy_percent": "45.65161054122124527661313539"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "0.9879172606119362606007860324",
+          "volume_kg": "1704001.00",
+          "price_yoy_percent": "-31.51150302634931581914900660",
+          "volume_yoy_percent": "20.05629396865433460035861865"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "22588.00",
+          "market_share_percent": "1.325586076533992644370513867"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "243832.00",
+          "market_share_percent": "14.30938127383728061192452352"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "89520.00",
+          "market_share_percent": "5.253518043710068245265114281"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "154597.00",
+          "market_share_percent": "9.072588572424546699209683562"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "104.00",
+          "market_share_percent": "0.006103282803237791527117648405"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "30102.00",
+          "market_share_percent": "1.766548259067923082204763964"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "106996.00",
+          "market_share_percent": "6.279104296300295598418076046"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "40.00",
+          "market_share_percent": "0.002347416462783765971968326310"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CY",
+          "volume_kg": "34.00",
+          "market_share_percent": "0.001995303993366201076173077363"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "DE",
+          "volume_kg": "1125301.00",
+          "market_share_percent": "66.03875232467586580054823911"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "DE",
+          "volume_kg": "993820.00",
+          "value_eur": "630718",
+          "weighted_eur_per_kg": "0.6346400756676259282365015798",
+          "yoy_volume_percent": "716.7488494411571334648257725"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "exporter": "BE",
+          "importer": "FR",
+          "volume_kg": "241390.00",
+          "value_eur": "402297",
+          "weighted_eur_per_kg": "1.666585194084261982683624011",
+          "yoy_volume_percent": "129.5541861615124196431967743"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "exporter": "DE",
+          "importer": "BE",
+          "volume_kg": "88169.00",
+          "value_eur": "59941",
+          "weighted_eur_per_kg": "0.6798421213805305719697399313",
+          "yoy_volume_percent": "-2.470078095617353598371717440"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "exporter": "CZ",
+          "importer": "DE",
+          "volume_kg": "88000.00",
+          "value_eur": "142034",
+          "weighted_eur_per_kg": "1.614022727272727272727272727",
+          "yoy_volume_percent": "76.42341619887730553327987169"
+        },
+        {
+          "crop": "Flax / linseed for sowing",
+          "cn8": "12040010",
+          "period": "2026-06",
+          "exporter": "DE",
+          "importer": "GB",
+          "volume_kg": "48022.00",
+          "value_eur": "86128",
+          "weighted_eur_per_kg": "1.793511307317479488567739786",
+          "yoy_volume_percent": "141.4743299642982853120128727"
+        }
+      ],
+      "concentration": {
+        "exporter": "4047.583040905873576169144453",
+        "importer": "4754.130516510601126786341345"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Italian ryegrass",
+      "species_id": "italian-ryegrass",
+      "botanical_name": "Lolium multiflorum",
+      "taxonomy_status": "VERIFIED",
+      "slug": "italian-ryegrass",
+      "cn8": "12092510",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "1.385825390072741174637487969",
+      "price_eur_t": "1385.825390072741174637487969",
+      "price_yoy_percent": "-5.452048910156318485289649699",
+      "volume_kg": "3664637.00",
+      "volume_yoy_percent": "2.560172262183760135991747356",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "1.268935888129287236727854550",
+          "volume_kg": "2935603.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "1.164178095059177155739244787",
+          "volume_kg": "3859175.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "1.450147085951414294273116247",
+          "volume_kg": "2450268.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "1.308395472396237354524775183",
+          "volume_kg": "3623727.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "1.292863310640097993868410226",
+          "volume_kg": "3441848.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "1.359339063365283602422511841",
+          "volume_kg": "3454431.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "1.453583864891427578482733031",
+          "volume_kg": "3061597.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "1.453664318260318241392199632",
+          "volume_kg": "4226980.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "1.402738049683938217928523121",
+          "volume_kg": "6797247.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "1.354615131950686025278006318",
+          "volume_kg": "4734155.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "1.122419028143835642998682838",
+          "volume_kg": "3868165.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "1.620934983464887964638805416",
+          "volume_kg": "1390677.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "1.574594277258617084586556866",
+          "volume_kg": "1740844.00",
+          "price_yoy_percent": "24.08777243899554935458104377",
+          "volume_yoy_percent": "-40.69892965772279153550394927"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "1.609503433055419323197645905",
+          "volume_kg": "2446800.00",
+          "price_yoy_percent": "38.25233784128239605128142933",
+          "volume_yoy_percent": "-36.59784798564460020600257827"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "1.512817198548737892897247935",
+          "volume_kg": "2452486.00",
+          "price_yoy_percent": "4.321638349961370547168349386",
+          "volume_yoy_percent": "0.09052071038759841780572574102"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "1.476561377430942648333952682",
+          "volume_kg": "2220075.00",
+          "price_yoy_percent": "12.85283452767693178743005776",
+          "volume_yoy_percent": "-38.73503715925620224702357545"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "1.658402577567664699152289453",
+          "volume_kg": "2395747.00",
+          "price_yoy_percent": "28.27362056910624428092587507",
+          "volume_yoy_percent": "-30.39358507406486282950322036"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "1.465738150957780204513766254",
+          "volume_kg": "3573158.00",
+          "price_yoy_percent": "7.827266239895063031743731994",
+          "volume_yoy_percent": "3.436948082043034004731893617"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "1.361795056630852494977679484",
+          "volume_kg": "6117690.00",
+          "price_yoy_percent": "-6.314655141513355853235148475",
+          "volume_yoy_percent": "99.82022454294278443570463389"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.457880347367452530299183466",
+          "volume_kg": "5782004.00",
+          "price_yoy_percent": "0.2900276944391018555130842582",
+          "volume_yoy_percent": "36.78806145285759573028497887"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "1.483815261493064481875998972",
+          "volume_kg": "7515228.00",
+          "price_yoy_percent": "5.779925327283622123124777966",
+          "volume_yoy_percent": "10.56282050659627346188832037"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "1.382245983624791665481215820",
+          "volume_kg": "3690579.00",
+          "price_yoy_percent": "2.039756608529567589499654916",
+          "volume_yoy_percent": "-22.04355370705014939308070817"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "1.363542537763710846944500312",
+          "volume_kg": "2645132.00",
+          "price_yoy_percent": "21.48248591425124451818832912",
+          "volume_yoy_percent": "-31.61791185226069725567549471"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "1.408166600167217709839178267",
+          "volume_kg": "997502.00",
+          "price_yoy_percent": "-13.12627498746800643129154571",
+          "volume_yoy_percent": "-28.27220123723912885594570127"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "1.168579779084022034027538359",
+          "volume_kg": "4550961.00",
+          "price_yoy_percent": "-25.78534064543089624928775592",
+          "volume_yoy_percent": "161.4226777356270866315419417"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "1.585187390312040741086800795",
+          "volume_kg": "2761242.00",
+          "price_yoy_percent": "-1.510779178471085529839033246",
+          "volume_yoy_percent": "12.85115252574791564492398234"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "1.528990676475122184422180490",
+          "volume_kg": "3204582.00",
+          "price_yoy_percent": "1.069096645774498467717341316",
+          "volume_yoy_percent": "30.66667862731938123194179294"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "1.519282311724890074874974643",
+          "volume_kg": "3066178.00",
+          "price_yoy_percent": "2.893271823774588973293163341",
+          "volume_yoy_percent": "38.11146019841672015585059063"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "1.552450959143588986978776236",
+          "volume_kg": "2514587.00",
+          "price_yoy_percent": "-6.388775551680108650636359174",
+          "volume_yoy_percent": "4.960457009859555286931382988"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "1.385825390072741174637487969",
+          "volume_kg": "3664637.00",
+          "price_yoy_percent": "-5.452048910156318485289649699",
+          "volume_yoy_percent": "2.560172262183760135991747356"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "19537.00",
+          "market_share_percent": "0.5331223801975475333573284339"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "532758.00",
+          "market_share_percent": "14.53781097554819208560083850"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "286114.00",
+          "market_share_percent": "7.807430858772642419972291935"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "803937.00",
+          "market_share_percent": "21.93769805849801767542051232"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "504136.00",
+          "market_share_percent": "13.75677863864824810752060845"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AL",
+          "volume_kg": "405.00",
+          "market_share_percent": "0.01105157209295218052974960412"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "66060.00",
+          "market_share_percent": "1.802634203605977890852490983"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "237718.00",
+          "market_share_percent": "6.486808925413349262150657760"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "26920.00",
+          "market_share_percent": "0.7345884462772165428663193653"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CO",
+          "volume_kg": "4924.00",
+          "market_share_percent": "0.1343652863844358936505853104"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "DE",
+          "volume_kg": "336801.00",
+          "value_eur": "257009",
+          "weighted_eur_per_kg": "0.7630885894044257588308823311",
+          "yoy_volume_percent": "411.4203717201166180758017493"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "exporter": "BE",
+          "importer": "FR",
+          "volume_kg": "326488.00",
+          "value_eur": "475604",
+          "weighted_eur_per_kg": "1.456727352919556002058268604",
+          "yoy_volume_percent": "3.415857892202822897397562274"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "exporter": "DE",
+          "importer": "NL",
+          "volume_kg": "273039.00",
+          "value_eur": "328612",
+          "weighted_eur_per_kg": "1.203535026131798021528060094",
+          "yoy_volume_percent": "-6.836793186750194488801539532"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "NL",
+          "volume_kg": "245856.00",
+          "value_eur": "272262",
+          "weighted_eur_per_kg": "1.107404334244435767278406872",
+          "yoy_volume_percent": "-28.98870952368573830010311333"
+        },
+        {
+          "crop": "Italian ryegrass",
+          "cn8": "12092510",
+          "period": "2026-06",
+          "exporter": "CZ",
+          "importer": "IT",
+          "volume_kg": "179680.00",
+          "value_eur": "231333",
+          "weighted_eur_per_kg": "1.287472172751558325912733749",
+          "yoy_volume_percent": null
+        }
+      ],
+      "concentration": {
+        "exporter": "1371.321280729210360549196108",
+        "importer": "1409.897099914105778821708737"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Kentucky bluegrass",
+      "species_id": "kentucky-bluegrass",
+      "botanical_name": "Poa pratensis",
+      "taxonomy_status": "VERIFIED",
+      "slug": "kentucky-bluegrass",
+      "cn8": "12092400",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "3.129556050153691568842478297",
+      "price_eur_t": "3129.556050153691568842478297",
+      "price_yoy_percent": "-1.058273535292181286656490875",
+      "volume_kg": "740444.00",
+      "volume_yoy_percent": "-33.85810172240990890397131520",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "3.389079906992910606523680252",
+          "volume_kg": "1334952.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "3.608413606710697027517209694",
+          "volume_kg": "1038223.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "3.915871971789469087415526709",
+          "volume_kg": "732776.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "3.924869719961655346835546309",
+          "volume_kg": "784464.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "3.722558680940897674457415118",
+          "volume_kg": "599215.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "3.785834697945887325279000546",
+          "volume_kg": "1202417.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "3.622309106164358282256893782",
+          "volume_kg": "406417.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "3.435790525415749983187464574",
+          "volume_kg": "208178.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "3.315715817596917540575416659",
+          "volume_kg": "385147.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "3.150637760073045937654846810",
+          "volume_kg": "359226.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "3.032552056801699753446835469",
+          "volume_kg": "539843.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "3.402996124130167826442898076",
+          "volume_kg": "625408.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "3.269033199165736688777152220",
+          "volume_kg": "1196265.00",
+          "price_yoy_percent": "-3.542162212802173258506267864",
+          "volume_yoy_percent": "-10.38891285978821710443521565"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "3.332599227756502219113224176",
+          "volume_kg": "1012116.00",
+          "price_yoy_percent": "-7.643646461183187330283894738",
+          "volume_yoy_percent": "-2.514585016899066963455827891"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "3.535557371543011523382117360",
+          "volume_kg": "955709.00",
+          "price_yoy_percent": "-9.712130605553531136453536998",
+          "volume_yoy_percent": "30.42307608327783661036933524"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "3.441565359016826055210443066",
+          "volume_kg": "1235346.00",
+          "price_yoy_percent": "-12.31389563038925562593218563",
+          "volume_yoy_percent": "57.47644251361439148259193539"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "2.791027278192625702923527237",
+          "volume_kg": "1166023.00",
+          "price_yoy_percent": "-25.02395482756559696472129530",
+          "volume_yoy_percent": "94.59175754946054421201071402"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "3.163029554846097913491823868",
+          "volume_kg": "1119478.00",
+          "price_yoy_percent": "-16.45093335527063870347259098",
+          "volume_yoy_percent": "-6.897690235583828239288034018"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "1.664828492080596414282810599",
+          "volume_kg": "979051.00",
+          "price_yoy_percent": "-54.03957963588939897460228485",
+          "volume_yoy_percent": "140.8981415639601689889940627"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "2.358423557192103382991989296",
+          "volume_kg": "527669.00",
+          "price_yoy_percent": "-31.35717850823513566268492014",
+          "volume_yoy_percent": "153.4701073120118360249401954"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "3.086673061570049329238986388",
+          "volume_kg": "497271.00",
+          "price_yoy_percent": "-6.907792121728579023614967572",
+          "volume_yoy_percent": "29.11200139167642484557844148"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "4.625749839352191451502311294",
+          "volume_kg": "835679.00",
+          "price_yoy_percent": "46.81947566212581000885934564",
+          "volume_yoy_percent": "132.6332169720454532801077873"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "2.431938318486895037122647567",
+          "volume_kg": "1144719.00",
+          "price_yoy_percent": "-19.80555410310897686733010952",
+          "volume_yoy_percent": "112.0466506002671146981622435"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "3.007212130663647109610373173",
+          "volume_kg": "442449.00",
+          "price_yoy_percent": "-11.63045678071955406187472939",
+          "volume_yoy_percent": "-29.25434276504297994269340974"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "3.204657344593659144399833864",
+          "volume_kg": "1264025.00",
+          "price_yoy_percent": "-1.969262795755833296029865856",
+          "volume_yoy_percent": "5.664296790426870300476901021"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "2.921252153456488388673581770",
+          "volume_kg": "1441868.00",
+          "price_yoy_percent": "-12.34313057729811967319223088",
+          "volume_yoy_percent": "42.46074560623485845495970818"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "3.056258145241501693203870468",
+          "volume_kg": "1192414.00",
+          "price_yoy_percent": "-13.55653934961691389105720448",
+          "volume_yoy_percent": "24.76747629246977898084040226"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "3.048267446949464610602576374",
+          "volume_kg": "916249.00",
+          "price_yoy_percent": "-11.42787862612951711317046985",
+          "volume_yoy_percent": "-25.83057702052704262611446510"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "3.119792305992684064517712911",
+          "volume_kg": "896126.00",
+          "price_yoy_percent": "11.77935559314760287638519034",
+          "volume_yoy_percent": "-23.14679899110051860040496628"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "3.129556050153691568842478297",
+          "volume_kg": "740444.00",
+          "price_yoy_percent": "-1.058273535292181286656490875",
+          "volume_yoy_percent": "-33.85810172240990890397131520"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "13.00",
+          "market_share_percent": "0.001755703334755903214827860041"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "465.00",
+          "market_share_percent": "0.06280015774319192268422730146"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "91270.00",
+          "market_share_percent": "12.32638795101317587825682969"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "541277.00",
+          "market_share_percent": "73.10167953282084803172150764"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "ES",
+          "volume_kg": "741.00",
+          "market_share_percent": "0.1000750900810864832451880223"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "33070.00",
+          "market_share_percent": "4.466239175413670716489025504"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "6320.00",
+          "market_share_percent": "0.8535419288967160244393904198"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BY",
+          "volume_kg": "10000.00",
+          "market_share_percent": "1.350541026735310165252200031"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CA",
+          "volume_kg": "76349.00",
+          "market_share_percent": "10.31124568502141958068402202"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "180633.00",
+          "market_share_percent": "24.39522772822792810800006483"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "DE",
+          "volume_kg": "236324.00",
+          "value_eur": "709690",
+          "weighted_eur_per_kg": "3.003038201790761835446251756",
+          "yoy_volume_percent": "12.19917485246570985002065243"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "CH",
+          "volume_kg": "121232.00",
+          "value_eur": "581565",
+          "weighted_eur_per_kg": "4.797124521578461132374290616",
+          "yoy_volume_percent": "-31.69181532358940263018514971"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "CA",
+          "volume_kg": "76349.00",
+          "value_eur": "143444",
+          "weighted_eur_per_kg": "1.878793435408453286879985331",
+          "yoy_volume_percent": null
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "exporter": "DE",
+          "importer": "CH",
+          "volume_kg": "59401.00",
+          "value_eur": "314892",
+          "weighted_eur_per_kg": "5.301122876719247150721368327",
+          "yoy_volume_percent": "31.04992609261588015972819732"
+        },
+        {
+          "crop": "Kentucky bluegrass",
+          "cn8": "12092400",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "DE",
+          "volume_kg": "50097.00",
+          "value_eur": "13267",
+          "weighted_eur_per_kg": "0.2648262371000259496576641316",
+          "yoy_volume_percent": "732.0378674638764324862979571"
+        }
+      ],
+      "concentration": {
+        "exporter": "5644.384981208310335337795035",
+        "importer": "2310.886459187410063421939214"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE"
+      },
+      "weather": {
+        "status": "INSUFFICIENT_EVIDENCE"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Lupins",
+      "species_id": "lupins",
+      "botanical_name": "Lupinus spp.",
+      "taxonomy_status": "VERIFIED_GENUS_LEVEL",
+      "slug": "lupins",
+      "cn8": "12092950",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "0.3206191016034690942701093178",
+      "price_eur_t": "320.6191016034690942701093178",
+      "price_yoy_percent": "-28.84119202289264760711762674",
+      "volume_kg": "10840870.00",
+      "volume_yoy_percent": "131.5168196071321105357112730",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "0.3948176627028818400864839585",
+          "volume_kg": "10536983.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "0.4371585697842252388869603347",
+          "volume_kg": "7607887.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "0.4459293805478182417463298076",
+          "volume_kg": "7712266.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "0.4132346186035051513513263270",
+          "volume_kg": "5832159.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "0.4130958548544934088994248813",
+          "volume_kg": "5732730.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "0.4317441972818269948081438991",
+          "volume_kg": "6892718.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "0.4539989134813576566454921768",
+          "volume_kg": "4515339.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "0.4592012176733798994237650070",
+          "volume_kg": "4907720.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "0.4334216094575938587850824391",
+          "volume_kg": "8332944.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "0.4632074745435896116499195087",
+          "volume_kg": "4975073.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "0.3814147168175956576949494089",
+          "volume_kg": "11362076.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "0.5073595938838243218325011664",
+          "volume_kg": "3487081.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "0.4765888739702535582380843296",
+          "volume_kg": "4876079.00",
+          "price_yoy_percent": "20.71113300949462725700081590",
+          "volume_yoy_percent": "-53.72414475756485513927468612"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "0.7573298420814964735540922041",
+          "volume_kg": "3693804.00",
+          "price_yoy_percent": "73.23916181153736986264942788",
+          "volume_yoy_percent": "-51.44770157600921254482354956"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "0.5284229183488922391144367049",
+          "volume_kg": "5701772.00",
+          "price_yoy_percent": "18.49923808557574666895427235",
+          "volume_yoy_percent": "-26.06878445323332986699369550"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "0.4608716670536739028701359786",
+          "volume_kg": "8415002.00",
+          "price_yoy_percent": "11.52784551573982845539260094",
+          "volume_yoy_percent": "44.28622402098433873287748156"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "0.4487029510204397129613273022",
+          "volume_kg": "5304233.00",
+          "price_yoy_percent": "8.619572369828874217265499662",
+          "volume_yoy_percent": "-7.474571451995820490412072433"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "0.4505683986536369889767115760",
+          "volume_kg": "4682541.00",
+          "price_yoy_percent": "4.360035755042756585694215977",
+          "volume_yoy_percent": "-32.06539133038664863410921497"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "0.5167224120599783092758530037",
+          "volume_kg": "3731549.00",
+          "price_yoy_percent": "13.81578164970569650550673578",
+          "volume_yoy_percent": "-17.35838660175902628794870108"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "0.4696946061753326784462029897",
+          "volume_kg": "3557865.00",
+          "price_yoy_percent": "2.285139520125685733999902222",
+          "volume_yoy_percent": "-27.50472724605315706682532826"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "0.4654072169589531708000280115",
+          "volume_kg": "2498975.00",
+          "price_yoy_percent": "7.379790671117609900413841373",
+          "volume_yoy_percent": "-70.01089890919703768560067126"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "0.4507142281323134840725748375",
+          "volume_kg": "4825419.00",
+          "price_yoy_percent": "-2.697116756068336038396456544",
+          "volume_yoy_percent": "-3.008076464405647917126040161"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "0.5060185249914427941076711402",
+          "volume_kg": "1931121.00",
+          "price_yoy_percent": "32.66885169337515114358711505",
+          "volume_yoy_percent": "-83.00380141798030571173789015"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "0.5150967954653064119447846998",
+          "volume_kg": "2086668.00",
+          "price_yoy_percent": "1.524993648440550002760098662",
+          "volume_yoy_percent": "-40.16003643161716059936663358"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "0.4673094223377284251274455460",
+          "volume_kg": "3521504.00",
+          "price_yoy_percent": "-1.947055867087722436049565676",
+          "volume_yoy_percent": "-27.78000520500180575417256365"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "0.3899450928567273427664772226",
+          "volume_kg": "7185586.00",
+          "price_yoy_percent": "-48.51053382698139556692130661",
+          "volume_yoy_percent": "94.53078723180764328589172571"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "0.4487108499925182896756178893",
+          "volume_kg": "9255905.00",
+          "price_yoy_percent": "-15.08489991415245626423806446",
+          "volume_yoy_percent": "62.33383235948403408624546895"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "0.4090468692615641213459162120",
+          "volume_kg": "5914068.00",
+          "price_yoy_percent": "-11.24495201091938179486427294",
+          "volume_yoy_percent": "-29.71994540227084913348802531"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "0.3715394415623137737084307186",
+          "volume_kg": "5037554.00",
+          "price_yoy_percent": "-17.19701403403761410662532554",
+          "volume_yoy_percent": "-5.027663754589966164759353520"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "0.3206191016034690942701093178",
+          "volume_kg": "10840870.00",
+          "price_yoy_percent": "-28.84119202289264760711762674",
+          "volume_yoy_percent": "131.5168196071321105357112730"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "2295.00",
+          "market_share_percent": "0.02116988765661796516331253857"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "7673852.00",
+          "market_share_percent": "70.78631143072465586249074106"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "661.00",
+          "market_share_percent": "0.006097296619182777765991105880"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "20153.00",
+          "market_share_percent": "0.1858983642456740095582734596"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "ES",
+          "volume_kg": "3958.00",
+          "market_share_percent": "0.03650998489973590680452768090"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "159.00",
+          "market_share_percent": "0.001466671955295100854451718358"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "1183888.00",
+          "market_share_percent": "10.92059954597739849292538329"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BG",
+          "volume_kg": "82.00",
+          "market_share_percent": "0.0007563968574477878620442824238"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "969.00",
+          "market_share_percent": "0.008938397010572029735620849618"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CY",
+          "volume_kg": "153.00",
+          "market_share_percent": "0.001411325843774531010887502571"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "exporter": "BE",
+          "importer": "NL",
+          "volume_kg": "7480105.00",
+          "value_eur": "2134814",
+          "weighted_eur_per_kg": "0.2853989349079992861062779199",
+          "yoy_volume_percent": "558.2258598174592838462377816"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "BE",
+          "volume_kg": "1183446.00",
+          "value_eur": "352827",
+          "weighted_eur_per_kg": "0.2981352761342722861879629489",
+          "yoy_volume_percent": "52.35887011119422104180372295"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "IT",
+          "volume_kg": "1056399.00",
+          "value_eur": "424134",
+          "weighted_eur_per_kg": "0.4014903459772301942731865517",
+          "yoy_volume_percent": "-25.21211983912519902274434400"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "DE",
+          "volume_kg": "406526.00",
+          "value_eur": "155280",
+          "weighted_eur_per_kg": "0.3819681889965217476864948367",
+          "yoy_volume_percent": "-22.72500033265092372409362128"
+        },
+        {
+          "crop": "Lupins",
+          "cn8": "12092950",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "NL",
+          "volume_kg": "315540.00",
+          "value_eur": "107725",
+          "weighted_eur_per_kg": "0.3413988717753692083412562591",
+          "yoy_volume_percent": "-35.08302353379266644310352277"
+        }
+      ],
+      "concentration": {
+        "exporter": "5626.317616777069292793392829",
+        "importer": "5414.780166549709102760315728"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE"
+      },
+      "weather": {
+        "status": "INSUFFICIENT_EVIDENCE"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Meadow fescue",
+      "species_id": "meadow-fescue",
+      "botanical_name": "Festuca pratensis",
+      "taxonomy_status": "VERIFIED",
+      "slug": "meadow-fescue",
+      "cn8": "12092311",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "2.660855660855660855660855661",
+      "price_eur_t": "2660.855660855660855660855661",
+      "price_yoy_percent": "-11.53373875769620617305506025",
+      "volume_kg": "179487.00",
+      "volume_yoy_percent": "76.37919852204162654035887659",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "2.962383848582845548977677019",
+          "volume_kg": "209963.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "2.435225451258971711369035436",
+          "volume_kg": "434839.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "2.697720371945879728849757117",
+          "volume_kg": "400811.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "2.795757490980515582288588531",
+          "volume_kg": "343146.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "2.612243410664399368395481598",
+          "volume_kg": "123495.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "2.568979087024960647627614122",
+          "volume_kg": "88940.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "2.556433588761174968071519796",
+          "volume_kg": "50112.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "3.233703429132975880557902177",
+          "volume_kg": "116006.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "1.721642291694619616261907957",
+          "volume_kg": "111795.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "2.089514233230941506271978770",
+          "volume_kg": "260763.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "2.087380811388932529275985836",
+          "volume_kg": "330988.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "2.081019129137596987365491145",
+          "volume_kg": "329811.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "1.851980581038455325335623252",
+          "volume_kg": "588085.00",
+          "price_yoy_percent": "-37.48343645863409671949538419",
+          "volume_yoy_percent": "180.0898253501807461314612575"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "2.686665606906046832438374471",
+          "volume_kg": "371153.00",
+          "price_yoy_percent": "10.32512844004174951632073446",
+          "volume_yoy_percent": "-14.64588042930831871106317511"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "2.921868123245094794733663816",
+          "volume_kg": "293107.00",
+          "price_yoy_percent": "8.308783728297834204402440075",
+          "volume_yoy_percent": "-26.87151799726055422630616425"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "2.685235100329439952081461515",
+          "volume_kg": "217035.00",
+          "price_yoy_percent": "-3.953218081598118544795795399",
+          "volume_yoy_percent": "-36.75141193544438810302320295"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "2.153392120045318058295502262",
+          "volume_kg": "126219.00",
+          "price_yoy_percent": "-17.56541096996687726583062815",
+          "volume_yoy_percent": "2.205757318110044941090732418"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "3.007763212201018061751930976",
+          "volume_kg": "101762.00",
+          "price_yoy_percent": "17.08009720251156374038415694",
+          "volume_yoy_percent": "14.41646053519226444794243310"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "2.248979654228893746465094239",
+          "volume_kg": "65419.00",
+          "price_yoy_percent": "-12.02667403072538528205982258",
+          "volume_yoy_percent": "30.54557790549169859514687101"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.232258095938515188560240406",
+          "volume_kg": "205319.00",
+          "price_yoy_percent": "-61.89328666207000979286612111",
+          "volume_yoy_percent": "76.98998327672706584142199541"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "2.483188308306570610190087666",
+          "volume_kg": "184336.00",
+          "price_yoy_percent": "44.23369594751056593783003702",
+          "volume_yoy_percent": "64.88751733082874904959971376"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "0.9149960967402096391568958853",
+          "volume_kg": "263882.00",
+          "price_yoy_percent": "-56.21010461721604386099575647",
+          "volume_yoy_percent": "1.196105275671778588219954518"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "2.440455785433213432151220337",
+          "volume_kg": "165692.00",
+          "price_yoy_percent": "16.91473698128644857574752236",
+          "volume_yoy_percent": "-49.94017910014864587235791026"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "2.225141077466463290860268062",
+          "volume_kg": "344846.00",
+          "price_yoy_percent": "6.925546541640509835740419844",
+          "volume_yoy_percent": "4.558671481545491205569250268"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "2.817690258155520229272552224",
+          "volume_kg": "357304.00",
+          "price_yoy_percent": "52.14469779027410281233405205",
+          "volume_yoy_percent": "-39.24279653451456847224465851"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "2.531324978899628591988287479",
+          "volume_kg": "482219.00",
+          "price_yoy_percent": "-5.781911511693778475533727385",
+          "volume_yoy_percent": "29.92458635656993207652908639"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "2.300639480530341723341786065",
+          "volume_kg": "334803.00",
+          "price_yoy_percent": "-21.26135118051810192387603185",
+          "volume_yoy_percent": "14.22552173779541259676500391"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "2.543938375887886350547129967",
+          "volume_kg": "291704.00",
+          "price_yoy_percent": "-5.261987094694930576880805698",
+          "volume_yoy_percent": "34.40412836639251733591356233"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "2.008297894409293641738408879",
+          "volume_kg": "192820.00",
+          "price_yoy_percent": "-6.737937985626645364191836507",
+          "volume_yoy_percent": "52.76622378564241516728860156"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "2.660855660855660855660855661",
+          "volume_kg": "179487.00",
+          "price_yoy_percent": "-11.53373875769620617305506025",
+          "volume_yoy_percent": "76.37919852204162654035887659"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "1623.00",
+          "market_share_percent": "0.9042437613866185294756723328"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "13844.00",
+          "market_share_percent": "7.713093427379141664855950570"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "72835.00",
+          "market_share_percent": "40.57954057954057954057954058"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "24570.00",
+          "market_share_percent": "13.68901368901368901368901369"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "FR",
+          "volume_kg": "17800.00",
+          "market_share_percent": "9.917152774295631438488581346"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "6560.00",
+          "market_share_percent": "3.654860797717940575083432226"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "50.00",
+          "market_share_percent": "0.02785717071431357145642859929"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BY",
+          "volume_kg": "5000.00",
+          "market_share_percent": "2.785717071431357145642859929"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "51325.00",
+          "market_share_percent": "28.59538573824288110002395717"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CY",
+          "volume_kg": "1.00",
+          "market_share_percent": "0.0005571434142862714291285719857"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "exporter": "DE",
+          "importer": "CH",
+          "volume_kg": "51325.00",
+          "value_eur": "140718",
+          "weighted_eur_per_kg": "2.741704822211397954213346322",
+          "yoy_volume_percent": "291.7938931297709923664122137"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "DE",
+          "volume_kg": "24570.00",
+          "value_eur": "53527",
+          "weighted_eur_per_kg": "2.178551078551078551078551079",
+          "yoy_volume_percent": null
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "exporter": "LT",
+          "importer": "FR",
+          "volume_kg": "20000.00",
+          "value_eur": "41200",
+          "weighted_eur_per_kg": "2.06",
+          "yoy_volume_percent": null
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "FR",
+          "volume_kg": "10864.00",
+          "value_eur": "35239",
+          "weighted_eur_per_kg": "3.243648748159057437407952872",
+          "yoy_volume_percent": "111.8151686488594267888477286"
+        },
+        {
+          "crop": "Meadow fescue",
+          "cn8": "12092311",
+          "period": "2026-06",
+          "exporter": "SE",
+          "importer": "FI",
+          "volume_kg": "10000.00",
+          "value_eur": "41729",
+          "weighted_eur_per_kg": "4.1729",
+          "yoy_volume_percent": null
+        }
+      ],
+      "concentration": {
+        "exporter": "2229.321219275923516342042475",
+        "importer": "1651.999353567871462919970213"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Mustard seed for sowing",
+      "species_id": "mustard-seed",
+      "botanical_name": null,
+      "taxonomy_status": "REVIEW_REQUIRED",
+      "slug": "mustard-seed-for-sowing",
+      "cn8": "12075010",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "1.360492670739993478173316895",
+      "price_eur_t": "1360.492670739993478173316895",
+      "price_yoy_percent": "0.1850636055263518215924097319",
+      "volume_kg": "3078892.00",
+      "volume_yoy_percent": "40.09087343512686881592441835",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "1.601600416083116362280561587",
+          "volume_kg": "957501.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "1.688946839340987246658968217",
+          "volume_kg": "1257396.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "1.634189199020566656281429919",
+          "volume_kg": "1800633.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "1.611316798157410749583182935",
+          "volume_kg": "2327160.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "1.797435153639065149164539995",
+          "volume_kg": "2554461.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "1.487662874135437506609529055",
+          "volume_kg": "2770621.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "1.470650040241852720788838001",
+          "volume_kg": "1842609.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "1.478622966220007045653223386",
+          "volume_kg": "766430.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "1.382589562586165350567061826",
+          "volume_kg": "1265735.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "1.230899826231214701379693608",
+          "volume_kg": "851131.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "1.263003850042381103134159169",
+          "volume_kg": "489605.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "1.371999751963255127938238851",
+          "volume_kg": "451546.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "1.370790434904770505950589038",
+          "volume_kg": "1195848.00",
+          "price_yoy_percent": "-14.41120886711656447015879958",
+          "volume_yoy_percent": "24.89261107821297314571995225"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "1.387903429124036229130056857",
+          "volume_kg": "1063012.00",
+          "price_yoy_percent": "-17.82432716084868643444891654",
+          "volume_yoy_percent": "-15.45925070542613464652345005"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "1.410577142821200411780615700",
+          "volume_kg": "1907812.00",
+          "price_yoy_percent": "-13.68336397850295876687032989",
+          "volume_yoy_percent": "5.952295664913394345210823083"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "1.534868620076721077889973454",
+          "volume_kg": "2234588.00",
+          "price_yoy_percent": "-4.744453615087390884016216789",
+          "volume_yoy_percent": "-3.977895804328022138572337098"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "1.337135642924983613794812762",
+          "volume_kg": "3098643.00",
+          "price_yoy_percent": "-25.60868523029411080532431599",
+          "volume_yoy_percent": "21.30320251512941477673763663"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "1.357979544832017006236287311",
+          "volume_kg": "2197782.00",
+          "price_yoy_percent": "-8.717252514538053258072697617",
+          "volume_yoy_percent": "-20.67547311595487076723954666"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "1.391010854107411745022586582",
+          "volume_kg": "1912640.00",
+          "price_yoy_percent": "-5.415237069000050996340983408",
+          "volume_yoy_percent": "3.800643544018291455213775684"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.431788223909404588848997413",
+          "volume_kg": "944507.00",
+          "price_yoy_percent": "-3.167456706717608826957153956",
+          "volume_yoy_percent": "23.23460720483279621100426653"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "1.474521221846709945131983110",
+          "volume_kg": "987096.00",
+          "price_yoy_percent": "6.649237181321138176724844535",
+          "volume_yoy_percent": "-22.01400767143201381015773444"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "1.418651141584540385087503946",
+          "volume_kg": "969442.00",
+          "price_yoy_percent": "15.25317587607312722579167807",
+          "volume_yoy_percent": "13.90044540734622519917615502"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "1.617261511712422150753195916",
+          "volume_kg": "1052515.00",
+          "price_yoy_percent": "28.04881882649476078669645773",
+          "volume_yoy_percent": "114.9722735674676524953789279"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "1.426599567266826365814079283",
+          "volume_kg": "414112.00",
+          "price_yoy_percent": "3.979579094343271362533997023",
+          "volume_yoy_percent": "-8.290185274589964256133372901"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "1.482603952134286579432166739",
+          "volume_kg": "865254.00",
+          "price_yoy_percent": "8.156864417957790477075756309",
+          "volume_yoy_percent": "-27.64515222670439721436169145"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "1.518058516426997581941185415",
+          "volume_kg": "1676965.00",
+          "price_yoy_percent": "9.377820140202957761740770086",
+          "volume_yoy_percent": "57.75598017708172626461413418"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "1.442187185945919497580629300",
+          "volume_kg": "2084633.00",
+          "price_yoy_percent": "2.240929770171801160496074723",
+          "volume_yoy_percent": "9.268261233287137307030252457"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "1.448463670737553699706948364",
+          "volume_kg": "2144332.00",
+          "price_yoy_percent": "-5.629468751198287517118340456",
+          "volume_yoy_percent": "-4.039044333899582383866735165"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "1.362199633723906051936990196",
+          "volume_kg": "2791883.00",
+          "price_yoy_percent": "1.874453869473927836664516466",
+          "volume_yoy_percent": "-9.899817436213206877978521566"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "1.360492670739993478173316895",
+          "volume_kg": "3078892.00",
+          "price_yoy_percent": "0.1850636055263518215924097319",
+          "volume_yoy_percent": "40.09087343512686881592441835"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "25668.00",
+          "market_share_percent": "0.8336765303882045878842128922"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "87470.00",
+          "market_share_percent": "2.840957071569902419441799193"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BG",
+          "volume_kg": "107.00",
+          "market_share_percent": "0.003475276170778318953701526393"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "1191567.00",
+          "market_share_percent": "38.70116262603559981967538972"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "390068.00",
+          "market_share_percent": "12.66910304096408708067707474"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AR",
+          "volume_kg": "220.00",
+          "market_share_percent": "0.007145427640852618409479773893"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "42039.00",
+          "market_share_percent": "1.365393784517287387800546430"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "110414.00",
+          "market_share_percent": "3.586160216077731859383180703"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BG",
+          "volume_kg": "23.00",
+          "market_share_percent": "0.0007470219806345919246274309070"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "7.00",
+          "market_share_percent": "0.0002273545158453105857561746239"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "exporter": "CZ",
+          "importer": "DE",
+          "volume_kg": "949234.00",
+          "value_eur": "1065036",
+          "weighted_eur_per_kg": "1.121995208768333203404007863",
+          "yoy_volume_percent": "82.43343493786492106750102822"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "DE",
+          "volume_kg": "485887.00",
+          "value_eur": "689588",
+          "weighted_eur_per_kg": "1.419235336611187374842298724",
+          "yoy_volume_percent": "-5.630104394270453993687788298"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "exporter": "DE",
+          "importer": "FR",
+          "volume_kg": "192557.00",
+          "value_eur": "338597",
+          "weighted_eur_per_kg": "1.758424778117648280768811313",
+          "yoy_volume_percent": "121.9677233429394812680115274"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "FR",
+          "volume_kg": "136000.00",
+          "value_eur": "168262",
+          "weighted_eur_per_kg": "1.237220588235294117647058824",
+          "yoy_volume_percent": "267.5675675675675675675675676"
+        },
+        {
+          "crop": "Mustard seed for sowing",
+          "cn8": "12075010",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "IT",
+          "volume_kg": "98400.00",
+          "value_eur": "141265",
+          "weighted_eur_per_kg": "1.435619918699186991869918699",
+          "yoy_volume_percent": "602.7567490358520211398371661"
+        }
+      ],
+      "concentration": {
+        "exporter": "2396.180748101657250561452735",
+        "importer": "3048.587766270441772451620263"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE"
+      },
+      "weather": {
+        "status": "INSUFFICIENT_EVIDENCE"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Perennial ryegrass",
+      "species_id": "perennial-ryegrass",
+      "botanical_name": "Lolium perenne",
+      "taxonomy_status": "VERIFIED",
+      "slug": "perennial-ryegrass",
+      "cn8": "12092590",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "1.899536996960341761812769059",
+      "price_eur_t": "1899.536996960341761812769059",
+      "price_yoy_percent": "13.57132137854973009133964373",
+      "volume_kg": "6896499.00",
+      "volume_yoy_percent": "-21.33095518139511326735695584",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "1.991932195610840200645641391",
+          "volume_kg": "7556207.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "2.043490041422195343050242812",
+          "volume_kg": "7506845.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "2.202571814467747138430063566",
+          "volume_kg": "7030756.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "2.134491147609680010243397083",
+          "volume_kg": "9192263.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "2.002959428559961186274012156",
+          "volume_kg": "6776984.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "1.906215055576897250669140221",
+          "volume_kg": "8004675.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "2.274419149401516494694598054",
+          "volume_kg": "3090812.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "1.987899645123770862865415829",
+          "volume_kg": "3969553.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "1.817063720982478586102051812",
+          "volume_kg": "6828159.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "1.755354283965384142672727842",
+          "volume_kg": "6224315.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "1.758996352943072851692567545",
+          "volume_kg": "6327842.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "1.788480379996841439106998333",
+          "volume_kg": "5280886.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "1.710201576069835386804955478",
+          "volume_kg": "10373652.00",
+          "price_yoy_percent": "-14.14358481487418862563351217",
+          "volume_yoy_percent": "37.28649837147129505583952372"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "1.908323886096152985575560495",
+          "volume_kg": "9117304.00",
+          "price_yoy_percent": "-6.614475851909294842545229655",
+          "volume_yoy_percent": "21.45320703970842610977048281"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "1.832409112684502346040945878",
+          "volume_kg": "10679268.00",
+          "price_yoy_percent": "-16.80593110979651946715216814",
+          "volume_yoy_percent": "51.89359437306599745461227783"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "1.918695021821199817843202694",
+          "volume_kg": "9995784.00",
+          "price_yoy_percent": "-10.10995646574315863322006618",
+          "volume_yoy_percent": "8.741275135404633222526378978"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "1.893381890512336741111257368",
+          "volume_kg": "7179165.00",
+          "price_yoy_percent": "-5.470781708564402883602287681",
+          "volume_yoy_percent": "5.934513051823643083708032954"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "1.672549877824269309737065234",
+          "volume_kg": "8766471.00",
+          "price_yoy_percent": "-12.25807009912171066895418506",
+          "volume_yoy_percent": "9.516888568242933036007083361"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "1.837771202381279623644724390",
+          "volume_kg": "5093060.00",
+          "price_yoy_percent": "-19.19821802129721952173620422",
+          "volume_yoy_percent": "64.78064663913560578902890244"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.846407080159200405626275937",
+          "volume_kg": "5311293.00",
+          "price_yoy_percent": "-7.117691545025696153678967052",
+          "volume_yoy_percent": "33.80078311084396656248197215"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "1.831558059786132369382394986",
+          "volume_kg": "7235223.00",
+          "price_yoy_percent": "0.7976791697660859274431359747",
+          "volume_yoy_percent": "5.961548347072761486661338730"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "1.651444080340703567206714316",
+          "volume_kg": "8284269.00",
+          "price_yoy_percent": "-5.919614323664914399389595785",
+          "volume_yoy_percent": "33.09527233117218521234866809"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "1.642943814046962242508697589",
+          "volume_kg": "9494010.00",
+          "price_yoy_percent": "-6.597656595588545085451677806",
+          "volume_yoy_percent": "50.03550973617862140047112428"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "1.771656981840154884026006482",
+          "volume_kg": "8014771.00",
+          "price_yoy_percent": "-0.9406532129089538116998273654",
+          "volume_yoy_percent": "51.76943793143802005951274085"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "1.943250894370442087511709712",
+          "volume_kg": "9520943.00",
+          "price_yoy_percent": "13.62700874338863469980007071",
+          "volume_yoy_percent": "-8.219949926988104092946244968"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "1.915961582251638108662045431",
+          "volume_kg": "10447567.00",
+          "price_yoy_percent": "0.4002306008499172249306916651",
+          "volume_yoy_percent": "14.59053027079057581056856281"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "1.958990998365145881838544722",
+          "volume_kg": "12226779.00",
+          "price_yoy_percent": "6.907948929330496764797859792",
+          "volume_yoy_percent": "14.49079656021367756666468151"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "2.007996018256861599218633205",
+          "volume_kg": "9344651.00",
+          "price_yoy_percent": "4.654256951732665791175118768",
+          "volume_yoy_percent": "-6.514076334582660049476859444"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "2.014806740979305903751511130",
+          "volume_kg": "7062594.00",
+          "price_yoy_percent": "6.413119882228956633364852721",
+          "volume_yoy_percent": "-1.623740365348895031664545946"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "1.899536996960341761812769059",
+          "volume_kg": "6896499.00",
+          "price_yoy_percent": "13.57132137854973009133964373",
+          "volume_yoy_percent": "-21.33095518139511326735695584"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "6415.00",
+          "market_share_percent": "0.09301821112422404469282167662"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "6681.00",
+          "market_share_percent": "0.09687524061121447273464405635"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "111117.00",
+          "market_share_percent": "1.611208817691411250839012664"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "423034.00",
+          "market_share_percent": "6.134039894734995249038678901"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "4609646.00",
+          "market_share_percent": "66.84037799468976940328708813"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AE",
+          "volume_kg": "67000.00",
+          "market_share_percent": "0.9715074271742807473763136919"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AL",
+          "volume_kg": "7000.00",
+          "market_share_percent": "0.1015007759734323168900626245"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "131025.00",
+          "market_share_percent": "1.899877024559852760074350768"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AZ",
+          "volume_kg": "15980.00",
+          "market_share_percent": "0.2317117714364926319861715343"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BA",
+          "volume_kg": "960.00",
+          "market_share_percent": "0.01392010641921357488778001708"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "DE",
+          "volume_kg": "1670842.00",
+          "value_eur": "3125410",
+          "weighted_eur_per_kg": "1.870559873405145429669591739",
+          "yoy_volume_percent": "31.17791794441801272177131274"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "CN",
+          "volume_kg": "764954.00",
+          "value_eur": "1375158",
+          "weighted_eur_per_kg": "1.797700253871474624617950883",
+          "yoy_volume_percent": "-57.12117220388006659230152635"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "DE",
+          "volume_kg": "606100.00",
+          "value_eur": "773163",
+          "weighted_eur_per_kg": "1.275636033657812242204256723",
+          "yoy_volume_percent": "94.33881197134777060260742983"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "PL",
+          "volume_kg": "506490.00",
+          "value_eur": "778193",
+          "weighted_eur_per_kg": "1.536442970246204268593654366",
+          "yoy_volume_percent": "73.44835143761215292522225114"
+        },
+        {
+          "crop": "Perennial ryegrass",
+          "cn8": "12092590",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "GB",
+          "volume_kg": "400062.00",
+          "value_eur": "698950",
+          "weighted_eur_per_kg": "1.747104198849178377351510516",
+          "yoy_volume_percent": "-3.211430893994232295275514352"
+        }
+      ],
+      "concentration": {
+        "exporter": "4784.244533696956400840803199",
+        "importer": "1730.399369535876488739634752"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Red clover",
+      "species_id": "red-clover",
+      "botanical_name": "Trifolium pratense",
+      "taxonomy_status": "VERIFIED",
+      "slug": "red-clover",
+      "cn8": "12092210",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "4.947958923239411778132372745",
+      "price_eur_t": "4947.958923239411778132372745",
+      "price_yoy_percent": "11.15760614226298052043598575",
+      "volume_kg": "481927.00",
+      "volume_yoy_percent": "20.15702563821273009691309237",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "4.940425443380244722368706393",
+          "volume_kg": "1249661.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "4.717802054215817193567978603",
+          "volume_kg": "1043902.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "5.437453428782624657072127716",
+          "volume_kg": "1007865.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "4.893736747027458867344079461",
+          "volume_kg": "1006378.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "4.970630118728187860612756704",
+          "volume_kg": "570210.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "4.733268632411526941754630841",
+          "volume_kg": "275112.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "5.328596208830382277494799821",
+          "volume_kg": "272106.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "2.888609253322842293697658528",
+          "volume_kg": "531247.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "4.382345869138332770376646648",
+          "volume_kg": "349346.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "4.400789203324927617446530307",
+          "volume_kg": "513936.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "4.719145111328077193993967859",
+          "volume_kg": "735394.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "4.307923470915800748234744692",
+          "volume_kg": "984985.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "4.981900508395497690421795876",
+          "volume_kg": "1699661.00",
+          "price_yoy_percent": "0.8395039150084953265064587083",
+          "volume_yoy_percent": "36.00976584849811268816102927"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "5.280685952771634443889562674",
+          "volume_kg": "1457768.00",
+          "price_yoy_percent": "11.93106222107867959042612961",
+          "volume_yoy_percent": "39.64605872965086761017796690"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "5.422947074164446732779655705",
+          "volume_kg": "1429472.00",
+          "price_yoy_percent": "-0.2667858181808043376922036029",
+          "volume_yoy_percent": "41.83169372882280861028014665"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "5.094742611347190242339908189",
+          "volume_kg": "961542.00",
+          "price_yoy_percent": "4.107410649782619509472120902",
+          "volume_yoy_percent": "-4.455184831146944786153910360"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "5.071099560545346981412960708",
+          "volume_kg": "671059.00",
+          "price_yoy_percent": "2.021261679452136989993106775",
+          "volume_yoy_percent": "17.68629101559074726855018327"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "4.451300360775005547507860008",
+          "volume_kg": "401081.00",
+          "price_yoy_percent": "-5.957157590966117086361983830",
+          "volume_yoy_percent": "45.78826078106371223356305795"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "4.391632967308816731616375286",
+          "volume_kg": "326663.00",
+          "price_yoy_percent": "-17.58367879271579051223355584",
+          "volume_yoy_percent": "20.04990702152837497151845237"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "4.389676634729666231961625345",
+          "volume_kg": "397971.00",
+          "price_yoy_percent": "51.96505479860618460155924184",
+          "volume_yoy_percent": "-25.08738872878340960043068479"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "4.267039129686660509672684367",
+          "volume_kg": "284771.00",
+          "price_yoy_percent": "-2.631164743606696316213501182",
+          "volume_yoy_percent": "-18.48453968272142803982298352"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "2.993872671448646992613905040",
+          "volume_kg": "600588.00",
+          "price_yoy_percent": "-31.96964150914824970703676042",
+          "volume_yoy_percent": "16.86046511627906976744186047"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "4.468934724488344628877066877",
+          "volume_kg": "625763.00",
+          "price_yoy_percent": "-5.302027823622434504290051604",
+          "volume_yoy_percent": "-14.90779092568065553975148016"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "4.317169789736737517056102045",
+          "volume_kg": "847937.00",
+          "price_yoy_percent": "0.2146351689708902451311891937",
+          "volume_yoy_percent": "-13.91371442204703624928298400"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "4.430520145954730022339134648",
+          "volume_kg": "1166115.00",
+          "price_yoy_percent": "-11.06767109282053298939697099",
+          "volume_yoy_percent": "-31.39131862177222399054870354"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "5.139615983274817659808013146",
+          "volume_kg": "1394783.00",
+          "price_yoy_percent": "-2.671432665348607526706459942",
+          "volume_yoy_percent": "-4.320646357993864592994221303"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "5.052812236679271621860528122",
+          "volume_kg": "1306629.00",
+          "price_yoy_percent": "-6.825344824929985188964521890",
+          "volume_yoy_percent": "-8.593592599225448277405923306"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "5.050761757360762990051727365",
+          "volume_kg": "876132.00",
+          "price_yoy_percent": "-0.8632595862344752167247583213",
+          "volume_yoy_percent": "-8.882607312005091821262097755"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "5.066695092508830257388318131",
+          "volume_kg": "520653.00",
+          "price_yoy_percent": "-0.08685430021498269933775108542",
+          "volume_yoy_percent": "-22.41323043130335782695709319"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "4.947958923239411778132372745",
+          "volume_kg": "481927.00",
+          "price_yoy_percent": "11.15760614226298052043598575",
+          "volume_yoy_percent": "20.15702563821273009691309237"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "AT",
+          "volume_kg": "442.00",
+          "market_share_percent": "0.09171513527982453774119316826"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "541.00",
+          "market_share_percent": "0.1122576655800567305836776109"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "3235.00",
+          "market_share_percent": "0.6712634901136479176306785053"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "72684.00",
+          "market_share_percent": "15.08195224587956267235494172"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "111469.00",
+          "market_share_percent": "23.12985161653113438342321555"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "16953.00",
+          "market_share_percent": "3.517752688685215810693320773"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BA",
+          "volume_kg": "2500.00",
+          "market_share_percent": "0.5187507651573786071334455218"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "30649.00",
+          "market_share_percent": "6.359676880523398772013188719"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CH",
+          "volume_kg": "17447.00",
+          "market_share_percent": "3.620257839880313823462889608"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "CY",
+          "volume_kg": "0.00",
+          "market_share_percent": "0"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "exporter": "PL",
+          "importer": "DE",
+          "volume_kg": "70315.00",
+          "value_eur": "372367",
+          "weighted_eur_per_kg": "5.295697930740240347009884093",
+          "yoy_volume_percent": "7031400"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "exporter": "NL",
+          "importer": "DE",
+          "volume_kg": "69401.00",
+          "value_eur": "266339",
+          "weighted_eur_per_kg": "3.837682454143312056022247518",
+          "yoy_volume_percent": "229.4299140836379171215645322"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "exporter": "IT",
+          "importer": "DE",
+          "volume_kg": "42515.00",
+          "value_eur": "232317",
+          "weighted_eur_per_kg": "5.464353757497353875102904857",
+          "yoy_volume_percent": "134.1392223813195285824430003"
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "FR",
+          "volume_kg": "40109.00",
+          "value_eur": "172002",
+          "weighted_eur_per_kg": "4.288364207534468573138198409",
+          "yoy_volume_percent": null
+        },
+        {
+          "crop": "Red clover",
+          "cn8": "12092210",
+          "period": "2026-06",
+          "exporter": "IT",
+          "importer": "FR",
+          "volume_kg": "37034.00",
+          "value_eur": "177948",
+          "weighted_eur_per_kg": "4.804990009180752821731381973",
+          "yoy_volume_percent": "-47.84971977356577576252569916"
+        }
+      ],
+      "concentration": {
+        "exporter": "1755.161158803281147183262803",
+        "importer": "2463.650228194531944841521555"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    },
+    {
+      "crop": "Red fescue",
+      "species_id": "red-fescue",
+      "botanical_name": "Festuca rubra",
+      "taxonomy_status": "VERIFIED",
+      "slug": "red-fescue",
+      "cn8": "12092315",
+      "latest_completed_period": "2026-06",
+      "latest_available_period": "2026-07",
+      "latest_available_is_partial": true,
+      "price_eur_kg": "1.601842572028822244017569939",
+      "price_eur_t": "1601.842572028822244017569939",
+      "price_yoy_percent": "8.514007024857430342267381128",
+      "volume_kg": "2799782.00",
+      "volume_yoy_percent": "-24.36282197269015113755016419",
+      "history": [
+        {
+          "period": "2024-01",
+          "price_eur_kg": "1.982729335697071453562123377",
+          "volume_kg": "3581333.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-02",
+          "price_eur_kg": "2.151111737853174435665416842",
+          "volume_kg": "2155769.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-03",
+          "price_eur_kg": "2.045811090469371445455592406",
+          "volume_kg": "2578917.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-04",
+          "price_eur_kg": "1.949868827631820067950551545",
+          "volume_kg": "3798056.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-05",
+          "price_eur_kg": "1.906664131263743266178871328",
+          "volume_kg": "3460331.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-06",
+          "price_eur_kg": "1.881515454747609517456081832",
+          "volume_kg": "3237840.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-07",
+          "price_eur_kg": "2.106939023690289994403868505",
+          "volume_kg": "1115056.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-08",
+          "price_eur_kg": "1.840417666740980790790786208",
+          "volume_kg": "2184421.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-09",
+          "price_eur_kg": "2.019507842192010818666618275",
+          "volume_kg": "1267439.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-10",
+          "price_eur_kg": "1.911449898861716932069512386",
+          "volume_kg": "1492511.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-11",
+          "price_eur_kg": "1.883801176062839850997090424",
+          "volume_kg": "1373396.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2024-12",
+          "price_eur_kg": "1.817698297853680933330238053",
+          "volume_kg": "775374.00",
+          "price_yoy_percent": null,
+          "volume_yoy_percent": null
+        },
+        {
+          "period": "2025-01",
+          "price_eur_kg": "1.788714895035493230906763032",
+          "volume_kg": "2375946.00",
+          "price_yoy_percent": "-9.785220663685204553689050726",
+          "volume_yoy_percent": "-33.65749568666192169228608454"
+        },
+        {
+          "period": "2025-02",
+          "price_eur_kg": "1.800239386356204689444975801",
+          "volume_kg": "3260002.00",
+          "price_yoy_percent": "-16.31120993496799803419864927",
+          "volume_yoy_percent": "51.22223206660824977073146520"
+        },
+        {
+          "period": "2025-03",
+          "price_eur_kg": "1.793756462949661698413055767",
+          "volume_kg": "3242521.00",
+          "price_yoy_percent": "-12.32052307732287880924608772",
+          "volume_yoy_percent": "25.73188667956355322796352112"
+        },
+        {
+          "period": "2025-04",
+          "price_eur_kg": "1.757528233674128995405854029",
+          "volume_kg": "3350786.00",
+          "price_yoy_percent": "-9.864283752425288054378893113",
+          "volume_yoy_percent": "-11.77628765873910231971303214"
+        },
+        {
+          "period": "2025-05",
+          "price_eur_kg": "1.527272962496846526651252082",
+          "volume_kg": "4173969.00",
+          "price_yoy_percent": "-19.89816468175939426041976566",
+          "volume_yoy_percent": "20.62340279007990854054135284"
+        },
+        {
+          "period": "2025-06",
+          "price_eur_kg": "1.476162032853405086185819897",
+          "volume_kg": "3701595.00",
+          "price_yoy_percent": "-21.54398577334988730787825476",
+          "volume_yoy_percent": "14.32297457564302127344155363"
+        },
+        {
+          "period": "2025-07",
+          "price_eur_kg": "1.859842146268757833406727414",
+          "volume_kg": "885630.00",
+          "price_yoy_percent": "-11.72776595066066921826748858",
+          "volume_yoy_percent": "-20.57528949218693949003458122"
+        },
+        {
+          "period": "2025-08",
+          "price_eur_kg": "1.636058474934472632542732963",
+          "volume_kg": "1622986.00",
+          "price_yoy_percent": "-11.10395729727960390364996772",
+          "volume_yoy_percent": "-25.70177635171974633094994051"
+        },
+        {
+          "period": "2025-09",
+          "price_eur_kg": "1.638953741132602343459340604",
+          "volume_kg": "1913752.00",
+          "price_yoy_percent": "-18.84390310890538956268752631",
+          "volume_yoy_percent": "50.99361783880723253742389180"
+        },
+        {
+          "period": "2025-10",
+          "price_eur_kg": "1.742911415298703093311440497",
+          "volume_kg": "1968376.00",
+          "price_yoy_percent": "-8.817311071735638885141529309",
+          "volume_yoy_percent": "31.88351710640658594811026518"
+        },
+        {
+          "period": "2025-11",
+          "price_eur_kg": "1.628496890027282960450386383",
+          "volume_kg": "2528318.00",
+          "price_yoy_percent": "-13.55261315682714323949130985",
+          "volume_yoy_percent": "84.09242490876629901354015885"
+        },
+        {
+          "period": "2025-12",
+          "price_eur_kg": "1.759703634798151070424993305",
+          "volume_kg": "2326319.00",
+          "price_yoy_percent": "-3.190554952051688235264697873",
+          "volume_yoy_percent": "200.0254070938669596865512643"
+        },
+        {
+          "period": "2026-01",
+          "price_eur_kg": "1.668795007532334713327187891",
+          "volume_kg": "2319334.00",
+          "price_yoy_percent": "-6.704248275451352086974515530",
+          "volume_yoy_percent": "-2.382714085252779314007978296"
+        },
+        {
+          "period": "2026-02",
+          "price_eur_kg": "1.645726387699156701946257949",
+          "volume_kg": "3358599.00",
+          "price_yoy_percent": "-8.582914018440170116020545225",
+          "volume_yoy_percent": "3.024445997272394311414532875"
+        },
+        {
+          "period": "2026-03",
+          "price_eur_kg": "1.837054891573912049648640222",
+          "volume_kg": "3604852.00",
+          "price_yoy_percent": "2.413840982239596133460926790",
+          "volume_yoy_percent": "11.17436093706100901119838545"
+        },
+        {
+          "period": "2026-04",
+          "price_eur_kg": "1.790879208759158424574566923",
+          "volume_kg": "3401240.00",
+          "price_yoy_percent": "1.897606789241098443489333996",
+          "volume_yoy_percent": "1.505736266058172619797265477"
+        },
+        {
+          "period": "2026-05",
+          "price_eur_kg": "1.655566339535008545463872102",
+          "volume_kg": "2943667.00",
+          "price_yoy_percent": "8.400160298027073574208605650",
+          "volume_yoy_percent": "-29.47559025953474977892744292"
+        },
+        {
+          "period": "2026-06",
+          "price_eur_kg": "1.601842572028822244017569939",
+          "volume_kg": "2799782.00",
+          "price_yoy_percent": "8.514007024857430342267381128",
+          "volume_yoy_percent": "-24.36282197269015113755016419"
+        }
+      ],
+      "top_exporters": [
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "BE",
+          "volume_kg": "102.00",
+          "market_share_percent": "0.003643140787389875354581178106"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "CZ",
+          "volume_kg": "10325.00",
+          "market_share_percent": "0.3687787120568672846671633720"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DE",
+          "volume_kg": "119940.00",
+          "market_share_percent": "4.283904961171976961063397079"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "DK",
+          "volume_kg": "1801369.00",
+          "market_share_percent": "64.33961644156580762359355121"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "EXPORTER",
+          "country": "ES",
+          "volume_kg": "32653.00",
+          "market_share_percent": "1.166269373829819607383717732"
+        }
+      ],
+      "top_importers": [
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AD",
+          "volume_kg": "1050.00",
+          "market_share_percent": "0.03750291987018989335598271580"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "AT",
+          "volume_kg": "22017.00",
+          "market_share_percent": "0.7863826540780675066844490035"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BE",
+          "volume_kg": "11754.00",
+          "market_share_percent": "0.4198184001468685776249722300"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BG",
+          "volume_kg": "2410.00",
+          "market_share_percent": "0.08607813036872156475039842388"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "role": "IMPORTER",
+          "country": "BY",
+          "volume_kg": "1000.00",
+          "market_share_percent": "0.03571706654303799367236449124"
+        }
+      ],
+      "corridors": [
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "DE",
+          "volume_kg": "680680.00",
+          "value_eur": "976895",
+          "weighted_eur_per_kg": "1.435175118998648410413116295",
+          "yoy_volume_percent": "-54.23806184732529848322987797"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "NL",
+          "volume_kg": "313076.00",
+          "value_eur": "575564",
+          "weighted_eur_per_kg": "1.838416231202647280532522455",
+          "yoy_volume_percent": "-31.55731612406761282649947095"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "exporter": "SE",
+          "importer": "NL",
+          "volume_kg": "169659.00",
+          "value_eur": "228725",
+          "weighted_eur_per_kg": "1.348145397532697941164335520",
+          "yoy_volume_percent": null
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "PL",
+          "volume_kg": "161020.00",
+          "value_eur": "227761",
+          "weighted_eur_per_kg": "1.414488883368525648987703391",
+          "yoy_volume_percent": "-50.27023688192964575805305908"
+        },
+        {
+          "crop": "Red fescue",
+          "cn8": "12092315",
+          "period": "2026-06",
+          "exporter": "DK",
+          "importer": "GB",
+          "volume_kg": "160467.00",
+          "value_eur": "284419",
+          "weighted_eur_per_kg": "1.772445424916026348096493360",
+          "yoy_volume_percent": "-11.55236845876555730711143937"
+        }
+      ],
+      "concentration": {
+        "exporter": "4410.893874834065933683378984",
+        "importer": "1661.034141640450014548088499"
+      },
+      "supply": {
+        "state": "INSUFFICIENT_EVIDENCE",
+        "country_coverage_percent": 23.5294,
+        "comparable_country_coverage_percent": 5.8824,
+        "eu_total": null
+      },
+      "weather": {
+        "status": "EXPOSURE_ONLY_NO_VALIDATED_IMPACT"
+      },
+      "market_status": "INSUFFICIENT_EVIDENCE",
+      "quality_status": "EVIDENCE_ELIGIBLE",
+      "classification": "PUBLIC_SAFE",
+      "provenance": "Eurostat COMEXT DS-045409; derived by SeedTrade V1.1 engines",
+      "source": "Eurostat COMEXT DS-045409",
+      "freshness": "generated 2026-09-21 from verified V3 snapshot"
+    }
+  ]
+}

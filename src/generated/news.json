@@ -1,0 +1,197 @@
+{
+  "schema": "SEEDTRADE_DAILY_NEWS_V1",
+  "classification": "PUBLIC_SAFE",
+  "market_engine_input": false,
+  "publication_status": "OWNER_REVIEW_REQUIRED",
+  "items": [
+    {
+      "slug": "interpom-2026-exhibitor-profile",
+      "headline": "INTERPOM 2026 lists 332 exhibitors from 15 countries",
+      "publication_date": "2026-09-21",
+      "category": "EVENTS",
+      "tags": [
+        "INTERPOM",
+        "potatoes",
+        "seed potatoes",
+        "trade event"
+      ],
+      "geography": {
+        "countries": [
+          "BE"
+        ],
+        "region": "Europe"
+      },
+      "summary": "INTERPOM’s official website currently reports 332 exhibitors from 15 countries for the 29 November–1 December 2026 professional fair at Kortrijk Xpo. The published exhibitor filters span seeds, cultivation, storage, mechanisation, processing, packaging, marketing, research and transport across the potato value chain.",
+      "why_it_matters": "The exhibitor mix makes the fair relevant to seed-potato producers, breeders, growers, technology suppliers, processors and traders. The figures describe the organiser’s current event profile and are not an independent SeedTrade attendance forecast.",
+      "source_name": "INTERPOM / Kortrijk Xpo",
+      "source_url": "https://www.interpom.be/en/",
+      "source_tier": 1,
+      "provenance_class": "OFFICIAL_SOURCE",
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "links": {
+        "crops": [
+          "potatoes",
+          "seed potatoes"
+        ],
+        "countries": [
+          "BE"
+        ],
+        "regions": [
+          "Europe"
+        ],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "image": null,
+      "canonical_url": "https://seedtrade.eu/news/interpom-2026-exhibitor-profile",
+      "fingerprint": "2dac6df08dcb453b089b7ad59a300a83c364d1f711948da9193d5061e44a777d"
+    },
+    {
+      "slug": "europe-potato-crop-drought-estimate-2026",
+      "headline": "Summer heat and drought cut the 2026 European potato outlook",
+      "publication_date": "2026-09-17",
+      "event_source_date": "2026-09-17",
+      "category": "POTATOES",
+      "tags": [
+        "potatoes",
+        "seed potatoes",
+        "drought",
+        "supply"
+      ],
+      "geography": {
+        "countries": [
+          "DE",
+          "FR",
+          "BE",
+          "NL",
+          "GB"
+        ],
+        "region": "Europe"
+      },
+      "summary": "An Energy and Climate Intelligence Unit assessment estimated that summer heat and drought could remove about 3.1 million tonnes from potato production across Germany, France, Belgium and the Netherlands. Including Great Britain, the estimated loss rises above 3.5 million tonnes. The figures are scenario-based estimates, not final official harvest statistics.",
+      "why_it_matters": "Lower output and reduced tuber size can tighten processing and ware supply, affect seed-potato demand decisions and increase quality pressure across the 2026/27 chain. Final certified seed availability still requires separate official evidence.",
+      "source_name": "Energy and Climate Intelligence Unit",
+      "source_url": "https://eciu.net/media/press-releases/chips-are-down-summer-drought-knocks-over-3-million-tonnes-off-uk-and-europes-potato-crop",
+      "source_tier": 2,
+      "provenance_class": "PUBLIC_SOURCE",
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "links": {
+        "crops": [
+          "potatoes",
+          "seed potatoes"
+        ],
+        "countries": [
+          "DE",
+          "FR",
+          "BE",
+          "NL",
+          "GB"
+        ],
+        "regions": [
+          "Europe"
+        ],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": "2026 harvest"
+      },
+      "image": null,
+      "canonical_url": "https://seedtrade.eu/news/europe-potato-crop-drought-estimate-2026",
+      "fingerprint": "fade5933d784b785b0347d08078d3288938174e52d7fee743e8cba7af99b3c4f"
+    },
+    {
+      "slug": "northern-ireland-seed-potato-rules-update-2026",
+      "headline": "Northern Ireland updates plant-health and seed-potato legislation",
+      "publication_date": "2026-09-08",
+      "event_source_date": "2026-09-08",
+      "category": "REGULATION",
+      "tags": [
+        "seed potatoes",
+        "plant health",
+        "trade rules",
+        "Northern Ireland"
+      ],
+      "geography": {
+        "countries": [
+          "GB"
+        ],
+        "region": "Northern Ireland"
+      },
+      "summary": "The UK Parliament considered technical amendments covering Northern Ireland plant health, seeds, seed potatoes and propagating material. The debate noted that the Windsor Framework permits seed potatoes to move from Great Britain to Northern Ireland for growing, while the instrument updates domestic references and EU-aligned biosecurity controls.",
+      "why_it_matters": "Seed-potato movements depend on precise plant-health, traceability and marketing rules. Traders should treat the parliamentary record as regulatory context and verify the final instrument and operational guidance before shipment.",
+      "source_name": "UK Parliament Hansard",
+      "source_url": "https://hansard.parliament.uk/lords/2026-09-08/debates/504AE780-BA7A-429F-90A4-538385EB6A33/Debate",
+      "source_tier": 1,
+      "provenance_class": "OFFICIAL_SOURCE",
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "links": {
+        "crops": [
+          "seed potatoes"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "regions": [
+          "Northern Ireland"
+        ],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "image": null,
+      "canonical_url": "https://seedtrade.eu/news/northern-ireland-seed-potato-rules-update-2026",
+      "fingerprint": "4328023d0811d00f5ef18f9d59ce1ce1ac85ff2048d226d989b461f90a61b372"
+    },
+    {
+      "slug": "europe-summer-crop-heat-drought-2026",
+      "headline": "European summer heat and drought raise crop and seed-production risks",
+      "publication_date": "2026-09-04",
+      "event_source_date": "2026-09-04",
+      "category": "RESEARCH",
+      "tags": [
+        "weather",
+        "drought",
+        "potatoes",
+        "maize",
+        "oilseeds",
+        "seed production"
+      ],
+      "geography": {
+        "countries": [],
+        "region": "Europe"
+      },
+      "summary": "Carbon Brief reviewed evidence on the 2026 European heat and drought, including European Commission crop-monitoring information. The analysis described material pressure on summer crops across several producing regions. It provides weather and crop context, but does not establish certified-seed losses for any individual species or country.",
+      "why_it_matters": "Heat and water deficits during flowering, seed filling or tuber development may affect multiplication outcomes and later availability. SeedTrade therefore records the event as contextual evidence only and does not convert it into a directional Market Signal.",
+      "source_name": "Carbon Brief",
+      "source_url": "https://www.carbonbrief.org/how-this-summers-heat-and-drought-impacted-crops-in-europe-in-six-charts",
+      "source_tier": 3,
+      "provenance_class": "PUBLIC_SOURCE",
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "publication_status": "OWNER_REVIEW_REQUIRED",
+      "links": {
+        "crops": [
+          "potatoes",
+          "maize",
+          "oilseeds"
+        ],
+        "countries": [],
+        "regions": [
+          "Europe"
+        ],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": "2026 growing season"
+      },
+      "image": null,
+      "canonical_url": "https://seedtrade.eu/news/europe-summer-crop-heat-drought-2026",
+      "fingerprint": "1c37b728a087584c8d78c36ab04d9df3ac6b7485abdc3f04724ea6c5e3d660ae"
+    }
+  ]
+}

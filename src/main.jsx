@@ -1,10 +1,18 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
+import { createRoot, hydrateRoot } from 'react-dom/client'
+import App from './AppV2'
 import './styles.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = document.getElementById('root')
+const application = (
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
+
+if (root) {
+  if (root.hasChildNodes()) hydrateRoot(root, application)
+  else createRoot(root).render(application)
+} else {
+  console.error('SeedTrade bootstrap failed: #root was not found')
+}

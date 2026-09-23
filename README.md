@@ -1,25 +1,19 @@
 # SeedTrade.eu
 
-Initial MVP landing page for **SeedTrade.eu — European Seed Market Intelligence & Trading Platform**.
+Public source for the SeedTrade.eu read-only European seed market intelligence website.
 
-## Run locally
+## Build and test
 
-```bash
-npm install
-npm run dev
+Requirements: Node.js, npm, and Python 3.
+
+```sh
+npm ci
+npm test
+npm run build:vite
 ```
 
-## Build
+The production build is written to `dist/`. The build includes prerendered, static-first HTML for public routes so core content remains visible without JavaScript.
 
-```bash
-npm run build
-```
+## Publication safety
 
-The production files will be generated in `dist/`.
-
-## Notes
-
-- All market numbers and RFQs are explicitly marked as **DEMO DATA**.
-- The registration form is visual only in this MVP.
-- Future integration is planned with Python backend, PostgreSQL/Supabase and APIs.
-- Do not store API keys or passwords in this repository. Use environment variables.
+This is a **PUBLIC repository**. Only data explicitly approved as `PUBLIC_SAFE` may be committed. Private, licensed, raw-source, credential, operational, and recovery material must remain outside this repository. The committed `src/generated/` files are the reviewed public website data layer; private source and transformation layers are intentionally excluded.

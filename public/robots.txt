@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /rfq
+Disallow: /offer
+Disallow: /account
+Disallow: /admin
+Sitemap: https://seedtrade.eu/sitemap.xml

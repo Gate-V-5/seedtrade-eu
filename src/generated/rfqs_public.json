@@ -1,0 +1,24 @@
+{
+  "schema": "SEEDTRADE_PUBLIC_RFQ_DISCOVERY_V1",
+  "classification": "PUBLIC_SAFE",
+  "schema_fields": [
+    "species_id",
+    "variety",
+    "listing_type",
+    "quantity",
+    "unit",
+    "certification_category",
+    "acceptable_origin",
+    "destination",
+    "delivery_period",
+    "status",
+    "publication_date",
+    "expires_at",
+    "classification"
+  ],
+  "listing_types": ["BUY", "OFFER"],
+  "species_resolution": "src/data/species_master.json",
+  "publication_rule": "Only verified ACTIVE requests with explicitly approved public-discovery fields may appear.",
+  "confidentiality_rule": "Company identity, direct contacts, commercial terms and supporting documents remain private unless separately authorized.",
+  "items": []
+}
