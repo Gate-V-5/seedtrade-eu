@@ -36,15 +36,15 @@
     },
     "marketplace": {
       "source": "SeedTrade owner-approved listings",
-      "active_real_listings": 0,
+      "active_real_listings": 5,
       "artifact": "rfqs_public.json",
-      "sha256": "be2cd257c289789d7b4dd3940d29370e7a7b91c15b93734126b42507468d74cf"
+      "sha256": "5db03a9fac2138b3f013320c377612f883c2b2bea6a0e53b4d5e433171bf6089"
     },
     "species_master": {
       "source": "SeedTrade Species/CN Master",
       "specific_species_rule": "Common name plus botanical name; broad CN categories are explicitly marked ambiguous",
       "artifact": "../data/species_master_v1_1.json",
-      "sha256": "a16e73cbae9382f753b73812b40362d70eddb67edda248741c2956311806eb11"
+      "sha256": "88e47d0bd30fd4fb719c8f5caa8e463b9626627d4a2b9bc48ef562ec203d831d"
     }
   }
 }

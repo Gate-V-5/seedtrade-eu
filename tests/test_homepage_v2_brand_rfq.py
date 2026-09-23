@@ -29,7 +29,7 @@ class HomepageV2BrandRFQTests(unittest.TestCase):
         self.assertIn('item.status === "ACTIVE"',self.app)
         self.assertIn('item.classification === "PUBLIC_SAFE"',self.app)
 
-    def test_expiry_filter(self): self.assertIn("new Date(item.expires_at) > now",self.app)
+    def test_expiry_filter(self): self.assertIn("item.expiry_date || item.expires_at",self.app)
     def test_rfq_rotation(self): self.assertIn("useCarousel(display.length,2500,4)",self.app); self.assertIn("circularSlice(display,carousel.position,carousel.visible)",self.app)
     def test_rfq_group_size(self): self.assertIn("desktopCount = 4",self.app); self.assertIn("mobile?.matches?1:desktopCount",self.app)
     def test_rfq_detail_route(self): self.assertIn('path.startsWith("/buying-requests/")',self.app)
@@ -41,11 +41,12 @@ class HomepageV2BrandRFQTests(unittest.TestCase):
         self.assertIn("these cards are not actual demand",self.app)
 
     def test_no_public_private_contact_fields(self):
-        self.assertEqual(self.rfqs["items"],[])
         for key in ("company","contact","email","phone","document"):
             self.assertNotIn(f'"{key}"',json.dumps(self.rfqs["items"]).lower())
 
-    def test_real_rfq_source_remains_empty(self): self.assertEqual(self.rfqs["items"],[])
+    def test_real_marketplace_source_has_five_offers(self):
+        self.assertEqual(5,len(self.rfqs["items"]))
+        self.assertTrue(all(item["listing_type"]=="OFFER" for item in self.rfqs["items"]))
     def test_responsive_request_layout(self):
         self.assertIn("grid-template-columns:repeat(4",self.css)
         self.assertIn(".request-grid,.rfq-filter-architecture{grid-template-columns:1fr}",self.css)

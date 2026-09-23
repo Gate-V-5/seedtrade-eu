@@ -49,7 +49,7 @@ class HomepageMarketplaceV5Tests(unittest.TestCase):
         self.assertIn("I want to buy", self.app)
         self.assertIn('setIntent("OFFER")', self.app)
         self.assertIn("I want to sell", self.app)
-        self.assertIn('setIntent("BUY")', self.app)
+        self.assertIn('setIntent("BUY_REQUEST")', self.app)
 
     def test_marketplace_real_counters_exclude_demo(self):
         self.assertIn("active.filter(x=>x.listing_type", self.app)
@@ -63,7 +63,7 @@ class HomepageMarketplaceV5Tests(unittest.TestCase):
 
     def test_static_first_v5_contains_botanical_and_marketplace_controls(self):
         page = (ROOT / "dist/index.html").read_text(encoding="utf-8")
-        self.assertIn("Trifolium pratense", page)
+        self.assertIn("Linum usitatissimum", page)
         self.assertNotIn('<div id="root"></div>', page)
         market = (ROOT / "dist/market/index.html").read_text(encoding="utf-8")
         self.assertIn("Search the market", market)

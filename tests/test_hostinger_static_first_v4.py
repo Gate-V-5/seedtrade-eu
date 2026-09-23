@@ -14,7 +14,7 @@ class HostingerStaticFirstV4Tests(unittest.TestCase):
 
     def test_homepage_static_sections_present(self):
         page = (DIST / "index.html").read_text(encoding="utf-8")
-        for text in ("European seed market intelligence", "Market Signal", "Top News", "Current market numbers", "Research &amp; Partner Insights / Events", "Active Buying Requests"):
+        for text in ("European seed market intelligence", "Market Signal", "Top News", "Current market numbers", "Research &amp; Partner Insights / Events", "Active Marketplace Listings"):
             self.assertIn(text, page)
 
     def test_official_logo_is_in_static_html(self):
@@ -22,9 +22,11 @@ class HostingerStaticFirstV4Tests(unittest.TestCase):
         self.assertIn('src="/seedtrade-official-logo.png"', page)
         self.assertTrue((DIST / "seedtrade-official-logo.png").is_file())
 
-    def test_demo_rfq_disclosure_is_static(self):
+    def test_real_marketplace_offers_are_static(self):
         page = (DIST / "index.html").read_text(encoding="utf-8")
-        self.assertGreaterEqual(page.count("DEMO — NOT REAL DEMAND"), 4)
+        self.assertIn("LS Riviera", page)
+        self.assertIn("FOR SALE · OFFER", page)
+        self.assertNotIn("DEMO — NOT REAL DEMAND", page)
 
     def test_javascript_and_css_are_physical(self):
         page = (DIST / "index.html").read_text(encoding="utf-8")
@@ -34,7 +36,7 @@ class HostingerStaticFirstV4Tests(unittest.TestCase):
             self.assertTrue((DIST / ref.lstrip("/")).is_file(), ref)
 
     def test_nested_public_routes_are_static_first(self):
-        for route in ("market", "market/red-clover", "news", "insights"):
+        for route in ("market", "market/red-clover", "news", "insights", "buying-requests", "buying-requests/winter-vetch-rea-organic-c1-30t"):
             page = (DIST / route / "index.html").read_text(encoding="utf-8")
             self.assertNotIn('<div id="root"></div>', page)
             self.assertIn("seedtrade-official-logo.png", page)

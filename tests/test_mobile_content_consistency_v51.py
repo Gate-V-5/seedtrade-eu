@@ -72,8 +72,8 @@ class MobileContentConsistencyV51Tests(unittest.TestCase):
     def test_generated_static_first_has_botanicals(self):
         page = (ROOT / "dist/index.html").read_text(encoding="utf-8")
         self.assertNotIn('<div id="root"></div>', page)
-        self.assertIn("Trifolium pratense", page)
-        self.assertIn("Triticum aestivum", page)
+        self.assertIn("Linum usitatissimum", page)
+        self.assertIn("Vicia villosa Roth", page)
 
 
 if __name__ == "__main__":

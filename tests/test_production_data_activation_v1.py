@@ -45,9 +45,9 @@ class ProductionDataActivationV1(unittest.TestCase):
         self.assertIsNone(self.supply["directional_signal"])
         self.assertIn("separate", self.supply["separation_rule"])
 
-    def test_marketplace_real_inventory_is_empty(self):
-        self.assertEqual([], self.rfqs["items"])
-        self.assertEqual(0, self.rfqs["counters"]["total_active"])
+    def test_marketplace_real_inventory_is_activated(self):
+        self.assertEqual(5, len(self.rfqs["items"]))
+        self.assertEqual(5, self.rfqs["counters"]["total_active"])
 
     def test_ambiguous_cn_species_is_not_guessed(self):
         mustard = next(item for item in self.species["species"] if item["species_id"] == "mustard-seed")

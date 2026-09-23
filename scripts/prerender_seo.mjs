@@ -11,6 +11,7 @@ const readJson = async relative => JSON.parse(await fs.readFile(path.join(root, 
 const market = await readJson('src/generated/market_public.json')
 const insights = await readJson('src/generated/insights.json')
 const news = await readJson('src/generated/news.json')
+const marketplace = await readJson('src/generated/rfqs_public.json')
 
 const routes = [
   ['market', 'EU Seed Market Dashboard', 'Representative prices and trade volumes for eleven European seed categories.', true],
@@ -22,7 +23,7 @@ const routes = [
   ['disclaimer', 'Market Intelligence Disclaimer', 'Important limitations of derived market intelligence.', true],
   ['insights', 'Research & Partner Insights', 'European seed research, events and transparently labelled partner insights.', true],
   ['news', 'Daily Seed Market News', 'Verified, source-linked developments across the European seed chain.', true],
-  ['buying-requests', 'Active Buying Requests', 'Verified PUBLIC_SAFE seed buying requests; sensitive company and contact details remain private.', true],
+  ['buying-requests', 'Active Seed Marketplace Listings', 'Verified PUBLIC_SAFE seed offers and buying requests; sensitive company and contact details remain private.', true],
 ]
 
 for (const crop of market.crops) routes.push([
@@ -41,6 +42,12 @@ for (const item of news.items) routes.push([
   `news/${item.slug}`,
   `${item.headline} | SeedTrade.eu`,
   item.summary,
+  true,
+])
+for (const listing of marketplace.items) routes.push([
+  `buying-requests/${listing.slug}`,
+  `${listing.species_common_name} ${listing.variety} seed offer`,
+  `Active PUBLIC_SAFE ${listing.species_common_name} seed offer: ${listing.quantity} ${listing.quantity_unit}, ${listing.incoterm} ${listing.location}.`,
   true,
 ])
 for (const privateRoute of ['rfq', 'offer', 'account', 'admin']) routes.push([

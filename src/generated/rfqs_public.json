@@ -1,26 +1,18 @@
 {
-  "schema": "SEEDTRADE_PUBLIC_RFQ_DISCOVERY_V1",
+  "schema": "SEEDTRADE_PUBLIC_MARKETPLACE_V2",
   "classification": "PUBLIC_SAFE",
-  "schema_fields": [
-    "species_id",
-    "variety",
-    "listing_type",
-    "quantity",
-    "unit",
-    "certification_category",
-    "acceptable_origin",
-    "destination",
-    "delivery_period",
-    "status",
-    "publication_date",
-    "expires_at",
-    "classification"
-  ],
+  "schema_fields": ["listing_id","listing_type","species_common_name","species_botanical_name","species_master_id","species_id","variety","quantity","quantity_unit","category","organic","origin_country","destination","incoterm","location","packaging","price","currency","price_unit","description","status","classification","publication_date","expiry_date","created_at","updated_at"],
   "listing_types": ["BUY_REQUEST", "OFFER"],
-  "species_resolution": "src/data/species_master.json",
-  "activation_rule": "status=ACTIVE, classification=PUBLIC_SAFE, expires_at is in the future, and is_demo=false",
-  "publication_rule": "Only real, verified ACTIVE requests with explicitly approved public-discovery fields may appear.",
-  "confidentiality_rule": "Company identity, direct contacts, commercial terms and supporting documents remain private unless separately authorized.",
-  "counters": {"total_active":0,"buy_requests":0,"offers":0},
-  "items": []
+  "species_resolution": "src/data/species_master_v1_1.json",
+  "activation_rule": "status=ACTIVE, classification=PUBLIC_SAFE, expiry_date is null or in the future, and is_demo=false",
+  "publication_rule": "Only real, verified ACTIVE listings with explicitly approved public-discovery fields may appear.",
+  "confidentiality_rule": "Company identity, direct contacts, commercial terms beyond the approved listing fields and supporting documents remain private unless separately authorized.",
+  "counters": {"total_active":5,"buy_requests":0,"offers":5},
+  "items": [
+    {"listing_id":"ST-OFFER-20260923-001","slug":"flax-ls-riviera-c2-100t","listing_type":"OFFER","species_common_name":"Flax","species_botanical_name":"Linum usitatissimum","species_master_id":"flax","species_id":"flax","variety":"LS Riviera","category":"C2","certification_category":"C2","organic":false,"organic_display":null,"quantity":100,"quantity_unit":"t","unit":"t","origin_country":"EU","acceptable_origin":"EU","destination":null,"incoterm":"EXW","location":"Lithuania","packaging":"1,000 kg Big Bag","price":1.40,"currency":"EUR","price_unit":"kg","description":null,"status":"ACTIVE","classification":"PUBLIC_SAFE","is_demo":false,"publication_date":"2026-09-23","expiry_date":null,"expires_at":null,"created_at":"2026-09-23","updated_at":"2026-09-23","label":"FOR SALE"},
+    {"listing_id":"ST-OFFER-20260923-002","slug":"flax-ls-riviera-c1-50t","listing_type":"OFFER","species_common_name":"Flax","species_botanical_name":"Linum usitatissimum","species_master_id":"flax","species_id":"flax","variety":"LS Riviera","category":"C1","certification_category":"C1","organic":false,"organic_display":null,"quantity":50,"quantity_unit":"t","unit":"t","origin_country":"EU","acceptable_origin":"EU","destination":null,"incoterm":"EXW","location":"Lithuania","packaging":"1,000 kg Big Bag","price":1.60,"currency":"EUR","price_unit":"kg","description":null,"status":"ACTIVE","classification":"PUBLIC_SAFE","is_demo":false,"publication_date":"2026-09-23","expiry_date":null,"expires_at":null,"created_at":"2026-09-23","updated_at":"2026-09-23","label":"FOR SALE"},
+    {"listing_id":"ST-OFFER-20260923-003","slug":"flax-kaolin-c1-50t","listing_type":"OFFER","species_common_name":"Flax","species_botanical_name":"Linum usitatissimum","species_master_id":"flax","species_id":"flax","variety":"Kaolin","category":"C1","certification_category":"C1","organic":false,"organic_display":null,"quantity":50,"quantity_unit":"t","unit":"t","origin_country":"EU","acceptable_origin":"EU","destination":null,"incoterm":"EXW","location":"Lithuania","packaging":"1,000 kg Big Bag","price":1.60,"currency":"EUR","price_unit":"kg","description":null,"status":"ACTIVE","classification":"PUBLIC_SAFE","is_demo":false,"publication_date":"2026-09-23","expiry_date":null,"expires_at":null,"created_at":"2026-09-23","updated_at":"2026-09-23","label":"FOR SALE"},
+    {"listing_id":"ST-OFFER-20260923-004","slug":"winter-vetch-rea-organic-c1-30t","listing_type":"OFFER","species_common_name":"Winter vetch","species_botanical_name":"Vicia villosa Roth","species_master_id":"winter-vetch","species_id":"winter-vetch","variety":"REA","category":"C1","certification_category":"C1","organic":true,"organic_display":"Organic / ECO","quantity":30,"quantity_unit":"t","unit":"t","origin_country":"EU","acceptable_origin":"EU","destination":null,"incoterm":"EXW","location":"Lithuania","packaging":"1,000 kg Big Bag","price":1.60,"currency":"EUR","price_unit":"kg","description":null,"status":"ACTIVE","classification":"PUBLIC_SAFE","is_demo":false,"publication_date":"2026-09-23","expiry_date":null,"expires_at":null,"created_at":"2026-09-23","updated_at":"2026-09-23","label":"FOR SALE"},
+    {"listing_id":"ST-OFFER-20260923-005","slug":"red-clover-rgt-savvor-c-20t","listing_type":"OFFER","species_common_name":"Red clover","species_botanical_name":"Trifolium pratense","species_master_id":"red-clover","species_id":"red-clover","variety":"RGT Savvor","category":"C","certification_category":"C","organic":false,"organic_display":null,"quantity":20,"quantity_unit":"t","unit":"t","origin_country":"EU","acceptable_origin":"EU","destination":null,"incoterm":"EXW","location":"Lithuania","packaging":"1,000 kg Big Bag","price":5.50,"currency":"EUR","price_unit":"kg","description":null,"status":"ACTIVE","classification":"PUBLIC_SAFE","is_demo":false,"publication_date":"2026-09-23","expiry_date":null,"expires_at":null,"created_at":"2026-09-23","updated_at":"2026-09-23","label":"FOR SALE"}
+  ]
 }
