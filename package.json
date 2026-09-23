@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "test": "python3 -B -m unittest discover -s tests -p 'test_*.py' -v",
-    "build:vite": "vite build && python3 -B scripts/prerender_seo.py && node scripts/prerender_static_first.mjs",
+    "build:vite": "vite build && node scripts/prerender_seo.mjs && node scripts/prerender_static_first.mjs",
     "build": "npm run build:vite",
     "preview": "vite preview"
   },
