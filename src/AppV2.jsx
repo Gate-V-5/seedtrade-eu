@@ -13,6 +13,7 @@ const BASE = "https://seedtrade.eu"
 const GTM_ID = "GTM-K9SVZHR7"
 const OFFICIAL_LOGO = "/seedtrade-official-logo.png"
 const fmt = new Intl.NumberFormat("en-GB", { maximumFractionDigits: 2 })
+const eur = new Intl.NumberFormat("en-GB", { style: "currency", currency: "EUR", maximumFractionDigits: 0 })
 const tonnes = value => fmt.format(Number(value) / 1000)
 const pct = value => value == null ? "n/a" : `${Number(value) >= 0 ? "+" : ""}${fmt.format(Number(value))}%`
 const speciesById = new Map(speciesMaster.species.map(item => [item.species_id, item]))
@@ -153,7 +154,7 @@ function SignalPanel() {
 
 function TradePulseSignal() {
   const views=Object.values(tradePulse.views), primary=tradePulse.views.eu_internal_trade, max=Math.max(...primary.history.map(x=>Number(x.volume_tonnes)||0))
-  return <article className="trade-pulse-card"><div><h2>EU Seed Trade Pulse</h2><span className={`activity ${primary.trade_activity.state.toLowerCase()}`}>{primary.trade_activity.state} activity</span></div><div className="pulse-views">{views.map(view=><div key={view.label}><small>{view.label}</small><b>{fmt.format(view.latest.volume_tonnes)} t</b><Trend value={view.latest.volume_yoy_percent}/><span>Unit value €{fmt.format(view.latest.unit_value_eur_kg)}/kg</span></div>)}</div><div className="mini-chart" aria-label="EU internal seed trade 12-month volume">{primary.history.map(point=><i key={point.period} title={`${point.period}: ${point.volume_tonnes} t`} style={{height:`${Math.max(8,Number(point.volume_tonnes)/max*100)}%`}}/>)}</div><small>Completed {tradePulse.latest_completed_period} · {tradePulse.source} · Unit value is trade value ÷ net weight, not a market price.</small><a href="/methodology">Definitions and scope →</a></article>
+  return <article className="trade-pulse-card"><div><h2>EU Seed Trade Pulse</h2><span className={`activity ${primary.trade_activity.state.toLowerCase()}`}>{primary.trade_activity.state} activity</span></div><div className="pulse-views">{views.map(view=><div className="pulse-flow" key={view.label}><small className="pulse-flow-label">{view.label}</small><dl><div><dt>Volume</dt><dd>{fmt.format(view.latest.volume_tonnes)} t</dd></div><div><dt>Volume YoY</dt><dd><Trend value={view.latest.volume_yoy_percent}/></dd></div><div><dt>Trade value</dt><dd>{eur.format(view.latest.trade_value_eur)}</dd></div><div><dt>Trade value YoY</dt><dd><Trend value={view.latest.value_yoy_percent}/></dd></div><div><dt>Unit value</dt><dd>€{fmt.format(view.latest.unit_value_eur_kg)}/kg</dd></div></dl></div>)}</div><div className="mini-chart trade-pulse-chart" aria-label="EU internal seed trade 12-month volume">{primary.history.map(point=><i key={point.period} title={`${point.period}: ${point.volume_tonnes} t`} style={{height:`${Math.max(8,Number(point.volume_tonnes)/max*100)}%`}}/>)}</div><small>Completed {tradePulse.latest_completed_period} · {tradePulse.source} · Unit value is trade value ÷ net weight, not a market price.</small><a href="/methodology">Definitions and scope →</a></article>
 }
 
 function Trend({value}) { if(value==null) return <em className="trend neutral">n/a</em>; const up=Number(value)>=0; return <em className={`trend ${up?"up":"down"}`}>{up?"▲":"▼"} {pct(value)} YoY</em> }
