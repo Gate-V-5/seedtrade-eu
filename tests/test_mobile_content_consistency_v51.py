@@ -35,7 +35,8 @@ class MobileContentConsistencyV51Tests(unittest.TestCase):
 
     def test_mobile_signal_is_one_species(self):
         self.assertIn('signal-crops signal-single', self.app)
-        self.assertIn('useCarousel(market.crops.length,7000,1)', self.app)
+        self.assertIn('useCarousel(total,7000,1)', self.app)
+        self.assertIn('pulse=carousel.position===0', self.app)
 
     def test_mobile_breakpoints_and_overflow_guards(self):
         self.assertIn('@media(max-width:768px)', self.css)

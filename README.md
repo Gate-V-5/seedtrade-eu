@@ -17,3 +17,7 @@ The production build is written to `dist/`. The build includes prerendered, stat
 ## Publication safety
 
 This is a **PUBLIC repository**. Only data explicitly approved as `PUBLIC_SAFE` may be committed. Private, licensed, raw-source, credential, operational, and recovery material must remain outside this repository. The committed `src/generated/` files are the reviewed public website data layer; private source and transformation layers are intentionally excluded.
+
+## EU Seed Trade Pulse
+
+`src/generated/trade_pulse_public.json` is the publication-safe aggregate derived from verified Eurostat COMEXT DS-045409 rows. It separates EU internal dispatches, extra-EU imports and extra-EU exports; excludes the 2026-07 partial period; and labels weighted trade value per net kilogram as **unit value**, not market price. The raw normalized COMEXT source is intentionally kept outside this public repository. `scripts/generate_trade_pulse.py` regenerates the public aggregate when an authorized verified source path is supplied.

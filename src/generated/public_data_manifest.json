@@ -18,6 +18,14 @@
       "artifact": "market_public.json",
       "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
     },
+    "trade_pulse": {
+      "source": "Eurostat COMEXT DS-045409",
+      "latest_completed_period": "2026-06",
+      "partial_period_excluded": "2026-07",
+      "views": ["EU_INTERNAL_TRADE", "EU_IMPORTS", "EU_EXPORTS"],
+      "artifact": "trade_pulse_public.json",
+      "sha256": "52790a91eea6a4b8f61d509681caf3709841687de1b75dc7b4f38ee10dc5475e"
+    },
     "weather": {
       "source": "Open-Meteo",
       "observed_date": "2026-09-20",

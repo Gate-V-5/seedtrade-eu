@@ -1,0 +1,534 @@
+{
+  "schema": "SEEDTRADE_EU_SEED_TRADE_PULSE_V1",
+  "generated_at": "2026-09-26T00:00:00Z",
+  "classification": "PUBLIC_SAFE",
+  "source": "Eurostat COMEXT DS-045409",
+  "source_artifact_sha256": "0f013514e7c28bc791c263142e4c67dacefd2230631b0d19732f1a978ef3aa90",
+  "latest_completed_period": "2026-06",
+  "latest_available_partial_period": "2026-07",
+  "partial_period_excluded": true,
+  "accepted_observations": 35238,
+  "excluded_partial_observations": 484,
+  "scope": {
+    "rule": "Only CN codes already approved for the PUBLIC_SAFE market dataset and normalized rows marked VERIFIED are included; unresolved or review-only mappings are excluded.",
+    "included_cn_codes": [
+      {
+        "cn8": "12092100",
+        "crop": "Alfalfa / lucerne",
+        "slug": "alfalfa-lucerne"
+      },
+      {
+        "cn8": "07131010",
+        "crop": "Field peas",
+        "slug": "field-peas"
+      },
+      {
+        "cn8": "12040010",
+        "crop": "Flax / linseed for sowing",
+        "slug": "flax-linseed-for-sowing"
+      },
+      {
+        "cn8": "12092510",
+        "crop": "Italian ryegrass",
+        "slug": "italian-ryegrass"
+      },
+      {
+        "cn8": "12092400",
+        "crop": "Kentucky bluegrass",
+        "slug": "kentucky-bluegrass"
+      },
+      {
+        "cn8": "12092950",
+        "crop": "Lupins",
+        "slug": "lupins"
+      },
+      {
+        "cn8": "12092311",
+        "crop": "Meadow fescue",
+        "slug": "meadow-fescue"
+      },
+      {
+        "cn8": "12075010",
+        "crop": "Mustard seed for sowing",
+        "slug": "mustard-seed-for-sowing"
+      },
+      {
+        "cn8": "12092590",
+        "crop": "Perennial ryegrass",
+        "slug": "perennial-ryegrass"
+      },
+      {
+        "cn8": "12092210",
+        "crop": "Red clover",
+        "slug": "red-clover"
+      },
+      {
+        "cn8": "12092315",
+        "crop": "Red fescue",
+        "slug": "red-fescue"
+      }
+    ],
+    "mirror_flow_control": "EU internal trade uses exporter-reported dispatches only; mirror import declarations are excluded."
+  },
+  "views": {
+    "eu_internal_trade": {
+      "label": "EU Internal Trade",
+      "definition": "Exporter-reported dispatches where both reporter and partner are EU-27 members; each reported export flow is counted once and mirror import declarations are excluded.",
+      "latest": {
+        "volume_tonnes": 30932.07,
+        "trade_value_eur": 35685420.0,
+        "unit_value_eur_kg": 1.1537,
+        "observation_count": 821,
+        "cn_code_count": 11,
+        "period": "2026-06",
+        "volume_yoy_percent": 31.21,
+        "value_yoy_percent": 9.11,
+        "unit_value_yoy_percent": -16.84
+      },
+      "trade_activity": {
+        "state": "HIGH",
+        "rule": "HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast."
+      },
+      "history": [
+        {
+          "volume_tonnes": 19900.5,
+          "trade_value_eur": 24197916.0,
+          "unit_value_eur_kg": 1.2159,
+          "observation_count": 774,
+          "cn_code_count": 11,
+          "period": "2025-07"
+        },
+        {
+          "volume_tonnes": 19287.38,
+          "trade_value_eur": 26561392.0,
+          "unit_value_eur_kg": 1.3771,
+          "observation_count": 794,
+          "cn_code_count": 11,
+          "period": "2025-08"
+        },
+        {
+          "volume_tonnes": 33496.43,
+          "trade_value_eur": 38601596.0,
+          "unit_value_eur_kg": 1.1524,
+          "observation_count": 904,
+          "cn_code_count": 11,
+          "period": "2025-09"
+        },
+        {
+          "volume_tonnes": 27363.88,
+          "trade_value_eur": 40176543.0,
+          "unit_value_eur_kg": 1.4682,
+          "observation_count": 825,
+          "cn_code_count": 11,
+          "period": "2025-10"
+        },
+        {
+          "volume_tonnes": 21525.0,
+          "trade_value_eur": 35297348.0,
+          "unit_value_eur_kg": 1.6398,
+          "observation_count": 683,
+          "cn_code_count": 11,
+          "period": "2025-11"
+        },
+        {
+          "volume_tonnes": 18659.85,
+          "trade_value_eur": 31800897.0,
+          "unit_value_eur_kg": 1.7042,
+          "observation_count": 661,
+          "cn_code_count": 11,
+          "period": "2025-12"
+        },
+        {
+          "volume_tonnes": 29164.81,
+          "trade_value_eur": 54880293.0,
+          "unit_value_eur_kg": 1.8817,
+          "observation_count": 856,
+          "cn_code_count": 11,
+          "period": "2026-01"
+        },
+        {
+          "volume_tonnes": 36762.09,
+          "trade_value_eur": 68136865.0,
+          "unit_value_eur_kg": 1.8535,
+          "observation_count": 1034,
+          "cn_code_count": 11,
+          "period": "2026-02"
+        },
+        {
+          "volume_tonnes": 44393.7,
+          "trade_value_eur": 75260790.0,
+          "unit_value_eur_kg": 1.6953,
+          "observation_count": 1202,
+          "cn_code_count": 11,
+          "period": "2026-03"
+        },
+        {
+          "volume_tonnes": 31862.06,
+          "trade_value_eur": 53665103.0,
+          "unit_value_eur_kg": 1.6843,
+          "observation_count": 1010,
+          "cn_code_count": 11,
+          "period": "2026-04"
+        },
+        {
+          "volume_tonnes": 23460.73,
+          "trade_value_eur": 34733069.0,
+          "unit_value_eur_kg": 1.4805,
+          "observation_count": 853,
+          "cn_code_count": 11,
+          "period": "2026-05"
+        },
+        {
+          "volume_tonnes": 30932.07,
+          "trade_value_eur": 35685420.0,
+          "unit_value_eur_kg": 1.1537,
+          "observation_count": 821,
+          "cn_code_count": 11,
+          "period": "2026-06"
+        }
+      ]
+    },
+    "eu_imports": {
+      "label": "EU Imports",
+      "definition": "Reporter-declared EU-27 imports from partners outside the EU-27; EU internal movements and aggregate/special partner codes are excluded.",
+      "latest": {
+        "volume_tonnes": 12036.77,
+        "trade_value_eur": 8717321.0,
+        "unit_value_eur_kg": 0.7242,
+        "observation_count": 78,
+        "cn_code_count": 9,
+        "period": "2026-06",
+        "volume_yoy_percent": -23.29,
+        "value_yoy_percent": -21.78,
+        "unit_value_yoy_percent": 1.96
+      },
+      "trade_activity": {
+        "state": "LOW",
+        "rule": "HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast."
+      },
+      "history": [
+        {
+          "volume_tonnes": 6766.73,
+          "trade_value_eur": 6772741.0,
+          "unit_value_eur_kg": 1.0009,
+          "observation_count": 75,
+          "cn_code_count": 10,
+          "period": "2025-07"
+        },
+        {
+          "volume_tonnes": 15811.31,
+          "trade_value_eur": 9879952.0,
+          "unit_value_eur_kg": 0.6249,
+          "observation_count": 68,
+          "cn_code_count": 11,
+          "period": "2025-08"
+        },
+        {
+          "volume_tonnes": 12773.8,
+          "trade_value_eur": 11372542.0,
+          "unit_value_eur_kg": 0.8903,
+          "observation_count": 80,
+          "cn_code_count": 11,
+          "period": "2025-09"
+        },
+        {
+          "volume_tonnes": 26909.11,
+          "trade_value_eur": 16512895.0,
+          "unit_value_eur_kg": 0.6137,
+          "observation_count": 81,
+          "cn_code_count": 10,
+          "period": "2025-10"
+        },
+        {
+          "volume_tonnes": 11398.21,
+          "trade_value_eur": 10159670.0,
+          "unit_value_eur_kg": 0.8913,
+          "observation_count": 73,
+          "cn_code_count": 10,
+          "period": "2025-11"
+        },
+        {
+          "volume_tonnes": 10655.87,
+          "trade_value_eur": 12019831.0,
+          "unit_value_eur_kg": 1.128,
+          "observation_count": 84,
+          "cn_code_count": 11,
+          "period": "2025-12"
+        },
+        {
+          "volume_tonnes": 11493.62,
+          "trade_value_eur": 13321724.0,
+          "unit_value_eur_kg": 1.1591,
+          "observation_count": 84,
+          "cn_code_count": 11,
+          "period": "2026-01"
+        },
+        {
+          "volume_tonnes": 26120.6,
+          "trade_value_eur": 18902276.0,
+          "unit_value_eur_kg": 0.7237,
+          "observation_count": 113,
+          "cn_code_count": 11,
+          "period": "2026-02"
+        },
+        {
+          "volume_tonnes": 11124.46,
+          "trade_value_eur": 11172211.0,
+          "unit_value_eur_kg": 1.0043,
+          "observation_count": 110,
+          "cn_code_count": 11,
+          "period": "2026-03"
+        },
+        {
+          "volume_tonnes": 19504.22,
+          "trade_value_eur": 13837909.0,
+          "unit_value_eur_kg": 0.7095,
+          "observation_count": 97,
+          "cn_code_count": 10,
+          "period": "2026-04"
+        },
+        {
+          "volume_tonnes": 22746.21,
+          "trade_value_eur": 11820752.0,
+          "unit_value_eur_kg": 0.5197,
+          "observation_count": 82,
+          "cn_code_count": 11,
+          "period": "2026-05"
+        },
+        {
+          "volume_tonnes": 12036.77,
+          "trade_value_eur": 8717321.0,
+          "unit_value_eur_kg": 0.7242,
+          "observation_count": 78,
+          "cn_code_count": 9,
+          "period": "2026-06"
+        }
+      ]
+    },
+    "eu_exports": {
+      "label": "EU Exports",
+      "definition": "Reporter-declared EU-27 exports to partners outside the EU-27; EU internal movements and aggregate/special partner codes are excluded.",
+      "latest": {
+        "volume_tonnes": 3429.24,
+        "trade_value_eur": 7966495.0,
+        "unit_value_eur_kg": 2.3231,
+        "observation_count": 173,
+        "cn_code_count": 11,
+        "period": "2026-06",
+        "volume_yoy_percent": -42.05,
+        "value_yoy_percent": -31.86,
+        "unit_value_yoy_percent": 17.57
+      },
+      "trade_activity": {
+        "state": "LOW",
+        "rule": "HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast."
+      },
+      "history": [
+        {
+          "volume_tonnes": 5128.9,
+          "trade_value_eur": 9782398.0,
+          "unit_value_eur_kg": 1.9073,
+          "observation_count": 190,
+          "cn_code_count": 11,
+          "period": "2025-07"
+        },
+        {
+          "volume_tonnes": 4786.61,
+          "trade_value_eur": 9879563.0,
+          "unit_value_eur_kg": 2.064,
+          "observation_count": 185,
+          "cn_code_count": 11,
+          "period": "2025-08"
+        },
+        {
+          "volume_tonnes": 5406.57,
+          "trade_value_eur": 11742927.0,
+          "unit_value_eur_kg": 2.172,
+          "observation_count": 185,
+          "cn_code_count": 11,
+          "period": "2025-09"
+        },
+        {
+          "volume_tonnes": 5019.69,
+          "trade_value_eur": 8864185.0,
+          "unit_value_eur_kg": 1.7659,
+          "observation_count": 180,
+          "cn_code_count": 11,
+          "period": "2025-10"
+        },
+        {
+          "volume_tonnes": 4986.91,
+          "trade_value_eur": 10055729.0,
+          "unit_value_eur_kg": 2.0164,
+          "observation_count": 166,
+          "cn_code_count": 11,
+          "period": "2025-11"
+        },
+        {
+          "volume_tonnes": 5971.1,
+          "trade_value_eur": 11832078.0,
+          "unit_value_eur_kg": 1.9816,
+          "observation_count": 187,
+          "cn_code_count": 11,
+          "period": "2025-12"
+        },
+        {
+          "volume_tonnes": 7763.34,
+          "trade_value_eur": 16703687.0,
+          "unit_value_eur_kg": 2.1516,
+          "observation_count": 207,
+          "cn_code_count": 11,
+          "period": "2026-01"
+        },
+        {
+          "volume_tonnes": 10544.99,
+          "trade_value_eur": 23354860.0,
+          "unit_value_eur_kg": 2.2148,
+          "observation_count": 312,
+          "cn_code_count": 11,
+          "period": "2026-02"
+        },
+        {
+          "volume_tonnes": 7402.78,
+          "trade_value_eur": 18436789.0,
+          "unit_value_eur_kg": 2.4905,
+          "observation_count": 325,
+          "cn_code_count": 11,
+          "period": "2026-03"
+        },
+        {
+          "volume_tonnes": 5743.03,
+          "trade_value_eur": 14739114.0,
+          "unit_value_eur_kg": 2.5664,
+          "observation_count": 261,
+          "cn_code_count": 11,
+          "period": "2026-04"
+        },
+        {
+          "volume_tonnes": 3957.85,
+          "trade_value_eur": 9919309.0,
+          "unit_value_eur_kg": 2.5062,
+          "observation_count": 193,
+          "cn_code_count": 11,
+          "period": "2026-05"
+        },
+        {
+          "volume_tonnes": 3429.24,
+          "trade_value_eur": 7966495.0,
+          "unit_value_eur_kg": 2.3231,
+          "observation_count": 173,
+          "cn_code_count": 11,
+          "period": "2026-06"
+        }
+      ]
+    }
+  },
+  "extra_eu_balance": {
+    "period": "2026-06",
+    "volume_tonnes": -8607.53,
+    "trade_value_eur": -750826.0,
+    "definition": "Extra-EU exports minus extra-EU imports for the same eligible seed CN scope and completed month."
+  },
+  "species_market_context": {
+    "alfalfa-lucerne": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 945.82,
+      "volume_yoy_percent": 8.91,
+      "unit_value_eur_kg": 3.1956,
+      "unit_value_yoy_percent": 47.75,
+      "evidence_status": "VERIFIED"
+    },
+    "field-peas": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 2610.39,
+      "volume_yoy_percent": 71.54,
+      "unit_value_eur_kg": 0.7371,
+      "unit_value_yoy_percent": -26.35,
+      "evidence_status": "VERIFIED"
+    },
+    "flax-linseed-for-sowing": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 1632.84,
+      "volume_yoy_percent": 16.7,
+      "unit_value_eur_kg": 0.9546,
+      "unit_value_yoy_percent": -33.68,
+      "evidence_status": "VERIFIED"
+    },
+    "italian-ryegrass": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 3331.9,
+      "volume_yoy_percent": 13.09,
+      "unit_value_eur_kg": 1.3436,
+      "unit_value_yoy_percent": 2.21,
+      "evidence_status": "VERIFIED"
+    },
+    "kentucky-bluegrass": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 419.87,
+      "volume_yoy_percent": -32.79,
+      "unit_value_eur_kg": 2.7277,
+      "unit_value_yoy_percent": -19.91,
+      "evidence_status": "VERIFIED"
+    },
+    "lupins": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 10839.55,
+      "volume_yoy_percent": 131.57,
+      "unit_value_eur_kg": 0.3201,
+      "unit_value_yoy_percent": -28.76,
+      "evidence_status": "VERIFIED"
+    },
+    "meadow-fescue": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 122.66,
+      "volume_yoy_percent": 227.36,
+      "unit_value_eur_kg": 2.6249,
+      "unit_value_yoy_percent": -16.95,
+      "evidence_status": "VERIFIED"
+    },
+    "mustard-seed-for-sowing": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 3048.16,
+      "volume_yoy_percent": 39.68,
+      "unit_value_eur_kg": 1.3543,
+      "unit_value_yoy_percent": 0.06,
+      "evidence_status": "VERIFIED"
+    },
+    "perennial-ryegrass": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 5251.56,
+      "volume_yoy_percent": -9.84,
+      "unit_value_eur_kg": 1.8894,
+      "unit_value_yoy_percent": 9.68,
+      "evidence_status": "VERIFIED"
+    },
+    "red-clover": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 434.78,
+      "volume_yoy_percent": 17.37,
+      "unit_value_eur_kg": 4.8111,
+      "unit_value_yoy_percent": 11.07,
+      "evidence_status": "VERIFIED"
+    },
+    "red-fescue": {
+      "view": "EU_INTERNAL_TRADE",
+      "period": "2026-06",
+      "volume_tonnes": 2294.55,
+      "volume_yoy_percent": -26.44,
+      "unit_value_eur_kg": 1.5795,
+      "unit_value_yoy_percent": 10.09,
+      "evidence_status": "VERIFIED"
+    }
+  },
+  "interpretation": "Trade Activity is a deterministic description of completed-month volume, not a forecast, recommendation or transaction price."
+}

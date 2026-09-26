@@ -6,7 +6,7 @@ APP=(ROOT/"src/AppV2.jsx").read_text()
 CSS=(ROOT/"src/styles.css").read_text()
 
 class MasterHomepageDesignTests(unittest.TestCase):
-    def test_single_market_signal(self): self.assertIn("signal-crops signal-single",APP); self.assertIn("useCarousel(market.crops.length,7000,1)",APP)
+    def test_single_market_signal(self): self.assertIn("signal-crops signal-single",APP); self.assertIn("useCarousel(total,7000,1)",APP); self.assertIn("pulse=carousel.position===0",APP)
     def test_market_signal_numbers_visible_when_insufficient(self): self.assertIn("available verified figures remain visible",APP.lower())
     def test_direction_colours(self): self.assertIn('up?"▲":"▼"',APP); self.assertIn(".trend.down{color:#ff8181}",CSS)
     def test_signal_mini_chart(self): self.assertIn('className="mini-chart"',APP)
