@@ -53,10 +53,10 @@ class TradePulseV1Tests(unittest.TestCase):
         self.assertEqual("Eurostat COMEXT DS-045409", self.pulse["source"])
         self.assertEqual(64, len(self.pulse["source_artifact_sha256"]))
 
-    def test_trade_pulse_is_first_signal_card(self):
-        self.assertIn('pulse=carousel.position===0', self.app)
+    def test_trade_pulse_is_fixed_homepage_signal(self):
+        self.assertIn('<TradePulseSignal/>', self.app)
         self.assertIn("EU Seed Trade Pulse", self.app)
-        self.assertIn('market.crops.length+1', self.app)
+        self.assertNotIn('market.crops.length+1', self.app)
 
     def test_unit_value_not_labelled_market_price(self):
         self.assertIn("Unit value is trade value ÷ net weight, not a market price", self.app)

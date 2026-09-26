@@ -6,11 +6,11 @@ APP=(ROOT/"src/AppV2.jsx").read_text()
 CSS=(ROOT/"src/styles.css").read_text()
 
 class MasterHomepageDesignTests(unittest.TestCase):
-    def test_single_market_signal(self): self.assertIn("signal-crops signal-single",APP); self.assertIn("useCarousel(total,7000,1)",APP); self.assertIn("pulse=carousel.position===0",APP)
-    def test_market_signal_numbers_visible_when_insufficient(self): self.assertIn("available verified figures remain visible",APP.lower())
+    def test_single_market_signal(self): self.assertIn("signal-crops signal-single",APP); self.assertIn("<TradePulseSignal/>",APP); self.assertNotIn("useCarousel(total,7000,1)",APP); self.assertNotIn("pulse=carousel.position===0",APP)
+    def test_market_signal_numbers_visible(self): self.assertIn("view.latest.volume_tonnes",APP)
     def test_direction_colours(self): self.assertIn('up?"▲":"▼"',APP); self.assertIn(".trend.down{color:#ff8181}",CSS)
-    def test_signal_mini_chart(self): self.assertIn('className="mini-chart"',APP)
-    def test_data_rotation_disclaimer(self): self.assertIn("this is not a data-refresh interval",APP.lower())
+    def test_signal_mini_chart(self): self.assertIn('className="mini-chart trade-pulse-chart"',APP)
+    def test_hero_data_rotation_removed(self): self.assertNotIn("Previous Market Signal",APP)
     def test_kpi_strip(self):
         for value in ("publicData.datasets.comext.public_safe_observations","weather.region_count","latest completed period"): self.assertIn(value,APP)
     def test_top_news_is_four_card_row(self):

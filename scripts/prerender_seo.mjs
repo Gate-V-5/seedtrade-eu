@@ -15,6 +15,7 @@ const marketplace = await readJson('src/generated/rfqs_public.json')
 
 const routes = [
   ['market', 'EU Seed Market Dashboard', 'Representative prices and trade volumes for eleven European seed categories.', true],
+  ['trade-pulse', 'EU Seed Trade Pulse', 'Verified EU internal, import and export seed trade volume, value and activity intelligence.', true],
   ['methodology', 'SeedTrade data methodology', 'How SeedTrade validates official trade data, representative prices and evidence status.', true],
   ['about', 'About SeedTrade', 'EU Seed Market Intelligence for professional market participants.', true],
   ['privacy', 'Privacy Policy', 'SeedTrade privacy information.', true],
@@ -88,7 +89,7 @@ for (const [route, title, description, indexable] of routes) {
   page = replaceOnce(page, /<meta\s+property="og:url"[^>]*>/is, `<meta property="og:url" content="${canonical}">`)
 
   const structured = []
-  if (route === 'market' || cropByRoute.has(route)) {
+  if (route === 'market' || route === 'trade-pulse' || cropByRoute.has(route)) {
     const crop = cropByRoute.get(route)
     structured.push({
       '@context': 'https://schema.org',

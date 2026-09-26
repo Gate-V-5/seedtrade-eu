@@ -9,9 +9,9 @@ CSS = (ROOT / "src/styles.css").read_text(encoding="utf-8")
 class FinalV5RefinementTests(unittest.TestCase):
     def test_market_signal_is_one_card_platform_wide(self):
         self.assertIn('signal-crops signal-single', APP)
-        self.assertIn('useCarousel(total,7000,1)', APP)
-        self.assertIn('total=market.crops.length+1', APP)
-        self.assertIn('pulse=carousel.position===0', APP)
+        self.assertIn('<TradePulseSignal/>', APP)
+        self.assertNotIn('useCarousel(total,7000,1)', APP)
+        self.assertNotIn('pulse=carousel.position===0', APP)
 
     def test_market_snapshot_advances_one_record(self):
         self.assertIn('useCarousel(market.crops.length,2500,4)', APP)

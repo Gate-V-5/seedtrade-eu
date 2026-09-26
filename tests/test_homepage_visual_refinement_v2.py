@@ -41,7 +41,7 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
 
     def test_status_and_numbers_are_visually_separate(self):
         self.assertIn("Verified data available", APP)
-        self.assertIn("Directional signal is withheld — not yet supported", APP)
+        self.assertIn("Activity labels are evidence-gated", APP)
 
     def test_mobile_does_not_force_four_columns(self):
         self.assertIn(".signal-crops,.news-list,.homepage-crops,.request-grid{grid-template-columns:1fr}", V2_CSS)
