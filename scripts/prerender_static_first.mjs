@@ -3,7 +3,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import process from 'node:process'
 import React from 'react'
-import { renderToStaticMarkup } from 'react-dom/server'
+import { renderToString } from 'react-dom/server'
 import { createServer } from 'vite'
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
@@ -47,7 +47,9 @@ try {
     const relative = path.relative(dist, path.dirname(file)).split(path.sep).join('/')
     const route = relative ? `/${relative}` : '/'
     window.location.pathname = route
-    const markup = renderToStaticMarkup(React.createElement(AppV2))
+    // hydrateRoot requires React's hydratable text-boundary markers. Static
+    // markup deliberately omits them and caused production errors #418/#423/#425.
+    const markup = renderToString(React.createElement(AppV2))
     let html = await fs.readFile(file, 'utf8')
     html = html.replace(
       /<div id="root">[\s\S]*?<\/div>\s*(?=<\/body>)/,

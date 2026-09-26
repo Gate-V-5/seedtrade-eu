@@ -57,7 +57,7 @@ class HomepageMarketplaceV5Tests(unittest.TestCase):
         self.assertIn("DEMO DATA below", self.app)
 
     def test_footer_preserves_original_official_asset(self):
-        self.assertIn('footer ? "footer-logo brand-plate"', self.app)
+        self.assertIn('footer ? "official-logo footer-logo brand-plate" : "official-logo"', self.app)
         self.assertNotIn('footer ? "/seedtrade-official-logo-footer.png"', self.app)
         self.assertTrue((ROOT / "public/seedtrade-official-logo.png").is_file())
 
