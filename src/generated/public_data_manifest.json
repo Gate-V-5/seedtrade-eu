@@ -24,7 +24,7 @@
       "partial_period_excluded": "2026-07",
       "views": ["EU_INTERNAL_TRADE", "EU_IMPORTS", "EU_EXPORTS"],
       "artifact": "trade_pulse_public.json",
-      "sha256": "52790a91eea6a4b8f61d509681caf3709841687de1b75dc7b4f38ee10dc5475e"
+      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
     },
     "weather": {
       "source": "Open-Meteo",

@@ -7,6 +7,7 @@ import argparse
 import collections
 import hashlib
 import json
+import math
 from pathlib import Path
 
 
@@ -25,6 +26,8 @@ VIEW_LABELS = {
     "eu_imports": "EU Imports",
     "eu_exports": "EU Exports",
 }
+UNIT_VALUE_RANGE_MIN_TONNES = 100.0
+UNIT_VALUE_RANGE_MIN_OBSERVATIONS = 2
 
 
 def previous_year(period: str) -> str:
@@ -50,6 +53,44 @@ def metric(bucket: dict) -> dict:
         "unit_value_eur_kg": safe_round(eur / kg, 4) if kg > 0 else None,
         "observation_count": int(bucket.get("rows", 0)),
         "cn_code_count": len(bucket.get("codes", set())),
+    }
+
+
+def unit_value_range(species_monthly: dict, market_crops: list[dict], view: str, period: str) -> dict:
+    eligible = []
+    for crop in market_crops:
+        point = metric(species_monthly[(crop["slug"], view)][period])
+        unit_value = point["unit_value_eur_kg"]
+        if (
+            point["volume_tonnes"] < UNIT_VALUE_RANGE_MIN_TONNES
+            or point["observation_count"] < UNIT_VALUE_RANGE_MIN_OBSERVATIONS
+            or unit_value is None
+            or not math.isfinite(unit_value)
+            or unit_value <= 0
+        ):
+            continue
+        eligible.append({
+            "slug": crop["slug"],
+            "category": crop["crop"],
+            "volume_tonnes": point["volume_tonnes"],
+            "observation_count": point["observation_count"],
+            "unit_value_eur_kg": unit_value,
+        })
+    eligible.sort(key=lambda item: (item["unit_value_eur_kg"], item["slug"]))
+    rule = (
+        "Category-level aggregate for the same completed month; at least "
+        f"{int(UNIT_VALUE_RANGE_MIN_TONNES)} tonnes and {UNIT_VALUE_RANGE_MIN_OBSERVATIONS} verified observations "
+        "with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded."
+    )
+    if len(eligible) < 2:
+        return {"status": "INSUFFICIENT_EVIDENCE", "period": period, "eligible_category_count": len(eligible), "rule": rule}
+    return {
+        "status": "VERIFIED",
+        "period": period,
+        "eligible_category_count": len(eligible),
+        "low": eligible[0],
+        "high": eligible[-1],
+        "rule": rule,
     }
 
 
@@ -135,6 +176,9 @@ def main() -> None:
         for period in periods:
             point = metric(monthly[key][period])
             point["period"] = period
+            prior_point = metric(monthly[key][previous_year(period)])
+            point["volume_yoy_percent"] = yoy(point["volume_tonnes"], prior_point["volume_tonnes"])
+            point["value_yoy_percent"] = yoy(point["trade_value_eur"], prior_point["trade_value_eur"])
             history.append(point)
         current = metric(monthly[key][latest])
         prior = metric(monthly[key][previous_year(latest)])
@@ -149,6 +193,7 @@ def main() -> None:
             "definition": definition,
             "latest": current,
             "trade_activity": activity_state(current, prior),
+            "unit_value_range": unit_value_range(species_monthly, market["crops"], key, latest),
             "history": history,
         }
 
@@ -159,6 +204,30 @@ def main() -> None:
         "trade_value_eur": safe_round(exports["trade_value_eur"] - imports["trade_value_eur"], 2),
         "definition": "Extra-EU exports minus extra-EU imports for the same eligible seed CN scope and completed month.",
     }
+    balance_direction = "surplus" if balance["trade_value_eur"] >= 0 else "deficit"
+    market_context = {
+        "status": "FACTUAL_ONLY",
+        "causal_explanation_status": "WITHHELD_INSUFFICIENT_EVIDENCE",
+        "text": (
+            f"Extra-EU seed trade recorded a EUR {abs(balance['trade_value_eur']):,.0f} {balance_direction} in {latest}. "
+            "Verified trade evidence confirms the balance and flow changes, but does not support a specific supply, price or weather explanation."
+        ),
+    }
+
+    totals_by_period = []
+    for period in periods:
+        total = sum(metric(monthly[key][period])["volume_tonnes"] for key in VIEW_DEFINITIONS)
+        prior_total = sum(metric(monthly[key][previous_year(period)])["volume_tonnes"] for key in VIEW_DEFINITIONS)
+        totals_by_period.append({
+            "period": period,
+            "volume_tonnes": safe_round(total, 2),
+            "volume_yoy_percent": yoy(total, prior_total),
+        })
+    peak_activity = max(totals_by_period, key=lambda item: (item["volume_tonnes"], item["period"]))
+    peak_activity.update({
+        "status": "VERIFIED",
+        "definition": "Highest combined eligible volume across EU Internal Trade, EU Imports and EU Exports within the displayed completed-month period.",
+    })
 
     contexts = {}
     for crop in market["crops"]:
@@ -196,6 +265,8 @@ def main() -> None:
         },
         "views": views,
         "extra_eu_balance": balance,
+        "market_context": market_context,
+        "peak_activity": peak_activity,
         "species_market_context": contexts,
         "interpretation": "Trade Activity is a deterministic description of completed-month volume, not a forecast, recommendation or transaction price.",
     }
