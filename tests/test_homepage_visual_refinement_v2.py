@@ -16,11 +16,12 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
         self.assertIn("news.items.slice(0,4)", APP)
         self.assertIn(".news-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))", V2_CSS)
 
-    def test_intelligence_three_card_desktop_row(self):
+    def test_intelligence_commercial_overview(self):
+        self.assertIn("EU Market Pulse", APP)
         self.assertIn("Weather & Seed Risk", APP)
-        self.assertIn("Seed Production Monitor", APP)
+        self.assertIn("Seed Production", APP)
         self.assertIn("Supply / Crop Intelligence", APP)
-        self.assertIn(".intelligence-grid{gap:14px}", V2_CSS)
+        self.assertIn(".intelligence-commercial{grid-template-columns:repeat(4,minmax(0,1fr))", CSS)
 
     def test_market_snapshot_four_card_desktop_row(self):
         self.assertIn("useCarousel(market.crops.length,2500,4)", APP)

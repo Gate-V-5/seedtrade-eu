@@ -35,7 +35,7 @@ class HomepageMarketplaceV5Tests(unittest.TestCase):
         self.assertIn("font-family:Georgia", self.css)
 
     def test_market_search_supports_common_latin_and_future_variety(self):
-        for text in ("Search the market", "Latin botanical name", "Variety-level records"):
+        for text in ("Explore verified seed categories", "Latin botanical name", "Variety-level records"):
             self.assertIn(text, self.app)
         self.assertIn("species?.botanical_name", self.app)
 
@@ -66,7 +66,7 @@ class HomepageMarketplaceV5Tests(unittest.TestCase):
         self.assertIn("Linum usitatissimum", page)
         self.assertNotIn('<div id="root"></div>', page)
         market = (ROOT / "dist/market/index.html").read_text(encoding="utf-8")
-        self.assertIn("Search the market", market)
+        self.assertIn("Explore verified seed categories", market)
         marketplace = (ROOT / "dist/buying-requests/index.html").read_text(encoding="utf-8")
         self.assertIn("I want to buy", marketplace)
         self.assertIn("RGT Savvor", marketplace)

@@ -16,8 +16,8 @@ class MasterHomepageDesignTests(unittest.TestCase):
     def test_top_news_is_four_card_row(self):
         self.assertIn('news.items.slice(0,4)',APP)
         self.assertIn('grid-template-columns:repeat(4,minmax(0,1fr))',CSS)
-    def test_three_intelligence_cards(self):
-        for label in ("Weather & Seed Risk","Seed Production Monitor","Supply / Crop Intelligence"): self.assertIn(label,APP)
+    def test_commercial_intelligence_overview(self):
+        for label in ("EU Market Pulse","Weather & Seed Risk","Seed Production","Supply / Crop Intelligence"): self.assertIn(label,APP)
     def test_four_crop_snapshot(self): self.assertIn("useCarousel(market.crops.length,2500,4)",APP); self.assertIn("circularSlice(market.crops",APP)
     def test_visual_insights(self):
         self.assertIn("visual-insights",APP)
