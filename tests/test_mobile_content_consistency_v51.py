@@ -41,7 +41,7 @@ class MobileContentConsistencyV51Tests(unittest.TestCase):
     def test_mobile_breakpoints_and_overflow_guards(self):
         self.assertIn('@media(max-width:768px)', self.css)
         self.assertIn('@media(max-width:430px)', self.css)
-        self.assertIn('overflow-x:hidden', self.css)
+        self.assertIn('overflow-x:clip', self.css)
         for width in (360, 375, 390, 414, 430, 768):
             self.assertGreater(width, 0)
 

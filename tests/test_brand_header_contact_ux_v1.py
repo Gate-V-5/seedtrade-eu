@@ -26,7 +26,8 @@ class BrandHeaderContactUXV1(unittest.TestCase):
         self.assertIn("position:sticky", CSS)
         self.assertNotIn(".topbar{position:relative;display:grid", CSS)
         self.assertIn("z-index:100", CSS)
-        self.assertIn("html,body,#root{max-width:100%;overflow-x:hidden}", CSS)
+        self.assertIn("html,body,#root{max-width:100%;overflow-x:clip}", CSS)
+        self.assertNotIn("html,body,#root{max-width:100%;overflow-x:hidden}", CSS)
 
     def test_contact_navigation_and_anchor_offset(self):
         self.assertGreaterEqual(APP.count('href="/about/#contact"'), 2)
@@ -34,7 +35,8 @@ class BrandHeaderContactUXV1(unittest.TestCase):
         self.assertIn("#contact{scroll-margin-top:100px}", CSS)
 
     def test_contact_copy_and_email(self):
-        self.assertIn("Have a question about SeedTrade, market intelligence, data, partnerships or collaboration? Send us a message.", APP)
+        self.assertIn("Questions about SeedTrade, market intelligence, partnerships or cooperation? Send us a message.", APP)
+        self.assertIn("General enquiries:", APP)
         self.assertIn('href="mailto:info@seedtrade.eu"', APP)
         self.assertNotIn("network@seedtrade.eu", APP)
 
