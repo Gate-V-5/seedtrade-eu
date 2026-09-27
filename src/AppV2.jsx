@@ -192,10 +192,40 @@ function Ranking({ title, rows, metric }) { const max=Math.max(...rows.map(row=>
 
 function Trend({value}) { if(value==null) return <em className="trend neutral">n/a</em>; const up=Number(value)>=0; return <em className={`trend ${up?"up":"down"}`}>{up?"▲":"▼"} {pct(value)} YoY</em> }
 
+function HeroCoverageMetrics() {
+  return <div className="hero-coverage" aria-label="SeedTrade platform coverage">
+    <div><strong>{market.crops.length}</strong><span>seed categories</span></div>
+    <div><strong>{fmt.format(publicData.datasets.comext.public_safe_observations)}</strong><span>PUBLIC_SAFE EU trade observations</span></div>
+    <div><strong>EU trade</strong><span>coverage</span></div>
+    <div><strong>{weather.region_count}</strong><span>weather regions</span></div>
+    <div><strong>{market.latest_completed_period}</strong><span>latest completed period</span></div>
+  </div>
+}
+
 function Home() {
   const marketCarousel=useCarousel(market.crops.length,2500,4)
   const productionCrop=market.crops.find(crop=>crop.slug==="red-clover") || market.crops[0], supplyCrop=market.crops.find(crop=>crop.slug==="perennial-ryegrass") || market.crops[0]
-  return <><section className="dashboard-hero"><div className="hero-intro"><div className="hero-copy"><p className="eyebrow">European seed market intelligence</p><h1>European seed market intelligence <span>for better decisions.</span></h1><p className="hero-body">Trade data, supply evidence, representative prices, weather exposure and verified B2B opportunities in one professional platform.</p><div className="hero-actions"><a className="btn primary" href="/market">Explore market</a><a className="btn secondary" href="/buying-requests">Buying requests</a></div></div></div><SignalPanel/></section><section className="platform-kpis"><div><strong>{market.crops.length}</strong><span>seed categories</span></div><div><strong>{fmt.format(publicData.datasets.comext.public_safe_observations)}</strong><span>PUBLIC_SAFE EU trade observations</span></div><div><strong>EU trade</strong><span>coverage</span></div><div><strong>{weather.region_count}</strong><span>weather regions</span></div><div><strong>{market.latest_completed_period}</strong><span>latest completed period</span></div></section><main><section className="top-news"><div className="section-head"><div><p className="eyebrow">Top News</p><h2>What is changing now</h2></div><a href="/news">View all →</a></div><div className="news-list">{news.items.slice(0,4).map(x=><NewsCard compact key={x.slug} story={x}/>)}</div></section><IntelligenceOverview/><PeriodNote/><section className="market-snapshot" {...marketCarousel.handlers}><div className="section-head"><div><p className="eyebrow">Current market numbers</p><h2>European Seed Market Snapshot</h2></div><a href="/market">All categories →</a></div><div className="crop-grid homepage-crops carousel-train">{circularSlice(market.crops,marketCarousel.position,marketCarousel.visible).map(x => <CropCard key={x.slug} crop={x}/>)}</div><div className="carousel-controls"><button type="button" onClick={()=>marketCarousel.move(-1)} aria-label="Previous market category">←</button><button type="button" onClick={()=>marketCarousel.move(1)} aria-label="Next market category">→</button></div><p className="rotation-note">Cards advance one position approximately every 2–3 seconds. This is display rotation only.</p></section><section className="insights-teaser"><div className="section-head"><div><p className="eyebrow">Research & Partner Insights / Events</p><h2>Context beyond the numbers</h2></div><a href="/insights">View all →</a></div><div className="article-grid visual-insights">{insights.articles.slice(0,3).map(a => <ArticleCard key={a.slug} article={a}/>)}</div><p className="muted">Editorial content does not influence Market Signal or quantitative calculations.</p></section><ActiveBuyingRequests/><NetworkInterest/></main></>
+  return <>
+    <section className="dashboard-hero">
+      <div className="hero-intro">
+        <div className="hero-copy">
+          <p className="eyebrow">European seed market intelligence</p>
+          <h1>European seed market intelligence <span>for better decisions.</span></h1>
+          <p className="hero-body">Trade data, supply evidence, representative prices, weather exposure and verified B2B opportunities in one professional platform.</p>
+          <div className="hero-actions"><a className="btn primary" href="/market">Explore market</a><a className="btn secondary" href="/buying-requests">Buying requests</a></div>
+        </div>
+        <HeroCoverageMetrics/>
+      </div>
+      <SignalPanel/>
+    </section>
+    <main>
+      <section className="top-news"><div className="section-head"><div><p className="eyebrow">Top News</p><h2>What is changing now</h2></div><a href="/news">View all →</a></div><div className="news-list">{news.items.slice(0,4).map(x=><NewsCard compact key={x.slug} story={x}/>)}</div></section>
+      <IntelligenceOverview/><PeriodNote/>
+      <section className="market-snapshot" {...marketCarousel.handlers}><div className="section-head"><div><p className="eyebrow">Current market numbers</p><h2>European Seed Market Snapshot</h2></div><a href="/market">All categories →</a></div><div className="crop-grid homepage-crops carousel-train">{circularSlice(market.crops,marketCarousel.position,marketCarousel.visible).map(x => <CropCard key={x.slug} crop={x}/>)}</div><div className="carousel-controls"><button type="button" onClick={()=>marketCarousel.move(-1)} aria-label="Previous market category">←</button><button type="button" onClick={()=>marketCarousel.move(1)} aria-label="Next market category">→</button></div><p className="rotation-note">Cards advance one position approximately every 2–3 seconds. This is display rotation only.</p></section>
+      <section className="insights-teaser"><div className="section-head"><div><p className="eyebrow">Research & Partner Insights / Events</p><h2>Context beyond the numbers</h2></div><a href="/insights">View all →</a></div><div className="article-grid visual-insights">{insights.articles.slice(0,3).map(a => <ArticleCard key={a.slug} article={a}/>)}</div><p className="muted">Editorial content does not influence Market Signal or quantitative calculations.</p></section>
+      <ActiveBuyingRequests/><NetworkInterest/>
+    </main>
+  </>
 }
 
 function IntelligenceOverview({ expanded = false }) {
