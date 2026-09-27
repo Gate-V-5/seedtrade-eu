@@ -127,6 +127,28 @@ function useMetadata(path) {
   }, [path])
 }
 
+function useHashNavigation(path) {
+  useEffect(() => {
+    let frame = 0
+    const scrollToHash = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1))
+      if (!id) return
+      const target = document.getElementById(id)
+      if (target) target.scrollIntoView({ block: "start" })
+    }
+    const scheduleScroll = () => {
+      window.cancelAnimationFrame(frame)
+      frame = window.requestAnimationFrame(scrollToHash)
+    }
+    scheduleScroll()
+    window.addEventListener("hashchange", scheduleScroll)
+    return () => {
+      window.cancelAnimationFrame(frame)
+      window.removeEventListener("hashchange", scheduleScroll)
+    }
+  }, [path])
+}
+
 function Logo({ footer = false }) {
   return <a className={footer ? "official-logo footer-logo brand-plate" : "official-logo"} href="/" aria-label="SeedTrade.eu home"><img src={OFFICIAL_LOGO} width="750" height="118" alt="SeedTrade.eu — European Seed Trading & Market Intelligence"/></a>
 }
@@ -209,4 +231,4 @@ function NotFound(){return <main><h1>Page not found</h1><a href="/">Return home<
 
 function Footer() { return <footer><Logo footer/><div><b>Platform</b><a href="/market">Intelligence</a><a href="/news">News</a><a href="/insights">Research</a><a href="/insights">Partner Insights</a></div><div><b>SeedTrade</b><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/confidentiality">Confidentiality</a></div><div><b>Marketplace</b><a href="/buying-requests">Buying Requests</a><a href="/rfq">RFQ — coming next</a><a href="/about/#contact">Contact</a><span>© 2026 SeedTrade.eu · European Seed Market Intelligence</span></div></footer> }
 
-export default function AppV2() { const path = window.location.pathname.replace(/\/$/,"") || "/"; useMetadata(path); useEffect(() => { loadGTM(); track(path === "/" ? "homepage_view" : path === "/market" ? "market_view" : path === "/trade-pulse" ? "trade_pulse_view" : path.startsWith("/market/") ? "crop_view" : path === "/news" ? "news_archive_view" : path.startsWith("/news/") ? "news_item_view" : path === "/methodology" ? "methodology_view" : "page_view", { page_path:path }) }, [path]); const content = useMemo(() => { if(path === "/") return <Home/>; if(path === "/market") return <Market/>; if(path === "/trade-pulse") return <TradePulseDashboard/>; if(path === "/news") return <NewsArchive/>; if(path === "/insights") return <Insights/>; if(path === "/buying-requests") return <BuyingRequests/>; if(path.startsWith("/buying-requests/")) return <BuyingRequestDetail request={rfqs.items.find(x=>`/buying-requests/${x.slug}`===path)}/>; if(path.startsWith("/market/")) return <CropPage crop={market.crops.find(x=>`/market/${x.slug}`===path)}/>; if(path.startsWith("/news/")) return <NewsItem story={news.items.find(x=>`/news/${x.slug}`===path)}/>; if(path.startsWith("/insights/")) return <Article article={insights.articles.find(x=>`/insights/${x.slug}`===path)}/>; if(path === "/rfq") return <PrivateFeature kind="RFQ"/>; if(path === "/offer") return <PrivateFeature kind="OFFER"/>; if(path === "/methodology") return <Methodology/>; if(path === "/about") return <AboutPage/>; if(Object.keys(legal).includes(path)) return <InfoPage path={path}/>; return <NotFound/> },[path]); return <><Header/>{content}<Footer/><Consent/></> }
+export default function AppV2() { const path = window.location.pathname.replace(/\/$/,"") || "/"; useMetadata(path); useHashNavigation(path); useEffect(() => { loadGTM(); track(path === "/" ? "homepage_view" : path === "/market" ? "market_view" : path === "/trade-pulse" ? "trade_pulse_view" : path.startsWith("/market/") ? "crop_view" : path === "/news" ? "news_archive_view" : path.startsWith("/news/") ? "news_item_view" : path === "/methodology" ? "methodology_view" : "page_view", { page_path:path }) }, [path]); const content = useMemo(() => { if(path === "/") return <Home/>; if(path === "/market") return <Market/>; if(path === "/trade-pulse") return <TradePulseDashboard/>; if(path === "/news") return <NewsArchive/>; if(path === "/insights") return <Insights/>; if(path === "/buying-requests") return <BuyingRequests/>; if(path.startsWith("/buying-requests/")) return <BuyingRequestDetail request={rfqs.items.find(x=>`/buying-requests/${x.slug}`===path)}/>; if(path.startsWith("/market/")) return <CropPage crop={market.crops.find(x=>`/market/${x.slug}`===path)}/>; if(path.startsWith("/news/")) return <NewsItem story={news.items.find(x=>`/news/${x.slug}`===path)}/>; if(path.startsWith("/insights/")) return <Article article={insights.articles.find(x=>`/insights/${x.slug}`===path)}/>; if(path === "/rfq") return <PrivateFeature kind="RFQ"/>; if(path === "/offer") return <PrivateFeature kind="OFFER"/>; if(path === "/methodology") return <Methodology/>; if(path === "/about") return <AboutPage/>; if(Object.keys(legal).includes(path)) return <InfoPage path={path}/>; return <NotFound/> },[path]); return <><Header/>{content}<Footer/><Consent/></> }
