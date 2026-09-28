@@ -267,8 +267,40 @@ function IntelligenceOverview({ expanded = false }) {
   </div></section>
 }
 
-function NetworkInterest() { return <section className="network-interest"><div><p className="eyebrow">European B2B seed network</p><h2>Join the European seed market network</h2><p>Register interest for future verified buyer/seller introductions.</p></div><form onSubmit={event => event.preventDefault()} aria-label="Disabled network interest form"><label>Company name<input disabled placeholder="Company name"/></label><label>Business email<input type="email" disabled placeholder="Business email"/></label><label>Role<select disabled><option>Buyer / seller / partner</option></select></label><label>Country<input disabled placeholder="Country"/></label><button className="btn primary" disabled>Register interest</button></form><small>Preview only: submission remains disabled until production authentication and private persistence are approved.</small></section> }
-
+function NetworkInterest() {
+  const [fields, setFields] = useState({ company: "", email: "", role: "", country: "", website: "" })
+  const [submitting, setSubmitting] = useState(false)
+  const [feedback, setFeedback] = useState(null)
+  const update = event => setFields(current => ({ ...current, [event.target.name]: event.target.value }))
+  const submit = async event => {
+    event.preventDefault()
+    if (submitting) return
+    if (!fields.company.trim() || !fields.country.trim() || !["Buyer", "Seller", "Partner"].includes(fields.role) || !event.currentTarget.reportValidity()) {
+      setFeedback({ success: false, message: "Please complete all four fields with valid details." })
+      return
+    }
+    setSubmitting(true)
+    setFeedback(null)
+    try {
+      const response = await fetch("/api/network-interest", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(fields) })
+      const result = await response.json()
+      if (!response.ok || result.message !== "Thank you. Your interest has been registered.") throw new Error("Unable to register your interest. Please try again later.")
+      setFeedback({ success: true, message: result.message })
+      setFields({ company: "", email: "", role: "", country: "", website: "" })
+    } catch {
+      setFeedback({ success: false, message: "Unable to register your interest. Please try again later." })
+    } finally { setSubmitting(false) }
+  }
+  return <section className="network-interest"><div><p className="eyebrow">European B2B seed network</p><h2>Join the European seed market network</h2><p>Register interest for future verified buyer/seller introductions.</p></div><form onSubmit={submit} aria-label="European B2B Seed Network registration">
+    <label>Company name<input name="company" autoComplete="organization" required maxLength={120} value={fields.company} onChange={update}/></label>
+    <label>Business email<input name="email" type="email" autoComplete="email" required maxLength={254} value={fields.email} onChange={update}/></label>
+    <label>Role<select name="role" required value={fields.role} onChange={update}><option value="">Select a role</option><option value="Buyer">Buyer</option><option value="Seller">Seller</option><option value="Partner">Partner</option></select></label>
+    <label>Country<input name="country" autoComplete="country-name" required maxLength={100} value={fields.country} onChange={update}/></label>
+    <label className="network-honeypot" aria-hidden="true">Website<input name="website" tabIndex={-1} autoComplete="off" value={fields.website} onChange={update}/></label>
+    <button className="btn primary" type="submit" disabled={submitting}>{submitting ? "Sending…" : "Register interest"}</button>
+    {feedback && <p className="network-feedback" role={feedback.success ? "status" : "alert"}>{feedback.message}</p>}
+  </form><small>We use your business details to respond to your network interest. See our <a href="/privacy">Privacy notice</a>. No account is created.</small></section>
+}
 export function activePublicRequests(items, now = new Date()) { return items.filter(item => item.status === "ACTIVE" && item.is_demo !== true && (!(item.expiry_date || item.expires_at) || new Date(item.expiry_date || item.expires_at) > now) && item.classification === "PUBLIC_SAFE") }
 const DEMO_REQUESTS=[{slug:"demo-winter-wheat",species_id:"winter-wheat",variety:null,listing_type:"BUY",quantity:500,unit:"t",certification_category:null,acceptable_origin:"Central Europe",destination:"Germany",delivery_period:null,status:"DEMO",publication_date:null,expires_at:null,classification:"DEMO_ONLY_NOT_REAL_DEMAND",label:"DEMO RFQ",demo:true},{slug:"demo-flax-seed",species_id:"flax",variety:null,listing_type:"BUY",quantity:300,unit:"t",certification_category:null,acceptable_origin:"EU",destination:"Benelux",delivery_period:null,status:"DEMO",publication_date:null,expires_at:null,classification:"DEMO_ONLY_NOT_REAL_DEMAND",label:"DEMO RFQ",demo:true},{slug:"demo-red-clover",species_id:"red-clover",variety:"RGT Savvor",listing_type:"BUY",quantity:120,unit:"t",certification_category:null,acceptable_origin:"EU",destination:"Northern Europe",delivery_period:null,status:"DEMO",publication_date:null,expires_at:null,classification:"DEMO_ONLY_NOT_REAL_DEMAND",label:"DEMO RFQ",demo:true},{slug:"demo-field-peas",species_id:"field-pea",variety:null,listing_type:"BUY",quantity:400,unit:"t",certification_category:null,acceptable_origin:"Baltics",destination:"Central Europe",delivery_period:null,status:"DEMO",publication_date:null,expires_at:null,classification:"DEMO_ONLY_NOT_REAL_DEMAND",label:"DEMO RFQ",demo:true}]
 function MarketContext({ request }) { const crop=market.crops.find(item=>speciesForCrop(item)?.species_id===request.species_master_id), context=crop&&tradePulse.species_market_context[crop.slug]; if(!context)return null; return <div className="market-context"><small>EU internal trade context · {context.period}</small><span><b>{fmt.format(context.volume_tonnes)} t</b> <Trend value={context.volume_yoy_percent}/></span><span>Unit value €{fmt.format(context.unit_value_eur_kg)}/kg <Trend value={context.unit_value_yoy_percent}/></span><em>{context.evidence_status.replaceAll("_"," ")} · context only, not an offer valuation</em></div> }

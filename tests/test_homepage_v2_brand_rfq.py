@@ -57,7 +57,11 @@ class HomepageV2BrandRFQTests(unittest.TestCase):
 
     def test_market_signal_fail_closed(self): self.assertIn("evidence-gated descriptions",self.app)
     def test_market_signal_rotation_removed(self): self.assertNotIn("Previous Market Signal",self.app)
-    def test_disabled_join_submission(self): self.assertIn('onSubmit={event => event.preventDefault()}',self.app); self.assertIn("Register interest",self.app)
+    def test_network_submission_requires_server_confirmation(self):
+        self.assertIn('onSubmit={submit}',self.app)
+        self.assertIn('fetch("/api/network-interest"',self.app)
+        self.assertIn('if (!response.ok || result.message !==',self.app)
+        self.assertIn('disabled={submitting}',self.app)
     def test_verified_homepage_observation_count(self): self.assertIn("publicData.datasets.comext.public_safe_observations",self.app)
 
 if __name__=="__main__": unittest.main()

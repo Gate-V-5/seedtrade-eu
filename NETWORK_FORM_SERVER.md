@@ -1,0 +1,9 @@
+# European B2B Seed Network form — server deployment note
+
+The public Vite build remains static-first. Its form sends JSON to the same-origin `POST /api/network-interest`. The handler in `server/index.mjs` runs as a separate Node 22 process; it is **not** included in `dist/` and must never be served as a static file.
+
+Before enabling the form in production, provision a private Hostinger Node server application or equivalent existing server-side route and direct only `/api/network-interest` from the public origin to that process. Start it with `npm run start:network-form`. Configure these **server-only** environment variables in the hosting control plane: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM`; `PORT` is optional if the platform supplies it. Use an authorized SeedTrade mailbox and SMTP service; do not put credentials in GitHub or `VITE_*` variables. For Hostinger mail, the provider's SMTP host/port and authenticated mailbox must be confirmed by the owner. The recipient is fixed in the handler to `network@seedtrade.eu`.
+
+The handler requires a same-origin `Origin`, accepts only JSON POST at that route, limits request size and repeated submissions per connecting IP, validates every field, ignores honeypot submissions, and confirms success only after the SMTP provider accepts the intended recipient. No CRM or registration database is created. Operational email delivery to the mailbox remains unverified until a separately authorized deployment and one live test; SMTP acceptance alone cannot prove inbox delivery.
+
+The public app's static server must route `/api/network-interest` to the Node process rather than rewrite it to `index.html`. If the endpoint is absent, responds with HTML, or SMTP fails, the form shows an error and retains user entries. Do not deploy the frontend form alone expecting email delivery.
