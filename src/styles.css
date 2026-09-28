@@ -1618,3 +1618,28 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
   .dashboard-hero .pulse-period-context{padding:7px 0;gap:2px}
   .dashboard-hero .mini-chart.trade-pulse-chart{height:48px!important;min-height:48px!important}
 }
+
+/* Three distinct intelligence topics; the static SVGs carry no implied numerical series. */
+.intelligence-grid.intelligence-commercial{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.intelligence-commercial .intelligence-topic-visual{position:relative;isolation:isolate;height:156px;min-height:156px;margin:-20px -20px 18px;overflow:hidden;border-radius:11px 11px 0 0;color:#fff;background:linear-gradient(135deg,#0c3045,#17655b)}
+.intelligence-topic-visual svg{display:block;width:100%;height:100%;object-fit:cover}
+.intelligence-topic-visual .visual-tag,.intelligence-topic-visual .visual-caption{position:absolute;z-index:1;left:17px;color:#fff;text-shadow:0 1px 5px #0c3045}
+.intelligence-topic-visual .visual-tag{top:14px;font-size:10px;font-weight:900;letter-spacing:.09em}
+.intelligence-topic-visual .visual-caption{bottom:12px;font-size:12px;font-weight:800}
+.intelligence-topic-visual.trade{background:linear-gradient(115deg,#092f46,#155e67)}
+.intelligence-topic-visual.trade .visual-land{fill:#2c6b66;opacity:.6}
+.intelligence-topic-visual.trade .visual-flow{fill:none;stroke:#98e3bd;stroke-width:3;stroke-linecap:round}
+.intelligence-topic-visual.trade .visual-flow.secondary{stroke:#e8d6a0;stroke-width:2}
+.intelligence-topic-visual.trade circle{fill:#f3e4b5;stroke:#0c3045;stroke-width:2}
+.intelligence-topic-visual.weather{background:#dce9e7}
+.intelligence-topic-visual.weather svg{height:176%;transform:translateY(-18%)}
+.intelligence-topic-visual.weather .visual-map-country{fill:#a7c0bb;stroke:#eef4f0;stroke-width:1.3;vector-effect:non-scaling-stroke}
+.intelligence-topic-visual.weather .visual-map-country.monitored{fill:#237f68}
+.intelligence-topic-visual.weather .visual-tag,.intelligence-topic-visual.weather .visual-caption{color:#0c3045;text-shadow:0 1px 3px #f3f9f5}
+.intelligence-topic-visual.production{background:linear-gradient(150deg,#164653,#498574)}
+.intelligence-topic-visual.production .visual-horizon{fill:#83a97e;opacity:.8}
+.intelligence-topic-visual.production .visual-field{fill:none;stroke:#dce2a5;stroke-width:5}
+.intelligence-topic-visual.production .visual-seed{fill:#ebd6a1}
+.intelligence-commercial .intelligence-number{min-height:70px;margin-bottom:6px}
+@media(max-width:1050px){.intelligence-grid.intelligence-commercial{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.intelligence-grid.intelligence-commercial{grid-template-columns:1fr}.intelligence-commercial .intelligence-topic-visual{margin:-17px -17px 16px}}

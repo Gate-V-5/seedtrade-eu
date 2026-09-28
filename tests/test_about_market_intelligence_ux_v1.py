@@ -43,7 +43,6 @@ class AboutMarketIntelligenceUxV1Tests(unittest.TestCase):
             "EU Market Pulse",
             "Conditions worth monitoring",
             "Is supply tightening or expanding?",
-            "Where could supply matter?",
         ):
             self.assertIn(phrase, APP)
 

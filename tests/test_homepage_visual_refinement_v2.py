@@ -20,8 +20,9 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
         self.assertIn("EU Market Pulse", APP)
         self.assertIn("Weather & Seed Risk", APP)
         self.assertIn("Seed Production", APP)
-        self.assertIn("Supply / Crop Intelligence", APP)
-        self.assertIn(".intelligence-commercial{grid-template-columns:repeat(4,minmax(0,1fr))", CSS)
+        section = APP[APP.index("function IntelligenceOverview"):APP.index("function NetworkInterest")]
+        self.assertNotIn("Supply / Crop Intelligence", section)
+        self.assertIn(".intelligence-grid.intelligence-commercial{grid-template-columns:repeat(3,minmax(0,1fr))", CSS)
 
     def test_market_snapshot_four_card_desktop_row(self):
         self.assertIn("useCarousel(market.crops.length,2500,4)", APP)

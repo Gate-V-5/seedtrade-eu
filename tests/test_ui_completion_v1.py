@@ -22,7 +22,7 @@ class UICompletionV1(unittest.TestCase):
         self.assertIn("@media(max-width:620px){.intelligence-grid{grid-template-columns:1fr}}", CSS)
         self.assertIn(".intelligence-grid article>a{margin-top:auto", CSS)
         section = APP[APP.index("function IntelligenceOverview"):APP.index("function NetworkInterest")]
-        self.assertEqual(section.count("<article>"), 4)
+        self.assertEqual(section.count("<article>"), 3)
 
     def test_contact_is_general_and_non_collecting(self):
         section = APP[APP.index('id="contact"'):APP.index("function InfoPage")]

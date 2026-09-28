@@ -9,11 +9,10 @@ CSS = (ROOT / "src/styles.css").read_text(encoding="utf-8")
 
 
 class UIFixV1(unittest.TestCase):
-    def test_final_grid_cascade_is_four_columns(self):
-        four = ".intelligence-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}"
-        three = ".intelligence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}"
-        self.assertIn(four, CSS)
-        self.assertGreater(CSS.rfind(four), CSS.rfind(three))
+    def test_commercial_grid_has_final_three_column_rule(self):
+        three = ".intelligence-grid.intelligence-commercial{grid-template-columns:repeat(3,minmax(0,1fr))"
+        self.assertIn(three, CSS)
+        self.assertGreater(CSS.rfind(three), CSS.rfind(".intelligence-commercial{grid-template-columns:repeat(4,minmax(0,1fr))"))
 
     def test_final_grid_breakpoints_are_two_then_one(self):
         tablet = "@media(max-width:1050px){.intelligence-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}"
