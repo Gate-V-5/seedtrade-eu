@@ -16,6 +16,7 @@ const marketplace = await readJson('src/generated/rfqs_public.json')
 const routes = [
   ['market', 'EU Seed Market Dashboard', 'Representative prices and trade volumes for eleven European seed categories.', true],
   ['trade-pulse', 'EU Seed Trade Pulse', 'Verified EU internal, import and export seed trade volume, value and activity intelligence.', true],
+  ['weather-evidence', 'Weather & Seed Risk coverage', 'Map and list of 23 monitored European seed-production regions; weather exposure is not validated production impact.', true],
   ['methodology', 'SeedTrade data methodology', 'How SeedTrade validates official trade data, representative prices and evidence status.', true],
   ['about', 'About SeedTrade', 'EU Seed Market Intelligence for professional market participants.', true],
   ['privacy', 'Privacy Policy', 'SeedTrade privacy information.', true],

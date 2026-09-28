@@ -38,7 +38,8 @@ class HydrationValidMarkupV1(unittest.TestCase):
             ["node", "scripts/check_hydration_initial.mjs"], cwd=ROOT,
             capture_output=True, text=True, check=True,
         )
-        self.assertIn("39 routes: static/client initial render MATCH", result.stdout)
+        self.assertGreaterEqual(len(ROUTES), 39)
+        self.assertIn(f"{len(ROUTES)} routes: static/client initial render MATCH", result.stdout)
 
     def test_prerendered_initial_markup_is_html_parser_stable(self):
         self.assertGreaterEqual(len(ROUTES), 39)
