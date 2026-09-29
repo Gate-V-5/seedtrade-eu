@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "main": "server/index.mjs",
   "scripts": {
     "dev": "vite",
     "test": "python3 -B -m unittest discover -s tests -p 'test_*.py' -v && node --test tests/networkInterest.test.mjs",
     "start:network-form": "node server/index.mjs",
+    "start": "node server/index.mjs",
     "build:vite": "vite build && node scripts/prerender_seo.mjs && node scripts/prerender_static_first.mjs",
     "build": "npm run build:vite",
     "preview": "vite preview"
