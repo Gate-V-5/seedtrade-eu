@@ -30,6 +30,6 @@ const server = http.createServer(async (req, res) => {
     res.end(req.method === 'HEAD' ? undefined : data)
   } catch { res.writeHead(404); res.end() }
 })
-const listenPort = Number(PORT)
+const listenPort = PORT == null || PORT === '' ? 3000 : Number(PORT)
 if (!Number.isInteger(listenPort) || listenPort < 1 || listenPort > 65535) throw new Error('Valid PORT is required')
 server.listen(listenPort)
