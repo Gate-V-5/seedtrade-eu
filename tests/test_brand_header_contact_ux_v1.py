@@ -45,13 +45,13 @@ class BrandHeaderContactUXV1(unittest.TestCase):
         self.assertIn("No information entered here is submitted or stored.", APP)
         self.assertIn("onSubmit={event=>event.preventDefault()}", APP)
         self.assertGreaterEqual(APP.count("disabled required"), 5)
-        self.assertIn('<button type="submit" disabled>Send message</button>', APP)
+        self.assertIn('<button type="submit" disabled><T>Send message</T></button>', APP)
         for forbidden in ("fetch(", "axios", "smtp", "formData", "localStorage.setItem"):
             self.assertNotIn(forbidden, APP[APP.index('id="contact"'):APP.index('function InfoPage')])
 
     def test_subject_options_and_responsive_structure(self):
         for option in ("Market Intelligence", "Data &amp; Methodology", "Partnership", "Media &amp; General Enquiry", "Other"):
-            self.assertIn(f"<option>{option}</option>", APP)
+            self.assertIn(f"<T>{option}</T></option>", APP)
         self.assertIn("@media(max-width:900px){.contact-section{grid-template-columns:1fr}", CSS)
         self.assertIn("@media(max-width:620px){#contact{scroll-margin-top:86px}", CSS)
         self.assertIn("@media(max-width:1050px){", CSS)

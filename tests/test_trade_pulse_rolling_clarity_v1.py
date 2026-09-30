@@ -35,11 +35,11 @@ console.log(JSON.stringify([rollingCompletedRange(history.slice(1),'2025-12','20
         self.assertEqual([False, False], [row['complete'] for row in json.loads(result.stdout)])
 
     def test_ui_explains_distinct_periods_and_yoy_basis(self):
-        self.assertIn('Latest completed period: {tradePulse.latest_completed_period}', APP)
-        self.assertIn('Rolling 12 completed months: ${completedRange.start} → ${completedRange.end}', APP)
+        self.assertIn('text="Latest completed period: {period}" values={{period:tradePulse.latest_completed_period}}', APP)
+        self.assertIn('text="Rolling 12 completed months: {start} → {end}" values={{start:completedRange.start,end:completedRange.end}}', APP)
         self.assertIn('Rolling 12-month trade activity', APP)
         self.assertIn('YoY compares each completed month with the same month one year earlier.', APP)
-        self.assertIn('Partial {tradePulse.latest_available_partial_period} is excluded from this chart, trends and activity labels.', APP)
+        self.assertIn('values={{period:tradePulse.latest_available_partial_period}}', APP)
         self.assertIn('<small>{period}</small>', APP)
         self.assertIn('const periods=completedHistory(tradePulse.views.eu_internal_trade)', APP)
         self.assertNotIn('Rolling 12 completed months: 2025-07', APP)

@@ -28,8 +28,8 @@ class ProductionQaFixBatch1Tests(unittest.TestCase):
         self.assertEqual("PUBLIC_SAFE", self.pulse["classification"])
 
     def test_trade_value_and_value_yoy_are_rendered(self):
-        self.assertIn("Trade value</dt>", self.app)
-        self.assertIn("Trade value YoY</dt>", self.app)
+        self.assertIn("Trade value</T></dt>", self.app)
+        self.assertIn("Trade value YoY</T></dt>", self.app)
         self.assertIn("view.latest.trade_value_eur", self.app)
         self.assertIn("view.latest.value_yoy_percent", self.app)
 

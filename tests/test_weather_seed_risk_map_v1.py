@@ -39,7 +39,7 @@ class WeatherSeedRiskMapV1(unittest.TestCase):
         self.assertNotIn("useEffect", PAGE)
 
     def test_route_prerender_sitemap_and_responsive_guards(self):
-        self.assertIn('href="/weather-evidence">View weather evidence', APP)
+        self.assertIn('href="/weather-evidence"><T>View weather evidence', APP)
         self.assertIn('path === "/weather-evidence"', APP)
         self.assertIn('if(path === "/weather-evidence") return <WeatherEvidence/>', APP)
         self.assertIn("['weather-evidence'", (ROOT / "scripts/prerender_seo.mjs").read_text())

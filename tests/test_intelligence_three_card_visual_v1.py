@@ -14,7 +14,7 @@ SECTION = APP[APP.index("function IntelligenceOverview"):APP.index("function Net
 class ThreeCardVisualV1(unittest.TestCase):
     def test_exactly_three_topics_and_no_category_card(self):
         self.assertEqual(SECTION.count("<article>"), 3)
-        for topic in ("EU Market Pulse", "Weather &amp; Seed Risk", "Seed Production"):
+        for topic in ("EU Market Pulse", "Weather & Seed Risk", "Seed Production"):
             self.assertIn(topic, SECTION)
         self.assertNotIn("Supply / Crop Intelligence", SECTION)
         self.assertNotIn("tracked seed categories", SECTION)

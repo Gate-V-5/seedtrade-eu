@@ -63,7 +63,7 @@ class TradePulseIntelligenceUxV2Tests(unittest.TestCase):
             self.assertNotIn("2026-07", [point["period"] for point in view["history"]])
 
     def test_charts_have_quantitative_axes_dates_and_tooltips(self):
-        for token in ("pulse-y-axis", "axisLabel(value,metric)", "periodLabel(period)", "Jul", "title={`${periodLabel(period)}"):
+        for token in ("pulse-y-axis", "axisLabel(value,metric)", "periodLabel(period,language)", "Intl.DateTimeFormat", "title={`${periodLabel(period,language)}"):
             self.assertIn(token, APP)
         self.assertIn("pulse-plot", CSS)
         self.assertIn("value_yoy_percent", PULSE["views"]["eu_internal_trade"]["history"][-1])
