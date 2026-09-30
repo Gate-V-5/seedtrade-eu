@@ -16,26 +16,24 @@ class AboutMarketIntelligenceUxV1Tests(unittest.TestCase):
         ):
             self.assertIn(phrase, APP)
 
-    def test_about_value_blocks_and_workflow(self):
+    def test_about_value_blocks_and_contact(self):
         for phrase in (
+            "From scattered evidence to commercial context",
             "See market movement",
             "Connect trade and supply",
             "Identify market timing",
             "Discover B2B opportunities",
-            "Official and verified evidence",
-            "SeedTrade intelligence",
-            "Marketplace opportunities",
+            "Contact SeedTrade",
+            "info@seedtrade.eu",
         ):
             self.assertIn(phrase, APP)
 
-    def test_about_positioning_is_fail_closed(self):
-        for phrase in (
-            "not a commodity trading terminal",
-            "investment advice",
-            "price forecasting",
-            "unsupported prediction engine",
-        ):
-            self.assertIn(phrase, APP)
+    def test_about_detail_removed_and_contact_fields_grouped(self):
+        about = APP.split("function AboutPage()", 1)[1].split("function InfoPage(", 1)[0]
+        self.assertNotIn("Evidence becomes useful context", about)
+        self.assertNotIn("European seed-market participants", about)
+        self.assertNotIn("unsupported prediction engine", about)
+        self.assertEqual(about.count('className="contact-field'), 5)
 
     def test_market_overview_is_commercially_framed(self):
         for phrase in (
@@ -70,7 +68,8 @@ class AboutMarketIntelligenceUxV1Tests(unittest.TestCase):
     def test_responsive_layouts_exist(self):
         self.assertIn("@media(max-width:1050px)", CSS)
         self.assertIn("@media(max-width:680px)", CSS)
-        self.assertIn(".intelligence-commercial,.about-value-grid,.about-audience{grid-template-columns:1fr}", CSS)
+        self.assertIn(".intelligence-commercial,.about-value-grid{grid-template-columns:1fr}", CSS)
+        self.assertIn(".contact-field-wide,.contact-form button{grid-column:auto}", CSS)
 
 
 if __name__ == "__main__":
