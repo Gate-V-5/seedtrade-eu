@@ -13,7 +13,8 @@ const STORAGE_KEY = "seedtrade_language"
 const LanguageContext = createContext({ language: "EN", setLanguage: () => {} })
 
 export function translate(language, english, values = {}) {
-  const phrase = messages[language]?.[english] || english
+  const catalog = Object.hasOwn(messages, language) ? messages[language] : null
+  const phrase = catalog && Object.hasOwn(catalog, english) && catalog[english] ? catalog[english] : english
   return phrase.replace(/\{(\w+)\}/g, (match, key) => Object.hasOwn(values, key) ? String(values[key]) : match)
 }
 

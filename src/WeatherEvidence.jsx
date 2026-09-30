@@ -22,7 +22,7 @@ export default function WeatherEvidence() {
         <h2><T>European coverage</T></h2>
         <svg className="europe-weather-map" viewBox={europeMap.view_box.join(" ")} role="img" aria-label={t("Europe map: {regions} monitored regions in {countries} countries; full region names follow below",{regions:weather.region_count,countries:groups.length})}>
           {europeMap.countries.map(country => <path key={country.name} d={country.path} className={europeMap.monitored_country_counts[country.code] ? "map-country monitored" : "map-country"}>
-            <title>{europeMap.monitored_country_counts[country.code] ? t("{name} — {count} monitored regions",{name:country.name,count:europeMap.monitored_country_counts[country.code]}) : t("{name} — no monitored regions shown",{name:country.name})}</title>
+            <title>{europeMap.monitored_country_counts[country.code] ? t("{name} — {count} monitored regions",{name:t(country.name),count:europeMap.monitored_country_counts[country.code]}) : t("{name} — no monitored regions shown",{name:t(country.name)})}</title>
           </path>)}
           {europeMap.countries.filter(country => country.label && europeMap.monitored_country_counts[country.code]).map(country => <g key={country.code} className="map-count" transform={`translate(${country.label.join(" ")})`}>
             <circle r="16"/><text textAnchor="middle" dy="5">{europeMap.monitored_country_counts[country.code]}</text>
@@ -44,7 +44,7 @@ export default function WeatherEvidence() {
     <section className="weather-region-section">
       <div className="section-head"><div><p className="eyebrow"><T>Canonical monitored regions</T></p><h2><I18n text="All {count} regions" values={{count:weather.region_count}}/></h2></div></div>
       <div className="weather-region-groups">{groups.map(({country, regions}) => <section className="weather-region-group" key={country}>
-        <h3>{country} <span>{regions.length}</span></h3>
+        <h3>{t(country)} <span>{regions.length}</span></h3>
         <ul>{regions.map(region => <li key={region.code}><span>{region.name}</span><small><I18n text="{date} shared weather snapshot" values={{date:weather.observed_date}}/></small></li>)}</ul>
       </section>)}</div>
       <p className="source"><T>Region names and countries: SeedTrade PUBLIC_SAFE weather configuration. Individual monitored crops, phenology stages and observation timestamps are not available in the published regional records.</T> {weather.methodology_note}</p>

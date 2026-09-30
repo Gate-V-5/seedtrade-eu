@@ -13,6 +13,13 @@ class MultilingualUiV1ATests(unittest.TestCase):
         )
         self.assertIn("SSR coverage PASS", result.stdout)
 
+    def test_hydration_selection_persistence_and_b2b_messages(self):
+        result = subprocess.run(
+            ["node", "scripts/check_i18n_dom.mjs"],
+            cwd=ROOT, capture_output=True, text=True, check=True,
+        )
+        self.assertIn("real email sends=0", result.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()
