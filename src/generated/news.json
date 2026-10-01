@@ -280,6 +280,1002 @@
           "why_it_matters": "Caldo e deficit idrici durante la fioritura, il riempimento dei semi o lo sviluppo dei tuberi possono influire sui risultati della moltiplicazione e sulla disponibilità successiva. SeedTrade registra quindi l’evento solo come evidenza di contesto e non lo converte in un Market Signal direzionale."
         }
       }
+    },
+    {
+      "id": "daily-weather-20261001",
+      "slug": "eu-weather-september-2026-baseline",
+      "canonical_url": "https://seedtrade.eu/news/eu-weather-september-2026-baseline",
+      "schema_version": 2,
+      "stream": "EU Weather",
+      "category": "WEATHER",
+      "tags": [
+        "EU Weather"
+      ],
+      "countries": [
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "region_codes": [
+        "FR_CENTRAL",
+        "FR_EAST",
+        "FR_NORTH",
+        "FR_SOUTH",
+        "FR_WEST",
+        "DE_CENTRAL",
+        "DE_EAST",
+        "DE_NORTH",
+        "DE_SOUTH",
+        "IT_CENTRAL",
+        "IT_NORTH",
+        "IT_SOUTH",
+        "LT_CENTRAL",
+        "LT_NORTH",
+        "LT_SOUTH",
+        "PL_CENTRAL",
+        "PL_EAST",
+        "PL_NORTH",
+        "PL_SOUTH",
+        "PL_WEST",
+        "ES_CENTRAL",
+        "ES_NORTH",
+        "ES_SOUTH"
+      ],
+      "species_ids": [
+        "maize",
+        "potato"
+      ],
+      "geography": {
+        "countries": [
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "region": "Europe"
+      },
+      "links": {
+        "crops": [
+          "maize",
+          "potatoes"
+        ],
+        "countries": [
+          "FR",
+          "IT",
+          "ES"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "publication_date": "2026-10-01",
+      "updated_at": "2026-10-01",
+      "observation_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-28"
+      },
+      "source_published_at": "2026-09-28",
+      "checked_at": "2026-10-01",
+      "valid_until": "2026-10-09",
+      "sources": [
+        {
+          "id": "mars-september",
+          "source_id": "jrc-mars",
+          "label": "Joint Research Centre / JRC MARS",
+          "source_type": "OFFICIAL_DATA",
+          "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/european-agriculture-hit-hard-exceptionally-hot-and-dry-summer-2026-09-28_en",
+          "published_at": "2026-09-28",
+          "checked_at": "2026-10-01",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible publication date",
+          "scope": "EU summer-crop forecasts and western/central European conditions",
+          "evidence_locator": "Summer crop yield prospects fall sharply; Less grass, less fodder",
+          "origin_id": "EC_JRC"
+        },
+        {
+          "id": "edo-september",
+          "source_id": "copernicus-edo",
+          "label": "Copernicus European Drought Observatory",
+          "source_type": "OFFICIAL_DATA",
+          "url": "https://drought.emergency.copernicus.eu/",
+          "published_at": null,
+          "checked_at": "2026-10-01",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "No publication date displayed; checked_at is verification date, not publication date",
+          "scope": "European drought situation in mid-September 2026",
+          "evidence_locator": "Drought in Europe in mid-September 2026",
+          "origin_id": "EC_JRC"
+        }
+      ],
+      "claims": [
+        {
+          "id": "w-forecast",
+          "statement": "JRC September forecasts place EU grain-maize yield 8% and potato yield 7% below the five-year average.",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "mars-september"
+          ],
+          "scope": "EU yield forecasts; September 2026",
+          "limitations": "Forecasts, not final production or certified seed availability.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "w-stage",
+          "statement": "JRC links accelerated crop development and limited water to summer-crop yield pressure.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "mars-september"
+          ],
+          "scope": "Western/central Europe; summer crop development",
+          "limitations": "JRC model/expert assessment, not local measurements for every SeedTrade region.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "w-drought",
+          "statement": "Copernicus describes drought conditions as critical across much of Europe in mid-September.",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "edo-september"
+          ],
+          "scope": "European drought indicators; mid-September 2026",
+          "limitations": "Same institutional origin as MARS; not an independent confirmation.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "w-market",
+          "statement": "If autumn field evidence confirms establishment problems, planting and seed purchasing plans may need review.",
+          "evidence_class": "SCENARIO",
+          "source_ids": [
+            "mars-september"
+          ],
+          "scope": "Future autumn establishment decisions",
+          "limitations": "No winter area decline or spring seed-demand increase is established.",
+          "publish_conclusion": true
+        }
+      ],
+      "source_name": "Joint Research Centre / JRC MARS",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/european-agriculture-hit-hard-exceptionally-hot-and-dry-summer-2026-09-28_en",
+      "source_tier": 1,
+      "provenance_class": "OFFICIAL_SOURCE",
+      "series_id": "daily-eu-weather",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "BASELINE",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "fingerprint": "f1a70c611769450b2214d4ea646b71561ddc27b09a15109ca1a3622d46a80838",
+      "corrections": [],
+      "coverage_limitations": "Broader EU evidence is distinct from the 23 SeedTrade regions in FR, DE, IT, LT, PL and ES. No statistically representative EU average or new regional measurement is asserted.",
+      "image": null,
+      "localizations": {
+        "de": {
+          "headline": "Das Septembermonitoring trennt Sommerverluste von Risiken für die Herbstsaat",
+          "summary": "Die JRC-Bewertung vom 28. September beschreibt den Ertragsdruck auf Sommerkulturen nach Hitze und Dürre; Copernicus meldet anhaltende Trockenheit für Mitte September. Diese erste SeedTrade-Bestandsaufnahme trennt europäische Erkenntnisse vom Monitoring der 23 Regionen. Keine der beiden Quellen belegt veränderte Herbstanbauflächen oder die künftige Verfügbarkeit zertifizierten Saatguts.",
+          "why_it_matters": "Saatgutunternehmen müssen Ernteverluste von der Saatgutverfügbarkeit unterscheiden. Einkaufsentscheidungen im Herbst benötigen aktuelle Nachweise zur Bestandesetablierung und Zertifizierung, statt Annahmen aus sommerlichen Ertragsprognosen.",
+          "content": [
+            {
+              "id": "change",
+              "heading": "Was sich verändert hat",
+              "body": "JRC beschreibt die Verschlechterung von günstigen Frühjahrsbedingungen zu sommerlichem Stress. Hitze beschleunigte die Entwicklung von Mais (Zea mays) in empfindlichen Phasen, während Wassermangel das Wachstum begrenzte. Dies ist die erste Bewertung dieser Reihe; eine frühere SeedTrade-Bewertung zum Vergleich gibt es nicht."
+            },
+            {
+              "id": "situation",
+              "heading": "Aktuelle Situation",
+              "body": "JRC prognostiziert EU-Erträge bei Körnermais 8% und bei Kartoffeln (Solanum tuberosum) 7% unter dem Fünfjahresmittel. Es handelt sich um Septemberprognosen, nicht um endgültige Erntestatistiken. Die Copernicus-Dürreübersicht für Mitte September stammt ebenfalls aus dem institutionellen Umfeld von EC/JRC und ist keine unabhängige Bestätigung."
+            },
+            {
+              "id": "market",
+              "heading": "Einordnung für den Saatgutmarkt",
+              "body": "Die 23 SeedTrade-Regionen liegen in Frankreich, Deutschland, Italien, Litauen, Polen und Spanien; sie sind keine statistisch repräsentative EU-Stichprobe. Ihr bestehender Datenstand liefert hier keine neuen regionalen Messungen. Ertragsdruck allein belegt keine Engpässe bei zertifiziertem Saatgut."
+            },
+            {
+              "id": "watch",
+              "heading": "Worauf als Nächstes zu achten ist",
+              "body": "Zu beobachten sind bestätigte Berichte über Feldbefahrbarkeit und Bestandesetablierung im Herbst, weitere Revisionen des Pflanzenmonitorings und Zertifizierungsdaten. Werden lokale Etablierungsprobleme bestätigt, könnten Anbaupläne überprüft werden müssen. Ein Rückgang der Winteranbaufläche oder steigende Nachfrage nach Frühjahrssaatgut ist weiterhin nicht belegt."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Le suivi de septembre distingue pertes estivales et risques pour les semis",
+          "summary": "L’évaluation du JRC du 28 septembre décrit la pression sur les rendements des cultures d’été après chaleur et sécheresse; Copernicus signale une sécheresse persistante à la mi-septembre. Ce premier état des lieux SeedTrade distingue les données européennes du suivi de ses 23 régions. Aucune des sources n’établit une évolution des surfaces d’automne ni la disponibilité future des semences certifiées.",
+          "why_it_matters": "Les entreprises semencières doivent distinguer pertes de récolte et disponibilité des semences. Les achats d’automne nécessitent des données récentes sur l’implantation et la certification, plutôt que des hypothèses issues des prévisions estivales.",
+          "content": [
+            {
+              "id": "change",
+              "heading": "Ce qui a changé",
+              "body": "Le JRC décrit le passage de conditions printanières favorables à un stress estival. La chaleur a accéléré le développement du maïs (Zea mays) pendant des phases sensibles, tandis que le manque d’eau limitait la croissance. Il s’agit de la première évaluation de cette série; aucune précédente évaluation SeedTrade ne sert de comparaison."
+            },
+            {
+              "id": "situation",
+              "heading": "Situation actuelle",
+              "body": "Le JRC prévoit des rendements européens de maïs grain inférieurs de 8% et de pommes de terre (Solanum tuberosum) de 7% à la moyenne quinquennale. Ce sont des prévisions de septembre, pas des statistiques définitives de récolte. L’état de la sécheresse de Copernicus à la mi-septembre relève aussi de EC/JRC et ne constitue pas une corroboration indépendante."
+            },
+            {
+              "id": "market",
+              "heading": "Contexte pour le marché des semences",
+              "body": "Les 23 régions SeedTrade couvrent la France, l’Allemagne, l’Italie, la Lituanie, la Pologne et l’Espagne, sans constituer un échantillon statistiquement représentatif de l’UE. Leur état existant ne fournit ici aucune nouvelle mesure régionale. La pression sur les rendements ne prouve pas à elle seule une pénurie de semences certifiées."
+            },
+            {
+              "id": "watch",
+              "heading": "Points à surveiller",
+              "body": "Suivre les observations vérifiées sur l’accès aux parcelles et l’implantation d’automne, les révisions du suivi des cultures et les données de certification. Si des difficultés locales d’implantation sont confirmées, les plans de culture pourraient nécessiter une révision. Une baisse des surfaces d’hiver ou une hausse de la demande de semences de printemps reste non démontrée."
+            }
+          ]
+        },
+        "es": {
+          "headline": "El seguimiento de septiembre distingue pérdidas estivales y riesgos de siembra",
+          "summary": "La evaluación del JRC del 28 de septiembre describe presión sobre los rendimientos estivales tras el calor y la sequía; Copernicus señala sequía persistente a mediados de septiembre. Este primer balance SeedTrade separa la evidencia europea del seguimiento de sus 23 regiones. Ninguna fuente demuestra cambios en la superficie otoñal ni la futura disponibilidad de semilla certificada.",
+          "why_it_matters": "Las empresas semilleras deben distinguir pérdidas de cosecha y disponibilidad de semilla. Las compras otoñales requieren evidencia actual de implantación y certificación, en lugar de supuestos derivados de previsiones estivales.",
+          "content": [
+            {
+              "id": "change",
+              "heading": "Qué ha cambiado",
+              "body": "El JRC describe el deterioro desde condiciones primaverales favorables hasta estrés estival. El calor aceleró el desarrollo del maíz (Zea mays) durante fases sensibles, mientras el déficit hídrico reducía el crecimiento. Esta es la primera evaluación de la serie; no existe una evaluación SeedTrade anterior con la que compararla."
+            },
+            {
+              "id": "situation",
+              "heading": "Situación actual",
+              "body": "El JRC prevé rendimientos de maíz grano en la UE un 8% y de patata (Solanum tuberosum) un 7% por debajo de la media quinquenal. Son previsiones de septiembre, no estadísticas definitivas de cosecha. El balance de sequía de Copernicus de mediados de septiembre comparte el origen institucional EC/JRC y no constituye corroboración independiente."
+            },
+            {
+              "id": "market",
+              "heading": "Contexto del mercado de semillas",
+              "body": "Las 23 regiones SeedTrade abarcan Francia, Alemania, Italia, Lituania, Polonia y España; no son una muestra estadísticamente representativa de la UE. Su información existente no aporta aquí nuevas mediciones regionales. La presión sobre el rendimiento no demuestra por sí sola escasez de semilla certificada."
+            },
+            {
+              "id": "watch",
+              "heading": "Qué vigilar a continuación",
+              "body": "Vigilar los informes verificados de acceso al campo e implantación otoñal, las revisiones del seguimiento de cultivos y la evidencia de certificación. Si se confirman problemas locales de implantación, podría ser necesario revisar los planes de cultivo. No se ha demostrado una caída del área de invierno ni un aumento de la demanda de semilla de primavera."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Il monitoraggio di settembre distingue perdite estive e rischi di semina",
+          "summary": "La valutazione JRC del 28 settembre descrive la pressione sulle rese estive dopo caldo e siccità; Copernicus segnala siccità persistente a metà settembre. Questa prima analisi SeedTrade distingue le evidenze europee dal monitoraggio delle sue 23 regioni. Nessuna fonte dimostra variazioni delle superfici autunnali o la futura disponibilità di sementi certificate.",
+          "why_it_matters": "Le imprese sementiere devono distinguere perdite di raccolto e disponibilità di sementi. Gli acquisti autunnali richiedono evidenze aggiornate sull’insediamento e sulla certificazione, anziché ipotesi derivate dalle previsioni estive.",
+          "content": [
+            {
+              "id": "change",
+              "heading": "Cosa è cambiato",
+              "body": "Il JRC descrive il peggioramento da condizioni primaverili favorevoli a stress estivo. Il caldo ha accelerato lo sviluppo del mais (Zea mays) nelle fasi sensibili, mentre il deficit idrico limitava la crescita. Questa è la prima valutazione della serie; non esiste una precedente analisi SeedTrade da confrontare."
+            },
+            {
+              "id": "situation",
+              "heading": "Situazione attuale",
+              "body": "Il JRC prevede rese UE del mais da granella inferiori dell’8% e della patata (Solanum tuberosum) del 7% alla media quinquennale. Sono previsioni di settembre, non statistiche definitive di raccolto. Il quadro della siccità Copernicus di metà settembre ha la stessa origine istituzionale EC/JRC e non costituisce una conferma indipendente."
+            },
+            {
+              "id": "market",
+              "heading": "Contesto del mercato delle sementi",
+              "body": "Le 23 regioni SeedTrade coprono Francia, Germania, Italia, Lituania, Polonia e Spagna; non sono un campione statisticamente rappresentativo dell’UE. La loro situazione esistente non fornisce qui nuove misurazioni regionali. La pressione sulle rese non dimostra da sola carenze di sementi certificate."
+            },
+            {
+              "id": "watch",
+              "heading": "Cosa monitorare",
+              "body": "Monitorare i riscontri verificati sull’accessibilità dei campi e sull’insediamento autunnale, le revisioni del monitoraggio colturale e le evidenze di certificazione. Se emergono problemi locali confermati, i piani colturali potrebbero richiedere una revisione. Una riduzione delle superfici invernali o un aumento della domanda di sementi primaverili non è dimostrato."
+            }
+          ]
+        }
+      },
+      "headline": "September crop monitoring separates summer losses from autumn seed risks",
+      "summary": "JRC’s 28 September assessment reports summer-crop yield pressure following heat and drought, while Copernicus describes persistent mid-September drought. This first SeedTrade baseline separates broader European evidence from its 23-region monitoring framework. Neither source establishes autumn planted-area changes or future certified-seed availability.",
+      "why_it_matters": "Seed businesses need to distinguish crop losses from seed availability. Autumn purchasing decisions require current establishment and certification evidence, rather than assumptions drawn from summer yield forecasts.",
+      "content": [
+        {
+          "id": "change",
+          "heading": "What changed",
+          "body": "JRC describes a deterioration from favourable spring conditions to summer stress. Heat accelerated maize (Zea mays) development through sensitive stages, while water deficits reduced growth. This is the first assessment in this series; there is no previous SeedTrade assessment to compare.",
+          "claim_ids": [
+            "w-stage"
+          ]
+        },
+        {
+          "id": "situation",
+          "heading": "Current situation",
+          "body": "JRC forecasts EU grain-maize yield 8% and potato (Solanum tuberosum) yield 7% below the five-year average. These are September forecasts, not final harvest statistics. Copernicus’ mid-September drought overview shares the EC/JRC institutional origin and is not independent corroboration.",
+          "claim_ids": [
+            "w-forecast",
+            "w-drought"
+          ]
+        },
+        {
+          "id": "market",
+          "heading": "Seed-market context",
+          "body": "The 23 SeedTrade regions cover France, Germany, Italy, Lithuania, Poland and Spain, not a statistically representative EU sample. Their existing snapshot supplies no new regional measurements here. Crop-yield pressure does not by itself establish certified-seed shortages.",
+          "claim_ids": [
+            "w-market"
+          ]
+        },
+        {
+          "id": "watch",
+          "heading": "What to watch next",
+          "body": "Watch for verified autumn field-access and establishment reports, subsequent crop-monitoring revisions and certified-seed evidence. If local establishment problems are confirmed, planting plans may need review. A fall in winter-crop area or rise in spring seed demand remains unproven.",
+          "claim_ids": [
+            "w-market"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-agronomist-20261001",
+      "slug": "eu-agronomist-latvia-autumn-establishment",
+      "canonical_url": "https://seedtrade.eu/news/eu-agronomist-latvia-autumn-establishment",
+      "schema_version": 2,
+      "stream": "EU Agronomist",
+      "category": "AGRONOMY",
+      "tags": [
+        "EU Agronomist"
+      ],
+      "countries": [
+        "LV"
+      ],
+      "region_codes": [],
+      "species_ids": [
+        "winter-wheat"
+      ],
+      "geography": {
+        "countries": [
+          "LV"
+        ],
+        "region": "Latvia"
+      },
+      "links": {
+        "crops": [
+          "winter wheat"
+        ],
+        "countries": [
+          "LV"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "publication_date": "2026-10-01",
+      "updated_at": "2026-10-01",
+      "observation_period": {
+        "start": "2026-08-22",
+        "end": "2026-09-29"
+      },
+      "source_published_at": "2026-09-29",
+      "checked_at": "2026-10-01",
+      "valid_until": "2026-10-15",
+      "sources": [
+        {
+          "id": "llkc-september",
+          "source_id": "llkc",
+          "label": "Latvijas Lauku konsultāciju un izglītības centrs / LLKC",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://llkc.lv/aktualitates/vasaraju-razas-kopuma-labas-tacu-lietavas-apgrutina-to-novaksanu-un-ziemaju-seju/",
+          "published_at": "2026-09-29",
+          "checked_at": "2026-10-01",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible publication date",
+          "scope": "Latvia; regional field and farm observations",
+          "evidence_locator": "Lietavas kavē arī ziemāju sēju; LLKC methodology paragraph",
+          "origin_id": "llkc"
+        }
+      ],
+      "claims": [
+        {
+          "id": "a-delay",
+          "statement": "LLKC reports that wet soils are delaying winter-crop seedbed preparation and sowing in parts of Latvia.",
+          "evidence_class": "INDICATIVE",
+          "source_ids": [
+            "llkc-september"
+          ],
+          "scope": "Latvian field observations reported 29 September",
+          "limitations": "Not a national planted-area census or an EU-wide assessment.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "a-decision",
+          "statement": "If a field remains too wet, autumn establishment plans may need review using local advice and field checks.",
+          "evidence_class": "SCENARIO",
+          "source_ids": [
+            "llkc-september"
+          ],
+          "scope": "Field-level decisions in Latvia",
+          "limitations": "No universal sowing date, rate or re-sowing instruction is prescribed.",
+          "publish_conclusion": true
+        }
+      ],
+      "source_name": "Latvijas Lauku konsultāciju un izglītības centrs / LLKC",
+      "source_url": "https://llkc.lv/aktualitates/vasaraju-razas-kopuma-labas-tacu-lietavas-apgrutina-to-novaksanu-un-ziemaju-seju/",
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "series_id": "daily-eu-agronomist",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "BASELINE",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "fingerprint": "2e69f947859d69085ab71b4f6085c88cd820871ffb6df38c9c23df870b1a74c4",
+      "corrections": [],
+      "coverage_limitations": "Latvian advisory observations; not evidence for Lithuania, all Baltic countries or the EU.",
+      "image": null,
+      "localizations": {
+        "de": {
+          "headline": "Nasse Felder in Lettland erfordern eine Prüfung der Herbstaussaat",
+          "summary": "Die LLKC-Feldbewertung vom 29. September berichtet, dass nasse Böden in Teilen Lettlands die Saatbettbereitung und Aussaat von Winterkulturen verzögern. Bei Winterweizen (Triticum aestivum) geht es unmittelbar darum, Befahrbarkeit und Etablierungspläne neu zu bewerten, statt einen landesweiten Rückgang der Anbaufläche anzunehmen.",
+          "why_it_matters": "Lokale Etablierungsbedingungen können Aussaatlogistik und Saatgutzuteilung beeinflussen. Entscheidungen anhand von Feldbefunden und regionaler Beratung überprüfen; der Bericht beziffert keine landesweiten Veränderungen der Saatgutnachfrage.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Aktuelle Situation",
+              "body": "LLKC beschreibt unterschiedliche Erntefortschritte und nasse Felder, mit besonderen Schwierigkeiten in Kurzeme und im nördlichen Vidzeme. Einige Betriebe hatten die Wintergetreidesaat noch nicht begonnen. Dies sind beratungsbasierte Feldbeobachtungen, keine Erhebung der gesamten lettischen Winterweizenfläche."
+            },
+            {
+              "id": "decision",
+              "heading": "Praktische Entscheidung",
+              "body": "Die praktische Frage lautet, ob das jeweilige Feld für die Bestandesetablierung bereit ist. Bei anhaltender Nässe sollten Saatbettbereitung und Aussaatplanung mit örtlicher agronomischer Beratung überprüft werden. Die Daten rechtfertigen weder einen allgemeingültigen Saattermin oder eine Saatstärke noch die Anweisung, eine Kultur zu ersetzen."
+            },
+            {
+              "id": "watch",
+              "heading": "Worauf als Nächstes zu achten ist",
+              "body": "Bestätigte Fortschritte bei Befahrbarkeit, Aussaat und Feldaufgang beobachten. Tatsächlich bestellte und geplante Flächen getrennt halten. Erst spätere Flächen- und Marktdaten könnten zeigen, ob die verzögerte Etablierung den Saatguteinkauf verändert."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Les sols humides en Lettonie imposent de réexaminer l’implantation automnale",
+          "summary": "L’évaluation de terrain du LLKC du 29 septembre signale que les sols humides retardent la préparation du lit de semences et les semis d’hiver dans certaines zones de Lettonie. Pour le blé d’hiver (Triticum aestivum), la décision immédiate consiste à réévaluer l’état des parcelles et les plans d’implantation, sans présumer une baisse nationale des surfaces.",
+          "why_it_matters": "Les conditions locales d’implantation peuvent modifier la logistique des semis et l’affectation des semences. Réexaminer les décisions à partir des observations et du conseil régional; le rapport ne chiffre pas l’évolution nationale de la demande.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Situation actuelle",
+              "body": "Le LLKC décrit une progression inégale des récoltes et des parcelles humides, avec des difficultés particulières en Kurzeme et dans le nord du Vidzeme. Certaines exploitations n’avaient pas commencé les semis de céréales d’hiver. Ces observations de conseillers ne constituent pas un recensement national des surfaces de blé d’hiver."
+            },
+            {
+              "id": "decision",
+              "heading": "Décision pratique",
+              "body": "La question pratique est de savoir si chaque parcelle est prête à être implantée. Si l’humidité persiste, réexaminer la préparation du lit de semences et le programme de semis avec un conseil agronomique local. Les éléments disponibles ne justifient ni date ou densité universelle de semis, ni consigne de remplacement d’une culture."
+            },
+            {
+              "id": "watch",
+              "heading": "Points à surveiller",
+              "body": "Suivre les progrès vérifiés de l’accès aux parcelles, des semis et des levées. Distinguer surfaces réellement semées et intentions. Seules des données ultérieures sur les surfaces et le commerce permettraient d’établir si les retards modifient les achats de semences."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Los campos húmedos de Letonia obligan a revisar la implantación otoñal",
+          "summary": "La evaluación de campo del LLKC del 29 de septiembre indica que los suelos húmedos retrasan la preparación del lecho de siembra y la siembra de cultivos de invierno en partes de Letonia. Para el trigo de invierno (Triticum aestivum), la decisión inmediata es reevaluar las condiciones de la parcela y los planes de implantación, sin presuponer una pérdida nacional de superficie.",
+          "why_it_matters": "Las condiciones locales de implantación pueden afectar a la logística de siembra y la asignación de semillas. Revisar las decisiones con observaciones de campo y asesoramiento regional; el informe no cuantifica cambios nacionales de demanda.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Situación actual",
+              "body": "El LLKC describe avances desiguales de la cosecha y campos húmedos, con dificultades particulares en Kurzeme y el norte de Vidzeme. Algunas explotaciones no habían iniciado la siembra de cereales de invierno. Son observaciones de asesores, no un censo nacional de la superficie de trigo de invierno."
+            },
+            {
+              "id": "decision",
+              "heading": "Decisión práctica",
+              "body": "La cuestión práctica es si cada parcela está lista para la implantación. Si persiste la humedad, revisar la preparación del lecho y los planes de siembra con asesoramiento agronómico local. La evidencia no justifica una fecha o dosis de siembra universal, ni una instrucción de sustituir el cultivo."
+            },
+            {
+              "id": "watch",
+              "heading": "Qué vigilar a continuación",
+              "body": "Vigilar los avances verificados en acceso a las parcelas, siembra y emergencia. Separar la superficie realmente sembrada de la prevista. Solo datos posteriores de superficie y actividad comercial permitirían determinar si los retrasos alteran las compras de semilla."
+            }
+          ]
+        },
+        "it": {
+          "headline": "I campi umidi in Lettonia richiedono di rivedere l’insediamento autunnale",
+          "summary": "La valutazione di campo LLKC del 29 settembre segnala che i suoli umidi ritardano la preparazione del letto di semina e le semine invernali in alcune zone della Lettonia. Per il frumento invernale (Triticum aestivum), la decisione immediata è rivalutare la praticabilità delle parcelle e i piani d’insediamento, senza presumere una riduzione nazionale delle superfici.",
+          "why_it_matters": "Le condizioni locali d’insediamento possono influire sulla logistica di semina e sull’allocazione delle sementi. Rivedere le decisioni con osservazioni di campo e consulenza regionale; il rapporto non quantifica variazioni nazionali della domanda.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Situazione attuale",
+              "body": "LLKC descrive progressi disomogenei della raccolta e campi umidi, con difficoltà particolari in Kurzeme e nel nord di Vidzeme. Alcune aziende non avevano avviato la semina dei cereali invernali. Sono osservazioni dei consulenti, non un censimento nazionale delle superfici di frumento invernale."
+            },
+            {
+              "id": "decision",
+              "heading": "Decisione pratica",
+              "body": "La domanda pratica è se ogni parcella sia pronta per l’insediamento. Se l’umidità persiste, rivedere la preparazione del letto e i programmi di semina con consulenza agronomica locale. Le evidenze non giustificano una data o dose di semina universale, né l’indicazione di sostituire una coltura."
+            },
+            {
+              "id": "watch",
+              "heading": "Cosa monitorare",
+              "body": "Monitorare i progressi verificati nell’accesso ai campi, nella semina e nell’emergenza. Distinguere superfici effettivamente seminate e previste. Solo dati successivi sulle superfici e sul commercio potrebbero stabilire se i ritardi modificano gli acquisti di sementi."
+            }
+          ]
+        }
+      },
+      "headline": "Latvian wet fields put autumn establishment decisions under review",
+      "summary": "LLKC’s 29 September field assessment reports that wet soils are delaying winter-crop seedbed preparation and sowing in parts of Latvia. For winter wheat (Triticum aestivum), the immediate decision is how to reassess field readiness and establishment plans, not to assume a national loss of planted area.",
+      "why_it_matters": "Local establishment conditions can affect sowing logistics and seed allocation. Review decisions against field evidence and regional advice; the report does not quantify national seed-demand changes.",
+      "content": [
+        {
+          "id": "situation",
+          "heading": "Current situation",
+          "body": "LLKC describes uneven harvest progress and wet fields, with particular difficulties in Kurzeme and northern Vidzeme. Some farms had not started winter-cereal sowing. These are advisory field observations, not a census of the national winter-wheat area.",
+          "claim_ids": [
+            "a-delay"
+          ]
+        },
+        {
+          "id": "decision",
+          "heading": "Practical decision",
+          "body": "The professional question is whether each field is ready for establishment. If wet conditions persist, review seedbed preparation and sowing plans with local agronomic advice. The evidence does not justify a universal sowing date, seed rate or instruction to replace a crop.",
+          "claim_ids": [
+            "a-decision"
+          ]
+        },
+        {
+          "id": "watch",
+          "heading": "What to watch next",
+          "body": "Watch for verified progress in field access, sowing and emergence. Keep actual planted area separate from intended area. Only subsequent area and commercial evidence could establish whether delayed establishment changes seed purchasing.",
+          "claim_ids": [
+            "a-decision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-trade-20261001",
+      "slug": "eu-trade-market-nak-interim-seed-potato-checks",
+      "canonical_url": "https://seedtrade.eu/news/eu-trade-market-nak-interim-seed-potato-checks",
+      "schema_version": 2,
+      "stream": "EU Trade Market",
+      "category": "CERTIFICATION",
+      "tags": [
+        "EU Trade Market"
+      ],
+      "countries": [
+        "NL"
+      ],
+      "region_codes": [],
+      "species_ids": [
+        "potato"
+      ],
+      "geography": {
+        "countries": [
+          "NL"
+        ],
+        "region": "Netherlands"
+      },
+      "links": {
+        "crops": [
+          "seed potatoes"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "publication_date": "2026-10-01",
+      "updated_at": "2026-10-01",
+      "observation_period": {
+        "start": "2026-09-14",
+        "end": "2026-09-20"
+      },
+      "source_published_at": "2026-09-25",
+      "checked_at": "2026-10-01",
+      "valid_until": "2026-10-23",
+      "sources": [
+        {
+          "id": "nak-week38",
+          "source_id": "nak",
+          "label": "NAK",
+          "source_type": "OFFICIAL_DATA",
+          "url": "https://www.nak.nl/nacontrole-2026-update-1/",
+          "published_at": "2026-09-25",
+          "checked_at": "2026-10-01",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible publication date",
+          "scope": "Netherlands; interim seed-potato virus post-control",
+          "evidence_locator": "Verwerkingscapaciteit: results at end of week 38; regional breakdown deferred",
+          "origin_id": "nak"
+        }
+      ],
+      "claims": [
+        {
+          "id": "t-results",
+          "statement": "NAK reports virus results for 15% of samples by the end of week 38, with downgrades in more than 28% of those cases.",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "nak-week38"
+          ],
+          "scope": "Interim tested seed-potato samples in the Netherlands",
+          "limitations": "Not 28% of the entire harvest; denominator and provisional coverage retained.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "t-later",
+          "statement": "NAK says post-control started around two weeks later than the previous year.",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "nak-week38"
+          ],
+          "scope": "Dutch post-control process in 2026",
+          "limitations": "A timing comparison, not proof of delivery failure.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "t-market",
+          "statement": "The interim figures alone do not establish an EU shortage or a market price.",
+          "evidence_class": "INSUFFICIENT",
+          "source_ids": [
+            "nak-week38"
+          ],
+          "scope": "EU supply and pricing conclusions",
+          "limitations": "Insufficient coverage to publish a shortage or price conclusion.",
+          "publish_conclusion": false
+        }
+      ],
+      "source_name": "NAK",
+      "source_url": "https://www.nak.nl/nacontrole-2026-update-1/",
+      "source_tier": 1,
+      "provenance_class": "OFFICIAL_SOURCE",
+      "series_id": "daily-eu-trade-market",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "BASELINE",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "fingerprint": "c566db20adc8b73bcaeb8991334a68a3077d707417987fa5742a330321d288cd",
+      "corrections": [],
+      "coverage_limitations": "Dutch seed-potato certification process only; no conclusion on all EU stocks, commodity potatoes or market prices.",
+      "image": null,
+      "localizations": {
+        "de": {
+          "headline": "Frühe Rückstufungszahlen bei niederländischen Pflanzkartoffeln erfordern eine vorsichtige Einordnung",
+          "summary": "Das NAK-Update vom 25. September nennt Virusbefunde für 15% der Proben bis Ende der Woche 38; in mehr als 28% dieser Fälle erfolgte eine Rückstufung. Dies ist ein vorläufiges niederländisches Zertifizierungssignal für Pflanzkartoffeln (Solanum tuberosum), kein Beleg für denselben Rückstufungsanteil an der gesamten Ernte.",
+          "why_it_matters": "Käufer benötigen chargenspezifische Zertifizierungs- und Lieferinformationen. Erste Prüfergebnisse erfordern weitere Beobachtung, belegen aber weder einen EU-Engpass noch verfügbare zertifizierte Mengen oder einen Marktpreis.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Aktuelle Situation",
+              "body": "Laut NAK begann die Nachkontrolle rund zwei Wochen später als im Vorjahr. Die ersten Virusbefunde decken nur einen Teil der eingehenden Proben ab. Der angegebene Rückstufungsanteil gilt für Fälle mit Ergebnissen, nicht für die gesamte niederländische Pflanzkartoffelproduktion."
+            },
+            {
+              "id": "market",
+              "heading": "Einordnung für den Saatgutmarkt",
+              "body": "Zertifizierungsklasse und Chargenverfügbarkeit sind vom Angebot an Speisekartoffeln zu trennen. Diese amtlichen Prozesszahlen messen keine zum Verkauf stehenden Bestände. Einen EU-Engpass oder einen Marktpreis daraus abzuleiten, würde über die Beweislage hinausgehen."
+            },
+            {
+              "id": "watch",
+              "heading": "Worauf als Nächstes zu achten ist",
+              "body": "Das nächste NAK-Update auf breitere Ergebnisse und regionale Angaben prüfen und anschließend den Zertifizierungsstatus der konkret gekauften Charge bestätigen. Ein vorläufiger nationaler Prozessbericht ist keine Garantie für eine einzelne Lieferung."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Plants de pomme de terre néerlandais : prudence sur les premiers déclassements",
+          "summary": "La mise à jour NAK du 25 septembre indique des résultats virologiques pour 15% des échantillons à la fin de la semaine 38, avec déclassement dans plus de 28% de ces cas. Ce signal provisoire de certification des plants de pomme de terre (Solanum tuberosum) ne décrit pas la même proportion de la récolte entière.",
+          "why_it_matters": "Les acheteurs ont besoin d’informations de certification et de livraison propres à chaque lot. Les premiers résultats appellent un suivi, sans établir pénurie européenne, tonnage certifié disponible ou prix de marché.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Situation actuelle",
+              "body": "NAK indique que le contrôle après récolte a commencé environ deux semaines plus tard que l’année précédente. Les premiers résultats virologiques ne couvrent qu’une partie des échantillons. Le taux de déclassement concerne les cas ayant un résultat, pas toute la production néerlandaise de plants."
+            },
+            {
+              "id": "market",
+              "heading": "Contexte pour le marché des semences",
+              "body": "Distinguer classe de certification et disponibilité des lots de l’offre de pommes de terre de consommation. Ces chiffres officiels de procédure ne mesurent pas les stocks proposés à la vente. En déduire une pénurie européenne ou un prix de marché dépasserait les éléments disponibles."
+            },
+            {
+              "id": "watch",
+              "heading": "Points à surveiller",
+              "body": "Suivre la prochaine mise à jour NAK pour des résultats plus larges et des précisions régionales, puis vérifier la certification du lot acheté. Ne pas considérer un bilan national provisoire de procédure comme une garantie de livraison individuelle."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Los primeros descensos de categoría de patata de siembra neerlandesa requieren cautela",
+          "summary": "La actualización NAK del 25 de septiembre informa de resultados virológicos para el 15% de las muestras al terminar la semana 38, con descenso de categoría en más del 28% de esos casos. Es una señal provisional de certificación de patata de siembra (Solanum tuberosum), no la misma proporción de toda la cosecha.",
+          "why_it_matters": "Los compradores necesitan información de certificación y entrega específica del lote. Los primeros resultados requieren seguimiento, pero no demuestran escasez en la UE, toneladas certificadas disponibles ni un precio de mercado.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Situación actual",
+              "body": "NAK indica que el control posterior comenzó unas dos semanas más tarde que el año anterior. Los primeros resultados virológicos solo cubren parte de las muestras recibidas. La proporción de descensos de categoría corresponde a los casos con resultados, no a toda la producción neerlandesa de patata de siembra."
+            },
+            {
+              "id": "market",
+              "heading": "Contexto del mercado de semillas",
+              "body": "Separar la categoría de certificación y la disponibilidad de lotes de la oferta de patata de consumo. Estas cifras oficiales del proceso no miden existencias ofrecidas a la venta. Extrapolar una escasez europea o asignar un precio de mercado excedería la evidencia."
+            },
+            {
+              "id": "watch",
+              "heading": "Qué vigilar a continuación",
+              "body": "Consultar la siguiente actualización NAK para resultados más amplios y detalles regionales, y verificar después la certificación del lote comprado. Un informe nacional provisional del proceso no garantiza una entrega individual."
+            }
+          ]
+        },
+        "it": {
+          "headline": "I primi declassamenti delle patate da seme olandesi richiedono cautela",
+          "summary": "L’aggiornamento NAK del 25 settembre riporta esiti virologici per il 15% dei campioni a fine settimana 38, con declassamenti in oltre il 28% di quei casi. È un segnale provvisorio di certificazione della patata da seme (Solanum tuberosum), non la stessa quota dell’intero raccolto.",
+          "why_it_matters": "Gli acquirenti necessitano di informazioni su certificazione e consegna del singolo lotto. I primi risultati richiedono monitoraggio, ma non dimostrano carenza nell’UE, tonnellate certificate disponibili o un prezzo di mercato.",
+          "content": [
+            {
+              "id": "situation",
+              "heading": "Situazione attuale",
+              "body": "NAK indica che il controllo successivo è iniziato circa due settimane più tardi dell’anno precedente. I primi esiti virologici coprono soltanto parte dei campioni ricevuti. La quota di declassamenti riguarda i casi con risultati, non l’intera produzione olandese di patate da seme."
+            },
+            {
+              "id": "market",
+              "heading": "Contesto del mercato delle sementi",
+              "body": "Distinguere classe di certificazione e disponibilità dei lotti dall’offerta di patate da consumo. Questi dati ufficiali di processo non misurano le scorte offerte in vendita. Dedurne una carenza europea o un prezzo di mercato andrebbe oltre le evidenze."
+            },
+            {
+              "id": "watch",
+              "heading": "Cosa monitorare",
+              "body": "Seguire il prossimo aggiornamento NAK per risultati più ampi e dettagli regionali, quindi verificare la certificazione del lotto acquistato. Un rapporto nazionale provvisorio sul processo non garantisce una singola consegna."
+            }
+          ]
+        }
+      },
+      "headline": "Dutch seed potato checks require caution on early downgrade figures",
+      "summary": "NAK’s 25 September update reports virus results for 15% of samples by the end of week 38, with downgrades in more than 28% of those cases. This is an interim Dutch seed-potato (Solanum tuberosum) certification signal, not evidence that the same share of the entire harvest is downgraded.",
+      "why_it_matters": "Buyers need lot-specific certification and delivery information. Early inspection results warrant follow-up, but do not establish an EU shortage, available certified tonnage or a market price.",
+      "content": [
+        {
+          "id": "situation",
+          "heading": "Current situation",
+          "body": "NAK says post-control began around two weeks later than the previous year. The first virus results cover only part of the sample flow. The reported downgrade share applies to cases with results, not to all Dutch seed-potato production.",
+          "claim_ids": [
+            "t-results",
+            "t-later"
+          ]
+        },
+        {
+          "id": "market",
+          "heading": "Seed-market context",
+          "body": "Keep certification class and lot availability separate from commodity-potato supply. These official process figures do not measure stocks offered for sale. Extrapolating an EU shortage or attaching a market price would exceed the evidence.",
+          "claim_ids": [
+            "t-market"
+          ]
+        },
+        {
+          "id": "watch",
+          "heading": "What to watch next",
+          "body": "Watch the next NAK update for broader results and regional detail, then verify the certification status of the specific lot being purchased. Do not treat a provisional national process update as a guarantee of an individual delivery.",
+          "claim_ids": [
+            "t-results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-events-20261001",
+      "slug": "eu-events-euroseeds-valencia-october-2026",
+      "canonical_url": "https://seedtrade.eu/news/eu-events-euroseeds-valencia-october-2026",
+      "schema_version": 2,
+      "stream": "EU Events",
+      "category": "EVENTS",
+      "tags": [
+        "EU Events"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "region_codes": [],
+      "species_ids": [],
+      "geography": {
+        "countries": [
+          "ES"
+        ],
+        "region": "Spain"
+      },
+      "links": {
+        "crops": [],
+        "countries": [
+          "ES"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "publication_date": "2026-10-01",
+      "updated_at": "2026-10-01",
+      "observation_period": {
+        "start": "2026-10-25",
+        "end": "2026-10-28"
+      },
+      "source_published_at": null,
+      "checked_at": "2026-10-01",
+      "valid_until": "2026-10-28",
+      "sources": [
+        {
+          "id": "euroseeds-event",
+          "source_id": "euroseeds",
+          "label": "Euroseeds",
+          "source_type": "INDUSTRY_SIGNAL",
+          "url": "https://euroseedscongress.com/",
+          "published_at": null,
+          "checked_at": "2026-10-01",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "No publication date displayed; checked_at is verification date, not publication date",
+          "scope": "Euroseeds Congress 2026; Valencia, Spain",
+          "evidence_locator": "Organiser invitation: 25 to 28 October; policy and trade themes",
+          "origin_id": "euroseeds"
+        },
+        {
+          "id": "euroseeds-practical",
+          "source_id": "euroseeds",
+          "label": "Euroseeds",
+          "source_type": "INDUSTRY_SIGNAL",
+          "url": "https://euroseedscongress.com/practical-information/",
+          "published_at": null,
+          "checked_at": "2026-10-01",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "No publication date displayed; checked_at is verification date, not publication date",
+          "scope": "Congress access and venue",
+          "evidence_locator": "Registration/admittance; Valencia Conference Centre liability reference",
+          "origin_id": "euroseeds"
+        }
+      ],
+      "claims": [
+        {
+          "id": "e-dates",
+          "statement": "Euroseeds confirms its 2026 Congress in Valencia from 25 to 28 October.",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "euroseeds-event"
+          ],
+          "scope": "One announced professional congress",
+          "limitations": "Organiser confirmation; event details may change.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "e-access",
+          "statement": "Registration eligibility is checked and closed meetings are restricted.",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "euroseeds-practical"
+          ],
+          "scope": "Congress participants and programme access",
+          "limitations": "No universal entitlement to registration or closed sessions.",
+          "publish_conclusion": true
+        }
+      ],
+      "source_name": "Euroseeds",
+      "source_url": "https://euroseedscongress.com/",
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "series_id": "daily-eu-events",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "BASELINE",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "fingerprint": "b71730460ee34c70dcbab8f7815a2c178affb6ae62ea15acbbcd7b0265a7f808",
+      "corrections": [],
+      "coverage_limitations": "One professional seed-industry event; no attendance forecast or endorsement.",
+      "image": null,
+      "localizations": {
+        "de": {
+          "headline": "Der Euroseeds Congress bringt Saatgutprofis im Oktober nach Valencia",
+          "summary": "Euroseeds bestätigt den Euroseeds Congress 2026 in Valencia, Spanien, vom 25. bis 28. Oktober. Der Veranstalter kündigt saatgutpolitische Diskussionen, Treffen und Aktivitäten auf der Handelsfläche an. Die Teilnahmeberechtigung wird geprüft; geschlossene Sitzungen sind zugangsbeschränkt. Fachbesucher sollten das aktuelle Programm und die Teilnahmebedingungen vor ihrer Planung prüfen.",
+          "why_it_matters": "Der Kongress bietet einen gezielten Rahmen für Geschäftstreffen und politische Informationen im Saatgutsektor. Planung an relevanten Sitzungen und Zugangsbedingungen ausrichten, statt jedes Treffen als offen anzusehen.",
+          "content": [
+            {
+              "id": "visit",
+              "heading": "Planung Ihres Besuchs",
+              "body": "Die Veranstaltung wird von Euroseeds im Valencia Conference Centre organisiert. Sie richtet sich an Fachleute aus Züchtung, Saatgutproduktion und Handel. Dieser Artikel dokumentiert die geprüften veröffentlichten Angaben des Veranstalters, keine Besucherprognose oder Zusage wirtschaftlicher Ergebnisse."
+            },
+            {
+              "id": "watch",
+              "heading": "Worauf als Nächstes zu achten ist",
+              "body": "Vor einer Buchung offizielles Programm, Teilnahmeberechtigung sowie Änderungen bei Terminen oder Zugang prüfen. Für geschlossene Sitzungen ist die entsprechende Einladung erforderlich. Nach Kongressende bleibt der Artikel im Archiv und wird nicht mehr als bevorstehende Veranstaltung auf der Startseite ausgewählt."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Euroseeds Congress réunit les professionnels des semences à Valencia en octobre",
+          "summary": "Euroseeds confirme la tenue d’Euroseeds Congress 2026 à Valencia, en Espagne, du 25 au 28 octobre. L’organisateur annonce des échanges sur les politiques semencières, des réunions et un espace de rencontres commerciales. L’éligibilité à l’inscription est vérifiée et les réunions fermées sont réservées. Vérifier le programme et les conditions pratiques avant de prévoir sa participation.",
+          "why_it_matters": "Le congrès offre un cadre ciblé pour les rencontres commerciales et l’actualité réglementaire des semences. Préparer sa participation selon les sessions pertinentes et leurs conditions d’accès, sans supposer toutes les réunions ouvertes.",
+          "content": [
+            {
+              "id": "visit",
+              "heading": "Préparer votre visite",
+              "body": "L’événement est organisé par Euroseeds au Valencia Conference Centre. Il concerne les professionnels de la sélection, de la production et du commerce des semences. Cet article présente les informations publiées et vérifiées de l’organisateur, sans prévision de fréquentation ni promesse de résultat commercial."
+            },
+            {
+              "id": "watch",
+              "heading": "Points à surveiller",
+              "body": "Avant de réserver, vérifier le programme officiel, les règles d’éligibilité et les changements de dates ou d’accès. Les sessions fermées nécessitent l’invitation correspondante. Après le congrès, l’article reste dans les archives et n’est plus sélectionné comme événement à venir sur la page d’accueil."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Euroseeds Congress reúne a profesionales de semillas en Valencia este octubre",
+          "summary": "Euroseeds confirma Euroseeds Congress 2026 en Valencia, España, del 25 al 28 de octubre. El organizador anuncia debates sobre políticas del sector, reuniones y actividad comercial. Se verifica la elegibilidad de inscripción y las reuniones cerradas tienen acceso restringido. Conviene comprobar el programa actual y las condiciones prácticas antes de organizar la asistencia.",
+          "why_it_matters": "El congreso ofrece un entorno especializado para reuniones comerciales y novedades normativas del sector semillero. Planificar según las sesiones relevantes y sus condiciones de acceso, sin asumir que todas están abiertas.",
+          "content": [
+            {
+              "id": "visit",
+              "heading": "Planifique su visita",
+              "body": "Euroseeds organiza el evento en Valencia Conference Centre. Es relevante para profesionales de la mejora genética, la producción y el comercio de semillas. Este artículo recoge los datos publicados y verificados del organizador, no una previsión de asistencia ni una promesa de resultados comerciales."
+            },
+            {
+              "id": "watch",
+              "heading": "Qué vigilar a continuación",
+              "body": "Comprobar el programa oficial, los criterios de inscripción y los cambios de fechas o acceso antes de reservar. Las sesiones cerradas requieren la invitación correspondiente. Tras el congreso, el artículo permanece en el archivo y deja de seleccionarse como evento próximo en la página de inicio."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Euroseeds Congress riunisce i professionisti delle sementi a Valencia in ottobre",
+          "summary": "Euroseeds conferma Euroseeds Congress 2026 a Valencia, in Spagna, dal 25 al 28 ottobre. L’organizzatore presenta discussioni sulle politiche del settore, incontri e attività commerciali. L’idoneità all’iscrizione viene verificata e le riunioni chiuse hanno accesso limitato. Verificare programma e condizioni pratiche prima di organizzare la partecipazione.",
+          "why_it_matters": "Il congresso offre un contesto mirato per incontri commerciali e aggiornamenti normativi del settore sementiero. Pianificare in base alle sessioni pertinenti e alle condizioni d’accesso, senza presumere che ogni riunione sia aperta.",
+          "content": [
+            {
+              "id": "visit",
+              "heading": "Pianificare la visita",
+              "body": "L’evento è organizzato da Euroseeds presso Valencia Conference Centre. È pertinente ai professionisti della selezione, della produzione e del commercio delle sementi. Questo articolo documenta i dettagli pubblicati e verificati dell’organizzatore, non una previsione di affluenza o una promessa di risultati commerciali."
+            },
+            {
+              "id": "watch",
+              "heading": "Cosa monitorare",
+              "body": "Prima di prenotare, verificare programma ufficiale, requisiti d’iscrizione e modifiche a date o accesso. Le sessioni chiuse richiedono il relativo invito. Dopo il congresso, l’articolo resta nell’archivio e non viene più selezionato come evento futuro nella pagina iniziale."
+            }
+          ]
+        }
+      },
+      "event": {
+        "name": "Euroseeds Congress 2026",
+        "start_date": "2026-10-25",
+        "end_date": "2026-10-28",
+        "country": "ES",
+        "location": "Valencia Conference Centre, Valencia",
+        "online": false,
+        "organizer": "Euroseeds",
+        "type": "CONGRESS",
+        "sector_relevance": "Professional plant breeding, seed production, seed trade and policy",
+        "source_url": "https://euroseedscongress.com/",
+        "checked_at": "2026-10-01",
+        "status": "CONFIRMED",
+        "timezone": "Europe/Madrid"
+      },
+      "headline": "Euroseeds Congress brings seed professionals to Valencia this October",
+      "summary": "Euroseeds confirms its 2026 Congress in Valencia, Spain, from 25 to 28 October. The organiser presents seed-sector policy discussions, meetings and trade-floor activity. Registration eligibility is checked, and closed meetings have restricted access. Professionals should verify the current programme and practical conditions before arranging attendance.",
+      "why_it_matters": "The congress offers a focused setting for seed-business meetings and policy updates. Plan around relevant sessions and access conditions, rather than assuming every meeting is open.",
+      "content": [
+        {
+          "id": "visit",
+          "heading": "Planning your visit",
+          "body": "The event is organised by Euroseeds at Valencia Conference Centre. It is relevant to professional breeding, seed production and trade. This article records the organiser’s published details as checked, not an attendance forecast or a promise of commercial outcomes.",
+          "claim_ids": [
+            "e-dates"
+          ]
+        },
+        {
+          "id": "watch",
+          "heading": "What to watch next",
+          "body": "Check the official programme, eligibility rules and any changes to dates or access before booking. Closed sessions require the relevant invitation. After the congress ends, this article remains in the archive and is no longer selected as an upcoming homepage event.",
+          "claim_ids": [
+            "e-access"
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "as_of": "2026-10-01",
+  "editorial_model_version": 2
 }

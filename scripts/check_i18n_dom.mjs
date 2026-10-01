@@ -49,7 +49,7 @@ try {
   const { default: App } = await vite.ssrLoadModule('/src/AppV2.jsx')
   const { languages, translate } = await vite.ssrLoadModule('/src/i18n/index.jsx')
   const files = routeFiles('dist')
-  assert.equal(files.length, 40)
+  assert.equal(files.length, 44)
   async function load(file, savedLanguage) {
     if (root) await act(async () => root.unmount())
     dom.reconfigure({ url: 'https://seedtrade.test/' + path.relative('dist', path.dirname(file)) + '/' })
@@ -133,9 +133,9 @@ try {
         const narrative = [document.querySelector('main h1').textContent, document.querySelector('main .lead').textContent]
         const isNews=file.includes('/news/'), slug=path.basename(path.dirname(file))
         const record=(isNews?news.items:insights.articles).find(item=>item.slug===slug)
-        assert.deepEqual(narrative.map(plain),[localizedContentText(record,code,isNews?'headline':'title'),localizedContentText(record,code,'summary')])
-        const fields=isNews?['why_it_matters']:[...(record.partner_disclosure?['partner_disclosure']:[]),...record.content.flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]
-        for(const field of fields)assert.ok(plain(document.querySelector('main').textContent).includes(localizedContentText(record,code,field)))
+        assert.deepEqual(narrative.map(plain),[localizedContentText(record,code,isNews?'headline':'title'),localizedContentText(record,code,'summary')].map(plain))
+        const fields=isNews?['why_it_matters',...(record.content||[]).flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]:[...(record.partner_disclosure?['partner_disclosure']:[]),...record.content.flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]
+        for(const field of fields)assert.ok(plain(document.querySelector('main').textContent).includes(plain(localizedContentText(record,code,field))))
       }
       if(file.endsWith('/weather-evidence/index.html')) {
         assert.ok(document.querySelector('main').textContent.includes(localizedContentText(weather,code,'methodology_note')))
@@ -152,7 +152,7 @@ try {
     await load(file)
     for(const code of ['EN','DE','FR','ES','IT','EN']) {
       await select(code)
-      assert.ok(plain(document.querySelector('main').textContent).includes(localizedContentText(record,code,field)))
+      assert.ok(plain(document.querySelector('main').textContent).includes(plain(localizedContentText(record,code,field))))
       assert.equal(window.localStorage.getItem('seedtrade_language'),code)
       assert.ok(!/\{\w+\}|undefined|\[object Object\]/.test(document.querySelector('main').textContent))
     }
@@ -179,7 +179,7 @@ try {
   window.Storage.prototype.getItem = getItem
   window.Storage.prototype.setItem = setItem
   assert.deepEqual(errors, [], 'Hydration must not require recovery')
-  console.log('DOM hydration: 200 route/language combinations, selection, refresh/navigation storage, invalid/blocked storage and mocked B2B validation/success/error PASS; real email sends=0')
+  console.log('DOM hydration: 220 route/language combinations, selection, refresh/navigation storage, invalid/blocked storage and mocked B2B validation/success/error PASS; real email sends=0')
 } finally {
   if (root) await act(async () => root.unmount())
   globalThis.fetch = originalFetch

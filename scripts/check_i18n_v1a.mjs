@@ -87,13 +87,13 @@ try {
     })
   }
   const files = routeFiles('dist')
-  assert.equal(files.length, 40)
+  assert.equal(files.length, 44)
   for (const language of languages) for (const file of files) {
     globalThis.window = { location: { pathname: '/' + path.relative('dist', path.dirname(file)), hash: '' } }
     const html = renderToStaticMarkup(React.createElement(AppV2, { initialLanguage: language.code }))
     assert.ok(html.includes(`${language.flag} ${language.code}`))
     assert.ok(html.includes(translate(language.code, 'Optional analytics')))
   }
-  console.log('200 route/language SSR combinations PASS')
+  console.log('220 route/language SSR combinations PASS')
   console.log('Five-language UI, flags, fallback, catalog, B2B messages and SSR coverage PASS')
 } finally { await server.close() }

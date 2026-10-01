@@ -65,7 +65,7 @@ class MobileContentConsistencyV51Tests(unittest.TestCase):
         self.assertIn('.brand-plate', self.css)
 
     def test_frozen_sections_not_restructured(self):
-        self.assertIn('news.items.slice(0,4)', self.app)
+        self.assertIn('<DailyNewsHighlights/>', self.app)
         self.assertIn('insights.articles.slice(0,3)', self.app)
         self.assertIn('What is changing now', self.app)
         self.assertIn('Context beyond the numbers', self.app)

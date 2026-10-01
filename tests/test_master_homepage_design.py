@@ -14,7 +14,7 @@ class MasterHomepageDesignTests(unittest.TestCase):
     def test_kpi_strip(self):
         for value in ("publicData.datasets.comext.public_safe_observations","weather.region_count","latest completed period"): self.assertIn(value,APP)
     def test_top_news_is_four_card_row(self):
-        self.assertIn('news.items.slice(0,4)',APP)
+        self.assertIn('<DailyNewsHighlights/>',APP)
         self.assertIn('grid-template-columns:repeat(4,minmax(0,1fr))',CSS)
     def test_commercial_intelligence_overview(self):
         for label in ("EU Market Pulse","Weather & Seed Risk","Seed Production"): self.assertIn(label,APP)

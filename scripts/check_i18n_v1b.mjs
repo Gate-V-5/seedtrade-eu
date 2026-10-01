@@ -13,9 +13,11 @@ const data=Object.fromEntries(['news','insights','weather_public'].map(name=>[na
 const species=JSON.parse(readFileSync('src/data/species_master_v1_1.json','utf8')).species
 const plain=value=>species.reduce((s,item)=>item.botanical_name?s.replaceAll(` (${item.botanical_name})`,''):s,value)
 const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof value==='object'?Object.fromEntries(Object.entries(value).filter(([key])=>key!=='localizations').map(([key,item])=>[key,canonical(item)])):value
-const fields=record=>record.headline?['headline','summary','why_it_matters']:record.title?['title','summary',...(record.partner_disclosure?['partner_disclosure']:[]),...record.content.flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]:['methodology_note',...record.regions.map((_,i)=>`regions.${i}.name`)]
+const fields=record=>record.headline?['headline','summary','why_it_matters',...(record.content||[]).flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]:record.title?['title','summary',...(record.partner_disclosure?['partner_disclosure']:[]),...record.content.flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]:['methodology_note',...record.regions.map((_,i)=>`regions.${i}.name`)]
 for (const [name,record] of Object.entries(data)) {
-  assert.deepEqual(canonical(record),JSON.parse(execFileSync('git',['show',`${baseline}:src/generated/${name}.json`],{encoding:'utf8'})),`${name}: English/identity/provenance/evidence unchanged`)
+  const original=JSON.parse(execFileSync('git',['show',`${baseline}:src/generated/${name}.json`],{encoding:'utf8'}))
+  if(name==='news')assert.deepEqual(canonical(record.items.filter(item=>!item.stream)),original.items,'Historical News English/identity/provenance/evidence unchanged')
+  else assert.deepEqual(canonical(record),original,`${name}: English/identity/provenance/evidence unchanged`)
   assert.equal(record.classification,'PUBLIC_SAFE')
 }
 for (const record of [...data.news.items,...data.insights.articles,data.weather_public]) {
@@ -62,7 +64,7 @@ try {
         globalThis.window={location:{pathname:`/${kind}/${record.slug}`}}
         const dom=new JSDOM(renderToStaticMarkup(React.createElement(App,{initialLanguage:code})))
         const main=dom.window.document.querySelector('main'), displayed=plain(main.textContent)
-        for(const field of fields(record))assert.ok(displayed.includes(text(record,code,field)),`${code} ${kind} ${field}`)
+        for(const field of fields(record))assert.ok(displayed.includes(plain(text(record,code,field))),`${code} ${kind} ${field}`)
         const latin=[...main.querySelectorAll('i.botanical')].map(el=>el.textContent)
         if(code==='EN')taxa.set(record.slug,new Set(latin))
         else for(const name of taxa.get(record.slug))assert.ok(latin.includes(name),`${code}: preserve botanical ${name}`)
@@ -76,7 +78,7 @@ try {
         globalThis.window={location:{pathname:route}}
         const dom=new JSDOM(renderToStaticMarkup(React.createElement(App,{initialLanguage:code})))
         const displayed=plain(dom.window.document.querySelector('main').textContent)
-        for(const record of records)assert.ok(displayed.includes(text(record,code,'summary')),`${code} card summary`)
+        for(const record of records.filter(item=>kind!=='news'||route!=='/'||item.stream))assert.ok(displayed.includes(plain(text(record,code,'summary'))),`${code} card summary`)
         dom.window.close()
       }
     }

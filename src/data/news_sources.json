@@ -1,0 +1,359 @@
+{
+  "schema": "SEEDTRADE_NEWS_SOURCES_V1",
+  "classification": "PUBLIC_SAFE",
+  "activation_meaning": "Editorial monitoring priority only; no automatic fetch or publication. Public product access must be checked per item.",
+  "sources": [
+    {
+      "source_id": "jrc-mars",
+      "source_name": "Joint Research Centre / JRC MARS",
+      "country_region": "EU",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Weather"
+      ],
+      "public_url": "https://joint-research-centre.ec.europa.eu/monitoring-agricultural-resources-mars/jrc-mars-bulletin_en",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Monthly crop monitoring",
+      "reliability_notes": "Primary crop monitoring and model-based forecasts",
+      "limitations": "Forecasts are not final harvest or certified-seed statistics.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "copernicus-edo",
+      "source_name": "Copernicus European Drought Observatory",
+      "country_region": "Europe",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Weather"
+      ],
+      "public_url": "https://drought.emergency.copernicus.eu/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Product-specific; some indicators ten-day",
+      "reliability_notes": "Official drought indicators and analytical reports",
+      "limitations": "Shares EC/JRC institutional origin with MARS; not independent corroboration.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "dwd",
+      "source_name": "Deutscher Wetterdienst",
+      "country_region": "DE",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Weather"
+      ],
+      "public_url": "https://www.dwd.de/DE/fachnutzer/landwirtschaft/berichte/_node.html",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Product-specific, including weekly reports",
+      "reliability_notes": "National agrometeorological reports",
+      "limitations": "Use public products only; some advisory products are paid. Public retrieval returned HTTP 403 on 2026-10-01; monitoring remains inactive until public access can be verified. No report contents were inferred.",
+      "active": false,
+      "last_checked": "2026-10-01",
+      "access_check_status": "UNAVAILABLE_403"
+    },
+    {
+      "source_id": "meteo-france",
+      "source_name": "Météo-France",
+      "country_region": "FR",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Weather"
+      ],
+      "public_url": "https://meteofrance.fr/actualite/publications",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Warnings and periodic climate/hydrological bulletins",
+      "reliability_notes": "National weather evidence",
+      "limitations": "Hydrological indicators do not directly establish crop or seed losses.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "lhmt",
+      "source_name": "Lietuvos hidrometeorologijos tarnyba",
+      "country_region": "LT",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Weather"
+      ],
+      "public_url": "https://www.meteo.lt/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Operational information and monthly reviews",
+      "reliability_notes": "National weather service",
+      "limitations": "Distinguish station observations, model output and forecasts.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "arvalis",
+      "source_name": "ARVALIS",
+      "country_region": "FR",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist",
+        "EU Events"
+      ],
+      "public_url": "https://www.arvalis.fr/infos-techniques",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal technical publications",
+      "reliability_notes": "Applied trials and regional advice",
+      "limitations": "Trial conditions and regional applicability must be retained.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "terres-inovia",
+      "source_name": "Terres Inovia",
+      "country_region": "FR",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist"
+      ],
+      "public_url": "https://www.terresinovia.fr/fr/actualites",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal publications",
+      "reliability_notes": "Oilseed and protein-crop applied research",
+      "limitations": "Commodity quality is not certified sowing-seed quality.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "lammc",
+      "source_name": "LAMMC",
+      "country_region": "LT",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist",
+        "EU Events"
+      ],
+      "public_url": "https://www.lammc.lt/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal research and crop-condition releases",
+      "reliability_notes": "Public agricultural research",
+      "limitations": "Local observations and forecasts have geographic limits.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "llkc",
+      "source_name": "Latvijas Lauku konsultāciju un izglītības centrs / LLKC",
+      "country_region": "LV",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist",
+        "EU Weather",
+        "EU Events"
+      ],
+      "public_url": "https://llkc.lv/augkopiba/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal advisory updates",
+      "reliability_notes": "Regional field observations and public extension",
+      "limitations": "Advisory reports do not establish EU-wide area or demand changes.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "teagasc",
+      "source_name": "Teagasc",
+      "country_region": "IE",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist",
+        "EU Events"
+      ],
+      "public_url": "https://teagasc.ie/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Monthly tillage newsletter and seasonal publications",
+      "reliability_notes": "Public research and extension",
+      "limitations": "Irish assumptions are not automatically transferable.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "ior-pib",
+      "source_name": "IOR–PIB / Platforma Sygnalizacji Agrofagów",
+      "country_region": "PL",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist"
+      ],
+      "public_url": "https://www.agrofagi.com.pl/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal pest monitoring",
+      "reliability_notes": "Public monitoring and IPM methods",
+      "limitations": "Monitoring locations do not imply uniform national risk.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "crea",
+      "source_name": "CREA Cerealicoltura e Colture Industriali",
+      "country_region": "IT",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist",
+        "EU Events"
+      ],
+      "public_url": "https://www.crea.gov.it/web/cerealicoltura-e-colture-industriali",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Research and event releases",
+      "reliability_notes": "Public agricultural research",
+      "limitations": "Project announcements are not validated results.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "lwk-niedersachsen",
+      "source_name": "Landwirtschaftskammer Niedersachsen",
+      "country_region": "DE",
+      "source_type": "RESEARCH_ADVISORY",
+      "streams": [
+        "EU Agronomist",
+        "EU Events"
+      ],
+      "public_url": "https://www.lwk-niedersachsen.de/lwk/thema/880_Kulturen",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal regional advice",
+      "reliability_notes": "Official regional trials and advisory material",
+      "limitations": "Public pages only; regional recommendations remain regional.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "eurostat-comext",
+      "source_name": "Eurostat COMEXT",
+      "country_region": "EU",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Trade Market"
+      ],
+      "public_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Monthly observations with revisions",
+      "reliability_notes": "Official trade values and quantities",
+      "limitations": "Unit values are not quotations; use existing validated SeedTrade outputs only.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "semae",
+      "source_name": "SEMAE",
+      "country_region": "FR",
+      "source_type": "INDUSTRY_SIGNAL",
+      "streams": [
+        "EU Trade Market"
+      ],
+      "public_url": "https://www.semae.fr/etudes-donnees-statistiques-semences/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Annual campaign releases; some monthly updates restricted",
+      "reliability_notes": "Seed production and trade statistics",
+      "limitations": "Use public documents only; no email enrolment or restricted monthly feeds.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "nak",
+      "source_name": "NAK",
+      "country_region": "NL",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Trade Market",
+        "EU Agronomist"
+      ],
+      "public_url": "https://www.nak.nl/nieuws/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal inspection releases and annual report",
+      "reliability_notes": "Primary certification and inspection information",
+      "limitations": "Interim tested samples are not the whole harvest or available stock.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "vatzum",
+      "source_name": "Valstybinė augalininkystės tarnyba / VATŽŪM",
+      "country_region": "LT",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Trade Market"
+      ],
+      "public_url": "https://vatzum.lrv.lt/lt/informacijos-rinkmenos/augalu-dauginamoji-medziaga_info_rink/aprobavimo-ataskaitos/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Annual reports and operational notices",
+      "reliability_notes": "Official seed-crop approval information",
+      "limitations": "Approved hectares, declared hectares and certified tonnes differ.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "dlf",
+      "source_name": "DLF",
+      "country_region": "DK / Europe",
+      "source_type": "COMPANY_SIGNAL",
+      "streams": [
+        "EU Trade Market"
+      ],
+      "public_url": "https://dlf.com/news-insight",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Seasonal market updates",
+      "reliability_notes": "Unique company grass-seed market evidence",
+      "limitations": "Commercial perspective; does not by itself prove EU shortage.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "euroseeds",
+      "source_name": "Euroseeds",
+      "country_region": "EU",
+      "source_type": "INDUSTRY_SIGNAL",
+      "streams": [
+        "EU Events",
+        "EU Trade Market"
+      ],
+      "public_url": "https://euroseedscongress.com/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Event-cycle and programme updates",
+      "reliability_notes": "Primary seed-congress organiser",
+      "limitations": "Official event facts only; access eligibility and closed sessions matter.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "approved_hosts": [
+        "euroseedscongress.com"
+      ],
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "dlg",
+      "source_name": "DLG",
+      "country_region": "DE / Europe",
+      "source_type": "INDUSTRY_SIGNAL",
+      "streams": [
+        "EU Events"
+      ],
+      "public_url": "https://www.dlg.org/events",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Event calendar updated as announced",
+      "reliability_notes": "Primary professional event organiser",
+      "limitations": "Screen for seed relevance and confirm individual event details.",
+      "active": true,
+      "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    }
+  ]
+}

@@ -34,7 +34,7 @@ class FinalV5RefinementTests(unittest.TestCase):
         self.assertIn('.visual-insights .article-card:nth-child(n+3){display:none}', CSS)
 
     def test_homepage_mobile_news_has_four_compact_items(self):
-        self.assertIn('news.items.slice(0,4)', APP)
+        self.assertIn('<DailyNewsHighlights/>', APP)
         self.assertIn('grid-template-columns:88px minmax(0,1fr)', CSS)
 
     def test_news_archive_is_compact_two_columns(self):
@@ -43,7 +43,7 @@ class FinalV5RefinementTests(unittest.TestCase):
 
     def test_news_batch_rule_and_permanent_archive(self):
         self.assertIn('Permanent PUBLIC_SAFE archive', APP)
-        self.assertIn('complete batches of four', APP)
+        self.assertIn('daily checking does not imply daily publication', APP)
 
     def test_insights_archive_three_columns(self):
         self.assertIn('article-grid insights-grid', APP)

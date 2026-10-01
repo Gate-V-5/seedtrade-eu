@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 /** Create unique SEO route shells and fail-closed noindex private shells. */
 import fs from 'node:fs/promises'
+import {publicNewsItems} from '../src/news.mjs'
+import {validateDailyNews} from './validate_daily_news.mjs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -11,6 +13,10 @@ const readJson = async relative => JSON.parse(await fs.readFile(path.join(root, 
 const market = await readJson('src/generated/market_public.json')
 const insights = await readJson('src/generated/insights.json')
 const news = await readJson('src/generated/news.json')
+const newsSources = await readJson('src/data/news_sources.json')
+const newsErrors = validateDailyNews(news, newsSources)
+if (newsErrors.length) throw new Error(`Unsafe/invalid News publication: ${newsErrors.join('; ')}`)
+const publicNews = publicNewsItems(news.items, newsSources).filter(item => item.publication_date <= news.as_of)
 const marketplace = await readJson('src/generated/rfqs_public.json')
 
 const routes = [
@@ -40,7 +46,7 @@ for (const article of insights.articles) routes.push([
   article.seo.description,
   true,
 ])
-for (const item of news.items) routes.push([
+for (const item of publicNews) routes.push([
   `news/${item.slug}`,
   `${item.headline} | SeedTrade.eu`,
   item.summary,
@@ -60,7 +66,7 @@ for (const privateRoute of ['rfq', 'offer', 'account', 'admin']) routes.push([
 ])
 
 const articleByRoute = new Map(insights.articles.map(item => [`insights/${item.slug}`, item]))
-const newsByRoute = new Map(news.items.map(item => [`news/${item.slug}`, item]))
+const newsByRoute = new Map(publicNews.map(item => [`news/${item.slug}`, item]))
 const cropByRoute = new Map(market.crops.map(item => [`market/${item.slug}`, item]))
 
 function escapeHtml(value) {

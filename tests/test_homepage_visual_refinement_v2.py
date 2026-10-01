@@ -13,7 +13,7 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
         self.assertIn(".signal-crops{flex:1}", V2_CSS)
 
     def test_top_news_four_card_desktop_row(self):
-        self.assertIn("news.items.slice(0,4)", APP)
+        self.assertIn("<DailyNewsHighlights/>", APP)
         self.assertIn(".news-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))", V2_CSS)
 
     def test_intelligence_commercial_overview(self):

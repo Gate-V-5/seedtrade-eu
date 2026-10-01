@@ -53,6 +53,17 @@
       "specific_species_rule": "Common name plus botanical name; broad CN categories are explicitly marked ambiguous",
       "artifact": "../data/species_master_v1_1.json",
       "sha256": "88e47d0bd30fd4fb719c8f5caa8e463b9626627d4a2b9bc48ef562ec203d831d"
+    },
+    "daily_news": {
+      "source": "Reviewed public primary sources; manual editorial publication only",
+      "as_of": "2026-10-01",
+      "public_records": 8,
+      "stream_records": 4,
+      "historical_records": 4,
+      "artifact": "news.json",
+      "sha256": "9947569707a3fa413208b15dff403655bddfcf05fc85ca7a5dd2a5dce722b594",
+      "source_registry_artifact": "src/data/news_sources.json",
+      "source_registry_sha256": "63433a88f1a7e1018d6bec155ebc9b61f5cca21d01b9bd6762ee90b75a203e34"
     }
   }
 }

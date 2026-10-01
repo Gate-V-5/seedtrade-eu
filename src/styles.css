@@ -1649,3 +1649,15 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .network-interest .network-feedback{grid-column:1/-1;margin:0;font-size:14px;color:#fff}
 .network-interest [role="alert"]{color:#ffdfbe}
 .network-interest a{color:#94e7c2}
+
+/* Daily News: retain the existing card/grid layout. */
+.news-empty { padding: 1.2rem; }
+.news-filters { flex-wrap: wrap; }
+.news-filters label { display: grid; gap: .25rem; font-size: .85rem; }
+.news-filters input { max-width: 100%; padding: .55rem; border: 1px solid #dce5e0; border-radius: .4rem; }
+.evidence-labels { display: flex; flex-wrap: wrap; gap: .5rem; color: #54665b; }
+.evidence-labels small { border: 1px solid #dce5e0; border-radius: .4rem; padding: .2rem .5rem; }
+.news-continuity a { display: block; margin-bottom: .5rem; }
+.news-period, .news-event { font-size: .9rem; color: #54665b; }
+
+.top-news .news-card.compact .news-card-body>p { display: block; -webkit-line-clamp: unset; overflow: visible; }
