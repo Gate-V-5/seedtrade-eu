@@ -33,7 +33,7 @@
       "analyses": 46,
       "model_status": "PRELIMINARY_RULE_BASED_MODEL",
       "artifact": "weather_public.json",
-      "sha256": "fc7c34e001aa16c2529ecfd30fac9c46d18c9108617cf27b8969e1f9519b0528"
+      "sha256": "de4110d8eadaeedcab7e94a21828a6edec438dd7927328752330567ff59d471d"
     },
     "supply": {
       "source": "Official national certified-seed and multiplication evidence",

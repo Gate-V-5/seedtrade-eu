@@ -3,6 +3,7 @@
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
 import path from 'node:path'
+import { localizedContentText } from '../src/i18n/content.mjs'
 import { JSDOM } from 'jsdom'
 import React, { act } from 'react'
 import { createServer } from 'vite'
@@ -20,7 +21,11 @@ window.clearInterval = () => {}
 const { hydrateRoot } = await import('react-dom/client')
 const vite = await createServer({ appType: 'custom', server: { middlewareMode: true }, logLevel: 'error' })
 const errors = []
-const editorialEnglish = new Map()
+const news=JSON.parse(readFileSync('src/generated/news.json','utf8'))
+const insights=JSON.parse(readFileSync('src/generated/insights.json','utf8'))
+const weather=JSON.parse(readFileSync('src/generated/weather_public.json','utf8'))
+const species=JSON.parse(readFileSync('src/data/species_master_v1_1.json','utf8')).species
+const plain=value=>species.reduce((text,item)=>item.botanical_name?text.replaceAll(` (${item.botanical_name})`,''):text,value)
 let root, requests = [], responseMode = 'success'
 const originalFetch = globalThis.fetch
 globalThis.fetch = async (url, options) => {
@@ -126,11 +131,39 @@ try {
       assert.equal(document.querySelector('.language-select option:checked').textContent, `${flag} ${code}`)
       if (/\/(news|insights)\/[^/]+\/index.html$/.test(file)) {
         const narrative = [document.querySelector('main h1').textContent, document.querySelector('main .lead').textContent]
-        if (code === 'EN') editorialEnglish.set(file, narrative)
-        else assert.deepEqual(narrative, editorialEnglish.get(file), 'V1-B editorial copy must remain English')
+        const isNews=file.includes('/news/'), slug=path.basename(path.dirname(file))
+        const record=(isNews?news.items:insights.articles).find(item=>item.slug===slug)
+        assert.deepEqual(narrative.map(plain),[localizedContentText(record,code,isNews?'headline':'title'),localizedContentText(record,code,'summary')])
+        const fields=isNews?['why_it_matters']:[...(record.partner_disclosure?['partner_disclosure']:[]),...record.content.flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]
+        for(const field of fields)assert.ok(plain(document.querySelector('main').textContent).includes(localizedContentText(record,code,field)))
+      }
+      if(file.endsWith('/weather-evidence/index.html')) {
+        assert.ok(document.querySelector('main').textContent.includes(localizedContentText(weather,code,'methodology_note')))
+        weather.regions.forEach((_,i)=>assert.ok(document.querySelector('main').textContent.includes(localizedContentText(weather,code,`regions.${i}.name`))))
       }
     }
   }
+  // Explicit EN → DE → FR → ES → IT → EN cycle in each narrative family.
+  for(const [file,record,field] of [
+    [`dist/news/${news.items[0].slug}/index.html`,news.items[0],'headline'],
+    [`dist/insights/${insights.articles[0].slug}/index.html`,insights.articles[0],'title'],
+    ['dist/weather-evidence/index.html',weather,'methodology_note'],
+  ]) {
+    await load(file)
+    for(const code of ['EN','DE','FR','ES','IT','EN']) {
+      await select(code)
+      assert.ok(plain(document.querySelector('main').textContent).includes(localizedContentText(record,code,field)))
+      assert.equal(window.localStorage.getItem('seedtrade_language'),code)
+      assert.ok(!/\{\w+\}|undefined|\[object Object\]/.test(document.querySelector('main').textContent))
+    }
+  }
+  const {default:liveNews}=await vite.ssrLoadModule('/src/generated/news.json')
+  const summary=liveNews.items[0].localizations.de.summary
+  delete liveNews.items[0].localizations.de.summary
+  await load(`dist/news/${news.items[0].slug}/index.html`,'DE')
+  assert.equal(plain(document.querySelector('main .lead').textContent),liveNews.items[0].summary)
+  assert.equal(plain(document.querySelector('main h1').textContent),liveNews.items[0].localizations.de.headline)
+  liveNews.items[0].localizations.de.summary=summary
   await load('dist/index.html', 'invalid')
   assert.equal(document.querySelector('.language-select').value, 'EN')
   // Storage failure still permits in-memory selection and an English refresh.

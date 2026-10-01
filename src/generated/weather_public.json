@@ -33,5 +33,303 @@
     {"code":"ES_CENTRAL","country":"Spain","name":"Central Spain"},
     {"code":"ES_NORTH","country":"Spain","name":"Northern Spain"},
     {"code":"ES_SOUTH","country":"Spain","name":"Southern Spain"}
-  ]
+  ],
+  "localizations": {
+    "de": {
+      "methodology_note": "Wetterbeobachtungen und vorläufiger Kontext zu Kulturstadien werden getrennt von validierten agronomischen Auswirkungen dargestellt. Auswirkungen auf Produktion oder Angebot werden nicht behauptet.",
+      "regions": [
+        {
+          "name": "Zentralfrankreich"
+        },
+        {
+          "name": "Ostfrankreich"
+        },
+        {
+          "name": "Nordfrankreich"
+        },
+        {
+          "name": "Südfrankreich"
+        },
+        {
+          "name": "Westfrankreich"
+        },
+        {
+          "name": "Zentraldeutschland"
+        },
+        {
+          "name": "Ostdeutschland"
+        },
+        {
+          "name": "Norddeutschland"
+        },
+        {
+          "name": "Süddeutschland"
+        },
+        {
+          "name": "Zentralitalien"
+        },
+        {
+          "name": "Norditalien"
+        },
+        {
+          "name": "Süditalien"
+        },
+        {
+          "name": "Zentrallitauen"
+        },
+        {
+          "name": "Nordlitauen"
+        },
+        {
+          "name": "Südlitauen"
+        },
+        {
+          "name": "Zentralpolen"
+        },
+        {
+          "name": "Ostpolen"
+        },
+        {
+          "name": "Nordpolen"
+        },
+        {
+          "name": "Südpolen"
+        },
+        {
+          "name": "Westpolen"
+        },
+        {
+          "name": "Zentralspanien"
+        },
+        {
+          "name": "Nordspanien"
+        },
+        {
+          "name": "Südspanien"
+        }
+      ]
+    },
+    "fr": {
+      "methodology_note": "Les observations météorologiques et le contexte préliminaire des stades culturaux sont présentés séparément des impacts agronomiques validés. Aucun impact sur la production ou l’offre n’est affirmé.",
+      "regions": [
+        {
+          "name": "Centre de la France"
+        },
+        {
+          "name": "Est de la France"
+        },
+        {
+          "name": "Nord de la France"
+        },
+        {
+          "name": "Sud de la France"
+        },
+        {
+          "name": "Ouest de la France"
+        },
+        {
+          "name": "Centre de l’Allemagne"
+        },
+        {
+          "name": "Est de l’Allemagne"
+        },
+        {
+          "name": "Nord de l’Allemagne"
+        },
+        {
+          "name": "Sud de l’Allemagne"
+        },
+        {
+          "name": "Centre de l’Italie"
+        },
+        {
+          "name": "Nord de l’Italie"
+        },
+        {
+          "name": "Sud de l’Italie"
+        },
+        {
+          "name": "Centre de la Lituanie"
+        },
+        {
+          "name": "Nord de la Lituanie"
+        },
+        {
+          "name": "Sud de la Lituanie"
+        },
+        {
+          "name": "Centre de la Pologne"
+        },
+        {
+          "name": "Est de la Pologne"
+        },
+        {
+          "name": "Nord de la Pologne"
+        },
+        {
+          "name": "Sud de la Pologne"
+        },
+        {
+          "name": "Ouest de la Pologne"
+        },
+        {
+          "name": "Centre de l’Espagne"
+        },
+        {
+          "name": "Nord de l’Espagne"
+        },
+        {
+          "name": "Sud de l’Espagne"
+        }
+      ]
+    },
+    "es": {
+      "methodology_note": "Las observaciones meteorológicas y el contexto preliminar de las fases del cultivo se presentan por separado de los impactos agronómicos validados. No se afirma ningún efecto sobre la producción ni la oferta.",
+      "regions": [
+        {
+          "name": "Centro de Francia"
+        },
+        {
+          "name": "Este de Francia"
+        },
+        {
+          "name": "Norte de Francia"
+        },
+        {
+          "name": "Sur de Francia"
+        },
+        {
+          "name": "Oeste de Francia"
+        },
+        {
+          "name": "Centro de Alemania"
+        },
+        {
+          "name": "Este de Alemania"
+        },
+        {
+          "name": "Norte de Alemania"
+        },
+        {
+          "name": "Sur de Alemania"
+        },
+        {
+          "name": "Centro de Italia"
+        },
+        {
+          "name": "Norte de Italia"
+        },
+        {
+          "name": "Sur de Italia"
+        },
+        {
+          "name": "Centro de Lituania"
+        },
+        {
+          "name": "Norte de Lituania"
+        },
+        {
+          "name": "Sur de Lituania"
+        },
+        {
+          "name": "Centro de Polonia"
+        },
+        {
+          "name": "Este de Polonia"
+        },
+        {
+          "name": "Norte de Polonia"
+        },
+        {
+          "name": "Sur de Polonia"
+        },
+        {
+          "name": "Oeste de Polonia"
+        },
+        {
+          "name": "Centro de España"
+        },
+        {
+          "name": "Norte de España"
+        },
+        {
+          "name": "Sur de España"
+        }
+      ]
+    },
+    "it": {
+      "methodology_note": "Le osservazioni meteorologiche e il contesto preliminare delle fasi colturali sono presentati separatamente dagli impatti agronomici validati. Non viene affermato alcun impatto sulla produzione o sull’offerta.",
+      "regions": [
+        {
+          "name": "Francia centrale"
+        },
+        {
+          "name": "Francia orientale"
+        },
+        {
+          "name": "Francia settentrionale"
+        },
+        {
+          "name": "Francia meridionale"
+        },
+        {
+          "name": "Francia occidentale"
+        },
+        {
+          "name": "Germania centrale"
+        },
+        {
+          "name": "Germania orientale"
+        },
+        {
+          "name": "Germania settentrionale"
+        },
+        {
+          "name": "Germania meridionale"
+        },
+        {
+          "name": "Italia centrale"
+        },
+        {
+          "name": "Italia settentrionale"
+        },
+        {
+          "name": "Italia meridionale"
+        },
+        {
+          "name": "Lituania centrale"
+        },
+        {
+          "name": "Lituania settentrionale"
+        },
+        {
+          "name": "Lituania meridionale"
+        },
+        {
+          "name": "Polonia centrale"
+        },
+        {
+          "name": "Polonia orientale"
+        },
+        {
+          "name": "Polonia settentrionale"
+        },
+        {
+          "name": "Polonia meridionale"
+        },
+        {
+          "name": "Polonia occidentale"
+        },
+        {
+          "name": "Spagna centrale"
+        },
+        {
+          "name": "Spagna settentrionale"
+        },
+        {
+          "name": "Spagna meridionale"
+        }
+      ]
+    }
+  }
 }

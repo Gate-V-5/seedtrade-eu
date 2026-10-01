@@ -74,6 +74,96 @@
         "canonical": "https://seedtrade.eu/insights/euroseeds-2026-congress-valencia",
         "og_type": "article",
         "structured_data_type": "Event"
+      },
+      "localizations": {
+        "de": {
+          "title": "Euroseeds 2026 Congress: Europas Saatgutbranche trifft sich in Valencia",
+          "summary": "Der Euroseeds Congress bringt die europäische Saatgutbranche vom 25. bis 28. Oktober 2026 für Sitzungen der Kulturartensektionen, Innovation und Branchenaustausch nach Valencia.",
+          "content": [
+            {
+              "heading": "Offizielle Veranstaltungsinformationen",
+              "body": "Euroseeds kündigt seinen Kongress 2026 für den 25.–28. Oktober im Valencia Conference Centre in Valencia, Spanien, an. Das Programm umfasst die Kulturartensektionen der Branche, Innovation und Möglichkeiten zum fachlichen Austausch."
+            },
+            {
+              "heading": "Bedeutung des Programms",
+              "body": "Das offizielle Programm umfasst Forages & Grasses, Cereals & Pulses, Oil & Fibre, Vegetables & Ornamentals, Maize & Sorghum und Potatoes sowie InnovAction- und NextGen-Aktivitäten."
+            },
+            {
+              "heading": "Warum das wichtig ist",
+              "body": "Für Teilnehmer am europäischen Saatgutmarkt bietet der Kongress einen konzentrierten Rahmen, um Branchenprioritäten, regulatorische und branchenspezifische Diskussionen, Innovation und internationale Geschäftsbeziehungen zu verfolgen. Dieser Absatz ist eine redaktionelle Analyse von SeedTrade und keine offizielle Stellungnahme von Euroseeds."
+            },
+            {
+              "heading": "Anmeldung",
+              "body": "Euroseeds verwaltet die Anmelde- und Teilnahmebedingungen. Interessierte Teilnehmer sollten die offizielle Kongresswebsite für aktuelle Informationen zu Programm, Veranstaltungsort und Anmeldung nutzen."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Euroseeds 2026 Congress : le secteur semencier européen se retrouve à Valencia",
+          "summary": "Euroseeds Congress réunira le secteur semencier européen à Valencia du 25 au 28 octobre 2026 pour les réunions des sections par cultures, l’innovation et les échanges professionnels.",
+          "content": [
+            {
+              "heading": "Informations officielles sur l’événement",
+              "body": "Euroseeds annonce son congrès 2026 du 25 au 28 octobre au Valencia Conference Centre, à Valencia, en Espagne. Le programme couvre les sections par cultures du secteur, l’innovation et les possibilités d’échanges professionnels."
+            },
+            {
+              "heading": "Intérêt du programme",
+              "body": "Le programme officiel comprend Forages & Grasses, Cereals & Pulses, Oil & Fibre, Vegetables & Ornamentals, Maize & Sorghum et Potatoes, ainsi que les activités InnovAction et NextGen."
+            },
+            {
+              "heading": "Pourquoi c’est important",
+              "body": "Pour les acteurs du marché semencier européen, le congrès offre un cadre concentré pour suivre les priorités du secteur, les discussions réglementaires et professionnelles, l’innovation et les relations commerciales internationales. Ce paragraphe est une analyse éditoriale de SeedTrade, et non une déclaration officielle d’Euroseeds."
+            },
+            {
+              "heading": "Inscription",
+              "body": "Euroseeds tient à jour les conditions d’inscription et d’éligibilité. Les personnes intéressées devraient consulter le site officiel du congrès pour les informations actuelles sur le programme, le lieu et l’inscription."
+            }
+          ]
+        },
+        "es": {
+          "title": "Euroseeds 2026 Congress: el sector semillero europeo se reúne en Valencia",
+          "summary": "El Euroseeds Congress reunirá al sector semillero europeo en Valencia del 25 al 28 de octubre de 2026 para reuniones de las secciones por cultivos, innovación e intercambio profesional.",
+          "content": [
+            {
+              "heading": "Información oficial del evento",
+              "body": "Euroseeds anuncia su congreso 2026 del 25 al 28 de octubre en el Valencia Conference Centre de Valencia, España. El programa abarca las secciones por cultivos del sector, la innovación y oportunidades de intercambio profesional."
+            },
+            {
+              "heading": "Relevancia del programa",
+              "body": "El programa oficial incluye Forages & Grasses, Cereals & Pulses, Oil & Fibre, Vegetables & Ornamentals, Maize & Sorghum y Potatoes, junto con las actividades InnovAction y NextGen."
+            },
+            {
+              "heading": "Por qué importa",
+              "body": "Para los participantes del mercado europeo de semillas, el congreso ofrece un entorno concentrado para seguir las prioridades del sector, los debates normativos y profesionales, la innovación y las relaciones comerciales internacionales. Este párrafo es un análisis editorial de SeedTrade, no una declaración oficial de Euroseeds."
+            },
+            {
+              "heading": "Inscripción",
+              "body": "Euroseeds mantiene las condiciones de inscripción y participación. Los interesados deberían consultar la web oficial del congreso para obtener información actualizada sobre el programa, la sede y la inscripción."
+            }
+          ]
+        },
+        "it": {
+          "title": "Euroseeds 2026 Congress: il settore sementiero europeo si incontra a Valencia",
+          "summary": "Euroseeds Congress riunirà il settore sementiero europeo a Valencia dal 25 al 28 ottobre 2026 per incontri delle sezioni colturali, innovazione e scambio professionale.",
+          "content": [
+            {
+              "heading": "Informazioni ufficiali sull’evento",
+              "body": "Euroseeds annuncia il suo congresso 2026 dal 25 al 28 ottobre al Valencia Conference Centre di Valencia, in Spagna. Il programma comprende le sezioni colturali del settore, l’innovazione e opportunità di scambio professionale."
+            },
+            {
+              "heading": "Rilevanza del programma",
+              "body": "Il programma ufficiale comprende Forages & Grasses, Cereals & Pulses, Oil & Fibre, Vegetables & Ornamentals, Maize & Sorghum e Potatoes, insieme alle attività InnovAction e NextGen."
+            },
+            {
+              "heading": "Perché è importante",
+              "body": "Per gli operatori del mercato sementiero europeo, il congresso offre un contesto concentrato per seguire le priorità del settore, le discussioni normative e professionali, l’innovazione e le relazioni commerciali internazionali. Questo paragrafo è un’analisi editoriale di SeedTrade, non una dichiarazione ufficiale di Euroseeds."
+            },
+            {
+              "heading": "Iscrizione",
+              "body": "Euroseeds mantiene aggiornate le condizioni di iscrizione e ammissibilità. Gli interessati dovrebbero consultare il sito ufficiale del congresso per informazioni attuali su programma, sede e iscrizione."
+            }
+          ]
+        }
       }
     },
     {
@@ -143,6 +233,96 @@
         "canonical": "https://seedtrade.eu/insights/interpom-2026-europe-potato-value-chain",
         "og_type": "article",
         "structured_data_type": "Event"
+      },
+      "localizations": {
+        "de": {
+          "title": "INTERPOM 2026: Ein Blick auf Europas Kartoffelwertschöpfungskette",
+          "summary": "INTERPOM bringt die professionelle Kartoffelbranche vom 29. November bis 1. Dezember 2026 bei Kortrijk Xpo zusammen; vertreten sind Pflanzkartoffeln, Anbau, Lagerung, Technologie, Verarbeitung und Handel.",
+          "content": [
+            {
+              "heading": "Offizielle Veranstaltungsinformationen",
+              "body": "INTERPOM kündigt seine 23. Ausgabe für den 29. November–1. Dezember 2026 bei Kortrijk Xpo in Belgien an. Das aktuelle Veranstaltungsprofil des Organisators nennt 332 Aussteller aus 15 Ländern, 24,000 Besucher aus 60 Ländern und 35,000 Quadratmeter Ausstellungsfläche."
+            },
+            {
+              "heading": "Bedeutung für Pflanzkartoffeln und Erzeugung",
+              "body": "Das offizielle Ausstellerverzeichnis umfasst Saatgut, Anbau und Lagerung sowie Mechanisierung, Verarbeitung, Verpackung, Vermarktung, Forschung und Transport. Diese Breite macht die Veranstaltung für die Pflanzkartoffel-, Anbau-, Lagerungs- und nachgelagerte Wertschöpfungskette relevant."
+            },
+            {
+              "heading": "Warum das wichtig ist",
+              "body": "Für SeedTrade-Nutzer bietet die Veranstaltung einen praktischen Bezugspunkt, um das Zusammenspiel von Vermehrungsmaterial, Anbaubedingungen, Lagerung, Verarbeitungsnachfrage und Handelslogistik zu beobachten. Dies ist eine redaktionelle Analyse von SeedTrade und stellt weder ein Market Signal noch eine Prognose dar."
+            },
+            {
+              "heading": "Praktische Überprüfung",
+              "body": "Termine, Öffnungszeiten, Aussteller und Zugangsbedingungen können sich ändern. Besucher sollten vor ihrer Planung die neuesten Informationen und Anmeldebedingungen auf der offiziellen INTERPOM-Website prüfen."
+            }
+          ]
+        },
+        "fr": {
+          "title": "INTERPOM 2026 : un regard sur la filière européenne de la pomme de terre",
+          "summary": "INTERPOM réunira la filière professionnelle de la pomme de terre à Kortrijk Xpo du 29 novembre au 1er décembre 2026, avec une représentation des plants, de la culture, du stockage, des technologies, de la transformation et du commerce.",
+          "content": [
+            {
+              "heading": "Informations officielles sur l’événement",
+              "body": "INTERPOM annonce sa 23e édition du 29 novembre au 1er décembre 2026 à Kortrijk Xpo, en Belgique. Le profil actuel de l’événement présenté par l’organisateur indique 332 exposants de 15 pays, 24,000 visiteurs de 60 pays et 35,000 mètres carrés d’exposition."
+            },
+            {
+              "heading": "Intérêt pour les plants et la production",
+              "body": "Le répertoire officiel des exposants comprend les semences, la culture et le stockage, ainsi que la mécanisation, la transformation, l’emballage, la commercialisation, la recherche et le transport. Cette diversité rend l’événement pertinent pour les plants de pomme de terre, la production, le stockage et les maillons en aval de la filière."
+            },
+            {
+              "heading": "Pourquoi c’est important",
+              "body": "Pour les utilisateurs de SeedTrade, l’événement constitue un point d’observation concret des interactions entre matériel de multiplication, conditions culturales, stockage, demande de transformation et logistique commerciale. Il s’agit d’une analyse éditoriale de SeedTrade, qui ne constitue ni un Market Signal ni une prévision."
+            },
+            {
+              "heading": "Vérifications pratiques",
+              "body": "Les dates, horaires, exposants et conditions d’accès peuvent changer. Avant de s’organiser, les visiteurs devraient vérifier les dernières informations et les conditions d’inscription sur le site officiel d’INTERPOM."
+            }
+          ]
+        },
+        "es": {
+          "title": "INTERPOM 2026: una visión de la cadena de valor europea de la patata",
+          "summary": "INTERPOM reunirá a la cadena profesional de la patata en Kortrijk Xpo del 29 de noviembre al 1 de diciembre de 2026, con representación de patata de siembra, cultivo, almacenamiento, tecnología, transformación y comercio.",
+          "content": [
+            {
+              "heading": "Información oficial del evento",
+              "body": "INTERPOM anuncia su 23.ª edición del 29 de noviembre al 1 de diciembre de 2026 en Kortrijk Xpo, Bélgica. El perfil actual del evento del organizador indica 332 expositores de 15 países, 24,000 visitantes de 60 países y 35,000 metros cuadrados de exposición."
+            },
+            {
+              "heading": "Relevancia para la patata de siembra y la producción",
+              "body": "El directorio oficial de expositores incluye semillas, cultivo y almacenamiento, además de mecanización, transformación, envasado, comercialización, investigación y transporte. Esta amplitud hace que el evento sea relevante para la patata de siembra, la producción, el almacenamiento y los eslabones posteriores de la cadena de valor."
+            },
+            {
+              "heading": "Por qué importa",
+              "body": "Para los usuarios de SeedTrade, el evento es un punto práctico de observación de las interacciones entre material de propagación, condiciones de cultivo, almacenamiento, demanda de transformación y logística comercial. Este es un análisis editorial de SeedTrade y no constituye un Market Signal ni una previsión."
+            },
+            {
+              "heading": "Comprobaciones prácticas",
+              "body": "Las fechas, horarios, expositores y condiciones de acceso pueden cambiar. Antes de organizar su visita, los visitantes deberían comprobar la información más reciente y las condiciones de inscripción en la web oficial de INTERPOM."
+            }
+          ]
+        },
+        "it": {
+          "title": "INTERPOM 2026: uno sguardo sulla filiera europea della patata",
+          "summary": "INTERPOM riunirà la filiera professionale della patata presso Kortrijk Xpo dal 29 novembre al 1 dicembre 2026, con la presenza di patate da seme, coltivazione, stoccaggio, tecnologia, trasformazione e commercio.",
+          "content": [
+            {
+              "heading": "Informazioni ufficiali sull’evento",
+              "body": "INTERPOM annuncia la sua 23ª edizione per il 29 novembre–1 dicembre 2026 presso Kortrijk Xpo, in Belgio. L’attuale profilo dell’evento dell’organizzatore indica 332 espositori da 15 paesi, 24,000 visitatori da 60 paesi e 35,000 metri quadrati di spazio espositivo."
+            },
+            {
+              "heading": "Rilevanza per patate da seme e produzione",
+              "body": "Il catalogo ufficiale degli espositori comprende sementi, coltivazione e stoccaggio, oltre a meccanizzazione, trasformazione, confezionamento, commercializzazione, ricerca e trasporto. Questa ampiezza rende l’evento rilevante per le patate da seme, la coltivazione, lo stoccaggio e le attività a valle della filiera."
+            },
+            {
+              "heading": "Perché è importante",
+              "body": "Per gli utenti di SeedTrade, l’evento offre un punto concreto per osservare come interagiscono materiale di propagazione, condizioni colturali, stoccaggio, domanda della trasformazione e logistica commerciale. Si tratta di un’analisi editoriale di SeedTrade e non costituisce un Market Signal né una previsione."
+            },
+            {
+              "heading": "Verifiche pratiche",
+              "body": "Date, orari, espositori e condizioni di accesso possono cambiare. Prima di organizzarsi, i visitatori dovrebbero verificare le informazioni più recenti e le condizioni di iscrizione sul sito ufficiale di INTERPOM."
+            }
+          ]
+        }
       }
     },
     {
@@ -210,6 +390,100 @@
         "canonical": "https://seedtrade.eu/insights/lagrenas-contract-seed-multiplication-lithuania",
         "og_type": "article",
         "structured_data_type": "Article"
+      },
+      "localizations": {
+        "de": {
+          "title": "Lagrenas und Möglichkeiten der vertraglichen Saatgutvermehrung in Litauen",
+          "summary": "Ein transparenter Partner Insight darüber, wie ein litauisches Genossenschaftsnetzwerk europäischen Saatgutunternehmen helfen könnte, geeignete Vermehrungsbetriebe zu finden und zu koordinieren.",
+          "content": [
+            {
+              "heading": "Genossenschaftsnetzwerk",
+              "body": "Lagrenas beschreibt öffentlich ein litauisches Netzwerk aus sieben landwirtschaftlichen Genossenschaften und 630 Mitgliedern, das gemeinsame Beschaffung, Beratung, Erfahrungsaustausch, Produktversuche und Marktanalysen unterstützt."
+            },
+            {
+              "heading": "Mögliches Kooperationsmodell",
+              "body": "Ein europäisches Saatgutunternehmen könnte über die Koordination von Lagrenas geeignete Genossenschafts- oder Mitgliedsbetriebe für ein vertragliches Saatgutvermehrungsprojekt in Litauen identifizieren. Sämtliche Kapazitäten sowie technische, zertifizierungsbezogene und kaufmännische Bedingungen müssten projektspezifisch geprüft werden."
+            },
+            {
+              "heading": "Vom Partner angegebene Fähigkeiten",
+              "body": "Lagrenas gibt an, dass sein Netzwerk erfahrene Landwirte mit moderner Landtechnik und ausgebauter landwirtschaftlicher Infrastruktur umfasst. Als mögliche Kulturen nennt der Partner Faser- oder Öllein, Hanf, Wickenarten, Kümmel, Kleearten und weitere geeignete Saatgutkulturen."
+            },
+            {
+              "heading": "Kaufmännische Grenzen",
+              "body": "Hier werden keine Produktionsflächen, Mengen, Kunden, Verträge, Zertifizierungsstände, Maschinenbestände, abgeschlossenen Projekte, Erträge oder wirtschaftlichen Ergebnisse behauptet. Eignung und Kapazität sind nicht garantiert."
+            }
+          ],
+          "partner_disclosure": "Dieser Partner Insight enthält von Lagrenas bereitgestellte Informationen. Angaben des Partners sind gekennzeichnet und werden nicht als unabhängige Marktbelege von SeedTrade behandelt."
+        },
+        "fr": {
+          "title": "Lagrenas et les possibilités de multiplication de semences sous contrat en Lituanie",
+          "summary": "Un Partner Insight transparent sur la manière dont un réseau coopératif lituanien pourrait aider les entreprises semencières européennes à identifier et coordonner des exploitations adaptées à la multiplication.",
+          "content": [
+            {
+              "heading": "Réseau coopératif",
+              "body": "Lagrenas décrit publiquement un réseau lituanien de sept coopératives agricoles et de 630 membres, favorisant les achats collectifs, le conseil, le partage d’expérience, les essais de produits et l’analyse de marché."
+            },
+            {
+              "heading": "Modèle de coopération possible",
+              "body": "Une entreprise semencière européenne pourrait s’appuyer sur la coordination de Lagrenas pour identifier des exploitations coopératives ou membres adaptées à un projet de multiplication de semences sous contrat en Lituanie. Toute capacité et toute condition technique, de certification ou commerciale nécessiteraient une vérification propre au projet."
+            },
+            {
+              "heading": "Capacités déclarées par le partenaire",
+              "body": "Lagrenas indique que son réseau comprend des agriculteurs expérimentés disposant de matériel agricole moderne et d’infrastructures agricoles développées. Les cultures possibles citées par le partenaire comprennent le lin textile ou oléagineux, le chanvre, des espèces de vesces, le carvi, les trèfles et d’autres cultures semencières adaptées."
+            },
+            {
+              "heading": "Limites commerciales",
+              "body": "Aucune surface de production, aucun volume, client, contrat, statut de certification, inventaire de matériel, projet achevé, rendement ou résultat commercial n’est affirmé ici. L’adéquation et la capacité ne sont pas garanties."
+            }
+          ],
+          "partner_disclosure": "Ce Partner Insight comprend des informations fournies par Lagrenas. Les affirmations du partenaire sont identifiées et ne sont pas considérées comme des éléments de marché indépendants de SeedTrade."
+        },
+        "es": {
+          "title": "Lagrenas y las oportunidades de multiplicación de semillas bajo contrato en Lituania",
+          "summary": "Un Partner Insight transparente sobre cómo una red cooperativa lituana podría ayudar a empresas europeas de semillas a identificar y coordinar explotaciones adecuadas para la multiplicación.",
+          "content": [
+            {
+              "heading": "Red cooperativa",
+              "body": "Lagrenas describe públicamente una red lituana de siete cooperativas agrícolas y 630 miembros que apoya las compras colectivas, el asesoramiento, el intercambio de experiencias, los ensayos de productos y el análisis de mercado."
+            },
+            {
+              "heading": "Posible modelo de cooperación",
+              "body": "Una empresa europea de semillas podría recurrir a la coordinación de Lagrenas para identificar explotaciones cooperativas o de miembros adecuadas para un proyecto de multiplicación de semillas bajo contrato en Lituania. Cualquier capacidad y las condiciones técnicas, de certificación y comerciales requerirían una verificación específica del proyecto."
+            },
+            {
+              "heading": "Capacidades declaradas por el socio",
+              "body": "Lagrenas afirma que su red incluye agricultores experimentados con equipos agrícolas modernos e infraestructuras agrícolas desarrolladas. Los cultivos potenciales señalados por el socio incluyen lino textil u oleaginoso, cáñamo, especies de veza, alcaravea, tréboles y otros cultivos semilleros adecuados."
+            },
+            {
+              "heading": "Límites comerciales",
+              "body": "Aquí no se afirman superficies de producción, volúmenes, clientes, contratos, estado de certificación, inventario de equipos, proyectos completados, rendimientos ni resultados comerciales. La idoneidad y la capacidad no están garantizadas."
+            }
+          ],
+          "partner_disclosure": "Este Partner Insight incluye información facilitada por Lagrenas. Las afirmaciones aportadas por el socio se identifican y no se tratan como evidencia de mercado independiente de SeedTrade."
+        },
+        "it": {
+          "title": "Lagrenas e le opportunità di moltiplicazione sementiera su contratto in Lituania",
+          "summary": "Un Partner Insight trasparente su come una rete cooperativa lituana potrebbe aiutare le imprese sementiere europee a individuare e coordinare aziende agricole adatte alla moltiplicazione.",
+          "content": [
+            {
+              "heading": "Rete cooperativa",
+              "body": "Lagrenas descrive pubblicamente una rete lituana di sette cooperative agricole e 630 membri, a sostegno di acquisti collettivi, consulenza, scambio di esperienze, prove di prodotti e analisi di mercato."
+            },
+            {
+              "heading": "Possibile modello di cooperazione",
+              "body": "Un’impresa sementiera europea potrebbe avvalersi del coordinamento di Lagrenas per individuare aziende cooperative o associate adatte a un progetto di moltiplicazione sementiera su contratto in Lituania. Qualsiasi capacità e condizione tecnica, di certificazione e commerciale richiederebbe una verifica specifica per il progetto."
+            },
+            {
+              "heading": "Capacità dichiarate dal partner",
+              "body": "Lagrenas afferma che la propria rete comprende agricoltori esperti con attrezzature agricole moderne e infrastrutture agricole sviluppate. Le possibili colture indicate dal partner comprendono lino tessile o da olio, canapa, specie di veccia, carvi, trifogli e altre colture sementiere adatte."
+            },
+            {
+              "heading": "Limiti commerciali",
+              "body": "Non vengono qui affermati ettari di produzione, volumi, clienti, contratti, stato di certificazione, inventari di attrezzature, progetti completati, rese o risultati commerciali. Idoneità e capacità non sono garantite."
+            }
+          ],
+          "partner_disclosure": "Questo Partner Insight comprende informazioni fornite da Lagrenas. Le affermazioni del partner sono identificate e non sono trattate come evidenze di mercato indipendenti di SeedTrade."
+        }
       }
     }
   ]

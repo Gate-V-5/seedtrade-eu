@@ -47,7 +47,29 @@
       },
       "image": null,
       "canonical_url": "https://seedtrade.eu/news/interpom-2026-exhibitor-profile",
-      "fingerprint": "2dac6df08dcb453b089b7ad59a300a83c364d1f711948da9193d5061e44a777d"
+      "fingerprint": "2dac6df08dcb453b089b7ad59a300a83c364d1f711948da9193d5061e44a777d",
+      "localizations": {
+        "de": {
+          "headline": "INTERPOM 2026 verzeichnet 332 Aussteller aus 15 Ländern",
+          "summary": "Die offizielle Website der INTERPOM nennt derzeit 332 Aussteller aus 15 Ländern für die Fachmesse vom 29. November bis 1. Dezember 2026 bei Kortrijk Xpo. Die veröffentlichten Ausstellerfilter umfassen Saatgut, Anbau, Lagerung, Mechanisierung, Verarbeitung, Verpackung, Vermarktung, Forschung und Transport entlang der Kartoffelwertschöpfungskette.",
+          "why_it_matters": "Die Zusammensetzung der Aussteller macht die Messe für Pflanzkartoffelerzeuger, Züchter, Anbauer, Technikanbieter, Verarbeiter und Händler relevant. Die Zahlen beschreiben das aktuelle Veranstaltungsprofil des Organisators und sind keine unabhängige Besucherprognose von SeedTrade."
+        },
+        "fr": {
+          "headline": "INTERPOM 2026 recense 332 exposants de 15 pays",
+          "summary": "Le site officiel d’INTERPOM annonce actuellement 332 exposants de 15 pays pour le salon professionnel du 29 novembre au 1er décembre 2026 à Kortrijk Xpo. Les filtres du répertoire publié couvrent les semences, la culture, le stockage, la mécanisation, la transformation, l’emballage, la commercialisation, la recherche et le transport dans la filière pomme de terre.",
+          "why_it_matters": "La diversité des exposants rend le salon pertinent pour les producteurs de plants de pomme de terre, les sélectionneurs, les agriculteurs, les fournisseurs de technologies, les transformateurs et les négociants. Ces chiffres décrivent le profil actuel de l’événement présenté par l’organisateur et ne constituent pas une prévision indépendante de fréquentation de SeedTrade."
+        },
+        "es": {
+          "headline": "INTERPOM 2026 registra 332 expositores de 15 países",
+          "summary": "La web oficial de INTERPOM indica actualmente 332 expositores de 15 países para la feria profesional del 29 de noviembre al 1 de diciembre de 2026 en Kortrijk Xpo. Los filtros publicados del directorio abarcan semillas, cultivo, almacenamiento, mecanización, transformación, envasado, comercialización, investigación y transporte a lo largo de la cadena de valor de la patata.",
+          "why_it_matters": "La diversidad de expositores hace que la feria sea relevante para productores de patata de siembra, obtentores, agricultores, proveedores de tecnología, transformadores y comerciantes. Las cifras describen el perfil actual del evento del organizador y no constituyen una previsión independiente de asistencia de SeedTrade."
+        },
+        "it": {
+          "headline": "INTERPOM 2026 elenca 332 espositori da 15 paesi",
+          "summary": "Il sito ufficiale di INTERPOM indica attualmente 332 espositori da 15 paesi per la fiera professionale dal 29 novembre al 1 dicembre 2026 presso Kortrijk Xpo. I filtri pubblicati del catalogo espositori comprendono sementi, coltivazione, stoccaggio, meccanizzazione, trasformazione, confezionamento, commercializzazione, ricerca e trasporto lungo la filiera della patata.",
+          "why_it_matters": "La composizione degli espositori rende la fiera rilevante per produttori di patate da seme, costitutori, agricoltori, fornitori di tecnologie, trasformatori e commercianti. Le cifre descrivono l’attuale profilo dell’evento dell’organizzatore e non rappresentano una previsione indipendente di affluenza di SeedTrade."
+        }
+      }
     },
     {
       "slug": "europe-potato-crop-drought-estimate-2026",
@@ -101,7 +123,29 @@
       },
       "image": null,
       "canonical_url": "https://seedtrade.eu/news/europe-potato-crop-drought-estimate-2026",
-      "fingerprint": "fade5933d784b785b0347d08078d3288938174e52d7fee743e8cba7af99b3c4f"
+      "fingerprint": "fade5933d784b785b0347d08078d3288938174e52d7fee743e8cba7af99b3c4f",
+      "localizations": {
+        "de": {
+          "headline": "Sommerhitze und Dürre dämpfen die Aussichten für Europas Kartoffelernte 2026",
+          "summary": "Eine Bewertung der Energy and Climate Intelligence Unit schätzte, dass Sommerhitze und Dürre die Kartoffelproduktion in Deutschland, Frankreich, Belgien und den Niederlanden um etwa 3.1 Millionen Tonnen verringern könnten. Einschließlich Großbritanniens steigt der geschätzte Verlust auf über 3.5 Millionen Tonnen. Die Zahlen sind szenariobasierte Schätzungen und keine endgültigen amtlichen Erntestatistiken.",
+          "why_it_matters": "Eine geringere Produktion und kleinere Knollen können das Angebot an Verarbeitungs- und Speisekartoffeln verknappen, Entscheidungen über die Nachfrage nach Pflanzkartoffeln beeinflussen und den Qualitätsdruck entlang der Wertschöpfungskette 2026/27 erhöhen. Die endgültige Verfügbarkeit zertifizierten Pflanzguts erfordert weiterhin gesonderte amtliche Nachweise."
+        },
+        "fr": {
+          "headline": "La chaleur et la sécheresse estivales réduisent les perspectives de la récolte européenne de pommes de terre 2026",
+          "summary": "Une évaluation de l’Energy and Climate Intelligence Unit estime que la chaleur et la sécheresse estivales pourraient réduire d’environ 3.1 millions de tonnes la production de pommes de terre en Allemagne, en France, en Belgique et aux Pays-Bas. En incluant la Grande-Bretagne, la perte estimée dépasse 3.5 millions de tonnes. Ces chiffres sont des estimations fondées sur des scénarios, et non des statistiques officielles définitives de récolte.",
+          "why_it_matters": "Une production moindre et des tubercules plus petits peuvent restreindre l’offre destinée à la transformation et à la consommation, influer sur les décisions de demande de plants et accroître la pression sur la qualité dans la filière 2026/27. La disponibilité définitive de plants certifiés nécessite toujours des éléments officiels distincts."
+        },
+        "es": {
+          "headline": "El calor y la sequía estivales reducen las perspectivas de la patata europea para 2026",
+          "summary": "Una evaluación de la Energy and Climate Intelligence Unit estimó que el calor y la sequía estivales podrían reducir la producción de patata en Alemania, Francia, Bélgica y los Países Bajos en unos 3.1 millones de toneladas. Al incluir Gran Bretaña, la pérdida estimada supera los 3.5 millones de toneladas. Las cifras son estimaciones basadas en escenarios, no estadísticas oficiales definitivas de cosecha.",
+          "why_it_matters": "Una menor producción y un menor calibre de los tubérculos pueden restringir la oferta para transformación y consumo, influir en las decisiones sobre demanda de patata de siembra y aumentar la presión sobre la calidad en la cadena 2026/27. La disponibilidad definitiva de material certificado sigue requiriendo pruebas oficiales independientes."
+        },
+        "it": {
+          "headline": "Caldo e siccità estivi riducono le prospettive della patata europea per il 2026",
+          "summary": "Una valutazione della Energy and Climate Intelligence Unit ha stimato che caldo e siccità estivi potrebbero ridurre di circa 3.1 milioni di tonnellate la produzione di patate in Germania, Francia, Belgio e Paesi Bassi. Includendo la Gran Bretagna, la perdita stimata supera 3.5 milioni di tonnellate. Le cifre sono stime basate su scenari, non statistiche ufficiali definitive del raccolto.",
+          "why_it_matters": "Una produzione inferiore e tuberi di calibro minore possono limitare l’offerta destinata alla trasformazione e al consumo, influenzare le decisioni sulla domanda di patate da seme e aumentare la pressione sulla qualità lungo la filiera 2026/27. La disponibilità definitiva di materiale certificato richiede ancora prove ufficiali separate."
+        }
+      }
     },
     {
       "slug": "northern-ireland-seed-potato-rules-update-2026",
@@ -146,7 +190,29 @@
       },
       "image": null,
       "canonical_url": "https://seedtrade.eu/news/northern-ireland-seed-potato-rules-update-2026",
-      "fingerprint": "4328023d0811d00f5ef18f9d59ce1ce1ac85ff2048d226d989b461f90a61b372"
+      "fingerprint": "4328023d0811d00f5ef18f9d59ce1ce1ac85ff2048d226d989b461f90a61b372",
+      "localizations": {
+        "de": {
+          "headline": "Nordirland aktualisiert Vorschriften zu Pflanzengesundheit und Pflanzkartoffeln",
+          "summary": "UK Parliament befasste sich mit technischen Änderungen für Nordirland in den Bereichen Pflanzengesundheit, Saatgut, Pflanzkartoffeln und Vermehrungsmaterial. In der Debatte wurde darauf hingewiesen, dass das Windsor Framework die Verbringung von Pflanzkartoffeln aus Großbritannien nach Nordirland zum Anbau erlaubt, während die Rechtsverordnung nationale Verweise und an die EU angeglichene Biosicherheitskontrollen aktualisiert.",
+          "why_it_matters": "Die Verbringung von Pflanzkartoffeln hängt von präzisen Vorschriften zu Pflanzengesundheit, Rückverfolgbarkeit und Vermarktung ab. Händler sollten das Parlamentsprotokoll als regulatorischen Kontext behandeln und vor dem Versand die endgültige Rechtsverordnung sowie die praktischen Leitlinien prüfen."
+        },
+        "fr": {
+          "headline": "L’Irlande du Nord actualise sa législation sur la santé des végétaux et les plants de pomme de terre",
+          "summary": "UK Parliament a examiné des modifications techniques concernant la santé des végétaux, les semences, les plants de pomme de terre et le matériel de multiplication en Irlande du Nord. Le débat a rappelé que le Windsor Framework autorise les mouvements de plants de Grande-Bretagne vers l’Irlande du Nord pour la culture, tandis que le texte actualise les références nationales et les contrôles de biosécurité alignés sur l’UE.",
+          "why_it_matters": "Les mouvements de plants de pomme de terre dépendent de règles précises de santé végétale, de traçabilité et de commercialisation. Les négociants devraient considérer le compte rendu parlementaire comme un contexte réglementaire et vérifier le texte définitif ainsi que les instructions opérationnelles avant toute expédition."
+        },
+        "es": {
+          "headline": "Irlanda del Norte actualiza su legislación fitosanitaria y sobre patata de siembra",
+          "summary": "UK Parliament examinó modificaciones técnicas relativas a la sanidad vegetal, las semillas, la patata de siembra y el material de propagación en Irlanda del Norte. El debate señaló que el Windsor Framework permite trasladar patata de siembra desde Gran Bretaña a Irlanda del Norte para su cultivo, mientras que la norma actualiza las referencias nacionales y los controles de bioseguridad alineados con la UE.",
+          "why_it_matters": "Los movimientos de patata de siembra dependen de normas precisas de sanidad vegetal, trazabilidad y comercialización. Los comerciantes deberían tratar el acta parlamentaria como contexto normativo y comprobar la norma definitiva y las instrucciones operativas antes del envío."
+        },
+        "it": {
+          "headline": "L’Irlanda del Nord aggiorna la normativa fitosanitaria e sulle patate da seme",
+          "summary": "UK Parliament ha esaminato modifiche tecniche relative alla salute delle piante, alle sementi, alle patate da seme e al materiale di propagazione in Irlanda del Nord. Il dibattito ha ricordato che il Windsor Framework consente il trasferimento di patate da seme dalla Gran Bretagna all’Irlanda del Nord per la coltivazione, mentre il provvedimento aggiorna i riferimenti nazionali e i controlli di biosicurezza allineati all’UE.",
+          "why_it_matters": "I trasferimenti di patate da seme dipendono da norme precise in materia di salute delle piante, tracciabilità e commercializzazione. I commercianti dovrebbero considerare il resoconto parlamentare come contesto normativo e verificare il provvedimento definitivo e le indicazioni operative prima della spedizione."
+        }
+      }
     },
     {
       "slug": "europe-summer-crop-heat-drought-2026",
@@ -191,7 +257,29 @@
       },
       "image": null,
       "canonical_url": "https://seedtrade.eu/news/europe-summer-crop-heat-drought-2026",
-      "fingerprint": "1c37b728a087584c8d78c36ab04d9df3ac6b7485abdc3f04724ea6c5e3d660ae"
+      "fingerprint": "1c37b728a087584c8d78c36ab04d9df3ac6b7485abdc3f04724ea6c5e3d660ae",
+      "localizations": {
+        "de": {
+          "headline": "Sommerhitze und Dürre in Europa erhöhen Risiken für Kulturen und Saatgutproduktion",
+          "summary": "Carbon Brief untersuchte Erkenntnisse zur europäischen Hitze und Dürre 2026, darunter Informationen der European Commission zur Ernteüberwachung. Die Analyse beschrieb erhebliche Belastungen für Sommerkulturen in mehreren Anbauregionen. Sie liefert Wetter- und Anbaukontext, belegt jedoch keine Verluste bei zertifiziertem Saatgut für einzelne Arten oder Länder.",
+          "why_it_matters": "Hitze und Wasserdefizite während Blüte, Samenfüllung oder Knollenentwicklung können die Vermehrungsergebnisse und die spätere Verfügbarkeit beeinflussen. SeedTrade erfasst das Ereignis deshalb ausschließlich als Kontextinformation und leitet daraus kein gerichtetes Market Signal ab."
+        },
+        "fr": {
+          "headline": "La chaleur et la sécheresse estivales en Europe accroissent les risques pour les cultures et la production de semences",
+          "summary": "Carbon Brief a passé en revue les éléments disponibles sur la chaleur et la sécheresse européennes de 2026, notamment les informations de suivi des cultures de la European Commission. L’analyse décrit une pression importante sur les cultures d’été dans plusieurs régions productrices. Elle apporte un contexte météorologique et agricole, mais n’établit pas de pertes de semences certifiées pour une espèce ou un pays particulier.",
+          "why_it_matters": "La chaleur et le déficit hydrique pendant la floraison, le remplissage des graines ou le développement des tubercules peuvent influer sur les résultats de multiplication et la disponibilité ultérieure. SeedTrade enregistre donc cet événement uniquement comme élément de contexte et ne le convertit pas en Market Signal directionnel."
+        },
+        "es": {
+          "headline": "El calor y la sequía estivales en Europa elevan los riesgos para los cultivos y la producción de semillas",
+          "summary": "Carbon Brief revisó las pruebas sobre el calor y la sequía europeos de 2026, incluida información de seguimiento de cultivos de la European Commission. El análisis describió una presión importante sobre los cultivos de verano en varias regiones productoras. Aporta contexto meteorológico y agrícola, pero no demuestra pérdidas de semilla certificada para ninguna especie o país concreto.",
+          "why_it_matters": "El calor y los déficits hídricos durante la floración, el llenado de semillas o el desarrollo de tubérculos pueden afectar a los resultados de multiplicación y a la disponibilidad posterior. Por ello, SeedTrade registra el evento únicamente como evidencia contextual y no lo convierte en un Market Signal direccional."
+        },
+        "it": {
+          "headline": "Caldo e siccità estivi in Europa aumentano i rischi per colture e produzione sementiera",
+          "summary": "Carbon Brief ha esaminato le evidenze sul caldo e sulla siccità europei del 2026, comprese le informazioni della European Commission sul monitoraggio delle colture. L’analisi ha descritto pressioni significative sulle colture estive in diverse regioni produttrici. Fornisce un contesto meteorologico e colturale, ma non dimostra perdite di sementi certificate per singole specie o paesi.",
+          "why_it_matters": "Caldo e deficit idrici durante la fioritura, il riempimento dei semi o lo sviluppo dei tuberi possono influire sui risultati della moltiplicazione e sulla disponibilità successiva. SeedTrade registra quindi l’evento solo come evidenza di contesto e non lo converte in un Market Signal direzionale."
+        }
+      }
     }
   ]
 }

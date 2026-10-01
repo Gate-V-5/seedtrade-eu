@@ -29,7 +29,7 @@ class WeatherSeedRiskMapV1(unittest.TestCase):
         self.assertTrue(all(item["label"] for item in MAP["countries"] if item["code"] in country_counts))
 
     def test_public_region_list_and_methodology_are_static(self):
-        for token in ("weather.regions.reduce", "region.name", "region.country", "weather.observed_date", "weather.methodology_note", "No region-level crop or phenology", "do not establish a change"):
+        for token in ("weather.regions.reduce", 'localizedContentText(weather,language,`regions.${weather.regions.indexOf(region)}.name`)', "region.country", "weather.observed_date", 'localizedContentText(weather,language,"methodology_note")', "No region-level crop or phenology", "do not establish a change"):
             self.assertIn(token, PAGE)
         self.assertIn("<svg", PAGE)
         self.assertIn("<title>", PAGE)
