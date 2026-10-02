@@ -78,7 +78,7 @@ try {
         globalThis.window={location:{pathname:route}}
         const dom=new JSDOM(renderToStaticMarkup(React.createElement(App,{initialLanguage:code})))
         const displayed=plain(dom.window.document.querySelector('main').textContent)
-        for(const record of records.filter(item=>kind!=='news'||route!=='/'||item.stream))assert.ok(displayed.includes(plain(text(record,code,'summary'))),`${code} card summary`)
+        for(const record of records.filter(item=>kind!=='news'||route!=='/'||item.stream))assert.ok(displayed.includes(plain(text(record,code,kind==='news'&&route==='/'?'headline':'summary'))),`${code} card discovery text`)
         dom.window.close()
       }
     }

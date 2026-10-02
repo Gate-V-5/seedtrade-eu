@@ -215,7 +215,18 @@ function DailyNewsHighlights() {
   const asOf=useNewsDate()
   return <div className="news-list">{selectStreamHighlights(publicNews,asOf,newsSources).map(({stream,item})=>item ? <NewsCard compact key={stream} story={item}/> : <article className="news-card compact news-empty" key={stream}><span className="category">{stream}</span><p><T>No new verified assessment</T></p></article>)}</div>
 }
-function NewsCard({ story, compact = false }) { const t=useT(); const {language}=useLanguage(); return <article className={`news-card ${compact ? "compact" : ""}`}><a className="news-image-link" href={`/news/${story.slug}`} aria-label={t("Read {title}",{title:localizedContentText(story,language,"headline")})}><EditorialVisual item={story} type="news"/></a><div className="news-card-body"><div><span className="category"><I18n text={story.stream || story.category}/></span><time dateTime={story.publication_date}>{story.publication_date}</time></div><h3><a href={`/news/${story.slug}`}><BotanicalText>{localizedContentText(story,language,"headline")}</BotanicalText></a></h3><LinkedSpecies item={story}/>{story.event&&<p className="news-event">{story.event.start_date} – {story.event.end_date} · {story.event.location}</p>}<p><BotanicalText>{localizedContentText(story,language,"summary")}</BotanicalText></p>{(!compact || story.stream) && <p className="why"><b><T>Why it matters:</T></b> <BotanicalText>{localizedContentText(story,language,"why_it_matters")}</BotanicalText></p>}<small><T>Source:</T> {story.source_name} · {t(story.provenance_class)}{story.checked_at && <> · <T>Checked</T> {story.checked_at}</>}</small><a href={`/news/${story.slug}`}><T>Read more →</T></a></div></article> }
+function NewsCard({ story, compact = false }) {
+  const t=useT(),{language}=useLanguage()
+  return <article className={`news-card ${compact ? "compact" : ""}`}>
+    <a className="news-image-link" href={`/news/${story.slug}`} aria-label={t("Read {title}",{title:localizedContentText(story,language,"headline")})}><EditorialVisual item={story} type="news"/></a>
+    <div className="news-card-body">
+      <div><span className="category"><I18n text={story.stream || story.category}/></span><time dateTime={story.publication_date}>{story.publication_date}</time></div>
+      <h3><a href={`/news/${story.slug}`}><BotanicalText>{localizedContentText(story,language,"headline")}</BotanicalText></a></h3>
+      {!compact && <><LinkedSpecies item={story}/>{story.event&&<p className="news-event">{story.event.start_date} – {story.event.end_date} · {story.event.location}</p>}<p><BotanicalText>{localizedContentText(story,language,"summary")}</BotanicalText></p><p className="why"><b><T>Why it matters:</T></b> <BotanicalText>{localizedContentText(story,language,"why_it_matters")}</BotanicalText></p><small><T>Source:</T> {story.source_name} · {t(story.provenance_class)}{story.checked_at && <> · <T>Checked</T> {story.checked_at}</>}</small></>}
+      <a href={`/news/${story.slug}`}><T>Read more →</T></a>
+    </div>
+  </article>
+}
 
 function SignalPanel() {
   return <aside className="signal-panel"><div className="signal-top"><div><p className="eyebrow"><T>Market Signal</T></p><span className="data-available"><T>Verified data available · monthly</T></span></div></div><div className="signal-crops signal-single"><TradePulseSignal/></div><small><T>Activity labels are evidence-gated descriptions of completed trade, not forecasts or trading advice. Individual species intelligence remains available in Market Intelligence.</T></small></aside>
