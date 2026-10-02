@@ -20,7 +20,7 @@ try {
   for(const key of ['market','weather','production'])assert.equal(home.window.document.querySelector(`.fixed-evidence-image[src="${fixed[key].src}"]`).getAttribute('data-fixed-editorial'),'true')
   for(const key of Object.keys(fixed).filter(key=>!['market','weather','production'].includes(key)))assert.ok(home.window.document.querySelector(`.visual-insights img[src="${fixed[key].src}"]`))
   assert.deepEqual([...home.window.document.querySelectorAll('.visual-insights .geographic-label')].map(el=>el.textContent),['VALENCIA / SPAIN','BELGIUM','LITHUANIA'])
-  assert.deepEqual([...home.window.document.querySelectorAll('.top-news .geographic-label')].map(el=>el.textContent),['EU','LATVIA','NETHERLANDS','SPAIN'])
+  assert.deepEqual([...home.window.document.querySelectorAll('.top-news .geographic-label')].map(el=>el.getAttribute('data-geography')),['EU','LATVIA','NETHERLANDS','SPAIN'])
   for(const img of home.window.document.querySelectorAll('.top-news img,.intelligence-commercial img,.visual-insights img')){assert.ok(img.getAttribute('src').startsWith('/') && !img.getAttribute('src').startsWith('//'));assert.ok(img.getAttribute('alt'));assert.ok(img.getAttribute('width') && img.getAttribute('height'))}
 
   assert.equal(archive.window.document.querySelectorAll('.news-editorial-image').length,8)

@@ -1,0 +1,20 @@
+{
+  "starting_head": "3fd521723e3e7ccbecf0dad579c42c86a8e595d1",
+  "tests": "231/231 Python + 4/4 B2B mocks PASS",
+  "build": "PASS",
+  "prerender": "44 routes PASS",
+  "hydration": "220 combinations PASS",
+  "browser_qa": "BLOCKED_ENVIRONMENT; computed placement contracts only; visual result unverified",
+  "desktop": "computed style and visible text parity at 768/1024/1440 PASS",
+  "real_emails": 0,
+  "changed_files": [
+    "docs/mobile-news-production-fix/IMPLEMENTATION.md",
+    "scripts/check_mobile_news_placement.mjs",
+    "tests/test_mobile_news_placement.py",
+    "scripts/check_news_visuals.mjs",
+    "scripts/check_responsive_production.mjs",
+    "src/AppV2.jsx",
+    "src/styles.css"
+  ],
+  "unrelated_changes": "NONE"
+}

@@ -210,7 +210,7 @@ function GeographicLabel({ item, context = false }) {
   const labels={LV:"LATVIA",NL:"NETHERLANDS",ES:"SPAIN",DE:"GERMANY",BE:"BELGIUM",LT:"LITHUANIA"}
   const countries=item.countries || item.geography?.countries || []
   const label=context ? item.slug.includes("euroseeds") ? "VALENCIA / SPAIN" : item.slug.includes("interpom") ? "BELGIUM" : item.slug.includes("lagrenas") ? "LITHUANIA" : geographyLabel(item) : countries.length===1 ? labels[countries[0]] || countries[0] : countries.length>1 || geographyLabel(item).includes("Europe") ? "EU" : geographyLabel(item)
-  return <span className="geographic-label">{label}</span>
+  return <span className="geographic-label" data-geography={label}>{label === "EU" ? <><span className="geography-standard">EU</span><span className="geography-mobile">EUROPE</span></> : label}</span>
 }
 function FixedEvidenceImage({ name }) {
   const visual=fixedEditorialVisuals[name]
