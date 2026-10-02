@@ -19,10 +19,12 @@ class ThreeCardVisualV1(unittest.TestCase):
         self.assertNotIn("Supply / Crop Intelligence", SECTION)
         self.assertNotIn("tracked seed categories", SECTION)
 
-    def test_visuals_are_distinct_static_inline_svg_and_preserve_data(self):
+    def test_visuals_are_distinct_fixed_owner_assets_and_preserve_data(self):
         for theme in ("trade", "weather", "production"):
             self.assertIn(f'intelligence-topic-visual {theme}', SECTION)
-        self.assertEqual(SECTION.count("<svg "), 3)
+        self.assertEqual(SECTION.count("<FixedEvidenceImage "), 3)
+        self.assertNotIn("newsVisuals", SECTION)
+        self.assertNotIn("<svg ", SECTION)
         self.assertIn("tradePulse.views.eu_internal_trade.latest", SECTION)
         self.assertIn("market.latest_completed_period", SECTION)
         self.assertIn("weather.region_count", SECTION)
@@ -31,8 +33,7 @@ class ThreeCardVisualV1(unittest.TestCase):
         self.assertNotRegex(SECTION, re.compile(r"fetch\(|Math\.random|Date\("))
 
     def test_weather_visual_uses_existing_country_geography_with_caveat(self):
-        self.assertIn('europeMap.countries.map', SECTION)
-        self.assertIn('europeMap.monitored_country_counts[country.code]', SECTION)
+        self.assertIn('<FixedEvidenceImage name="weather"/>', SECTION)
         self.assertIn('country shading does not mean nationwide monitoring', SECTION)
         self.assertEqual(WEATHER["region_count"], 23)
         self.assertEqual(len(MAP["monitored_country_counts"]), 6)

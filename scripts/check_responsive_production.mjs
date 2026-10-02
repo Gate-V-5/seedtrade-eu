@@ -18,7 +18,7 @@ const news=JSON.parse(fs.readFileSync('src/generated/news.json'))
 const trade=JSON.parse(fs.readFileSync('src/generated/trade_pulse_public.json'))
 const canonical=execFileSync('git',['show','6031f3cc51cca221dcd9070fd3ce53d5df36bbc3:src/AppV2.jsx'],{encoding:'utf8'})
 const current=fs.readFileSync('src/AppV2.jsx','utf8')
-for(const name of ['Header','TradePulseSignal','NewsItem']){
+for(const name of ['Header','TradePulseSignal']){
  const extract=source=>source.split(`function ${name}(`)[1].split('\nfunction ')[0]
  assert.equal(extract(current),extract(canonical),`${name} behavior/data unchanged`)
 }
@@ -31,17 +31,18 @@ try{
   const doc=dom.window.document,style=doc.createElement('style');style.textContent=active(parser.window.document.styleSheets[0].cssRules,width);doc.head.append(style)
   const computed=element=>dom.window.getComputedStyle(element)
   assert.equal(doc.querySelectorAll('.top-news .news-card').length,4)
-  const expectedColumns=width<=620?'1fr':width<=1120?'repeat(2,minmax(0,1fr))':'repeat(4,minmax(0,1fr))'
+  const expectedColumns=width<=620?'minmax(0,1fr)':width<=1120?'repeat(2,minmax(0,1fr))':'repeat(4,minmax(0,1fr))'
   assert.equal(computed(doc.querySelector('.top-news .news-list')).gridTemplateColumns.replaceAll(' ',''),expectedColumns.replaceAll(' ',''))
   for(const card of doc.querySelectorAll('.top-news .news-card')){
    const link=card.querySelector('.news-image-link'),img=link.querySelector('img')
-   assert.equal(computed(link).display,'block');assert.equal(computed(link).minHeight,width<=620?'112px':'150px')
-   assert.equal(computed(link).marginTop,'0px');assert.equal(computed(img).height,'100%');assert.equal(computed(img).objectFit,'contain')
+   assert.equal(computed(link).display,'block');assert.equal(computed(link).minHeight,width<=620?'120px':'150px')
+   assert.equal(computed(link).marginTop,'0px');assert.equal(computed(img).height,'100%');assert.equal(computed(img).objectFit,'cover')
    assert.equal(card.querySelectorAll('p,small').length,0,'Discovery cards must not duplicate the article narrative')
-   assert.ok(card.querySelector('h3').textContent.trim());assert.equal(computed(card.querySelector('h3')).overflowWrap,'anywhere')
+   assert.ok(card.querySelector('.geographic-label').textContent.trim());assert.equal(computed(card.querySelector('h3')).wordBreak,'normal');assert.equal(computed(card.querySelector('h3')).overflow,'visible');
+   assert.ok(card.querySelector('h3').textContent.trim());assert.equal(computed(card.querySelector('h3')).overflowWrap,'normal')
    assert.equal(computed(card).minWidth,'0')
    assert.equal(computed(card).display,width<=620?'grid':'flex')
-   if(width<=620)assert.equal(computed(card).gridTemplateColumns,'104px minmax(0,1fr)')
+   if(width<=620)assert.equal(computed(card).gridTemplateColumns,'96px minmax(0,1fr)')
    assert.equal(fs.existsSync(`public${img.getAttribute('src')}`),true)
   }
   assert.equal(doc.querySelectorAll('.signal-panel .pulse-flow').length,3)

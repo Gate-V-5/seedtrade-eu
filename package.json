@@ -9,7 +9,7 @@
     "test": "python3 -B -m unittest discover -s tests -p 'test_*.py' -v && node --test tests/networkInterest.test.mjs",
     "start:network-form": "node server/index.mjs",
     "start": "node server/index.mjs",
-    "build:vite": "vite build && node scripts/prerender_seo.mjs && node scripts/prerender_static_first.mjs",
+    "build:vite": "node scripts/validate_editorial_assets.mjs && vite build && node scripts/prerender_seo.mjs && node scripts/prerender_static_first.mjs",
     "build": "npm run build:vite",
     "postinstall": "npm run build",
     "preview": "vite preview"

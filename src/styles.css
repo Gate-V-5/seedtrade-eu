@@ -1738,3 +1738,28 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
   .top-news .news-card .news-card-body > a { font-size:12px; padding-top:4px; }
   .topbar > .official-logo { max-width:160px; }
 }
+
+/* Realistic editorial assets: fixed evidence/context and article-specific news. */
+.intelligence-commercial .intelligence-topic-visual { height:200px; min-height:200px; }
+.fixed-evidence-image { display:block; width:100%; height:100%; object-fit:cover; }
+.intelligence-topic-visual .visual-tag,.intelligence-topic-visual .visual-caption { z-index:2; background:rgba(255,255,255,.92); padding:3px 6px; border-radius:3px; }
+.context-image { display:block; width:100%; height:190px; object-fit:contain; background:#f2f5f1; }
+.editorial-page > .context-image { height:auto; max-height:440px; }
+.geographic-label { color:#5c7169; font-size:10px; font-weight:600; letter-spacing:.04em; }
+.editorial-card-body > .geographic-label { display:block; margin-top:5px; }
+.top-news .news-list .news-image-link .news-editorial-image { object-fit:cover; }
+.top-news .news-card h3 { overflow-wrap:normal; word-break:normal; overflow:visible; }
+.news-hero figcaption { line-height:1.5; }
+@media(max-width:620px) {
+ .top-news .news-list { display:grid; grid-template-columns:minmax(0,1fr); gap:10px; }
+ .top-news .news-list .news-card { display:grid; grid-template-columns:96px minmax(0,1fr); min-height:0; }
+ .top-news .news-list .news-card > .news-image-link { min-height:120px; height:100%; overflow:hidden; }
+ .top-news .news-image-link .news-editorial-image { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; object-fit:cover; }
+ .top-news .news-card .news-card-body { padding:10px; display:flex; flex-direction:column; min-width:0; }
+ .top-news .news-card h3 { font-size:14px; line-height:1.35; margin:6px 0; white-space:normal; overflow:visible; display:block; -webkit-line-clamp:unset; overflow-wrap:normal; word-break:normal; }
+ .top-news .news-card .news-card-body > div { display:flex; flex-wrap:wrap; gap:3px 6px; }
+ .top-news .news-card .category { font-size:9px; overflow-wrap:normal; }
+ .top-news .news-card time { font-size:9px; }
+ .top-news .news-card .geographic-label { font-size:9px; }
+ .top-news .news-card .news-card-body > a { margin-top:0; padding-top:2px; }
+}

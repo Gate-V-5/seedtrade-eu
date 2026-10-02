@@ -1,0 +1,80 @@
+{
+  "market": {
+    "src": "/editorial/market.webp",
+    "width": 1600,
+    "height": 893,
+    "alt": "Analyst reviewing European seed market dashboards",
+    "classification": "PUBLIC_SAFE",
+    "kind": "OWNER_APPROVED_EDITORIAL",
+    "fixed": true,
+    "reuse_basis": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+    "creator": "Owner supplied",
+    "source_sha256": "38551fdee108fca5849c253b217d9b0734218cd2d0909099b913df4fea657b7d",
+    "documentary_evidence": false
+  },
+  "weather": {
+    "src": "/editorial/weather.webp",
+    "width": 1600,
+    "height": 893,
+    "alt": "European satellite-style map with illustrative monitoring points",
+    "classification": "PUBLIC_SAFE",
+    "kind": "OWNER_APPROVED_EDITORIAL",
+    "fixed": true,
+    "reuse_basis": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+    "creator": "Owner supplied",
+    "source_sha256": "0c8647deea01ba20fb77ddbd7e7b886b9cbc67bab5ff166169435c6ea4b2fe3f",
+    "documentary_evidence": false
+  },
+  "production": {
+    "src": "/editorial/production.webp",
+    "width": 1600,
+    "height": 893,
+    "alt": "Seed production field plots, processing and storage infrastructure",
+    "classification": "PUBLIC_SAFE",
+    "kind": "OWNER_APPROVED_EDITORIAL",
+    "fixed": true,
+    "reuse_basis": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+    "creator": "Owner supplied",
+    "source_sha256": "478d8ca1453a98438a15ce5cfab46d6d56ecb023061a568f6735127a5a40ae9b",
+    "documentary_evidence": false
+  },
+  "euroseeds-2026-congress-valencia": {
+    "src": "/editorial/euroseeds-2026-congress-valencia.webp",
+    "width": 1146,
+    "height": 568,
+    "alt": "Euroseeds Congress 2026, Valencia, Spain",
+    "classification": "PUBLIC_SAFE",
+    "kind": "OWNER_APPROVED_EDITORIAL",
+    "fixed": true,
+    "reuse_basis": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+    "creator": "Owner supplied",
+    "source_sha256": "90075c9b202f920f72f76fa6c18605c8dce13473df876e7f0bb2c03abd0598cf",
+    "documentary_evidence": false
+  },
+  "interpom-2026-europe-potato-value-chain": {
+    "src": "/editorial/interpom-2026-europe-potato-value-chain.webp",
+    "width": 1077,
+    "height": 929,
+    "alt": "Official INTERPOM 2026 event image, Belgium",
+    "classification": "PUBLIC_SAFE",
+    "kind": "OWNER_APPROVED_EDITORIAL",
+    "fixed": true,
+    "reuse_basis": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+    "creator": "Owner supplied",
+    "source_sha256": "e85a108681ca40514d4f78e805a1656a2dbd8e065fceb89efb45664a286a285a",
+    "documentary_evidence": false
+  },
+  "lagrenas-contract-seed-multiplication-lithuania": {
+    "src": "/editorial/lagrenas-contract-seed-multiplication-lithuania.webp",
+    "width": 598,
+    "height": 392,
+    "alt": "Lagrenas partner image, Lithuania",
+    "classification": "PUBLIC_SAFE",
+    "kind": "OWNER_APPROVED_EDITORIAL",
+    "fixed": true,
+    "reuse_basis": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+    "creator": "Owner supplied",
+    "source_sha256": "5de6802831bca396a6df117bc7d4d4143b3f959e7f074d256ca8ac0b0e6507d8",
+    "documentary_evidence": false
+  }
+}
