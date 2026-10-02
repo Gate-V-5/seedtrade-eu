@@ -1,0 +1,74 @@
+{
+  "interpom-2026-exhibitor-profile": {
+    "src": "/news-visuals/interpom-2026-exhibitor-profile.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "INTERPOM 2026 lists 332 exhibitors from 15 countries",
+    "documentary_evidence": false
+  },
+  "europe-potato-crop-drought-estimate-2026": {
+    "src": "/news-visuals/europe-potato-crop-drought-estimate-2026.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "Summer heat and drought cut the 2026 European potato outlook",
+    "documentary_evidence": false
+  },
+  "northern-ireland-seed-potato-rules-update-2026": {
+    "src": "/news-visuals/northern-ireland-seed-potato-rules-update-2026.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "Northern Ireland updates plant-health and seed-potato legislation",
+    "documentary_evidence": false
+  },
+  "europe-summer-crop-heat-drought-2026": {
+    "src": "/news-visuals/europe-summer-crop-heat-drought-2026.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "European summer heat and drought raise crop and seed-production risks",
+    "documentary_evidence": false
+  },
+  "eu-weather-september-2026-baseline": {
+    "src": "/news-visuals/eu-weather-september-2026-baseline.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "September crop monitoring separates summer losses from autumn seed risks",
+    "documentary_evidence": false
+  },
+  "eu-agronomist-latvia-autumn-establishment": {
+    "src": "/news-visuals/eu-agronomist-latvia-autumn-establishment.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "Latvian wet fields put autumn establishment decisions under review",
+    "documentary_evidence": false
+  },
+  "eu-trade-market-nak-interim-seed-potato-checks": {
+    "src": "/news-visuals/eu-trade-market-nak-interim-seed-potato-checks.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "Dutch seed potato checks require caution on early downgrade figures",
+    "documentary_evidence": false
+  },
+  "eu-events-euroseeds-valencia-october-2026": {
+    "src": "/news-visuals/eu-events-euroseeds-valencia-october-2026.svg",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "topic": "Euroseeds Congress brings seed professionals to Valencia this October",
+    "documentary_evidence": false
+  }
+}

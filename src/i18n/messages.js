@@ -182,6 +182,7 @@ const rows = [
   ["Seasonality", "Saisonalität", "Saisonnalité", "Estacionalidad", "Stagionalità"],
   ["Seed Production", "Saatgutproduktion", "Production de semences", "Producción de semillas", "Produzione di sementi"],
   ["Seed marketplace discovery", "Saatgutangebote entdecken", "Découvrir la place de marché des semences", "Descubrir el mercado de semillas", "Esplorare il mercato delle sementi"],
+  ["Editorial illustration", "Redaktionelle Illustration", "Illustration éditoriale", "Ilustración editorial", "Illustrazione editoriale"],
   ["Source and provenance", "Quelle und Herkunft", "Source et provenance", "Fuente y procedencia", "Fonte e provenienza"],
   ["Sources and provenance", "Quellen und Herkunft", "Sources et provenance", "Fuentes y procedencia", "Fonti e provenienza"],
   ["Submission unavailable in public MVP", "Übermittlung im öffentlichen MVP nicht verfügbar", "Soumission indisponible dans le MVP public", "Envío no disponible en la versión pública inicial", "Invio non disponibile nell’MVP pubblico"],
