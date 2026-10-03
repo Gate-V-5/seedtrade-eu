@@ -1,0 +1,320 @@
+[
+  {
+    "id": "SCV1-series-01",
+    "entity": "tall-fescue",
+    "country": "DE",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "source_botanical": "Festuca arundinacea",
+    "organisation": "LELF Brandenburg",
+    "history_length": 4,
+    "observations": [
+      "SCV1-01-2022",
+      "SCV1-01-2023",
+      "SCV1-01-2024",
+      "SCV1-01-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-02",
+    "entity": "narrow-leaved-lupin",
+    "country": "DE",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "source_botanical": "Lupinus angustifolius",
+    "organisation": "LELF Brandenburg",
+    "history_length": 5,
+    "observations": [
+      "SCV1-02-2021",
+      "SCV1-02-2022",
+      "SCV1-02-2023",
+      "SCV1-02-2024",
+      "SCV1-02-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-03",
+    "entity": "white-lupin",
+    "country": "DE",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "source_botanical": "Lupinus albus",
+    "organisation": "LELF Brandenburg",
+    "history_length": 5,
+    "observations": [
+      "SCV1-03-2021",
+      "SCV1-03-2022",
+      "SCV1-03-2023",
+      "SCV1-03-2024",
+      "SCV1-03-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-04",
+    "entity": "white-mustard",
+    "country": "DE",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "source_botanical": "Sinapis alba",
+    "organisation": "LELF Brandenburg",
+    "history_length": 4,
+    "observations": [
+      "SCV1-04-2022",
+      "SCV1-04-2023",
+      "SCV1-04-2024",
+      "SCV1-04-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-05",
+    "entity": "carrot",
+    "country": "FR",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "season": "ALL_REPORTED",
+    "category": "STANDARD_SEED",
+    "crop_use": "VEGETABLE_SEED",
+    "species_scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "source_botanical": "Daucus carota",
+    "organisation": "SEMAE / SOCFrance",
+    "history_length": 5,
+    "observations": [
+      "SCV1-05-2021",
+      "SCV1-05-2022",
+      "SCV1-05-2023",
+      "SCV1-05-2024",
+      "SCV1-05-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-06",
+    "entity": "parsley",
+    "country": "FR",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "season": "ALL_REPORTED",
+    "category": "STANDARD_SEED",
+    "crop_use": "VEGETABLE_SEED",
+    "species_scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "source_botanical": "Petroselinum crispum",
+    "organisation": "SEMAE / SOCFrance",
+    "history_length": 5,
+    "observations": [
+      "SCV1-06-2021",
+      "SCV1-06-2022",
+      "SCV1-06-2023",
+      "SCV1-06-2024",
+      "SCV1-06-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-07",
+    "entity": "spinach",
+    "country": "FR",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "season": "ALL_REPORTED",
+    "category": "STANDARD_SEED",
+    "crop_use": "VEGETABLE_SEED",
+    "species_scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "source_botanical": "Spinacia oleracea",
+    "organisation": "SEMAE / SOCFrance",
+    "history_length": 5,
+    "observations": [
+      "SCV1-07-2021",
+      "SCV1-07-2022",
+      "SCV1-07-2023",
+      "SCV1-07-2024",
+      "SCV1-07-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-08",
+    "entity": "cultivated-radish",
+    "country": "FR",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "season": "ALL_REPORTED",
+    "category": "STANDARD_SEED",
+    "crop_use": "VEGETABLE_SEED",
+    "species_scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "source_botanical": "Raphanus raphanistrum subsp. sativus",
+    "organisation": "SEMAE / SOCFrance",
+    "history_length": 5,
+    "observations": [
+      "SCV1-08-2021",
+      "SCV1-08-2022",
+      "SCV1-08-2023",
+      "SCV1-08-2024",
+      "SCV1-08-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-09",
+    "entity": "narrow-leaved-lupin",
+    "country": "PL",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "FIELD_INSPECTED",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "source_botanical": "Lupinus angustifolius",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-09-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-10",
+    "entity": "narrow-leaved-lupin",
+    "country": "PL",
+    "metric": "CERTIFIED_SEED_AREA",
+    "unit": "ha",
+    "definition": "APPROVED_FIELD",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "source_botanical": "Lupinus angustifolius",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-10-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-11",
+    "entity": "white-lupin",
+    "country": "PL",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "FIELD_INSPECTED",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "source_botanical": "Lupinus albus",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-11-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-12",
+    "entity": "white-lupin",
+    "country": "PL",
+    "metric": "CERTIFIED_SEED_AREA",
+    "unit": "ha",
+    "definition": "APPROVED_FIELD",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "source_botanical": "Lupinus albus",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-12-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-13",
+    "entity": "tall-fescue",
+    "country": "PL",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "FIELD_INSPECTED",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "source_botanical": "Festuca arundinacea",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-13-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-14",
+    "entity": "tall-fescue",
+    "country": "PL",
+    "metric": "CERTIFIED_SEED_AREA",
+    "unit": "ha",
+    "definition": "APPROVED_FIELD",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "source_botanical": "Festuca arundinacea",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-14-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-15",
+    "entity": "white-mustard",
+    "country": "PL",
+    "metric": "SEED_PRODUCTION_AREA",
+    "unit": "ha",
+    "definition": "FIELD_INSPECTED",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "source_botanical": "Sinapis alba",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-15-2025"
+    ]
+  },
+  {
+    "id": "SCV1-series-16",
+    "entity": "white-mustard",
+    "country": "PL",
+    "metric": "CERTIFIED_SEED_AREA",
+    "unit": "ha",
+    "definition": "APPROVED_FIELD",
+    "season": "ALL_REPORTED",
+    "category": "ALL_REPORTED",
+    "crop_use": "NOT_SPECIFIED",
+    "species_scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "source_botanical": "Sinapis alba",
+    "organisation": "WIORiN Warszawa",
+    "history_length": 1,
+    "observations": [
+      "SCV1-16-2025"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "starting_head": "ee84c92729f99a9d38ea1daa232a322e59cbfcb4",
+  "inputs": [
+    {
+      "path": "data/species-coverage-v1/accepted-rows.json",
+      "sha256": "3a2f14ccff173e122d3bcb4b05828d0f43d7806da19dee8226f8c9ba842ffa45"
+    },
+    {
+      "path": "data/species-coverage-v1/withheld-rows.json",
+      "sha256": "63f87f98d1eebdff1494e23f74bacfd5f44e41fec267d13b498e7b9f953a5e29"
+    },
+    {
+      "path": "docs/crop-master-v1/CROP_MASTER_V1.json",
+      "sha256": "de0da445b9324a1aa28e7f91b084b12cab913f884213726f960e804960f8f48c"
+    },
+    {
+      "path": "src/generated/production_public.json",
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4"
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/species-coverage-v1/CN_AUDIT_121.json",
+      "sha256": "31ab0ab709e7ee9f4928d0f1049ec7f4f4787a5dcce2e60ae3552521301d53f2"
+    },
+    {
+      "path": "docs/species-coverage-v1/HISTORICAL_DIRECTION.json",
+      "sha256": "ceae6330786827da741105b49655db6a9004b8f50666ff5bc851add9cc16c38c"
+    },
+    {
+      "path": "docs/species-coverage-v1/NEW_COMPARABLE_SERIES.json",
+      "sha256": "7b8f62644f73dabe2c0a828ff9873a58bc23007b49319a6ac1c08975191450ed"
+    },
+    {
+      "path": "docs/species-coverage-v1/NEW_OFFICIAL_OBSERVATIONS.json",
+      "sha256": "1258297ec4043e183f7f7f75d9d13ccaa5421904418314da431f458030112a2c"
+    },
+    {
+      "path": "docs/species-coverage-v1/QA_RESULT.json",
+      "sha256": "c733a7dcbcafd4d12f429901e03a0e939e8c583fcc449df90cbf9ab1598ac939"
+    },
+    {
+      "path": "docs/species-coverage-v1/SOURCE_REGISTRY.json",
+      "sha256": "828d6573737a1a7c663bda54d91b7db3eafd62c84031e472ce3c81ad10a28ca5"
+    },
+    {
+      "path": "docs/species-coverage-v1/SPECIES_COVERAGE_121.json",
+      "sha256": "c2f00467985adf3094a8aa834716e08d24b09d440c4c83e5bde952191901f4c7"
+    },
+    {
+      "path": "docs/species-coverage-v1/SUMMARY.json",
+      "sha256": "d65e3280925babcfbb5b308a8654ab4fae4ace84dbca3367d594d83977e0b905"
+    },
+    {
+      "path": "docs/species-coverage-v1/WITHHELD_SOURCE_ROWS.json",
+      "sha256": "63f87f98d1eebdff1494e23f74bacfd5f44e41fec267d13b498e7b9f953a5e29"
+    }
+  ],
+  "method": "Additive observations only; original V5, CN and Crop Master bytes preserved. Raw public documents and page renders retained in recovery ZIP."
+}

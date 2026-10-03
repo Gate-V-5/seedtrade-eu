@@ -1,0 +1,38 @@
+{
+  "new_sources": {
+    "lelf-brandenburg": {
+      "organisation": "LELF Brandenburg",
+      "title": "Saatenanerkennung: Tabellen V.25.3–V.25.5; Brandenburg, not Germany total",
+      "url": "https://lelf.brandenburg.de/lelf/de/landwirtschaft/acker-und-pflanzenbau/saatenanerkennung/",
+      "accessed": "2026-10-03",
+      "reporting_period": "2021–2025 or 2022–2025",
+      "terminology": "Angemeldete Vermehrungsfläche",
+      "tier": 1
+    },
+    "semae-soc-2025": {
+      "organisation": "SEMAE / SOCFrance",
+      "title": "Intégrale des données statistiques 2024/2025, revised 03/03/2026; table 9-01, PDF p.75",
+      "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf#page=75",
+      "accessed": "2026-10-03",
+      "reporting_period": "Harvest 2021–2025",
+      "terminology": "Surfaces présentées en production de semences potagères; semences standard",
+      "tier": 1
+    },
+    "wiorin-mazowieckie-2025": {
+      "organisation": "WIORiN Warszawa",
+      "title": "2025 activity report; table 3.2, p.80; Mazowieckie, not Poland total",
+      "url": "https://www.gov.pl/attachment/dcfab9c3-1d53-4c83-a3ea-d552df76587d#page=80",
+      "accessed": "2026-10-03",
+      "reporting_period": "2025",
+      "terminology": "Objęto oceną / Zakwalifikowano: inspected / field approved, separate stages",
+      "tier": 1
+    }
+  },
+  "withheld_sector_source": {
+    "organisation": "SEMAE",
+    "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf#page=76",
+    "tier": 2,
+    "scope": "Protected cultivation table; lineage pending confirmation"
+  },
+  "review_scope": "FR official delegation and DE/PL regional certification authorities; no LOW_PRIORITY research; existing 23-country public evidence audited for all 121 biological species"
+}

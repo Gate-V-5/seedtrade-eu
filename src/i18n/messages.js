@@ -1,5 +1,6 @@
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["Download species data coverage audit", "Audit zur Arten-Datenabdeckung herunterladen", "Télécharger l’audit de couverture des espèces", "Descargar la auditoría de cobertura de especies", "Scarica la verifica della copertura delle specie"],
   ["seed species", "Saatgutarten", "espèces de semences", "especies de semillas", "specie da seme"],
   ["Identified seed species; analytical coverage varies by species.", "Identifizierte Saatgutarten; die analytische Abdeckung variiert je nach Art.", "Espèces identifiées ; la couverture analytique varie selon l’espèce.", "Especies identificadas; la cobertura analítica varía según la especie.", "Specie identificate; la copertura analitica varia per specie."],
   ["Crop Master and coverage", "Artenverzeichnis und Abdeckung", "Référentiel des espèces et couverture", "Catálogo de especies y cobertura", "Catalogo delle specie e copertura"],

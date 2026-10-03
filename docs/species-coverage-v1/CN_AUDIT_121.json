@@ -1,0 +1,1596 @@
+[
+  {
+    "canonical_species_id": "browntop",
+    "botanical_name": "Agrostis capillaris",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "browntop": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "onion",
+    "botanical_name": "Allium cepa",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "onion": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "bunching-onion",
+    "botanical_name": "Allium fistulosum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "bunching-onion": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "leek",
+    "botanical_name": "Allium porrum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "leek": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "chives",
+    "botanical_name": "Allium schoenoprasum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "chives": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "meadow-foxtail",
+    "botanical_name": "Alopecurus pratensis",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "meadow-foxtail": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "dill",
+    "botanical_name": "Anethum graveolens",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "dill": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "chervil",
+    "botanical_name": "Anthriscus cerefolium",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "chervil": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "celery",
+    "botanical_name": "Apium graveolens",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "celery": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "tall-oatgrass",
+    "botanical_name": "Arrhenatherum elatius",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "tall-oatgrass": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "asparagus",
+    "botanical_name": "Asparagus officinalis",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "asparagus": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "naked-oat",
+    "botanical_name": "Avena nuda",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "naked-oat": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "10041000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "oat",
+    "botanical_name": "Avena sativa",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "oat": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "10041000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "black-oat",
+    "botanical_name": "Avena strigosa",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "black-oat": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "10041000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "beet-chard",
+    "botanical_name": "Beta vulgaris",
+    "cn_status": "REVIEW_REQUIRED",
+    "entity_statuses": {
+      "beet-chard": "REVIEW_REQUIRED"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "biserrula",
+    "botanical_name": "Biserrula pelecinus",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "biserrula": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "borage",
+    "botanical_name": "Borago officinalis",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "borage": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "ethiopian-mustard",
+    "botanical_name": "Brassica carinata",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "ethiopian-mustard": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "brown-mustard",
+    "botanical_name": "Brassica juncea",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "brown-mustard": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12075010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "rapeseed",
+    "botanical_name": "Brassica napus",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "rapeseed": "PARTIAL"
+    },
+    "sowing_seed_codes": [
+      "12051010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "black-mustard",
+    "botanical_name": "Brassica nigra",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "black-mustard": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12075010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "cabbage",
+    "botanical_name": "Brassica oleracea",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "cabbage": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "turnip-rape",
+    "botanical_name": "Brassica rapa",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "turnip-rape": "PARTIAL"
+    },
+    "sowing_seed_codes": [
+      "12051010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "camelina",
+    "botanical_name": "Camelina sativa",
+    "cn_status": "REVIEW_REQUIRED",
+    "entity_statuses": {
+      "camelina": "REVIEW_REQUIRED"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "hemp",
+    "botanical_name": "Cannabis sativa",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "hemp": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12079920"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "pepper",
+    "botanical_name": "Capsicum annuum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "pepper": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12099180"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "safflower",
+    "botanical_name": "Carthamus tinctorius",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "safflower": "PARTIAL"
+    },
+    "sowing_seed_codes": [
+      "12076000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "caraway",
+    "botanical_name": "Carum carvi",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "caraway": "PARTIAL"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "quinoa",
+    "botanical_name": "Chenopodium quinoa",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "quinoa": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "chickpea",
+    "botanical_name": "Cicer arietinum",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "chickpea": "PARTIAL"
+    },
+    "sowing_seed_codes": [
+      "07132000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "endive",
+    "botanical_name": "Cichorium endivia",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "endive": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "chicory",
+    "botanical_name": "Cichorium intybus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "chicory": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "watermelon",
+    "botanical_name": "Citrullus lanatus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "watermelon": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "coriander",
+    "botanical_name": "Coriandrum sativum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "coriander": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "sunn-hemp",
+    "botanical_name": "Crotalaria juncea",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "sunn-hemp": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "melon",
+    "botanical_name": "Cucumis melo",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "melon": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "cucumber",
+    "botanical_name": "Cucumis sativus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "cucumber": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "winter-squash",
+    "botanical_name": "Cucurbita maxima",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "winter-squash": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "courgette",
+    "botanical_name": "Cucurbita pepo",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "courgette": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "artichoke",
+    "botanical_name": "Cynara cardunculus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "artichoke": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "cocksfoot",
+    "botanical_name": "Dactylis glomerata",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "cocksfoot": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "carrot",
+    "botanical_name": "Daucus carota",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "carrot": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "buckwheat",
+    "botanical_name": "Fagopyrum esculentum",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "buckwheat": "PARTIAL"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "tall-fescue",
+    "botanical_name": "Festuca arundinacea",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "tall-fescue": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "meadow-fescue",
+    "botanical_name": "Festuca pratensis",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "meadow-fescue": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092311"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "red-fescue",
+    "botanical_name": "Festuca rubra",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "red-fescue": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092315"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "fennel",
+    "botanical_name": "Foeniculum vulgare",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "fennel": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "fodder-galega",
+    "botanical_name": "Galega orientalis",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "fodder-galega": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "soybean",
+    "botanical_name": "Glycine max",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "soybean": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12011000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "niger",
+    "botanical_name": "Guizotia abyssinica",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "niger": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "sunflower",
+    "botanical_name": "Helianthus annuus",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "sunflower": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12060010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "barley",
+    "botanical_name": "Hordeum vulgare",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "barley": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "10031000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "lettuce",
+    "botanical_name": "Lactuca sativa",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "lettuce": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "red-pea",
+    "botanical_name": "Lathyrus cicera",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "red-pea": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "lentil",
+    "botanical_name": "Lens culinaris",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "lentil": "PARTIAL"
+    },
+    "sowing_seed_codes": [
+      "07134000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "garden-cress",
+    "botanical_name": "Lepidium sativum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "garden-cress": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "flax",
+    "botanical_name": "Linum usitatissimum",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "flax": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12040010"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "italian-ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "italian-ryegrass": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092510"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "perennial-ryegrass",
+    "botanical_name": "Lolium perenne",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "perennial-ryegrass": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092590"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "hybrid-ryegrass",
+    "botanical_name": "Lolium × hybridum",
+    "cn_status": "REVIEW_REQUIRED",
+    "entity_statuses": {
+      "hybrid-ryegrass": "REVIEW_REQUIRED"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "birdsfoot-trefoil",
+    "botanical_name": "Lotus corniculatus",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "birdsfoot-trefoil": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "white-lupin",
+    "botanical_name": "Lupinus albus",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "white-lupin": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092950"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "narrow-leaved-lupin",
+    "botanical_name": "Lupinus angustifolius",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "narrow-leaved-lupin": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092950"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "yellow-lupin",
+    "botanical_name": "Lupinus luteus",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "yellow-lupin": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092950"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "black-medick",
+    "botanical_name": "Medicago lupulina",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "black-medick": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "bur-medick",
+    "botanical_name": "Medicago polymorpha",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "bur-medick": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "alfalfa",
+    "botanical_name": "Medicago sativa",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "alfalfa": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092100"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "hybrid-lucerne",
+    "botanical_name": "Medicago × varia",
+    "cn_status": "REVIEW_REQUIRED",
+    "entity_statuses": {
+      "hybrid-lucerne": "REVIEW_REQUIRED"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "white-sweetclover",
+    "botanical_name": "Melilotus albus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "white-sweetclover": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "yellow-sweetclover",
+    "botanical_name": "Melilotus officinalis",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "yellow-sweetclover": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "sainfoin",
+    "botanical_name": "Onobrychis viciifolia",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "sainfoin": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "yellow-serradella",
+    "botanical_name": "Ornithopus compressus",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "yellow-serradella": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "serradella",
+    "botanical_name": "Ornithopus sativus",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "serradella": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "rice",
+    "botanical_name": "Oryza sativa",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "rice": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "10061010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "proso-millet",
+    "botanical_name": "Panicum miliaceum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "proso-millet": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "10082100"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "poppy",
+    "botanical_name": "Papaver somniferum",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "poppy": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12079110"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "parsley",
+    "botanical_name": "Petroselinum crispum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "parsley": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "phacelia",
+    "botanical_name": "Phacelia tanacetifolia",
+    "cn_status": "REVIEW_REQUIRED",
+    "entity_statuses": {
+      "phacelia": "REVIEW_REQUIRED"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "canary-grass",
+    "botanical_name": "Phalaris canariensis",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "canary-grass": "PARTIAL"
+    },
+    "sowing_seed_codes": [
+      "10083000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "runner-bean",
+    "botanical_name": "Phaseolus coccineus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "runner-bean": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "common-bean",
+    "botanical_name": "Phaseolus vulgaris",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "common-bean": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "07133310"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "timothy",
+    "botanical_name": "Phleum pratense",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "timothy": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "field-pea",
+    "botanical_name": "Pisum sativum",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "field-pea": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "07131010"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "ribwort-plantain",
+    "botanical_name": "Plantago lanceolata",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "ribwort-plantain": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "wood-meadowgrass",
+    "botanical_name": "Poa nemoralis",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "wood-meadowgrass": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "kentucky-bluegrass",
+    "botanical_name": "Poa pratensis",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "kentucky-bluegrass": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092400"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "cultivated-radish",
+    "botanical_name": "Raphanus raphanistrum subsp. sativus",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "cultivated-radish": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "rhubarb",
+    "botanical_name": "Rheum rhabarbarum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "rhubarb": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "black-salsify",
+    "botanical_name": "Scorzonera hispanica",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "black-salsify": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "rye",
+    "botanical_name": "Secale cereale",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "rye": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "10021000"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "foxtail-millet",
+    "botanical_name": "Setaria italica",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "foxtail-millet": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "10082100"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "white-mustard",
+    "botanical_name": "Sinapis alba",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "white-mustard": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12075010"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "tomato",
+    "botanical_name": "Solanum lycopersicum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "tomato": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "aubergine",
+    "botanical_name": "Solanum melongena",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "aubergine": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "sorghum",
+    "botanical_name": "Sorghum bicolor",
+    "cn_status": "REVIEW_REQUIRED",
+    "entity_statuses": {
+      "sorghum": "REVIEW_REQUIRED"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "spinach",
+    "botanical_name": "Spinacia oleracea",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "spinach": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "berseem-clover",
+    "botanical_name": "Trifolium alexandrinum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "berseem-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "glandular-clover",
+    "botanical_name": "Trifolium glanduliferum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "glandular-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "rose-clover",
+    "botanical_name": "Trifolium hirtum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "rose-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "alsike-clover",
+    "botanical_name": "Trifolium hybridum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "alsike-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "crimson-clover",
+    "botanical_name": "Trifolium incarnatum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "crimson-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "trifolium-isthmocarpum",
+    "botanical_name": "Trifolium isthmocarpum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "trifolium-isthmocarpum": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "balansa-clover",
+    "botanical_name": "Trifolium michelianum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "balansa-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "red-clover",
+    "botanical_name": "Trifolium pratense",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "red-clover": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "12092210"
+    ],
+    "species_specific_trade": true,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "white-clover",
+    "botanical_name": "Trifolium repens",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "white-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "persian-clover",
+    "botanical_name": "Trifolium resupinatum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "persian-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "trifolium-squarrosum",
+    "botanical_name": "Trifolium squarrosum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "trifolium-squarrosum": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "subterranean-clover",
+    "botanical_name": "Trifolium subterraneum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "subterranean-clover": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "arrowleaf-clover",
+    "botanical_name": "Trifolium vesiculosum",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "arrowleaf-clover": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092280"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "fenugreek",
+    "botanical_name": "Trigonella foenum-graecum",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "fenugreek": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "golden-oatgrass",
+    "botanical_name": "Trisetum flavescens",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "golden-oatgrass": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092980"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "common-wheat",
+    "botanical_name": "Triticum aestivum",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "common-wheat": "GROUP_LEVEL",
+      "spelt": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "10019110",
+      "10019120"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "durum-wheat",
+    "botanical_name": "Triticum turgidum subsp. durum",
+    "cn_status": "CONFIRMED",
+    "entity_statuses": {
+      "durum-wheat": "CONFIRMED"
+    },
+    "sowing_seed_codes": [
+      "10011100"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "lambs-lettuce",
+    "botanical_name": "Valerianella locusta",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "lambs-lettuce": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "purple-vetch",
+    "botanical_name": "Vicia benghalensis",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "purple-vetch": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "bitter-vetch",
+    "botanical_name": "Vicia ervilia",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "bitter-vetch": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "faba-bean",
+    "botanical_name": "Vicia faba",
+    "cn_status": "PARTIAL",
+    "entity_statuses": {
+      "faba-bean": "PARTIAL"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "hungarian-vetch",
+    "botanical_name": "Vicia pannonica",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "hungarian-vetch": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "common-vetch",
+    "botanical_name": "Vicia sativa",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "common-vetch": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "winter-vetch",
+    "botanical_name": "Vicia villosa Roth",
+    "cn_status": "GROUP_LEVEL",
+    "entity_statuses": {
+      "winter-vetch": "GROUP_LEVEL"
+    },
+    "sowing_seed_codes": [
+      "12092945"
+    ],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  },
+  {
+    "canonical_species_id": "maize",
+    "botanical_name": "Zea mays",
+    "cn_status": "NOT_AVAILABLE",
+    "entity_statuses": {
+      "maize": "NOT_AVAILABLE"
+    },
+    "sowing_seed_codes": [],
+    "species_specific_trade": false,
+    "mapping_changed": false,
+    "limitation": "Recovered mapping audited for scope; no newly invented or historical CN relationship."
+  }
+]

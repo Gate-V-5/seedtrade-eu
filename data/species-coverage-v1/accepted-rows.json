@@ -1,0 +1,380 @@
+[
+  {
+    "entity": "tall-fescue",
+    "source": "lelf-brandenburg",
+    "source_label": "Rohrschwingel",
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      28.0,
+      24.0,
+      39.0,
+      50.0
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "country": "DE",
+    "table": "V.25.3",
+    "original_row": [
+      "Rohrschwingel",
+      "28",
+      "24",
+      "39",
+      "50",
+      "+ 28,2"
+    ]
+  },
+  {
+    "entity": "narrow-leaved-lupin",
+    "source": "lelf-brandenburg",
+    "source_label": "Blaue Lupine",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      269.0,
+      231.0,
+      247.0,
+      369.0,
+      318.0
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "country": "DE",
+    "table": "V.25.4",
+    "original_row": [
+      "Blaue Lupine",
+      "269",
+      "231",
+      "247",
+      "369",
+      "318",
+      "- 13,8"
+    ]
+  },
+  {
+    "entity": "white-lupin",
+    "source": "lelf-brandenburg",
+    "source_label": "Weiße Lupine",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      294.0,
+      235.0,
+      128.0,
+      45.0,
+      9.0
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "country": "DE",
+    "table": "V.25.4",
+    "original_row": [
+      "Weiße Lupine",
+      "294",
+      "235",
+      "128",
+      "45",
+      "9",
+      "- 80,0"
+    ]
+  },
+  {
+    "entity": "white-mustard",
+    "source": "lelf-brandenburg",
+    "source_label": "Weißer Senf",
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      427.0,
+      441.0,
+      355.0,
+      265.0
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "APPLIED_FOR_FIELD_CERTIFICATION",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Brandenburg (DE-BB); not Germany total",
+    "country": "DE",
+    "table": "V.25.5",
+    "original_row": [
+      "Weißer Senf",
+      "427",
+      "441",
+      "355",
+      "265",
+      "- 25,4"
+    ]
+  },
+  {
+    "entity": "carrot",
+    "source": "semae-soc-2025",
+    "source_label": "Carotte",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      1491,
+      1581,
+      1549,
+      1877,
+      1327
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "category": "STANDARD_SEED",
+    "scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "country": "FR",
+    "table": "9-01; PDF page 75",
+    "original_row": "Carotte 1 491 1 581 1 549 1 877 1 327 "
+  },
+  {
+    "entity": "parsley",
+    "source": "semae-soc-2025",
+    "source_label": "Persil",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      567,
+      671,
+      408,
+      778,
+      673
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "category": "STANDARD_SEED",
+    "scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "country": "FR",
+    "table": "9-01; PDF page 75",
+    "original_row": "Persil 567 671 408 778 673 "
+  },
+  {
+    "entity": "spinach",
+    "source": "semae-soc-2025",
+    "source_label": "Épinard",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      335,
+      399,
+      184,
+      302,
+      272
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "category": "STANDARD_SEED",
+    "scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "country": "FR",
+    "table": "9-01; PDF page 75",
+    "original_row": "Épinard 335 399 184 302 272 "
+  },
+  {
+    "entity": "cultivated-radish",
+    "source": "semae-soc-2025",
+    "source_label": "Radis",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      124,
+      156,
+      99,
+      102,
+      97
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "PRESENTED_MULTIPLICATION_AREA",
+    "category": "STANDARD_SEED",
+    "scope": "NATIONAL: France; vegetable seed; presented area, not approved/certified area",
+    "country": "FR",
+    "table": "9-01; PDF page 75",
+    "original_row": "Radis 124 156 99 102 97 "
+  },
+  {
+    "entity": "narrow-leaved-lupin",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "łubin wąskolistny",
+    "years": [
+      2025
+    ],
+    "values": [
+      82.6
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "FIELD_INSPECTED",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "łubin wąskolistny 11 82,6 11 82,6 0 0 "
+  },
+  {
+    "entity": "narrow-leaved-lupin",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "łubin wąskolistny",
+    "years": [
+      2025
+    ],
+    "values": [
+      82.6
+    ],
+    "metric": "CERTIFIED_SEED_AREA",
+    "definition": "APPROVED_FIELD",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "łubin wąskolistny 11 82,6 11 82,6 0 0 "
+  },
+  {
+    "entity": "white-lupin",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "łubin biały",
+    "years": [
+      2025
+    ],
+    "values": [
+      14.85
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "FIELD_INSPECTED",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "łubin biały 5 14,85 5 14,85 0 0 "
+  },
+  {
+    "entity": "white-lupin",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "łubin biały",
+    "years": [
+      2025
+    ],
+    "values": [
+      14.85
+    ],
+    "metric": "CERTIFIED_SEED_AREA",
+    "definition": "APPROVED_FIELD",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "łubin biały 5 14,85 5 14,85 0 0 "
+  },
+  {
+    "entity": "tall-fescue",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "kostrzewa trzcinowa",
+    "years": [
+      2025
+    ],
+    "values": [
+      28.36
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "FIELD_INSPECTED",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "kostrzewa trzcinowa 15 28,36 12 26,31 3 2,05 "
+  },
+  {
+    "entity": "tall-fescue",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "kostrzewa trzcinowa",
+    "years": [
+      2025
+    ],
+    "values": [
+      26.31
+    ],
+    "metric": "CERTIFIED_SEED_AREA",
+    "definition": "APPROVED_FIELD",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "kostrzewa trzcinowa 15 28,36 12 26,31 3 2,05 "
+  },
+  {
+    "entity": "white-mustard",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "gorczyca biała",
+    "years": [
+      2025
+    ],
+    "values": [
+      134.47
+    ],
+    "metric": "SEED_PRODUCTION_AREA",
+    "definition": "FIELD_INSPECTED",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Objęto oceną",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "gorczyca biała 31 134,47 28 121,92 3 12,55 "
+  },
+  {
+    "entity": "white-mustard",
+    "source": "wiorin-mazowieckie-2025",
+    "source_label": "gorczyca biała",
+    "years": [
+      2025
+    ],
+    "values": [
+      121.92
+    ],
+    "metric": "CERTIFIED_SEED_AREA",
+    "definition": "APPROVED_FIELD",
+    "category": "ALL_REPORTED",
+    "scope": "REGIONAL: Mazowieckie (PL-14); not Poland total; Zakwalifikowano",
+    "country": "PL",
+    "table": "3.2; PDF page 80",
+    "original_row": "gorczyca biała 31 134,47 28 121,92 3 12,55 "
+  }
+]

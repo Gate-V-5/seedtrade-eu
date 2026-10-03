@@ -1,0 +1,167 @@
+[
+  {
+    "entity": "leek",
+    "source": "semae-sector-2025",
+    "source_label": "Poireau",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      19,
+      17,
+      18,
+      15,
+      16
+    ],
+    "table": "9-02; PDF page 76",
+    "status": "SOURCE_CONFIRMED_NOT_ACTIVATED",
+    "reason": "SEMAE sector-only source attribution; SOCFrance official lineage not explicitly stated for this protected-cultivation table. Retained separately pending authority/stage confirmation. Not certified area.",
+    "scope": "PROTECTED_CULTIVATION_ONLY",
+    "public_intelligence_eligible": false
+  },
+  {
+    "entity": "melon",
+    "source": "semae-sector-2025",
+    "source_label": "Melon",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      11,
+      10,
+      14,
+      17,
+      7
+    ],
+    "table": "9-02; PDF page 76",
+    "status": "SOURCE_CONFIRMED_NOT_ACTIVATED",
+    "reason": "SEMAE sector-only source attribution; SOCFrance official lineage not explicitly stated for this protected-cultivation table. Retained separately pending authority/stage confirmation. Not certified area.",
+    "scope": "PROTECTED_CULTIVATION_ONLY",
+    "public_intelligence_eligible": false
+  },
+  {
+    "entity": "tomato",
+    "source": "semae-sector-2025",
+    "source_label": "Tomate",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      20,
+      8,
+      8,
+      7,
+      6
+    ],
+    "table": "9-02; PDF page 76",
+    "status": "SOURCE_CONFIRMED_NOT_ACTIVATED",
+    "reason": "SEMAE sector-only source attribution; SOCFrance official lineage not explicitly stated for this protected-cultivation table. Retained separately pending authority/stage confirmation. Not certified area.",
+    "scope": "PROTECTED_CULTIVATION_ONLY",
+    "public_intelligence_eligible": false
+  },
+  {
+    "entity": "lettuce",
+    "source": "semae-sector-2025",
+    "source_label": "Laitue",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      10,
+      9,
+      11,
+      11,
+      8
+    ],
+    "table": "9-02; PDF page 76",
+    "status": "SOURCE_CONFIRMED_NOT_ACTIVATED",
+    "reason": "SEMAE sector-only source attribution; SOCFrance official lineage not explicitly stated for this protected-cultivation table. Retained separately pending authority/stage confirmation. Not certified area.",
+    "scope": "PROTECTED_CULTIVATION_ONLY",
+    "public_intelligence_eligible": false
+  },
+  {
+    "entity": "coriander",
+    "source": "semae-soc-2025",
+    "source_label": "Coriandre",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      400,
+      304,
+      255,
+      352,
+      236
+    ],
+    "table": "9-01; PDF page 75",
+    "status": "REVIEW_REQUIRED",
+    "reason": "Printed table conflicts with crop-specific maps/pages 78-79 or earlier SEMAE table. Original labels/values retained; no swap or automatic correction.",
+    "public_intelligence_eligible": false
+  },
+  {
+    "entity": "chicory",
+    "source": "semae-soc-2025",
+    "source_label": "Chicorées",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      2671,
+      1815,
+      1659,
+      2139,
+      1373
+    ],
+    "table": "9-01; PDF page 75",
+    "status": "REVIEW_REQUIRED",
+    "reason": "Printed table conflicts with crop-specific maps/pages 78-79 or earlier SEMAE table. Original labels/values retained; no swap or automatic correction.",
+    "public_intelligence_eligible": false
+  },
+  {
+    "entity": "onion",
+    "source": "semae-soc-2025",
+    "source_label": "Oignon",
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "values": [
+      1813,
+      2181,
+      2585,
+      2924,
+      2605
+    ],
+    "table": "9-01; PDF page 75",
+    "status": "REVIEW_REQUIRED",
+    "reason": "Printed table conflicts with crop-specific maps/pages 78-79 or earlier SEMAE table. Original labels/values retained; no swap or automatic correction.",
+    "public_intelligence_eligible": false
+  }
+]

@@ -1,6 +1,6 @@
 import {useMemo,useState} from 'react'
 import {useT,useLanguage} from './i18n/index.jsx'
-import data from './generated/production_public.json'
+import data from './productionCoverageData.mjs'
 import {metricLabels,selectEvidence,coverage,countryLabel} from './productionEvidence.mjs'
 
 function EntityName({entity}) {
