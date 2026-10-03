@@ -1,0 +1,1566 @@
+[
+  {
+    "id": "alfalfa",
+    "botanical_name": "Medicago sativa",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "alfalfa-lucerne"
+    ],
+    "cn8": [
+      "12092100"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "field-pea",
+    "botanical_name": "Pisum sativum",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "field-peas"
+    ],
+    "cn8": [
+      "07131010"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "flax",
+    "botanical_name": "Linum usitatissimum",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "flax-linseed-for-sowing"
+    ],
+    "cn8": [
+      "12040010"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "italian-ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "italian-ryegrass"
+    ],
+    "cn8": [
+      "12092510"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "kentucky-bluegrass",
+    "botanical_name": "Poa pratensis",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "kentucky-bluegrass"
+    ],
+    "cn8": [
+      "12092400"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "lupins",
+    "botanical_name": "Lupinus spp.",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "lupins"
+    ],
+    "cn8": [
+      "12092950"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "meadow-fescue",
+    "botanical_name": "Festuca pratensis",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "meadow-fescue"
+    ],
+    "cn8": [
+      "12092311"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "mustard-seed",
+    "botanical_name": null,
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "mustard-seed-for-sowing"
+    ],
+    "cn8": [
+      "12075010"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "perennial-ryegrass",
+    "botanical_name": "Lolium perenne",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "perennial-ryegrass"
+    ],
+    "cn8": [
+      "12092590"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "red-clover",
+    "botanical_name": "Trifolium pratense",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "red-clover"
+    ],
+    "cn8": [
+      "12092210"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "red-fescue",
+    "botanical_name": "Festuca rubra",
+    "status": "SPECIES_SPECIFIC",
+    "market_slugs": [
+      "red-fescue"
+    ],
+    "cn8": [
+      "12092315"
+    ],
+    "species_values_allocated": true,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "common-vetch",
+    "botanical_name": "Vicia sativa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "winter-vetch",
+    "botanical_name": "Vicia villosa Roth",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "caraway",
+    "botanical_name": "Carum carvi",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "winter-wheat",
+    "botanical_name": "Triticum aestivum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "potato",
+    "botanical_name": "Solanum tuberosum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "maize",
+    "botanical_name": "Zea mays",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "white-clover",
+    "botanical_name": "Trifolium repens",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "crimson-clover",
+    "botanical_name": "Trifolium incarnatum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "alsike-clover",
+    "botanical_name": "Trifolium hybridum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "faba-bean",
+    "botanical_name": "Vicia faba",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "soybean",
+    "botanical_name": "Glycine max",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "phacelia",
+    "botanical_name": "Phacelia tanacetifolia",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "buckwheat",
+    "botanical_name": "Fagopyrum esculentum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "hemp",
+    "botanical_name": "Cannabis sativa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "timothy",
+    "botanical_name": "Phleum pratense",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "annual-ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "fescues",
+    "botanical_name": "Festuca spp.",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "browntop",
+    "botanical_name": "Agrostis capillaris",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "meadow-foxtail",
+    "botanical_name": "Alopecurus pratensis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "tall-oatgrass",
+    "botanical_name": "Arrhenatherum elatius",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "naked-oat",
+    "botanical_name": "Avena nuda",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "oat",
+    "botanical_name": "Avena sativa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "black-oat",
+    "botanical_name": "Avena strigosa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "beet-chard",
+    "botanical_name": "Beta vulgaris",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "biserrula",
+    "botanical_name": "Biserrula pelecinus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "rapeseed",
+    "botanical_name": "Brassica napus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "swede-seed-group",
+    "botanical_name": "Brassica napus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "turnip-rape",
+    "botanical_name": "Brassica rapa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "camelina",
+    "botanical_name": "Camelina sativa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "pepper",
+    "botanical_name": "Capsicum annuum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "safflower",
+    "botanical_name": "Carthamus tinctorius",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "chickpea",
+    "botanical_name": "Cicer arietinum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "cocksfoot",
+    "botanical_name": "Dactylis glomerata",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "fodder-galega",
+    "botanical_name": "Galega orientalis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "sunflower",
+    "botanical_name": "Helianthus annuus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "barley",
+    "botanical_name": "Hordeum vulgare",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "red-pea",
+    "botanical_name": "Lathyrus cicera",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "lentil",
+    "botanical_name": "Lens culinaris",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "hybrid-ryegrass",
+    "botanical_name": "Lolium × hybridum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "birdsfoot-trefoil",
+    "botanical_name": "Lotus corniculatus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "black-medick",
+    "botanical_name": "Medicago lupulina",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "bur-medick",
+    "botanical_name": "Medicago polymorpha",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "hybrid-lucerne",
+    "botanical_name": "Medicago × varia",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "sainfoin",
+    "botanical_name": "Onobrychis viciifolia",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "yellow-serradella",
+    "botanical_name": "Ornithopus compressus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "serradella",
+    "botanical_name": "Ornithopus sativus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "rice",
+    "botanical_name": "Oryza sativa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "proso-millet",
+    "botanical_name": "Panicum miliaceum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "poppy",
+    "botanical_name": "Papaver somniferum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "canary-grass",
+    "botanical_name": "Phalaris canariensis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "common-bean",
+    "botanical_name": "Phaseolus vulgaris",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "ribwort-plantain",
+    "botanical_name": "Plantago lanceolata",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "wood-meadowgrass",
+    "botanical_name": "Poa nemoralis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "oilseed-radish-group",
+    "botanical_name": "Raphanus raphanistrum subsp. sativus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "rye",
+    "botanical_name": "Secale cereale",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "foxtail-millet",
+    "botanical_name": "Setaria italica",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "sorghum",
+    "botanical_name": "Sorghum bicolor",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "berseem-clover",
+    "botanical_name": "Trifolium alexandrinum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "glandular-clover",
+    "botanical_name": "Trifolium glanduliferum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "rose-clover",
+    "botanical_name": "Trifolium hirtum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "trifolium-isthmocarpum",
+    "botanical_name": "Trifolium isthmocarpum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "balansa-clover",
+    "botanical_name": "Trifolium michelianum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "red-zigzag-clover-cross-group",
+    "botanical_name": "Trifolium pratense × Trifolium medium",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "persian-clover",
+    "botanical_name": "Trifolium resupinatum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "trifolium-squarrosum",
+    "botanical_name": "Trifolium squarrosum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "arrowleaf-clover",
+    "botanical_name": "Trifolium vesiculosum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "golden-oatgrass",
+    "botanical_name": "Trisetum flavescens",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "common-wheat",
+    "botanical_name": "Triticum aestivum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "spelt",
+    "botanical_name": "Triticum aestivum subsp. spelta",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "durum-wheat",
+    "botanical_name": "Triticum turgidum subsp. durum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "purple-vetch",
+    "botanical_name": "Vicia benghalensis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "bitter-vetch",
+    "botanical_name": "Vicia ervilia",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "hungarian-vetch",
+    "botanical_name": "Vicia pannonica",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "festulolium-group",
+    "botanical_name": "× Festulolium",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "triticale-group",
+    "botanical_name": "× Triticosecale",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "white-mustard",
+    "botanical_name": "Sinapis alba",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "mustard-seed-for-sowing"
+    ],
+    "cn8": [
+      "12075010"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "brown-mustard",
+    "botanical_name": "Brassica juncea",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "mustard-seed-for-sowing"
+    ],
+    "cn8": [
+      "12075010"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "black-mustard",
+    "botanical_name": "Brassica nigra",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "mustard-seed-for-sowing"
+    ],
+    "cn8": [
+      "12075010"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "ethiopian-mustard",
+    "botanical_name": "Brassica carinata",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "narrow-leaved-lupin",
+    "botanical_name": "Lupinus angustifolius",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "lupins"
+    ],
+    "cn8": [
+      "12092950"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "yellow-lupin",
+    "botanical_name": "Lupinus luteus",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "lupins"
+    ],
+    "cn8": [
+      "12092950"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "white-lupin",
+    "botanical_name": "Lupinus albus",
+    "status": "GROUP_LEVEL",
+    "market_slugs": [
+      "lupins"
+    ],
+    "cn8": [
+      "12092950"
+    ],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "subterranean-clover",
+    "botanical_name": "Trifolium subterraneum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "fenugreek",
+    "botanical_name": "Trigonella foenum-graecum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "borage",
+    "botanical_name": "Borago officinalis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "dill",
+    "botanical_name": "Anethum graveolens",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "garden-cress",
+    "botanical_name": "Lepidium sativum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "sunn-hemp",
+    "botanical_name": "Crotalaria juncea",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "coriander",
+    "botanical_name": "Coriandrum sativum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "niger",
+    "botanical_name": "Guizotia abyssinica",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "sudan-grass",
+    "botanical_name": "Sorghum sudanense",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "sorghum-sudan-hybrid-group",
+    "botanical_name": "Sorghum bicolor × Sorghum sudanense",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "tall-fescue",
+    "botanical_name": "Festuca arundinacea",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "white-sweetclover",
+    "botanical_name": "Melilotus albus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "yellow-sweetclover",
+    "botanical_name": "Melilotus officinalis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "quinoa",
+    "botanical_name": "Chenopodium quinoa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "onion",
+    "botanical_name": "Allium cepa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "bunching-onion",
+    "botanical_name": "Allium fistulosum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "leek",
+    "botanical_name": "Allium porrum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "garlic",
+    "botanical_name": "Allium sativum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "chives",
+    "botanical_name": "Allium schoenoprasum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "chervil",
+    "botanical_name": "Anthriscus cerefolium",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "celery",
+    "botanical_name": "Apium graveolens",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "asparagus",
+    "botanical_name": "Asparagus officinalis",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "cabbage",
+    "botanical_name": "Brassica oleracea",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "endive",
+    "botanical_name": "Cichorium endivia",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "chicory",
+    "botanical_name": "Cichorium intybus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "watermelon",
+    "botanical_name": "Citrullus lanatus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "melon",
+    "botanical_name": "Cucumis melo",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "cucumber",
+    "botanical_name": "Cucumis sativus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "winter-squash",
+    "botanical_name": "Cucurbita maxima",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "courgette",
+    "botanical_name": "Cucurbita pepo",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "artichoke",
+    "botanical_name": "Cynara cardunculus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "carrot",
+    "botanical_name": "Daucus carota",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "fennel",
+    "botanical_name": "Foeniculum vulgare",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "lettuce",
+    "botanical_name": "Lactuca sativa",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "tomato",
+    "botanical_name": "Solanum lycopersicum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "parsley",
+    "botanical_name": "Petroselinum crispum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "runner-bean",
+    "botanical_name": "Phaseolus coccineus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "rhubarb",
+    "botanical_name": "Rheum rhabarbarum",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "black-salsify",
+    "botanical_name": "Scorzonera hispanica",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "aubergine",
+    "botanical_name": "Solanum melongena",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "spinach",
+    "botanical_name": "Spinacia oleracea",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "lambs-lettuce",
+    "botanical_name": "Valerianella locusta",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  },
+  {
+    "id": "cultivated-radish",
+    "botanical_name": "Raphanus raphanistrum subsp. sativus",
+    "status": "NOT_AVAILABLE",
+    "market_slugs": [],
+    "cn8": [],
+    "species_values_allocated": false,
+    "source": "Eurostat COMEXT DS-045409",
+    "existing_public_artifact": "market_public.json",
+    "history_concordance": "Existing accepted dataset only; 2026 nomenclature not projected backwards"
+  }
+]

@@ -1,0 +1,11 @@
+id,name,kind,rationale
+cereals-pseudocereals,Cereals and pseudocereals,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+grain-legumes,Grain legumes and protein crops,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+forage-legumes,Forage legumes,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+grass-seeds,Grass seeds,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+oil-fibre-seeds,Oilseed and fibre crops,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+brassica-seeds,Mustard and radish seeds,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+vegetable-seeds,Vegetable seeds,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+herbs-specialty,Herbs and specialty flowering crops,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+seed-potatoes,Seed potatoes,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"
+other-propagation,Other propagation material,PRIMARY_SEED_CATEGORY,"Commercial model decision; one primary category, separate crop uses and customs market views"

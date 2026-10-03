@@ -1,0 +1,50 @@
+{
+  "PUBLIC_SAFE": "PASS",
+  "PROVENANCE": "PASS",
+  "BOTANICAL_NAMES": "PASS_BOUNDED_OFFICIAL_NOMENCLATURE",
+  "COMMODITY_AREA_CONTAMINATION": "NONE",
+  "INTERPOLATION": "NONE",
+  "MISSING_DATA_NOT_ZERO": "PASS",
+  "NO_UNSUPPORTED_SPECIES_MAPPING": "PASS",
+  "NO_UNSUPPORTED_CN_MAPPING": "PASS",
+  "PRODUCTION_RECORDS": 1669,
+  "PRODUCTION_DATA_LOADING": "LAZY_ROUTE_ONLY",
+  "PYTHON_TESTS": 240,
+  "NETWORK_NODE_TESTS": 4,
+  "CROP_MASTER_NODE_TESTS": 4,
+  "PRODUCTION_NODE_TESTS": 3,
+  "BUILD": "PASS_WITH_EXISTING_BUNDLE_WARNING",
+  "PRERENDER": 45,
+  "HYDRATION_COMBINATIONS": 225,
+  "MULTILINGUAL": "EN_DE_FR_ES_IT_FALLBACK_SSR_PASS",
+  "B2B_REGRESSION": "PASS_MOCK_SMTP_ONLY",
+  "REAL_EMAILS": 0,
+  "BROWSER_QA": "BLOCKED_ENVIRONMENT; rendered visual PASS not claimed",
+  "BASELINE_SOURCE_ARTIFACTS_UNCHANGED": [
+    {
+      "path": "src/generated/production_public.json",
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4"
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    {
+      "path": "src/generated/trade_pulse_public.json",
+      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
+    },
+    {
+      "path": "src/generated/weather_public.json",
+      "sha256": "de4110d8eadaeedcab7e94a21828a6edec438dd7927328752330567ff59d471d"
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "463c1862a86c0c040e66759ce1629d57d48b2b37218a6a6c9ad666ac93fbbe1e"
+    },
+    {
+      "path": "src/ProductionIntelligence.jsx",
+      "sha256": "f1e7880b065058edf4c09bbd6128073c9285c2fbf6bb9bf215b12821688acc74"
+    }
+  ],
+  "QA_FAILURES": 0
+}

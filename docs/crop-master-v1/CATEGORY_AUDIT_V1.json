@@ -1,0 +1,139 @@
+[
+  {
+    "current_category": "Alfalfa / lucerne",
+    "current_cn8": "12092100",
+    "proposed_category": "forage-legumes",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Field peas",
+    "current_cn8": "07131010",
+    "proposed_category": "grain-legumes",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Flax / linseed for sowing",
+    "current_cn8": "12040010",
+    "proposed_category": "oil-fibre-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Italian ryegrass",
+    "current_cn8": "12092510",
+    "proposed_category": "grass-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Kentucky bluegrass",
+    "current_cn8": "12092400",
+    "proposed_category": "grass-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Lupins",
+    "current_cn8": "12092950",
+    "proposed_category": "grain-legumes",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Meadow fescue",
+    "current_cn8": "12092311",
+    "proposed_category": "grass-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Mustard seed for sowing",
+    "current_cn8": "12075010",
+    "proposed_category": "brassica-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Perennial ryegrass",
+    "current_cn8": "12092590",
+    "proposed_category": "grass-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Red clover",
+    "current_cn8": "12092210",
+    "proposed_category": "forage-legumes",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": "Red fescue",
+    "current_cn8": "12092315",
+    "proposed_category": "grass-seeds",
+    "action": "MERGE",
+    "rationale": "Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "cereals-pseudocereals",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "grain-legumes",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "forage-legumes",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "grass-seeds",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "oil-fibre-seeds",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "brassica-seeds",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "vegetable-seeds",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "herbs-specialty",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "seed-potatoes",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  },
+  {
+    "current_category": null,
+    "proposed_category": "other-propagation",
+    "action": "ADD",
+    "rationale": "Add extensible primary commercial category in model only; existing approved navigation/cards unchanged."
+  }
+]

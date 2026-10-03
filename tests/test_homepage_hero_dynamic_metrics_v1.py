@@ -20,7 +20,7 @@ class HomepageHeroDynamicMetricsV1(unittest.TestCase):
     def test_metrics_reuse_canonical_data_and_completed_period(self):
         metrics = APP[APP.index("function HeroCoverageMetrics()"):APP.index("function Home()")]
         for expression in (
-            "market.crops.length",
+            "countDistinctSeedSpecies(cropMasterSummary.entities)",
             "publicData.datasets.comext.public_safe_observations",
             "weather.region_count",
             "market.latest_completed_period",
@@ -47,7 +47,7 @@ class HomepageHeroDynamicMetricsV1(unittest.TestCase):
         self.assertEqual(page.count('class="hero-coverage"'), 1)
         self.assertNotIn('class="platform-kpis"', page)
         for text in (
-            str(len(market["crops"])),
+            str(json.loads((ROOT / "src/generated/crop_master_summary.json").read_text())["distinct_seed_species"]),
             f'{manifest["datasets"]["comext"]["public_safe_observations"]:,}',
             str(weather["region_count"]),
             market["latest_completed_period"],

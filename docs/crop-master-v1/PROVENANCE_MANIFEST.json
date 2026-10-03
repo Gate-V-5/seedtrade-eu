@@ -1,0 +1,112 @@
+{
+  "schema": "CROP_MASTER_PROVENANCE_V1",
+  "starting_head": "fa5f3ec800918272c52dcc1342171297eb569ab5",
+  "sources": [
+    {
+      "id": "v041",
+      "organisation": "SeedTrade evidence review of official national seed authorities",
+      "url": null,
+      "retrieved_at": "2026-10-03",
+      "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+      "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+    },
+    {
+      "id": "lfl",
+      "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+      "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+      "retrieved_at": "2026-10-03",
+      "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+      "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+    },
+    {
+      "id": "vegetables",
+      "organisation": "European Union / EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+      "retrieved_at": "2026-10-03",
+      "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+      "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+    },
+    {
+      "id": "defra",
+      "organisation": "Defra",
+      "url": "https://www.gov.uk/guidance/how-to-do-the-sfi-actions-for-soils",
+      "retrieved_at": "2026-10-03",
+      "document": "Updated 2025-03-27; choosing a cover-crop mix and herbal ley",
+      "scope": "Use examples; broader labels not automatically resolved to a species"
+    },
+    {
+      "id": "sweetclover",
+      "organisation": "University of California Davis SAREP",
+      "url": "https://sarep.ucdavis.edu/covercrop/sweetclovers",
+      "retrieved_at": "2026-10-03",
+      "scope": "White/yellow sweetclover identities and cover-crop use; paired with LfL Melilotus genus eligibility; not proof of EU seed production"
+    },
+    {
+      "id": "quinoa",
+      "organisation": "Walloon Government / WALLEX",
+      "url": "https://wallex.wallonie.be/eli/arrete/2023/02/23/2023042741/2026/01/01",
+      "retrieved_at": "2026-10-03",
+      "scope": "Annex 1 quinoa botanical identity and sowing-market relevance; not certified-seed production statistics"
+    },
+    {
+      "id": "quinoa-cover",
+      "organisation": "Welsh Government",
+      "url": "https://www.gov.wales/growing-environment-rules-booklet-window-8-html",
+      "retrieved_at": "2026-10-03",
+      "scope": "Wildlife cover-crop examples include quinoa and chicory; does not establish catch-crop status"
+    },
+    {
+      "id": "tall-fescue",
+      "organisation": "European Union / EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:01966L0401-20190101",
+      "retrieved_at": "2026-10-03",
+      "scope": "Official seed nomenclature Festuca arundinacea; market name preserved, not assertion of universal current botanical acceptance"
+    },
+    {
+      "id": "euroseeds",
+      "organisation": "Euroseeds",
+      "url": "https://euroseeds.eu/crops/",
+      "retrieved_at": "2026-10-03",
+      "scope": "Commercial segmentation reference only; SeedTrade categories are an explicit model decision, not copied categories"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/crop-master-v1/extensions.json",
+      "sha256": "e0e6292dc5c442decd24f5ed1159bb1602106a22428697a8898f7915ea1084bc"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-canonical.json",
+      "sha256": "599a61eb4b5da086aa51410c6119114c3affd6642916b6c30a69c092f062a768"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-catch-discovery.json",
+      "sha256": "d3afe80b7d4a929d1be41469998f42fb3efaff85fd143bc69f1f765cb4f2b1b9"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-cn.json",
+      "sha256": "3cca09a68c6c32f47b2ee8a5a1dc04d032788305431f119c68516ce51eb572eb"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-source-taxa.json",
+      "sha256": "23c7f945ac68f2f7151071150c3ca57db21f97b087acb31d12b30df6e8f6d1df"
+    },
+    {
+      "path": "data/crop-master-v1/sources.json",
+      "sha256": "877e33392af4ec762e040e699a7d2193181448231bbd2e9636c983b05699998e"
+    },
+    {
+      "path": "src/generated/production_public.json",
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4"
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    {
+      "path": "src/generated/trade_pulse_public.json",
+      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
+    }
+  ],
+  "methodology": "Identity and coverage metadata only. No raw seed-production/COMEXT observations modified. Historical CN concordance not inferred; unconfirmed catch uses/import-only claims withheld."
+}

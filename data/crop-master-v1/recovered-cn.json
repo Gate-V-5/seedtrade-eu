@@ -1,0 +1,3536 @@
+[
+  {
+    "canonical_species_id": "alfalfa",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120921"
+    ],
+    "cn8": [
+      "12092100"
+    ],
+    "hs6": [
+      "120921"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092100"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092100",
+        "description": "Alfalfa seed for sowing",
+        "worksheet_row": 1488
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "field-pea",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "0713"
+    ],
+    "cn6": [
+      "071310"
+    ],
+    "cn8": [
+      "07131010"
+    ],
+    "hs6": [
+      "071310"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "07131010"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Dry peas and seed may share headings",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "07131010",
+        "description": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+        "worksheet_row": 1120
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "flax",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1204"
+    ],
+    "cn6": [
+      "120400"
+    ],
+    "cn8": [
+      "12040010"
+    ],
+    "hs6": [
+      "120400"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12040010"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "HS6 includes non-sowing linseed",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12040010",
+        "description": "Linseed for sowing",
+        "worksheet_row": 1462
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "italian-ryegrass",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120925"
+    ],
+    "cn8": [
+      "12092510"
+    ],
+    "hs6": [
+      "120925"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092510"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092510",
+        "description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+        "worksheet_row": 1495
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "kentucky-bluegrass",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120924"
+    ],
+    "cn8": [
+      "12092400"
+    ],
+    "hs6": [
+      "120924"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092400"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092400",
+        "description": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+        "worksheet_row": 1494
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "lupins",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092950"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092950"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Other forage seed may be grouped",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092950",
+        "description": "Lupine seed for sowing",
+        "worksheet_row": 1498
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "meadow-fescue",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120923"
+    ],
+    "cn8": [
+      "12092311"
+    ],
+    "hs6": [
+      "120923"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092311"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092311",
+        "description": "Meadow fescue seed for sowing",
+        "worksheet_row": 1491
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "mustard-seed",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1207"
+    ],
+    "cn6": [
+      "120750"
+    ],
+    "cn8": [
+      "12075010"
+    ],
+    "hs6": [
+      "120750"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12075010"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Mustard for oil/food may share heading",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12075010",
+        "description": "Mustard seeds for sowing",
+        "worksheet_row": 1476
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "perennial-ryegrass",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120925"
+    ],
+    "cn8": [
+      "12092590"
+    ],
+    "hs6": [
+      "120925"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092590"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092590",
+        "description": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+        "worksheet_row": 1496
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "red-clover",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092210"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092210"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092210",
+        "description": "Red clover \"Trifolium pratense L.\" seed for sowing",
+        "worksheet_row": 1489
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "red-fescue",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120923"
+    ],
+    "cn8": [
+      "12092315"
+    ],
+    "hs6": [
+      "120923"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092315"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092315",
+        "description": "Red fescue seed \"Festuca rubra L.\" for sowing",
+        "worksheet_row": 1492
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "common-vetch",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Parent includes other forage seed",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "winter-vetch",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Parent includes other forage seed",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "caraway",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "0909"
+    ],
+    "cn6": [
+      "090961"
+    ],
+    "cn8": [],
+    "hs6": [
+      "090961"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Spice seed and sowing seed require separation",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "09096100 includes caraway among several spices without sowing-use separation; not a confirmed sowing code."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "winter-wheat",
+    "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "potato",
+    "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "maize",
+    "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "white-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Other clovers may be grouped",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "crimson-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "alsike-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "faba-bean",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "0713"
+    ],
+    "cn6": [
+      "071350"
+    ],
+    "cn8": [],
+    "hs6": [
+      "071350"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Dry broad beans may share heading",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Current CN heading does not separate sowing and non-sowing use; product evidence required."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "soybean",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1201"
+    ],
+    "cn6": [
+      "120110"
+    ],
+    "cn8": [
+      "12011000"
+    ],
+    "hs6": [
+      "120110"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12011000"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "12019000"
+      ],
+      "recovered_note": "Oilseed and sowing use require separation",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12011000",
+        "description": "Soya bean seed, for sowing",
+        "worksheet_row": 1456
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Recovered parent classification conflicts with official 2026 CN; raw record preserved, derived override shown explicitly."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "phacelia",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120999"
+    ],
+    "cn8": [],
+    "hs6": [
+      "120999"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Recovered 120999 parent is insufficient to adjudicate forage/other-use classification; no forced CN8."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "buckwheat",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1008"
+    ],
+    "cn6": [
+      "100810"
+    ],
+    "cn8": [],
+    "hs6": [
+      "100810"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific CN8"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": "Grain and seed use require separation",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Current CN heading does not separate sowing and non-sowing use; product evidence required."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "hemp",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1207"
+    ],
+    "cn6": [
+      "120799"
+    ],
+    "cn8": [
+      "12079920"
+    ],
+    "hs6": [
+      "120799"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12079920"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "12079991"
+      ],
+      "recovered_note": "Food/oil hemp seed may share heading",
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12079920",
+        "description": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+        "worksheet_row": 1482
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "12079920 is a multi-species residual sowing category; not hemp-specific."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "timothy",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Recovered parent classification conflicts with official 2026 CN; raw record preserved, derived override shown explicitly."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "annual-ryegrass",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120925"
+    ],
+    "cn8": [
+      "12092510"
+    ],
+    "hs6": [
+      "120925"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092510"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092510",
+        "description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+        "worksheet_row": 1495
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "CN8 combines annual and other Lolium multiflorum types; not annual-type resolving."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "fescues",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120923"
+    ],
+    "cn8": [
+      "12092311",
+      "12092315",
+      "12092380"
+    ],
+    "hs6": [
+      "120923"
+    ],
+    "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092311",
+        "12092315",
+        "12092380"
+      ],
+      "limitation": null
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [],
+      "recovered_note": null,
+      "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092311",
+        "description": "Meadow fescue seed for sowing",
+        "worksheet_row": 1491
+      },
+      {
+        "cn8": "12092315",
+        "description": "Red fescue seed \"Festuca rubra L.\" for sowing",
+        "worksheet_row": 1492
+      },
+      {
+        "cn8": "12092380",
+        "description": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+        "worksheet_row": 1493
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Multiple canonical fescue species and residual fescues; no single species identity inferred.",
+      "Recovered parent classification conflicts with official 2026 CN; raw record preserved, derived override shown explicitly."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+  },
+  {
+    "canonical_species_id": "browntop",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "meadow-foxtail",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "tall-oatgrass",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "naked-oat",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1004"
+    ],
+    "cn6": [
+      "100410"
+    ],
+    "cn8": [
+      "10041000"
+    ],
+    "hs6": [
+      "100410"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10041000"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10049000"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10041000",
+        "description": "Oats seed for sowing",
+        "worksheet_row": 1330
+      },
+      {
+        "cn8": "10049000",
+        "description": "Oats (excl. seed for sowing)",
+        "worksheet_row": 1331
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "oat",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1004"
+    ],
+    "cn6": [
+      "100410"
+    ],
+    "cn8": [
+      "10041000"
+    ],
+    "hs6": [
+      "100410"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10041000"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10049000"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10041000",
+        "description": "Oats seed for sowing",
+        "worksheet_row": 1330
+      },
+      {
+        "cn8": "10049000",
+        "description": "Oats (excl. seed for sowing)",
+        "worksheet_row": 1331
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "black-oat",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1004"
+    ],
+    "cn6": [
+      "100410"
+    ],
+    "cn8": [
+      "10041000"
+    ],
+    "hs6": [
+      "100410"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10041000"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10049000"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10041000",
+        "description": "Oats seed for sowing",
+        "worksheet_row": 1330
+      },
+      {
+        "cn8": "10049000",
+        "description": "Oats (excl. seed for sowing)",
+        "worksheet_row": 1331
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "beet-chard",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "biserrula",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "rapeseed",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1205"
+    ],
+    "cn6": [
+      "120510"
+    ],
+    "cn8": [
+      "12051010"
+    ],
+    "hs6": [
+      "120510"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12051010"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "12051090"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12051010",
+        "description": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+        "worksheet_row": 1464
+      },
+      {
+        "cn8": "12051090",
+        "description": "Low erucic rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", whether or not broken (excl. for sowing)",
+        "worksheet_row": 1465
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Only the explicitly low-erucic sowing branch is represented; no erucic type inferred for any production observation. High-erucic mixed-use branch is not assigned."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "swede-seed-group",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "turnip-rape",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1205"
+    ],
+    "cn6": [
+      "120510"
+    ],
+    "cn8": [
+      "12051010"
+    ],
+    "hs6": [
+      "120510"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12051010"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "12051090"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12051010",
+        "description": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+        "worksheet_row": 1464
+      },
+      {
+        "cn8": "12051090",
+        "description": "Low erucic rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", whether or not broken (excl. for sowing)",
+        "worksheet_row": 1465
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Only the explicitly low-erucic sowing branch is represented; no erucic type inferred for any production observation. High-erucic mixed-use branch is not assigned."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "camelina",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "pepper",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120991"
+    ],
+    "cn8": [
+      "12099180"
+    ],
+    "hs6": [
+      "120991"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12099180"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12099180",
+        "description": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+        "worksheet_row": 1503
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "safflower",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1207"
+    ],
+    "cn6": [
+      "120760"
+    ],
+    "cn8": [
+      "12076000"
+    ],
+    "hs6": [
+      "120760"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12076000",
+        "description": "Safflower \"Carthamus tinctorius\" seeds",
+        "worksheet_row": 1478
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "chickpea",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "0713"
+    ],
+    "cn6": [
+      "071320"
+    ],
+    "cn8": [
+      "07132000"
+    ],
+    "hs6": [
+      "071320"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "07132000",
+        "description": "Dried, shelled chickpeas \"garbanzos\", whether or not skinned or split",
+        "worksheet_row": 1122
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "cocksfoot",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "fodder-galega",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "sunflower",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1206"
+    ],
+    "cn6": [
+      "120600"
+    ],
+    "cn8": [
+      "12060010"
+    ],
+    "hs6": [
+      "120600"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12060010"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "12060091",
+        "12060099"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12060010",
+        "description": "Sunflower seeds for sowing",
+        "worksheet_row": 1467
+      },
+      {
+        "cn8": "12060091",
+        "description": "Sunflower seeds, whether or not broken, shelled or in grey and white striped shell (excl. for sowing)",
+        "worksheet_row": 1468
+      },
+      {
+        "cn8": "12060099",
+        "description": "Sunflower seeds, whether or not broken (excl. for sowing, shelled and in grey and white striped shell)",
+        "worksheet_row": 1469
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "barley",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1003"
+    ],
+    "cn6": [
+      "100310"
+    ],
+    "cn8": [
+      "10031000"
+    ],
+    "hs6": [
+      "100310"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10031000"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10039000"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10031000",
+        "description": "Barley seed for sowing",
+        "worksheet_row": 1328
+      },
+      {
+        "cn8": "10039000",
+        "description": "Barley (excl. seed for sowing)",
+        "worksheet_row": 1329
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "red-pea",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "lentil",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "0713"
+    ],
+    "cn6": [
+      "071340"
+    ],
+    "cn8": [
+      "07134000"
+    ],
+    "hs6": [
+      "071340"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "07134000",
+        "description": "Dried, shelled lentils, whether or not skinned or split",
+        "worksheet_row": 1130
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "hybrid-ryegrass",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "birdsfoot-trefoil",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "black-medick",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "bur-medick",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "hybrid-lucerne",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "sainfoin",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "yellow-serradella",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "serradella",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "rice",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1006"
+    ],
+    "cn6": [
+      "100610"
+    ],
+    "cn8": [
+      "10061010"
+    ],
+    "hs6": [
+      "100610"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10061010"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10061010",
+        "description": "Rice in husk for sowing",
+        "worksheet_row": 1337
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "proso-millet",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1008"
+    ],
+    "cn6": [
+      "100821"
+    ],
+    "cn8": [
+      "10082100"
+    ],
+    "hs6": [
+      "100821"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10082100"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10082900"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10082100",
+        "description": "Millet seed for sowing (excl. grain sorghum)",
+        "worksheet_row": 1378
+      },
+      {
+        "cn8": "10082900",
+        "description": "Millet (excl. grain sorghum, and seed for sowing)",
+        "worksheet_row": 1379
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "poppy",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1207"
+    ],
+    "cn6": [
+      "120791"
+    ],
+    "cn8": [
+      "12079110"
+    ],
+    "hs6": [
+      "120791"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12079110"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "12079190"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12079110",
+        "description": "Poppy seeds for sowing",
+        "worksheet_row": 1480
+      },
+      {
+        "cn8": "12079190",
+        "description": "Poppy seeds, whether or not broken (excl. for sowing)",
+        "worksheet_row": 1481
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "canary-grass",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1008"
+    ],
+    "cn6": [
+      "100830"
+    ],
+    "cn8": [
+      "10083000"
+    ],
+    "hs6": [
+      "100830"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10083000",
+        "description": "Canary seed",
+        "worksheet_row": 1380
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "common-bean",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "0713"
+    ],
+    "cn6": [
+      "071333"
+    ],
+    "cn8": [
+      "07133310"
+    ],
+    "hs6": [
+      "071333"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "07133310"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "07133390"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "07133310",
+        "description": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+        "worksheet_row": 1125
+      },
+      {
+        "cn8": "07133390",
+        "description": "Dried, shelled kidney beans \"Phaseolus vulgaris\", whether or not skinned or split (excl. for sowing)",
+        "worksheet_row": 1126
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "ribwort-plantain",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "wood-meadowgrass",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "oilseed-radish-group",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "rye",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1002"
+    ],
+    "cn6": [
+      "100210"
+    ],
+    "cn8": [
+      "10021000"
+    ],
+    "hs6": [
+      "100210"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10021000"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10029000"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10021000",
+        "description": "Rye seed for sowing",
+        "worksheet_row": 1326
+      },
+      {
+        "cn8": "10029000",
+        "description": "Rye (excl. seed for sowing)",
+        "worksheet_row": 1327
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "foxtail-millet",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1008"
+    ],
+    "cn6": [
+      "100821"
+    ],
+    "cn8": [
+      "10082100"
+    ],
+    "hs6": [
+      "100821"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10082100"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10082900"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10082100",
+        "description": "Millet seed for sowing (excl. grain sorghum)",
+        "worksheet_row": 1378
+      },
+      {
+        "cn8": "10082900",
+        "description": "Millet (excl. grain sorghum, and seed for sowing)",
+        "worksheet_row": 1379
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "sorghum",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "berseem-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "glandular-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "rose-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "trifolium-isthmocarpum",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "balansa-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "red-zigzag-clover-cross-group",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "persian-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "trifolium-squarrosum",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "arrowleaf-clover",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120922"
+    ],
+    "cn8": [
+      "12092280"
+    ],
+    "hs6": [
+      "120922"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092280"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092280",
+        "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "worksheet_row": 1490
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "golden-oatgrass",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092980"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092980"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092980",
+        "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "worksheet_row": 1500
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Residual forage-plant heading supported by original official forage seed classification; product use must be confirmed. Not a species-specific tariff classification ruling."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "common-wheat",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1001"
+    ],
+    "cn6": [
+      "100191"
+    ],
+    "cn8": [
+      "10019120"
+    ],
+    "hs6": [
+      "100191"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10019120"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10019120",
+        "description": "Seed of common wheat or meslin, for sowing",
+        "worksheet_row": 1323
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "spelt",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1001"
+    ],
+    "cn6": [
+      "100191"
+    ],
+    "cn8": [
+      "10019110"
+    ],
+    "hs6": [
+      "100191"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10019110"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10019110",
+        "description": "Spelt seed for sowing",
+        "worksheet_row": 1322
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "durum-wheat",
+    "mapping_status": "CN_MAPPING_CONFIRMED",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1001"
+    ],
+    "cn6": [
+      "100111"
+    ],
+    "cn8": [
+      "10011100"
+    ],
+    "hs6": [
+      "100111"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "10011100"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": [
+        "10011900"
+      ]
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10011100",
+        "description": "Durum wheat seed for sowing",
+        "worksheet_row": 1320
+      },
+      {
+        "cn8": "10011900",
+        "description": "Durum wheat (excl. seed for sowing)",
+        "worksheet_row": 1321
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "purple-vetch",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "bitter-vetch",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "hungarian-vetch",
+    "mapping_status": "CN_MAPPING_NOT_SPECIES_SPECIFIC",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1209"
+    ],
+    "cn6": [
+      "120929"
+    ],
+    "cn8": [
+      "12092945"
+    ],
+    "hs6": [
+      "120929"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [
+        "12092945"
+      ],
+      "limitation": "Product type/use must fit the official description; not an observation-level trade-flow linkage"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "12092945",
+        "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "worksheet_row": 1497
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "festulolium-group",
+    "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+    "nomenclature_year": 2026,
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  },
+  {
+    "canonical_species_id": "triticale-group",
+    "mapping_status": "CN_MAPPING_PARTIAL",
+    "nomenclature_year": 2026,
+    "cn4": [
+      "1008"
+    ],
+    "cn6": [
+      "100860"
+    ],
+    "cn8": [
+      "10086000"
+    ],
+    "hs6": [
+      "100860"
+    ],
+    "hs6_scope": "Hierarchy only; no species/sowing proof",
+    "sowing_seed": {
+      "usage": "SOWING_SEED",
+      "verified_cn8": [],
+      "limitation": "No confirmed sowing-specific code"
+    },
+    "non_sowing_commodity": {
+      "usage": "NON_SOWING_COMMODITY",
+      "codes": []
+    },
+    "official_descriptions": [
+      {
+        "cn8": "10086000",
+        "description": "Triticale",
+        "worksheet_row": 1383
+      }
+    ],
+    "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+    "source_organisation": "Hungarian Central Statistical Office",
+    "retrieval_date": "2026-10-02",
+    "notes": [
+      "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+    ],
+    "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+  }
+]

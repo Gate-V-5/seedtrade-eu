@@ -1,0 +1,1 @@
+PASS: V041 recovered inside verified V05 archive; V041 SHA256 2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359. Canonical/CN/source-taxonomy input bytes match recovered research files. Root V041 ZIP was incomplete; not used.

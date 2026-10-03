@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cereals-pseudocereals",
+    "name": "Cereals and pseudocereals",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "grain-legumes",
+    "name": "Grain legumes and protein crops",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "forage-legumes",
+    "name": "Forage legumes",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "grass-seeds",
+    "name": "Grass seeds",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "oil-fibre-seeds",
+    "name": "Oilseed and fibre crops",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "brassica-seeds",
+    "name": "Mustard and radish seeds",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "vegetable-seeds",
+    "name": "Vegetable seeds",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "herbs-specialty",
+    "name": "Herbs and specialty flowering crops",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "seed-potatoes",
+    "name": "Seed potatoes",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  },
+  {
+    "id": "other-propagation",
+    "name": "Other propagation material",
+    "kind": "PRIMARY_SEED_CATEGORY",
+    "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "v041",
+    "organisation": "SeedTrade evidence review of official national seed authorities",
+    "url": null,
+    "retrieved_at": "2026-10-03",
+    "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+    "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+  },
+  {
+    "id": "lfl",
+    "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+    "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+    "retrieved_at": "2026-10-03",
+    "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+    "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+  },
+  {
+    "id": "vegetables",
+    "organisation": "European Union / EUR-Lex",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+    "retrieved_at": "2026-10-03",
+    "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+    "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+  },
+  {
+    "id": "defra",
+    "organisation": "Defra",
+    "url": "https://www.gov.uk/guidance/how-to-do-the-sfi-actions-for-soils",
+    "retrieved_at": "2026-10-03",
+    "document": "Updated 2025-03-27; choosing a cover-crop mix and herbal ley",
+    "scope": "Use examples; broader labels not automatically resolved to a species"
+  },
+  {
+    "id": "sweetclover",
+    "organisation": "University of California Davis SAREP",
+    "url": "https://sarep.ucdavis.edu/covercrop/sweetclovers",
+    "retrieved_at": "2026-10-03",
+    "scope": "White/yellow sweetclover identities and cover-crop use; paired with LfL Melilotus genus eligibility; not proof of EU seed production"
+  },
+  {
+    "id": "quinoa",
+    "organisation": "Walloon Government / WALLEX",
+    "url": "https://wallex.wallonie.be/eli/arrete/2023/02/23/2023042741/2026/01/01",
+    "retrieved_at": "2026-10-03",
+    "scope": "Annex 1 quinoa botanical identity and sowing-market relevance; not certified-seed production statistics"
+  },
+  {
+    "id": "quinoa-cover",
+    "organisation": "Welsh Government",
+    "url": "https://www.gov.wales/growing-environment-rules-booklet-window-8-html",
+    "retrieved_at": "2026-10-03",
+    "scope": "Wildlife cover-crop examples include quinoa and chicory; does not establish catch-crop status"
+  },
+  {
+    "id": "tall-fescue",
+    "organisation": "European Union / EUR-Lex",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:01966L0401-20190101",
+    "retrieved_at": "2026-10-03",
+    "scope": "Official seed nomenclature Festuca arundinacea; market name preserved, not assertion of universal current botanical acceptance"
+  },
+  {
+    "id": "euroseeds",
+    "organisation": "Euroseeds",
+    "url": "https://euroseeds.eu/crops/",
+    "retrieved_at": "2026-10-03",
+    "scope": "Commercial segmentation reference only; SeedTrade categories are an explicit model decision, not copied categories"
+  }
+]

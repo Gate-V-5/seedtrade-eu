@@ -1,0 +1,1971 @@
+[
+  {
+    "source_taxon_id": "TAX001",
+    "source_taxon_name": "Agrostis capillaris",
+    "source_botanical_name": "Agrostis capillaris",
+    "canonical_species_id": "browntop",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX002",
+    "source_taxon_name": "Agrostis gigantea",
+    "source_botanical_name": "Agrostis gigantea",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX003",
+    "source_taxon_name": "Alopecurus pratensis",
+    "source_botanical_name": "Alopecurus pratensis",
+    "canonical_species_id": "meadow-foxtail",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX004",
+    "source_taxon_name": "Amaranthus cruentus",
+    "source_botanical_name": "Amaranthus cruentus",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX005",
+    "source_taxon_name": "Arachis hypogaea",
+    "source_botanical_name": "Arachis hypogaea",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX006",
+    "source_taxon_name": "Arrhenatherum elatius",
+    "source_botanical_name": "Arrhenatherum elatius",
+    "canonical_species_id": "tall-oatgrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX007",
+    "source_taxon_name": "Avena nuda",
+    "source_botanical_name": "Avena nuda",
+    "canonical_species_id": "naked-oat",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX008",
+    "source_taxon_name": "Avena sativa",
+    "source_botanical_name": "Avena sativa",
+    "canonical_species_id": "oat",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX009",
+    "source_taxon_name": "Avena strigosa",
+    "source_botanical_name": "Avena strigosa",
+    "canonical_species_id": "black-oat",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX010",
+    "source_taxon_name": "Beta vulgaris",
+    "source_botanical_name": "Beta vulgaris",
+    "canonical_species_id": "beet-chard",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX011",
+    "source_taxon_name": "Beta vulgaris var. altissima",
+    "source_botanical_name": "Beta vulgaris var. altissima",
+    "canonical_species_id": "beet-chard",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX012",
+    "source_taxon_name": "Beta vulgaris var. crassa",
+    "source_botanical_name": "Beta vulgaris var. crassa",
+    "canonical_species_id": "beet-chard",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX013",
+    "source_taxon_name": "Beta vulgaris var. orassa",
+    "source_botanical_name": "Beta vulgaris var. orassa",
+    "canonical_species_id": null,
+    "mapping_status": "REVIEW_REQUIRED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX014",
+    "source_taxon_name": "Biserrula pelecinus",
+    "source_botanical_name": "Biserrula pelecinus",
+    "canonical_species_id": "biserrula",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX015",
+    "source_taxon_name": "Brassica juncea",
+    "source_botanical_name": "Brassica juncea",
+    "canonical_species_id": "mustard-seed",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX016",
+    "source_taxon_name": "Brassica napus",
+    "source_botanical_name": "Brassica napus",
+    "canonical_species_id": "rapeseed",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX017",
+    "source_taxon_name": "Brassica napus var. napobrassica",
+    "source_botanical_name": "Brassica napus var. napobrassica",
+    "canonical_species_id": "swede-seed-group",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX018",
+    "source_taxon_name": "Brassica rapa",
+    "source_botanical_name": "Brassica rapa",
+    "canonical_species_id": "turnip-rape",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX019",
+    "source_taxon_name": "Brassica rapa var. silvestris",
+    "source_botanical_name": "Brassica rapa var. silvestris",
+    "canonical_species_id": "turnip-rape",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX020",
+    "source_taxon_name": "Bromus inermis",
+    "source_botanical_name": "Bromus inermis",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX021",
+    "source_taxon_name": "Bromus sitchensis",
+    "source_botanical_name": "Bromus sitchensis",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX022",
+    "source_taxon_name": "Camelina sativa",
+    "source_botanical_name": "Camelina sativa",
+    "canonical_species_id": "camelina",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX023",
+    "source_taxon_name": "Cannabis sativa",
+    "source_botanical_name": "Cannabis sativa",
+    "canonical_species_id": "hemp",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX024",
+    "source_taxon_name": "Capsicum annuum",
+    "source_botanical_name": "Capsicum annuum",
+    "canonical_species_id": "pepper",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX025",
+    "source_taxon_name": "Carthamus tinctorius",
+    "source_botanical_name": "Carthamus tinctorius",
+    "canonical_species_id": "safflower",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX026",
+    "source_taxon_name": "Carum carvi",
+    "source_botanical_name": "Carum carvi",
+    "canonical_species_id": "caraway",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX027",
+    "source_taxon_name": "Cicer arietinum",
+    "source_botanical_name": "Cicer arietinum",
+    "canonical_species_id": "chickpea",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX028",
+    "source_taxon_name": "Cichorium intybus",
+    "source_botanical_name": "Cichorium intybus",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX029",
+    "source_taxon_name": "Cucurbita pepo",
+    "source_botanical_name": "Cucurbita pepo",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX030",
+    "source_taxon_name": "Cynodon dactylon",
+    "source_botanical_name": "Cynodon dactylon",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX031",
+    "source_taxon_name": "Cynosurus cristatus",
+    "source_botanical_name": "Cynosurus cristatus",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX032",
+    "source_taxon_name": "Dactylis glomerata",
+    "source_botanical_name": "Dactylis glomerata",
+    "canonical_species_id": "cocksfoot",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX033",
+    "source_taxon_name": "Fagopyrum esculentum",
+    "source_botanical_name": "Fagopyrum esculentum",
+    "canonical_species_id": "buckwheat",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX034",
+    "source_taxon_name": "Fagopyrum esculentum var. alata",
+    "source_botanical_name": "Fagopyrum esculentum var. alata",
+    "canonical_species_id": "buckwheat",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX035",
+    "source_taxon_name": "Festuca arundinacea",
+    "source_botanical_name": "Festuca arundinacea",
+    "canonical_species_id": "fescues",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX036",
+    "source_taxon_name": "Festuca ovina",
+    "source_botanical_name": "Festuca ovina",
+    "canonical_species_id": "fescues",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX037",
+    "source_taxon_name": "Festuca pratensis",
+    "source_botanical_name": "Festuca pratensis",
+    "canonical_species_id": "meadow-fescue",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX038",
+    "source_taxon_name": "Festuca rubra",
+    "source_botanical_name": "Festuca rubra",
+    "canonical_species_id": "red-fescue",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX039",
+    "source_taxon_name": "Festuca trachyphylla",
+    "source_botanical_name": "Festuca trachyphylla",
+    "canonical_species_id": "fescues",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX040",
+    "source_taxon_name": "Galega orientalis",
+    "source_botanical_name": "Galega orientalis",
+    "canonical_species_id": "fodder-galega",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/lv/api/action/datastore_search?resource_id=3c102cd3-3268-491f-b56a-14a2ac62e448&limit=100000",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX041",
+    "source_taxon_name": "Glycine max",
+    "source_botanical_name": "Glycine max",
+    "canonical_species_id": "soybean",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX042",
+    "source_taxon_name": "Hedysarum coronarium",
+    "source_botanical_name": "Hedysarum coronarium",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX043",
+    "source_taxon_name": "Helianthus annuus",
+    "source_botanical_name": "Helianthus annuus",
+    "canonical_species_id": "sunflower",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX044",
+    "source_taxon_name": "Holcus lanatus",
+    "source_botanical_name": "Holcus lanatus",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX045",
+    "source_taxon_name": "Hordeum vulgare",
+    "source_botanical_name": "Hordeum vulgare",
+    "canonical_species_id": "barley",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX046",
+    "source_taxon_name": "Lactuca sativa",
+    "source_botanical_name": "Lactuca sativa",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX047",
+    "source_taxon_name": "Lathyrus cicera",
+    "source_botanical_name": "Lathyrus cicera",
+    "canonical_species_id": "red-pea",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX048",
+    "source_taxon_name": "Lens culinaris",
+    "source_botanical_name": "Lens culinaris",
+    "canonical_species_id": "lentil",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX049",
+    "source_taxon_name": "Linum usitatissimum",
+    "source_botanical_name": "Linum usitatissimum",
+    "canonical_species_id": "flax",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://iasas.government.bg/upl/files/Articles/%D0%98%D0%90%D0%A1%D0%90%D0%A1%20%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D0%B5%D0%BD%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%20%D0%90%D0%B3%D1%80%D0%B0%D1%80%D0%B5%D0%BD%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%202024.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX050",
+    "source_taxon_name": "Lolium hybridum",
+    "source_botanical_name": "Lolium hybridum",
+    "canonical_species_id": "hybrid-ryegrass",
+    "mapping_status": "MAPPED_SYNONYM",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX051",
+    "source_taxon_name": "Lolium multiflorum",
+    "source_botanical_name": "Lolium multiflorum",
+    "canonical_species_id": "italian-ryegrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX052",
+    "source_taxon_name": "Lolium multiflorum ssp. alternativum",
+    "source_botanical_name": "Lolium multiflorum ssp. alternativum",
+    "canonical_species_id": "annual-ryegrass",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX053",
+    "source_taxon_name": "Lolium multiflorum ssp. nonalternativum",
+    "source_botanical_name": "Lolium multiflorum ssp. nonalternativum",
+    "canonical_species_id": "italian-ryegrass",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX054",
+    "source_taxon_name": "Lolium multiflorum subsp. alternativum",
+    "source_botanical_name": "Lolium multiflorum subsp. alternativum",
+    "canonical_species_id": "annual-ryegrass",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX055",
+    "source_taxon_name": "Lolium multiflorum subsp. italicum",
+    "source_botanical_name": "Lolium multiflorum subsp. italicum",
+    "canonical_species_id": "italian-ryegrass",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX056",
+    "source_taxon_name": "Lolium multiflorum var. italicum",
+    "source_botanical_name": "Lolium multiflorum var. italicum",
+    "canonical_species_id": "italian-ryegrass",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX057",
+    "source_taxon_name": "Lolium multiflorum var. westerwoldicum",
+    "source_botanical_name": "Lolium multiflorum var. westerwoldicum",
+    "canonical_species_id": "annual-ryegrass",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX058",
+    "source_taxon_name": "Lolium perenne",
+    "source_botanical_name": "Lolium perenne",
+    "canonical_species_id": "perennial-ryegrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX059",
+    "source_taxon_name": "Lolium × boucheanum",
+    "source_botanical_name": "Lolium × boucheanum",
+    "canonical_species_id": "hybrid-ryegrass",
+    "mapping_status": "MAPPED_SYNONYM",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX060",
+    "source_taxon_name": "Lolium × hybridum",
+    "source_botanical_name": "Lolium × hybridum",
+    "canonical_species_id": "hybrid-ryegrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX061",
+    "source_taxon_name": "Lotus corniculatus",
+    "source_botanical_name": "Lotus corniculatus",
+    "canonical_species_id": "birdsfoot-trefoil",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX062",
+    "source_taxon_name": "Lupinus albus",
+    "source_botanical_name": "Lupinus albus",
+    "canonical_species_id": "lupins",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX063",
+    "source_taxon_name": "Lupinus angustifolius",
+    "source_botanical_name": "Lupinus angustifolius",
+    "canonical_species_id": "lupins",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX064",
+    "source_taxon_name": "Lupinus luteus",
+    "source_botanical_name": "Lupinus luteus",
+    "canonical_species_id": "lupins",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX065",
+    "source_taxon_name": "Medicago lupulina",
+    "source_botanical_name": "Medicago lupulina",
+    "canonical_species_id": "black-medick",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX066",
+    "source_taxon_name": "Medicago murex",
+    "source_botanical_name": "Medicago murex",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX067",
+    "source_taxon_name": "Medicago polymorpha",
+    "source_botanical_name": "Medicago polymorpha",
+    "canonical_species_id": "bur-medick",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX068",
+    "source_taxon_name": "Medicago sativa",
+    "source_botanical_name": "Medicago sativa",
+    "canonical_species_id": "alfalfa",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/lv/api/action/datastore_search?resource_id=3c102cd3-3268-491f-b56a-14a2ac62e448&limit=100000",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX069",
+    "source_taxon_name": "Medicago × varia",
+    "source_botanical_name": "Medicago × varia",
+    "canonical_species_id": "hybrid-lucerne",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/lv/api/action/datastore_search?resource_id=3c102cd3-3268-491f-b56a-14a2ac62e448&limit=100000"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX070",
+    "source_taxon_name": "Onobrychis viciifolia",
+    "source_botanical_name": "Onobrychis viciifolia",
+    "canonical_species_id": "sainfoin",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX071",
+    "source_taxon_name": "Ornithopus compressus",
+    "source_botanical_name": "Ornithopus compressus",
+    "canonical_species_id": "yellow-serradella",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX072",
+    "source_taxon_name": "Ornithopus sativus",
+    "source_botanical_name": "Ornithopus sativus",
+    "canonical_species_id": "serradella",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX073",
+    "source_taxon_name": "Oryza sativa",
+    "source_botanical_name": "Oryza sativa",
+    "canonical_species_id": "rice",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX074",
+    "source_taxon_name": "Panicum miliaceum",
+    "source_botanical_name": "Panicum miliaceum",
+    "canonical_species_id": "proso-millet",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX075",
+    "source_taxon_name": "Papaver somniferum",
+    "source_botanical_name": "Papaver somniferum",
+    "canonical_species_id": "poppy",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX076",
+    "source_taxon_name": "Phacelia tanacetifolia",
+    "source_botanical_name": "Phacelia tanacetifolia",
+    "canonical_species_id": "phacelia",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX077",
+    "source_taxon_name": "Phalaris canariensis",
+    "source_botanical_name": "Phalaris canariensis",
+    "canonical_species_id": "canary-grass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX078",
+    "source_taxon_name": "Phaseolus vulgaris",
+    "source_botanical_name": "Phaseolus vulgaris",
+    "canonical_species_id": "common-bean",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX079",
+    "source_taxon_name": "Phleum pratense",
+    "source_botanical_name": "Phleum pratense",
+    "canonical_species_id": "timothy",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX080",
+    "source_taxon_name": "Pisum sativum",
+    "source_botanical_name": "Pisum sativum",
+    "canonical_species_id": "field-pea",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX081",
+    "source_taxon_name": "Pisum sativum convar. speciosum",
+    "source_botanical_name": "Pisum sativum convar. speciosum",
+    "canonical_species_id": "field-pea",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX082",
+    "source_taxon_name": "Plantago lanceolata",
+    "source_botanical_name": "Plantago lanceolata",
+    "canonical_species_id": "ribwort-plantain",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX083",
+    "source_taxon_name": "Poa nemoralis",
+    "source_botanical_name": "Poa nemoralis",
+    "canonical_species_id": "wood-meadowgrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX084",
+    "source_taxon_name": "Poa pratensis",
+    "source_botanical_name": "Poa pratensis",
+    "canonical_species_id": "kentucky-bluegrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX085",
+    "source_taxon_name": "Raphanus sativus var. oleiformis",
+    "source_botanical_name": "Raphanus sativus var. oleiformis",
+    "canonical_species_id": "oilseed-radish-group",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX086",
+    "source_taxon_name": "Secale cereale",
+    "source_botanical_name": "Secale cereale",
+    "canonical_species_id": "rye",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX087",
+    "source_taxon_name": "Setaria italica",
+    "source_botanical_name": "Setaria italica",
+    "canonical_species_id": "foxtail-millet",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX088",
+    "source_taxon_name": "Sinapis alba",
+    "source_botanical_name": "Sinapis alba",
+    "canonical_species_id": "mustard-seed",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX089",
+    "source_taxon_name": "Solanum lycopersicum",
+    "source_botanical_name": "Solanum lycopersicum",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX090",
+    "source_taxon_name": "Solanum tuberosum",
+    "source_botanical_name": "Solanum tuberosum",
+    "canonical_species_id": "potato",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://iasas.government.bg/upl/files/Articles/%D0%98%D0%90%D0%A1%D0%90%D0%A1%20%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D0%B5%D0%BD%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%20%D0%90%D0%B3%D1%80%D0%B0%D1%80%D0%B5%D0%BD%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%202024.pdf",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX091",
+    "source_taxon_name": "Sorghum bicolor",
+    "source_botanical_name": "Sorghum bicolor",
+    "canonical_species_id": "sorghum",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX092",
+    "source_taxon_name": "Sorghum bicolor subsp. drummondii",
+    "source_botanical_name": "Sorghum bicolor subsp. drummondii",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX093",
+    "source_taxon_name": "Trifolium alexandrinum",
+    "source_botanical_name": "Trifolium alexandrinum",
+    "canonical_species_id": "berseem-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX094",
+    "source_taxon_name": "Trifolium glanduliferum",
+    "source_botanical_name": "Trifolium glanduliferum",
+    "canonical_species_id": "glandular-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX095",
+    "source_taxon_name": "Trifolium hirtum",
+    "source_botanical_name": "Trifolium hirtum",
+    "canonical_species_id": "rose-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX096",
+    "source_taxon_name": "Trifolium hybridum",
+    "source_botanical_name": "Trifolium hybridum",
+    "canonical_species_id": "alsike-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/lv/api/action/datastore_search?resource_id=3c102cd3-3268-491f-b56a-14a2ac62e448&limit=100000",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX097",
+    "source_taxon_name": "Trifolium incarnatum",
+    "source_botanical_name": "Trifolium incarnatum",
+    "canonical_species_id": "crimson-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX098",
+    "source_taxon_name": "Trifolium isthmocarpum",
+    "source_botanical_name": "Trifolium isthmocarpum",
+    "canonical_species_id": "trifolium-isthmocarpum",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX099",
+    "source_taxon_name": "Trifolium michelianum",
+    "source_botanical_name": "Trifolium michelianum",
+    "canonical_species_id": "balansa-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX100",
+    "source_taxon_name": "Trifolium pratense",
+    "source_botanical_name": "Trifolium pratense",
+    "canonical_species_id": "red-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/lv/api/action/datastore_search?resource_id=3c102cd3-3268-491f-b56a-14a2ac62e448&limit=100000",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://vatzum.lrv.lt/media/viesa/saugykla/2023/11/5iI6QU1Ta7o.pdf",
+      "https://vatzum.lrv.lt/media/viesa/saugykla/2023/11/SNLHivhqax0.pdf",
+      "https://vatzum.lrv.lt/media/viesa/saugykla/2023/11/xrTZE11EUzM.pdf",
+      "https://vatzum.lrv.lt/public/canonical/1728378425/22159/2024-10-08%2033L-97_aprobav%20atask%20%20%20%C5%BE.%C5%AB.%20%20augalai.pdf",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX101",
+    "source_taxon_name": "Trifolium pratense × Trifolium medium",
+    "source_botanical_name": "Trifolium pratense × Trifolium medium",
+    "canonical_species_id": "red-zigzag-clover-cross-group",
+    "mapping_status": "MAPPED_TO_SOURCE_AGGREGATE",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX102",
+    "source_taxon_name": "Trifolium repens",
+    "source_botanical_name": "Trifolium repens",
+    "canonical_species_id": "white-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/lv/api/action/datastore_search?resource_id=3c102cd3-3268-491f-b56a-14a2ac62e448&limit=100000",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://vatzum.lrv.lt/public/canonical/1762490747/24010/2025-11-07_33L-85%20%C5%BE.%C5%AB.%20augal%C5%B3%20pas%C4%97liai.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX103",
+    "source_taxon_name": "Trifolium resupinatum",
+    "source_botanical_name": "Trifolium resupinatum",
+    "canonical_species_id": "persian-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX104",
+    "source_taxon_name": "Trifolium squarrosum",
+    "source_botanical_name": "Trifolium squarrosum",
+    "canonical_species_id": "trifolium-squarrosum",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX105",
+    "source_taxon_name": "Trifolium suaveolens",
+    "source_botanical_name": "Trifolium suaveolens",
+    "canonical_species_id": "persian-clover",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX106",
+    "source_taxon_name": "Trifolium vesiculosum",
+    "source_botanical_name": "Trifolium vesiculosum",
+    "canonical_species_id": "arrowleaf-clover",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX107",
+    "source_taxon_name": "Trigonella foena-graecum",
+    "source_botanical_name": "Trigonella foena-graecum",
+    "canonical_species_id": null,
+    "mapping_status": "REVIEW_REQUIRED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX108",
+    "source_taxon_name": "Trigonella foenum-graecum",
+    "source_botanical_name": "Trigonella foenum-graecum",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX109",
+    "source_taxon_name": "Trisetum flavescens",
+    "source_botanical_name": "Trisetum flavescens",
+    "canonical_species_id": "golden-oatgrass",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX110",
+    "source_taxon_name": "Triticum aestivum",
+    "source_botanical_name": "Triticum aestivum",
+    "canonical_species_id": "common-wheat",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX111",
+    "source_taxon_name": "Triticum aestivum subsp. aestivum",
+    "source_botanical_name": "Triticum aestivum subsp. aestivum",
+    "canonical_species_id": "common-wheat",
+    "mapping_status": "MAPPED_INFRASPECIFIC",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX112",
+    "source_taxon_name": "Triticum aestivum subsp. aestivum × Triticum aestivum subsp. sphaerococcum",
+    "source_botanical_name": "Triticum aestivum subsp. aestivum × Triticum aestivum subsp. sphaerococcum",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX113",
+    "source_taxon_name": "Triticum aestivum subsp. spelta",
+    "source_botanical_name": "Triticum aestivum subsp. spelta",
+    "canonical_species_id": "spelt",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX114",
+    "source_taxon_name": "Triticum monococcum",
+    "source_botanical_name": "Triticum monococcum",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX115",
+    "source_taxon_name": "Triticum spelta",
+    "source_botanical_name": "Triticum spelta",
+    "canonical_species_id": "spelt",
+    "mapping_status": "MAPPED_SYNONYM",
+    "source_urls": [
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX116",
+    "source_taxon_name": "Triticum turgidum subsp. dicoccum",
+    "source_botanical_name": "Triticum turgidum subsp. dicoccum",
+    "canonical_species_id": null,
+    "mapping_status": "UNMAPPED",
+    "source_urls": [
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX117",
+    "source_taxon_name": "Triticum turgidum subsp. durum",
+    "source_botanical_name": "Triticum turgidum subsp. durum",
+    "canonical_species_id": "durum-wheat",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX118",
+    "source_taxon_name": "Vicia benghalensis",
+    "source_botanical_name": "Vicia benghalensis",
+    "canonical_species_id": "purple-vetch",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX119",
+    "source_taxon_name": "Vicia ervilia",
+    "source_botanical_name": "Vicia ervilia",
+    "canonical_species_id": "bitter-vetch",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX120",
+    "source_taxon_name": "Vicia faba",
+    "source_botanical_name": "Vicia faba",
+    "canonical_species_id": "faba-bean",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX121",
+    "source_taxon_name": "Vicia pannonica",
+    "source_botanical_name": "Vicia pannonica",
+    "canonical_species_id": "hungarian-vetch",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX122",
+    "source_taxon_name": "Vicia sativa",
+    "source_botanical_name": "Vicia sativa",
+    "canonical_species_id": "common-vetch",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX123",
+    "source_taxon_name": "Vicia villosa",
+    "source_botanical_name": "Vicia villosa",
+    "canonical_species_id": "winter-vetch",
+    "mapping_status": "MAPPED_SYNONYM",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX124",
+    "source_taxon_name": "Zea mays",
+    "source_botanical_name": "Zea mays",
+    "canonical_species_id": "maize",
+    "mapping_status": "MAPPED_EXACT",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.escaa.org/index/action/page/id/7/title/seed-production-in-eu---2025",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX125",
+    "source_taxon_name": "× Festulolium",
+    "source_botanical_name": "× Festulolium",
+    "canonical_species_id": "festulolium-group",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.uksup.sk/storage/app/uploads/public/698/af6/14e/698af614ea5eb520737689.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  },
+  {
+    "source_taxon_id": "TAX126",
+    "source_taxon_name": "× Triticosecale",
+    "source_botanical_name": "× Triticosecale",
+    "canonical_species_id": "triticale-group",
+    "mapping_status": "MAPPED_TO_GENUS_GROUP",
+    "source_urls": [
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Sommerungen_gesamt/Sommerungen_gesamt_ohne_Sorten_2025_BAES.pdf",
+      "https://baes.gv.at/fileadmin/baes/SaatundPflanzgut/Zulassung/Statistiken/Feldanerkennungsfl%C3%A4chen_Winterungen_gesamt/Winterungen_gesamt_ohne_Sorte_2025_BAES.pdf",
+      "https://data.gov.lv/dati/dataset/43bd933a-92f2-4ecd-9c2e-6b2fba94b880/resource/cf3b0434-9df8-4038-9a6c-8d0e3fe3f094/download/2_seklaudz_lauku_platibas_kopsavil_pa_sugaam.xlsx",
+      "https://data.gov.lv/dati/dataset/dbd2b2ed-148e-426e-abbf-97f1d2fd9de1/resource/ae839ed9-5d09-4f29-be5e-4f8992d8dbbf/download/dati_sert_sekla_labibas.xlsx",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20220225-093903/lu-seed-production-area-2021.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20230118-100128/lu-seed-production-area-2022.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20231206-145609/lu-seed-production-area-2023.csv",
+      "https://download.data.public.lu/resources/seed-certification-in-luxembourg/20250113-181136/lu-seed-production-area-2024.csv",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a27404---i-m4miZL/prehled-prihlasenych-ploch-v-roce-2023-1.-a-2.-cast?_linka=a523324",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a54700---fhG7n0PB/prehled-prihlasenych-ploch-v-roce-2024-1.-a-2.-cast?_linka=a602934",
+      "https://ukzuz.gov.cz/public/portal/ukzuz/-a81286---EOKIiika/prehled-prihlasenych-ploch-2025-1.-a-2.-cast?_linka=a679878",
+      "https://www.dgav.pt/plantas/conteudo/sementes-plantas-e-variedades/sementes/producao-e-certificacao-de-sementes/producao-e-certificacao-de-sementes-estatistica/",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2024.docx",
+      "https://www.gov.si/assets/organi-v-sestavi/UVHVVR/Rastlinski-semenski-material/Uradno-potrjevanje-in-naknadna-kontrola/Pregled-pridelave-uradno-potrjenega-semena_2025.docx",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2020-2021.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/certificacion-semilla-producida-en-espana-por-especie-y-ccaa--precintado-campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficie-dedicada-a-la-produccion-semillas-certificadas--campana-24-25.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproducciondesemillacertificadacampana2023-2024.pdf",
+      "https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/semillas-y-plantas-de-vivero/estadisticas/superficiededicadaalaproduccionsemillascertificadascampana2022-2023.pdf"
+    ],
+    "validation_scope": "Original official seed nomenclature plus current/recovered canonical comparison; targeted Kew review where needed, not blanket accepted-name certification"
+  }
+]

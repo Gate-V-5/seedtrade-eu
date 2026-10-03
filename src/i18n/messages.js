@@ -1,5 +1,11 @@
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["seed species", "Saatgutarten", "espèces de semences", "especies de semillas", "specie da seme"],
+  ["Identified seed species; analytical coverage varies by species.", "Identifizierte Saatgutarten; die analytische Abdeckung variiert je nach Art.", "Espèces identifiées ; la couverture analytique varie selon l’espèce.", "Especies identificadas; la cobertura analítica varía según la especie.", "Specie identificate; la copertura analitica varia per specie."],
+  ["Crop Master and coverage", "Artenverzeichnis und Abdeckung", "Référentiel des espèces et couverture", "Catálogo de especies y cobertura", "Catalogo delle specie e copertura"],
+  ["The species count covers identified biological species, not customs groups. Analytical coverage varies; seed potatoes and vegetative material are separate.", "Die Artenzahl umfasst identifizierte biologische Arten, keine Zollgruppen. Die analytische Abdeckung variiert; Pflanzkartoffeln und vegetatives Material werden getrennt erfasst.", "Le nombre couvre les espèces biologiques identifiées, pas les groupes douaniers. La couverture analytique varie ; plants de pommes de terre et matériel végétatif sont distincts.", "El recuento incluye especies biológicas identificadas, no grupos aduaneros. La cobertura analítica varía; las patatas de siembra y el material vegetativo se separan.", "Il conteggio comprende specie biologiche identificate, non gruppi doganali. La copertura analitica varia; patate da seme e materiale vegetativo sono separati."],
+  ["Download Crop Master and coverage", "Artenverzeichnis und Abdeckung herunterladen", "Télécharger le référentiel et la couverture", "Descargar el catálogo y la cobertura", "Scarica il catalogo e la copertura"],
+
   ["Menu", "Menü", "Menu", "Menú", "Menu"],
   ["Market Intelligence", "Marktinformationen", "Analyse du marché", "Inteligencia de mercado", "Intelligence di mercato"],
   ["News", "Nachrichten", "Actualités", "Noticias", "Notizie"],

@@ -1,0 +1,781 @@
+[
+  {
+    "id": "white-mustard",
+    "name": "White mustard",
+    "botanical": "Sinapis alba",
+    "rank": "SPECIES",
+    "category": "brassica-seeds",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "brown-mustard",
+    "name": "Brown mustard",
+    "botanical": "Brassica juncea",
+    "rank": "SPECIES",
+    "category": "brassica-seeds",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "black-mustard",
+    "name": "Black mustard",
+    "botanical": "Brassica nigra",
+    "rank": "SPECIES",
+    "category": "brassica-seeds",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "ethiopian-mustard",
+    "name": "Ethiopian mustard",
+    "botanical": "Brassica carinata",
+    "rank": "SPECIES",
+    "category": "brassica-seeds",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "narrow-leaved-lupin",
+    "name": "Narrow-leaved lupin",
+    "botanical": "Lupinus angustifolius",
+    "rank": "SPECIES",
+    "category": "grain-legumes",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "yellow-lupin",
+    "name": "Yellow lupin",
+    "botanical": "Lupinus luteus",
+    "rank": "SPECIES",
+    "category": "grain-legumes",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "white-lupin",
+    "name": "White lupin",
+    "botanical": "Lupinus albus",
+    "rank": "SPECIES",
+    "category": "grain-legumes",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "subterranean-clover",
+    "name": "Subterranean clover",
+    "botanical": "Trifolium subterraneum",
+    "rank": "SPECIES",
+    "category": "forage-legumes",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "fenugreek",
+    "name": "Fenugreek",
+    "botanical": "Trigonella foenum-graecum",
+    "rank": "SPECIES",
+    "category": "herbs-specialty",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "borage",
+    "name": "Borage",
+    "botanical": "Borago officinalis",
+    "rank": "SPECIES",
+    "category": "herbs-specialty",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "dill",
+    "name": "Dill",
+    "botanical": "Anethum graveolens",
+    "rank": "SPECIES",
+    "category": "herbs-specialty",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "garden-cress",
+    "name": "Garden cress",
+    "botanical": "Lepidium sativum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "sunn-hemp",
+    "name": "Sunn hemp",
+    "botanical": "Crotalaria juncea",
+    "rank": "SPECIES",
+    "category": "forage-legumes",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander",
+    "botanical": "Coriandrum sativum",
+    "rank": "SPECIES",
+    "category": "herbs-specialty",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "niger",
+    "name": "Niger",
+    "botanical": "Guizotia abyssinica",
+    "rank": "SPECIES",
+    "category": "oil-fibre-seeds",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "sudan-grass",
+    "name": "Sudan grass",
+    "botanical": "Sorghum sudanense",
+    "rank": "SOURCE_MARKET_TAXON",
+    "category": "cereals-pseudocereals",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": false
+  },
+  {
+    "id": "sorghum-sudan-hybrid-group",
+    "name": "Sorghum × Sudan grass hybrid group",
+    "botanical": "Sorghum bicolor × Sorghum sudanense",
+    "rank": "HYBRID_FORMULA_GROUP",
+    "category": "cereals-pseudocereals",
+    "evidence": [
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": false
+  },
+  {
+    "id": "tall-fescue",
+    "name": "Tall fescue",
+    "botanical": "Festuca arundinacea",
+    "rank": "SPECIES",
+    "category": "grass-seeds",
+    "evidence": [
+      "tall-fescue",
+      "defra"
+    ],
+    "tags": [
+      "FORAGE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "white-sweetclover",
+    "name": "White sweetclover",
+    "botanical": "Melilotus albus",
+    "rank": "SPECIES",
+    "category": "forage-legumes",
+    "evidence": [
+      "sweetclover",
+      "lfl"
+    ],
+    "tags": [
+      "COVER_CROP"
+    ],
+    "synonyms": [
+      "Melilotus alba"
+    ],
+    "kpi_candidate": true
+  },
+  {
+    "id": "yellow-sweetclover",
+    "name": "Yellow sweetclover",
+    "botanical": "Melilotus officinalis",
+    "rank": "SPECIES",
+    "category": "forage-legumes",
+    "evidence": [
+      "sweetclover",
+      "lfl"
+    ],
+    "tags": [
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "quinoa",
+    "name": "Quinoa",
+    "botanical": "Chenopodium quinoa",
+    "rank": "SPECIES",
+    "category": "cereals-pseudocereals",
+    "evidence": [
+      "quinoa",
+      "quinoa-cover"
+    ],
+    "tags": [
+      "COVER_CROP"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "onion",
+    "name": "Onion / shallot",
+    "botanical": "Allium cepa",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "bunching-onion",
+    "name": "Bunching onion",
+    "botanical": "Allium fistulosum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "leek",
+    "name": "Leek",
+    "botanical": "Allium porrum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "botanical": "Allium sativum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": false
+  },
+  {
+    "id": "chives",
+    "name": "Chives",
+    "botanical": "Allium schoenoprasum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "chervil",
+    "name": "Chervil",
+    "botanical": "Anthriscus cerefolium",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "celery",
+    "name": "Celery / celeriac",
+    "botanical": "Apium graveolens",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "asparagus",
+    "name": "Asparagus",
+    "botanical": "Asparagus officinalis",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage / kale / broccoli crop types",
+    "botanical": "Brassica oleracea",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "endive",
+    "name": "Endive",
+    "botanical": "Cichorium endivia",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "chicory",
+    "name": "Chicory",
+    "botanical": "Cichorium intybus",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "botanical": "Citrullus lanatus",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "melon",
+    "name": "Melon",
+    "botanical": "Cucumis melo",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber / gherkin",
+    "botanical": "Cucumis sativus",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "winter-squash",
+    "name": "Winter squash",
+    "botanical": "Cucurbita maxima",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "courgette",
+    "name": "Courgette / pumpkin",
+    "botanical": "Cucurbita pepo",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "artichoke",
+    "name": "Globe artichoke / cardoon",
+    "botanical": "Cynara cardunculus",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "botanical": "Daucus carota",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "fennel",
+    "name": "Fennel",
+    "botanical": "Foeniculum vulgare",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "botanical": "Lactuca sativa",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "botanical": "Solanum lycopersicum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "botanical": "Petroselinum crispum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "runner-bean",
+    "name": "Runner bean",
+    "botanical": "Phaseolus coccineus",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "rhubarb",
+    "name": "Rhubarb",
+    "botanical": "Rheum rhabarbarum",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "black-salsify",
+    "name": "Black salsify",
+    "botanical": "Scorzonera hispanica",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "aubergine",
+    "name": "Aubergine",
+    "botanical": "Solanum melongena",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "botanical": "Spinacia oleracea",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "lambs-lettuce",
+    "name": "Lamb's lettuce",
+    "botanical": "Valerianella locusta",
+    "rank": "SPECIES",
+    "category": "vegetable-seeds",
+    "evidence": [
+      "vegetables"
+    ],
+    "tags": [
+      "VEGETABLE"
+    ],
+    "synonyms": [],
+    "kpi_candidate": true
+  },
+  {
+    "id": "cultivated-radish",
+    "name": "Cultivated radish",
+    "botanical": "Raphanus raphanistrum subsp. sativus",
+    "rank": "SUBSPECIES",
+    "category": "brassica-seeds",
+    "evidence": [
+      "vegetables",
+      "lfl"
+    ],
+    "tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "VEGETABLE"
+    ],
+    "synonyms": [
+      "Raphanus sativus",
+      "Raphanus sativus var. oleiformis"
+    ],
+    "kpi_candidate": true
+  }
+]

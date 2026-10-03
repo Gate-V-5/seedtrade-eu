@@ -1,0 +1,961 @@
+{
+  "version": "CROP_MASTER_V1",
+  "species_count_rule": "Distinct biological keys for PUBLIC_SAFE identified true-seed species, named hybrid species and parent species of commercial subspecies. Synonyms, seasons, cultivar groups, genus/customs/hybrid formula groups, unresolved identities, seed potatoes and vegetative garlic excluded. Subspecies count once per parent biological species; no fabricated parent production observations.",
+  "entities": [
+    {
+      "id": "alfalfa",
+      "biological_species_key": "Medicago sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "alsike-clover",
+      "biological_species_key": "Trifolium hybridum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "annual-ryegrass",
+      "biological_species_key": "Lolium multiflorum",
+      "rank": "CROP_USE_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "arrowleaf-clover",
+      "biological_species_key": "Trifolium vesiculosum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "artichoke",
+      "biological_species_key": "Cynara cardunculus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "asparagus",
+      "biological_species_key": "Asparagus officinalis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "aubergine",
+      "biological_species_key": "Solanum melongena",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "balansa-clover",
+      "biological_species_key": "Trifolium michelianum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "barley",
+      "biological_species_key": "Hordeum vulgare",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "beet-chard",
+      "biological_species_key": "Beta vulgaris",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "berseem-clover",
+      "biological_species_key": "Trifolium alexandrinum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "birdsfoot-trefoil",
+      "biological_species_key": "Lotus corniculatus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "biserrula",
+      "biological_species_key": "Biserrula pelecinus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "bitter-vetch",
+      "biological_species_key": "Vicia ervilia",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "black-medick",
+      "biological_species_key": "Medicago lupulina",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "black-mustard",
+      "biological_species_key": "Brassica nigra",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "black-oat",
+      "biological_species_key": "Avena strigosa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "black-salsify",
+      "biological_species_key": "Scorzonera hispanica",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "borage",
+      "biological_species_key": "Borago officinalis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "brown-mustard",
+      "biological_species_key": "Brassica juncea",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "browntop",
+      "biological_species_key": "Agrostis capillaris",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "buckwheat",
+      "biological_species_key": "Fagopyrum esculentum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "bunching-onion",
+      "biological_species_key": "Allium fistulosum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "bur-medick",
+      "biological_species_key": "Medicago polymorpha",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "cabbage",
+      "biological_species_key": "Brassica oleracea",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "camelina",
+      "biological_species_key": "Camelina sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "canary-grass",
+      "biological_species_key": "Phalaris canariensis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "caraway",
+      "biological_species_key": "Carum carvi",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "carrot",
+      "biological_species_key": "Daucus carota",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "celery",
+      "biological_species_key": "Apium graveolens",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "chervil",
+      "biological_species_key": "Anthriscus cerefolium",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "chickpea",
+      "biological_species_key": "Cicer arietinum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "chicory",
+      "biological_species_key": "Cichorium intybus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "chives",
+      "biological_species_key": "Allium schoenoprasum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "cocksfoot",
+      "biological_species_key": "Dactylis glomerata",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "common-bean",
+      "biological_species_key": "Phaseolus vulgaris",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "common-vetch",
+      "biological_species_key": "Vicia sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "common-wheat",
+      "biological_species_key": "Triticum aestivum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "coriander",
+      "biological_species_key": "Coriandrum sativum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "courgette",
+      "biological_species_key": "Cucurbita pepo",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "crimson-clover",
+      "biological_species_key": "Trifolium incarnatum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "cucumber",
+      "biological_species_key": "Cucumis sativus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "cultivated-radish",
+      "biological_species_key": "Raphanus raphanistrum",
+      "rank": "SUBSPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "dill",
+      "biological_species_key": "Anethum graveolens",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "durum-wheat",
+      "biological_species_key": "Triticum turgidum",
+      "rank": "SUBSPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "endive",
+      "biological_species_key": "Cichorium endivia",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "ethiopian-mustard",
+      "biological_species_key": "Brassica carinata",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "faba-bean",
+      "biological_species_key": "Vicia faba",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "fennel",
+      "biological_species_key": "Foeniculum vulgare",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "fenugreek",
+      "biological_species_key": "Trigonella foenum-graecum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "fescues",
+      "biological_species_key": "Festuca spp.",
+      "rank": "GENUS_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "festulolium-group",
+      "biological_species_key": "× Festulolium",
+      "rank": "HYBRID_GENUS_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "field-pea",
+      "biological_species_key": "Pisum sativum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "flax",
+      "biological_species_key": "Linum usitatissimum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "fodder-galega",
+      "biological_species_key": "Galega orientalis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "foxtail-millet",
+      "biological_species_key": "Setaria italica",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "garden-cress",
+      "biological_species_key": "Lepidium sativum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "garlic",
+      "biological_species_key": "Allium sativum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "glandular-clover",
+      "biological_species_key": "Trifolium glanduliferum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "golden-oatgrass",
+      "biological_species_key": "Trisetum flavescens",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "hemp",
+      "biological_species_key": "Cannabis sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "hungarian-vetch",
+      "biological_species_key": "Vicia pannonica",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "hybrid-lucerne",
+      "biological_species_key": "Medicago × varia",
+      "rank": "HYBRID_SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "hybrid-ryegrass",
+      "biological_species_key": "Lolium × hybridum",
+      "rank": "HYBRID_SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "italian-ryegrass",
+      "biological_species_key": "Lolium multiflorum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "kentucky-bluegrass",
+      "biological_species_key": "Poa pratensis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "lambs-lettuce",
+      "biological_species_key": "Valerianella locusta",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "leek",
+      "biological_species_key": "Allium porrum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "lentil",
+      "biological_species_key": "Lens culinaris",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "lettuce",
+      "biological_species_key": "Lactuca sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "lupins",
+      "biological_species_key": "Lupinus spp.",
+      "rank": "GENUS_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "maize",
+      "biological_species_key": "Zea mays",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "meadow-fescue",
+      "biological_species_key": "Festuca pratensis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "meadow-foxtail",
+      "biological_species_key": "Alopecurus pratensis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "melon",
+      "biological_species_key": "Cucumis melo",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "mustard-seed",
+      "biological_species_key": null,
+      "rank": "CUSTOMS_AGGREGATE",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "naked-oat",
+      "biological_species_key": "Avena nuda",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "narrow-leaved-lupin",
+      "biological_species_key": "Lupinus angustifolius",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "niger",
+      "biological_species_key": "Guizotia abyssinica",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "oat",
+      "biological_species_key": "Avena sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "oilseed-radish-group",
+      "biological_species_key": "Raphanus raphanistrum",
+      "rank": "CROP_USE_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "onion",
+      "biological_species_key": "Allium cepa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "parsley",
+      "biological_species_key": "Petroselinum crispum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "pepper",
+      "biological_species_key": "Capsicum annuum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "perennial-ryegrass",
+      "biological_species_key": "Lolium perenne",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "persian-clover",
+      "biological_species_key": "Trifolium resupinatum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "phacelia",
+      "biological_species_key": "Phacelia tanacetifolia",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "poppy",
+      "biological_species_key": "Papaver somniferum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "potato",
+      "biological_species_key": "Solanum tuberosum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "proso-millet",
+      "biological_species_key": "Panicum miliaceum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "purple-vetch",
+      "biological_species_key": "Vicia benghalensis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "quinoa",
+      "biological_species_key": "Chenopodium quinoa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "rapeseed",
+      "biological_species_key": "Brassica napus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "red-clover",
+      "biological_species_key": "Trifolium pratense",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "red-fescue",
+      "biological_species_key": "Festuca rubra",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "red-pea",
+      "biological_species_key": "Lathyrus cicera",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "red-zigzag-clover-cross-group",
+      "biological_species_key": "Trifolium pratense",
+      "rank": "HYBRID_FORMULA_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "rhubarb",
+      "biological_species_key": "Rheum rhabarbarum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "ribwort-plantain",
+      "biological_species_key": "Plantago lanceolata",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "rice",
+      "biological_species_key": "Oryza sativa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "rose-clover",
+      "biological_species_key": "Trifolium hirtum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "runner-bean",
+      "biological_species_key": "Phaseolus coccineus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "rye",
+      "biological_species_key": "Secale cereale",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "safflower",
+      "biological_species_key": "Carthamus tinctorius",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "sainfoin",
+      "biological_species_key": "Onobrychis viciifolia",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "serradella",
+      "biological_species_key": "Ornithopus sativus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "sorghum",
+      "biological_species_key": "Sorghum bicolor",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "sorghum-sudan-hybrid-group",
+      "biological_species_key": "Sorghum bicolor",
+      "rank": "HYBRID_FORMULA_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "soybean",
+      "biological_species_key": "Glycine max",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "spelt",
+      "biological_species_key": "Triticum aestivum",
+      "rank": "SUBSPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "spinach",
+      "biological_species_key": "Spinacia oleracea",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "subterranean-clover",
+      "biological_species_key": "Trifolium subterraneum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "sudan-grass",
+      "biological_species_key": "Sorghum sudanense",
+      "rank": "SOURCE_MARKET_TAXON",
+      "classification": "REVIEW_ONLY",
+      "kpi_eligible": false
+    },
+    {
+      "id": "sunflower",
+      "biological_species_key": "Helianthus annuus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "sunn-hemp",
+      "biological_species_key": "Crotalaria juncea",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "swede-seed-group",
+      "biological_species_key": "Brassica napus",
+      "rank": "CROP_USE_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "tall-fescue",
+      "biological_species_key": "Festuca arundinacea",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "tall-oatgrass",
+      "biological_species_key": "Arrhenatherum elatius",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "timothy",
+      "biological_species_key": "Phleum pratense",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "tomato",
+      "biological_species_key": "Solanum lycopersicum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "trifolium-isthmocarpum",
+      "biological_species_key": "Trifolium isthmocarpum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "trifolium-squarrosum",
+      "biological_species_key": "Trifolium squarrosum",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "triticale-group",
+      "biological_species_key": "× Triticosecale",
+      "rank": "HYBRID_GENUS_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "turnip-rape",
+      "biological_species_key": "Brassica rapa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "watermelon",
+      "biological_species_key": "Citrullus lanatus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "white-clover",
+      "biological_species_key": "Trifolium repens",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "white-lupin",
+      "biological_species_key": "Lupinus albus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "white-mustard",
+      "biological_species_key": "Sinapis alba",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "white-sweetclover",
+      "biological_species_key": "Melilotus albus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "winter-squash",
+      "biological_species_key": "Cucurbita maxima",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "winter-vetch",
+      "biological_species_key": "Vicia villosa",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "winter-wheat",
+      "biological_species_key": "Triticum aestivum",
+      "rank": "CROP_USE_GROUP",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": false
+    },
+    {
+      "id": "wood-meadowgrass",
+      "biological_species_key": "Poa nemoralis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "yellow-lupin",
+      "biological_species_key": "Lupinus luteus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "yellow-serradella",
+      "biological_species_key": "Ornithopus compressus",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    },
+    {
+      "id": "yellow-sweetclover",
+      "biological_species_key": "Melilotus officinalis",
+      "rank": "SPECIES",
+      "classification": "PUBLIC_SAFE",
+      "kpi_eligible": true
+    }
+  ],
+  "distinct_seed_species": 121,
+  "canonical_market_entities": 136,
+  "public_master_url": "/data/crop-master-v1.json"
+}

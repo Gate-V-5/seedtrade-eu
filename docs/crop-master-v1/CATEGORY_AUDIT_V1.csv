@@ -1,0 +1,22 @@
+current_category,current_cn8,proposed_category,action,rationale
+Alfalfa / lucerne,12092100,forage-legumes,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Field peas,07131010,grain-legumes,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Flax / linseed for sowing,12040010,oil-fibre-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Italian ryegrass,12092510,grass-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Kentucky bluegrass,12092400,grass-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Lupins,12092950,grain-legumes,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Meadow fescue,12092311,grass-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Mustard seed for sowing,12075010,brassica-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Perennial ryegrass,12092590,grass-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Red clover,12092210,forage-legumes,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+Red fescue,12092315,grass-seeds,MERGE,"Current card is a CN market view/entity, not a high-level seed category. Retain existing trade card and its values unchanged; classify identity under commercial primary category."
+null,,cereals-pseudocereals,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,grain-legumes,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,forage-legumes,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,grass-seeds,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,oil-fibre-seeds,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,brassica-seeds,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,vegetable-seeds,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,herbs-specialty,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,seed-potatoes,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.
+null,,other-propagation,ADD,Add extensible primary commercial category in model only; existing approved navigation/cards unchanged.

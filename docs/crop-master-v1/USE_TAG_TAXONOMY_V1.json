@@ -1,0 +1,27 @@
+[
+  {
+    "id": "CATCH_CROP",
+    "kind": "USE_SEGMENT",
+    "not_primary_category": true
+  },
+  {
+    "id": "COVER_CROP",
+    "kind": "USE_SEGMENT",
+    "not_primary_category": true
+  },
+  {
+    "id": "FORAGE",
+    "kind": "USE_SEGMENT",
+    "not_primary_category": true
+  },
+  {
+    "id": "SEED_PRODUCTION",
+    "kind": "USE_SEGMENT",
+    "not_primary_category": true
+  },
+  {
+    "id": "VEGETABLE",
+    "kind": "USE_SEGMENT",
+    "not_primary_category": true
+  }
+]
