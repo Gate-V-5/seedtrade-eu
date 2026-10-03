@@ -1,0 +1,9 @@
+{
+  "initial_js_bytes": 1539106,
+  "initial_js_gzip_bytes": 270336,
+  "production_data_bytes": 1280851,
+  "production_data_gzip_bytes": 74712,
+  "production_data_loading": "INITIAL",
+  "data_sample_in_initial_chunk": true,
+  "gzip_method": "level6;mtime0"
+}

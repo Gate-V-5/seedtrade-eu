@@ -49,7 +49,7 @@ try {
   const { default: App } = await vite.ssrLoadModule('/src/AppV2.jsx')
   const { languages, translate } = await vite.ssrLoadModule('/src/i18n/index.jsx')
   const files = routeFiles('dist')
-  assert.equal(files.length, 44)
+  assert.equal(files.length, 45)
   async function load(file, savedLanguage) {
     if (root) await act(async () => root.unmount())
     dom.reconfigure({ url: 'https://seedtrade.test/' + path.relative('dist', path.dirname(file)) + '/' })
@@ -179,7 +179,7 @@ try {
   window.Storage.prototype.getItem = getItem
   window.Storage.prototype.setItem = setItem
   assert.deepEqual(errors, [], 'Hydration must not require recovery')
-  console.log('DOM hydration: 220 route/language combinations, selection, refresh/navigation storage, invalid/blocked storage and mocked B2B validation/success/error PASS; real email sends=0')
+  console.log('DOM hydration: 225 route/language combinations, selection, refresh/navigation storage, invalid/blocked storage and mocked B2B validation/success/error PASS; real email sends=0')
 } finally {
   if (root) await act(async () => root.unmount())
   globalThis.fetch = originalFetch

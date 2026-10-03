@@ -13,6 +13,11 @@ import rfqs from "./generated/rfqs_public.json"
 import weather from "./generated/weather_public.json"
 import europeMap from "./generated/europe_country_map_public.json"
 import WeatherEvidence from "./WeatherEvidence.jsx"
+// SSR renders the existing page synchronously. Browser hydration waits for
+// this route-only module before initial render; other routes never request it.
+const productionPath = typeof window !== "undefined" && window.location.pathname.replace(/\/$/, "") === "/production-intelligence"
+const ProductionIntelligence = import.meta.env.SSR || productionPath
+  ? (await import("./ProductionIntelligence.jsx")).default : null
 import supply from "./generated/supply_public.json"
 import publicData from "./generated/public_data_manifest.json"
 import tradePulse from "./generated/trade_pulse_public.json"
@@ -92,7 +97,7 @@ function useCarousel(total, intervalMs = 2500, desktopCount = 4) {
 }
 
 export function publicRoute(path) {
-  return path === "/" || path === "/market" || path === "/trade-pulse" || path === "/weather-evidence" || path === "/methodology" || path === "/about" ||
+  return path === "/" || path === "/market" || path === "/trade-pulse" || path === "/weather-evidence" || path === "/production-intelligence" || path === "/methodology" || path === "/about" ||
     path === "/privacy" || path === "/terms" || path === "/confidentiality" || path === "/disclaimer" ||
     path === "/insights" || path === "/news" || path === "/buying-requests" || path.startsWith("/buying-requests/") || path.startsWith("/market/") || path.startsWith("/insights/") || path.startsWith("/news/")
 }
@@ -102,6 +107,7 @@ export function routeMeta(path) {
   if (path === "/market") return { title: "EU Seed Market Dashboard | SeedTrade.eu", description: "Explore representative seed prices, trade volumes and market evidence across eleven categories.", index: true }
   if (path === "/trade-pulse") return { title: "EU Seed Trade Pulse | SeedTrade.eu", description: "Verified EU internal, import and export seed trade volume, value and activity intelligence.", index: true }
   if (path === "/weather-evidence") return { title: "Weather & Seed Risk coverage | SeedTrade.eu", description: "Map and list of 23 monitored European seed-production regions; weather exposure is not validated production impact.", index: true }
+  if (path === "/production-intelligence") return { title: "Seed Production Intelligence | SeedTrade.eu", description: "Official European seed multiplication and certification evidence by species, country, metric and year.", index: true }
   const crop = market.crops.find(x => path === `/market/${x.slug}`)
   if (crop) return { title: `${crop.crop}${crop.botanical_name ? ` (${crop.botanical_name})` : ""} market data | SeedTrade.eu`, description: `${crop.crop}${crop.botanical_name ? ` (${crop.botanical_name})` : ""} representative price, EU trade volume, corridors and evidence status.`, index: true }
   const article = insights.articles.find(x => path === `/insights/${x.slug}`)
@@ -329,7 +335,7 @@ function IntelligenceOverview({ expanded = false }) {
     <article><div className="intelligence-topic-visual production" role="img" aria-label={t("Seed multiplication fields and certification evidence shown separately from commodity crop area")}>
       <FixedEvidenceImage name="production"/>
       <span className="visual-tag"><T>SEED · PRODUCTION</T></span><span className="visual-caption"><T>Certified seed ≠ commodity area</T></span>
-    </div><p className="eyebrow"><T>Seed Production</T></p><h3><T>Is supply tightening or expanding?</T></h3><p><T>Certified-seed and multiplication evidence is kept separate from commodity crop area. Evidence is currently insufficient for an EU-wide supply direction.</T></p><a href="/methodology"><T>View production evidence →</T></a></article>
+    </div><p className="eyebrow"><T>Seed Production</T></p><h3><T>Is supply tightening or expanding?</T></h3><p><T>Certified-seed and multiplication evidence is kept separate from commodity crop area. Evidence is currently insufficient for an EU-wide supply direction.</T></p><a href="/production-intelligence"><T>View production evidence →</T></a></article>
   </div></section>
 }
 
@@ -406,6 +412,6 @@ function NotFound(){return <main><h1><T>Page not found</T></h1><a href="/"><T>Re
 
 function Footer() { return <footer><Logo footer/><div><b><T>Platform</T></b><a href="/market"><T>Intelligence</T></a><a href="/news"><T>News</T></a><a href="/insights"><T>Research</T></a><a href="/insights"><T>Partner Insights</T></a></div><div><b>SeedTrade</b><a href="/about"><T>About</T></a><a href="/privacy"><T>Privacy</T></a><a href="/terms"><T>Terms</T></a><a href="/confidentiality"><T>Confidentiality</T></a></div><div><b><T>Marketplace</T></b><a href="/buying-requests"><T>Buying Requests</T></a><a href="/rfq"><T>RFQ — coming next</T></a><a href="/about/#contact"><T>Contact</T></a><span><T>© 2026 SeedTrade.eu · European Seed Market Intelligence</T></span></div></footer> }
 
-function LocalizedApp() { const path = window.location.pathname.replace(/\/$/,"") || "/"; useMetadata(path); useHashNavigation(path); useEffect(() => { loadGTM(); track(path === "/" ? "homepage_view" : path === "/market" ? "market_view" : path === "/trade-pulse" ? "trade_pulse_view" : path.startsWith("/market/") ? "crop_view" : path === "/news" ? "news_archive_view" : path.startsWith("/news/") ? "news_item_view" : path === "/methodology" ? "methodology_view" : "page_view", { page_path:path }) }, [path]); const content = useMemo(() => { if(path === "/") return <Home/>; if(path === "/market") return <Market/>; if(path === "/trade-pulse") return <TradePulseDashboard/>; if(path === "/weather-evidence") return <WeatherEvidence/>; if(path === "/news") return <NewsArchive/>; if(path === "/insights") return <Insights/>; if(path === "/buying-requests") return <BuyingRequests/>; if(path.startsWith("/buying-requests/")) return <BuyingRequestDetail request={rfqs.items.find(x=>`/buying-requests/${x.slug}`===path)}/>; if(path.startsWith("/market/")) return <CropPage crop={market.crops.find(x=>`/market/${x.slug}`===path)}/>; if(path.startsWith("/news/")) return <NewsItem story={publicNews.find(x=>`/news/${x.slug}`===path)}/>; if(path.startsWith("/insights/")) return <Article article={insights.articles.find(x=>`/insights/${x.slug}`===path)}/>; if(path === "/rfq") return <PrivateFeature kind="RFQ"/>; if(path === "/offer") return <PrivateFeature kind="OFFER"/>; if(path === "/methodology") return <Methodology/>; if(path === "/about") return <AboutPage/>; if(Object.keys(legal).includes(path)) return <InfoPage path={path}/>; return <NotFound/> },[path]); return <><Header/>{content}<Footer/><Consent/></> }
+function LocalizedApp() { const path = window.location.pathname.replace(/\/$/,"") || "/"; useMetadata(path); useHashNavigation(path); useEffect(() => { loadGTM(); track(path === "/" ? "homepage_view" : path === "/market" ? "market_view" : path === "/trade-pulse" ? "trade_pulse_view" : path.startsWith("/market/") ? "crop_view" : path === "/news" ? "news_archive_view" : path.startsWith("/news/") ? "news_item_view" : path === "/methodology" ? "methodology_view" : "page_view", { page_path:path }) }, [path]); const content = useMemo(() => { if(path === "/") return <Home/>; if(path === "/market") return <Market/>; if(path === "/trade-pulse") return <TradePulseDashboard/>; if(path === "/weather-evidence") return <WeatherEvidence/>; if(path === "/production-intelligence") return <ProductionIntelligence/>; if(path === "/news") return <NewsArchive/>; if(path === "/insights") return <Insights/>; if(path === "/buying-requests") return <BuyingRequests/>; if(path.startsWith("/buying-requests/")) return <BuyingRequestDetail request={rfqs.items.find(x=>`/buying-requests/${x.slug}`===path)}/>; if(path.startsWith("/market/")) return <CropPage crop={market.crops.find(x=>`/market/${x.slug}`===path)}/>; if(path.startsWith("/news/")) return <NewsItem story={publicNews.find(x=>`/news/${x.slug}`===path)}/>; if(path.startsWith("/insights/")) return <Article article={insights.articles.find(x=>`/insights/${x.slug}`===path)}/>; if(path === "/rfq") return <PrivateFeature kind="RFQ"/>; if(path === "/offer") return <PrivateFeature kind="OFFER"/>; if(path === "/methodology") return <Methodology/>; if(path === "/about") return <AboutPage/>; if(Object.keys(legal).includes(path)) return <InfoPage path={path}/>; return <NotFound/> },[path]); return <><Header/>{content}<Footer/><Consent/></> }
 
 export default function AppV2({ initialLanguage = "EN" }) { return <LanguageProvider initialLanguage={initialLanguage}><LocalizedApp/></LanguageProvider> }

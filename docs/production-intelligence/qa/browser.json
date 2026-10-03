@@ -1,0 +1,16 @@
+{
+  "BROWSER_QA": "BLOCKED_ENVIRONMENT",
+  "local_playwright": "Executable missing: chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell",
+  "cloud_browser": "Local preview tab creation timed out; tool reported timed out awaiting tools/call after 300s",
+  "visual_validation": "NOT_PERFORMED",
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "computed_css_dom": "PASS_IN_SEPARATE_LOG",
+  "screenshots": "NONE"
+}

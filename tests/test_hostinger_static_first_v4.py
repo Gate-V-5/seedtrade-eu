@@ -31,7 +31,12 @@ class HostingerStaticFirstV4Tests(unittest.TestCase):
     def test_javascript_and_css_are_physical(self):
         page = (DIST / "index.html").read_text(encoding="utf-8")
         refs = re.findall(r'(?:src|href)="(/assets/[^"]+)"', page)
-        self.assertEqual(len(refs), 2)
+        # Route splitting may add shared-module preload links. Every resource
+        # must still exist; there is exactly one entry and one stylesheet.
+        self.assertEqual(len(re.findall(r'<script[^>]*type="module"[^>]*src="/assets/', page)), 1)
+        self.assertEqual(len(re.findall(r'<link[^>]*rel="stylesheet"[^>]*href="/assets/', page)), 1)
+        self.assertGreaterEqual(len(refs), 2)
+        self.assertNotIn("ProductionIntelligence-", page)
         for ref in refs:
             self.assertTrue((DIST / ref.lstrip("/")).is_file(), ref)
 

@@ -20,6 +20,7 @@ const publicNews = publicNewsItems(news.items, newsSources).filter(item => item.
 const marketplace = await readJson('src/generated/rfqs_public.json')
 
 const routes = [
+  ['production-intelligence', 'Seed Production Intelligence', 'Official European seed multiplication and certification evidence by species, country, metric and year.', true],
   ['market', 'EU Seed Market Dashboard', 'Representative prices and trade volumes for eleven European seed categories.', true],
   ['trade-pulse', 'EU Seed Trade Pulse', 'Verified EU internal, import and export seed trade volume, value and activity intelligence.', true],
   ['weather-evidence', 'Weather & Seed Risk coverage', 'Map and list of 23 monitored European seed-production regions; weather exposure is not validated production impact.', true],
