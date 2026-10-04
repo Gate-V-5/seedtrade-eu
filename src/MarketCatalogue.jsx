@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useT, useLanguage, translate } from './i18n/index.jsx'
 import data from './generated/market_catalogue_public.json'
 import routes from './generated/market_catalogue_routes.json'
+import pulse from './generated/trade_pulse_public.json'
 import './marketCatalogue.css'
 
 export const catalogueRouteMeta = path => {
@@ -27,14 +28,39 @@ function Tags({card}) {
   const t=useT()
   return <div className="catalogue-tags">{card.use_tags.map(id=><span key={id}>{t(categoryById(id)?.title||id)}</span>)}</div>
 }
+function CardTrend({label,value}) {
+  const t=useT(),{language}=useLanguage()
+  if(!available(value))return null
+  const n=Number(value)
+  return <p className={`catalogue-yoy ${n<0?'down':'up'}`}><span aria-hidden="true">{n<0?'▼':'▲'}</span> {n>0?'+':''}{new Intl.NumberFormat(locale(language),{maximumFractionDigits:2}).format(n)}% {t('YoY')}<span className="sr-only"> · {t(label)}</span></p>
+}
+function CardHistory({card}) {
+  const t=useT(),{language}=useLanguage(),[year,month]=card.latest_trade_period.split('-').map(Number)
+  const slots=Array.from({length:12},(_,i)=>{
+    const date=new Date(Date.UTC(year,month-12+i,1)),period=date.toISOString().slice(0,7)
+    return {period,point:(card.trade_history||[]).find(x=>x.period===period)}
+  })
+  const values=slots.filter(x=>available(x.point?.volume_t))
+  if(values.length<2)return null
+  const maximum=Math.max(...values.map(x=>Number(x.point.volume_t)))
+  if(maximum<=0)return null
+  return <div className="catalogue-card-history" role="img" aria-label={t('Completed monthly trade volume history')}>
+    {slots.map(({period,point})=><span key={period} title={point?`${period}: ${new Intl.NumberFormat(locale(language),{maximumFractionDigits:2}).format(point.volume_t)} t`:period}>{available(point?.volume_t)&&<i style={{height:`${Number(point.volume_t)/maximum*100}%`}}/>}</span>)}
+  </div>
+}
 function SeedCard({card}) {
-  const t=useT(),hasTrade=available(card.trade_volume_t),hasProduction=card.production_evidence.strict_entity_records>0
-  const group=card.customs_scope_type==='GROUP_LEVEL_CUSTOMS_SCOPE'
+  const t=useT(),hasTrade=available(card.trade_volume_t)
   return <article className="catalogue-seed-card" data-entity-id={card.market_entity_id}>
     <div className="catalogue-seed-heading"><h3>{t(card.common_name_en)}</h3><p className="catalogue-botanical">{card.botanical_display_name}</p></div>
     <Tags card={card}/>
-    {hasTrade ? <dl className="catalogue-card-metrics"><Metric label="Trade volume" value={card.trade_volume_t} unit=" t"/><Metric label="Representative price" value={card.representative_price_eur_kg} unit=" €/kg"/><Metric label="Volume YoY" value={card.trade_volume_yoy} unit="%" trend/><Metric label="Price YoY" value={card.representative_price_yoy} unit="%" trend/></dl> : <p className="catalogue-developing">{t('Market data developing')}</p>}
-    <div className="catalogue-card-status">{hasProduction&&<span>{t('Production data available')}</span>}{hasTrade&&<span>{t('Trade data available')}</span>}{group&&<span>{t('Group-level customs scope')}</span>}</div>
+    {hasTrade&&<>
+      <div className="catalogue-card-metrics">
+        {available(card.representative_price_eur_kg)&&<div className="catalogue-card-measure"><dl><Metric label="Representative price" value={card.representative_price_eur_kg} unit=" €/kg"/></dl><CardTrend label="Price YoY" value={card.representative_price_yoy}/></div>}
+        <div className="catalogue-card-measure"><dl><Metric label="Trade volume" value={card.trade_volume_t} unit=" t"/></dl><CardTrend label="Volume YoY" value={card.trade_volume_yoy}/></div>
+      </div>
+      <CardHistory card={card}/><p className="catalogue-period">{t('Completed {period}',{period:card.latest_trade_period})}</p>
+      {card.CN_status==='PARTIAL'&&<p className="catalogue-note">{t('This customs scope covers only part of the seed market.')}</p>}
+    </>}
     <a className="catalogue-card-cta" href={`/market/seeds/${card.slug}`}>{t('Explore market →')}</a>
   </article>
 }
@@ -46,8 +72,9 @@ function CategoryTile({category}) {
   </a>
 }
 function EuMarketSummary() {
-  const t=useT(),s=data.eu_summary
-  return <section className="catalogue-eu-summary" aria-label={t('EU market summary')}><dl className="catalogue-global-kpis"><Metric label="Seed species" value={s.seed_species}/><Metric label="Commercial market entities" value={s.commercial_market_entities}/><Metric label="Trade volume" value={s.trade_volume_t} unit=" t"/><Metric label="Trade value" value={s.trade_value_eur} money/><Metric label="Sowing CN codes" value={s.cn_codes}/></dl><p>{t('EU internal trade')} · {s.period}</p></section>
+  const t=useT(),{language}=useLanguage(),s=data.eu_summary,period=pulse.latest_completed_period,cnCount=pulse.scope.included_cn_codes.length
+  const [year,month]=period.split('-').map(Number),periodName=new Intl.DateTimeFormat(locale(language),{month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(Date.UTC(year,month-1,1)))
+  return <section className="catalogue-eu-summary" aria-label={t('EU market summary')}><dl className="catalogue-global-kpis"><Metric label="Seed species" value={s.seed_species}/><Metric label="Commercial market entities" value={s.commercial_market_entities}/><Metric label="Trade volume" value={s.trade_volume_t} unit=" t"/><Metric label="Trade value" value={s.trade_value_eur} money/><Metric label="Sowing CN codes" value={cnCount}/></dl><p>{t('EU internal seed trade covered by {count} sowing CN codes · {period}',{count:cnCount,period:periodName})}</p></section>
 }
 function CatalogueHome() {
   const t=useT(),order=['CEREALS_PULSES','FODDER_AMENITY','CATCH_CROP','OIL_FIBRE','MAIZE_SORGHUM','VEGETABLES']
@@ -56,7 +83,7 @@ function CatalogueHome() {
 function CategoryPage({category}) {
   const t=useT(),{language}=useLanguage(),[query,setQuery]=useState('')
   const cards=data.cards.filter(x=>category.entity_ids.includes(x.market_entity_id)),filtered=filterCatalogueCards(cards,query,language)
-  return <main className="market-catalogue"><a className="catalogue-back" href="/market">{t('← All categories')}</a><header className="catalogue-page-head catalogue-category-head"><div><p className="eyebrow">{t('European seed market')}</p><h1>{t(category.title)}</h1><p>{t(category.description)}</p></div><img src={category.image} alt={t(category.title)} width="2048" height="1143" decoding="async"/></header><div className="catalogue-summary"><div><span>{t('Seed types')}</span><strong>{category.entity_count}</strong></div>{category.countries_observed_count!=null&&<div><span>{t('Countries observed')}</span><strong>{category.countries_observed_count}</strong></div>}<p>{t('EU trade aggregate developing')}</p></div><div className="catalogue-browse"><label htmlFor="catalogue-search">{t('Find a seed type')}<input id="catalogue-search" type="search" placeholder={t('Common or botanical name')} value={query} onChange={event=>setQuery(event.target.value)}/></label><p role="status">{t('{count} seed types',{count:filtered.length})}</p></div>{filtered.length ? <section className="catalogue-seed-grid" aria-label={t('Seed market cards')}>{filtered.map(c=><SeedCard key={c.market_entity_id} card={c}/>)}</section> : <p className="catalogue-empty">{t('No seed types match your search.')}</p>}</main>
+  return <main className="market-catalogue"><a className="catalogue-back" href="/market">{t('← All categories')}</a><header className="catalogue-page-head catalogue-category-head"><div><p className="eyebrow">{t('European seed market')}</p><h1>{t(category.title)}</h1><p>{t(category.description)}</p></div><img src={category.image} alt={t(category.title)} width="2048" height="1143" decoding="async"/></header><div className="catalogue-summary"><div><span>{t('Seed types')}</span><strong>{category.entity_count}</strong></div>{category.countries_observed_count!=null&&<div><span>{t('Countries observed')}</span><strong>{category.countries_observed_count}</strong></div>}</div><div className="catalogue-browse"><label htmlFor="catalogue-search">{t('Find a seed type')}<input id="catalogue-search" type="search" placeholder={t('Common or botanical name')} value={query} onChange={event=>setQuery(event.target.value)}/></label><p role="status">{t('{count} seed types',{count:filtered.length})}</p></div>{filtered.length ? <section className="catalogue-seed-grid" aria-label={t('Seed market cards')}>{filtered.map(c=><SeedCard key={c.market_entity_id} card={c}/>)}</section> : <p className="catalogue-empty">{t('No seed types match your search.')}</p>}</main>
 }
 function SeedDetail({card}) {
   const t=useT(),primary=categoryById(card.primary_category),hasTrade=available(card.trade_volume_t),production=card.production_evidence

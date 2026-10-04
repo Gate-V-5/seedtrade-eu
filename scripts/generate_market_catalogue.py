@@ -49,6 +49,25 @@ for id,name,taxon,bio,codes in [('sugar-beet','Sugar beet','Beta vulgaris','beet
 vegetables=next(c for c in cat if c['id']=='VEGETABLES');vegetables['entity_ids']+=['sugar-beet','seed-potatoes','carrot'];vegetables['entity_count']=len(vegetables['entity_ids'])
 pulse=load(R/'src/generated/trade_pulse_public.json');latest=pulse['views']['eu_internal_trade']['latest']
 summary={'seed_species':master['distinct_seed_species'],'commercial_market_entities':master['canonical_market_entities'],'trade_volume_t':latest['volume_tonnes'],'trade_value_eur':latest['trade_value_eur'],'cn_codes':len(pulse['scope']['included_cn_codes']),'period':pulse['latest_completed_period'],'trade_definition':'EU_INTERNAL_EXPORTER_REPORTED_DISPATCHES','classification':'PUBLIC_SAFE'}
+# Presentation-only series use the identical EU reporter dispatch aggregate.
+# Legacy representative prices remain withheld: their source volume scope differs.
+totals=load(R/'src/generated/country_customs_totals.json')
+assert totals['complete']
+columns=totals['columns']; series_rows=[dict(zip(columns,row)) for row in totals['rows']]
+for c in cards:
+ c['trade_history']=[]
+ if c['trade_volume_t'] is None: continue
+ assert c['customs_scope_type'] in ['SPECIES_SPECIFIC','COMMERCIAL_ENTITY_SPECIFIC']
+ points=[row for row in series_rows if row['reporter']=='EU' and row['view']=='eu_internal_trade' and row['cn8'] in c['CN_codes'] and row['period']<=summary['period']]
+ months={}
+ for row in points:
+  bucket=months.setdefault(row['period'],{'volume_t':0.0,'observation_count':0})
+  bucket['volume_t']+=row['net_weight_kg']/1000
+  bucket['observation_count']+=row['observation_count']
+ assert abs(months[summary['period']]['volume_t']-float(c['trade_volume_t']))<0.00001
+ c['trade_history']=[{'period':period,'volume_t':round(row['volume_t'],6)} for period,row in sorted(months.items()) if row['observation_count']>0]
+ c['market_card_scope']='EU_INTERNAL_EXPORTER_REPORTED_DISPATCHES'
+ c['price_scope_status']='WITHHELD_LEGACY_UPSTREAM_VOLUME_SCOPE_MISMATCH'
 out={'version':'MARKET_CATALOGUE_V3','eu_summary':summary,'classification':'PUBLIC_SAFE','source_checkpoint_sha256':'08d8abeca5947c9985dbf36e1b1ee857e62508c490524b0e1533e460759c39b7','homepage_species_kpi':121,'categories':cat,'cards':cards}
 (R/'src/generated/market_catalogue_public.json').write_text(json.dumps(out,ensure_ascii=False,separators=(',',':'))+'\n')
 routes=[{'path':'/market','title':'European Seed Market Catalogue','description':'Browse European commercial seed categories and individual seed markets.'}]+[{'path':'/market/'+x['slug'],'title':x['title'],'description':x['description']} for x in cat]+[{'path':'/market/seeds/'+x['slug'],'title':x['common_name_en']+' ('+x['botanical_display_name']+') seed market','description':'Seed market coverage, trade and production evidence for '+x['common_name_en']+' ('+x['botanical_display_name']+').'} for x in cards]

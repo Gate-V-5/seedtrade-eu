@@ -5,3 +5,19 @@
 .catalogue-eu-summary{margin:0 0 28px;padding:20px;border:1px solid var(--line);border-radius:12px;background:#fff}.catalogue-global-kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;margin:0}.catalogue-global-kpis .catalogue-metric dd{font-size:clamp(1rem,1.5vw,1.35rem)}.catalogue-eu-summary>p{font-size:.8rem;color:var(--muted);margin:14px 0 0}.catalogue-global-kpis dt{line-height:1.4}
 @media(max-width:900px){.catalogue-global-kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:600px){.catalogue-eu-summary{padding:16px;margin-bottom:20px}.catalogue-global-kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.catalogue-global-kpis .catalogue-metric:last-child{grid-column:1/-1}}
+
+/* Scoped commercial presentation: stacked KPIs cannot inherit global row layout. */
+.market-catalogue .catalogue-global-kpis>.catalogue-metric{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-width:0}
+.market-catalogue .catalogue-global-kpis dt{margin:0;min-height:2.8em}
+.market-catalogue .catalogue-global-kpis dd{margin:0;white-space:nowrap;overflow-wrap:normal;word-break:normal;font-size:clamp(1rem,1.35vw,1.2rem);font-variant-numeric:tabular-nums}
+.market-catalogue .catalogue-card-metrics{display:flex;flex-wrap:wrap;gap:16px 24px}
+.market-catalogue .catalogue-card-measure{display:block;min-width:0}
+.market-catalogue .catalogue-card-measure>dl>.catalogue-metric{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.market-catalogue .catalogue-card-measure dd{white-space:nowrap;overflow-wrap:normal;font-variant-numeric:tabular-nums}
+.catalogue-yoy{margin:5px 0 0;font-size:.8rem;font-weight:600}.catalogue-yoy.up{color:#287647}.catalogue-yoy.down{color:#9b3e3e}
+.catalogue-card-history{height:42px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px;align-items:end;margin:2px 0}
+.catalogue-card-history>span{display:flex;height:100%;align-items:flex-end;min-width:0}.catalogue-card-history i{display:block;width:100%;background:var(--green);border-radius:2px 2px 0 0}
+.catalogue-seed-card .catalogue-period{margin:0;font-size:.78rem}
+@media(max-width:600px){.market-catalogue .catalogue-global-kpis{grid-template-columns:minmax(0,1fr)}.market-catalogue .catalogue-global-kpis>.catalogue-metric{gap:4px}.market-catalogue .catalogue-global-kpis dt{min-height:0}.market-catalogue .catalogue-global-kpis .catalogue-metric:last-child{grid-column:auto}}
+
+.catalogue-card-measure>dl{margin:0}

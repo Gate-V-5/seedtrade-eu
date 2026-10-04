@@ -1,0 +1,29 @@
+{
+  "repository": "Gate-V-5/seedtrade-eu",
+  "starting_head": "3367f959ff87f97e47256aebe3a9919e01c7d360",
+  "new_commit": null,
+  "push": "NOT_PUSHED",
+  "deployment": "NONE",
+  "restoration": "Complete source/public/built state; locked dependencies excluded. Reconnect Git to the recorded baseline if needed.",
+  "modified_tracked_files": [
+    "scripts/generate_market_catalogue.py",
+    "src/MarketCatalogue.jsx",
+    "src/generated/market_catalogue_public.json",
+    "src/i18n/messages.js",
+    "src/marketCatalogue.css"
+  ],
+  "new_files": [
+    "docs/market-commercial-refinement-v3/APPROVED_BASE_DIFF.patch",
+    "docs/market-commercial-refinement-v3/IMPLEMENTATION_REPORT.md",
+    "docs/market-commercial-refinement-v3/PRIORITY_65_RECONCILIATION.csv",
+    "docs/market-commercial-refinement-v3/PRIORITY_65_RECONCILIATION.json",
+    "docs/market-commercial-refinement-v3/PROVENANCE_MANIFEST.json",
+    "docs/market-commercial-refinement-v3/QA_RESULT.json",
+    "scripts/checkpoint_commercial_refinement.py",
+    "scripts/validate_commercial_refinement.py",
+    "tests/commercialCards.test.mjs"
+  ],
+  "qa_failures": 0,
+  "local_archive_readback": "CRC and every manifest entry SHA256 required",
+  "remote_readback": "PENDING_CONNECTOR_VERIFICATION"
+}

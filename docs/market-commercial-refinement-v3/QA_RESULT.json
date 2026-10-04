@@ -1,0 +1,611 @@
+{
+  "starting_head": "3367f959ff87f97e47256aebe3a9919e01c7d360",
+  "checks": [
+    {
+      "check": "65 commercial identities preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "original common and botanical labels preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "mandatory hemp and caraway",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "six categories",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "category union covers 65",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "39 multi-category entities",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "six unsafe category totals withheld",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "all 78 catalogue routes and aliases unique and prerendered",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "all missing prices withheld",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "group quantities not assigned to species",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "current wheat/spelt conflict withheld",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "11 safely attributed trade cards",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "unverified owner supply labels absent",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "no copied observation arrays",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "homepage KPI 121",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "approved Trade Pulse unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "only scoped baseline changes",
+      "status": "PASS",
+      "evidence": [
+        "scripts/generate_market_catalogue.py",
+        "src/MarketCatalogue.jsx",
+        "src/generated/market_catalogue_public.json",
+        "src/i18n/messages.js",
+        "src/marketCatalogue.css"
+      ]
+    },
+    {
+      "check": "all protected tracked files unchanged",
+      "status": "PASS",
+      "evidence": 429
+    },
+    {
+      "check": "homepage implementation byte-equivalent",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "production route still lazy",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "technical evidence removed from primary market",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "category technical CN lists absent",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "six owner category visuals exist",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "public projection excludes private paths and supply claims",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "responsive structural guards",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "Vegetables includes sugar beet and seed potatoes",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "KPI draws approved global scope",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "six owner PNG assets unmodified",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history white-mustard",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history brown-mustard",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history black-mustard",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history oil-radish",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history rapeseed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history turnip-rape",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history fodder-kale",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history fodder-turnip",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history phacelia",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history sunflower",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card sunflower",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history buckwheat",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history oat",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history black-oat",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history rye",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card rye",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history barley",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card barley",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history wheat",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history triticale",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history proso-millet",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history sorghum",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history sudan-grass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history sorghum-sudan-hybrid",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history italian-ryegrass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history perennial-ryegrass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card perennial-ryegrass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history hybrid-ryegrass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history westerwold-ryegrass",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history festulolium",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history meadow-fescue",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card meadow-fescue",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history tall-fescue",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history cocksfoot",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history common-vetch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history winter-vetch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history hungarian-vetch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history purple-vetch",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history field-pea",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card field-pea",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history faba-bean",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history narrow-leaved-lupin",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history yellow-lupin",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history white-lupin",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history red-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card red-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history white-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history persian-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history berseem-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history crimson-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history balansa-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history alsike-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history subterranean-clover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history alfalfa",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card alfalfa",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history black-medick",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history yellow-sweetclover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history white-sweetclover",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history birdsfoot-trefoil",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history sainfoin",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history soybean",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card soybean",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history chickpea",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history flax",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card flax",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history hemp",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history safflower",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history coriander",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history caraway",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history dill",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history camelina",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history niger",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history quinoa",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history fodder-beet",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "latest series equals card fodder-beet",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history chicory",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history sugar-beet",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history seed-potatoes",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "completed history carrot",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "new disclosure follows canonical period and CN count",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "old technical primary card statuses removed",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "category placeholder removed",
+      "status": "PASS",
+      "evidence": null
+    }
+  ],
+  "failures": 0,
+  "categories": {
+    "CEREALS_PULSES": 16,
+    "VEGETABLES": 4,
+    "OIL_FIBRE": 12,
+    "MAIZE_SORGHUM": 3,
+    "FODDER_AMENITY": 29,
+    "CATCH_CROP": 43
+  },
+  "commercial_entities": 68,
+  "multi_category_entities": 39,
+  "trade_metric_cards": 11,
+  "group_scope_cards": 34,
+  "developing_trade_cards": 57,
+  "visual_qa": "BLOCKED_ENVIRONMENT",
+  "visual_blocker": "Cloud browser rejects unpublished local preview http://127.0.0.1:4180/market/ with net::ERR_BLOCKED_BY_CLIENT; no documented viewport control. No Chromium installation attempted.",
+  "widths": {
+    "360": "NOT_RENDERED",
+    "390": "NOT_RENDERED",
+    "430": "NOT_RENDERED",
+    "1366": "NOT_RENDERED",
+    "1440": "NOT_RENDERED",
+    "1920": "NOT_RENDERED"
+  },
+  "tests": {
+    "python": 268,
+    "existing_node": 43,
+    "targeted_node": 4,
+    "prerender_routes": 122,
+    "hydration_combinations": 610,
+    "real_emails": 0
+  },
+  "source_conflicts": {
+    "input_entities": 65,
+    "output_entities": 68,
+    "withheld_current_taxonomy_conflicts": [
+      {
+        "entity": "wheat",
+        "codes": [
+          "10019110"
+        ],
+        "reason": "CURRENT_CANONICAL_CN_TAXON_CONFLICT; quantities withheld in projection only"
+      }
+    ],
+    "source_sha256": "d84b680d10d31aefa872b98dd68143c5718562ce80a8b1f9b702539881099cd2",
+    "no_observations_modified": true,
+    "no_supply_labels_exposed": true,
+    "no_legacy_price_conflicts_exposed": true,
+    "no_category_trade_totals_exposed": true
+  }
+}

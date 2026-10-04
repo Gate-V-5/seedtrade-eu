@@ -1,0 +1,36 @@
+{
+  "baseline": "3367f959ff87f97e47256aebe3a9919e01c7d360",
+  "sources": [
+    {
+      "path": "src/generated/trade_pulse_public.json",
+      "sha256": "2af4e6b02a9be3b43c081092b84327ab8b25ce9b6551aba0d70e867671cc75e4"
+    },
+    {
+      "path": "src/generated/country_customs_totals.json",
+      "sha256": "0d23508897a88e45fa6b275068beb5384ba4c340f471644939ff7380841adafe"
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/PRIORITY_65_CARD_DATA.json",
+      "sha256": "d84b680d10d31aefa872b98dd68143c5718562ce80a8b1f9b702539881099cd2"
+    },
+    {
+      "path": "src/generated/production_public.json",
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4"
+    },
+    {
+      "path": "src/generated/production_coverage_additions.json",
+      "sha256": "5190b8e3c695a9080becd2b0061a693898284af3da6d42ac269821e6dce6e9dd"
+    },
+    {
+      "path": "src/generated/crop_master_summary.json",
+      "sha256": "58dcc70e4b0196f0045523cf3ea64b681b56fed5051575207e0e3ddca1a69ffe"
+    }
+  ],
+  "projection": "Existing EU internal dispatch monthly aggregates; no observations changed",
+  "price_limitation": "UPSTREAM_VOLUME_SCOPE_MISMATCH_WITHHELD",
+  "public_safe": "PASS"
+}

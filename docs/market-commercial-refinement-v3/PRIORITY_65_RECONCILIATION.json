@@ -1,0 +1,1224 @@
+[
+  {
+    "market_entity_id": "white-mustard",
+    "common_name": "White mustard",
+    "botanical_name": "Sinapis alba",
+    "biological_species_id": "white-mustard",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [
+      "OIL_FIBRE"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/white-mustard",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "brown-mustard",
+    "common_name": "Brown / Indian mustard",
+    "botanical_name": "Brassica juncea",
+    "biological_species_id": "brown-mustard",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [
+      "OIL_FIBRE"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/brown-mustard",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "black-mustard",
+    "common_name": "Black mustard",
+    "botanical_name": "Brassica nigra",
+    "biological_species_id": "black-mustard",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/black-mustard",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "oil-radish",
+    "common_name": "Oil radish",
+    "botanical_name": "Raphanus sativus var. oleiformis",
+    "biological_species_id": "cultivated-radish",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/oil-radish",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "rapeseed",
+    "common_name": "Rapeseed",
+    "botanical_name": "Brassica napus",
+    "biological_species_id": "rapeseed",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/rapeseed",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "turnip-rape",
+    "common_name": "Turnip rape",
+    "botanical_name": "Brassica rapa",
+    "biological_species_id": "turnip-rape",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/turnip-rape",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "fodder-kale",
+    "common_name": "Fodder kale",
+    "botanical_name": "Brassica oleracea",
+    "biological_species_id": "cabbage",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/fodder-kale",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "fodder-turnip",
+    "common_name": "Fodder turnip",
+    "botanical_name": "Brassica rapa",
+    "biological_species_id": "turnip-rape",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/fodder-turnip",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "phacelia",
+    "common_name": "Phacelia",
+    "botanical_name": "Phacelia tanacetifolia",
+    "biological_species_id": "phacelia",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/phacelia",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "sunflower",
+    "common_name": "Sunflower",
+    "botanical_name": "Helianthus annuus",
+    "biological_species_id": "sunflower",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/sunflower",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "buckwheat",
+    "common_name": "Buckwheat",
+    "botanical_name": "Fagopyrum esculentum",
+    "biological_species_id": "buckwheat",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/buckwheat",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "oat",
+    "common_name": "Oat",
+    "botanical_name": "Avena sativa",
+    "biological_species_id": "oat",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/oat",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "black-oat",
+    "common_name": "Bristle / black oat",
+    "botanical_name": "Avena strigosa",
+    "biological_species_id": "black-oat",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/black-oat",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "rye",
+    "common_name": "Rye",
+    "botanical_name": "Secale cereale",
+    "biological_species_id": "rye",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/rye",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "barley",
+    "common_name": "Barley",
+    "botanical_name": "Hordeum vulgare",
+    "biological_species_id": "barley",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/barley",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "wheat",
+    "common_name": "Common wheat",
+    "botanical_name": "Triticum aestivum",
+    "biological_species_id": "common-wheat",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/wheat",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "UNCONFIRMED_ENTITY_ATTRIBUTION",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "triticale",
+    "common_name": "Triticale",
+    "botanical_name": "× Triticosecale",
+    "biological_species_id": null,
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/triticale",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "proso-millet",
+    "common_name": "Proso millet",
+    "botanical_name": "Panicum miliaceum",
+    "biological_species_id": "proso-millet",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/proso-millet",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "sorghum",
+    "common_name": "Sorghum",
+    "botanical_name": "Sorghum bicolor",
+    "biological_species_id": "sorghum",
+    "primary_category": "MAIZE_SORGHUM",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "MAIZE_SORGHUM",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/sorghum",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "SORGHUM_SPECIES_SCOPE_NOT_RESOLVED_ACROSS_COMMERCIAL_FORMS",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "sudan-grass",
+    "common_name": "Sudan grass",
+    "botanical_name": "Sorghum bicolor subsp. drummondii",
+    "biological_species_id": "sorghum",
+    "primary_category": "MAIZE_SORGHUM",
+    "secondary_categories": [],
+    "category_memberships": [
+      "MAIZE_SORGHUM"
+    ],
+    "route": "/market/seeds/sudan-grass",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "sorghum-sudan-hybrid",
+    "common_name": "Sorghum × Sudan grass hybrid group",
+    "botanical_name": "Sorghum spp. commercial hybrid group",
+    "biological_species_id": null,
+    "primary_category": "MAIZE_SORGHUM",
+    "secondary_categories": [],
+    "category_memberships": [
+      "MAIZE_SORGHUM"
+    ],
+    "route": "/market/seeds/sorghum-sudan-hybrid",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "italian-ryegrass",
+    "common_name": "Italian ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "biological_species_id": "italian-ryegrass",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/italian-ryegrass",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "ITALIAN_AND_WESTERWOLD_COMBINED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "perennial-ryegrass",
+    "common_name": "Perennial ryegrass",
+    "botanical_name": "Lolium perenne",
+    "biological_species_id": "perennial-ryegrass",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/perennial-ryegrass",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "hybrid-ryegrass",
+    "common_name": "Hybrid ryegrass",
+    "botanical_name": "Lolium × hybridum",
+    "biological_species_id": "hybrid-ryegrass",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/hybrid-ryegrass",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "westerwold-ryegrass",
+    "common_name": "Westerwold ryegrass",
+    "botanical_name": "Lolium multiflorum var. westerwoldicum",
+    "biological_species_id": "italian-ryegrass",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/westerwold-ryegrass",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "festulolium",
+    "common_name": "Festulolium",
+    "botanical_name": "× Festulolium",
+    "biological_species_id": null,
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/festulolium",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "meadow-fescue",
+    "common_name": "Meadow fescue",
+    "botanical_name": "Festuca pratensis",
+    "biological_species_id": "meadow-fescue",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/meadow-fescue",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "tall-fescue",
+    "common_name": "Tall fescue",
+    "botanical_name": "Festuca arundinacea",
+    "biological_species_id": "tall-fescue",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/tall-fescue",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "cocksfoot",
+    "common_name": "Cocksfoot",
+    "botanical_name": "Dactylis glomerata",
+    "biological_species_id": "cocksfoot",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/cocksfoot",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "common-vetch",
+    "common_name": "Common vetch",
+    "botanical_name": "Vicia sativa",
+    "biological_species_id": "common-vetch",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/common-vetch",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "winter-vetch",
+    "common_name": "Hairy vetch",
+    "botanical_name": "Vicia villosa",
+    "biological_species_id": "winter-vetch",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/winter-vetch",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "hungarian-vetch",
+    "common_name": "Hungarian / Pannonian vetch",
+    "botanical_name": "Vicia pannonica",
+    "biological_species_id": "hungarian-vetch",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/hungarian-vetch",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "purple-vetch",
+    "common_name": "Purple / Bengal vetch",
+    "botanical_name": "Vicia benghalensis",
+    "biological_species_id": "purple-vetch",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/purple-vetch",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "field-pea",
+    "common_name": "Pea",
+    "botanical_name": "Pisum sativum",
+    "biological_species_id": "field-pea",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/field-pea",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "faba-bean",
+    "common_name": "Faba bean",
+    "botanical_name": "Vicia faba",
+    "biological_species_id": "faba-bean",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/faba-bean",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "narrow-leaved-lupin",
+    "common_name": "Narrow-leaved lupin",
+    "botanical_name": "Lupinus angustifolius",
+    "biological_species_id": "narrow-leaved-lupin",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/narrow-leaved-lupin",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "yellow-lupin",
+    "common_name": "Yellow lupin",
+    "botanical_name": "Lupinus luteus",
+    "biological_species_id": "yellow-lupin",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/yellow-lupin",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "white-lupin",
+    "common_name": "White lupin",
+    "botanical_name": "Lupinus albus",
+    "biological_species_id": "white-lupin",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/white-lupin",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "red-clover",
+    "common_name": "Red clover",
+    "botanical_name": "Trifolium pratense",
+    "biological_species_id": "red-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/red-clover",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "white-clover",
+    "common_name": "White clover",
+    "botanical_name": "Trifolium repens",
+    "biological_species_id": "white-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/white-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "persian-clover",
+    "common_name": "Persian clover",
+    "botanical_name": "Trifolium resupinatum",
+    "biological_species_id": "persian-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/persian-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "berseem-clover",
+    "common_name": "Berseem / Alexandrian clover",
+    "botanical_name": "Trifolium alexandrinum",
+    "biological_species_id": "berseem-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/berseem-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "crimson-clover",
+    "common_name": "Crimson clover",
+    "botanical_name": "Trifolium incarnatum",
+    "biological_species_id": "crimson-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/crimson-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "balansa-clover",
+    "common_name": "Balansa clover",
+    "botanical_name": "Trifolium michelianum",
+    "biological_species_id": "balansa-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/balansa-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "alsike-clover",
+    "common_name": "Alsike clover",
+    "botanical_name": "Trifolium hybridum",
+    "biological_species_id": "alsike-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/alsike-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "subterranean-clover",
+    "common_name": "Subterranean clover",
+    "botanical_name": "Trifolium subterraneum",
+    "biological_species_id": "subterranean-clover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/subterranean-clover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "alfalfa",
+    "common_name": "Alfalfa / lucerne",
+    "botanical_name": "Medicago sativa",
+    "biological_species_id": "alfalfa",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/alfalfa",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "black-medick",
+    "common_name": "Black medic",
+    "botanical_name": "Medicago lupulina",
+    "biological_species_id": "black-medick",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/black-medick",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "yellow-sweetclover",
+    "common_name": "Yellow sweet clover",
+    "botanical_name": "Melilotus officinalis",
+    "biological_species_id": "yellow-sweetclover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/yellow-sweetclover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "white-sweetclover",
+    "common_name": "White sweet clover",
+    "botanical_name": "Melilotus albus",
+    "biological_species_id": "white-sweetclover",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/white-sweetclover",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "birdsfoot-trefoil",
+    "common_name": "Birdsfoot trefoil",
+    "botanical_name": "Lotus corniculatus",
+    "biological_species_id": "birdsfoot-trefoil",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/birdsfoot-trefoil",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "sainfoin",
+    "common_name": "Sainfoin",
+    "botanical_name": "Onobrychis viciifolia",
+    "biological_species_id": "sainfoin",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "FODDER_AMENITY",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/sainfoin",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "soybean",
+    "common_name": "Soybean",
+    "botanical_name": "Glycine max",
+    "biological_species_id": "soybean",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [
+      "OIL_FIBRE"
+    ],
+    "category_memberships": [
+      "CEREALS_PULSES",
+      "OIL_FIBRE"
+    ],
+    "route": "/market/seeds/soybean",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "chickpea",
+    "common_name": "Chickpea",
+    "botanical_name": "Cicer arietinum",
+    "biological_species_id": "chickpea",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/chickpea",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "flax",
+    "common_name": "Flax / linseed",
+    "botanical_name": "Linum usitatissimum",
+    "biological_species_id": "flax",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/flax",
+    "metrics": "DIRECT_SCOPE",
+    "price": null,
+    "scope": "SPECIES_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "hemp",
+    "common_name": "Hemp",
+    "botanical_name": "Cannabis sativa",
+    "biological_species_id": "hemp",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/hemp",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "safflower",
+    "common_name": "Safflower",
+    "botanical_name": "Carthamus tinctorius",
+    "biological_species_id": "safflower",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [],
+    "category_memberships": [
+      "OIL_FIBRE"
+    ],
+    "route": "/market/seeds/safflower",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "coriander",
+    "common_name": "Coriander",
+    "botanical_name": "Coriandrum sativum",
+    "biological_species_id": "coriander",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/coriander",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "caraway",
+    "common_name": "Caraway",
+    "botanical_name": "Carum carvi",
+    "biological_species_id": "caraway",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/caraway",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "dill",
+    "common_name": "Dill",
+    "botanical_name": "Anethum graveolens",
+    "biological_species_id": "dill",
+    "primary_category": "CATCH_CROP",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/dill",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "camelina",
+    "common_name": "Camelina",
+    "botanical_name": "Camelina sativa",
+    "biological_species_id": "camelina",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/camelina",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "niger",
+    "common_name": "Niger / Ramtilla",
+    "botanical_name": "Guizotia abyssinica",
+    "biological_species_id": "niger",
+    "primary_category": "OIL_FIBRE",
+    "secondary_categories": [
+      "CATCH_CROP"
+    ],
+    "category_memberships": [
+      "OIL_FIBRE",
+      "CATCH_CROP"
+    ],
+    "route": "/market/seeds/niger",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "quinoa",
+    "common_name": "Quinoa",
+    "botanical_name": "Chenopodium quinoa",
+    "biological_species_id": "quinoa",
+    "primary_category": "CEREALS_PULSES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "CEREALS_PULSES"
+    ],
+    "route": "/market/seeds/quinoa",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "NO_VERIFIED_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "fodder-beet",
+    "common_name": "Fodder beet",
+    "botanical_name": "Beta vulgaris",
+    "biological_species_id": "beet-chard",
+    "primary_category": "VEGETABLES",
+    "secondary_categories": [],
+    "category_memberships": [
+      "VEGETABLES"
+    ],
+    "route": "/market/seeds/fodder-beet",
+    "metrics": "PARTIAL_COMMERCIAL_SCOPE",
+    "price": null,
+    "scope": "COMMERCIAL_ENTITY_SPECIFIC",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  },
+  {
+    "market_entity_id": "chicory",
+    "common_name": "Chicory",
+    "botanical_name": "Cichorium intybus",
+    "biological_species_id": "chicory",
+    "primary_category": "FODDER_AMENITY",
+    "secondary_categories": [],
+    "category_memberships": [
+      "FODDER_AMENITY"
+    ],
+    "route": "/market/seeds/chicory",
+    "metrics": "WITHHELD",
+    "price": null,
+    "scope": "GROUP_LEVEL_CUSTOMS_SCOPE",
+    "identity_match": "PASS",
+    "route_match": "PASS"
+  }
+]

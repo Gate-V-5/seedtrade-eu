@@ -1,0 +1,66 @@
+market_entity_id,common_name,botanical_name,biological_species_id,primary_category,secondary_categories,category_memberships,route,metrics,price,scope,identity_match,route_match
+white-mustard,White mustard,Sinapis alba,white-mustard,CATCH_CROP,"[""OIL_FIBRE""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/white-mustard,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+brown-mustard,Brown / Indian mustard,Brassica juncea,brown-mustard,CATCH_CROP,"[""OIL_FIBRE""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/brown-mustard,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+black-mustard,Black mustard,Brassica nigra,black-mustard,CATCH_CROP,[],"[""CATCH_CROP""]",/market/seeds/black-mustard,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+oil-radish,Oil radish,Raphanus sativus var. oleiformis,cultivated-radish,CATCH_CROP,[],"[""CATCH_CROP""]",/market/seeds/oil-radish,WITHHELD,,PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM,PASS,PASS
+rapeseed,Rapeseed,Brassica napus,rapeseed,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/rapeseed,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+turnip-rape,Turnip rape,Brassica rapa,turnip-rape,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/turnip-rape,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+fodder-kale,Fodder kale,Brassica oleracea,cabbage,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/fodder-kale,WITHHELD,,PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM,PASS,PASS
+fodder-turnip,Fodder turnip,Brassica rapa,turnip-rape,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/fodder-turnip,WITHHELD,,PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM,PASS,PASS
+phacelia,Phacelia,Phacelia tanacetifolia,phacelia,CATCH_CROP,[],"[""CATCH_CROP""]",/market/seeds/phacelia,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+sunflower,Sunflower,Helianthus annuus,sunflower,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/sunflower,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+buckwheat,Buckwheat,Fagopyrum esculentum,buckwheat,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/buckwheat,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+oat,Oat,Avena sativa,oat,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/oat,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+black-oat,Bristle / black oat,Avena strigosa,black-oat,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/black-oat,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+rye,Rye,Secale cereale,rye,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/rye,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+barley,Barley,Hordeum vulgare,barley,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/barley,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+wheat,Common wheat,Triticum aestivum,common-wheat,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/wheat,WITHHELD,,UNCONFIRMED_ENTITY_ATTRIBUTION,PASS,PASS
+triticale,Triticale,× Triticosecale,,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/triticale,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+proso-millet,Proso millet,Panicum miliaceum,proso-millet,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/proso-millet,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+sorghum,Sorghum,Sorghum bicolor,sorghum,MAIZE_SORGHUM,"[""CATCH_CROP""]","[""MAIZE_SORGHUM"", ""CATCH_CROP""]",/market/seeds/sorghum,WITHHELD,,SORGHUM_SPECIES_SCOPE_NOT_RESOLVED_ACROSS_COMMERCIAL_FORMS,PASS,PASS
+sudan-grass,Sudan grass,Sorghum bicolor subsp. drummondii,sorghum,MAIZE_SORGHUM,[],"[""MAIZE_SORGHUM""]",/market/seeds/sudan-grass,WITHHELD,,PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM,PASS,PASS
+sorghum-sudan-hybrid,Sorghum × Sudan grass hybrid group,Sorghum spp. commercial hybrid group,,MAIZE_SORGHUM,[],"[""MAIZE_SORGHUM""]",/market/seeds/sorghum-sudan-hybrid,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+italian-ryegrass,Italian ryegrass,Lolium multiflorum,italian-ryegrass,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/italian-ryegrass,WITHHELD,,ITALIAN_AND_WESTERWOLD_COMBINED_SCOPE,PASS,PASS
+perennial-ryegrass,Perennial ryegrass,Lolium perenne,perennial-ryegrass,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/perennial-ryegrass,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+hybrid-ryegrass,Hybrid ryegrass,Lolium × hybridum,hybrid-ryegrass,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/hybrid-ryegrass,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+westerwold-ryegrass,Westerwold ryegrass,Lolium multiflorum var. westerwoldicum,italian-ryegrass,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/westerwold-ryegrass,WITHHELD,,PARENT_TAXON_SCOPE_NOT_ALLOCATABLE_TO_FORM,PASS,PASS
+festulolium,Festulolium,× Festulolium,,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/festulolium,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+meadow-fescue,Meadow fescue,Festuca pratensis,meadow-fescue,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/meadow-fescue,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+tall-fescue,Tall fescue,Festuca arundinacea,tall-fescue,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/tall-fescue,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+cocksfoot,Cocksfoot,Dactylis glomerata,cocksfoot,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/cocksfoot,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+common-vetch,Common vetch,Vicia sativa,common-vetch,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/common-vetch,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+winter-vetch,Hairy vetch,Vicia villosa,winter-vetch,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/winter-vetch,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+hungarian-vetch,Hungarian / Pannonian vetch,Vicia pannonica,hungarian-vetch,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/hungarian-vetch,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+purple-vetch,Purple / Bengal vetch,Vicia benghalensis,purple-vetch,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/purple-vetch,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+field-pea,Pea,Pisum sativum,field-pea,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/field-pea,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+faba-bean,Faba bean,Vicia faba,faba-bean,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/faba-bean,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+narrow-leaved-lupin,Narrow-leaved lupin,Lupinus angustifolius,narrow-leaved-lupin,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/narrow-leaved-lupin,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+yellow-lupin,Yellow lupin,Lupinus luteus,yellow-lupin,CEREALS_PULSES,"[""CATCH_CROP""]","[""CEREALS_PULSES"", ""CATCH_CROP""]",/market/seeds/yellow-lupin,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+white-lupin,White lupin,Lupinus albus,white-lupin,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/white-lupin,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+red-clover,Red clover,Trifolium pratense,red-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/red-clover,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+white-clover,White clover,Trifolium repens,white-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/white-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+persian-clover,Persian clover,Trifolium resupinatum,persian-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/persian-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+berseem-clover,Berseem / Alexandrian clover,Trifolium alexandrinum,berseem-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/berseem-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+crimson-clover,Crimson clover,Trifolium incarnatum,crimson-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/crimson-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+balansa-clover,Balansa clover,Trifolium michelianum,balansa-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/balansa-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+alsike-clover,Alsike clover,Trifolium hybridum,alsike-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/alsike-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+subterranean-clover,Subterranean clover,Trifolium subterraneum,subterranean-clover,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/subterranean-clover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+alfalfa,Alfalfa / lucerne,Medicago sativa,alfalfa,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/alfalfa,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+black-medick,Black medic,Medicago lupulina,black-medick,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/black-medick,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+yellow-sweetclover,Yellow sweet clover,Melilotus officinalis,yellow-sweetclover,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/yellow-sweetclover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+white-sweetclover,White sweet clover,Melilotus albus,white-sweetclover,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/white-sweetclover,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+birdsfoot-trefoil,Birdsfoot trefoil,Lotus corniculatus,birdsfoot-trefoil,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/birdsfoot-trefoil,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+sainfoin,Sainfoin,Onobrychis viciifolia,sainfoin,FODDER_AMENITY,"[""CATCH_CROP""]","[""FODDER_AMENITY"", ""CATCH_CROP""]",/market/seeds/sainfoin,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+soybean,Soybean,Glycine max,soybean,CEREALS_PULSES,"[""OIL_FIBRE""]","[""CEREALS_PULSES"", ""OIL_FIBRE""]",/market/seeds/soybean,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+chickpea,Chickpea,Cicer arietinum,chickpea,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/chickpea,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+flax,Flax / linseed,Linum usitatissimum,flax,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/flax,DIRECT_SCOPE,,SPECIES_SPECIFIC,PASS,PASS
+hemp,Hemp,Cannabis sativa,hemp,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/hemp,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+safflower,Safflower,Carthamus tinctorius,safflower,OIL_FIBRE,[],"[""OIL_FIBRE""]",/market/seeds/safflower,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+coriander,Coriander,Coriandrum sativum,coriander,CATCH_CROP,[],"[""CATCH_CROP""]",/market/seeds/coriander,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+caraway,Caraway,Carum carvi,caraway,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/caraway,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+dill,Dill,Anethum graveolens,dill,CATCH_CROP,[],"[""CATCH_CROP""]",/market/seeds/dill,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+camelina,Camelina,Camelina sativa,camelina,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/camelina,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+niger,Niger / Ramtilla,Guizotia abyssinica,niger,OIL_FIBRE,"[""CATCH_CROP""]","[""OIL_FIBRE"", ""CATCH_CROP""]",/market/seeds/niger,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS
+quinoa,Quinoa,Chenopodium quinoa,quinoa,CEREALS_PULSES,[],"[""CEREALS_PULSES""]",/market/seeds/quinoa,WITHHELD,,NO_VERIFIED_SCOPE,PASS,PASS
+fodder-beet,Fodder beet,Beta vulgaris,beet-chard,VEGETABLES,[],"[""VEGETABLES""]",/market/seeds/fodder-beet,PARTIAL_COMMERCIAL_SCOPE,,COMMERCIAL_ENTITY_SPECIFIC,PASS,PASS
+chicory,Chicory,Cichorium intybus,chicory,FODDER_AMENITY,[],"[""FODDER_AMENITY""]",/market/seeds/chicory,WITHHELD,,GROUP_LEVEL_CUSTOMS_SCOPE,PASS,PASS

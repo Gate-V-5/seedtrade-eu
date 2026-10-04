@@ -1,5 +1,7 @@
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["EU internal seed trade covered by {count} sowing CN codes · {period}", "EU-interner Saatguthandel über {count} Aussaat-CN-Codes · {period}", "Commerce intra-UE de semences couvert par {count} codes NC de semences à ensemencer · {period}", "Comercio interno de semillas de la UE cubierto por {count} códigos NC para siembra · {period}", "Commercio interno UE di sementi coperto da {count} codici NC per la semina · {period}"],
+  ["Completed monthly trade volume history", "Historie des Handelsvolumens abgeschlossener Monate", "Historique des volumes commerciaux des mois complets", "Historial del volumen comercial de meses completos", "Storico dei volumi commerciali dei mesi completi"],
   ["Carrot", "Karotte", "Carotte", "Zanahoria", "Carota"],
   ["European Seed Market", "Europäischer Saatgutmarkt", "Marché européen des semences", "Mercado europeo de semillas", "Mercato europeo delle sementi"],
   ["EU market summary", "EU-Marktübersicht", "Résumé du marché de l’UE", "Resumen del mercado de la UE", "Riepilogo del mercato UE"],
