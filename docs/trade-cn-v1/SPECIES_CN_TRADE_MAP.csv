@@ -1,0 +1,107 @@
+canonical_species_id,botanical_name,cn8,trade_market_entity_id,mapping_status,scope_rationale,public_safe
+browntop,Agrostis capillaris,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+onion,Allium cepa,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+bunching-onion,Allium fistulosum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+leek,Allium porrum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+chives,Allium schoenoprasum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+meadow-foxtail,Alopecurus pratensis,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+chervil,Anthriscus cerefolium,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+celery,Apium graveolens,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+tall-oatgrass,Arrhenatherum elatius,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+asparagus,Asparagus officinalis,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+naked-oat,Avena nuda,10041000,CN-10041000,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+oat,Avena sativa,10041000,CN-10041000,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+black-oat,Avena strigosa,10041000,CN-10041000,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+beet-chard,Beta vulgaris,12091000,CN-12091000,PARTIAL,"Separate sugar, fodder and salad beet sowing classes for Beta vulgaris. Chard seed scope is not inferred; each customs class remains separate.",true
+beet-chard,Beta vulgaris,12092960,CN-12092960,PARTIAL,"Separate sugar, fodder and salad beet sowing classes for Beta vulgaris. Chard seed scope is not inferred; each customs class remains separate.",true
+beet-chard,Beta vulgaris,12099130,CN-12099130,PARTIAL,"Separate sugar, fodder and salad beet sowing classes for Beta vulgaris. Chard seed scope is not inferred; each customs class remains separate.",true
+biserrula,Biserrula pelecinus,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+brown-mustard,Brassica juncea,12075010,CN-12075010,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+rapeseed,Brassica napus,12051010,CN-12051010,PARTIAL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+black-mustard,Brassica nigra,12075010,CN-12075010,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+cabbage,Brassica oleracea,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+turnip-rape,Brassica rapa,12051010,CN-12051010,PARTIAL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+camelina,Camelina sativa,12079920,CN-12079920,GROUP_LEVEL,"Other oil seeds for sowing, after named exclusions. Camelina sativa is an oilseed; no species share is calculated.",true
+hemp,Cannabis sativa,12079920,CN-12079920,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+pepper,Capsicum annuum,12099180,CN-12099180,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+endive,Cichorium endivia,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+chicory,Cichorium intybus,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+cucumber,Cucumis sativus,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+artichoke,Cynara cardunculus,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+cocksfoot,Dactylis glomerata,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+carrot,Daucus carota,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+tall-fescue,Festuca arundinacea,12092380,CN-12092380,GROUP_LEVEL,Other fescue sowing seed; neither meadow nor red fescue. No allocation to Festuca arundinacea.,true
+meadow-fescue,Festuca pratensis,12092311,CN-12092311,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+red-fescue,Festuca rubra,12092315,CN-12092315,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+fodder-galega,Galega orientalis,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+soybean,Glycine max,12011000,CN-12011000,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+niger,Guizotia abyssinica,12079920,CN-12079920,GROUP_LEVEL,"Other oil seeds for sowing, after named exclusions. Guizotia abyssinica is an oilseed; no species share is calculated.",true
+sunflower,Helianthus annuus,12060010,CN-12060010,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+barley,Hordeum vulgare,10031000,CN-10031000,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+lettuce,Lactuca sativa,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+red-pea,Lathyrus cicera,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+garden-cress,Lepidium sativum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+flax,Linum usitatissimum,12040010,CN-12040010,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+italian-ryegrass,Lolium multiflorum,12092510,CN-12092510,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+perennial-ryegrass,Lolium perenne,12092590,CN-12092590,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+birdsfoot-trefoil,Lotus corniculatus,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+white-lupin,Lupinus albus,12092950,CN-12092950,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+narrow-leaved-lupin,Lupinus angustifolius,12092950,CN-12092950,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+yellow-lupin,Lupinus luteus,12092950,CN-12092950,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+black-medick,Medicago lupulina,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+bur-medick,Medicago polymorpha,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+alfalfa,Medicago sativa,12092100,CN-12092100,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+white-sweetclover,Melilotus albus,12092980,CN-12092980,GROUP_LEVEL,Forage sowing seed residual group only for declared forage use; Melilotus albus is not Trifolium. Other uses are outside this mapping.,true
+yellow-sweetclover,Melilotus officinalis,12092980,CN-12092980,GROUP_LEVEL,Forage sowing seed residual group only for declared forage use; Melilotus officinalis is not Trifolium. Other uses are outside this mapping.,true
+sainfoin,Onobrychis viciifolia,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+yellow-serradella,Ornithopus compressus,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+serradella,Ornithopus sativus,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+rice,Oryza sativa,10061010,CN-10061010,GROUP_LEVEL,"CN describes rice seed without limiting it to Oryza sativa. FAO documents two cultivated rice species, Oryza sativa and Oryza glaberrima. No species-specific restriction or share inferred.",true
+proso-millet,Panicum miliaceum,10082100,CN-10082100,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+poppy,Papaver somniferum,12079110,CN-12079110,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+parsley,Petroselinum crispum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+common-bean,Phaseolus vulgaris,07133310,CN-07133310,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+timothy,Phleum pratense,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+field-pea,Pisum sativum,07131010,CN-07131010,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+ribwort-plantain,Plantago lanceolata,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+wood-meadowgrass,Poa nemoralis,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+kentucky-bluegrass,Poa pratensis,12092400,CN-12092400,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+cultivated-radish,Raphanus raphanistrum subsp. sativus,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+rhubarb,Rheum rhabarbarum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+black-salsify,Scorzonera hispanica,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+rye,Secale cereale,10021000,CN-10021000,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+foxtail-millet,Setaria italica,10082100,CN-10082100,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+white-mustard,Sinapis alba,12075010,CN-12075010,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+tomato,Solanum lycopersicum,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+aubergine,Solanum melongena,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+sorghum,Sorghum bicolor,10071010,CN-10071010,PARTIAL,Grain sorghum sowing seed; does not establish coverage for every forage Sorghum bicolor use or Sudan/hybrid grass group.,true
+sorghum,Sorghum bicolor,10071090,CN-10071090,PARTIAL,Grain sorghum sowing seed; does not establish coverage for every forage Sorghum bicolor use or Sudan/hybrid grass group.,true
+spinach,Spinacia oleracea,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+berseem-clover,Trifolium alexandrinum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+glandular-clover,Trifolium glanduliferum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+rose-clover,Trifolium hirtum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+alsike-clover,Trifolium hybridum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+crimson-clover,Trifolium incarnatum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+trifolium-isthmocarpum,Trifolium isthmocarpum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+balansa-clover,Trifolium michelianum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+red-clover,Trifolium pratense,12092210,CN-12092210,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+white-clover,Trifolium repens,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+persian-clover,Trifolium resupinatum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+trifolium-squarrosum,Trifolium squarrosum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+subterranean-clover,Trifolium subterraneum,12092280,CN-12092280,GROUP_LEVEL,Trifolium spp. sowing seed excluding Trifolium pratense; no allocation to Trifolium subterraneum.,true
+arrowleaf-clover,Trifolium vesiculosum,12092280,CN-12092280,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+golden-oatgrass,Trisetum flavescens,12092980,CN-12092980,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+common-wheat,Triticum aestivum,10019110,CN-10019110,PARTIAL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+common-wheat,Triticum aestivum,10019120,CN-10019120,PARTIAL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+durum-wheat,Triticum turgidum subsp. durum,10011100,CN-10011100,CONFIRMED,Existing mapping audited against official 2026 denomination; original scope retained.,true
+lambs-lettuce,Valerianella locusta,12099180,CN-12099180,GROUP_LEVEL,"Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",true
+purple-vetch,Vicia benghalensis,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+bitter-vetch,Vicia ervilia,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+hungarian-vetch,Vicia pannonica,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+common-vetch,Vicia sativa,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+winter-vetch,Vicia villosa Roth,12092945,CN-12092945,GROUP_LEVEL,Existing mapping audited against official 2026 denomination; original scope retained.,true
+maize,Zea mays,10051013,CN-10051013,PARTIAL,Four grain-maize seed classes plus hybrid sweetcorn seed. Zea mays scope is explicit but non-hybrid sweetcorn has no sowing-only code; retained partial coverage.,true
+maize,Zea mays,10051015,CN-10051015,PARTIAL,Four grain-maize seed classes plus hybrid sweetcorn seed. Zea mays scope is explicit but non-hybrid sweetcorn has no sowing-only code; retained partial coverage.,true
+maize,Zea mays,10051018,CN-10051018,PARTIAL,Four grain-maize seed classes plus hybrid sweetcorn seed. Zea mays scope is explicit but non-hybrid sweetcorn has no sowing-only code; retained partial coverage.,true
+maize,Zea mays,10051090,CN-10051090,PARTIAL,Four grain-maize seed classes plus hybrid sweetcorn seed. Zea mays scope is explicit but non-hybrid sweetcorn has no sowing-only code; retained partial coverage.,true
+maize,Zea mays,07129011,CN-07129011,PARTIAL,Four grain-maize seed classes plus hybrid sweetcorn seed. Zea mays scope is explicit but non-hybrid sweetcorn has no sowing-only code; retained partial coverage.,true

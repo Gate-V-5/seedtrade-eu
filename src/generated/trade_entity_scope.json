@@ -1,0 +1,72 @@
+{
+  "12075010": {
+    "granularity": "GROUP_LEVEL",
+    "species_ids": [
+      "brown-mustard",
+      "black-mustard",
+      "white-mustard"
+    ]
+  },
+  "12092311": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "meadow-fescue"
+    ]
+  },
+  "12092315": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "red-fescue"
+    ]
+  },
+  "12040010": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "flax"
+    ]
+  },
+  "12092510": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "italian-ryegrass"
+    ]
+  },
+  "12092590": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "perennial-ryegrass"
+    ]
+  },
+  "12092950": {
+    "granularity": "GROUP_LEVEL",
+    "species_ids": [
+      "white-lupin",
+      "narrow-leaved-lupin",
+      "yellow-lupin"
+    ]
+  },
+  "12092100": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "alfalfa"
+    ]
+  },
+  "07131010": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "field-pea"
+    ]
+  },
+  "12092400": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "kentucky-bluegrass"
+    ]
+  },
+  "12092210": {
+    "granularity": "SPECIES_SPECIFIC",
+    "species_ids": [
+      "red-clover"
+    ]
+  }
+}

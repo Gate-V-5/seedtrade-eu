@@ -1,0 +1,802 @@
+[
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "12092280",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=12092280&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-12092280.json",
+    "status": "RETRIEVED",
+    "bytes": 2911,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 34
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "12092380",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=12092380&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-12092380.json",
+    "status": "RETRIEVED",
+    "bytes": 2962,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "12092945",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=12092945&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-12092945.json",
+    "status": "RETRIEVED",
+    "bytes": 2985,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 32
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "12092980",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=12092980&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-12092980.json",
+    "status": "RETRIEVED",
+    "bytes": 3345,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "12099180",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=12099180&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-12099180.json",
+    "status": "RETRIEVED",
+    "bytes": 2946,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "12011000",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=12011000&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-12011000.json",
+    "status": "RETRIEVED",
+    "bytes": 2703,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 20
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "10051013",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=10051013&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-10051013.json",
+    "status": "RETRIEVED",
+    "bytes": 2746,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 20
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "10051015",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=10051015&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-10051015.json",
+    "status": "RETRIEVED",
+    "bytes": 2918,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "10051018",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=10051018&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-10051018.json",
+    "status": "RETRIEVED",
+    "bytes": 2760,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 20
+  },
+  {
+    "country": "DE",
+    "partner": "PL",
+    "code": "10051090",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&partner=PL&product=10051090&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-DE-10051090.json",
+    "status": "RETRIEVED",
+    "bytes": 2774,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 30
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "12092280",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=12092280&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-12092280.json",
+    "status": "RETRIEVED",
+    "bytes": 2792,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 12
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "12092380",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=12092380&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-12092380.json",
+    "status": "RETRIEVED",
+    "bytes": 2987,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 32
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "12092945",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=12092945&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-12092945.json",
+    "status": "RETRIEVED",
+    "bytes": 3033,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 26
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "12092980",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=12092980&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-12092980.json",
+    "status": "RETRIEVED",
+    "bytes": 3364,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 32
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "12099180",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=12099180&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-12099180.json",
+    "status": "RETRIEVED",
+    "bytes": 3054,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "12011000",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=12011000&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-12011000.json",
+    "status": "RETRIEVED",
+    "bytes": 2752,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 14
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "10051013",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=10051013&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-10051013.json",
+    "status": "RETRIEVED",
+    "bytes": 2965,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 30
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "10051015",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=10051015&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-10051015.json",
+    "status": "RETRIEVED",
+    "bytes": 3026,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 34
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "10051018",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=10051018&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-10051018.json",
+    "status": "RETRIEVED",
+    "bytes": 2774,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 10
+  },
+  {
+    "country": "FR",
+    "partner": "PL",
+    "code": "10051090",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=PL&product=10051090&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-FR-10051090.json",
+    "status": "RETRIEVED",
+    "bytes": 2805,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 18
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "12092280",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=12092280&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-12092280.json",
+    "status": "RETRIEVED",
+    "bytes": 2831,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 32
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "12092380",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=12092380&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-12092380.json",
+    "status": "RETRIEVED",
+    "bytes": 2706,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 16
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "12092945",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=12092945&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-12092945.json",
+    "status": "RETRIEVED",
+    "bytes": 2845,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 26
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "12092980",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=12092980&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-12092980.json",
+    "status": "RETRIEVED",
+    "bytes": 3315,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "12099180",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=12099180&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-12099180.json",
+    "status": "RETRIEVED",
+    "bytes": 2937,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "12011000",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=12011000&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-12011000.json",
+    "status": "RETRIEVED",
+    "bytes": 2487,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 0
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "10051013",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=10051013&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-10051013.json",
+    "status": "RETRIEVED",
+    "bytes": 2501,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 0
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "10051015",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=10051015&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-10051015.json",
+    "status": "RETRIEVED",
+    "bytes": 2537,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 6
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "10051018",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=10051018&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-10051018.json",
+    "status": "RETRIEVED",
+    "bytes": 2575,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 6
+  },
+  {
+    "country": "NL",
+    "partner": "PL",
+    "code": "10051090",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&partner=PL&product=10051090&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-NL-10051090.json",
+    "status": "RETRIEVED",
+    "bytes": 2517,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 4
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "12092280",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=12092280&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-12092280.json",
+    "status": "RETRIEVED",
+    "bytes": 2732,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 16
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "12092380",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=12092380&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-12092380.json",
+    "status": "RETRIEVED",
+    "bytes": 2873,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 30
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "12092945",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=12092945&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-12092945.json",
+    "status": "RETRIEVED",
+    "bytes": 3047,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 34
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "12092980",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=12092980&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-12092980.json",
+    "status": "RETRIEVED",
+    "bytes": 3368,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "12099180",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=12099180&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-12099180.json",
+    "status": "RETRIEVED",
+    "bytes": 2968,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "12011000",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=12011000&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-12011000.json",
+    "status": "RETRIEVED",
+    "bytes": 2812,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 28
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "10051013",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=10051013&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-10051013.json",
+    "status": "RETRIEVED",
+    "bytes": 2721,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 18
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "10051015",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=10051015&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-10051015.json",
+    "status": "RETRIEVED",
+    "bytes": 2851,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 30
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "10051018",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=10051018&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-10051018.json",
+    "status": "RETRIEVED",
+    "bytes": 2944,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 34
+  },
+  {
+    "country": "PL",
+    "partner": "DE",
+    "code": "10051090",
+    "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&partner=DE&product=10051090&flow=2&sinceTimePeriod=2025-01&untilTimePeriod=2026-06",
+    "retrieval_date": "2026-10-04",
+    "file": "comext-PL-10051090.json",
+    "status": "RETRIEVED",
+    "bytes": 2979,
+    "dimensions": [
+      "freq",
+      "reporter",
+      "partner",
+      "product",
+      "flow",
+      "indicators",
+      "time"
+    ],
+    "values": 36
+  }
+]

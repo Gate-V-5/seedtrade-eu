@@ -1,0 +1,161 @@
+{
+  "vegetable_group": [
+    "artichoke",
+    "asparagus",
+    "aubergine",
+    "black-salsify",
+    "bunching-onion",
+    "cabbage",
+    "carrot",
+    "celery",
+    "chervil",
+    "chicory",
+    "chives",
+    "cucumber",
+    "endive",
+    "garden-cress",
+    "lambs-lettuce",
+    "leek",
+    "lettuce",
+    "onion",
+    "parsley",
+    "rhubarb",
+    "spinach",
+    "tomato",
+    "cultivated-radish"
+  ],
+  "explicit": {
+    "tall-fescue": {
+      "codes": [
+        "12092380"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "Other fescue sowing seed; neither meadow nor red fescue. No allocation to Festuca arundinacea."
+    },
+    "subterranean-clover": {
+      "codes": [
+        "12092280"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "Trifolium spp. sowing seed excluding Trifolium pratense; no allocation to Trifolium subterraneum."
+    },
+    "white-sweetclover": {
+      "codes": [
+        "12092980"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "Forage sowing seed residual group only for declared forage use; Melilotus albus is not Trifolium. Other uses are outside this mapping."
+    },
+    "yellow-sweetclover": {
+      "codes": [
+        "12092980"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "Forage sowing seed residual group only for declared forage use; Melilotus officinalis is not Trifolium. Other uses are outside this mapping."
+    },
+    "camelina": {
+      "codes": [
+        "12079920"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "Other oil seeds for sowing, after named exclusions. Camelina sativa is an oilseed; no species share is calculated."
+    },
+    "niger": {
+      "codes": [
+        "12079920"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "Other oil seeds for sowing, after named exclusions. Guizotia abyssinica is an oilseed; no species share is calculated."
+    },
+    "maize": {
+      "codes": [
+        "10051013",
+        "10051015",
+        "10051018",
+        "10051090",
+        "07129011"
+      ],
+      "status": "PARTIAL",
+      "reason": "Four grain-maize seed classes plus hybrid sweetcorn seed. Zea mays scope is explicit but non-hybrid sweetcorn has no sowing-only code; retained partial coverage."
+    },
+    "sorghum": {
+      "codes": [
+        "10071010",
+        "10071090"
+      ],
+      "status": "PARTIAL",
+      "reason": "Grain sorghum sowing seed; does not establish coverage for every forage Sorghum bicolor use or Sudan/hybrid grass group."
+    },
+    "beet-chard": {
+      "codes": [
+        "12091000",
+        "12092960",
+        "12099130"
+      ],
+      "status": "PARTIAL",
+      "reason": "Separate sugar, fodder and salad beet sowing classes for Beta vulgaris. Chard seed scope is not inferred; each customs class remains separate."
+    },
+    "rice": {
+      "codes": [
+        "10061010"
+      ],
+      "status": "GROUP_LEVEL",
+      "reason": "CN describes rice seed without limiting it to Oryza sativa. FAO documents two cultivated rice species, Oryza sativa and Oryza glaberrima. No species-specific restriction or share inferred.",
+      "taxonomy_scope_evidence": "https://www.fao.org/4/y5031e/y5031e09.htm"
+    }
+  },
+  "retain_review": [
+    "fennel",
+    "melon",
+    "watermelon",
+    "courgette",
+    "winter-squash",
+    "ethiopian-mustard",
+    "sunn-hemp",
+    "borage",
+    "dill"
+  ],
+  "review_reason": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+  "vegetable_reason": "Vegetable sowing seed under 12099180, excluding beet and separately classified legumes, cereals, spices and oilseeds. This is a customs group, never species-specific trade. Original botanical identity and vegetable seed use are retained.",
+  "non_sowing_evidence": {
+    "caraway": [
+      "09096100"
+    ],
+    "coriander": [
+      "09092100"
+    ],
+    "fennel": [
+      "09096100"
+    ],
+    "fenugreek": [
+      "09109910"
+    ],
+    "buckwheat": [
+      "10081000"
+    ],
+    "quinoa": [
+      "10085000"
+    ],
+    "faba-bean": [
+      "07135000"
+    ],
+    "lentil": [
+      "07134000"
+    ],
+    "chickpea": [
+      "07132000"
+    ],
+    "canary-grass": [
+      "10083000"
+    ],
+    "safflower": [
+      "12076000"
+    ],
+    "melon": [
+      "12077000"
+    ],
+    "runner-bean": [
+      "07133900"
+    ]
+  }
+}

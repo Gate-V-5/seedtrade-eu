@@ -1,0 +1,1479 @@
+[
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051013",
+    "year": 2025,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 384928.0,
+    "trade_value_eur": 1705138,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051013-2025-01",
+      "COMEXT-CNV1-DE-PL-10051013-2025-02",
+      "COMEXT-CNV1-DE-PL-10051013-2025-03",
+      "COMEXT-CNV1-DE-PL-10051013-2025-04",
+      "COMEXT-CNV1-DE-PL-10051013-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051013",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 599429.0,
+    "trade_value_eur": 2598567,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051013-2026-01",
+      "COMEXT-CNV1-DE-PL-10051013-2026-02",
+      "COMEXT-CNV1-DE-PL-10051013-2026-03",
+      "COMEXT-CNV1-DE-PL-10051013-2026-04",
+      "COMEXT-CNV1-DE-PL-10051013-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051015",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 1811967.0,
+    "trade_value_eur": 8338040,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051015-2025-01",
+      "COMEXT-CNV1-DE-PL-10051015-2025-02",
+      "COMEXT-CNV1-DE-PL-10051015-2025-03",
+      "COMEXT-CNV1-DE-PL-10051015-2025-04",
+      "COMEXT-CNV1-DE-PL-10051015-2025-05",
+      "COMEXT-CNV1-DE-PL-10051015-2025-06",
+      "COMEXT-CNV1-DE-PL-10051015-2025-07",
+      "COMEXT-CNV1-DE-PL-10051015-2025-08",
+      "COMEXT-CNV1-DE-PL-10051015-2025-09",
+      "COMEXT-CNV1-DE-PL-10051015-2025-10",
+      "COMEXT-CNV1-DE-PL-10051015-2025-11",
+      "COMEXT-CNV1-DE-PL-10051015-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051015",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1734363.0,
+    "trade_value_eur": 7820272,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051015-2026-01",
+      "COMEXT-CNV1-DE-PL-10051015-2026-02",
+      "COMEXT-CNV1-DE-PL-10051015-2026-03",
+      "COMEXT-CNV1-DE-PL-10051015-2026-04",
+      "COMEXT-CNV1-DE-PL-10051015-2026-05",
+      "COMEXT-CNV1-DE-PL-10051015-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051018",
+    "year": 2025,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 19562.0,
+    "trade_value_eur": 98420,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051018-2025-01",
+      "COMEXT-CNV1-DE-PL-10051018-2025-02",
+      "COMEXT-CNV1-DE-PL-10051018-2025-03",
+      "COMEXT-CNV1-DE-PL-10051018-2025-04",
+      "COMEXT-CNV1-DE-PL-10051018-2025-05"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051018",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 102959.0,
+    "trade_value_eur": 484922,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051018-2026-01",
+      "COMEXT-CNV1-DE-PL-10051018-2026-02",
+      "COMEXT-CNV1-DE-PL-10051018-2026-03",
+      "COMEXT-CNV1-DE-PL-10051018-2026-04",
+      "COMEXT-CNV1-DE-PL-10051018-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051090",
+    "year": 2025,
+    "reported_months": 9,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 34054.0,
+    "trade_value_eur": 151921,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051090-2025-01",
+      "COMEXT-CNV1-DE-PL-10051090-2025-02",
+      "COMEXT-CNV1-DE-PL-10051090-2025-03",
+      "COMEXT-CNV1-DE-PL-10051090-2025-04",
+      "COMEXT-CNV1-DE-PL-10051090-2025-05",
+      "COMEXT-CNV1-DE-PL-10051090-2025-06",
+      "COMEXT-CNV1-DE-PL-10051090-2025-09",
+      "COMEXT-CNV1-DE-PL-10051090-2025-11",
+      "COMEXT-CNV1-DE-PL-10051090-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "10051090",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 5957.0,
+    "trade_value_eur": 26060,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-10051090-2026-01",
+      "COMEXT-CNV1-DE-PL-10051090-2026-02",
+      "COMEXT-CNV1-DE-PL-10051090-2026-03",
+      "COMEXT-CNV1-DE-PL-10051090-2026-04",
+      "COMEXT-CNV1-DE-PL-10051090-2026-05",
+      "COMEXT-CNV1-DE-PL-10051090-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12011000",
+    "year": 2025,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 335665.0,
+    "trade_value_eur": 339116,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12011000-2025-02",
+      "COMEXT-CNV1-DE-PL-12011000-2025-03",
+      "COMEXT-CNV1-DE-PL-12011000-2025-04",
+      "COMEXT-CNV1-DE-PL-12011000-2025-05",
+      "COMEXT-CNV1-DE-PL-12011000-2025-09"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12011000",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 108238.0,
+    "trade_value_eur": 237584,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12011000-2026-01",
+      "COMEXT-CNV1-DE-PL-12011000-2026-02",
+      "COMEXT-CNV1-DE-PL-12011000-2026-03",
+      "COMEXT-CNV1-DE-PL-12011000-2026-04",
+      "COMEXT-CNV1-DE-PL-12011000-2026-05"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092280",
+    "year": 2025,
+    "reported_months": 11,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 120972.0,
+    "trade_value_eur": 674428,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092280-2025-01",
+      "COMEXT-CNV1-DE-PL-12092280-2025-02",
+      "COMEXT-CNV1-DE-PL-12092280-2025-03",
+      "COMEXT-CNV1-DE-PL-12092280-2025-04",
+      "COMEXT-CNV1-DE-PL-12092280-2025-05",
+      "COMEXT-CNV1-DE-PL-12092280-2025-06",
+      "COMEXT-CNV1-DE-PL-12092280-2025-07",
+      "COMEXT-CNV1-DE-PL-12092280-2025-08",
+      "COMEXT-CNV1-DE-PL-12092280-2025-09",
+      "COMEXT-CNV1-DE-PL-12092280-2025-10",
+      "COMEXT-CNV1-DE-PL-12092280-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092280",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 71616.0,
+    "trade_value_eur": 315473,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092280-2026-01",
+      "COMEXT-CNV1-DE-PL-12092280-2026-02",
+      "COMEXT-CNV1-DE-PL-12092280-2026-03",
+      "COMEXT-CNV1-DE-PL-12092280-2026-04",
+      "COMEXT-CNV1-DE-PL-12092280-2026-05",
+      "COMEXT-CNV1-DE-PL-12092280-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092380",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 178833.0,
+    "trade_value_eur": 402204,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092380-2025-01",
+      "COMEXT-CNV1-DE-PL-12092380-2025-02",
+      "COMEXT-CNV1-DE-PL-12092380-2025-03",
+      "COMEXT-CNV1-DE-PL-12092380-2025-04",
+      "COMEXT-CNV1-DE-PL-12092380-2025-05",
+      "COMEXT-CNV1-DE-PL-12092380-2025-06",
+      "COMEXT-CNV1-DE-PL-12092380-2025-07",
+      "COMEXT-CNV1-DE-PL-12092380-2025-08",
+      "COMEXT-CNV1-DE-PL-12092380-2025-09",
+      "COMEXT-CNV1-DE-PL-12092380-2025-10",
+      "COMEXT-CNV1-DE-PL-12092380-2025-11",
+      "COMEXT-CNV1-DE-PL-12092380-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092380",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 85022.0,
+    "trade_value_eur": 213557,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092380-2026-01",
+      "COMEXT-CNV1-DE-PL-12092380-2026-02",
+      "COMEXT-CNV1-DE-PL-12092380-2026-03",
+      "COMEXT-CNV1-DE-PL-12092380-2026-04",
+      "COMEXT-CNV1-DE-PL-12092380-2026-05",
+      "COMEXT-CNV1-DE-PL-12092380-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092945",
+    "year": 2025,
+    "reported_months": 11,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 85762.0,
+    "trade_value_eur": 240429,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092945-2025-01",
+      "COMEXT-CNV1-DE-PL-12092945-2025-02",
+      "COMEXT-CNV1-DE-PL-12092945-2025-03",
+      "COMEXT-CNV1-DE-PL-12092945-2025-04",
+      "COMEXT-CNV1-DE-PL-12092945-2025-05",
+      "COMEXT-CNV1-DE-PL-12092945-2025-07",
+      "COMEXT-CNV1-DE-PL-12092945-2025-08",
+      "COMEXT-CNV1-DE-PL-12092945-2025-09",
+      "COMEXT-CNV1-DE-PL-12092945-2025-10",
+      "COMEXT-CNV1-DE-PL-12092945-2025-11",
+      "COMEXT-CNV1-DE-PL-12092945-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092945",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 143729.0,
+    "trade_value_eur": 424249,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092945-2026-01",
+      "COMEXT-CNV1-DE-PL-12092945-2026-02",
+      "COMEXT-CNV1-DE-PL-12092945-2026-03",
+      "COMEXT-CNV1-DE-PL-12092945-2026-04",
+      "COMEXT-CNV1-DE-PL-12092945-2026-05"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092980",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 1712113.0,
+    "trade_value_eur": 5764393,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092980-2025-01",
+      "COMEXT-CNV1-DE-PL-12092980-2025-02",
+      "COMEXT-CNV1-DE-PL-12092980-2025-03",
+      "COMEXT-CNV1-DE-PL-12092980-2025-04",
+      "COMEXT-CNV1-DE-PL-12092980-2025-05",
+      "COMEXT-CNV1-DE-PL-12092980-2025-06",
+      "COMEXT-CNV1-DE-PL-12092980-2025-07",
+      "COMEXT-CNV1-DE-PL-12092980-2025-08",
+      "COMEXT-CNV1-DE-PL-12092980-2025-09",
+      "COMEXT-CNV1-DE-PL-12092980-2025-10",
+      "COMEXT-CNV1-DE-PL-12092980-2025-11",
+      "COMEXT-CNV1-DE-PL-12092980-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12092980",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1053343.0,
+    "trade_value_eur": 3685462,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12092980-2026-01",
+      "COMEXT-CNV1-DE-PL-12092980-2026-02",
+      "COMEXT-CNV1-DE-PL-12092980-2026-03",
+      "COMEXT-CNV1-DE-PL-12092980-2026-04",
+      "COMEXT-CNV1-DE-PL-12092980-2026-05",
+      "COMEXT-CNV1-DE-PL-12092980-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12099180",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 101628.0,
+    "trade_value_eur": 1517789,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12099180-2025-01",
+      "COMEXT-CNV1-DE-PL-12099180-2025-02",
+      "COMEXT-CNV1-DE-PL-12099180-2025-03",
+      "COMEXT-CNV1-DE-PL-12099180-2025-04",
+      "COMEXT-CNV1-DE-PL-12099180-2025-05",
+      "COMEXT-CNV1-DE-PL-12099180-2025-06",
+      "COMEXT-CNV1-DE-PL-12099180-2025-07",
+      "COMEXT-CNV1-DE-PL-12099180-2025-08",
+      "COMEXT-CNV1-DE-PL-12099180-2025-09",
+      "COMEXT-CNV1-DE-PL-12099180-2025-10",
+      "COMEXT-CNV1-DE-PL-12099180-2025-11",
+      "COMEXT-CNV1-DE-PL-12099180-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "DE",
+    "partner": "PL",
+    "cn8": "12099180",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 28479.0,
+    "trade_value_eur": 997109,
+    "source_observations": [
+      "COMEXT-CNV1-DE-PL-12099180-2026-01",
+      "COMEXT-CNV1-DE-PL-12099180-2026-02",
+      "COMEXT-CNV1-DE-PL-12099180-2026-03",
+      "COMEXT-CNV1-DE-PL-12099180-2026-04",
+      "COMEXT-CNV1-DE-PL-12099180-2026-05",
+      "COMEXT-CNV1-DE-PL-12099180-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051013",
+    "year": 2025,
+    "reported_months": 9,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 3314994.0,
+    "trade_value_eur": 14154644,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051013-2025-01",
+      "COMEXT-CNV1-FR-PL-10051013-2025-02",
+      "COMEXT-CNV1-FR-PL-10051013-2025-03",
+      "COMEXT-CNV1-FR-PL-10051013-2025-04",
+      "COMEXT-CNV1-FR-PL-10051013-2025-05",
+      "COMEXT-CNV1-FR-PL-10051013-2025-06",
+      "COMEXT-CNV1-FR-PL-10051013-2025-10",
+      "COMEXT-CNV1-FR-PL-10051013-2025-11",
+      "COMEXT-CNV1-FR-PL-10051013-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051013",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 2680402.0,
+    "trade_value_eur": 11848827,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051013-2026-01",
+      "COMEXT-CNV1-FR-PL-10051013-2026-02",
+      "COMEXT-CNV1-FR-PL-10051013-2026-03",
+      "COMEXT-CNV1-FR-PL-10051013-2026-04",
+      "COMEXT-CNV1-FR-PL-10051013-2026-05",
+      "COMEXT-CNV1-FR-PL-10051013-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051015",
+    "year": 2025,
+    "reported_months": 11,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 19206841.0,
+    "trade_value_eur": 89664104,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051015-2025-01",
+      "COMEXT-CNV1-FR-PL-10051015-2025-02",
+      "COMEXT-CNV1-FR-PL-10051015-2025-03",
+      "COMEXT-CNV1-FR-PL-10051015-2025-04",
+      "COMEXT-CNV1-FR-PL-10051015-2025-05",
+      "COMEXT-CNV1-FR-PL-10051015-2025-06",
+      "COMEXT-CNV1-FR-PL-10051015-2025-07",
+      "COMEXT-CNV1-FR-PL-10051015-2025-08",
+      "COMEXT-CNV1-FR-PL-10051015-2025-10",
+      "COMEXT-CNV1-FR-PL-10051015-2025-11",
+      "COMEXT-CNV1-FR-PL-10051015-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051015",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 13352480.0,
+    "trade_value_eur": 64511143,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051015-2026-01",
+      "COMEXT-CNV1-FR-PL-10051015-2026-02",
+      "COMEXT-CNV1-FR-PL-10051015-2026-03",
+      "COMEXT-CNV1-FR-PL-10051015-2026-04",
+      "COMEXT-CNV1-FR-PL-10051015-2026-05",
+      "COMEXT-CNV1-FR-PL-10051015-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051018",
+    "year": 2025,
+    "reported_months": 2,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 77742.0,
+    "trade_value_eur": 410439,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051018-2025-01",
+      "COMEXT-CNV1-FR-PL-10051018-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051018",
+    "year": 2026,
+    "reported_months": 3,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 96645.0,
+    "trade_value_eur": 510779,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051018-2026-01",
+      "COMEXT-CNV1-FR-PL-10051018-2026-02",
+      "COMEXT-CNV1-FR-PL-10051018-2026-04"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051090",
+    "year": 2025,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 167614.0,
+    "trade_value_eur": 327808,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051090-2025-02",
+      "COMEXT-CNV1-FR-PL-10051090-2025-03",
+      "COMEXT-CNV1-FR-PL-10051090-2025-04",
+      "COMEXT-CNV1-FR-PL-10051090-2025-05",
+      "COMEXT-CNV1-FR-PL-10051090-2025-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "10051090",
+    "year": 2026,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 46691.0,
+    "trade_value_eur": 203153,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-10051090-2026-03",
+      "COMEXT-CNV1-FR-PL-10051090-2026-04",
+      "COMEXT-CNV1-FR-PL-10051090-2026-05",
+      "COMEXT-CNV1-FR-PL-10051090-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12011000",
+    "year": 2025,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 54373.0,
+    "trade_value_eur": 68184,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12011000-2025-01",
+      "COMEXT-CNV1-FR-PL-12011000-2025-03",
+      "COMEXT-CNV1-FR-PL-12011000-2025-04",
+      "COMEXT-CNV1-FR-PL-12011000-2025-05"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12011000",
+    "year": 2026,
+    "reported_months": 3,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 36005.0,
+    "trade_value_eur": 43731,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12011000-2026-02",
+      "COMEXT-CNV1-FR-PL-12011000-2026-03",
+      "COMEXT-CNV1-FR-PL-12011000-2026-04"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092280",
+    "year": 2025,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 24138.0,
+    "trade_value_eur": 20515,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092280-2025-04",
+      "COMEXT-CNV1-FR-PL-12092280-2025-10",
+      "COMEXT-CNV1-FR-PL-12092280-2025-11",
+      "COMEXT-CNV1-FR-PL-12092280-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092280",
+    "year": 2026,
+    "reported_months": 2,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 3345.0,
+    "trade_value_eur": 5331,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092280-2026-01",
+      "COMEXT-CNV1-FR-PL-12092280-2026-02"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092380",
+    "year": 2025,
+    "reported_months": 10,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 4955.0,
+    "trade_value_eur": 32965,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092380-2025-01",
+      "COMEXT-CNV1-FR-PL-12092380-2025-02",
+      "COMEXT-CNV1-FR-PL-12092380-2025-03",
+      "COMEXT-CNV1-FR-PL-12092380-2025-04",
+      "COMEXT-CNV1-FR-PL-12092380-2025-05",
+      "COMEXT-CNV1-FR-PL-12092380-2025-06",
+      "COMEXT-CNV1-FR-PL-12092380-2025-07",
+      "COMEXT-CNV1-FR-PL-12092380-2025-08",
+      "COMEXT-CNV1-FR-PL-12092380-2025-09",
+      "COMEXT-CNV1-FR-PL-12092380-2025-11"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092380",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 4593.0,
+    "trade_value_eur": 29761,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092380-2026-01",
+      "COMEXT-CNV1-FR-PL-12092380-2026-02",
+      "COMEXT-CNV1-FR-PL-12092380-2026-03",
+      "COMEXT-CNV1-FR-PL-12092380-2026-04",
+      "COMEXT-CNV1-FR-PL-12092380-2026-05",
+      "COMEXT-CNV1-FR-PL-12092380-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092945",
+    "year": 2025,
+    "reported_months": 8,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 93779.0,
+    "trade_value_eur": 50512,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092945-2025-01",
+      "COMEXT-CNV1-FR-PL-12092945-2025-04",
+      "COMEXT-CNV1-FR-PL-12092945-2025-06",
+      "COMEXT-CNV1-FR-PL-12092945-2025-08",
+      "COMEXT-CNV1-FR-PL-12092945-2025-09",
+      "COMEXT-CNV1-FR-PL-12092945-2025-10",
+      "COMEXT-CNV1-FR-PL-12092945-2025-11",
+      "COMEXT-CNV1-FR-PL-12092945-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092945",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 39421.0,
+    "trade_value_eur": 51621,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092945-2026-01",
+      "COMEXT-CNV1-FR-PL-12092945-2026-02",
+      "COMEXT-CNV1-FR-PL-12092945-2026-03",
+      "COMEXT-CNV1-FR-PL-12092945-2026-04",
+      "COMEXT-CNV1-FR-PL-12092945-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092980",
+    "year": 2025,
+    "reported_months": 11,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 171684.0,
+    "trade_value_eur": 538339,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092980-2025-01",
+      "COMEXT-CNV1-FR-PL-12092980-2025-02",
+      "COMEXT-CNV1-FR-PL-12092980-2025-03",
+      "COMEXT-CNV1-FR-PL-12092980-2025-04",
+      "COMEXT-CNV1-FR-PL-12092980-2025-05",
+      "COMEXT-CNV1-FR-PL-12092980-2025-06",
+      "COMEXT-CNV1-FR-PL-12092980-2025-07",
+      "COMEXT-CNV1-FR-PL-12092980-2025-08",
+      "COMEXT-CNV1-FR-PL-12092980-2025-09",
+      "COMEXT-CNV1-FR-PL-12092980-2025-10",
+      "COMEXT-CNV1-FR-PL-12092980-2025-11"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12092980",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 36292.0,
+    "trade_value_eur": 116970,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12092980-2026-01",
+      "COMEXT-CNV1-FR-PL-12092980-2026-02",
+      "COMEXT-CNV1-FR-PL-12092980-2026-03",
+      "COMEXT-CNV1-FR-PL-12092980-2026-04",
+      "COMEXT-CNV1-FR-PL-12092980-2026-05"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12099180",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 183169.0,
+    "trade_value_eur": 7746685,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12099180-2025-01",
+      "COMEXT-CNV1-FR-PL-12099180-2025-02",
+      "COMEXT-CNV1-FR-PL-12099180-2025-03",
+      "COMEXT-CNV1-FR-PL-12099180-2025-04",
+      "COMEXT-CNV1-FR-PL-12099180-2025-05",
+      "COMEXT-CNV1-FR-PL-12099180-2025-06",
+      "COMEXT-CNV1-FR-PL-12099180-2025-07",
+      "COMEXT-CNV1-FR-PL-12099180-2025-08",
+      "COMEXT-CNV1-FR-PL-12099180-2025-09",
+      "COMEXT-CNV1-FR-PL-12099180-2025-10",
+      "COMEXT-CNV1-FR-PL-12099180-2025-11",
+      "COMEXT-CNV1-FR-PL-12099180-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "FR",
+    "partner": "PL",
+    "cn8": "12099180",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 32633.0,
+    "trade_value_eur": 4804094,
+    "source_observations": [
+      "COMEXT-CNV1-FR-PL-12099180-2026-01",
+      "COMEXT-CNV1-FR-PL-12099180-2026-02",
+      "COMEXT-CNV1-FR-PL-12099180-2026-03",
+      "COMEXT-CNV1-FR-PL-12099180-2026-04",
+      "COMEXT-CNV1-FR-PL-12099180-2026-05",
+      "COMEXT-CNV1-FR-PL-12099180-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "10051015",
+    "year": 2025,
+    "reported_months": 2,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 257.0,
+    "trade_value_eur": 4571,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-10051015-2025-01",
+      "COMEXT-CNV1-NL-PL-10051015-2025-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "10051015",
+    "year": 2026,
+    "reported_months": 1,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 160.0,
+    "trade_value_eur": 2152,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-10051015-2026-01"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "10051018",
+    "year": 2025,
+    "reported_months": 1,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 47.0,
+    "trade_value_eur": 131,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-10051018-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "10051018",
+    "year": 2026,
+    "reported_months": 2,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 172133.0,
+    "trade_value_eur": 1407604,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-10051018-2026-03",
+      "COMEXT-CNV1-NL-PL-10051018-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "10051090",
+    "year": 2025,
+    "reported_months": 2,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 40.0,
+    "trade_value_eur": 130,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-10051090-2025-01",
+      "COMEXT-CNV1-NL-PL-10051090-2025-08"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092280",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 49006.0,
+    "trade_value_eur": 191009,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092280-2025-01",
+      "COMEXT-CNV1-NL-PL-12092280-2025-02",
+      "COMEXT-CNV1-NL-PL-12092280-2025-03",
+      "COMEXT-CNV1-NL-PL-12092280-2025-04",
+      "COMEXT-CNV1-NL-PL-12092280-2025-05",
+      "COMEXT-CNV1-NL-PL-12092280-2025-06",
+      "COMEXT-CNV1-NL-PL-12092280-2025-07",
+      "COMEXT-CNV1-NL-PL-12092280-2025-08",
+      "COMEXT-CNV1-NL-PL-12092280-2025-09",
+      "COMEXT-CNV1-NL-PL-12092280-2025-10",
+      "COMEXT-CNV1-NL-PL-12092280-2025-11",
+      "COMEXT-CNV1-NL-PL-12092280-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092280",
+    "year": 2026,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 30091.0,
+    "trade_value_eur": 96223,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092280-2026-01",
+      "COMEXT-CNV1-NL-PL-12092280-2026-03",
+      "COMEXT-CNV1-NL-PL-12092280-2026-04",
+      "COMEXT-CNV1-NL-PL-12092280-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092380",
+    "year": 2025,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 7703.0,
+    "trade_value_eur": 18803,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092380-2025-01",
+      "COMEXT-CNV1-NL-PL-12092380-2025-03",
+      "COMEXT-CNV1-NL-PL-12092380-2025-05",
+      "COMEXT-CNV1-NL-PL-12092380-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092380",
+    "year": 2026,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 29107.0,
+    "trade_value_eur": 71580,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092380-2026-02",
+      "COMEXT-CNV1-NL-PL-12092380-2026-03",
+      "COMEXT-CNV1-NL-PL-12092380-2026-04",
+      "COMEXT-CNV1-NL-PL-12092380-2026-05"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092945",
+    "year": 2025,
+    "reported_months": 10,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 2665.0,
+    "trade_value_eur": 7211,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092945-2025-01",
+      "COMEXT-CNV1-NL-PL-12092945-2025-02",
+      "COMEXT-CNV1-NL-PL-12092945-2025-03",
+      "COMEXT-CNV1-NL-PL-12092945-2025-04",
+      "COMEXT-CNV1-NL-PL-12092945-2025-05",
+      "COMEXT-CNV1-NL-PL-12092945-2025-06",
+      "COMEXT-CNV1-NL-PL-12092945-2025-07",
+      "COMEXT-CNV1-NL-PL-12092945-2025-08",
+      "COMEXT-CNV1-NL-PL-12092945-2025-09",
+      "COMEXT-CNV1-NL-PL-12092945-2025-10"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092945",
+    "year": 2026,
+    "reported_months": 3,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 3078.0,
+    "trade_value_eur": 6607,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092945-2026-03",
+      "COMEXT-CNV1-NL-PL-12092945-2026-05",
+      "COMEXT-CNV1-NL-PL-12092945-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092980",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 2349258.0,
+    "trade_value_eur": 5706652,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092980-2025-01",
+      "COMEXT-CNV1-NL-PL-12092980-2025-02",
+      "COMEXT-CNV1-NL-PL-12092980-2025-03",
+      "COMEXT-CNV1-NL-PL-12092980-2025-04",
+      "COMEXT-CNV1-NL-PL-12092980-2025-05",
+      "COMEXT-CNV1-NL-PL-12092980-2025-06",
+      "COMEXT-CNV1-NL-PL-12092980-2025-07",
+      "COMEXT-CNV1-NL-PL-12092980-2025-08",
+      "COMEXT-CNV1-NL-PL-12092980-2025-09",
+      "COMEXT-CNV1-NL-PL-12092980-2025-10",
+      "COMEXT-CNV1-NL-PL-12092980-2025-11",
+      "COMEXT-CNV1-NL-PL-12092980-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12092980",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1199130.0,
+    "trade_value_eur": 3043311,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12092980-2026-01",
+      "COMEXT-CNV1-NL-PL-12092980-2026-02",
+      "COMEXT-CNV1-NL-PL-12092980-2026-03",
+      "COMEXT-CNV1-NL-PL-12092980-2026-04",
+      "COMEXT-CNV1-NL-PL-12092980-2026-05",
+      "COMEXT-CNV1-NL-PL-12092980-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12099180",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 424011.0,
+    "trade_value_eur": 70439712,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12099180-2025-01",
+      "COMEXT-CNV1-NL-PL-12099180-2025-02",
+      "COMEXT-CNV1-NL-PL-12099180-2025-03",
+      "COMEXT-CNV1-NL-PL-12099180-2025-04",
+      "COMEXT-CNV1-NL-PL-12099180-2025-05",
+      "COMEXT-CNV1-NL-PL-12099180-2025-06",
+      "COMEXT-CNV1-NL-PL-12099180-2025-07",
+      "COMEXT-CNV1-NL-PL-12099180-2025-08",
+      "COMEXT-CNV1-NL-PL-12099180-2025-09",
+      "COMEXT-CNV1-NL-PL-12099180-2025-10",
+      "COMEXT-CNV1-NL-PL-12099180-2025-11",
+      "COMEXT-CNV1-NL-PL-12099180-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "NL",
+    "partner": "PL",
+    "cn8": "12099180",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 223867.0,
+    "trade_value_eur": 39965259,
+    "source_observations": [
+      "COMEXT-CNV1-NL-PL-12099180-2026-01",
+      "COMEXT-CNV1-NL-PL-12099180-2026-02",
+      "COMEXT-CNV1-NL-PL-12099180-2026-03",
+      "COMEXT-CNV1-NL-PL-12099180-2026-04",
+      "COMEXT-CNV1-NL-PL-12099180-2026-05",
+      "COMEXT-CNV1-NL-PL-12099180-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051013",
+    "year": 2025,
+    "reported_months": 4,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 95407.0,
+    "trade_value_eur": 372996,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051013-2025-01",
+      "COMEXT-CNV1-PL-DE-10051013-2025-02",
+      "COMEXT-CNV1-PL-DE-10051013-2025-03",
+      "COMEXT-CNV1-PL-DE-10051013-2025-04"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051013",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1168351.0,
+    "trade_value_eur": 1724427,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051013-2026-01",
+      "COMEXT-CNV1-PL-DE-10051013-2026-02",
+      "COMEXT-CNV1-PL-DE-10051013-2026-03",
+      "COMEXT-CNV1-PL-DE-10051013-2026-04",
+      "COMEXT-CNV1-PL-DE-10051013-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051015",
+    "year": 2025,
+    "reported_months": 10,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1345716.0,
+    "trade_value_eur": 3935343,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051015-2025-01",
+      "COMEXT-CNV1-PL-DE-10051015-2025-02",
+      "COMEXT-CNV1-PL-DE-10051015-2025-03",
+      "COMEXT-CNV1-PL-DE-10051015-2025-04",
+      "COMEXT-CNV1-PL-DE-10051015-2025-05",
+      "COMEXT-CNV1-PL-DE-10051015-2025-06",
+      "COMEXT-CNV1-PL-DE-10051015-2025-07",
+      "COMEXT-CNV1-PL-DE-10051015-2025-08",
+      "COMEXT-CNV1-PL-DE-10051015-2025-11",
+      "COMEXT-CNV1-PL-DE-10051015-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051015",
+    "year": 2026,
+    "reported_months": 5,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 635125.0,
+    "trade_value_eur": 2259553,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051015-2026-01",
+      "COMEXT-CNV1-PL-DE-10051015-2026-02",
+      "COMEXT-CNV1-PL-DE-10051015-2026-03",
+      "COMEXT-CNV1-PL-DE-10051015-2026-04",
+      "COMEXT-CNV1-PL-DE-10051015-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051018",
+    "year": 2025,
+    "reported_months": 11,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 17397389.0,
+    "trade_value_eur": 2651133,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051018-2025-01",
+      "COMEXT-CNV1-PL-DE-10051018-2025-02",
+      "COMEXT-CNV1-PL-DE-10051018-2025-03",
+      "COMEXT-CNV1-PL-DE-10051018-2025-04",
+      "COMEXT-CNV1-PL-DE-10051018-2025-05",
+      "COMEXT-CNV1-PL-DE-10051018-2025-06",
+      "COMEXT-CNV1-PL-DE-10051018-2025-07",
+      "COMEXT-CNV1-PL-DE-10051018-2025-09",
+      "COMEXT-CNV1-PL-DE-10051018-2025-10",
+      "COMEXT-CNV1-PL-DE-10051018-2025-11",
+      "COMEXT-CNV1-PL-DE-10051018-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051018",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 4581006.0,
+    "trade_value_eur": 995007,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051018-2026-01",
+      "COMEXT-CNV1-PL-DE-10051018-2026-02",
+      "COMEXT-CNV1-PL-DE-10051018-2026-03",
+      "COMEXT-CNV1-PL-DE-10051018-2026-04",
+      "COMEXT-CNV1-PL-DE-10051018-2026-05",
+      "COMEXT-CNV1-PL-DE-10051018-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051090",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 226981135.0,
+    "trade_value_eur": 51859760,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051090-2025-01",
+      "COMEXT-CNV1-PL-DE-10051090-2025-02",
+      "COMEXT-CNV1-PL-DE-10051090-2025-03",
+      "COMEXT-CNV1-PL-DE-10051090-2025-04",
+      "COMEXT-CNV1-PL-DE-10051090-2025-05",
+      "COMEXT-CNV1-PL-DE-10051090-2025-06",
+      "COMEXT-CNV1-PL-DE-10051090-2025-07",
+      "COMEXT-CNV1-PL-DE-10051090-2025-08",
+      "COMEXT-CNV1-PL-DE-10051090-2025-09",
+      "COMEXT-CNV1-PL-DE-10051090-2025-10",
+      "COMEXT-CNV1-PL-DE-10051090-2025-11",
+      "COMEXT-CNV1-PL-DE-10051090-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "10051090",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 106911561.0,
+    "trade_value_eur": 23683279,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-10051090-2026-01",
+      "COMEXT-CNV1-PL-DE-10051090-2026-02",
+      "COMEXT-CNV1-PL-DE-10051090-2026-03",
+      "COMEXT-CNV1-PL-DE-10051090-2026-04",
+      "COMEXT-CNV1-PL-DE-10051090-2026-05",
+      "COMEXT-CNV1-PL-DE-10051090-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12011000",
+    "year": 2025,
+    "reported_months": 8,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 5181267.0,
+    "trade_value_eur": 2216972,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12011000-2025-01",
+      "COMEXT-CNV1-PL-DE-12011000-2025-02",
+      "COMEXT-CNV1-PL-DE-12011000-2025-03",
+      "COMEXT-CNV1-PL-DE-12011000-2025-08",
+      "COMEXT-CNV1-PL-DE-12011000-2025-09",
+      "COMEXT-CNV1-PL-DE-12011000-2025-10",
+      "COMEXT-CNV1-PL-DE-12011000-2025-11",
+      "COMEXT-CNV1-PL-DE-12011000-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12011000",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 2480514.0,
+    "trade_value_eur": 1305441,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12011000-2026-01",
+      "COMEXT-CNV1-PL-DE-12011000-2026-02",
+      "COMEXT-CNV1-PL-DE-12011000-2026-03",
+      "COMEXT-CNV1-PL-DE-12011000-2026-04",
+      "COMEXT-CNV1-PL-DE-12011000-2026-05",
+      "COMEXT-CNV1-PL-DE-12011000-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092280",
+    "year": 2025,
+    "reported_months": 2,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 24020.0,
+    "trade_value_eur": 55249,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092280-2025-02",
+      "COMEXT-CNV1-PL-DE-12092280-2025-08"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092280",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 83854.0,
+    "trade_value_eur": 402654,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092280-2026-01",
+      "COMEXT-CNV1-PL-DE-12092280-2026-02",
+      "COMEXT-CNV1-PL-DE-12092280-2026-03",
+      "COMEXT-CNV1-PL-DE-12092280-2026-04",
+      "COMEXT-CNV1-PL-DE-12092280-2026-05",
+      "COMEXT-CNV1-PL-DE-12092280-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092380",
+    "year": 2025,
+    "reported_months": 9,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 16701.0,
+    "trade_value_eur": 32540,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092380-2025-02",
+      "COMEXT-CNV1-PL-DE-12092380-2025-03",
+      "COMEXT-CNV1-PL-DE-12092380-2025-04",
+      "COMEXT-CNV1-PL-DE-12092380-2025-05",
+      "COMEXT-CNV1-PL-DE-12092380-2025-06",
+      "COMEXT-CNV1-PL-DE-12092380-2025-07",
+      "COMEXT-CNV1-PL-DE-12092380-2025-08",
+      "COMEXT-CNV1-PL-DE-12092380-2025-09",
+      "COMEXT-CNV1-PL-DE-12092380-2025-10"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092380",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 5807.0,
+    "trade_value_eur": 17186,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092380-2026-01",
+      "COMEXT-CNV1-PL-DE-12092380-2026-02",
+      "COMEXT-CNV1-PL-DE-12092380-2026-03",
+      "COMEXT-CNV1-PL-DE-12092380-2026-04",
+      "COMEXT-CNV1-PL-DE-12092380-2026-05",
+      "COMEXT-CNV1-PL-DE-12092380-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092945",
+    "year": 2025,
+    "reported_months": 11,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1607465.0,
+    "trade_value_eur": 1789797,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092945-2025-01",
+      "COMEXT-CNV1-PL-DE-12092945-2025-02",
+      "COMEXT-CNV1-PL-DE-12092945-2025-03",
+      "COMEXT-CNV1-PL-DE-12092945-2025-04",
+      "COMEXT-CNV1-PL-DE-12092945-2025-05",
+      "COMEXT-CNV1-PL-DE-12092945-2025-06",
+      "COMEXT-CNV1-PL-DE-12092945-2025-07",
+      "COMEXT-CNV1-PL-DE-12092945-2025-08",
+      "COMEXT-CNV1-PL-DE-12092945-2025-09",
+      "COMEXT-CNV1-PL-DE-12092945-2025-10",
+      "COMEXT-CNV1-PL-DE-12092945-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092945",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 661645.0,
+    "trade_value_eur": 863548,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092945-2026-01",
+      "COMEXT-CNV1-PL-DE-12092945-2026-02",
+      "COMEXT-CNV1-PL-DE-12092945-2026-03",
+      "COMEXT-CNV1-PL-DE-12092945-2026-04",
+      "COMEXT-CNV1-PL-DE-12092945-2026-05",
+      "COMEXT-CNV1-PL-DE-12092945-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092980",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 3411179.0,
+    "trade_value_eur": 9647645,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092980-2025-01",
+      "COMEXT-CNV1-PL-DE-12092980-2025-02",
+      "COMEXT-CNV1-PL-DE-12092980-2025-03",
+      "COMEXT-CNV1-PL-DE-12092980-2025-04",
+      "COMEXT-CNV1-PL-DE-12092980-2025-05",
+      "COMEXT-CNV1-PL-DE-12092980-2025-06",
+      "COMEXT-CNV1-PL-DE-12092980-2025-07",
+      "COMEXT-CNV1-PL-DE-12092980-2025-08",
+      "COMEXT-CNV1-PL-DE-12092980-2025-09",
+      "COMEXT-CNV1-PL-DE-12092980-2025-10",
+      "COMEXT-CNV1-PL-DE-12092980-2025-11",
+      "COMEXT-CNV1-PL-DE-12092980-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12092980",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1939545.0,
+    "trade_value_eur": 5805030,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12092980-2026-01",
+      "COMEXT-CNV1-PL-DE-12092980-2026-02",
+      "COMEXT-CNV1-PL-DE-12092980-2026-03",
+      "COMEXT-CNV1-PL-DE-12092980-2026-04",
+      "COMEXT-CNV1-PL-DE-12092980-2026-05",
+      "COMEXT-CNV1-PL-DE-12092980-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12099180",
+    "year": 2025,
+    "reported_months": 12,
+    "coverage": "COMPLETE_12_REPORTED_MONTHS",
+    "net_weight_kg": 773421.0,
+    "trade_value_eur": 3209808,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12099180-2025-01",
+      "COMEXT-CNV1-PL-DE-12099180-2025-02",
+      "COMEXT-CNV1-PL-DE-12099180-2025-03",
+      "COMEXT-CNV1-PL-DE-12099180-2025-04",
+      "COMEXT-CNV1-PL-DE-12099180-2025-05",
+      "COMEXT-CNV1-PL-DE-12099180-2025-06",
+      "COMEXT-CNV1-PL-DE-12099180-2025-07",
+      "COMEXT-CNV1-PL-DE-12099180-2025-08",
+      "COMEXT-CNV1-PL-DE-12099180-2025-09",
+      "COMEXT-CNV1-PL-DE-12099180-2025-10",
+      "COMEXT-CNV1-PL-DE-12099180-2025-11",
+      "COMEXT-CNV1-PL-DE-12099180-2025-12"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  },
+  {
+    "reporter": "PL",
+    "partner": "DE",
+    "cn8": "12099180",
+    "year": 2026,
+    "reported_months": 6,
+    "coverage": "PARTIAL_REPORTED_MONTHS_ONLY",
+    "net_weight_kg": 1618404.0,
+    "trade_value_eur": 6897417,
+    "source_observations": [
+      "COMEXT-CNV1-PL-DE-12099180-2026-01",
+      "COMEXT-CNV1-PL-DE-12099180-2026-02",
+      "COMEXT-CNV1-PL-DE-12099180-2026-03",
+      "COMEXT-CNV1-PL-DE-12099180-2026-04",
+      "COMEXT-CNV1-PL-DE-12099180-2026-05",
+      "COMEXT-CNV1-PL-DE-12099180-2026-06"
+    ],
+    "limitation": "Sum of reported same-code bilateral months only; no zero filling, annualization or species allocation."
+  }
+]

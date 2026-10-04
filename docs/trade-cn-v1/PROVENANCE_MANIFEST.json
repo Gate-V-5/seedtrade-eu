@@ -1,0 +1,133 @@
+{
+  "starting_head": "9e52d03c7a761fcbc0d802451c95a147d0583bca",
+  "inputs": [
+    {
+      "path": "docs/crop-master-v1/CROP_MASTER_V1.json",
+      "sha256": "de0da445b9324a1aa28e7f91b084b12cab913f884213726f960e804960f8f48c"
+    },
+    {
+      "path": "docs/species-coverage-v1/SPECIES_COVERAGE_121.json",
+      "sha256": "c2f00467985adf3094a8aa834716e08d24b09d440c4c83e5bde952191901f4c7"
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    {
+      "path": "src/generated/trade_pulse_public.json",
+      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
+    },
+    {
+      "path": "data/trade-cn-v1/decisions.json",
+      "sha256": "723cb5c508c627a9b31310310822ce08390d7d344e951ebe1921543ea1d3d677"
+    },
+    {
+      "path": "data/trade-cn-v1/official-cn-extract.json",
+      "sha256": "55f55129408811fdb3f145d039f61ad15fe49cadcc038dfe6a38d51d33a1fa6d"
+    },
+    {
+      "path": "data/trade-cn-v1/comext-normalized.json",
+      "sha256": "a96539fa4b7b7e68bf8a7aaffbb26e4de39c552b0d28b5db900d873dd593540c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/trade-cn-v1/ANNUAL_REPORTED_TRADE.csv",
+      "sha256": "30a3f84615a8b5eb46cca983d2eb24948b9107981eced8932367dc2021df5c37"
+    },
+    {
+      "path": "docs/trade-cn-v1/ANNUAL_REPORTED_TRADE.json",
+      "sha256": "dc0c4043317171f00034fb90d45928dc453fc952691f079a523e8e60ce6702c8"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_AUDIT_121.csv",
+      "sha256": "16ab325537c24560e987aeaa43b80ab9d08188a43a7ae3fb52b876d145140ab7"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_AUDIT_121.json",
+      "sha256": "f7e9607556756e7009ed0b0d1022dc1165794c1fee228bb050c1ad0215de0ca9"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_EVIDENCE_REGISTER.csv",
+      "sha256": "05e30070577a32c925a6e07765548eb74fe4000578b4d81ae14d4f389f34289d"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_EVIDENCE_REGISTER.json",
+      "sha256": "1014177aee55bfba72afd5f1715fa7a915633378b69f282b306cdd0b9a24569d"
+    },
+    {
+      "path": "docs/trade-cn-v1/COMEXT_COVERAGE_REPORT.json",
+      "sha256": "90429ce824c9b6981cf7b502f7646be13111234441bcc3b8b14759c7792a5220"
+    },
+    {
+      "path": "docs/trade-cn-v1/COMEXT_EXTRACTION_QA.json",
+      "sha256": "ffd3277e97c6ff45796808062b6c79db907d9cb1c2f39c0395b86db5595ea932"
+    },
+    {
+      "path": "docs/trade-cn-v1/PERFORMANCE.json",
+      "sha256": "3cfef7b32c53b9595047ac5e7d3ea12b365250a13c1efa51ba9a4d5c75922ea3"
+    },
+    {
+      "path": "docs/trade-cn-v1/PRODUCTION_TRADE_INTERSECTION.csv",
+      "sha256": "1dc01fde40f8485c71b617f60490781390a842adc9fd2e5b6cffd8c875aa20ad"
+    },
+    {
+      "path": "docs/trade-cn-v1/PRODUCTION_TRADE_INTERSECTION.json",
+      "sha256": "53db104c4c05a280854d015b1072b74a013fd9bc601cd973fd0fcb406fad6e7b"
+    },
+    {
+      "path": "docs/trade-cn-v1/QA_REPORT.json",
+      "sha256": "206e204792588c1a8fe58a42197d734bb69c5515120df4b9377a493a46bb7a8b"
+    },
+    {
+      "path": "docs/trade-cn-v1/REPORT.md",
+      "sha256": "486369e935d99b18f835238b3f72e491fb72f7e651b2c83546ee6862bc47e5c3"
+    },
+    {
+      "path": "docs/trade-cn-v1/SOURCES.json",
+      "sha256": "31ae2af3bfbe8621a9b431449e6aff2c498187883af1dd73adbb37889da63a70"
+    },
+    {
+      "path": "docs/trade-cn-v1/SPECIES_CN_TRADE_MAP.csv",
+      "sha256": "8f252d73de4e578d35e337546f70846e74e587e341c19ad895dd95c86fcfbad4"
+    },
+    {
+      "path": "docs/trade-cn-v1/SPECIES_CN_TRADE_MAP.json",
+      "sha256": "be3375a9aa3b845af54dcc470cbfa3fcb20172f16a675eda98ea42ec9334d3d6"
+    },
+    {
+      "path": "docs/trade-cn-v1/SUMMARY.json",
+      "sha256": "46d8405075b581f1b18076b2c138ddf5322a1aaf6e13a3e301f422d1b0ab1e53"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_COVERAGE.csv",
+      "sha256": "43be6dfebda879c290406c127dd053c59ed39e8259946b8228f0d3476d6dc571"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_COVERAGE.json",
+      "sha256": "a05869445b5fd09bae02f443cc1d5303a2a8d32bf5d06013d3b0e1e84af395c9"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_MARKET_ENTITIES.csv",
+      "sha256": "8cc7956e6f96fcad557b3adb159feb200bb936491a17314a5ced1375ecd8b326"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_MARKET_ENTITIES.json",
+      "sha256": "f64e9eb320e3f5fe8b0e78d26900095864bcc8331f0e4ee6d9044f019335d4eb"
+    },
+    {
+      "path": "docs/trade-cn-v1/UNRESOLVED_MAPPINGS.csv",
+      "sha256": "f38fc1404bb335b24217a750156843b644d5aedd01f588d4baf6a8111b63b6f0"
+    },
+    {
+      "path": "docs/trade-cn-v1/UNRESOLVED_MAPPINGS.json",
+      "sha256": "42960fa5f51809bee25f6155a03391de278c3d7861da24903a4f8f5f5ca5772c"
+    }
+  ],
+  "baseline_dependency": {
+    "dropbox_path": "/SeedTrade/Recovery/SeedTrade-121-species-data-coverage-v1-20261003.zip",
+    "sha256": "2941955e97f17e306604cf12e3000d54c487b2e9bb70073e8419ae8c91b4d469",
+    "preserved": true
+  },
+  "source_raw_files": "Complete raw KSH XLSX and COMEXT JSON requests included in new checkpoint; previous production raw evidence remains in immutable baseline dependency."
+}

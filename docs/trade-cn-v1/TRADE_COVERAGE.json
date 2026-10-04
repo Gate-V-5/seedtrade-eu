@@ -1,0 +1,1250 @@
+[
+  {
+    "canonical_species_id": "browntop",
+    "botanical_name": "Agrostis capillaris",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "onion",
+    "botanical_name": "Allium cepa",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "bunching-onion",
+    "botanical_name": "Allium fistulosum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "leek",
+    "botanical_name": "Allium porrum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "chives",
+    "botanical_name": "Allium schoenoprasum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "meadow-foxtail",
+    "botanical_name": "Alopecurus pratensis",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "dill",
+    "botanical_name": "Anethum graveolens",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "chervil",
+    "botanical_name": "Anthriscus cerefolium",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "celery",
+    "botanical_name": "Apium graveolens",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "tall-oatgrass",
+    "botanical_name": "Arrhenatherum elatius",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "asparagus",
+    "botanical_name": "Asparagus officinalis",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "naked-oat",
+    "botanical_name": "Avena nuda",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "oat",
+    "botanical_name": "Avena sativa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "black-oat",
+    "botanical_name": "Avena strigosa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "beet-chard",
+    "botanical_name": "Beta vulgaris",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "biserrula",
+    "botanical_name": "Biserrula pelecinus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "borage",
+    "botanical_name": "Borago officinalis",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "ethiopian-mustard",
+    "botanical_name": "Brassica carinata",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "brown-mustard",
+    "botanical_name": "Brassica juncea",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12075010"
+    ],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "rapeseed",
+    "botanical_name": "Brassica napus",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "black-mustard",
+    "botanical_name": "Brassica nigra",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12075010"
+    ],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "cabbage",
+    "botanical_name": "Brassica oleracea",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "turnip-rape",
+    "botanical_name": "Brassica rapa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "camelina",
+    "botanical_name": "Camelina sativa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "hemp",
+    "botanical_name": "Cannabis sativa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "pepper",
+    "botanical_name": "Capsicum annuum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "safflower",
+    "botanical_name": "Carthamus tinctorius",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "caraway",
+    "botanical_name": "Carum carvi",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "quinoa",
+    "botanical_name": "Chenopodium quinoa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "chickpea",
+    "botanical_name": "Cicer arietinum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "endive",
+    "botanical_name": "Cichorium endivia",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "chicory",
+    "botanical_name": "Cichorium intybus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "watermelon",
+    "botanical_name": "Citrullus lanatus",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "coriander",
+    "botanical_name": "Coriandrum sativum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "sunn-hemp",
+    "botanical_name": "Crotalaria juncea",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "melon",
+    "botanical_name": "Cucumis melo",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "cucumber",
+    "botanical_name": "Cucumis sativus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "winter-squash",
+    "botanical_name": "Cucurbita maxima",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "courgette",
+    "botanical_name": "Cucurbita pepo",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "artichoke",
+    "botanical_name": "Cynara cardunculus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "cocksfoot",
+    "botanical_name": "Dactylis glomerata",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "carrot",
+    "botanical_name": "Daucus carota",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "buckwheat",
+    "botanical_name": "Fagopyrum esculentum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "tall-fescue",
+    "botanical_name": "Festuca arundinacea",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092380"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "meadow-fescue",
+    "botanical_name": "Festuca pratensis",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092311"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "red-fescue",
+    "botanical_name": "Festuca rubra",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092315"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "fennel",
+    "botanical_name": "Foeniculum vulgare",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "fodder-galega",
+    "botanical_name": "Galega orientalis",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "soybean",
+    "botanical_name": "Glycine max",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12011000"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "niger",
+    "botanical_name": "Guizotia abyssinica",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "sunflower",
+    "botanical_name": "Helianthus annuus",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "barley",
+    "botanical_name": "Hordeum vulgare",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "lettuce",
+    "botanical_name": "Lactuca sativa",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "red-pea",
+    "botanical_name": "Lathyrus cicera",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "lentil",
+    "botanical_name": "Lens culinaris",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "garden-cress",
+    "botanical_name": "Lepidium sativum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "flax",
+    "botanical_name": "Linum usitatissimum",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12040010"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "italian-ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092510"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "perennial-ryegrass",
+    "botanical_name": "Lolium perenne",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092590"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "hybrid-ryegrass",
+    "botanical_name": "Lolium × hybridum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "birdsfoot-trefoil",
+    "botanical_name": "Lotus corniculatus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "white-lupin",
+    "botanical_name": "Lupinus albus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092950"
+    ],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "narrow-leaved-lupin",
+    "botanical_name": "Lupinus angustifolius",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092950"
+    ],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "yellow-lupin",
+    "botanical_name": "Lupinus luteus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092950"
+    ],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "black-medick",
+    "botanical_name": "Medicago lupulina",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "bur-medick",
+    "botanical_name": "Medicago polymorpha",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "alfalfa",
+    "botanical_name": "Medicago sativa",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092100"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "hybrid-lucerne",
+    "botanical_name": "Medicago × varia",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "white-sweetclover",
+    "botanical_name": "Melilotus albus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "yellow-sweetclover",
+    "botanical_name": "Melilotus officinalis",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "sainfoin",
+    "botanical_name": "Onobrychis viciifolia",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "yellow-serradella",
+    "botanical_name": "Ornithopus compressus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "serradella",
+    "botanical_name": "Ornithopus sativus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "rice",
+    "botanical_name": "Oryza sativa",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "proso-millet",
+    "botanical_name": "Panicum miliaceum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "poppy",
+    "botanical_name": "Papaver somniferum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "parsley",
+    "botanical_name": "Petroselinum crispum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "phacelia",
+    "botanical_name": "Phacelia tanacetifolia",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "canary-grass",
+    "botanical_name": "Phalaris canariensis",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "runner-bean",
+    "botanical_name": "Phaseolus coccineus",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "common-bean",
+    "botanical_name": "Phaseolus vulgaris",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "timothy",
+    "botanical_name": "Phleum pratense",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "field-pea",
+    "botanical_name": "Pisum sativum",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "07131010"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "ribwort-plantain",
+    "botanical_name": "Plantago lanceolata",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "wood-meadowgrass",
+    "botanical_name": "Poa nemoralis",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "kentucky-bluegrass",
+    "botanical_name": "Poa pratensis",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092400"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "cultivated-radish",
+    "botanical_name": "Raphanus raphanistrum subsp. sativus",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "rhubarb",
+    "botanical_name": "Rheum rhabarbarum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "black-salsify",
+    "botanical_name": "Scorzonera hispanica",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "rye",
+    "botanical_name": "Secale cereale",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "foxtail-millet",
+    "botanical_name": "Setaria italica",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "white-mustard",
+    "botanical_name": "Sinapis alba",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12075010"
+    ],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "tomato",
+    "botanical_name": "Solanum lycopersicum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "aubergine",
+    "botanical_name": "Solanum melongena",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "sorghum",
+    "botanical_name": "Sorghum bicolor",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "spinach",
+    "botanical_name": "Spinacia oleracea",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "berseem-clover",
+    "botanical_name": "Trifolium alexandrinum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "glandular-clover",
+    "botanical_name": "Trifolium glanduliferum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "rose-clover",
+    "botanical_name": "Trifolium hirtum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "alsike-clover",
+    "botanical_name": "Trifolium hybridum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "crimson-clover",
+    "botanical_name": "Trifolium incarnatum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "trifolium-isthmocarpum",
+    "botanical_name": "Trifolium isthmocarpum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "balansa-clover",
+    "botanical_name": "Trifolium michelianum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "red-clover",
+    "botanical_name": "Trifolium pratense",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "12092210"
+    ],
+    "earliest_usable_trade_period": "2024-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "white-clover",
+    "botanical_name": "Trifolium repens",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "persian-clover",
+    "botanical_name": "Trifolium resupinatum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "trifolium-squarrosum",
+    "botanical_name": "Trifolium squarrosum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "subterranean-clover",
+    "botanical_name": "Trifolium subterraneum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "arrowleaf-clover",
+    "botanical_name": "Trifolium vesiculosum",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092280"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "fenugreek",
+    "botanical_name": "Trigonella foenum-graecum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "golden-oatgrass",
+    "botanical_name": "Trisetum flavescens",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092980"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "common-wheat",
+    "botanical_name": "Triticum aestivum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "durum-wheat",
+    "botanical_name": "Triticum turgidum subsp. durum",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "lambs-lettuce",
+    "botanical_name": "Valerianella locusta",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12099180"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "purple-vetch",
+    "botanical_name": "Vicia benghalensis",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "bitter-vetch",
+    "botanical_name": "Vicia ervilia",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "faba-bean",
+    "botanical_name": "Vicia faba",
+    "species_level_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null
+  },
+  {
+    "canonical_species_id": "hungarian-vetch",
+    "botanical_name": "Vicia pannonica",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "common-vetch",
+    "botanical_name": "Vicia sativa",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "winter-vetch",
+    "botanical_name": "Vicia villosa Roth",
+    "species_level_trade": false,
+    "group_or_partial_trade": true,
+    "trade_available_codes": [
+      "12092945"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  },
+  {
+    "canonical_species_id": "maize",
+    "botanical_name": "Zea mays",
+    "species_level_trade": true,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [
+      "10051013",
+      "10051015",
+      "10051018",
+      "10051090"
+    ],
+    "earliest_usable_trade_period": "2025-01",
+    "latest_usable_trade_period": "2026-06"
+  }
+]

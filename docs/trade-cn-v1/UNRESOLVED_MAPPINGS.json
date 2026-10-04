@@ -1,0 +1,1954 @@
+[
+  {
+    "canonical_species_id": "dill",
+    "common_name": "Dill",
+    "botanical_name": "Anethum graveolens",
+    "biological_species_key": "Anethum graveolens",
+    "seed_category": "herbs-specialty",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "dill",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "borage",
+    "common_name": "Borage",
+    "botanical_name": "Borago officinalis",
+    "biological_species_key": "Borago officinalis",
+    "seed_category": "herbs-specialty",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "borage",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "ethiopian-mustard",
+    "common_name": "Ethiopian mustard",
+    "botanical_name": "Brassica carinata",
+    "biological_species_key": "Brassica carinata",
+    "seed_category": "brassica-seeds",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "ethiopian-mustard",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "safflower",
+    "common_name": "Safflower",
+    "botanical_name": "Carthamus tinctorius",
+    "biological_species_key": "Carthamus tinctorius",
+    "seed_category": "oil-fibre-seeds",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "12076000"
+    ],
+    "original_cn_codes": [
+      "12076000"
+    ],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "safflower",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "1207"
+        ],
+        "cn6": [
+          "120760"
+        ],
+        "cn8": [
+          "12076000"
+        ],
+        "hs6": [
+          "120760"
+        ],
+        "hs6_scope": "Hierarchy only; no species/sowing proof",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific code"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "official_descriptions": [
+          {
+            "cn8": "12076000",
+            "description": "Safflower \"Carthamus tinctorius\" seeds",
+            "worksheet_row": 1478
+          }
+        ],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "caraway",
+    "common_name": "Caraway",
+    "botanical_name": "Carum carvi",
+    "biological_species_key": "Carum carvi",
+    "seed_category": "herbs-specialty",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "09096100"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "caraway",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "0909"
+        ],
+        "cn6": [
+          "090961"
+        ],
+        "cn8": [],
+        "hs6": [
+          "090961"
+        ],
+        "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific CN8"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": [],
+          "recovered_note": "Spice seed and sowing seed require separation",
+          "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+        },
+        "official_descriptions": [],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "09096100 includes caraway among several spices without sowing-use separation; not a confirmed sowing code."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "quinoa",
+    "common_name": "Quinoa",
+    "botanical_name": "Chenopodium quinoa",
+    "biological_species_key": "Chenopodium quinoa",
+    "seed_category": "cereals-pseudocereals",
+    "use_tags": [
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "10085000"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "quinoa",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "quinoa",
+        "organisation": "Walloon Government / WALLEX",
+        "url": "https://wallex.wallonie.be/eli/arrete/2023/02/23/2023042741/2026/01/01",
+        "retrieved_at": "2026-10-03",
+        "scope": "Annex 1 quinoa botanical identity and sowing-market relevance; not certified-seed production statistics"
+      },
+      {
+        "id": "quinoa-cover",
+        "organisation": "Welsh Government",
+        "url": "https://www.gov.wales/growing-environment-rules-booklet-window-8-html",
+        "retrieved_at": "2026-10-03",
+        "scope": "Wildlife cover-crop examples include quinoa and chicory; does not establish catch-crop status"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "chickpea",
+    "common_name": "Chickpea",
+    "botanical_name": "Cicer arietinum",
+    "biological_species_key": "Cicer arietinum",
+    "seed_category": "grain-legumes",
+    "use_tags": [
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "07132000"
+    ],
+    "original_cn_codes": [
+      "07132000"
+    ],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "chickpea",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "0713"
+        ],
+        "cn6": [
+          "071320"
+        ],
+        "cn8": [
+          "07132000"
+        ],
+        "hs6": [
+          "071320"
+        ],
+        "hs6_scope": "Hierarchy only; no species/sowing proof",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific code"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "official_descriptions": [
+          {
+            "cn8": "07132000",
+            "description": "Dried, shelled chickpeas \"garbanzos\", whether or not skinned or split",
+            "worksheet_row": 1122
+          }
+        ],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "watermelon",
+    "common_name": "Watermelon",
+    "botanical_name": "Citrullus lanatus",
+    "biological_species_key": "Citrullus lanatus",
+    "seed_category": "vegetable-seeds",
+    "use_tags": [
+      "VEGETABLE"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "watermelon",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "vegetables",
+        "organisation": "European Union / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+        "retrieved_at": "2026-10-03",
+        "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+        "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "coriander",
+    "common_name": "Coriander",
+    "botanical_name": "Coriandrum sativum",
+    "biological_species_key": "Coriandrum sativum",
+    "seed_category": "herbs-specialty",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "09092100"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "coriander",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "sunn-hemp",
+    "common_name": "Sunn hemp",
+    "botanical_name": "Crotalaria juncea",
+    "biological_species_key": "Crotalaria juncea",
+    "seed_category": "forage-legumes",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "sunn-hemp",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "melon",
+    "common_name": "Melon",
+    "botanical_name": "Cucumis melo",
+    "biological_species_key": "Cucumis melo",
+    "seed_category": "vegetable-seeds",
+    "use_tags": [
+      "VEGETABLE"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "12077000"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "melon",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "vegetables",
+        "organisation": "European Union / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+        "retrieved_at": "2026-10-03",
+        "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+        "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "winter-squash",
+    "common_name": "Winter squash",
+    "botanical_name": "Cucurbita maxima",
+    "biological_species_key": "Cucurbita maxima",
+    "seed_category": "vegetable-seeds",
+    "use_tags": [
+      "VEGETABLE"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "winter-squash",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "vegetables",
+        "organisation": "European Union / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+        "retrieved_at": "2026-10-03",
+        "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+        "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "courgette",
+    "common_name": "Courgette / pumpkin",
+    "botanical_name": "Cucurbita pepo",
+    "biological_species_key": "Cucurbita pepo",
+    "seed_category": "vegetable-seeds",
+    "use_tags": [
+      "VEGETABLE"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "courgette",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "End-use/customs-boundary ambiguity requires official classification evidence beyond botanical name or SeedTrade category. No trade activation.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "vegetables",
+        "organisation": "European Union / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+        "retrieved_at": "2026-10-03",
+        "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+        "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "buckwheat",
+    "common_name": "Buckwheat",
+    "botanical_name": "Fagopyrum esculentum",
+    "biological_species_key": "Fagopyrum esculentum",
+    "seed_category": "cereals-pseudocereals",
+    "use_tags": [
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "10081000"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "buckwheat",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "1008"
+        ],
+        "cn6": [
+          "100810"
+        ],
+        "cn8": [],
+        "hs6": [
+          "100810"
+        ],
+        "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific CN8"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": [],
+          "recovered_note": "Grain and seed use require separation",
+          "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+        },
+        "official_descriptions": [],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Current CN heading does not separate sowing and non-sowing use; product evidence required."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "defra",
+        "organisation": "Defra",
+        "url": "https://www.gov.uk/guidance/how-to-do-the-sfi-actions-for-soils",
+        "retrieved_at": "2026-10-03",
+        "document": "Updated 2025-03-27; choosing a cover-crop mix and herbal ley",
+        "scope": "Use examples; broader labels not automatically resolved to a species"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "fennel",
+    "common_name": "Fennel",
+    "botanical_name": "Foeniculum vulgare",
+    "biological_species_key": "Foeniculum vulgare",
+    "seed_category": "vegetable-seeds",
+    "use_tags": [
+      "VEGETABLE"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "09096100"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "fennel",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "vegetables",
+        "organisation": "European Union / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+        "retrieved_at": "2026-10-03",
+        "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+        "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "lentil",
+    "common_name": "Lentil",
+    "botanical_name": "Lens culinaris",
+    "biological_species_key": "Lens culinaris",
+    "seed_category": "grain-legumes",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "07134000"
+    ],
+    "original_cn_codes": [
+      "07134000"
+    ],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "lentil",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "0713"
+        ],
+        "cn6": [
+          "071340"
+        ],
+        "cn8": [
+          "07134000"
+        ],
+        "hs6": [
+          "071340"
+        ],
+        "hs6_scope": "Hierarchy only; no species/sowing proof",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific code"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "official_descriptions": [
+          {
+            "cn8": "07134000",
+            "description": "Dried, shelled lentils, whether or not skinned or split",
+            "worksheet_row": 1130
+          }
+        ],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "hybrid-ryegrass",
+    "common_name": "Hybrid ryegrass",
+    "botanical_name": "Lolium × hybridum",
+    "biological_species_key": "Lolium × hybridum",
+    "seed_category": "grass-seeds",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "REVIEW_REQUIRED",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "hybrid-ryegrass",
+        "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+        "nomenclature_year": 2026,
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "hs6_scope": "Hierarchy only; no species/sowing proof",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific code"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "official_descriptions": [],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Existing mapping audited against official 2026 denomination; original scope retained.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "hybrid-lucerne",
+    "common_name": "Hybrid lucerne",
+    "botanical_name": "Medicago × varia",
+    "biological_species_key": "Medicago × varia",
+    "seed_category": "forage-legumes",
+    "use_tags": [
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "REVIEW_REQUIRED",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "hybrid-lucerne",
+        "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+        "nomenclature_year": 2026,
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "hs6_scope": "Hierarchy only; no species/sowing proof",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific code"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "official_descriptions": [],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Taxonomy alone does not establish this hybrid/crop-use/product-form customs classification; no residual code forced."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Existing mapping audited against official 2026 denomination; original scope retained.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "phacelia",
+    "common_name": "Phacelia",
+    "botanical_name": "Phacelia tanacetifolia",
+    "biological_species_key": "Phacelia tanacetifolia",
+    "seed_category": "herbs-specialty",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "REVIEW_REQUIRED",
+    "proposed_cn_status": "REVIEW_REQUIRED",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "REVIEW_REQUIRED",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "phacelia",
+        "mapping_status": "CN_MAPPING_REVIEW_REQUIRED",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "1209"
+        ],
+        "cn6": [
+          "120999"
+        ],
+        "cn8": [],
+        "hs6": [
+          "120999"
+        ],
+        "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific CN8"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": [],
+          "recovered_note": null,
+          "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+        },
+        "official_descriptions": [],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Recovered 120999 parent is insufficient to adjudicate forage/other-use classification; no forced CN8."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Existing mapping audited against official 2026 denomination; original scope retained.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "canary-grass",
+    "common_name": "Canary grass",
+    "botanical_name": "Phalaris canariensis",
+    "biological_species_key": "Phalaris canariensis",
+    "seed_category": "cereals-pseudocereals",
+    "use_tags": [
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "10083000"
+    ],
+    "original_cn_codes": [
+      "10083000"
+    ],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "canary-grass",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "1008"
+        ],
+        "cn6": [
+          "100830"
+        ],
+        "cn8": [
+          "10083000"
+        ],
+        "hs6": [
+          "100830"
+        ],
+        "hs6_scope": "Hierarchy only; no species/sowing proof",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific code"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "official_descriptions": [
+          {
+            "cn8": "10083000",
+            "description": "Canary seed",
+            "worksheet_row": 1380
+          }
+        ],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Named product heading does not distinguish sowing from other uses; mixed-use codes never appear as verified sowing or non-sowing codes."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 tariff concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "runner-bean",
+    "common_name": "Runner bean",
+    "botanical_name": "Phaseolus coccineus",
+    "biological_species_key": "Phaseolus coccineus",
+    "seed_category": "vegetable-seeds",
+    "use_tags": [
+      "VEGETABLE"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "07133900"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "runner-bean",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "vegetables",
+        "organisation": "European Union / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0055-20220901",
+        "retrieved_at": "2026-10-03",
+        "document": "2002/55/EC Article 2(1)(b), consolidation 2022-09-01",
+        "scope": "Seed-market identities; cultivar groups not separate species. Current 2024-12-24 consolidation identified but anti-bot blocked; no claim of current legal eligibility"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "fenugreek",
+    "common_name": "Fenugreek",
+    "botanical_name": "Trigonella foenum-graecum",
+    "biological_species_key": "Trigonella foenum-graecum",
+    "seed_category": "herbs-specialty",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP"
+    ],
+    "current_cn_status": "NOT_AVAILABLE",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "09109910"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "fenugreek",
+        "mapping_status": "CN_MAPPING_NOT_AVAILABLE",
+        "cn4": [],
+        "cn6": [],
+        "cn8": [],
+        "hs6": [],
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": []
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": []
+        },
+        "source_url": null,
+        "notes": [
+          "No species-specific CN mapping invented"
+        ]
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": false,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      }
+    ]
+  },
+  {
+    "canonical_species_id": "faba-bean",
+    "common_name": "Faba beans",
+    "botanical_name": "Vicia faba",
+    "biological_species_key": "Vicia faba",
+    "seed_category": "grain-legumes",
+    "use_tags": [
+      "CATCH_CROP",
+      "COVER_CROP",
+      "SEED_PRODUCTION"
+    ],
+    "current_cn_status": "PARTIAL",
+    "proposed_cn_status": "NOT_AVAILABLE",
+    "cn4": [],
+    "cn6": [],
+    "cn8": [],
+    "hs6": [],
+    "sowing_status": "NOT_SOWING_SPECIFIC",
+    "sowing_specific_codes": [],
+    "excluded_commodity_or_unsuitable_codes": [
+      "07135000"
+    ],
+    "original_cn_codes": [],
+    "original_cn_provenance": [
+      {
+        "canonical_species_id": "faba-bean",
+        "mapping_status": "CN_MAPPING_PARTIAL",
+        "nomenclature_year": 2026,
+        "cn4": [
+          "0713"
+        ],
+        "cn6": [
+          "071350"
+        ],
+        "cn8": [],
+        "hs6": [
+          "071350"
+        ],
+        "hs6_scope": "Six-digit hierarchy only; not proof of species-specific or sowing-specific classification",
+        "sowing_seed": {
+          "usage": "SOWING_SEED",
+          "verified_cn8": [],
+          "limitation": "No confirmed sowing-specific CN8"
+        },
+        "non_sowing_commodity": {
+          "usage": "NON_SOWING_COMMODITY",
+          "codes": [],
+          "recovered_note": "Dry broad beans may share heading",
+          "note_semantics": "Historical non_sowing field often describes grouped classification, not an actual commodity code"
+        },
+        "official_descriptions": [],
+        "source_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "source_organisation": "Hungarian Central Statistical Office",
+        "retrieval_date": "2026-10-02",
+        "notes": [
+          "Current CN heading does not separate sowing and non-sowing use; product evidence required."
+        ],
+        "historical_year_eligibility": "REVIEW_REQUIRED; no 2021–2025 concordance inferred"
+      }
+    ],
+    "cn_descriptions": [],
+    "species_specific_code": false,
+    "contains_multiple_species": false,
+    "contains_non_seed_material": null,
+    "comext_compatible": false,
+    "cn_history": {},
+    "earliest_usable_trade_period": null,
+    "latest_usable_trade_period": null,
+    "species_level_trade": false,
+    "full_species_specific_trade": false,
+    "group_or_partial_trade": false,
+    "trade_available_codes": [],
+    "production_available": true,
+    "public_safe": true,
+    "decision_rationale": "Official denomination does not isolate sowing use. Commodity codes retained in audit only; never activated.",
+    "confidence": "LIMITED_OR_REVIEW",
+    "limitations": [
+      "Customs mapping is not evidence that the species contributed any amount to a group.",
+      "No interpolation, proportional allocation, species shares or supply signal.",
+      "Taxonomy and production datasets remain unchanged."
+    ],
+    "taxonomy_provenance": [
+      {
+        "id": "lfl",
+        "organisation": "Bavarian State Research Center for Agriculture (LfL)",
+        "url": "https://www.lfl.bayern.de/mam/cms07/publikationen/daten/informationen/greening-zwischenfruchtanbau-lfl-information-2018.pdf",
+        "retrieved_at": "2026-10-03",
+        "document": "Greening und Zwischenfruchtanbau, November 2018, Annex 1 pages 8–10",
+        "scope": "Botanical names and catch-crop mixture use; historical permitted-species list, not current subsidy/legal eligibility or production evidence"
+      },
+      {
+        "id": "v041",
+        "organisation": "SeedTrade evidence review of official national seed authorities",
+        "url": null,
+        "retrieved_at": "2026-10-03",
+        "checkpoint_sha256": "2b149594c48a1f0ed1de04f69835baffb4e671a04901a48a37aa88a52a7d4359",
+        "scope": "Recovered V4.1 canonical IDs, bounded ranks, source taxon mapping and CN evidence; original checkpoint retained"
+      }
+    ]
+  }
+]

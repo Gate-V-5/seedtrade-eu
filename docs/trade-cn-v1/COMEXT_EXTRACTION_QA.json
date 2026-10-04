@@ -1,0 +1,642 @@
+[
+  {
+    "file": "comext-DE-10051013.json",
+    "accepted": 10,
+    "value_cells": 20,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-10051015.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-10051018.json",
+    "accepted": 10,
+    "value_cells": 20,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-10051090.json",
+    "accepted": 15,
+    "value_cells": 30,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-12011000.json",
+    "accepted": 10,
+    "value_cells": 20,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-12092280.json",
+    "accepted": 17,
+    "value_cells": 34,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-12092380.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-12092945.json",
+    "accepted": 16,
+    "value_cells": 32,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-12092980.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-DE-12099180.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-10051013.json",
+    "accepted": 15,
+    "value_cells": 30,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-10051015.json",
+    "accepted": 17,
+    "value_cells": 34,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-10051018.json",
+    "accepted": 5,
+    "value_cells": 10,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-10051090.json",
+    "accepted": 9,
+    "value_cells": 18,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-12011000.json",
+    "accepted": 7,
+    "value_cells": 14,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-12092280.json",
+    "accepted": 6,
+    "value_cells": 12,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-12092380.json",
+    "accepted": 16,
+    "value_cells": 32,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-12092945.json",
+    "accepted": 13,
+    "value_cells": 26,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-12092980.json",
+    "accepted": 16,
+    "value_cells": 32,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-FR-12099180.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-10051013.json",
+    "accepted": 0,
+    "value_cells": 0,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-10051015.json",
+    "accepted": 3,
+    "value_cells": 6,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-10051018.json",
+    "accepted": 3,
+    "value_cells": 6,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-10051090.json",
+    "accepted": 2,
+    "value_cells": 4,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-12011000.json",
+    "accepted": 0,
+    "value_cells": 0,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-12092280.json",
+    "accepted": 16,
+    "value_cells": 32,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-12092380.json",
+    "accepted": 8,
+    "value_cells": 16,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-12092945.json",
+    "accepted": 13,
+    "value_cells": 26,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-12092980.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-NL-12099180.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-10051013.json",
+    "accepted": 9,
+    "value_cells": 18,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-10051015.json",
+    "accepted": 15,
+    "value_cells": 30,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-10051018.json",
+    "accepted": 17,
+    "value_cells": 34,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-10051090.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-12011000.json",
+    "accepted": 14,
+    "value_cells": 28,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-12092280.json",
+    "accepted": 8,
+    "value_cells": 16,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-12092380.json",
+    "accepted": 15,
+    "value_cells": 30,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-12092945.json",
+    "accepted": 17,
+    "value_cells": 34,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-12092980.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  },
+  {
+    "file": "comext-PL-12099180.json",
+    "accepted": 18,
+    "value_cells": 36,
+    "dimension_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      18
+    ],
+    "source_updated": "2026-09-15T11:00:00+0200",
+    "unpaired_measure_groups": 0
+  }
+]
