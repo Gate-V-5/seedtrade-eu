@@ -14,8 +14,8 @@ class FinalV5RefinementTests(unittest.TestCase):
         self.assertNotIn('pulse=carousel.position===0', APP)
 
     def test_market_snapshot_advances_one_record(self):
-        self.assertIn('useCarousel(market.crops.length,2500,4)', APP)
-        self.assertIn('circularSlice(market.crops,marketCarousel.position,marketCarousel.visible)', APP)
+        self.assertIn('useCarousel(catalogueSnapshot.length,2500,4)', APP)
+        self.assertIn('circularSlice(catalogueSnapshot,marketCarousel.position,marketCarousel.visible)', APP)
 
     def test_marketplace_carousel_advances_one_record(self):
         self.assertIn('useCarousel(display.length,2500,4)', APP)

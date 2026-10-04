@@ -25,7 +25,7 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
         self.assertIn(".intelligence-grid.intelligence-commercial{grid-template-columns:repeat(3,minmax(0,1fr))", CSS)
 
     def test_market_snapshot_four_card_desktop_row(self):
-        self.assertIn("useCarousel(market.crops.length,2500,4)", APP)
+        self.assertIn("useCarousel(catalogueSnapshot.length,2500,4)", APP)
         self.assertIn(".homepage-crops{grid-template-columns:repeat(4,minmax(0,1fr))", V2_CSS)
 
     def test_insights_three_card_desktop_row(self):

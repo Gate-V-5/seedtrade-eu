@@ -18,7 +18,7 @@ class MasterHomepageDesignTests(unittest.TestCase):
         self.assertIn('grid-template-columns:repeat(4,minmax(0,1fr))',CSS)
     def test_commercial_intelligence_overview(self):
         for label in ("EU Market Pulse","Weather & Seed Risk","Seed Production"): self.assertIn(label,APP)
-    def test_four_crop_snapshot(self): self.assertIn("useCarousel(market.crops.length,2500,4)",APP); self.assertIn("circularSlice(market.crops",APP)
+    def test_four_crop_snapshot(self): self.assertIn("useCarousel(catalogueSnapshot.length,2500,4)",APP); self.assertIn("circularSlice(catalogueSnapshot",APP)
     def test_visual_insights(self):
         self.assertIn("visual-insights",APP)
         self.assertIn("EditorialVisual",APP)

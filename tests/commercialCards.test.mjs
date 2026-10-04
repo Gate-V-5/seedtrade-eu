@@ -29,8 +29,8 @@ try {
    assert.ok(!d.querySelector('main').textContent.includes('EU trade aggregate developing'))
    for(const article of grid.querySelectorAll('article')){
     const c=data.cards.find(c=>c.market_entity_id===article.dataset.entityId)
-    if(c.trade_volume_t===null){assert.equal(article.querySelector('.catalogue-card-metrics'),null);assert.equal(article.querySelector('.catalogue-card-history'),null)}
-    else {assert.equal(article.querySelector('.catalogue-card-history').children.length,12);assert.equal(article.querySelector('.catalogue-period').textContent,'Completed '+pulse.latest_completed_period)}
+    if(c.trade_volume_t===null){if(!c.price_observations?.length)assert.equal(article.querySelector('.catalogue-card-metrics'),null);assert.equal(article.querySelector('.catalogue-card-history'),null)}
+    else {assert.equal(article.querySelector('.catalogue-card-history').children.length,12);assert.equal(article.querySelector('.catalogue-trade-period').textContent,'Completed '+pulse.latest_completed_period)}
    }
   }
  })
@@ -40,7 +40,7 @@ try {
    const expected=rows.filter(r=>r.reporter==='EU'&&r.view==='eu_internal_trade'&&card.CN_codes.includes(r.cn8)&&r.period<=pulse.latest_completed_period)
    if(card.trade_volume_t===null){assert.deepEqual(card.trade_history,[]);continue}
    assert.ok(['SPECIES_SPECIFIC','COMMERCIAL_ENTITY_SPECIFIC'].includes(card.customs_scope_type))
-   assert.equal(card.representative_price_eur_kg,null,'incompatible legacy price is not relabelled from customs unit value')
+   assert.ok(card.representative_price_eur_kg===null||card.price_observations.some(p=>p.eligible&&p.scope_verified&&p.price_eur_kg===card.representative_price_eur_kg),'price requires separately verified evidence')
    for(const point of card.trade_history){const source=expected.filter(r=>r.period===point.period);assert.ok(source.length>0);assert.ok(Math.abs(point.volume_t-source.reduce((s,r)=>s+r.net_weight_kg/1000,0))<0.000001)}
    assert.ok(Math.abs(card.trade_history.at(-1).volume_t-Number(card.trade_volume_t))<0.000001)
   }

@@ -1,0 +1,1455 @@
+[
+  {
+    "commercial_entity": "italian-ryegrass",
+    "common_name": "Italian ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "biological_species": "Lolium multiflorum",
+    "displayed_legacy_price": "1.385825390072741174637487969",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12092510"
+    ],
+    "official_cn_description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Lolium multiflorum"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES_INCLUDING_FORMS",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "5078546.999999999999999999998",
+    "legacy_quantity_basis_kg": "3664637.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2026-06",
+    "latest_publishable_price": 1.385825390072741,
+    "verified_price_points": 21,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:italian-ryegrass:2024-01",
+      "PRICE-WITNESS:italian-ryegrass:2024-02",
+      "PRICE-WITNESS:italian-ryegrass:2024-03",
+      "PRICE-WITNESS:italian-ryegrass:2024-04",
+      "PRICE-WITNESS:italian-ryegrass:2024-05",
+      "PRICE-WITNESS:italian-ryegrass:2024-06",
+      "PRICE-WITNESS:italian-ryegrass:2024-07",
+      "PRICE-WITNESS:italian-ryegrass:2024-08",
+      "PRICE-WITNESS:italian-ryegrass:2024-09",
+      "PRICE-WITNESS:italian-ryegrass:2024-12",
+      "PRICE-WITNESS:italian-ryegrass:2025-02",
+      "PRICE-WITNESS:italian-ryegrass:2025-04",
+      "PRICE-WITNESS:italian-ryegrass:2025-08",
+      "PRICE-WITNESS:italian-ryegrass:2025-11",
+      "PRICE-WITNESS:italian-ryegrass:2025-12",
+      "PRICE-WITNESS:italian-ryegrass:2026-01",
+      "PRICE-WITNESS:italian-ryegrass:2026-02",
+      "PRICE-WITNESS:italian-ryegrass:2026-03",
+      "PRICE-WITNESS:italian-ryegrass:2026-04",
+      "PRICE-WITNESS:italian-ryegrass:2026-05",
+      "PRICE-WITNESS:italian-ryegrass:2026-06"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2024-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4734155.00",
+        "current_source_quantity_kg": "4734280.0",
+        "legacy_price": "1.354615131950686025278006318",
+        "current_source_value_eur": "6413221"
+      },
+      {
+        "period": "2024-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3868165.00",
+        "current_source_quantity_kg": "3868159.0",
+        "legacy_price": "1.122419028143835642998682838",
+        "current_source_value_eur": "4340200"
+      },
+      {
+        "period": "2025-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1740844.00",
+        "current_source_quantity_kg": "1723094.0",
+        "legacy_price": "1.574594277258617084586556866",
+        "current_source_value_eur": "2713611"
+      },
+      {
+        "period": "2025-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2452486.00",
+        "current_source_quantity_kg": "2451424.0",
+        "legacy_price": "1.512817198548737892897247935",
+        "current_source_value_eur": "3666470"
+      },
+      {
+        "period": "2025-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2395747.00",
+        "current_source_quantity_kg": "2395693.0",
+        "legacy_price": "1.658402577567664699152289453",
+        "current_source_value_eur": "3914364"
+      },
+      {
+        "period": "2025-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3573158.00",
+        "current_source_quantity_kg": "3572991.0",
+        "legacy_price": "1.465738150957780204513766254",
+        "current_source_value_eur": "5198477"
+      },
+      {
+        "period": "2025-07",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6117690.00",
+        "current_source_quantity_kg": "6095690.0",
+        "legacy_price": "1.361795056630852494977679484",
+        "current_source_value_eur": "8297380"
+      },
+      {
+        "period": "2025-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7515228.00",
+        "current_source_quantity_kg": "7520276.0",
+        "legacy_price": "1.483815261493064481875998972",
+        "current_source_value_eur": "11160168"
+      },
+      {
+        "period": "2025-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3690579.00",
+        "current_source_quantity_kg": "3690879.0",
+        "legacy_price": "1.382245983624791665481215820",
+        "current_source_value_eur": "5101872"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  },
+  {
+    "commercial_entity": "perennial-ryegrass",
+    "common_name": "Perennial ryegrass",
+    "botanical_name": "Lolium perenne",
+    "biological_species": "Lolium perenne",
+    "displayed_legacy_price": "1.899536996960341761812769059",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12092590"
+    ],
+    "official_cn_description": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Lolium perenne"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "13100155.00000000000000000000",
+    "legacy_quantity_basis_kg": "6896499.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2025-02",
+    "latest_publishable_price": 1.9083238860961529,
+    "verified_price_points": 1,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:perennial-ryegrass:2025-02"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2024-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7556207.00",
+        "current_source_quantity_kg": "7533956.0",
+        "legacy_price": "1.991932195610840200645641391",
+        "current_source_value_eur": "15018012"
+      },
+      {
+        "period": "2024-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7506845.00",
+        "current_source_quantity_kg": "7503543.0",
+        "legacy_price": "2.043490041422195343050242812",
+        "current_source_value_eur": "15330458"
+      },
+      {
+        "period": "2024-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7030756.00",
+        "current_source_quantity_kg": "7028429.0",
+        "legacy_price": "2.202571814467747138430063566",
+        "current_source_value_eur": "15479471"
+      },
+      {
+        "period": "2024-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9192263.00",
+        "current_source_quantity_kg": "9201721.0",
+        "legacy_price": "2.134491147609680010243397083",
+        "current_source_value_eur": "19629568"
+      },
+      {
+        "period": "2024-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6776984.00",
+        "current_source_quantity_kg": "6780732.0",
+        "legacy_price": "2.002959428559961186274012156",
+        "current_source_value_eur": "13573230"
+      },
+      {
+        "period": "2024-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "8004675.00",
+        "current_source_quantity_kg": "8004660.0",
+        "legacy_price": "1.906215055576897250669140221",
+        "current_source_value_eur": "15258223"
+      },
+      {
+        "period": "2024-07",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3090812.00",
+        "current_source_quantity_kg": "3087802.0",
+        "legacy_price": "2.274419149401516494694598054",
+        "current_source_value_eur": "7039929"
+      },
+      {
+        "period": "2024-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3969553.00",
+        "current_source_quantity_kg": "3969530.0",
+        "legacy_price": "1.987899645123770862865415829",
+        "current_source_value_eur": "7890031"
+      },
+      {
+        "period": "2024-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6828159.00",
+        "current_source_quantity_kg": "6828834.0",
+        "legacy_price": "1.817063720982478586102051812",
+        "current_source_value_eur": "12408694"
+      },
+      {
+        "period": "2024-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6224315.00",
+        "current_source_quantity_kg": "6224528.0",
+        "legacy_price": "1.755354283965384142672727842",
+        "current_source_value_eur": "10925862"
+      },
+      {
+        "period": "2024-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6327842.00",
+        "current_source_quantity_kg": "6317929.0",
+        "legacy_price": "1.758996352943072851692567545",
+        "current_source_value_eur": "11096517"
+      },
+      {
+        "period": "2024-12",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5280886.00",
+        "current_source_quantity_kg": "5281885.0",
+        "legacy_price": "1.788480379996841439106998333",
+        "current_source_value_eur": "9447411"
+      },
+      {
+        "period": "2025-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10373652.00",
+        "current_source_quantity_kg": "10365925.0",
+        "legacy_price": "1.710201576069835386804955478",
+        "current_source_value_eur": "17726472"
+      },
+      {
+        "period": "2025-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10679268.00",
+        "current_source_quantity_kg": "10676753.0",
+        "legacy_price": "1.832409112684502346040945878",
+        "current_source_value_eur": "19560838"
+      },
+      {
+        "period": "2025-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9995784.00",
+        "current_source_quantity_kg": "9995779.0",
+        "legacy_price": "1.918695021821199817843202694",
+        "current_source_value_eur": "19178736"
+      },
+      {
+        "period": "2025-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7179165.00",
+        "current_source_quantity_kg": "7179166.0",
+        "legacy_price": "1.893381890512336741111257368",
+        "current_source_value_eur": "13596845"
+      },
+      {
+        "period": "2025-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "8766471.00",
+        "current_source_quantity_kg": "8766470.0",
+        "legacy_price": "1.672549877824269309737065234",
+        "current_source_value_eur": "14662334"
+      },
+      {
+        "period": "2025-07",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5093060.00",
+        "current_source_quantity_kg": "5093059.0",
+        "legacy_price": "1.837771202381279623644724390",
+        "current_source_value_eur": "9359852"
+      },
+      {
+        "period": "2025-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5311293.00",
+        "current_source_quantity_kg": "5301600.0",
+        "legacy_price": "1.846407080159200405626275937",
+        "current_source_value_eur": "9789297"
+      },
+      {
+        "period": "2025-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7235223.00",
+        "current_source_quantity_kg": "7261298.0",
+        "legacy_price": "1.831558059786132369382394986",
+        "current_source_value_eur": "13285195"
+      },
+      {
+        "period": "2025-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "8284269.00",
+        "current_source_quantity_kg": "8264158.0",
+        "legacy_price": "1.651444080340703567206714316",
+        "current_source_value_eur": "13650616"
+      },
+      {
+        "period": "2025-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9494010.00",
+        "current_source_quantity_kg": "9493250.0",
+        "legacy_price": "1.642943814046962242508697589",
+        "current_source_value_eur": "15595237"
+      },
+      {
+        "period": "2025-12",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "8014771.00",
+        "current_source_quantity_kg": "8000491.0",
+        "legacy_price": "1.771656981840154884026006482",
+        "current_source_value_eur": "14177838"
+      },
+      {
+        "period": "2026-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9520943.00",
+        "current_source_quantity_kg": "9514807.0",
+        "legacy_price": "1.943250894370442087511709712",
+        "current_source_value_eur": "18491851"
+      },
+      {
+        "period": "2026-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10447567.00",
+        "current_source_quantity_kg": "10423861.0",
+        "legacy_price": "1.915961582251638108662045431",
+        "current_source_value_eur": "19978726"
+      },
+      {
+        "period": "2026-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "12226779.00",
+        "current_source_quantity_kg": "12199946.0",
+        "legacy_price": "1.958990998365145881838544722",
+        "current_source_value_eur": "23881662"
+      },
+      {
+        "period": "2026-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9344651.00",
+        "current_source_quantity_kg": "9334990.0",
+        "legacy_price": "2.007996018256861599218633205",
+        "current_source_value_eur": "18741277"
+      },
+      {
+        "period": "2026-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "7062594.00",
+        "current_source_quantity_kg": "7049620.0",
+        "legacy_price": "2.014806740979305903751511130",
+        "current_source_value_eur": "14205814"
+      },
+      {
+        "period": "2026-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6896499.00",
+        "current_source_quantity_kg": "6878728.0",
+        "legacy_price": "1.899536996960341761812769059",
+        "current_source_value_eur": "13072050"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  },
+  {
+    "commercial_entity": "westerwold-ryegrass",
+    "common_name": "Westerwold ryegrass",
+    "botanical_name": "Lolium multiflorum var. westerwoldicum",
+    "biological_species": "Lolium multiflorum",
+    "displayed_legacy_price": "1.385825390072741174637487969",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12092510"
+    ],
+    "official_cn_description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Lolium multiflorum"
+    ],
+    "scope_precision": "PARENT_SPECIES_NOT_FORM_SPECIFIC",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "5078546.999999999999999999998",
+    "legacy_quantity_basis_kg": "3664637.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "SOURCE_PUBLIC_SAFE;PRICE_ATTRIBUTION_NOT_PUBLISHABLE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": true,
+    "decision": "NOT PUBLISHABLE",
+    "latest_publishable_period": null,
+    "latest_publishable_price": null,
+    "verified_price_points": 0,
+    "verified_source_witness_ids": [],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2024-01",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2935603.00",
+        "current_source_quantity_kg": "2935603.0",
+        "legacy_price": "1.268935888129287236727854550",
+        "current_source_value_eur": "3725092"
+      },
+      {
+        "period": "2024-02",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3859175.00",
+        "current_source_quantity_kg": "3859175.0",
+        "legacy_price": "1.164178095059177155739244787",
+        "current_source_value_eur": "4492767"
+      },
+      {
+        "period": "2024-03",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2450268.00",
+        "current_source_quantity_kg": "2450268.0",
+        "legacy_price": "1.450147085951414294273116247",
+        "current_source_value_eur": "3553249"
+      },
+      {
+        "period": "2024-04",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3623727.00",
+        "current_source_quantity_kg": "3623727.0",
+        "legacy_price": "1.308395472396237354524775183",
+        "current_source_value_eur": "4741268"
+      },
+      {
+        "period": "2024-05",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3441848.00",
+        "current_source_quantity_kg": "3441848.0",
+        "legacy_price": "1.292863310640097993868410226",
+        "current_source_value_eur": "4449839"
+      },
+      {
+        "period": "2024-06",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3454431.00",
+        "current_source_quantity_kg": "3454431.0",
+        "legacy_price": "1.359339063365283602422511841",
+        "current_source_value_eur": "4695743"
+      },
+      {
+        "period": "2024-07",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3061597.00",
+        "current_source_quantity_kg": "3061597.0",
+        "legacy_price": "1.453583864891427578482733031",
+        "current_source_value_eur": "4450288"
+      },
+      {
+        "period": "2024-08",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "4226980.00",
+        "current_source_quantity_kg": "4226980.0",
+        "legacy_price": "1.453664318260318241392199632",
+        "current_source_value_eur": "6144610"
+      },
+      {
+        "period": "2024-09",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "6797247.00",
+        "current_source_quantity_kg": "6797247.0",
+        "legacy_price": "1.402738049683938217928523121",
+        "current_source_value_eur": "9534757"
+      },
+      {
+        "period": "2024-10",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "4734155.00",
+        "current_source_quantity_kg": "4734280.0",
+        "legacy_price": "1.354615131950686025278006318",
+        "current_source_value_eur": "6413221"
+      },
+      {
+        "period": "2024-11",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3868165.00",
+        "current_source_quantity_kg": "3868159.0",
+        "legacy_price": "1.122419028143835642998682838",
+        "current_source_value_eur": "4340200"
+      },
+      {
+        "period": "2024-12",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "1390677.00",
+        "current_source_quantity_kg": "1390677.0",
+        "legacy_price": "1.620934983464887964638805416",
+        "current_source_value_eur": "2254197"
+      },
+      {
+        "period": "2025-01",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "1740844.00",
+        "current_source_quantity_kg": "1723094.0",
+        "legacy_price": "1.574594277258617084586556866",
+        "current_source_value_eur": "2713611"
+      },
+      {
+        "period": "2025-02",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2446800.00",
+        "current_source_quantity_kg": "2446800.0",
+        "legacy_price": "1.609503433055419323197645905",
+        "current_source_value_eur": "3938133"
+      },
+      {
+        "period": "2025-03",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2452486.00",
+        "current_source_quantity_kg": "2451424.0",
+        "legacy_price": "1.512817198548737892897247935",
+        "current_source_value_eur": "3666470"
+      },
+      {
+        "period": "2025-04",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2220075.00",
+        "current_source_quantity_kg": "2220075.0",
+        "legacy_price": "1.476561377430942648333952682",
+        "current_source_value_eur": "3278077"
+      },
+      {
+        "period": "2025-05",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2395747.00",
+        "current_source_quantity_kg": "2395693.0",
+        "legacy_price": "1.658402577567664699152289453",
+        "current_source_value_eur": "3914364"
+      },
+      {
+        "period": "2025-06",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3573158.00",
+        "current_source_quantity_kg": "3572991.0",
+        "legacy_price": "1.465738150957780204513766254",
+        "current_source_value_eur": "5198477"
+      },
+      {
+        "period": "2025-07",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "6117690.00",
+        "current_source_quantity_kg": "6095690.0",
+        "legacy_price": "1.361795056630852494977679484",
+        "current_source_value_eur": "8297380"
+      },
+      {
+        "period": "2025-08",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "5782004.00",
+        "current_source_quantity_kg": "5782004.0",
+        "legacy_price": "1.457880347367452530299183466",
+        "current_source_value_eur": "8429470"
+      },
+      {
+        "period": "2025-09",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "7515228.00",
+        "current_source_quantity_kg": "7520276.0",
+        "legacy_price": "1.483815261493064481875998972",
+        "current_source_value_eur": "11160168"
+      },
+      {
+        "period": "2025-10",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3690579.00",
+        "current_source_quantity_kg": "3690879.0",
+        "legacy_price": "1.382245983624791665481215820",
+        "current_source_value_eur": "5101872"
+      },
+      {
+        "period": "2025-11",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2645132.00",
+        "current_source_quantity_kg": "2645132.0",
+        "legacy_price": "1.363542537763710846944500312",
+        "current_source_value_eur": "3606750"
+      },
+      {
+        "period": "2025-12",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "997502.00",
+        "current_source_quantity_kg": "997502.0",
+        "legacy_price": "1.408166600167217709839178267",
+        "current_source_value_eur": "1404649"
+      },
+      {
+        "period": "2026-01",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "4550961.00",
+        "current_source_quantity_kg": "4550961.0",
+        "legacy_price": "1.168579779084022034027538359",
+        "current_source_value_eur": "5318161"
+      },
+      {
+        "period": "2026-02",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2761242.00",
+        "current_source_quantity_kg": "2761242.0",
+        "legacy_price": "1.585187390312040741086800795",
+        "current_source_value_eur": "4377086"
+      },
+      {
+        "period": "2026-03",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3204582.00",
+        "current_source_quantity_kg": "3204582.0",
+        "legacy_price": "1.528990676475122184422180490",
+        "current_source_value_eur": "4899776"
+      },
+      {
+        "period": "2026-04",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3066178.00",
+        "current_source_quantity_kg": "3066178.0",
+        "legacy_price": "1.519282311724890074874974643",
+        "current_source_value_eur": "4658390"
+      },
+      {
+        "period": "2026-05",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "2514587.00",
+        "current_source_quantity_kg": "2514587.0",
+        "legacy_price": "1.552450959143588986978776236",
+        "current_source_value_eur": "3903773"
+      },
+      {
+        "period": "2026-06",
+        "reason": "PARENT_SPECIES_PRICE_NOT_ALLOCATABLE_TO_COMMERCIAL_FORM",
+        "legacy_quantity_kg": "3664637.00",
+        "current_source_quantity_kg": "3664637.0",
+        "legacy_price": "1.385825390072741174637487969",
+        "current_source_value_eur": "5078547"
+      }
+    ],
+    "decision_rationale": "Parent Lolium multiflorum price cannot be assigned to Westerwold commercial form."
+  },
+  {
+    "commercial_entity": "meadow-fescue",
+    "common_name": "Meadow fescue",
+    "botanical_name": "Festuca pratensis",
+    "biological_species": "Festuca pratensis",
+    "displayed_legacy_price": "2.660855660855660855660855661",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12092311"
+    ],
+    "official_cn_description": "Meadow fescue seed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Festuca pratensis"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "477589.0000000000000000000000",
+    "legacy_quantity_basis_kg": "179487.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2026-06",
+    "latest_publishable_price": 2.660855660855661,
+    "verified_price_points": 29,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:meadow-fescue:2024-01",
+      "PRICE-WITNESS:meadow-fescue:2024-02",
+      "PRICE-WITNESS:meadow-fescue:2024-03",
+      "PRICE-WITNESS:meadow-fescue:2024-04",
+      "PRICE-WITNESS:meadow-fescue:2024-05",
+      "PRICE-WITNESS:meadow-fescue:2024-06",
+      "PRICE-WITNESS:meadow-fescue:2024-07",
+      "PRICE-WITNESS:meadow-fescue:2024-08",
+      "PRICE-WITNESS:meadow-fescue:2024-09",
+      "PRICE-WITNESS:meadow-fescue:2024-10",
+      "PRICE-WITNESS:meadow-fescue:2024-11",
+      "PRICE-WITNESS:meadow-fescue:2024-12",
+      "PRICE-WITNESS:meadow-fescue:2025-01",
+      "PRICE-WITNESS:meadow-fescue:2025-02",
+      "PRICE-WITNESS:meadow-fescue:2025-03",
+      "PRICE-WITNESS:meadow-fescue:2025-05",
+      "PRICE-WITNESS:meadow-fescue:2025-06",
+      "PRICE-WITNESS:meadow-fescue:2025-07",
+      "PRICE-WITNESS:meadow-fescue:2025-08",
+      "PRICE-WITNESS:meadow-fescue:2025-09",
+      "PRICE-WITNESS:meadow-fescue:2025-10",
+      "PRICE-WITNESS:meadow-fescue:2025-11",
+      "PRICE-WITNESS:meadow-fescue:2025-12",
+      "PRICE-WITNESS:meadow-fescue:2026-01",
+      "PRICE-WITNESS:meadow-fescue:2026-02",
+      "PRICE-WITNESS:meadow-fescue:2026-03",
+      "PRICE-WITNESS:meadow-fescue:2026-04",
+      "PRICE-WITNESS:meadow-fescue:2026-05",
+      "PRICE-WITNESS:meadow-fescue:2026-06"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2025-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "217035.00",
+        "current_source_quantity_kg": "217380.0",
+        "legacy_price": "2.685235100329439952081461515",
+        "current_source_value_eur": "584565"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  },
+  {
+    "commercial_entity": "field-pea",
+    "common_name": "Pea",
+    "botanical_name": "Pisum sativum",
+    "biological_species": "Pisum sativum",
+    "displayed_legacy_price": "0.8358094243339503738715928420",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "07131010"
+    ],
+    "official_cn_description": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Pisum sativum"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "2371809.000000000000000000000",
+    "legacy_quantity_basis_kg": "2837739.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2026-06",
+    "latest_publishable_price": 0.8358094243339503,
+    "verified_price_points": 3,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:field-pea:2025-06",
+      "PRICE-WITNESS:field-pea:2025-07",
+      "PRICE-WITNESS:field-pea:2026-06"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2024-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10258850.00",
+        "current_source_quantity_kg": "9987496.0",
+        "legacy_price": "1.371286937619713710601090766",
+        "current_source_value_eur": "13609515"
+      },
+      {
+        "period": "2024-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "12989457.00",
+        "current_source_quantity_kg": "12679644.0",
+        "legacy_price": "1.441056158082666581058777130",
+        "current_source_value_eur": "18222627"
+      },
+      {
+        "period": "2024-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10302711.00",
+        "current_source_quantity_kg": "10260494.0",
+        "legacy_price": "1.522038228578866280923535563",
+        "current_source_value_eur": "15616014"
+      },
+      {
+        "period": "2024-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9275110.00",
+        "current_source_quantity_kg": "9265824.0",
+        "legacy_price": "0.9599065671458343890261139760",
+        "current_source_value_eur": "8890037"
+      },
+      {
+        "period": "2024-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2514366.00",
+        "current_source_quantity_kg": "2514364.0",
+        "legacy_price": "1.144053013761719654179224504",
+        "current_source_value_eur": "2876552"
+      },
+      {
+        "period": "2024-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1011043.00",
+        "current_source_quantity_kg": "1009543.0",
+        "legacy_price": "0.8785293998375934554712311939",
+        "current_source_value_eur": "883162"
+      },
+      {
+        "period": "2024-07",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "9486107.00",
+        "current_source_quantity_kg": "9486121.0",
+        "legacy_price": "0.5620155876377949352669119166",
+        "current_source_value_eur": "5331387"
+      },
+      {
+        "period": "2024-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6373520.00",
+        "current_source_quantity_kg": "6373548.0",
+        "legacy_price": "0.7211602066048274736723192208",
+        "current_source_value_eur": "4596404"
+      },
+      {
+        "period": "2024-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4456629.00",
+        "current_source_quantity_kg": "4459763.0",
+        "legacy_price": "1.050019869277877965610330140",
+        "current_source_value_eur": "4678032"
+      },
+      {
+        "period": "2024-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5072155.00",
+        "current_source_quantity_kg": "5102213.0",
+        "legacy_price": "1.356522424886463446010620732",
+        "current_source_value_eur": "6871946"
+      },
+      {
+        "period": "2024-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6860704.00",
+        "current_source_quantity_kg": "6788939.0",
+        "legacy_price": "1.483365409730546602797613773",
+        "current_source_value_eur": "10052341"
+      },
+      {
+        "period": "2024-12",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5112911.00",
+        "current_source_quantity_kg": "5096717.0",
+        "legacy_price": "1.574119518215748328105065783",
+        "current_source_value_eur": "8004251"
+      },
+      {
+        "period": "2025-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "8649334.00",
+        "current_source_quantity_kg": "8418077.0",
+        "legacy_price": "1.382956306231208090703862286",
+        "current_source_value_eur": "11617383"
+      },
+      {
+        "period": "2025-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "12352800.00",
+        "current_source_quantity_kg": "11822763.0",
+        "legacy_price": "1.411899569328411372320445567",
+        "current_source_value_eur": "16653526"
+      },
+      {
+        "period": "2025-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "11360927.00",
+        "current_source_quantity_kg": "11202696.0",
+        "legacy_price": "1.416309690221581390321405991",
+        "current_source_value_eur": "15834420"
+      },
+      {
+        "period": "2025-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4698180.00",
+        "current_source_quantity_kg": "4687810.0",
+        "legacy_price": "1.207251744292470701420550085",
+        "current_source_value_eur": "5652734"
+      },
+      {
+        "period": "2025-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2352916.00",
+        "current_source_quantity_kg": "2353511.0",
+        "legacy_price": "1.226999178891214135991255106",
+        "current_source_value_eur": "2887041"
+      },
+      {
+        "period": "2025-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3179062.00",
+        "current_source_quantity_kg": "3176512.0",
+        "legacy_price": "1.264476754464052604195828833",
+        "current_source_value_eur": "4015542"
+      },
+      {
+        "period": "2025-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "13427478.00",
+        "current_source_quantity_kg": "13464062.0",
+        "legacy_price": "0.6898710986530754323336072493",
+        "current_source_value_eur": "9286358"
+      },
+      {
+        "period": "2025-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "6595112.00",
+        "current_source_quantity_kg": "6673493.0",
+        "legacy_price": "1.207703220203083738380788681",
+        "current_source_value_eur": "8001652"
+      },
+      {
+        "period": "2025-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3544052.00",
+        "current_source_quantity_kg": "3516004.0",
+        "legacy_price": "1.467739750996881535598236143",
+        "current_source_value_eur": "5141218"
+      },
+      {
+        "period": "2025-12",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5252314.00",
+        "current_source_quantity_kg": "5254464.0",
+        "legacy_price": "1.363822307653350504177777642",
+        "current_source_value_eur": "7162993"
+      },
+      {
+        "period": "2026-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "8075695.00",
+        "current_source_quantity_kg": "8043689.0",
+        "legacy_price": "1.618073119403345470575597518",
+        "current_source_value_eur": "13011812"
+      },
+      {
+        "period": "2026-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10983462.00",
+        "current_source_quantity_kg": "10361272.0",
+        "legacy_price": "1.476362370990130434283835097",
+        "current_source_value_eur": "15201238"
+      },
+      {
+        "period": "2026-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "10070802.00",
+        "current_source_quantity_kg": "9834062.0",
+        "legacy_price": "1.366980206740237768551104470",
+        "current_source_value_eur": "13367845"
+      },
+      {
+        "period": "2026-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4598075.00",
+        "current_source_quantity_kg": "4596416.0",
+        "legacy_price": "1.241727897000375156995046840",
+        "current_source_value_eur": "5707205"
+      },
+      {
+        "period": "2026-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1507559.00",
+        "current_source_quantity_kg": "1506689.0",
+        "legacy_price": "1.052173082446524480965587416",
+        "current_source_value_eur": "1585184"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  },
+  {
+    "commercial_entity": "red-clover",
+    "common_name": "Red clover",
+    "botanical_name": "Trifolium pratense",
+    "biological_species": "Trifolium pratense",
+    "displayed_legacy_price": "4.947958923239411778132372745",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12092210"
+    ],
+    "official_cn_description": "Red clover \"Trifolium pratense L.\" seed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Trifolium pratense"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "2384555.000000000000000000000",
+    "legacy_quantity_basis_kg": "481927.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2026-06",
+    "latest_publishable_price": 4.947958923239412,
+    "verified_price_points": 26,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:red-clover:2024-01",
+      "PRICE-WITNESS:red-clover:2024-02",
+      "PRICE-WITNESS:red-clover:2024-03",
+      "PRICE-WITNESS:red-clover:2024-04",
+      "PRICE-WITNESS:red-clover:2024-05",
+      "PRICE-WITNESS:red-clover:2024-06",
+      "PRICE-WITNESS:red-clover:2024-07",
+      "PRICE-WITNESS:red-clover:2024-08",
+      "PRICE-WITNESS:red-clover:2024-09",
+      "PRICE-WITNESS:red-clover:2024-10",
+      "PRICE-WITNESS:red-clover:2024-11",
+      "PRICE-WITNESS:red-clover:2024-12",
+      "PRICE-WITNESS:red-clover:2025-04",
+      "PRICE-WITNESS:red-clover:2025-05",
+      "PRICE-WITNESS:red-clover:2025-06",
+      "PRICE-WITNESS:red-clover:2025-07",
+      "PRICE-WITNESS:red-clover:2025-08",
+      "PRICE-WITNESS:red-clover:2025-09",
+      "PRICE-WITNESS:red-clover:2025-10",
+      "PRICE-WITNESS:red-clover:2025-11",
+      "PRICE-WITNESS:red-clover:2025-12",
+      "PRICE-WITNESS:red-clover:2026-01",
+      "PRICE-WITNESS:red-clover:2026-03",
+      "PRICE-WITNESS:red-clover:2026-04",
+      "PRICE-WITNESS:red-clover:2026-05",
+      "PRICE-WITNESS:red-clover:2026-06"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2025-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1699661.00",
+        "current_source_quantity_kg": "1699211.0",
+        "legacy_price": "4.981900508395497690421795876",
+        "current_source_value_eur": "8462552"
+      },
+      {
+        "period": "2025-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1457768.00",
+        "current_source_quantity_kg": "1449768.0",
+        "legacy_price": "5.280685952771634443889562674",
+        "current_source_value_eur": "7657915"
+      },
+      {
+        "period": "2025-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1429472.00",
+        "current_source_quantity_kg": "1425272.0",
+        "legacy_price": "5.422947074164446732779655705",
+        "current_source_value_eur": "7729261"
+      },
+      {
+        "period": "2026-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1394783.00",
+        "current_source_quantity_kg": "1395783.0",
+        "legacy_price": "5.139615983274817659808013146",
+        "current_source_value_eur": "7207649"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  },
+  {
+    "commercial_entity": "alfalfa",
+    "common_name": "Alfalfa / lucerne",
+    "botanical_name": "Medicago sativa",
+    "biological_species": "Medicago sativa",
+    "displayed_legacy_price": "3.596360524593854878314770385",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12092100"
+    ],
+    "official_cn_description": "Alfalfa seed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Medicago sativa"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "4089177.000000000000000000000",
+    "legacy_quantity_basis_kg": "1137032.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2024-12",
+    "latest_publishable_price": 4.0979661805871315,
+    "verified_price_points": 2,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:alfalfa:2024-01",
+      "PRICE-WITNESS:alfalfa:2024-12"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2024-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4714450.00",
+        "current_source_quantity_kg": "4717447.0",
+        "legacy_price": "4.469814294350348396949803264",
+        "current_source_value_eur": "21090496"
+      },
+      {
+        "period": "2024-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4679877.00",
+        "current_source_quantity_kg": "4673931.0",
+        "legacy_price": "4.456596188318624613424669067",
+        "current_source_value_eur": "20833066"
+      },
+      {
+        "period": "2024-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3185917.00",
+        "current_source_quantity_kg": "3188817.0",
+        "legacy_price": "3.762699718793678554714388353",
+        "current_source_value_eur": "11989678"
+      },
+      {
+        "period": "2024-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1931809.00",
+        "current_source_quantity_kg": "1930704.0",
+        "legacy_price": "3.755761050911347860994539315",
+        "current_source_value_eur": "7247733"
+      },
+      {
+        "period": "2024-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "839275.00",
+        "current_source_quantity_kg": "880875.0",
+        "legacy_price": "3.963798516576807363498257425",
+        "current_source_value_eur": "3509167"
+      },
+      {
+        "period": "2024-07",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "891719.00",
+        "current_source_quantity_kg": "891323.0",
+        "legacy_price": "3.081250932188279043061771702",
+        "current_source_value_eur": "2744136"
+      },
+      {
+        "period": "2024-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1429859.00",
+        "current_source_quantity_kg": "1427859.0",
+        "legacy_price": "3.577996152068140984530642532",
+        "current_source_value_eur": "5101630"
+      },
+      {
+        "period": "2024-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1601741.00",
+        "current_source_quantity_kg": "1668416.0",
+        "legacy_price": "3.256936670785101960928764388",
+        "current_source_value_eur": "5488137"
+      },
+      {
+        "period": "2024-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1224654.00",
+        "current_source_quantity_kg": "1259654.0",
+        "legacy_price": "2.478014198296008505259444708",
+        "current_source_value_eur": "3192060"
+      },
+      {
+        "period": "2024-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1615995.00",
+        "current_source_quantity_kg": "1635815.0",
+        "legacy_price": "3.198037122639612127512770770",
+        "current_source_value_eur": "5247848"
+      },
+      {
+        "period": "2025-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3352156.00",
+        "current_source_quantity_kg": "3352176.0",
+        "legacy_price": "4.371709431183990243890797445",
+        "current_source_value_eur": "14664342"
+      },
+      {
+        "period": "2025-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4707523.00",
+        "current_source_quantity_kg": "4731261.0",
+        "legacy_price": "4.362851333918071138473460459",
+        "current_source_value_eur": "20666118"
+      },
+      {
+        "period": "2025-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "5549410.00",
+        "current_source_quantity_kg": "5551460.0",
+        "legacy_price": "4.424495577007285459174939318",
+        "current_source_value_eur": "24555749"
+      },
+      {
+        "period": "2025-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3532169.00",
+        "current_source_quantity_kg": "3564551.0",
+        "legacy_price": "4.180633486110092693752762113",
+        "current_source_value_eur": "14851197"
+      },
+      {
+        "period": "2025-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2237473.00",
+        "current_source_quantity_kg": "2247998.0",
+        "legacy_price": "2.584076321814833072846018701",
+        "current_source_value_eur": "5832731"
+      },
+      {
+        "period": "2025-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1540173.00",
+        "current_source_quantity_kg": "1540473.0",
+        "legacy_price": "2.565976029965464918551357542",
+        "current_source_value_eur": "3954828"
+      },
+      {
+        "period": "2025-07",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1319011.00",
+        "current_source_quantity_kg": "1324757.0",
+        "legacy_price": "2.593261163098715628603552207",
+        "current_source_value_eur": "3437260"
+      },
+      {
+        "period": "2025-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1775501.00",
+        "current_source_quantity_kg": "1792861.0",
+        "legacy_price": "2.517681488210933139435010175",
+        "current_source_value_eur": "4532926"
+      },
+      {
+        "period": "2025-09",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1732130.00",
+        "current_source_quantity_kg": "1816092.0",
+        "legacy_price": "3.393145433656827143459209182",
+        "current_source_value_eur": "6168329"
+      },
+      {
+        "period": "2025-10",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2051258.00",
+        "current_source_quantity_kg": "2134418.0",
+        "legacy_price": "2.967210853047251979029454120",
+        "current_source_value_eur": "6464625"
+      },
+      {
+        "period": "2025-11",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1655566.00",
+        "current_source_quantity_kg": "1702166.0",
+        "legacy_price": "3.979718114530015716679371285",
+        "current_source_value_eur": "6756286"
+      },
+      {
+        "period": "2025-12",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2112011.00",
+        "current_source_quantity_kg": "2139311.0",
+        "legacy_price": "3.585576969059346755296255559",
+        "current_source_value_eur": "7746828"
+      },
+      {
+        "period": "2026-01",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3196879.00",
+        "current_source_quantity_kg": "3202227.0",
+        "legacy_price": "5.052364509260438071006128164",
+        "current_source_value_eur": "16218798"
+      },
+      {
+        "period": "2026-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "4627923.00",
+        "current_source_quantity_kg": "4701162.0",
+        "legacy_price": "5.130150393599893515946570416",
+        "current_source_value_eur": "24258241"
+      },
+      {
+        "period": "2026-03",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "3938748.00",
+        "current_source_quantity_kg": "3983648.0",
+        "legacy_price": "4.910610935251506316220281165",
+        "current_source_value_eur": "19620974"
+      },
+      {
+        "period": "2026-04",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2538912.00",
+        "current_source_quantity_kg": "2593914.0",
+        "legacy_price": "5.028943894077463102305239410",
+        "current_source_value_eur": "13121091"
+      },
+      {
+        "period": "2026-05",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1214031.00",
+        "current_source_quantity_kg": "1234056.0",
+        "legacy_price": "4.771140934621933047838152403",
+        "current_source_value_eur": "5883438"
+      },
+      {
+        "period": "2026-06",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "1137032.00",
+        "current_source_quantity_kg": "1146912.0",
+        "legacy_price": "3.596360524593854878314770385",
+        "current_source_value_eur": "4133042"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  },
+  {
+    "commercial_entity": "flax",
+    "common_name": "Flax / linseed",
+    "botanical_name": "Linum usitatissimum",
+    "biological_species": "Linum usitatissimum",
+    "displayed_legacy_price": "0.9879172606119362606007860324",
+    "unit": "EUR_PER_KG",
+    "legacy_observation_period": "2026-06",
+    "source_dataset": "src/generated/market_public.json",
+    "cn_codes": [
+      "12040010"
+    ],
+    "official_cn_description": "Linseed for sowing",
+    "sowing_status": "SOWING_SPECIFIC",
+    "species_scope": [
+      "Linum usitatissimum"
+    ],
+    "scope_precision": "DIRECT_BIOLOGICAL_SPECIES",
+    "quantity_basis": "EU27 reporter export/dispatch net weight kg; EU and third-country partners; no mirror imports",
+    "value_basis": "EUR declared statistical export value for exactly the same observations",
+    "calculation_formula": "sum(trade_value_eur)/sum(net_weight_kg)",
+    "legacy_implied_value_eur": "1683412.000000000000000000000",
+    "legacy_quantity_basis_kg": "1704001.00",
+    "provenance": "Exact original published price and quantity matched to retained official observations; annual CN scope compatibility retained",
+    "public_safe_status": "PUBLIC_SAFE",
+    "v4_rejection": "Independent price geography/methodology not established",
+    "v4_rejection_required": false,
+    "decision": "PUBLISHABLE",
+    "latest_publishable_period": "2026-06",
+    "latest_publishable_price": 0.9879172606119363,
+    "verified_price_points": 28,
+    "verified_source_witness_ids": [
+      "PRICE-WITNESS:flax:2024-01",
+      "PRICE-WITNESS:flax:2024-02",
+      "PRICE-WITNESS:flax:2024-03",
+      "PRICE-WITNESS:flax:2024-04",
+      "PRICE-WITNESS:flax:2024-05",
+      "PRICE-WITNESS:flax:2024-06",
+      "PRICE-WITNESS:flax:2024-07",
+      "PRICE-WITNESS:flax:2024-09",
+      "PRICE-WITNESS:flax:2024-10",
+      "PRICE-WITNESS:flax:2024-11",
+      "PRICE-WITNESS:flax:2024-12",
+      "PRICE-WITNESS:flax:2025-01",
+      "PRICE-WITNESS:flax:2025-03",
+      "PRICE-WITNESS:flax:2025-04",
+      "PRICE-WITNESS:flax:2025-05",
+      "PRICE-WITNESS:flax:2025-06",
+      "PRICE-WITNESS:flax:2025-07",
+      "PRICE-WITNESS:flax:2025-08",
+      "PRICE-WITNESS:flax:2025-09",
+      "PRICE-WITNESS:flax:2025-10",
+      "PRICE-WITNESS:flax:2025-11",
+      "PRICE-WITNESS:flax:2025-12",
+      "PRICE-WITNESS:flax:2026-01",
+      "PRICE-WITNESS:flax:2026-02",
+      "PRICE-WITNESS:flax:2026-03",
+      "PRICE-WITNESS:flax:2026-04",
+      "PRICE-WITNESS:flax:2026-05",
+      "PRICE-WITNESS:flax:2026-06"
+    ],
+    "unresolved_original_source_observations": "Original earlier source vintage unavailable for non-reconciling legacy points; no silent correction",
+    "rejected_points": [
+      {
+        "period": "2024-08",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "794748.00",
+        "current_source_quantity_kg": "794680.0",
+        "legacy_price": "0.9797243906244495110399774520",
+        "current_source_value_eur": "778443"
+      },
+      {
+        "period": "2025-02",
+        "reason": "LEGACY_POINT_NOT_EXACTLY_RECONCILED_TO_HELD_SOURCE_VINTAGE",
+        "legacy_quantity_kg": "2386959.00",
+        "current_source_quantity_kg": "2385309.0",
+        "legacy_price": "1.382386961820458583494731162",
+        "current_source_value_eur": "3297041"
+      }
+    ],
+    "decision_rationale": "Use latest independently reproduced existing point; no equality with trade-volume month required."
+  }
+]

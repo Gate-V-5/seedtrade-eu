@@ -1,0 +1,152 @@
+{
+  "reference_checkpoint_sha256": "19eb0fccb220587387de9e78e3a17e9b69e501cf2de87272f5f04bf2ba7a8e60",
+  "changes": [
+    {
+      "path": "src/MarketCatalogue.jsx",
+      "status": "MODIFIED",
+      "sha256": "9a57cf9a1da3b42409db5dd2978785f5608e3f56449feae5a8a8016947372e4b"
+    },
+    {
+      "path": "src/CommercialSeedCard.jsx",
+      "status": "MODIFIED",
+      "sha256": "ed999098985d672f7f4dcfef4e20f6f6f3b4302f17e7ea7190df6c71764d2fef"
+    },
+    {
+      "path": "src/tradeKpiDisplay.mjs",
+      "status": "ADDED",
+      "sha256": "23db0869b9d1d879ddb625d52856f6353b6f5f3cdb374998ab4015197c06af29"
+    },
+    {
+      "path": "tests/priceKpiRender.test.mjs",
+      "status": "ADDED",
+      "sha256": "069a994424b49684c5ab7fa9be2b910778cc385d8f20a2ba9231b2dd759647d5"
+    },
+    {
+      "path": "tests/commercialCards.test.mjs",
+      "status": "MODIFIED",
+      "sha256": "d608fb1d68f31331481d7788f9a07b61e043e0654f419dd35b348f5b7c3bde85"
+    },
+    {
+      "path": "tests/priceKpiAudit.test.mjs",
+      "status": "ADDED",
+      "sha256": "7a53e56414f80aca15cc0851deae2778914559908e0ee9013d3019455cd15091"
+    },
+    {
+      "path": "tests/marketCatalogue.test.mjs",
+      "status": "MODIFIED",
+      "sha256": "00cc141248be4d3c971203421ab3d73e073058e47888ad2c3bffc7d4237adcbc"
+    },
+    {
+      "path": "tests/commercialV4.test.mjs",
+      "status": "MODIFIED",
+      "sha256": "c1f708a53afb6115cf78737b40bb5a950ec5031aa74d9169c321e8daf971b210"
+    },
+    {
+      "path": "scripts/validate_price_kpi_v1.py",
+      "status": "ADDED",
+      "sha256": "c455b3655b5c84e4555d9d4bc5f717212a16759488f7e0b8e76b326e34986be1"
+    },
+    {
+      "path": "scripts/resolve_price_kpi_v1.py",
+      "status": "ADDED",
+      "sha256": "4c951c39082feb54b307f901464ac8606041efe192176aeaf85ecedc65ed4d3c"
+    },
+    {
+      "path": "scripts/validate_commercial_v4.py",
+      "status": "MODIFIED",
+      "sha256": "f6450f342f8f90554e7735bbb11694bcab19475d1b026e98312514e4a55b9758"
+    },
+    {
+      "path": "scripts/validate_market_catalogue.py",
+      "status": "MODIFIED",
+      "sha256": "da1b9b892d5460f4aaf4f74d543f1d87471992349c00c38ac58e99a2c098624e"
+    },
+    {
+      "path": "src/i18n/messages.js",
+      "status": "MODIFIED",
+      "sha256": "66e84b2b2e8266b8ccad136ee35927d512ab2869c97d8a3c400e2b46ccbba5c9"
+    },
+    {
+      "path": "src/generated/market_snapshot_public.json",
+      "status": "MODIFIED",
+      "sha256": "772871a4034c81e0c1e4d59ad6db62153074e12913858c15a1441486dbe36a0d"
+    },
+    {
+      "path": "src/generated/market_catalogue_public.json",
+      "status": "MODIFIED",
+      "sha256": "39d02a78a9e36d3e0b8cd1945a1d6edd198030d2339e57da34d1aca7a761be9b"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/targeted-qa.log",
+      "status": "ADDED",
+      "sha256": "4d7b5120bd6b1bb274349f72984b56187c71d5560b9021c3e2dddbbbea1d0f4b"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/multilingual.log",
+      "status": "ADDED",
+      "sha256": "b7ad2142557a18a822fede78572c8a716dae7f8903ddfb9475949d39d262df61"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/QA_RESULT.json",
+      "status": "ADDED",
+      "sha256": "1155fc349ddc59215879945067ce6b215b319b3390089f303750baf13285714f"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/python-tests.log",
+      "status": "ADDED",
+      "sha256": "a234646ce34eeb280383a02931b9e536599522eb12916b6ed987bb0d6f07f54d"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/node-tests.log",
+      "status": "ADDED",
+      "sha256": "c0c9a898045e733b56a5ed730fce80a7f9522643982104788a326da3c12e6501"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/DOUBLE_COUNTING_AUDIT.json",
+      "status": "ADDED",
+      "sha256": "28de159f28f8bcc021d96b563f62100efa6a041b0c12960b9a193da3b4c0c506"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/PRICE_CANDIDATE_AUDIT.csv",
+      "status": "ADDED",
+      "sha256": "43974afd40e267272c2ef50a46cf77260c8fc4428b6aeeda2648cfc2fdde5875"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/build.log",
+      "status": "ADDED",
+      "sha256": "40714f2c068cf65e675c5f66eb6cca4f4becaf8431d94f1d60a42139941384d0"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/build-performance.json",
+      "status": "ADDED",
+      "sha256": "9c1ee4b6a959d8ee0492e681a3d471fb2a8ce6affcb31e46cf31b90d73ee804a"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/PRICE_CANDIDATE_AUDIT.json",
+      "status": "ADDED",
+      "sha256": "36dccde26a374166d7474038890d27d272385511148378f9c04be06d859293c4"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/hydration.log",
+      "status": "ADDED",
+      "sha256": "8dde9203c827472e115cbed72d4316d1a7b74a33b0a6226ddab97d092492f320"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/GLOBAL_KPI_AUDIT.json",
+      "status": "ADDED",
+      "sha256": "b47410fbcc7be1b24d1c0cc9a5b0e3b706d57442b0fa0df915047faa7bb700b1"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/REPRODUCIBILITY.json",
+      "status": "ADDED",
+      "sha256": "810500a7c24fabe1e9a8217e1a731f763716a42df811228ca3a0dc608e1b24f8"
+    },
+    {
+      "path": "docs/price-kpi-audit-v1/PRICE_OBSERVATION_WITNESSES.json",
+      "status": "ADDED",
+      "sha256": "8f0b7b27cc3612a696699fe7a2bb9c22c916ae5e4cc708a9924a5f4c30db3bb9"
+    }
+  ],
+  "unrelated_changes": "NONE",
+  "canonical_trade_and_production_observations": "UNCHANGED"
+}

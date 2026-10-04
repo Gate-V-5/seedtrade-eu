@@ -62,7 +62,7 @@ try {
     ['/terms', ['Terms of Use (draft)']],
     ['/confidentiality', ['Commercial Confidentiality']],
     ['/disclaimer', ['Market Intelligence Disclaimer']],
-    ['/market/red-clover', ['Representative price history', 'Leading exporters', 'YoY']],
+    ['/market/red-clover', ['Representative seed price history — €/kg', 'Leading exporters', 'YoY']],
     ['/buying-requests/flax-ls-riviera-c2-100t', ['Packaging', '1,000 kg Big Bag', 'Request contact']],
   ]
   for (const language of languages) {

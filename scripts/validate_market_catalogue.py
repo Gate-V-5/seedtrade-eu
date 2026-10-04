@@ -29,7 +29,7 @@ check("category union covers 65", set().union(*(set(c["entity_ids"]) for c in da
 check("39 multi-category entities", sum(bool(c["secondary_categories"]) for c in cards) == 39)
 check("six unsafe category totals withheld", all(c["trade_volume_t"] is None and c["trade_value_eur"] is None for c in data["categories"]))
 check("all 78 catalogue routes and aliases unique and prerendered", len(routes) == len({r["path"] for r in routes}) == 78 and all((ROOT / "dist" / r["path"].strip("/") / "index.html").exists() for r in routes))
-check("all missing prices withheld", all(c["representative_price_eur_kg"] is None for c in cards))
+check("all missing prices withheld", all(c["representative_price_eur_kg"] is None or any(p.get("eligible") and p.get("scope_verified") and p.get("species_attribution_verified") for p in c.get("price_observations",[])) for c in cards))
 check("group quantities not assigned to species", all(c["trade_volume_t"] is None and c["trade_value_eur"] is None for c in cards if c["customs_scope_type"] == "GROUP_LEVEL_CUSTOMS_SCOPE"))
 check("current wheat/spelt conflict withheld", next(c for c in cards if c["market_entity_id"] == "wheat")["trade_volume_t"] is None)
 check("11 safely attributed trade cards", sum(c["trade_volume_t"] is not None for c in cards) == 11)

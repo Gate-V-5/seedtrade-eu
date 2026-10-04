@@ -21,3 +21,14 @@
 @media(max-width:600px){.market-catalogue .catalogue-global-kpis{grid-template-columns:minmax(0,1fr)}.market-catalogue .catalogue-global-kpis>.catalogue-metric{gap:4px}.market-catalogue .catalogue-global-kpis dt{min-height:0}.market-catalogue .catalogue-global-kpis .catalogue-metric:last-child{grid-column:auto}}
 
 .catalogue-card-measure>dl{margin:0}
+/* V4 evidence panels keep dates/units legible and missing months empty. */
+.catalogue-history-label{font-size:.75rem;color:#647781;margin:12px 0 4px}
+.catalogue-history-panel{position:relative;margin:20px 0}
+.catalogue-evidence-history{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:6px;height:180px;margin:12px 0 35px 48px;align-items:end;border-bottom:1px solid #b6c5ca}
+.catalogue-history-slot{height:100%;display:flex;align-items:flex-end;position:relative;min-width:0}
+.catalogue-history-slot i{display:block;width:100%;background:#159c6a;border-radius:3px 3px 0 0;min-height:1px}
+.catalogue-history-slot small{position:absolute;top:100%;left:50%;transform:translateX(-50%) rotate(-45deg);transform-origin:center;font-size:10px;white-space:nowrap;margin-top:13px}
+.catalogue-history-axis{position:absolute;left:20px;top:75px;bottom:60px;display:flex;flex-direction:column;justify-content:space-between;font-size:11px;color:#647781}
+.catalogue-detail-panel ol{padding-left:22px}.catalogue-detail-panel li{padding:8px 0}.catalogue-detail-panel li b{float:right}
+.catalogue-external{margin-top:20px}.homepage-crops .catalogue-seed-card{min-width:0;height:100%}
+@media(max-width:600px){.catalogue-evidence-history{height:150px;gap:3px;margin-left:35px}.catalogue-history-slot small{font-size:8px}.catalogue-history-axis{left:12px;font-size:10px}.catalogue-detail-metrics{grid-template-columns:1fr}}

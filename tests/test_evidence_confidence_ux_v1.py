@@ -27,13 +27,19 @@ class EvidenceConfidenceUX(unittest.TestCase):
         self.assertEqual("2026-06", market["latest_completed_period"])
 
     def test_explanation_prerendered_on_market_and_crop_page(self):
-        for path in (ROOT / "dist/index.html", ROOT / "dist/market/red-clover/index.html"):
+        for path in (ROOT / "dist/market/red-clover/index.html",):
             html = path.read_text()
             self.assertIn("Market Signal<!-- -->: <!-- -->Limited", html)
             self.assertIn("Why this level?", html)
             self.assertIn("Price evidence<!-- -->: <!-- -->Eligible", html)
             self.assertIn("Verified trade observations remain available", html)
             self.assertNotIn("PRIVATE_DATA", html)
+
+    def test_homepage_snapshot_uses_safe_commercial_cards_without_debug_badges(self):
+        html = (ROOT / "dist/index.html").read_text()
+        self.assertIn("catalogue-seed-card", html)
+        self.assertIn("Explore market", html)
+        self.assertNotIn("Price evidence<!-- -->: <!-- -->Eligible", html)
 
     def test_catalogue_hides_technical_primary_flow_but_retains_detail_provenance(self):
         html = (ROOT / "dist/market/index.html").read_text()

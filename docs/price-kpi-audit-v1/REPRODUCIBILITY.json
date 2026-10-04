@@ -1,0 +1,19 @@
+{
+  "price_resolution_idempotent": "PASS",
+  "output_sha256": {
+    "src/generated/market_catalogue_public.json": "39d02a78a9e36d3e0b8cd1945a1d6edd198030d2339e57da34d1aca7a761be9b",
+    "src/generated/market_snapshot_public.json": "772871a4034c81e0c1e4d59ad6db62153074e12913858c15a1441486dbe36a0d"
+  },
+  "pipeline": [
+    "python scripts/generate_market_catalogue.py",
+    "python scripts/enrich_commercial_v4.py",
+    "python scripts/resolve_price_kpi_v1.py",
+    "npm run build",
+    "python scripts/validate_price_kpi_v1.py",
+    "python -B -m unittest discover -s tests -p test_*.py -v",
+    "node --test tests/*.test.mjs",
+    "node scripts/check_hydration_initial.mjs",
+    "node scripts/check_i18n_v1a.mjs"
+  ],
+  "note": "Do not stop after enrich_commercial_v4: it intentionally withholds prices until independent resolution. Price resolver uses retained original price points only."
+}

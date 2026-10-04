@@ -1,0 +1,448 @@
+{
+  "checks": [
+    {
+      "check": "starting HEAD preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "68 identities and memberships preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "approved categories/visual paths preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "global KPIs preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "existing trade metrics unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "all canonical observations/taxonomy/news/visuals unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "1080 raw official sources retain original SHA256",
+      "status": "PASS"
+    },
+    {
+      "check": "153838 unique PUBLIC_SAFE official observations preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "every raw source reference and observation source hash preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "white-mustard no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "brown-mustard no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "black-mustard no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "oil-radish no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "rapeseed no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "turnip-rape no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-kale no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-turnip no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "phacelia no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "buckwheat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "oat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "black-oat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "rye actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "rye actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "rye eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "rye eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "barley actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "barley actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "barley eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "barley eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "wheat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "triticale no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "proso-millet no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sorghum no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sudan-grass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sorghum-sudan-hybrid no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "italian-ryegrass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "hybrid-ryegrass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "westerwold-ryegrass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "festulolium no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "meadow-fescue actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "meadow-fescue actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "tall-fescue no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "cocksfoot no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "common-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "winter-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "hungarian-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "purple-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "faba-bean no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow-leaved-lupin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "yellow-lupin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "white-lupin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "white-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "persian-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "berseem-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "crimson-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "balansa-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "alsike-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "subterranean-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "black-medick no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "yellow-sweetclover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "white-sweetclover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "birdsfoot-trefoil no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sainfoin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "chickpea no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "flax actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "flax actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "flax eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "flax eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "hemp no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "safflower no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "coriander no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "caraway no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "dill no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "camelina no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "niger no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "quinoa no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "chicory no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sugar-beet no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "seed-potatoes no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "carrot no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "snapshot candidates derive from catalogue",
+      "status": "PASS"
+    },
+    {
+      "check": "no source binaries in deployment",
+      "status": "PASS"
+    }
+  ],
+  "failures": 0,
+  "price_evidence": "ZERO_INDEPENDENT_SCOPE_VERIFIED_OBSERVATIONS;NO_SYNTHETIC_PRICES",
+  "visual_qa": "BLOCKED_ENVIRONMENT: CLOUD_BROWSER_LOCALHOST_ERR_BLOCKED_BY_CLIENT",
+  "protected_files_checked": 120
+}

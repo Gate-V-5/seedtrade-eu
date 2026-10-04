@@ -59,7 +59,7 @@ class AboutMarketIntelligenceUxV1Tests(unittest.TestCase):
     def test_numbers_before_paragraphs(self):
         self.assertIn("market.latest_completed_period", APP)
         self.assertIn("weather.region_count", APP)
-        self.assertIn("market.crops.length", APP)
+        self.assertIn("catalogueSnapshot.length", APP)
         self.assertIn("internal.volume_tonnes", APP)
 
     def test_about_route_is_dedicated(self):

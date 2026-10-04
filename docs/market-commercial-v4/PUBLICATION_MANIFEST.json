@@ -1,0 +1,124 @@
+{
+  "base": "8f83dd7e1f6d0f97e7f7f3fa1c70c83a4a9ec101",
+  "publication_files": [
+    {
+      "path": "scripts/check_i18n_v1a.mjs",
+      "sha256": "3d8a95b5b647e4f0b9aa14ed573f1ec2b87efef7c6208cdf72baefe3d454933d"
+    },
+    {
+      "path": "src/AppV2.jsx",
+      "sha256": "aeaa96d5be8c0de82cf6bab8617e9c5c460132d4a9ff8c29cc4556de780f4908"
+    },
+    {
+      "path": "src/MarketCatalogue.jsx",
+      "sha256": "d279d1d21e8ee42c4fb62948924233ba2ea5dcb43230c1cb306723af1381663a"
+    },
+    {
+      "path": "src/generated/market_catalogue_public.json",
+      "sha256": "75e4b1ba3bc897b16a7b8ac2258b463842faff71545a65a111e87796be6a25c2"
+    },
+    {
+      "path": "src/i18n/messages.js",
+      "sha256": "286bd8568241c36c38458a1129b6460a2df06d4891672cd734c7b8fe6729af95"
+    },
+    {
+      "path": "src/marketCatalogue.css",
+      "sha256": "961246c765e7fadc1b4f581ec19a7d42192a5dcbfa237b52cb9390baa64e5e72"
+    },
+    {
+      "path": "tests/test_about_market_intelligence_ux_v1.py",
+      "sha256": "0a7eaf265ca47da129ab100ee5af5da6cf68ede48c6347332b04fe590c19ed3e"
+    },
+    {
+      "path": "tests/test_evidence_confidence_ux_v1.py",
+      "sha256": "c58ab68fec4f41bfc0dda08c70ebf8bf02f7bada519c3b2d1478b5e22de5a43e"
+    },
+    {
+      "path": "tests/test_final_v5_refinement.py",
+      "sha256": "9a3bde4697dc72f31e566dfcea324ec18e682912d235883e23c1eb130ae654fc"
+    },
+    {
+      "path": "tests/test_homepage_visual_refinement_v2.py",
+      "sha256": "6ea614a6e6d43994c0b335e4287149ad8b34fc96d2ae8198cfbe4ee4c3706a44"
+    },
+    {
+      "path": "tests/test_hostinger_static_first_v4.py",
+      "sha256": "d2226053fa175f0a71b1d1e6d14f9f5e16cbeeddf33acffadfe31c25364d8223"
+    },
+    {
+      "path": "tests/test_hydration_valid_markup_v1.py",
+      "sha256": "b56d29326ea681dbd8c4053f3e06e92c49644a018719917ecd64101fc3222172"
+    },
+    {
+      "path": "tests/test_master_homepage_design.py",
+      "sha256": "5a7e3fdd25959dd17073578446fe658ee49a3fafea5595623088a4f3e80b93b5"
+    },
+    {
+      "path": "docs/market-commercial-v4/BUILD_PERFORMANCE.json",
+      "sha256": "892829db657a3d6b825c3fb56c0e22b382e33b94012f1a19cf31a56c53c60fa8"
+    },
+    {
+      "path": "docs/market-commercial-v4/FINAL_AUDIT.json",
+      "sha256": "cc3350fdc11d69b9160a364dbda90875b005e98ce1786ac3515935302b8f5916"
+    },
+    {
+      "path": "docs/market-commercial-v4/IMPLEMENTATION_REPORT.md",
+      "sha256": "4042bfea4785c853fea504277bdadaee7af27f6812cc56855c1847e5f869ec56"
+    },
+    {
+      "path": "docs/market-commercial-v4/PRICE_EVIDENCE_AUDIT.json",
+      "sha256": "b9c4059990d3621844baa8b7e3bb13c85d9d0b32b3af2e38a22d09ce71d86827"
+    },
+    {
+      "path": "docs/market-commercial-v4/PROVENANCE.json",
+      "sha256": "e6e8d494b317906a5f3904932457dfe87a58f404b93c7dbb819de0f95b2be310"
+    },
+    {
+      "path": "docs/market-commercial-v4/QA_RESULT.json",
+      "sha256": "9cae7c595cd9b0b8685f8c3ce340597b1cf46c3c143eee8a70beb23de32304b5"
+    },
+    {
+      "path": "scripts/checkpoint_commercial_v4.py",
+      "sha256": "9e315c0aed0e6f76871359a784847969dd17e9ab451f8137e1deff696f1e5f7c"
+    },
+    {
+      "path": "scripts/enrich_commercial_v4.py",
+      "sha256": "fed43db48dd8f58fbc046ce8eb01f54355c7f38f54e173d8593ff65d2bae71fc"
+    },
+    {
+      "path": "scripts/validate_commercial_v4.py",
+      "sha256": "c30824106fb2d0f9ab858e3842e728c48c8d36fccb3396e165f8d93f30d465e5"
+    },
+    {
+      "path": "src/CommercialHistory.jsx",
+      "sha256": "4f8444f63d91411f2bf26466cdc2c633ab4f6bd1dfeb36717761fd8ed240109f"
+    },
+    {
+      "path": "src/CommercialSeedCard.jsx",
+      "sha256": "8362589c0e6ab3abd4033b0fbfbebaf6907876a24ea67652acc39dd7998d2e3f"
+    },
+    {
+      "path": "src/commercialEvidence.mjs",
+      "sha256": "e141d042658ca58f23f25ca98da29e91e5b897ad6e6be7b9c499a2a9ad9a7d94"
+    },
+    {
+      "path": "src/generated/commercial_rankings_public.json",
+      "sha256": "ea10c302008db624dc361007910aa520b6ceb8e303de0043e9619d884ee7d54d"
+    },
+    {
+      "path": "src/generated/market_snapshot_public.json",
+      "sha256": "b63003a93e9671c23fa3d1fec6393ec679d9ee426f851754aa458cefc9ae4167"
+    },
+    {
+      "path": "tests/commercialV4.test.mjs",
+      "sha256": "f6319f59f8c0e57d9ee997804745a52d950280c62c282c622010387804051ec3"
+    },
+    {
+      "path": "tests/commercialV4Render.test.mjs",
+      "sha256": "5f946452988a34c250279729fe39cecc9a35fd9e1690807f31d0418365b61f33"
+    }
+  ],
+  "evidence_sources": "checkpoint only; not deployment assets",
+  "commit": null,
+  "push": "NOT_PUSHED"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "italian-ryegrass",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "perennial-ryegrass",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "westerwold-ryegrass",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "meadow-fescue",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "field-pea",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "red-clover",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "alfalfa",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  },
+  {
+    "entity": "flax",
+    "candidate_file": "src/generated/market_public.json",
+    "latest_period": "2026-06",
+    "decision": "WITHHELD_SCOPE_NOT_INDEPENDENTLY_ESTABLISHED",
+    "reason": "Different volume scope is not itself a price exclusion; independent geographic and price-methodology evidence must be established first."
+  }
+]

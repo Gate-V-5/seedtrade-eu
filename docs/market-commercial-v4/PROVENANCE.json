@@ -1,0 +1,9 @@
+{
+  "official_rows": 153838,
+  "source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+  "extra_eu_scope": "EU27 reporters;reported third-country partners;XI and special territories excluded;paired weight/value;no mirror intra-EU imports",
+  "external_entities": 10,
+  "canonical_observations_modified": false,
+  "raw_evidence": "evidence/comext-normalized-public.jsonl.gz",
+  "price_rule": "Independent latest eligible price per entity, scope and methodology mandatory; no COMEXT month equality condition"
+}

@@ -1,0 +1,1808 @@
+{
+  "checks": [
+    {
+      "check": "starting HEAD preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "68 identities and memberships preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "approved categories/visual paths preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "global KPIs preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "existing trade metrics unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "all canonical observations/taxonomy/news/visuals unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "1080 raw official sources retain original SHA256",
+      "status": "PASS"
+    },
+    {
+      "check": "153838 unique PUBLIC_SAFE official observations preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "every raw source reference and observation source hash preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "white-mustard no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "brown-mustard no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "black-mustard no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "oil-radish no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "rapeseed no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "turnip-rape no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-kale no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-turnip no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "phacelia no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "sunflower eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "buckwheat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "oat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "black-oat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "rye actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "rye actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "rye eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "rye eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "barley actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "barley actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "barley eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "barley eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "wheat no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "triticale no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "proso-millet no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sorghum no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sudan-grass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sorghum-sudan-hybrid no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "italian-ryegrass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "perennial-ryegrass eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "hybrid-ryegrass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "westerwold-ryegrass no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "festulolium no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "meadow-fescue actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "meadow-fescue actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "tall-fescue no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "cocksfoot no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "common-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "winter-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "hungarian-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "purple-vetch no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "field-pea eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "faba-bean no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "narrow-leaved-lupin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "yellow-lupin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "white-lupin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "red-clover eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "white-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "persian-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "berseem-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "crimson-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "balansa-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "alsike-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "subterranean-clover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "alfalfa eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "black-medick no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "yellow-sweetclover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "white-sweetclover no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "birdsfoot-trefoil no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sainfoin no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "soybean eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "chickpea no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "flax actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "flax actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "flax eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "flax eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "hemp no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "safflower no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "coriander no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "caraway no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "dill no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "camelina no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "niger no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "quinoa no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet actual top5 origins",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet actual top5 corridors",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet eu_exports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "fodder-beet eu_imports same official scope",
+      "status": "PASS"
+    },
+    {
+      "check": "chicory no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "sugar-beet no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "seed-potatoes no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "carrot no invented/group metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "snapshot candidates derive from catalogue",
+      "status": "PASS"
+    },
+    {
+      "check": "no source binaries in deployment",
+      "status": "PASS"
+    },
+    {
+      "check": "V4 presentation fields outside price resolution preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "V4 approved category owner images byte identical",
+      "status": "PASS"
+    },
+    {
+      "check": "V4 source and production/trade datasets byte identical",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2024-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2025-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:italian-ryegrass:2026-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:perennial-ryegrass:2025-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:perennial-ryegrass:2025-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:perennial-ryegrass:2025-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-10 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-10 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-10 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2024-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-10 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-10 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-10 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2025-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:meadow-fescue:2026-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2025-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2025-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2025-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2025-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2025-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2025-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2026-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2026-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:field-pea:2026-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-10 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-10 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-10 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2024-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-10 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-10 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-10 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2025-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:red-clover:2026-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:alfalfa:2024-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:alfalfa:2024-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:alfalfa:2024-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:alfalfa:2024-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:alfalfa:2024-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:alfalfa:2024-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-10 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-10 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-10 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2024-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-07 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-07 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-07 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-08 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-08 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-08 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-09 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-09 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-09 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-10 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-10 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-10 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-11 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-11 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-11 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-12 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-12 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2025-12 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-01 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-01 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-01 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-02 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-02 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-02 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-03 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-03 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-03 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-04 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-04 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-04 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-05 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-05 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-05 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-06 complete unique original scope",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-06 exact original value and quantity",
+      "status": "PASS"
+    },
+    {
+      "check": "PRICE-WITNESS:flax:2026-06 raw provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "110 restored points all PUBLIC_SAFE independently witnessed",
+      "status": "PASS"
+    },
+    {
+      "check": "no group/form allocation",
+      "status": "PASS"
+    },
+    {
+      "check": "KPI monthly grain unique and exporter-only",
+      "status": "PASS"
+    },
+    {
+      "check": "KPI complete month selected exactly once",
+      "status": "PASS"
+    },
+    {
+      "check": "KPI exact quantity/value reconciliation",
+      "status": "PASS"
+    },
+    {
+      "check": "40 sowing CN codes represented without catalogue joins",
+      "status": "PASS"
+    },
+    {
+      "check": "8 candidates accounted and snapshot12 derived",
+      "status": "PASS"
+    }
+  ],
+  "failures": 0,
+  "price_evidence": "RESTORED_ONLY_AFTER_INDEPENDENT_OFFICIAL_WITNESS_RECONCILIATION;NO_SYNTHETIC_PRICES",
+  "visual_qa": "BLOCKED_ENVIRONMENT: CLOUD_BROWSER_LOCALHOST_ERR_BLOCKED_BY_CLIENT",
+  "protected_files_checked": 120
+}

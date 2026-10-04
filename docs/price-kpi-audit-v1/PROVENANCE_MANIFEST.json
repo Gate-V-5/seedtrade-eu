@@ -1,0 +1,19 @@
+{
+  "starting_head": "8f83dd7e1f6d0f97e7f7f3fa1c70c83a4a9ec101",
+  "recovered_v4_sha256": "19eb0fccb220587387de9e78e3a17e9b69e501cf2de87272f5f04bf2ba7a8e60",
+  "recovered_v4_manifest_files_verified": 1735,
+  "normalized_source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+  "raw_official_documents": 1080,
+  "normalized_public_observations": 153838,
+  "price_witnesses": "PRICE_OBSERVATION_WITNESSES.json",
+  "price_candidate_decisions": "PRICE_CANDIDATE_AUDIT.json",
+  "global_kpi_witnesses": "GLOBAL_KPI_AUDIT.json",
+  "source_requests": "../market-commercial-v4/evidence/COMEXT_REQUEST_MANIFEST.json",
+  "sources_location": "../market-commercial-v4/evidence/",
+  "public_source": "Eurostat COMEXT DS-045409 and official EU CN classifications",
+  "new_research": false,
+  "globalwits": "NOT_ACCESSED",
+  "datamyne": "NOT_ACCESSED",
+  "observation_edits": false,
+  "price_basis": "Original representative customs export unit values, not transaction quotes or official EU-average prices. Exact old quantity and ratio reconciliation required per point."
+}
