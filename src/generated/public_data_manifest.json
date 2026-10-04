@@ -22,9 +22,25 @@
       "source": "Eurostat COMEXT DS-045409",
       "latest_completed_period": "2026-06",
       "partial_period_excluded": "2026-07",
-      "views": ["EU_INTERNAL_TRADE", "EU_IMPORTS", "EU_EXPORTS"],
+      "views": [
+        "EU_INTERNAL_TRADE",
+        "EU_IMPORTS",
+        "EU_EXPORTS"
+      ],
       "artifact": "trade_pulse_public.json",
-      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
+      "sha256": "2af4e6b02a9be3b43c081092b84327ab8b25ce9b6551aba0d70e867671cc75e4",
+      "included_cn_code_count": 40,
+      "accepted_observations": 153838,
+      "source_request_grid": "40 CN8 x 27 EU reporters;2024-01 through 2026-06",
+      "baseline_artifact": "data/multisource-trade-v1/trade_pulse_baseline.json",
+      "period_semantics": {
+        "type": "MONTH_ONLY",
+        "start": "2026-06-01",
+        "end": "2026-06-30",
+        "period": "2026-06",
+        "selection": "eu_internal_trade;period==2026-06",
+        "scope": "40 seed-for-sowing CN codes;gross intra-EU exporter dispatches;not a 121-species measured total"
+      }
     },
     "weather": {
       "source": "Open-Meteo",

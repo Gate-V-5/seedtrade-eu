@@ -1,0 +1,2871 @@
+{
+  "classification": "PUBLIC_SAFE",
+  "source": "Eurostat COMEXT DS-045409;official CN evidence",
+  "period": {
+    "type": "MONTH_ONLY",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "period": "2026-06",
+    "selection": "eu_internal_trade;period==2026-06",
+    "scope": "40 seed-for-sowing CN codes;gross intra-EU exporter dispatches;not a 121-species measured total"
+  },
+  "model": "MODEL_A",
+  "scope": "40 seed-for-sowing CN8 codes",
+  "cn": [
+    {
+      "cn8": "07129011",
+      "description": "Dried sweetcorn, hybrid, for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-07129011",
+      "volume_tonnes": 122.538,
+      "value_eur": 2217681.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "07131010",
+      "description": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grain-legumes",
+      "commercial_entity": "CN-07131010",
+      "volume_tonnes": 2610.393,
+      "value_eur": 1923999.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "07133310",
+      "description": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "vegetable-seeds",
+      "commercial_entity": "CN-07133310",
+      "volume_tonnes": 1676.397,
+      "value_eur": 7788047.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10011100",
+      "description": "Durum wheat seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10011100",
+      "volume_tonnes": 12173.984,
+      "value_eur": 3022037.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10019110",
+      "description": "Spelt seed for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "spelt",
+      "volume_tonnes": 2861.551,
+      "value_eur": 1672188.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10019120",
+      "description": "Seed of common wheat or meslin, for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10019120",
+      "volume_tonnes": 61878.779,
+      "value_eur": 13126731.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10021000",
+      "description": "Rye seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10021000",
+      "volume_tonnes": 8192.448,
+      "value_eur": 2137115.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10031000",
+      "description": "Barley seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10031000",
+      "volume_tonnes": 9026.811,
+      "value_eur": 2272920.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10041000",
+      "description": "Oats seed for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10041000",
+      "volume_tonnes": 7030.46,
+      "value_eur": 2386749.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10051013",
+      "description": "Three-cross hybrid maize seed for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10051013",
+      "volume_tonnes": 704.348,
+      "value_eur": 3070995.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10051015",
+      "description": "Simple hybrid maize seed for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10051015",
+      "volume_tonnes": 13272.188,
+      "value_eur": 35559173.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10051018",
+      "description": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10051018",
+      "volume_tonnes": 4469.335,
+      "value_eur": 1556223.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10051090",
+      "description": "Maize seed for sowing (excl. hybrid)",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10051090",
+      "volume_tonnes": 61812.981,
+      "value_eur": 19215270.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10061010",
+      "description": "Rice in husk for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10061010",
+      "volume_tonnes": 2934.844,
+      "value_eur": 1412372.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10071010",
+      "description": "Hybrid grain sorghum, for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10071010",
+      "volume_tonnes": 649.436,
+      "value_eur": 1074011.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10071090",
+      "description": "Grain sorghum, for sowing (excl. hybrids)",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10071090",
+      "volume_tonnes": 188.968,
+      "value_eur": 223612.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "10082100",
+      "description": "Millet seed for sowing (excl. grain sorghum)",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "cereals-pseudocereals",
+      "commercial_entity": "CN-10082100",
+      "volume_tonnes": 403.216,
+      "value_eur": 200250.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12011000",
+      "description": "Soya bean seed, for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grain-legumes",
+      "commercial_entity": "CN-12011000",
+      "volume_tonnes": 2549.495,
+      "value_eur": 1867517.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12040010",
+      "description": "Linseed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "oil-fibre-seeds",
+      "commercial_entity": "CN-12040010",
+      "volume_tonnes": 1632.835,
+      "value_eur": 1558633.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12051010",
+      "description": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "oil-fibre-seeds",
+      "commercial_entity": "CN-12051010",
+      "volume_tonnes": 10692.473,
+      "value_eur": 40375382.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12060010",
+      "description": "Sunflower seeds for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "oil-fibre-seeds",
+      "commercial_entity": "CN-12060010",
+      "volume_tonnes": 2599.542,
+      "value_eur": 13089806.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12075010",
+      "description": "Mustard seeds for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "brassica-seeds",
+      "commercial_entity": "CN-12075010",
+      "volume_tonnes": 3048.162,
+      "value_eur": 4128117.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12079110",
+      "description": "Poppy seeds for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "oil-fibre-seeds",
+      "commercial_entity": "CN-12079110",
+      "volume_tonnes": 65.16,
+      "value_eur": 182009.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12079920",
+      "description": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "oil-fibre-seeds",
+      "commercial_entity": "CN-12079920",
+      "volume_tonnes": 1663.394,
+      "value_eur": 4063348.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12091000",
+      "description": "Sugar beet seed, for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": null,
+      "commercial_entity": "CN-12091000",
+      "volume_tonnes": 921.317,
+      "value_eur": 17575120.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092100",
+      "description": "Alfalfa seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "forage-legumes",
+      "commercial_entity": "CN-12092100",
+      "volume_tonnes": 945.816,
+      "value_eur": 3022469.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092210",
+      "description": "Red clover \"Trifolium pratense L.\" seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "forage-legumes",
+      "commercial_entity": "CN-12092210",
+      "volume_tonnes": 434.78,
+      "value_eur": 2091749.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092280",
+      "description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "forage-legumes",
+      "commercial_entity": "CN-12092280",
+      "volume_tonnes": 2203.134,
+      "value_eur": 6311866.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092311",
+      "description": "Meadow fescue seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grass-seeds",
+      "commercial_entity": "CN-12092311",
+      "volume_tonnes": 122.662,
+      "value_eur": 321981.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092315",
+      "description": "Red fescue seed \"Festuca rubra L.\" for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grass-seeds",
+      "commercial_entity": "CN-12092315",
+      "volume_tonnes": 2294.546,
+      "value_eur": 3624235.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092380",
+      "description": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "grass-seeds",
+      "commercial_entity": "CN-12092380",
+      "volume_tonnes": 1067.647,
+      "value_eur": 2237849.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092400",
+      "description": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grass-seeds",
+      "commercial_entity": "CN-12092400",
+      "volume_tonnes": 419.871,
+      "value_eur": 1145262.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092510",
+      "description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grass-seeds",
+      "commercial_entity": "CN-12092510",
+      "volume_tonnes": 3331.899,
+      "value_eur": 4476635.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092590",
+      "description": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+      "precision": "SPECIES_SPECIFIC",
+      "botanical_precision": "SPECIES_SPECIFIC",
+      "category": "grass-seeds",
+      "commercial_entity": "CN-12092590",
+      "volume_tonnes": 5251.559,
+      "value_eur": 9922227.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092945",
+      "description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": null,
+      "commercial_entity": "CN-12092945",
+      "volume_tonnes": 2009.184,
+      "value_eur": 2856781.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092950",
+      "description": "Lupine seed for sowing",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": "grain-legumes",
+      "commercial_entity": "CN-12092950",
+      "volume_tonnes": 10839.551,
+      "value_eur": 3470113.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092960",
+      "description": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": null,
+      "commercial_entity": "CN-12092960",
+      "volume_tonnes": 16.079,
+      "value_eur": 127105.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12092980",
+      "description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": null,
+      "commercial_entity": "CN-12092980",
+      "volume_tonnes": 6168.684,
+      "value_eur": 15939499.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12099130",
+      "description": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "botanical_precision": "PARTIAL",
+      "category": "vegetable-seeds",
+      "commercial_entity": "CN-12099130",
+      "volume_tonnes": 27.228,
+      "value_eur": 304542.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    },
+    {
+      "cn8": "12099180",
+      "description": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+      "precision": "GROUP_LEVEL",
+      "botanical_precision": "GROUP_LEVEL",
+      "category": null,
+      "commercial_entity": "CN-12099180",
+      "volume_tonnes": 2701.406,
+      "value_eur": 162886710.0,
+      "source_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      }
+    }
+  ],
+  "species": [
+    {
+      "species_id": "browntop",
+      "name": "Brown top / common bent",
+      "botanical": "Agrostis capillaris",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "onion",
+      "name": "Onion / shallot",
+      "botanical": "Allium cepa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "bunching-onion",
+      "name": "Bunching onion",
+      "botanical": "Allium fistulosum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "leek",
+      "name": "Leek",
+      "botanical": "Allium porrum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "chives",
+      "name": "Chives",
+      "botanical": "Allium schoenoprasum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "meadow-foxtail",
+      "name": "Meadow foxtail",
+      "botanical": "Alopecurus pratensis",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "dill",
+      "name": "Dill",
+      "botanical": "Anethum graveolens",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "chervil",
+      "name": "Chervil",
+      "botanical": "Anthriscus cerefolium",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "celery",
+      "name": "Celery / celeriac",
+      "botanical": "Apium graveolens",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "tall-oatgrass",
+      "name": "Tall oatgrass",
+      "botanical": "Arrhenatherum elatius",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "asparagus",
+      "name": "Asparagus",
+      "botanical": "Asparagus officinalis",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "naked-oat",
+      "name": "Naked oat",
+      "botanical": "Avena nuda",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "10041000"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "oat",
+      "name": "Oat",
+      "botanical": "Avena sativa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "10041000"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "black-oat",
+      "name": "Bristle / black oat",
+      "botanical": "Avena strigosa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "10041000"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "beet-chard",
+      "name": "Beet / chard; source crop types separate",
+      "botanical": "Beta vulgaris",
+      "coverage": "PARTIAL_SPECIES_SCOPE",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [
+        "12091000",
+        "12092960",
+        "12099130"
+      ],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "LIMITED_CROP_TYPE_OR_INFRASPECIFIC_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "biserrula",
+      "name": "Biserrula",
+      "botanical": "Biserrula pelecinus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "borage",
+      "name": "Borage",
+      "botanical": "Borago officinalis",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "ethiopian-mustard",
+      "name": "Ethiopian mustard",
+      "botanical": "Brassica carinata",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "brown-mustard",
+      "name": "Brown mustard",
+      "botanical": "Brassica juncea",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12075010"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "rapeseed",
+      "name": "Rapeseed / oilseed rape",
+      "botanical": "Brassica napus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12051010"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "black-mustard",
+      "name": "Black mustard",
+      "botanical": "Brassica nigra",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12075010"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "cabbage",
+      "name": "Cabbage / kale / broccoli crop types",
+      "botanical": "Brassica oleracea",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "turnip-rape",
+      "name": "Turnip rape; source-reported scope",
+      "botanical": "Brassica rapa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12051010"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "camelina",
+      "name": "Camelina",
+      "botanical": "Camelina sativa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12079920"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "hemp",
+      "name": "Hemp",
+      "botanical": "Cannabis sativa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12079920"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "pepper",
+      "name": "Pepper",
+      "botanical": "Capsicum annuum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "safflower",
+      "name": "Safflower",
+      "botanical": "Carthamus tinctorius",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "caraway",
+      "name": "Caraway",
+      "botanical": "Carum carvi",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "quinoa",
+      "name": "Quinoa",
+      "botanical": "Chenopodium quinoa",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "chickpea",
+      "name": "Chickpea",
+      "botanical": "Cicer arietinum",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "endive",
+      "name": "Endive",
+      "botanical": "Cichorium endivia",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "chicory",
+      "name": "Chicory",
+      "botanical": "Cichorium intybus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "watermelon",
+      "name": "Watermelon",
+      "botanical": "Citrullus lanatus",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "coriander",
+      "name": "Coriander",
+      "botanical": "Coriandrum sativum",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "sunn-hemp",
+      "name": "Sunn hemp",
+      "botanical": "Crotalaria juncea",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "melon",
+      "name": "Melon",
+      "botanical": "Cucumis melo",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "cucumber",
+      "name": "Cucumber / gherkin",
+      "botanical": "Cucumis sativus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "winter-squash",
+      "name": "Winter squash",
+      "botanical": "Cucurbita maxima",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "courgette",
+      "name": "Courgette / pumpkin",
+      "botanical": "Cucurbita pepo",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "artichoke",
+      "name": "Globe artichoke / cardoon",
+      "botanical": "Cynara cardunculus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "cocksfoot",
+      "name": "Cocksfoot / orchard grass",
+      "botanical": "Dactylis glomerata",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "carrot",
+      "name": "Carrot",
+      "botanical": "Daucus carota",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "buckwheat",
+      "name": "Buckwheat",
+      "botanical": "Fagopyrum esculentum",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "tall-fescue",
+      "name": "Tall fescue",
+      "botanical": "Festuca arundinacea",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092380"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "meadow-fescue",
+      "name": "Meadow fescue",
+      "botanical": "Festuca pratensis",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092311"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "red-fescue",
+      "name": "Red fescue",
+      "botanical": "Festuca rubra",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092315"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "fennel",
+      "name": "Fennel",
+      "botanical": "Foeniculum vulgare",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "fodder-galega",
+      "name": "Fodder galega",
+      "botanical": "Galega orientalis",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "soybean",
+      "name": "Soybeans",
+      "botanical": "Glycine max",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12011000"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "niger",
+      "name": "Niger",
+      "botanical": "Guizotia abyssinica",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12079920"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "sunflower",
+      "name": "Sunflower",
+      "botanical": "Helianthus annuus",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12060010"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "barley",
+      "name": "Barley",
+      "botanical": "Hordeum vulgare",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "10031000"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "lettuce",
+      "name": "Lettuce",
+      "botanical": "Lactuca sativa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "red-pea",
+      "name": "Red pea",
+      "botanical": "Lathyrus cicera",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "lentil",
+      "name": "Lentil",
+      "botanical": "Lens culinaris",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "garden-cress",
+      "name": "Garden cress",
+      "botanical": "Lepidium sativum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "flax",
+      "name": "Flax",
+      "botanical": "Linum usitatissimum",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12040010"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "italian-ryegrass",
+      "name": "Italian ryegrass",
+      "botanical": "Lolium multiflorum",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092510"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "perennial-ryegrass",
+      "name": "Perennial ryegrass",
+      "botanical": "Lolium perenne",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092590"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "hybrid-ryegrass",
+      "name": "Hybrid ryegrass",
+      "botanical": "Lolium × hybridum",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "birdsfoot-trefoil",
+      "name": "Birdsfoot trefoil",
+      "botanical": "Lotus corniculatus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "white-lupin",
+      "name": "White lupin",
+      "botanical": "Lupinus albus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092950"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "narrow-leaved-lupin",
+      "name": "Narrow-leaved lupin",
+      "botanical": "Lupinus angustifolius",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092950"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "yellow-lupin",
+      "name": "Yellow lupin",
+      "botanical": "Lupinus luteus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092950"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "black-medick",
+      "name": "Black medick",
+      "botanical": "Medicago lupulina",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "bur-medick",
+      "name": "Bur medick",
+      "botanical": "Medicago polymorpha",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "alfalfa",
+      "name": "Alfalfa / lucerne",
+      "botanical": "Medicago sativa",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092100"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "hybrid-lucerne",
+      "name": "Hybrid lucerne",
+      "botanical": "Medicago × varia",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "white-sweetclover",
+      "name": "White sweetclover",
+      "botanical": "Melilotus albus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "yellow-sweetclover",
+      "name": "Yellow sweetclover",
+      "botanical": "Melilotus officinalis",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "sainfoin",
+      "name": "Sainfoin",
+      "botanical": "Onobrychis viciifolia",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "yellow-serradella",
+      "name": "Yellow serradella",
+      "botanical": "Ornithopus compressus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "serradella",
+      "name": "Serradella",
+      "botanical": "Ornithopus sativus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "rice",
+      "name": "Rice",
+      "botanical": "Oryza sativa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "10061010"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "proso-millet",
+      "name": "Proso millet",
+      "botanical": "Panicum miliaceum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "10082100"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "poppy",
+      "name": "Opium / seed poppy",
+      "botanical": "Papaver somniferum",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12079110"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "parsley",
+      "name": "Parsley",
+      "botanical": "Petroselinum crispum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "phacelia",
+      "name": "Phacelia",
+      "botanical": "Phacelia tanacetifolia",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "canary-grass",
+      "name": "Canary grass",
+      "botanical": "Phalaris canariensis",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "runner-bean",
+      "name": "Runner bean",
+      "botanical": "Phaseolus coccineus",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "common-bean",
+      "name": "Common bean",
+      "botanical": "Phaseolus vulgaris",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "07133310"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "timothy",
+      "name": "Timothy",
+      "botanical": "Phleum pratense",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "field-pea",
+      "name": "Field peas",
+      "botanical": "Pisum sativum",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "07131010"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "ribwort-plantain",
+      "name": "Ribwort plantain",
+      "botanical": "Plantago lanceolata",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "wood-meadowgrass",
+      "name": "Wood meadowgrass",
+      "botanical": "Poa nemoralis",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "kentucky-bluegrass",
+      "name": "Kentucky bluegrass",
+      "botanical": "Poa pratensis",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092400"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "cultivated-radish",
+      "name": "Cultivated radish",
+      "botanical": "Raphanus raphanistrum subsp. sativus",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "rhubarb",
+      "name": "Rhubarb",
+      "botanical": "Rheum rhabarbarum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "black-salsify",
+      "name": "Black salsify",
+      "botanical": "Scorzonera hispanica",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "rye",
+      "name": "Rye",
+      "botanical": "Secale cereale",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "10021000"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "foxtail-millet",
+      "name": "Foxtail millet",
+      "botanical": "Setaria italica",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "10082100"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "white-mustard",
+      "name": "White mustard",
+      "botanical": "Sinapis alba",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12075010"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "tomato",
+      "name": "Tomato",
+      "botanical": "Solanum lycopersicum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "aubergine",
+      "name": "Aubergine",
+      "botanical": "Solanum melongena",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "sorghum",
+      "name": "Sorghum",
+      "botanical": "Sorghum bicolor",
+      "coverage": "PARTIAL_SPECIES_SCOPE",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [
+        "10071010",
+        "10071090"
+      ],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "LIMITED_CROP_TYPE_OR_INFRASPECIFIC_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "spinach",
+      "name": "Spinach",
+      "botanical": "Spinacia oleracea",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "berseem-clover",
+      "name": "Berseem / Egyptian clover",
+      "botanical": "Trifolium alexandrinum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "glandular-clover",
+      "name": "Glandular clover",
+      "botanical": "Trifolium glanduliferum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "rose-clover",
+      "name": "Rose clover",
+      "botanical": "Trifolium hirtum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "alsike-clover",
+      "name": "Alsike clover",
+      "botanical": "Trifolium hybridum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "crimson-clover",
+      "name": "Crimson clover",
+      "botanical": "Trifolium incarnatum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "trifolium-isthmocarpum",
+      "name": "Clover",
+      "botanical": "Trifolium isthmocarpum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "balansa-clover",
+      "name": "Balansa clover",
+      "botanical": "Trifolium michelianum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "red-clover",
+      "name": "Red clover",
+      "botanical": "Trifolium pratense",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "12092210"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "white-clover",
+      "name": "White clover",
+      "botanical": "Trifolium repens",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "persian-clover",
+      "name": "Persian clover",
+      "botanical": "Trifolium resupinatum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "trifolium-squarrosum",
+      "name": "Clover",
+      "botanical": "Trifolium squarrosum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "subterranean-clover",
+      "name": "Subterranean clover",
+      "botanical": "Trifolium subterraneum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "arrowleaf-clover",
+      "name": "Arrowleaf clover",
+      "botanical": "Trifolium vesiculosum",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092280"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "fenugreek",
+      "name": "Fenugreek",
+      "botanical": "Trigonella foenum-graecum",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "golden-oatgrass",
+      "name": "Golden oatgrass",
+      "botanical": "Trisetum flavescens",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092980"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "common-wheat",
+      "name": "Common wheat; seasons retained",
+      "botanical": "Triticum aestivum",
+      "coverage": "PARTIAL_SPECIES_SCOPE",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [
+        "10019110"
+      ],
+      "group_cn_scope_candidates": [
+        "10019120"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "LIMITED_CROP_TYPE_OR_INFRASPECIFIC_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "durum-wheat",
+      "name": "Durum wheat",
+      "botanical": "Triticum turgidum subsp. durum",
+      "coverage": "SPECIES_SPECIFIC",
+      "exact_cn_codes": [
+        "10011100"
+      ],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "FULL_BOTANICAL_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "lambs-lettuce",
+      "name": "Lamb's lettuce",
+      "botanical": "Valerianella locusta",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12099180"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": false,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "purple-vetch",
+      "name": "Purple / Bengal vetch",
+      "botanical": "Vicia benghalensis",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "bitter-vetch",
+      "name": "Bitter vetch",
+      "botanical": "Vicia ervilia",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "faba-bean",
+      "name": "Faba beans",
+      "botanical": "Vicia faba",
+      "coverage": "NO_COMPATIBLE_TRADE_DATA",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "NO_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "hungarian-vetch",
+      "name": "Hungarian vetch",
+      "botanical": "Vicia pannonica",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "common-vetch",
+      "name": "Common vetch",
+      "botanical": "Vicia sativa",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "winter-vetch",
+      "name": "Winter vetch",
+      "botanical": "Vicia villosa Roth",
+      "coverage": "GROUP_LEVEL_ONLY",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [],
+      "group_cn_scope_candidates": [
+        "12092945"
+      ],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "GROUP_LEVEL_TRADE_EVIDENCE",
+      "direct_scope": null,
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    },
+    {
+      "species_id": "maize",
+      "name": "Maize",
+      "botanical": "Zea mays",
+      "coverage": "PARTIAL_SPECIES_SCOPE",
+      "exact_cn_codes": [],
+      "partial_cn_codes": [
+        "07129011",
+        "10051013",
+        "10051015",
+        "10051018",
+        "10051090"
+      ],
+      "group_cn_scope_candidates": [],
+      "pending_existing_entity_relink": false,
+      "group_volume_allocated": false,
+      "production_available_unchanged": true,
+      "coverage_reporting_bucket": "DIRECT_TRADE_DATA",
+      "direct_scope": "LIMITED_CROP_TYPE_OR_INFRASPECIFIC_SCOPE",
+      "species_precision_disclosure": "Direct partial scope is not total species trade; group evidence has no measured constituent value."
+    }
+  ],
+  "category": [
+    {
+      "category_id": "cereals-pseudocereals",
+      "category_name": "Cereals and pseudocereals",
+      "volume_tonnes": 185721.887,
+      "trade_value_eur": 89147327.0,
+      "cn_count": 15,
+      "cn_codes": [
+        "07129011",
+        "10011100",
+        "10019110",
+        "10019120",
+        "10021000",
+        "10031000",
+        "10041000",
+        "10051013",
+        "10051015",
+        "10051018",
+        "10051090",
+        "10061010",
+        "10071010",
+        "10071090",
+        "10082100"
+      ],
+      "linked_cn_market_entities": 15,
+      "linked_existing_direct_commercial_entities": 4,
+      "linked_existing_scope_candidate_entities": 12,
+      "directly_supported_full_scope_species": 3,
+      "limited_scope_species": 3,
+      "core_volume_share_percent": 73.988332,
+      "core_value_share_percent": 22.262436,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "grain-legumes",
+      "category_name": "Grain legumes and protein crops",
+      "volume_tonnes": 15999.439,
+      "trade_value_eur": 7261629.0,
+      "cn_count": 3,
+      "cn_codes": [
+        "07131010",
+        "12011000",
+        "12092950"
+      ],
+      "linked_cn_market_entities": 3,
+      "linked_existing_direct_commercial_entities": 2,
+      "linked_existing_scope_candidate_entities": 5,
+      "directly_supported_full_scope_species": 2,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": 6.373895,
+      "core_value_share_percent": 1.81342,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "forage-legumes",
+      "category_name": "Forage legumes",
+      "volume_tonnes": 3583.73,
+      "trade_value_eur": 11426084.0,
+      "cn_count": 3,
+      "cn_codes": [
+        "12092100",
+        "12092210",
+        "12092280"
+      ],
+      "linked_cn_market_entities": 3,
+      "linked_existing_direct_commercial_entities": 2,
+      "linked_existing_scope_candidate_entities": 14,
+      "directly_supported_full_scope_species": 2,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": 1.427695,
+      "core_value_share_percent": 2.853394,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "grass-seeds",
+      "category_name": "Grass seeds",
+      "volume_tonnes": 12488.184,
+      "trade_value_eur": 21728189.0,
+      "cn_count": 6,
+      "cn_codes": [
+        "12092311",
+        "12092315",
+        "12092380",
+        "12092400",
+        "12092510",
+        "12092590"
+      ],
+      "linked_cn_market_entities": 6,
+      "linked_existing_direct_commercial_entities": 5,
+      "linked_existing_scope_candidate_entities": 6,
+      "directly_supported_full_scope_species": 5,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": 4.975073,
+      "core_value_share_percent": 5.426101,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "oil-fibre-seeds",
+      "category_name": "Oilseed and fibre crops",
+      "volume_tonnes": 16653.404,
+      "trade_value_eur": 59269178.0,
+      "cn_count": 5,
+      "cn_codes": [
+        "12040010",
+        "12051010",
+        "12060010",
+        "12079110",
+        "12079920"
+      ],
+      "linked_cn_market_entities": 5,
+      "linked_existing_direct_commercial_entities": 3,
+      "linked_existing_scope_candidate_entities": 8,
+      "directly_supported_full_scope_species": 3,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": 6.634423,
+      "core_value_share_percent": 14.801075,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "brassica-seeds",
+      "category_name": "Mustard and radish seeds",
+      "volume_tonnes": 3048.162,
+      "trade_value_eur": 4128117.0,
+      "cn_count": 1,
+      "cn_codes": [
+        "12075010"
+      ],
+      "linked_cn_market_entities": 1,
+      "linked_existing_direct_commercial_entities": 0,
+      "linked_existing_scope_candidate_entities": 3,
+      "directly_supported_full_scope_species": 0,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": 1.214334,
+      "core_value_share_percent": 1.0309,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "vegetable-seeds",
+      "category_name": "Vegetable seeds",
+      "volume_tonnes": 1703.625,
+      "trade_value_eur": 8092589.0,
+      "cn_count": 2,
+      "cn_codes": [
+        "07133310",
+        "12099130"
+      ],
+      "linked_cn_market_entities": 2,
+      "linked_existing_direct_commercial_entities": 1,
+      "linked_existing_scope_candidate_entities": 2,
+      "directly_supported_full_scope_species": 1,
+      "limited_scope_species": 1,
+      "core_volume_share_percent": 0.678694,
+      "core_value_share_percent": 2.020933,
+      "state": "MEASURED_CN_CATEGORY_TOTAL",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "herbs-specialty",
+      "category_name": "Herbs and specialty flowering crops",
+      "volume_tonnes": null,
+      "trade_value_eur": null,
+      "cn_count": 0,
+      "cn_codes": [],
+      "linked_cn_market_entities": 0,
+      "linked_existing_direct_commercial_entities": 0,
+      "linked_existing_scope_candidate_entities": 0,
+      "directly_supported_full_scope_species": 0,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": null,
+      "core_value_share_percent": null,
+      "state": "DATA_GAP",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "seed-potatoes",
+      "category_name": "Seed potatoes",
+      "volume_tonnes": null,
+      "trade_value_eur": null,
+      "cn_count": 0,
+      "cn_codes": [],
+      "linked_cn_market_entities": 0,
+      "linked_existing_direct_commercial_entities": 0,
+      "linked_existing_scope_candidate_entities": 0,
+      "directly_supported_full_scope_species": 0,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": null,
+      "core_value_share_percent": null,
+      "state": "DATA_GAP",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    },
+    {
+      "category_id": "other-propagation",
+      "category_name": "Other propagation material",
+      "volume_tonnes": null,
+      "trade_value_eur": null,
+      "cn_count": 0,
+      "cn_codes": [],
+      "linked_cn_market_entities": 0,
+      "linked_existing_direct_commercial_entities": 0,
+      "linked_existing_scope_candidate_entities": 0,
+      "directly_supported_full_scope_species": 0,
+      "limited_scope_species": 0,
+      "core_volume_share_percent": null,
+      "core_value_share_percent": null,
+      "state": "DATA_GAP",
+      "allocation": "No constituent species volumes or counts of actual contributors inferred."
+    }
+  ],
+  "unallocated": {
+    "unallocated_cn_codes": [
+      "12091000",
+      "12092945",
+      "12092960",
+      "12092980",
+      "12099180"
+    ],
+    "unallocated_kg": "11816670.0",
+    "unallocated_eur": "199385215.0",
+    "unallocated_value_share_percent": 49.791741,
+    "sum_categories_plus_unallocated": "PASS",
+    "category_partition_not_species_partition": true,
+    "12099180_note": "Official vegetable customs usage includes scope candidates whose primary SeedTrade categories also include brassica-seeds. Do not silently move commercial entities or allocate this cross-primary-category code."
+  },
+  "missing": "ABSENT_NOT_ZERO",
+  "group_species_allocation": "NONE",
+  "interpolation": "NONE",
+  "commercial_values": 0
+}

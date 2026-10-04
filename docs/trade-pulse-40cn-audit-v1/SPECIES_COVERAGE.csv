@@ -1,0 +1,122 @@
+species_id,name,botanical,coverage,exact_cn_codes,partial_cn_codes,group_cn_scope_candidates,pending_existing_entity_relink,group_volume_allocated,production_available_unchanged
+browntop,Brown top / common bent,Agrostis capillaris,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+onion,Onion / shallot,Allium cepa,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+bunching-onion,Bunching onion,Allium fistulosum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+leek,Leek,Allium porrum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+chives,Chives,Allium schoenoprasum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+meadow-foxtail,Meadow foxtail,Alopecurus pratensis,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+dill,Dill,Anethum graveolens,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+chervil,Chervil,Anthriscus cerefolium,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+celery,Celery / celeriac,Apium graveolens,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+tall-oatgrass,Tall oatgrass,Arrhenatherum elatius,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+asparagus,Asparagus,Asparagus officinalis,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+naked-oat,Naked oat,Avena nuda,GROUP_LEVEL_ONLY,[],[],"[""10041000""]",false,false,true
+oat,Oat,Avena sativa,GROUP_LEVEL_ONLY,[],[],"[""10041000""]",false,false,true
+black-oat,Bristle / black oat,Avena strigosa,GROUP_LEVEL_ONLY,[],[],"[""10041000""]",false,false,true
+beet-chard,Beet / chard; source crop types separate,Beta vulgaris,PARTIAL_SPECIES_SCOPE,[],"[""12091000"",""12092960"",""12099130""]",[],false,false,true
+biserrula,Biserrula,Biserrula pelecinus,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+borage,Borage,Borago officinalis,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+ethiopian-mustard,Ethiopian mustard,Brassica carinata,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+brown-mustard,Brown mustard,Brassica juncea,GROUP_LEVEL_ONLY,[],[],"[""12075010""]",false,false,false
+rapeseed,Rapeseed / oilseed rape,Brassica napus,GROUP_LEVEL_ONLY,[],[],"[""12051010""]",false,false,true
+black-mustard,Black mustard,Brassica nigra,GROUP_LEVEL_ONLY,[],[],"[""12075010""]",false,false,false
+cabbage,Cabbage / kale / broccoli crop types,Brassica oleracea,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+turnip-rape,Turnip rape; source-reported scope,Brassica rapa,GROUP_LEVEL_ONLY,[],[],"[""12051010""]",false,false,true
+camelina,Camelina,Camelina sativa,GROUP_LEVEL_ONLY,[],[],"[""12079920""]",false,false,true
+hemp,Hemp,Cannabis sativa,GROUP_LEVEL_ONLY,[],[],"[""12079920""]",false,false,true
+pepper,Pepper,Capsicum annuum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,true
+safflower,Safflower,Carthamus tinctorius,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+caraway,Caraway,Carum carvi,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+quinoa,Quinoa,Chenopodium quinoa,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+chickpea,Chickpea,Cicer arietinum,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+endive,Endive,Cichorium endivia,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+chicory,Chicory,Cichorium intybus,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+watermelon,Watermelon,Citrullus lanatus,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+coriander,Coriander,Coriandrum sativum,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+sunn-hemp,Sunn hemp,Crotalaria juncea,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+melon,Melon,Cucumis melo,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+cucumber,Cucumber / gherkin,Cucumis sativus,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+winter-squash,Winter squash,Cucurbita maxima,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+courgette,Courgette / pumpkin,Cucurbita pepo,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+artichoke,Globe artichoke / cardoon,Cynara cardunculus,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+cocksfoot,Cocksfoot / orchard grass,Dactylis glomerata,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+carrot,Carrot,Daucus carota,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,true
+buckwheat,Buckwheat,Fagopyrum esculentum,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+tall-fescue,Tall fescue,Festuca arundinacea,GROUP_LEVEL_ONLY,[],[],"[""12092380""]",false,false,true
+meadow-fescue,Meadow fescue,Festuca pratensis,SPECIES_SPECIFIC,"[""12092311""]",[],[],false,false,true
+red-fescue,Red fescue,Festuca rubra,SPECIES_SPECIFIC,"[""12092315""]",[],[],false,false,true
+fennel,Fennel,Foeniculum vulgare,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+fodder-galega,Fodder galega,Galega orientalis,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+soybean,Soybeans,Glycine max,SPECIES_SPECIFIC,"[""12011000""]",[],[],false,false,true
+niger,Niger,Guizotia abyssinica,GROUP_LEVEL_ONLY,[],[],"[""12079920""]",false,false,false
+sunflower,Sunflower,Helianthus annuus,SPECIES_SPECIFIC,"[""12060010""]",[],[],false,false,true
+barley,Barley,Hordeum vulgare,SPECIES_SPECIFIC,"[""10031000""]",[],[],false,false,true
+lettuce,Lettuce,Lactuca sativa,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+red-pea,Red pea,Lathyrus cicera,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+lentil,Lentil,Lens culinaris,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+garden-cress,Garden cress,Lepidium sativum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+flax,Flax,Linum usitatissimum,SPECIES_SPECIFIC,"[""12040010""]",[],[],false,false,true
+italian-ryegrass,Italian ryegrass,Lolium multiflorum,SPECIES_SPECIFIC,"[""12092510""]",[],[],false,false,true
+perennial-ryegrass,Perennial ryegrass,Lolium perenne,SPECIES_SPECIFIC,"[""12092590""]",[],[],false,false,true
+hybrid-ryegrass,Hybrid ryegrass,Lolium × hybridum,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+birdsfoot-trefoil,Birdsfoot trefoil,Lotus corniculatus,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+white-lupin,White lupin,Lupinus albus,GROUP_LEVEL_ONLY,[],[],"[""12092950""]",false,false,true
+narrow-leaved-lupin,Narrow-leaved lupin,Lupinus angustifolius,GROUP_LEVEL_ONLY,[],[],"[""12092950""]",false,false,true
+yellow-lupin,Yellow lupin,Lupinus luteus,GROUP_LEVEL_ONLY,[],[],"[""12092950""]",false,false,false
+black-medick,Black medick,Medicago lupulina,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+bur-medick,Bur medick,Medicago polymorpha,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+alfalfa,Alfalfa / lucerne,Medicago sativa,SPECIES_SPECIFIC,"[""12092100""]",[],[],false,false,true
+hybrid-lucerne,Hybrid lucerne,Medicago × varia,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+white-sweetclover,White sweetclover,Melilotus albus,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,false
+yellow-sweetclover,Yellow sweetclover,Melilotus officinalis,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,false
+sainfoin,Sainfoin,Onobrychis viciifolia,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+yellow-serradella,Yellow serradella,Ornithopus compressus,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+serradella,Serradella,Ornithopus sativus,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+rice,Rice,Oryza sativa,GROUP_LEVEL_ONLY,[],[],"[""10061010""]",false,false,true
+proso-millet,Proso millet,Panicum miliaceum,GROUP_LEVEL_ONLY,[],[],"[""10082100""]",false,false,true
+poppy,Opium / seed poppy,Papaver somniferum,SPECIES_SPECIFIC,"[""12079110""]",[],[],false,false,true
+parsley,Parsley,Petroselinum crispum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,true
+phacelia,Phacelia,Phacelia tanacetifolia,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+canary-grass,Canary grass,Phalaris canariensis,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+runner-bean,Runner bean,Phaseolus coccineus,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+common-bean,Common bean,Phaseolus vulgaris,SPECIES_SPECIFIC,"[""07133310""]",[],[],false,false,true
+timothy,Timothy,Phleum pratense,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+field-pea,Field peas,Pisum sativum,SPECIES_SPECIFIC,"[""07131010""]",[],[],false,false,true
+ribwort-plantain,Ribwort plantain,Plantago lanceolata,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+wood-meadowgrass,Wood meadowgrass,Poa nemoralis,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+kentucky-bluegrass,Kentucky bluegrass,Poa pratensis,SPECIES_SPECIFIC,"[""12092400""]",[],[],false,false,true
+cultivated-radish,Cultivated radish,Raphanus raphanistrum subsp. sativus,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,true
+rhubarb,Rhubarb,Rheum rhabarbarum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+black-salsify,Black salsify,Scorzonera hispanica,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+rye,Rye,Secale cereale,SPECIES_SPECIFIC,"[""10021000""]",[],[],false,false,true
+foxtail-millet,Foxtail millet,Setaria italica,GROUP_LEVEL_ONLY,[],[],"[""10082100""]",false,false,true
+white-mustard,White mustard,Sinapis alba,GROUP_LEVEL_ONLY,[],[],"[""12075010""]",false,false,true
+tomato,Tomato,Solanum lycopersicum,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+aubergine,Aubergine,Solanum melongena,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+sorghum,Sorghum,Sorghum bicolor,PARTIAL_SPECIES_SCOPE,[],"[""10071010"",""10071090""]",[],false,false,true
+spinach,Spinach,Spinacia oleracea,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,true
+berseem-clover,Berseem / Egyptian clover,Trifolium alexandrinum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+glandular-clover,Glandular clover,Trifolium glanduliferum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+rose-clover,Rose clover,Trifolium hirtum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+alsike-clover,Alsike clover,Trifolium hybridum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+crimson-clover,Crimson clover,Trifolium incarnatum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+trifolium-isthmocarpum,Clover,Trifolium isthmocarpum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+balansa-clover,Balansa clover,Trifolium michelianum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+red-clover,Red clover,Trifolium pratense,SPECIES_SPECIFIC,"[""12092210""]",[],[],false,false,true
+white-clover,White clover,Trifolium repens,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+persian-clover,Persian clover,Trifolium resupinatum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+trifolium-squarrosum,Clover,Trifolium squarrosum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+subterranean-clover,Subterranean clover,Trifolium subterraneum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,false
+arrowleaf-clover,Arrowleaf clover,Trifolium vesiculosum,GROUP_LEVEL_ONLY,[],[],"[""12092280""]",false,false,true
+fenugreek,Fenugreek,Trigonella foenum-graecum,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,false
+golden-oatgrass,Golden oatgrass,Trisetum flavescens,GROUP_LEVEL_ONLY,[],[],"[""12092980""]",false,false,true
+common-wheat,Common wheat; seasons retained,Triticum aestivum,PARTIAL_SPECIES_SCOPE,[],"[""10019110""]","[""10019120""]",false,false,true
+durum-wheat,Durum wheat,Triticum turgidum subsp. durum,SPECIES_SPECIFIC,"[""10011100""]",[],[],false,false,true
+lambs-lettuce,Lamb's lettuce,Valerianella locusta,GROUP_LEVEL_ONLY,[],[],"[""12099180""]",false,false,false
+purple-vetch,Purple / Bengal vetch,Vicia benghalensis,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+bitter-vetch,Bitter vetch,Vicia ervilia,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+faba-bean,Faba beans,Vicia faba,NO_COMPATIBLE_TRADE_DATA,[],[],[],false,false,true
+hungarian-vetch,Hungarian vetch,Vicia pannonica,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+common-vetch,Common vetch,Vicia sativa,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+winter-vetch,Winter vetch,Vicia villosa Roth,GROUP_LEVEL_ONLY,[],[],"[""12092945""]",false,false,true
+maize,Maize,Zea mays,PARTIAL_SPECIES_SCOPE,[],"[""07129011"",""10051013"",""10051015"",""10051018"",""10051090""]",[],false,false,true

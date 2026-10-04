@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED_LOCAL_PREVIEW_ENVIRONMENT",
+  "actual_new_version_rendered": false,
+  "desktop": "NOT_VERIFIED",
+  "mobile": "NOT_VERIFIED",
+  "blocker": "Cloud browser URL policy permits only HTTP(S); generated file:// static prerender preview rejected. No workaround or browser installation attempted. Current implementation is unpublished.",
+  "structural_controls": "JSDOM hydration and interaction tests are separate from visual QA."
+}

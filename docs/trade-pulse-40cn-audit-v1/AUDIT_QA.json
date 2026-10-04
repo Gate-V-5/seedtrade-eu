@@ -1,0 +1,15 @@
+{
+  "numeric_source_qa": "PASS",
+  "semantic_release_blockers": 4,
+  "raw_cell_checks": 153838,
+  "source_hash_checks": 1080,
+  "duplicates_including_flow": 0,
+  "duplicate_four_dimension_keys_with_distinct_flow": 5900,
+  "public_safe": "PASS",
+  "no_species_allocation": "PASS",
+  "no_provider_merge": "PASS",
+  "no_interpolation": "PASS",
+  "commodity_non_sowing_codes": 0,
+  "category_partition": "PASS_WITH_EXPLICIT_UNALLOCATED_BUCKET",
+  "observations_unchanged": true
+}

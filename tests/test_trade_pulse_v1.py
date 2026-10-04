@@ -45,8 +45,10 @@ class TradePulseV1Tests(unittest.TestCase):
     def test_only_public_market_cn_scope(self):
         public_codes = {str(crop["cn8"]) for crop in self.market["crops"]}
         pulse_codes = {row["cn8"] for row in self.pulse["scope"]["included_cn_codes"]}
-        self.assertEqual(public_codes, pulse_codes)
-        self.assertEqual(11, len(pulse_codes))
+        approved = json.loads((ROOT / "docs/trade-cn-v1/TRADE_MARKET_ENTITIES.json").read_text())
+        self.assertTrue(public_codes <= pulse_codes)
+        self.assertEqual({r["cn8"] for r in approved}, pulse_codes)
+        self.assertEqual(40, len(pulse_codes))
 
     def test_source_and_classification(self):
         self.assertEqual("PUBLIC_SAFE", self.pulse["classification"])

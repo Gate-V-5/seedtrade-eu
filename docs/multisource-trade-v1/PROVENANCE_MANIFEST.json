@@ -1,0 +1,88 @@
+{
+  "starting_head": "dbfd99350479044794837269ed7ef2e7b6c2d4ab",
+  "protected_baseline_files": [
+    {
+      "path": "src/generated/production_public.json",
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4",
+      "unchanged": true
+    },
+    {
+      "path": "src/generated/production_coverage_additions.json",
+      "sha256": "5190b8e3c695a9080becd2b0061a693898284af3da6d42ac269821e6dce6e9dd",
+      "unchanged": true
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067",
+      "unchanged": true
+    },
+    {
+      "path": "src/generated/weather_public.json",
+      "sha256": "de4110d8eadaeedcab7e94a21828a6edec438dd7927328752330567ff59d471d",
+      "unchanged": true
+    },
+    {
+      "path": "src/generated/news.json",
+      "sha256": "9947569707a3fa413208b15dff403655bddfcf05fc85ca7a5dd2a5dce722b594",
+      "unchanged": true
+    },
+    {
+      "path": "src/generated/insights.json",
+      "sha256": "97454e8232fc6f2d21d995f98637f26d23ab03dcf92b9839de871738be8654e2",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "463c1862a86c0c040e66759ce1629d57d48b2b37218a6a6c9ad666ac93fbbe1e",
+      "unchanged": true
+    },
+    {
+      "path": "docs/crop-master-v1/CROP_MASTER_V1.json",
+      "sha256": "de0da445b9324a1aa28e7f91b084b12cab913f884213726f960e804960f8f48c",
+      "unchanged": true
+    }
+  ],
+  "official_sources": {
+    "requests": 1080,
+    "raw_files_in_recovery": "research/raw-official/comext",
+    "registry": "public/data/multisource-official-source-manifest-v1.json"
+  },
+  "commercial_raw": "INTERNAL_RECOVERY_ONLY;0_PUBLIC_ROWS",
+  "qa": {
+    "build": {
+      "returncode": 0,
+      "status": "PASS"
+    },
+    "python": {
+      "returncode": 0,
+      "status": "PASS",
+      "tests": 252
+    },
+    "node": {
+      "returncode": 0,
+      "status": "PASS",
+      "tests": 36
+    },
+    "trade-ssr": {
+      "returncode": 0,
+      "status": "PASS"
+    },
+    "trade-controls": {
+      "returncode": 0,
+      "status": "PASS"
+    },
+    "category-controls": {
+      "returncode": 0,
+      "status": "PASS"
+    },
+    "production-controls": {
+      "returncode": 0,
+      "status": "PASS"
+    },
+    "multilingual-hydration": {
+      "returncode": 0,
+      "status": "PASS"
+    }
+  },
+  "observation_identity": "Reporter/partner/flow/CN8/month"
+}

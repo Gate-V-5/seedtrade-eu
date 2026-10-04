@@ -1,0 +1,186 @@
+{
+  "starting_head": "dbfd99350479044794837269ed7ef2e7b6c2d4ab",
+  "audit_recovery": "PASS_SHA256_R2_AND_FAIL_RESOLUTION",
+  "period": {
+    "type": "MONTH_ONLY",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "label": "June 2026",
+    "selection": "view==eu_internal_trade AND period==2026-06",
+    "net_weight_kg": "251015101.0",
+    "value_eur": "400438328",
+    "observations": 3246,
+    "monthly_history": {
+      "2024-01": [
+        "376320979.0",
+        "837218037",
+        3242
+      ],
+      "2024-02": [
+        "360833526.0",
+        "930458877",
+        3908
+      ],
+      "2024-03": [
+        "318274454.0",
+        "777349460",
+        4131
+      ],
+      "2024-04": [
+        "284206404.0",
+        "465524348",
+        3903
+      ],
+      "2024-05": [
+        "250156530.0",
+        "344075256",
+        3314
+      ],
+      "2024-07": [
+        "226225658.0",
+        "461217348",
+        2986
+      ],
+      "2024-08": [
+        "257979299.0",
+        "329708613",
+        2969
+      ],
+      "2024-09": [
+        "312977022.0",
+        "340364392",
+        3196
+      ],
+      "2024-12": [
+        "247031678.0",
+        "431774686",
+        2711
+      ],
+      "2025-01": [
+        "310909658.0",
+        "799358024",
+        3367
+      ],
+      "2025-02": [
+        "321254726.0",
+        "883478989",
+        3826
+      ],
+      "2025-03": [
+        "284158005.0",
+        "797511911",
+        4207
+      ],
+      "2025-04": [
+        "227431053.0",
+        "494991877",
+        3798
+      ],
+      "2025-05": [
+        "280974375.0",
+        "361707742",
+        3266
+      ],
+      "2025-06": [
+        "176677166.0",
+        "365115035",
+        2879
+      ],
+      "2025-09": [
+        "342346603.0",
+        "353001804",
+        3255
+      ],
+      "2025-11": [
+        "376552644.0",
+        "506681557",
+        2832
+      ],
+      "2025-12": [
+        "444759165.0",
+        "507242661",
+        2756
+      ],
+      "2026-01": [
+        "406648205.0",
+        "767559869",
+        3314
+      ],
+      "2026-02": [
+        "418019314.0",
+        "890250907",
+        3841
+      ],
+      "2026-03": [
+        "429045314.0",
+        "886815860",
+        4434
+      ],
+      "2026-04": [
+        "248554835.0",
+        "454635280",
+        3892
+      ],
+      "2026-05": [
+        "237181097.0",
+        "317099129",
+        3335
+      ],
+      "2026-06": [
+        "251015101.0",
+        "400438328",
+        3246
+      ],
+      "2024-06": [
+        "219220884.0",
+        "375227729",
+        3069
+      ],
+      "2024-10": [
+        "377480859.0",
+        "394723781",
+        3135
+      ],
+      "2024-11": [
+        "295590669.0",
+        "475160975",
+        2873
+      ],
+      "2025-07": [
+        "189388842.0",
+        "437935719",
+        2870
+      ],
+      "2025-08": [
+        "236693962.0",
+        "325733917",
+        2977
+      ],
+      "2025-10": [
+        "436577617.0",
+        "442825875",
+        3166
+      ]
+    },
+    "audit_recovery": "PASS_EXACT_SHA256"
+  },
+  "trade_aggregate": "PASS_251015101_KG_400438328_EUR",
+  "attribution": "PASS_CORRECTED_PUBLIC_DERIVATION",
+  "python_tests": "263_EXISTING_PLUS4_RELEASE_TESTS_PASS;267_UNIQUE",
+  "node_tests": "36_PASS",
+  "build": "PASS_EXISTING_BUNDLE_WARNINGS",
+  "prerender": "45_ROUTES_PASS",
+  "hydration": "225_ROUTE_LANGUAGE_COMBINATIONS_PASS",
+  "multilingual": "EN_DE_FR_ES_IT_FALLBACK_PASS",
+  "b2b": "PASS_MOCK_ONLY",
+  "real_emails": 0,
+  "desktop_visual_qa_prepublication": "BLOCKED_LOCAL_PREVIEW_ERR_BLOCKED_BY_CLIENT",
+  "mobile_visual_qa": "UNAVAILABLE_NO_VIEWPORT_CONTROL",
+  "production_data_changed": false,
+  "daily_news_changed": false,
+  "styles_and_images_changed": false,
+  "globalwits": "NO_NEW_RESEARCH;ZERO_PUBLIC_AGGREGATE_VALUES",
+  "datamyne": "ACCESS_PENDING",
+  "unrelated_changes": "NONE",
+  "test_setup_note": "Initial suite ran before dist existed; rebuilt first and reran successfully. Historical11coverage expectation updated to approved20(16full+4partial)."
+}

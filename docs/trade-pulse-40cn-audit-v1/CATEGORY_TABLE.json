@@ -1,0 +1,184 @@
+[
+  {
+    "category_id": "cereals-pseudocereals",
+    "category_name": "Cereals and pseudocereals",
+    "volume_tonnes": 185721.887,
+    "trade_value_eur": 89147327.0,
+    "total_volume_share_percent": 73.988332,
+    "total_value_share_percent": 22.262436,
+    "cn_count": 15,
+    "cn_codes": [
+      "07129011",
+      "10011100",
+      "10019110",
+      "10019120",
+      "10021000",
+      "10031000",
+      "10041000",
+      "10051013",
+      "10051015",
+      "10051018",
+      "10051090",
+      "10061010",
+      "10071010",
+      "10071090",
+      "10082100"
+    ],
+    "linked_canonical_entities": 12,
+    "linked_true_seed_species": 12,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "grain-legumes",
+    "category_name": "Grain legumes and protein crops",
+    "volume_tonnes": 15999.439,
+    "trade_value_eur": 7261629.0,
+    "total_volume_share_percent": 6.373895,
+    "total_value_share_percent": 1.81342,
+    "cn_count": 3,
+    "cn_codes": [
+      "07131010",
+      "12011000",
+      "12092950"
+    ],
+    "linked_canonical_entities": 5,
+    "linked_true_seed_species": 5,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "forage-legumes",
+    "category_name": "Forage legumes",
+    "volume_tonnes": 3583.73,
+    "trade_value_eur": 11426084.0,
+    "total_volume_share_percent": 1.427695,
+    "total_value_share_percent": 2.853394,
+    "cn_count": 3,
+    "cn_codes": [
+      "12092100",
+      "12092210",
+      "12092280"
+    ],
+    "linked_canonical_entities": 14,
+    "linked_true_seed_species": 14,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "grass-seeds",
+    "category_name": "Grass seeds",
+    "volume_tonnes": 12488.184,
+    "trade_value_eur": 21728189.0,
+    "total_volume_share_percent": 4.975073,
+    "total_value_share_percent": 5.426101,
+    "cn_count": 6,
+    "cn_codes": [
+      "12092311",
+      "12092315",
+      "12092380",
+      "12092400",
+      "12092510",
+      "12092590"
+    ],
+    "linked_canonical_entities": 6,
+    "linked_true_seed_species": 6,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "oil-fibre-seeds",
+    "category_name": "Oilseed and fibre crops",
+    "volume_tonnes": 16653.404,
+    "trade_value_eur": 59269178.0,
+    "total_volume_share_percent": 6.634423,
+    "total_value_share_percent": 14.801075,
+    "cn_count": 5,
+    "cn_codes": [
+      "12040010",
+      "12051010",
+      "12060010",
+      "12079110",
+      "12079920"
+    ],
+    "linked_canonical_entities": 8,
+    "linked_true_seed_species": 8,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "brassica-seeds",
+    "category_name": "Mustard and radish seeds",
+    "volume_tonnes": 3048.162,
+    "trade_value_eur": 4128117.0,
+    "total_volume_share_percent": 1.214334,
+    "total_value_share_percent": 1.0309,
+    "cn_count": 1,
+    "cn_codes": [
+      "12075010"
+    ],
+    "linked_canonical_entities": 3,
+    "linked_true_seed_species": 3,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "vegetable-seeds",
+    "category_name": "Vegetable seeds",
+    "volume_tonnes": 1703.625,
+    "trade_value_eur": 8092589.0,
+    "total_volume_share_percent": 0.678694,
+    "total_value_share_percent": 2.020933,
+    "cn_count": 2,
+    "cn_codes": [
+      "07133310",
+      "12099130"
+    ],
+    "linked_canonical_entities": 2,
+    "linked_true_seed_species": 2,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "herbs-specialty",
+    "category_name": "Herbs and specialty flowering crops",
+    "volume_tonnes": null,
+    "trade_value_eur": null,
+    "total_volume_share_percent": null,
+    "total_value_share_percent": null,
+    "cn_count": 0,
+    "cn_codes": [],
+    "linked_canonical_entities": 0,
+    "linked_true_seed_species": 0,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "seed-potatoes",
+    "category_name": "Seed potatoes",
+    "volume_tonnes": null,
+    "trade_value_eur": null,
+    "total_volume_share_percent": null,
+    "total_value_share_percent": null,
+    "cn_count": 0,
+    "cn_codes": [],
+    "linked_canonical_entities": 0,
+    "linked_true_seed_species": 0,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  },
+  {
+    "category_id": "other-propagation",
+    "category_name": "Other propagation material",
+    "volume_tonnes": null,
+    "trade_value_eur": null,
+    "total_volume_share_percent": null,
+    "total_value_share_percent": null,
+    "cn_count": 0,
+    "cn_codes": [],
+    "linked_canonical_entities": 0,
+    "linked_true_seed_species": 0,
+    "linked_species_are_contributors": false,
+    "note": "Supported single-category customs totals only; excludes cross-category groups and unresolved beet crop types. Missing category coverage is absent, not zero."
+  }
+]

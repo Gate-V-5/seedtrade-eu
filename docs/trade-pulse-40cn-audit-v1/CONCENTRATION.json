@@ -1,0 +1,21 @@
+{
+  "denominator": "29-code expansion only; distinct from 40-code total shares",
+  "volume": {
+    "top_1_cn": "10019120",
+    "top_1_share_percent": 28.116107,
+    "top_3_share_percent": 62.232854,
+    "top_5_share_percent": 72.622777,
+    "top_10_share_percent": 88.474857
+  },
+  "value": {
+    "top_1_cn": "12099180",
+    "top_1_share_percent": 44.656727,
+    "top_3_share_percent": 65.474808,
+    "top_5_share_percent": 75.561195,
+    "top_10_share_percent": 90.984224
+  },
+  "flags": [
+    "CONCENTRATED_NEW_CODE_VOLUME_TOP3_OVER_50_PERCENT",
+    "CONCENTRATED_NEW_CODE_VALUE_TOP3_OVER_50_PERCENT"
+  ]
+}

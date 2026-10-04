@@ -1,0 +1,36 @@
+{
+  "build": {
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "python": {
+    "returncode": 0,
+    "status": "PASS",
+    "tests": 252
+  },
+  "node": {
+    "returncode": 0,
+    "status": "PASS",
+    "tests": 36
+  },
+  "trade-ssr": {
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "trade-controls": {
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "category-controls": {
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "production-controls": {
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "multilingual-hydration": {
+    "returncode": 0,
+    "status": "PASS"
+  }
+}

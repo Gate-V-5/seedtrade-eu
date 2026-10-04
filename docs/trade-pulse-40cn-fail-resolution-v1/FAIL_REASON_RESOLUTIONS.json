@@ -1,0 +1,42 @@
+[
+  {
+    "cn8": "10019110",
+    "previous_fail_reason": "Missing direct separate commercial Spelt link; partial biological-parent mapping is valid.",
+    "resolution": "Direct CN-to-existing-commercial-entity link to spelt; retain biological parent common-wheat as PARTIAL_SCOPE. No new species or entity.",
+    "commercial_entity_id": "spelt",
+    "botanical": "Triticum aestivum subsp. spelta",
+    "biological_species": "Triticum aestivum",
+    "status": "RESOLVED_MODEL_ONLY",
+    "source_botanical": null
+  },
+  {
+    "cn8": "10019120",
+    "previous_fail_reason": "Common wheat or meslin presented as partial common-wheat scope.",
+    "resolution": "GROUP_LEVEL customs entity CN-10019120. Common-wheat is a scope candidate only; no whole-CN common-wheat volume and no constituent allocation.",
+    "commercial_entity_id": "CN-10019120",
+    "botanical": null,
+    "biological_species": null,
+    "status": "RESOLVED_MODEL_ONLY",
+    "source_botanical": null
+  },
+  {
+    "cn8": "12091000",
+    "previous_fail_reason": "Sugar-beet crop type inherited vegetable category from Beta vulgaris biological link.",
+    "resolution": "Keep sugar-beet customs crop-type evidence at CN-12091000 with Beta vulgaris PARTIAL_SCOPE; category UNALLOCATED_COMMERCIAL_SCOPE. Do not invent an eleventh category or pretend vegetable usage.",
+    "commercial_entity_id": "CN-12091000",
+    "botanical": "Beta vulgaris",
+    "biological_species": null,
+    "status": "RESOLVED_BY_WITHHOLDING_CATEGORY",
+    "source_botanical": null
+  },
+  {
+    "cn8": "12092960",
+    "previous_fail_reason": "Fodder-beet crop type inherited vegetable category from Beta vulgaris biological link.",
+    "resolution": "Keep fodder-beet customs crop-type evidence at CN-12092960 with Beta vulgaris PARTIAL_SCOPE; category UNALLOCATED_COMMERCIAL_SCOPE. Original botanical terminology retained; no forced vegetable allocation.",
+    "commercial_entity_id": "CN-12092960",
+    "botanical": "Beta vulgaris",
+    "biological_species": null,
+    "status": "RESOLVED_BY_WITHHOLDING_CATEGORY",
+    "source_botanical": "Beta vulgaris var. alba"
+  }
+]

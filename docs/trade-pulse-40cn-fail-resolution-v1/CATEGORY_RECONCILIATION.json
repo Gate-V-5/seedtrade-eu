@@ -1,0 +1,15 @@
+{
+  "unallocated_cn_codes": [
+    "12091000",
+    "12092945",
+    "12092960",
+    "12092980",
+    "12099180"
+  ],
+  "unallocated_kg": "11816670.0",
+  "unallocated_eur": "199385215.0",
+  "unallocated_value_share_percent": 49.791741,
+  "sum_categories_plus_unallocated": "PASS",
+  "category_partition_not_species_partition": true,
+  "12099180_note": "Official vegetable customs usage includes scope candidates whose primary SeedTrade categories also include brassica-seeds. Do not silently move commercial entities or allocate this cross-primary-category code."
+}

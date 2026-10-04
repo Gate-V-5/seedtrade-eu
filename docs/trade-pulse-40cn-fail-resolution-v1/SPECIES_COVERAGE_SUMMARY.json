@@ -1,0 +1,16 @@
+{
+  "mutually_exclusive": {
+    "GROUP_LEVEL_TRADE_EVIDENCE": 78,
+    "NO_TRADE_EVIDENCE": 23,
+    "DIRECT_TRADE_DATA": 20
+  },
+  "precision_subcounts": {
+    "GROUP_LEVEL_ONLY": 78,
+    "NO_COMPATIBLE_TRADE_DATA": 23,
+    "PARTIAL_SPECIES_SCOPE": 4,
+    "SPECIES_SPECIFIC": 16
+  },
+  "direct_includes_four_partial_scope_species": true,
+  "species_group_values_allocated": false,
+  "121_kpi_changed": false
+}

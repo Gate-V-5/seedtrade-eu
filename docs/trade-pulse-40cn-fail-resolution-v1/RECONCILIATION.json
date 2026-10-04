@@ -1,0 +1,17 @@
+{
+  "total_kg_exact": "251015101.0",
+  "total_tonnes_exact": "251015.101",
+  "total_eur_exact": "400438328.0",
+  "partition_residual_kg": "0",
+  "partition_residual_eur": "0",
+  "old_11_baseline_match": "PASS",
+  "old_11_kg": "30932074",
+  "old_11_eur": "35685420",
+  "new_29_kg": "220083027",
+  "new_29_eur": "364752908",
+  "display_tonne_tolerance_per_value": ".005",
+  "display_component_sum_tolerance_tonnes": ".02",
+  "rounding_only": "Exact kg/euro reconciliation is mandatory; 0.02t is max four independently rounded display components, not a source-value correction.",
+  "volume": "PASS",
+  "value": "PASS"
+}

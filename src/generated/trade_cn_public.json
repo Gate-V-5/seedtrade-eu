@@ -8,11 +8,11 @@
     "SEED_CATEGORIES": 10,
     "CATCH_CROP_SPECIES": 52,
     "SPECIES_WITH_TRADE_DATA_BEFORE": 9,
-    "SPECIES_WITH_TRADE_DATA_AFTER": 11,
-    "FULL_SPECIES_SPECIFIC_TRADE": 10,
+    "SPECIES_WITH_TRADE_DATA_AFTER": 20,
+    "FULL_SPECIES_SPECIFIC_TRADE": 16,
     "SPECIES_LEVEL_TRADE_COVERAGE_PERCENT": 9.09,
     "TRADE_MARKET_ENTITIES": 40,
-    "TRADE_MARKET_ENTITIES_WITH_DATA": 21,
+    "TRADE_MARKET_ENTITIES_WITH_DATA": 40,
     "USEFUL_TRADE_MARKET_COVERAGE": 78,
     "USEFUL_COVERAGE_SCOPE": "Species linked to an observed customs entity; not confirmed species-level trade",
     "CN_STATUS_COUNTS": {
@@ -40,12 +40,15 @@
     "BASELINE_COMPLETED_TRADE_PULSE_OBSERVATIONS": 35238,
     "COMPLETED_TRADE_PULSE_PLUS_NEW": 35740,
     "BASELINE_TRADE_OBSERVATIONS": 56741,
-    "TOTAL_TRADE_OBSERVATIONS": 57243,
-    "OBSERVATION_COUNT_SCOPE": "Baseline manifest-reported 56,741 public-safe rows (not recounted from raw) plus 502 newly recounted bilateral rows on disjoint CN codes. Completed Trade Pulse subset remains separately reported; no volume sum across entities",
+    "TOTAL_TRADE_OBSERVATIONS": 153838,
+    "OBSERVATION_COUNT_SCOPE": "Recovered official normalized rows; no commercial source values included",
     "PUBLIC_SAFE": "PASS",
     "PROVENANCE": "PASS",
     "COMMODITY_CONTAMINATION": "NONE",
-    "REPRESENTATIVE_PRICE_QA": "EXISTING_ENGINE_PRESERVED;NEW_PRICES_WITHHELD"
+    "REPRESENTATIVE_PRICE_QA": "EXISTING_ENGINE_PRESERVED;NEW_PRICES_WITHHELD",
+    "PARTIAL_SPECIES_SCOPE": 4,
+    "GROUP_LEVEL_ONLY": 78,
+    "NO_COMPATIBLE_TRADE_DATA": 23
   },
   "entities": [
     {
@@ -747,7 +750,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-12092945-2026-06"
         }
-      ]
+      ],
+      "allocated_category": null,
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12099180",
@@ -1622,7 +1630,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-12099180-2026-06"
         }
-      ]
+      ],
+      "allocated_category": null,
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092980",
@@ -2461,7 +2474,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-12092980-2026-06"
         }
-      ]
+      ],
+      "allocated_category": null,
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10041000",
@@ -2500,7 +2518,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12091000",
@@ -2535,7 +2558,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": null,
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092960",
@@ -2570,7 +2598,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": null,
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12099130",
@@ -2605,7 +2638,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "vegetable-seeds",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12075010",
@@ -2644,7 +2682,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "brassica-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12051010",
@@ -2681,7 +2724,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12079920",
@@ -2720,7 +2768,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092380",
@@ -3383,7 +3436,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-12092380-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "grass-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092311",
@@ -3418,7 +3476,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092315",
@@ -3453,7 +3516,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12011000",
@@ -3830,7 +3898,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-12011000-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "grain-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12060010",
@@ -3865,7 +3938,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10031000",
@@ -3900,7 +3978,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12040010",
@@ -3935,7 +4018,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092510",
@@ -3970,7 +4058,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092590",
@@ -4005,7 +4098,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092950",
@@ -4044,7 +4142,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grain-legumes",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092100",
@@ -4079,7 +4182,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "forage-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10061010",
@@ -4114,7 +4222,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10082100",
@@ -4151,7 +4264,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12079110",
@@ -4186,7 +4304,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-07133310",
@@ -4221,7 +4344,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "vegetable-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-07131010",
@@ -4256,7 +4384,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grain-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092400",
@@ -4291,7 +4424,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10021000",
@@ -4326,7 +4464,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10071010",
@@ -4361,7 +4504,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10071090",
@@ -4396,7 +4544,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092280",
@@ -4971,7 +5124,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-12092280-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "forage-legumes",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-12092210",
@@ -5006,7 +5164,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "forage-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10019110",
@@ -5018,10 +5181,10 @@
       "nomenclature_year": 2026,
       "granularity": "PARTIAL",
       "species_ids": [
-        "common-wheat"
+        "spelt"
       ],
       "botanical_names": [
-        "Triticum aestivum"
+        "Triticum aestivum subsp. spelta"
       ],
       "seed_categories": [
         "cereals-pseudocereals"
@@ -5041,7 +5204,14 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS",
+      "biological_species": "Triticum aestivum",
+      "direct_commercial_entity_id": "spelt"
     },
     {
       "id": "CN-10019120",
@@ -5051,7 +5221,7 @@
       "hs6": "100191",
       "official_description": "Seed of common wheat or meslin, for sowing",
       "nomenclature_year": 2026,
-      "granularity": "PARTIAL",
+      "granularity": "GROUP_LEVEL",
       "species_ids": [
         "common-wheat"
       ],
@@ -5076,7 +5246,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10011100",
@@ -5111,7 +5286,12 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10051013",
@@ -5521,7 +5701,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-10051013-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10051015",
@@ -6140,7 +6325,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-10051015-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10051018",
@@ -6561,7 +6751,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-10051018-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-10051090",
@@ -7081,7 +7276,12 @@
           "source": "Eurostat COMEXT DS-045409",
           "source_observation_id": "COMEXT-CNV1-PL-DE-10051090-2026-06"
         }
-      ]
+      ],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     },
     {
       "id": "CN-07129011",
@@ -7116,7 +7316,58 @@
         "2024 concordance was not newly verified; existing 2024 series retain baseline provenance.",
         "Mapping confidence is not market attractiveness."
       ],
-      "periods": []
+      "periods": [],
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
     }
-  ]
+  ],
+  "historical_summary": {
+    "STARTING_HEAD": "9e52d03c7a761fcbc0d802451c95a147d0583bca",
+    "DISTINCT_SEED_SPECIES": 121,
+    "CANONICAL_MARKET_ENTITIES": 136,
+    "SEED_CATEGORIES": 10,
+    "CATCH_CROP_SPECIES": 52,
+    "SPECIES_WITH_TRADE_DATA_BEFORE": 9,
+    "SPECIES_WITH_TRADE_DATA_AFTER": 11,
+    "FULL_SPECIES_SPECIFIC_TRADE": 10,
+    "SPECIES_LEVEL_TRADE_COVERAGE_PERCENT": 9.09,
+    "TRADE_MARKET_ENTITIES": 40,
+    "TRADE_MARKET_ENTITIES_WITH_DATA": 21,
+    "USEFUL_TRADE_MARKET_COVERAGE": 78,
+    "USEFUL_COVERAGE_SCOPE": "Species linked to an observed customs entity; not confirmed species-level trade",
+    "CN_STATUS_COUNTS": {
+      "GROUP_LEVEL": 76,
+      "REVIEW_REQUIRED": 10,
+      "PARTIAL": 6,
+      "NOT_AVAILABLE": 13,
+      "CONFIRMED": 16
+    },
+    "SOWING_STATUS_COUNTS": {
+      "SOWING_SPECIFIC": 98,
+      "REVIEW_REQUIRED": 10,
+      "NOT_SOWING_SPECIFIC": 13
+    },
+    "SPECIES_WITH_PRODUCTION_DATA": 82,
+    "INTERSECTION": {
+      "PRODUCTION_ONLY": 71,
+      "NEITHER": 39,
+      "PRODUCTION_AND_TRADE": 11
+    },
+    "NEW_CN_MAPPINGS": 39,
+    "SPECIES_GAINING_NEW_CN_LINKS": 32,
+    "SPECIES_WITH_CHANGED_CN_CODE_SETS": 36,
+    "NEW_COMEXT_OBSERVATIONS": 502,
+    "BASELINE_COMPLETED_TRADE_PULSE_OBSERVATIONS": 35238,
+    "COMPLETED_TRADE_PULSE_PLUS_NEW": 35740,
+    "BASELINE_TRADE_OBSERVATIONS": 56741,
+    "TOTAL_TRADE_OBSERVATIONS": 57243,
+    "OBSERVATION_COUNT_SCOPE": "Baseline manifest-reported 56,741 public-safe rows (not recounted from raw) plus 502 newly recounted bilateral rows on disjoint CN codes. Completed Trade Pulse subset remains separately reported; no volume sum across entities",
+    "PUBLIC_SAFE": "PASS",
+    "PROVENANCE": "PASS",
+    "COMMODITY_CONTAMINATION": "NONE",
+    "REPRESENTATIVE_PRICE_QA": "EXISTING_ENGINE_PRESERVED;NEW_PRICES_WITHHELD"
+  }
 }

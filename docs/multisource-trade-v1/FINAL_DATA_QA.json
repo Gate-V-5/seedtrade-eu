@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "qa_failures": 0,
+  "complete_request_grid": true,
+  "observations_checked": 153838,
+  "cn_codes_observed": 40,
+  "duplicate_observations": 0,
+  "double_counting": 0,
+  "commodity_contamination": "NONE",
+  "source_reconciliation": "NO_PROVIDER_SUMMATION",
+  "globalwits_raw_publication": false,
+  "species_allocation": "NONE_FOR_GROUPS",
+  "zero_weight_rows_preserved": {
+    "SOURCE_REPORTED_ZERO_NET_WEIGHT;NO_PRICE": 6962
+  },
+  "source_hashes": "PASS",
+  "country_flow_totals": "PASS",
+  "category_contribution_partition": "PASS_WITH_SHARED_GROUP_BUCKET",
+  "public_safe": "PASS",
+  "missing_data_not_zero": "PASS"
+}

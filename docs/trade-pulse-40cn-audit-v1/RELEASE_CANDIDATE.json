@@ -1,0 +1,13 @@
+{
+  "reference_checkpoint_sha256": "c5fe73a45f179329c801a52dabfb205a1b8729ca43d8d6ede37250f539cfa011",
+  "status": "BLOCKED_SEMANTIC_REVIEW",
+  "implementation_unchanged_from_checkpoint": true,
+  "aggregate_unchanged": true,
+  "release_gate": "FAIL",
+  "required_decision_codes": [
+    "10019110",
+    "10019120",
+    "12091000",
+    "12092960"
+  ]
+}

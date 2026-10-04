@@ -48,7 +48,7 @@ class HomepageHeroDynamicMetricsV1(unittest.TestCase):
         self.assertNotIn('class="platform-kpis"', page)
         for text in (
             str(json.loads((ROOT / "src/generated/crop_master_summary.json").read_text())["distinct_seed_species"]),
-            f'{manifest["datasets"]["comext"]["public_safe_observations"]:,}',
+            f'{manifest["datasets"]["trade_pulse"]["accepted_observations"]:,}',
             str(weather["region_count"]),
             market["latest_completed_period"],
             "Top News",

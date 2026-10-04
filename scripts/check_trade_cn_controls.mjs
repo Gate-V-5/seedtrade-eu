@@ -15,8 +15,8 @@ try {
  await sel(0,'GROUP');assert.ok(panel().textContent.includes('Trade group'))
  await sel(1,'vegetable-seeds');assert.ok(panel().textContent.includes('12099180'));assert.ok(panel().textContent.includes('Daucus carota'))
  await sel(1,'ALL');await sel(0,'SPECIES');await sel(2,'CN-12011000');assert.ok(panel().textContent.includes('Glycine max'))
- const data=JSON.parse(fs.readFileSync('src/generated/trade_cn_public.json','utf8'));let gap
- for(const e of data.entities.filter(e=>e.periods.length&&e.granularity!=='GROUP_LEVEL'))for(const period of new Set(e.periods.map(r=>r.period)))for(const c of ['DE','FR','NL','PL'])if(!e.periods.some(r=>r.country===c&&r.period===period))gap={e:e.id,c,period}
+ const data=JSON.parse(fs.readFileSync('src/generated/trade_cn_public.json','utf8')), totals=JSON.parse(fs.readFileSync('src/generated/country_customs_totals.json','utf8'));let gap
+ for(const e of data.entities.filter(e=>e.granularity!=='GROUP_LEVEL'))for(const period of totals.periods)for(const c of totals.reporters)if(!totals.rows.some(r=>r[0]===e.cn8&&r[1]===c&&r[2]==='eu_internal_trade'&&r[3]===period)){gap={e:e.id,c,period};break}
  assert.ok(gap);await sel(2,gap.e);await sel(3,gap.c);await sel(4,gap.period)
  assert.ok(panel().textContent.includes('Missing data is not zero'));assert.equal(panel().querySelector('dl'),null);assert.deepEqual(errors,[])
  console.log('Trade/CN control hydration PASS: category, species/group filters, botanical scope, missing observations withheld, no hydration repairs; no emails.')

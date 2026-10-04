@@ -1,0 +1,37 @@
+{
+  "period": "2026-06",
+  "flow": "INTRA_EU_DISPATCHES",
+  "old_11_kg_exact": "30932074.00",
+  "new_29_kg_exact": "220083027.00",
+  "total_40_kg_exact": "251015101.00",
+  "old_11_tonnes": 30932.074,
+  "new_29_tonnes": 220083.027,
+  "total_40_tonnes": 251015.101,
+  "old_11_eur_exact": "35685420",
+  "new_29_eur_exact": "364752908",
+  "total_40_eur_exact": "400438328",
+  "volume_reconciliation_residual_kg": 0.0,
+  "value_reconciliation_residual_eur": 0.0,
+  "arithmetic_tolerance": "Decimal exact arithmetic: zero residual. Two-decimal tonne display comparison <=0.005 tonne; independently rounded component displays may differ by <=0.01 tonne. EUR display tolerance <=0.005 EUR.",
+  "baseline_volume_display_match": true,
+  "baseline_value_exact_match": true,
+  "expanded_volume_display_match": true,
+  "expanded_value_exact_match": true,
+  "all_history_observations": 153838,
+  "duplicate_full_source_grain": 0,
+  "duplicate_reporter_partner_period_cn_without_flow": 5900,
+  "four_dimension_duplicates_explanation": "Extra-EU import/export are distinct directional observations sharing reporter/partner/CN/month. FLOW is required in source identity; they are never combined into intra-EU dispatches.",
+  "quantity_unit": "SOURCE100KG x100=KG; x0.1=TONNES",
+  "value_unit": "EUR; no USD conversion",
+  "raw_cell_revalidation": "All accepted normalized rows checked against original JSONstat quantity/value cells",
+  "source_updates": [
+    "2026-09-15T11:00:00+0200"
+  ],
+  "zero_net_weight_rows": 6962,
+  "official_status_counts": {},
+  "all_history_flow_counts": {
+    "eu_imports": 18277,
+    "eu_exports": 34863,
+    "eu_internal_trade": 100698
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "GROUP_LEVEL_ONLY": 78,
+    "NO_COMPATIBLE_TRADE_DATA": 23,
+    "PARTIAL_SPECIES_SCOPE": 4,
+    "SPECIES_SPECIFIC": 16
+  },
+  "denominator": 121,
+  "scope": "121 biological species only. Spelt is infraspecific evidence within Triticum aestivum and does not create a 122nd species; its separate commercial entity link remains pending. Partial scope never counts as full species coverage."
+}

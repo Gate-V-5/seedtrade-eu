@@ -1,0 +1,40 @@
+{
+  "starting_head": "dbfd99350479044794837269ed7ef2e7b6c2d4ab",
+  "audit_version": "r2",
+  "audit_sha256": "a3378ef7db11c4c5fc8f8e2a3be71f4435c437f0be384dfc3c1696c243952a30",
+  "classification_counts": {
+    "CORE_SEED_TRADE": 40
+  },
+  "model": "MODEL_A",
+  "release_gate": "PASS_CORE_ONLY",
+  "headline": {
+    "volume_tonnes": 251015.1,
+    "value_eur": 400438328,
+    "label": "EU seed-for-sowing trade · 40 CN codes",
+    "period": "2026-06",
+    "description": "Gross internal-EU dispatches; species-specific, crop-type and customs-group evidence. Coverage is customs-defined, not complete seed-market coverage."
+  },
+  "species_coverage": {
+    "GROUP_LEVEL_TRADE_EVIDENCE": 78,
+    "NO_TRADE_EVIDENCE": 23,
+    "DIRECT_TRADE_DATA": 20
+  },
+  "species_precision": {
+    "GROUP_LEVEL_ONLY": 78,
+    "NO_COMPATIBLE_TRADE_DATA": 23,
+    "PARTIAL_SPECIES_SCOPE": 4,
+    "SPECIES_SPECIFIC": 16
+  },
+  "distinct_seed_species": 121,
+  "canonical_market_entities": 136,
+  "seed_categories": 10,
+  "catch_crop_species": 52,
+  "unallocated_category_cn": [
+    "12091000",
+    "12092945",
+    "12092960",
+    "12092980",
+    "12099180"
+  ],
+  "no_implementation_changes": true
+}

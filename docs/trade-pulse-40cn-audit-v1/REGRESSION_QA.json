@@ -1,0 +1,19 @@
+{
+  "source_numeric_qa": "PASS",
+  "csv_json_parity": "PASS",
+  "recovered_implementation_unchanged": "PASS",
+  "python_unique_tests": 255,
+  "node_tests": 36,
+  "build": "PASS_WITH_EXISTING_BUNDLE_WARNING",
+  "prerender": "45_ROUTES_PASS",
+  "hydration": "225_COMBINATIONS_PASS",
+  "multilingual": "EN_DE_FR_ES_IT_FALLBACK_PASS",
+  "b2b": "MOCK_ONLY_PASS",
+  "production": "UNCHANGED_PASS",
+  "homepage": "UNCHANGED_PASS",
+  "daily_news": "UNCHANGED_PASS",
+  "real_emails": 0,
+  "semantic_release_decisions_required": 4,
+  "release_gate": "FAIL",
+  "rendered_visual_qa": "NOT_RUN;NO_UI_CHANGES_IN_AUDIT"
+}

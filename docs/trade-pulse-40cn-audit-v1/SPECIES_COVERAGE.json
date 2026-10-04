@@ -1,0 +1,1659 @@
+[
+  {
+    "species_id": "browntop",
+    "name": "Brown top / common bent",
+    "botanical": "Agrostis capillaris",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "onion",
+    "name": "Onion / shallot",
+    "botanical": "Allium cepa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "bunching-onion",
+    "name": "Bunching onion",
+    "botanical": "Allium fistulosum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "leek",
+    "name": "Leek",
+    "botanical": "Allium porrum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "chives",
+    "name": "Chives",
+    "botanical": "Allium schoenoprasum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "meadow-foxtail",
+    "name": "Meadow foxtail",
+    "botanical": "Alopecurus pratensis",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "dill",
+    "name": "Dill",
+    "botanical": "Anethum graveolens",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "chervil",
+    "name": "Chervil",
+    "botanical": "Anthriscus cerefolium",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "celery",
+    "name": "Celery / celeriac",
+    "botanical": "Apium graveolens",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "tall-oatgrass",
+    "name": "Tall oatgrass",
+    "botanical": "Arrhenatherum elatius",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "asparagus",
+    "name": "Asparagus",
+    "botanical": "Asparagus officinalis",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "naked-oat",
+    "name": "Naked oat",
+    "botanical": "Avena nuda",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "10041000"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "oat",
+    "name": "Oat",
+    "botanical": "Avena sativa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "10041000"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "black-oat",
+    "name": "Bristle / black oat",
+    "botanical": "Avena strigosa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "10041000"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "beet-chard",
+    "name": "Beet / chard; source crop types separate",
+    "botanical": "Beta vulgaris",
+    "coverage": "PARTIAL_SPECIES_SCOPE",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [
+      "12091000",
+      "12092960",
+      "12099130"
+    ],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "biserrula",
+    "name": "Biserrula",
+    "botanical": "Biserrula pelecinus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "borage",
+    "name": "Borage",
+    "botanical": "Borago officinalis",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "ethiopian-mustard",
+    "name": "Ethiopian mustard",
+    "botanical": "Brassica carinata",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "brown-mustard",
+    "name": "Brown mustard",
+    "botanical": "Brassica juncea",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12075010"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "rapeseed",
+    "name": "Rapeseed / oilseed rape",
+    "botanical": "Brassica napus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12051010"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "black-mustard",
+    "name": "Black mustard",
+    "botanical": "Brassica nigra",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12075010"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "cabbage",
+    "name": "Cabbage / kale / broccoli crop types",
+    "botanical": "Brassica oleracea",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "turnip-rape",
+    "name": "Turnip rape; source-reported scope",
+    "botanical": "Brassica rapa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12051010"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "camelina",
+    "name": "Camelina",
+    "botanical": "Camelina sativa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12079920"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "hemp",
+    "name": "Hemp",
+    "botanical": "Cannabis sativa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12079920"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "pepper",
+    "name": "Pepper",
+    "botanical": "Capsicum annuum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "safflower",
+    "name": "Safflower",
+    "botanical": "Carthamus tinctorius",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "caraway",
+    "name": "Caraway",
+    "botanical": "Carum carvi",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "quinoa",
+    "name": "Quinoa",
+    "botanical": "Chenopodium quinoa",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "chickpea",
+    "name": "Chickpea",
+    "botanical": "Cicer arietinum",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "endive",
+    "name": "Endive",
+    "botanical": "Cichorium endivia",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "chicory",
+    "name": "Chicory",
+    "botanical": "Cichorium intybus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "watermelon",
+    "name": "Watermelon",
+    "botanical": "Citrullus lanatus",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "coriander",
+    "name": "Coriander",
+    "botanical": "Coriandrum sativum",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "sunn-hemp",
+    "name": "Sunn hemp",
+    "botanical": "Crotalaria juncea",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "melon",
+    "name": "Melon",
+    "botanical": "Cucumis melo",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "cucumber",
+    "name": "Cucumber / gherkin",
+    "botanical": "Cucumis sativus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "winter-squash",
+    "name": "Winter squash",
+    "botanical": "Cucurbita maxima",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "courgette",
+    "name": "Courgette / pumpkin",
+    "botanical": "Cucurbita pepo",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "artichoke",
+    "name": "Globe artichoke / cardoon",
+    "botanical": "Cynara cardunculus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "cocksfoot",
+    "name": "Cocksfoot / orchard grass",
+    "botanical": "Dactylis glomerata",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "carrot",
+    "name": "Carrot",
+    "botanical": "Daucus carota",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "buckwheat",
+    "name": "Buckwheat",
+    "botanical": "Fagopyrum esculentum",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "tall-fescue",
+    "name": "Tall fescue",
+    "botanical": "Festuca arundinacea",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092380"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "meadow-fescue",
+    "name": "Meadow fescue",
+    "botanical": "Festuca pratensis",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092311"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "red-fescue",
+    "name": "Red fescue",
+    "botanical": "Festuca rubra",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092315"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "fennel",
+    "name": "Fennel",
+    "botanical": "Foeniculum vulgare",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "fodder-galega",
+    "name": "Fodder galega",
+    "botanical": "Galega orientalis",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "soybean",
+    "name": "Soybeans",
+    "botanical": "Glycine max",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12011000"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "niger",
+    "name": "Niger",
+    "botanical": "Guizotia abyssinica",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12079920"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "sunflower",
+    "name": "Sunflower",
+    "botanical": "Helianthus annuus",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12060010"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "barley",
+    "name": "Barley",
+    "botanical": "Hordeum vulgare",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "10031000"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "lettuce",
+    "name": "Lettuce",
+    "botanical": "Lactuca sativa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "red-pea",
+    "name": "Red pea",
+    "botanical": "Lathyrus cicera",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "lentil",
+    "name": "Lentil",
+    "botanical": "Lens culinaris",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "garden-cress",
+    "name": "Garden cress",
+    "botanical": "Lepidium sativum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "flax",
+    "name": "Flax",
+    "botanical": "Linum usitatissimum",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12040010"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "italian-ryegrass",
+    "name": "Italian ryegrass",
+    "botanical": "Lolium multiflorum",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092510"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "perennial-ryegrass",
+    "name": "Perennial ryegrass",
+    "botanical": "Lolium perenne",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092590"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "hybrid-ryegrass",
+    "name": "Hybrid ryegrass",
+    "botanical": "Lolium × hybridum",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "birdsfoot-trefoil",
+    "name": "Birdsfoot trefoil",
+    "botanical": "Lotus corniculatus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "white-lupin",
+    "name": "White lupin",
+    "botanical": "Lupinus albus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092950"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "narrow-leaved-lupin",
+    "name": "Narrow-leaved lupin",
+    "botanical": "Lupinus angustifolius",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092950"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "yellow-lupin",
+    "name": "Yellow lupin",
+    "botanical": "Lupinus luteus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092950"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "black-medick",
+    "name": "Black medick",
+    "botanical": "Medicago lupulina",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "bur-medick",
+    "name": "Bur medick",
+    "botanical": "Medicago polymorpha",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "alfalfa",
+    "name": "Alfalfa / lucerne",
+    "botanical": "Medicago sativa",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092100"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "hybrid-lucerne",
+    "name": "Hybrid lucerne",
+    "botanical": "Medicago × varia",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "white-sweetclover",
+    "name": "White sweetclover",
+    "botanical": "Melilotus albus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "yellow-sweetclover",
+    "name": "Yellow sweetclover",
+    "botanical": "Melilotus officinalis",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "sainfoin",
+    "name": "Sainfoin",
+    "botanical": "Onobrychis viciifolia",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "yellow-serradella",
+    "name": "Yellow serradella",
+    "botanical": "Ornithopus compressus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "serradella",
+    "name": "Serradella",
+    "botanical": "Ornithopus sativus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "rice",
+    "name": "Rice",
+    "botanical": "Oryza sativa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "10061010"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "proso-millet",
+    "name": "Proso millet",
+    "botanical": "Panicum miliaceum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "10082100"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "poppy",
+    "name": "Opium / seed poppy",
+    "botanical": "Papaver somniferum",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12079110"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "parsley",
+    "name": "Parsley",
+    "botanical": "Petroselinum crispum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "phacelia",
+    "name": "Phacelia",
+    "botanical": "Phacelia tanacetifolia",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "canary-grass",
+    "name": "Canary grass",
+    "botanical": "Phalaris canariensis",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "runner-bean",
+    "name": "Runner bean",
+    "botanical": "Phaseolus coccineus",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "common-bean",
+    "name": "Common bean",
+    "botanical": "Phaseolus vulgaris",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "07133310"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "timothy",
+    "name": "Timothy",
+    "botanical": "Phleum pratense",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "field-pea",
+    "name": "Field peas",
+    "botanical": "Pisum sativum",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "07131010"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "ribwort-plantain",
+    "name": "Ribwort plantain",
+    "botanical": "Plantago lanceolata",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "wood-meadowgrass",
+    "name": "Wood meadowgrass",
+    "botanical": "Poa nemoralis",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "kentucky-bluegrass",
+    "name": "Kentucky bluegrass",
+    "botanical": "Poa pratensis",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092400"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "cultivated-radish",
+    "name": "Cultivated radish",
+    "botanical": "Raphanus raphanistrum subsp. sativus",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "rhubarb",
+    "name": "Rhubarb",
+    "botanical": "Rheum rhabarbarum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "black-salsify",
+    "name": "Black salsify",
+    "botanical": "Scorzonera hispanica",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "rye",
+    "name": "Rye",
+    "botanical": "Secale cereale",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "10021000"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "foxtail-millet",
+    "name": "Foxtail millet",
+    "botanical": "Setaria italica",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "10082100"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "white-mustard",
+    "name": "White mustard",
+    "botanical": "Sinapis alba",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12075010"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "tomato",
+    "name": "Tomato",
+    "botanical": "Solanum lycopersicum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "aubergine",
+    "name": "Aubergine",
+    "botanical": "Solanum melongena",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "sorghum",
+    "name": "Sorghum",
+    "botanical": "Sorghum bicolor",
+    "coverage": "PARTIAL_SPECIES_SCOPE",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [
+      "10071010",
+      "10071090"
+    ],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "spinach",
+    "name": "Spinach",
+    "botanical": "Spinacia oleracea",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "berseem-clover",
+    "name": "Berseem / Egyptian clover",
+    "botanical": "Trifolium alexandrinum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "glandular-clover",
+    "name": "Glandular clover",
+    "botanical": "Trifolium glanduliferum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "rose-clover",
+    "name": "Rose clover",
+    "botanical": "Trifolium hirtum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "alsike-clover",
+    "name": "Alsike clover",
+    "botanical": "Trifolium hybridum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "crimson-clover",
+    "name": "Crimson clover",
+    "botanical": "Trifolium incarnatum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "trifolium-isthmocarpum",
+    "name": "Clover",
+    "botanical": "Trifolium isthmocarpum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "balansa-clover",
+    "name": "Balansa clover",
+    "botanical": "Trifolium michelianum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "red-clover",
+    "name": "Red clover",
+    "botanical": "Trifolium pratense",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "12092210"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "white-clover",
+    "name": "White clover",
+    "botanical": "Trifolium repens",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "persian-clover",
+    "name": "Persian clover",
+    "botanical": "Trifolium resupinatum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "trifolium-squarrosum",
+    "name": "Clover",
+    "botanical": "Trifolium squarrosum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "subterranean-clover",
+    "name": "Subterranean clover",
+    "botanical": "Trifolium subterraneum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "arrowleaf-clover",
+    "name": "Arrowleaf clover",
+    "botanical": "Trifolium vesiculosum",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092280"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "fenugreek",
+    "name": "Fenugreek",
+    "botanical": "Trigonella foenum-graecum",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "golden-oatgrass",
+    "name": "Golden oatgrass",
+    "botanical": "Trisetum flavescens",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092980"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "common-wheat",
+    "name": "Common wheat; seasons retained",
+    "botanical": "Triticum aestivum",
+    "coverage": "PARTIAL_SPECIES_SCOPE",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [
+      "10019110"
+    ],
+    "group_cn_scope_candidates": [
+      "10019120"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "durum-wheat",
+    "name": "Durum wheat",
+    "botanical": "Triticum turgidum subsp. durum",
+    "coverage": "SPECIES_SPECIFIC",
+    "exact_cn_codes": [
+      "10011100"
+    ],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "lambs-lettuce",
+    "name": "Lamb's lettuce",
+    "botanical": "Valerianella locusta",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12099180"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": false
+  },
+  {
+    "species_id": "purple-vetch",
+    "name": "Purple / Bengal vetch",
+    "botanical": "Vicia benghalensis",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "bitter-vetch",
+    "name": "Bitter vetch",
+    "botanical": "Vicia ervilia",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "faba-bean",
+    "name": "Faba beans",
+    "botanical": "Vicia faba",
+    "coverage": "NO_COMPATIBLE_TRADE_DATA",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "hungarian-vetch",
+    "name": "Hungarian vetch",
+    "botanical": "Vicia pannonica",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "common-vetch",
+    "name": "Common vetch",
+    "botanical": "Vicia sativa",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "winter-vetch",
+    "name": "Winter vetch",
+    "botanical": "Vicia villosa Roth",
+    "coverage": "GROUP_LEVEL_ONLY",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [],
+    "group_cn_scope_candidates": [
+      "12092945"
+    ],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  },
+  {
+    "species_id": "maize",
+    "name": "Maize",
+    "botanical": "Zea mays",
+    "coverage": "PARTIAL_SPECIES_SCOPE",
+    "exact_cn_codes": [],
+    "partial_cn_codes": [
+      "07129011",
+      "10051013",
+      "10051015",
+      "10051018",
+      "10051090"
+    ],
+    "group_cn_scope_candidates": [],
+    "pending_existing_entity_relink": false,
+    "group_volume_allocated": false,
+    "production_available_unchanged": true
+  }
+]

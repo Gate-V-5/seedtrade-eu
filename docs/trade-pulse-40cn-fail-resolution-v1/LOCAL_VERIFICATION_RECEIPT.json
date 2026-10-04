@@ -1,0 +1,10 @@
+{
+  "local_model_qa": "PASS",
+  "targeted_tests": 11,
+  "original_audit_preserved": true,
+  "preexisting_files_unchanged": 365,
+  "remote_upload": "PENDING_AT_PACKAGE_CREATION",
+  "remote_verification": "See external Dropbox verification receipt; no full ZIP readback claim",
+  "release_gate": "PASS_CORE_ONLY",
+  "website_changed": false
+}

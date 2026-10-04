@@ -12,7 +12,7 @@ try {
   const doc=new JSDOM(renderToString(React.createElement(App,{initialLanguage:lang}))).window.document
   const panel=doc.querySelector('[aria-labelledby="trade-coverage-heading"]');assert.ok(panel)
   assert.equal(panel.querySelector('h2').textContent,translate(lang,'Species and trade groups'))
-  assert.equal(panel.querySelectorAll('select').length,5);assert.ok(panel.textContent.includes('12092280'))
+  assert.equal(panel.querySelectorAll('select').length,6);assert.ok(panel.textContent.includes('12092280'))
   assert.ok(panel.textContent.includes(translate(lang,'A customs group includes multiple species. Its trade is never allocated to individual species.')))
   assert.ok(panel.textContent.includes('Trifolium repens'));assert.ok(doc.querySelector('.intelligence-number'))
   global.window={location:{pathname:'/'}}

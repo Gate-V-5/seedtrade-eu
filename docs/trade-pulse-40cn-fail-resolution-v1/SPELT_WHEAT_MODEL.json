@@ -1,0 +1,20 @@
+{
+  "biological_species": "Triticum aestivum",
+  "commercial_spelt_entity": "spelt",
+  "commercial_botanical": "Triticum aestivum subsp. spelta",
+  "cn8": "10019110",
+  "source_master_cn_status": "CN_MAPPING_CONFIRMED",
+  "direct_commercial_link_recommended": true,
+  "parent_scope": "PARTIAL_INFRASPECIFIC",
+  "group_wheat_meslin_cn": "10019120",
+  "group_species_allocation": "NONE",
+  "121_species_kpi_changed": false,
+  "new_taxonomy": false,
+  "taxonomic_evidence": [
+    "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:259744-2"
+  ],
+  "source_original_botanical_names": [
+    "Triticum aestivum subsp. spelta",
+    "Triticum spelta"
+  ]
+}

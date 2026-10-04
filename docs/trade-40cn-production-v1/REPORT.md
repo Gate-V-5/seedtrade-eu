@@ -1,0 +1,7 @@
+# Approved40-CN production implementation
+
+June2026 only: 3,246 intra-EU exporter-dispatch observations sum to251,015,101kg and EUR400,438,328. Source acquisition was not repeated. Approved r2 audit and fail-resolution checkpoint hashes verified locally and Dropbox sidecars already read back.
+
+Public homepage retains layout/images and excludes the large date block. It displays dynamic internal seed-trade volume and40-CN monthly scope. Internal /market prioritizes10category navigation, audited category totals plus explicit unallocated scope, and distinct DIRECT/PARTIAL/GROUP_LEVEL/NO_TRADE_EVIDENCE. Original source/audit evidence preserved. Spelt (Triticum aestivum subsp. spelta) has its existing direct commercial link; biological parent Triticum aestivum remains partial scope. Common-wheat/meslin CN10019120 stays group-level. Sugar/fodder beet Beta vulgaris scopes are not assigned to vegetable totals. No new taxonomy or Production-data changes. No company-provider aggregate values.
+
+267 unique Python and36 Node tests pass, build/prerender45/hydration225 pass. UI local rendered QA blocked by cloud-browser local-address restriction; viewport resizing unsupported. No rendered-width PASS claimed. Build has existing large-chunk warnings; trade controls data remain route-only. Full ZIP readback may exceed Dropbox5,242,880byte limit. Metadata/hash and sidecars must be verified independently. Final external release receipt records remote tree/deployment verification.

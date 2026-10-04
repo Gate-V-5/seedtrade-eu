@@ -15,5 +15,5 @@ test('partial and missing coverage are kept explicit without modifying baseline 
  assert.equal(a.find(x=>x.canonical_species_id==='maize').proposed_cn_status,'PARTIAL')
  assert.equal(a.find(x=>x.canonical_species_id==='chickpea').sowing_status,'NOT_SOWING_SPECIFIC')
  assert.equal(a.find(x=>x.canonical_species_id==='phacelia').proposed_cn_status,'REVIEW_REQUIRED')
- assert.equal(d.summary.SPECIES_WITH_TRADE_DATA_AFTER,11)
+ assert.equal(d.summary.SPECIES_WITH_TRADE_DATA_AFTER,20);assert.equal(d.summary.FULL_SPECIES_SPECIFIC_TRADE,16);assert.equal(d.summary.PARTIAL_SPECIES_SCOPE,4);assert.equal(d.summary.GROUP_LEVEL_ONLY,78);assert.equal(d.summary.NO_COMPATIBLE_TRADE_DATA,23)
 })

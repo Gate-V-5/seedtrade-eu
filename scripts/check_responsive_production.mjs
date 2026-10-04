@@ -19,7 +19,7 @@ const trade=JSON.parse(fs.readFileSync('src/generated/trade_pulse_public.json'))
 const canonical=execFileSync('git',['show','6031f3cc51cca221dcd9070fd3ce53d5df36bbc3:src/AppV2.jsx'],{encoding:'utf8'})
 const current=fs.readFileSync('src/AppV2.jsx','utf8')
 for(const name of ['Header','TradePulseSignal']){
- const extract=source=>source.split(`function ${name}(`)[1].split('\nfunction ')[0]
+ const extract=source=>source.split(`function ${name}(`)[1].split(name==='TradePulseSignal'?'\nconst pulseViews':'\nfunction ')[0]
  assert.equal(extract(current),extract(canonical),`${name} behavior/data unchanged`)
 }
 const vite=await createServer({appType:'custom',server:{middlewareMode:true},logLevel:'error'})

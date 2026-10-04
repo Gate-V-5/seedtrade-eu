@@ -1,0 +1,85 @@
+{
+  "selected": "MODEL_A",
+  "release_gate": "PASS_CORE_ONLY",
+  "scope": "40 explicitly seed-for-sowing CN8 codes; June 2026 gross intra-EU exporter dispatches, 27 EU reporters; not total EU seed sector or 121-species measured total.",
+  "reason": "All recovered 40 CN descriptions explicitly restrict use to sowing. Group-level botanical breadth does not make this headline commodity trade; safe CN-based labeling avoids species precision claims. No additional broader/ambiguous-use universe is present, so MODEL_B would be artificial.",
+  "headline": {
+    "volume_tonnes": 251015.1,
+    "value_eur": 400438328,
+    "label": "EU seed-for-sowing trade · 40 CN codes",
+    "period": "2026-06",
+    "description": "Gross internal-EU dispatches; species-specific, crop-type and customs-group evidence. Coverage is customs-defined, not complete seed-market coverage."
+  },
+  "publication_status": "METHODOLOGY_CANDIDATE_ONLY; EXISTING_UI_NOT_APPROVED_UNTIL_IT_CONSUMES_CORRECTED_ATTRIBUTION_RULES",
+  "prior_gate": "FAIL_RETAINED_IN_ORIGINAL_AUDIT",
+  "prior_fail_resolved_by": [
+    {
+      "cn8": "10019110",
+      "previous_fail_reason": "Missing direct separate commercial Spelt link; partial biological-parent mapping is valid.",
+      "resolution": "Direct CN-to-existing-commercial-entity link to spelt; retain biological parent common-wheat as PARTIAL_SCOPE. No new species or entity.",
+      "commercial_entity_id": "spelt",
+      "botanical": "Triticum aestivum subsp. spelta",
+      "biological_species": "Triticum aestivum",
+      "status": "RESOLVED_MODEL_ONLY"
+    },
+    {
+      "cn8": "10019120",
+      "previous_fail_reason": "Common wheat or meslin presented as partial common-wheat scope.",
+      "resolution": "GROUP_LEVEL customs entity CN-10019120. Common-wheat is a scope candidate only; no whole-CN common-wheat volume and no constituent allocation.",
+      "commercial_entity_id": "CN-10019120",
+      "botanical": null,
+      "status": "RESOLVED_MODEL_ONLY"
+    },
+    {
+      "cn8": "12091000",
+      "previous_fail_reason": "Sugar-beet crop type inherited vegetable category from Beta vulgaris biological link.",
+      "resolution": "Keep sugar-beet customs crop-type evidence at CN-12091000 with Beta vulgaris PARTIAL_SCOPE; category UNALLOCATED_COMMERCIAL_SCOPE. Do not invent an eleventh category or pretend vegetable usage.",
+      "commercial_entity_id": "CN-12091000",
+      "botanical": "Beta vulgaris",
+      "status": "RESOLVED_BY_WITHHOLDING_CATEGORY"
+    },
+    {
+      "cn8": "12092960",
+      "previous_fail_reason": "Fodder-beet crop type inherited vegetable category from Beta vulgaris biological link.",
+      "resolution": "Keep fodder-beet customs crop-type evidence at CN-12092960 with Beta vulgaris PARTIAL_SCOPE; category UNALLOCATED_COMMERCIAL_SCOPE. Original botanical terminology retained; no forced vegetable allocation.",
+      "commercial_entity_id": "CN-12092960",
+      "botanical": "Beta vulgaris",
+      "source_botanical": "Beta vulgaris var. alba",
+      "status": "RESOLVED_BY_WITHHOLDING_CATEGORY"
+    }
+  ],
+  "blocking_cn_codes": [],
+  "ui_changed": false,
+  "partial_history_not_projected": true,
+  "implementation_followup_required": [
+    "Apply direct spelt commercial link without KPI change.",
+    "Present CN10019120 as common wheat or meslin group; no common-wheat whole-CN allocation.",
+    "Keep sugar/fodder beet and cross-category codes unallocated in category totals.",
+    "Display CN-defined headline scope and reference month; do not imply biological species completeness or growth from universe expansion."
+  ],
+  "market_rules": {
+    "precision_values": [
+      "SPECIES_SPECIFIC",
+      "MARKET_ENTITY_SPECIFIC",
+      "GROUP_LEVEL",
+      "CATEGORY_LEVEL"
+    ],
+    "existing_granularity_preserved": [
+      "SPECIES_SPECIFIC",
+      "PARTIAL",
+      "GROUP_LEVEL"
+    ],
+    "unit": "tonnes / EUR",
+    "grain": "reporter/partner/period/CN/FLOW",
+    "no_addition_of_overlapping_views": true,
+    "species_filter_group_behavior": "Show linked CN evidence with full group label and no allocated species volume.",
+    "category_totals": "Disjoint category attribution plus explicit UNALLOCATED bucket; never sum category view with CN or species views.",
+    "121_species": "Biological de-duplicated KPI separate from 136 searchable commercial entities.",
+    "null_means": "Missing, not zero. Empty classification partitions are arithmetic zero, not filled missing observations."
+  },
+  "providers": {
+    "COMEXT": "PRIMARY_OFFICIAL_AGGREGATE",
+    "GlobalWits": "OWNER_SUPPLIED_LICENSE_REVIEW;0_PUBLIC_AGGREGATE_VALUES;NO_NEW_RESEARCH",
+    "Datamyne": "ACCESS_PENDING;SEPARATE_FUTURE_LICENSED_EVIDENCE;NO_FABRICATED_DATA"
+  }
+}

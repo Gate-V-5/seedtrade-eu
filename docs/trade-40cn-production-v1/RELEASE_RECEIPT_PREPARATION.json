@@ -1,0 +1,10 @@
+{
+  "starting_head": "dbfd99350479044794837269ed7ef2e7b6c2d4ab",
+  "commit": "PENDING",
+  "remote_head": "PENDING",
+  "tree_equivalence": "PENDING",
+  "deployment": "PENDING",
+  "checkpoint": "SeedTrade-40cn-trade-pulse-production-v1-20261004.zip",
+  "critical_gates": "PASS",
+  "visual_scope": "Local preview unavailable; production check after release"
+}

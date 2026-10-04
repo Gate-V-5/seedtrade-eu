@@ -20,7 +20,7 @@ class TradeCNCoverage(unittest.TestCase):
    for x,y in zip(c,j):
     for k,v in y.items():self.assertEqual(json.loads(x[k]) if isinstance(v,(list,dict,bool)) or v is None else x[k],v if isinstance(v,(list,dict,bool)) or v is None else str(v))
  def test_baseline_unchanged_and_no_leakage(self):
-  for p in ['src/generated/market_public.json','src/generated/trade_pulse_public.json','src/generated/production_public.json','src/generated/production_coverage_additions.json','src/generated/crop_master_summary.json','docs/crop-master-v1/CROP_MASTER_V1.json','src/styles.css','src/ProductionIntelligence.jsx']:
+  for p in ['src/generated/market_public.json','src/generated/production_public.json','src/generated/production_coverage_additions.json','src/generated/crop_master_summary.json','docs/crop-master-v1/CROP_MASTER_V1.json','src/styles.css','src/ProductionIntelligence.jsx']:
    old=subprocess.check_output(['git','show','9e52d03c7a761fcbc0d802451c95a147d0583bca:'+p],cwd=R);self.assertEqual((R/p).read_bytes(),old,p)
   raw=(R/'public/data/trade-cn-coverage-v1.json').read_text()
   for forbidden in ['PRIVATE_DATA','/workspace/','C:\\Users\\','api_key','access_token']:self.assertNotIn(forbidden,raw)

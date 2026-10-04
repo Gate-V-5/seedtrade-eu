@@ -1,0 +1,3939 @@
+{
+  "categories": [
+    {
+      "id": "cereals-pseudocereals",
+      "name": "Cereals and pseudocereals",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 15,
+      "trade_entity_count": 15,
+      "species": [
+        {
+          "id": "naked-oat",
+          "name": "Naked oat",
+          "botanical": "Avena nuda",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10041000"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "10041000"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "oat",
+          "name": "Oat",
+          "botanical": "Avena sativa",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10041000"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "10041000"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "black-oat",
+          "name": "Bristle / black oat",
+          "botanical": "Avena strigosa",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10041000"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "10041000"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "quinoa",
+          "name": "Quinoa",
+          "botanical": "Chenopodium quinoa",
+          "tags": [
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "buckwheat",
+          "name": "Buckwheat",
+          "botanical": "Fagopyrum esculentum",
+          "tags": [
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "barley",
+          "name": "Barley",
+          "botanical": "Hordeum vulgare",
+          "tags": [
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10031000"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "10031000"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "rice",
+          "name": "Rice",
+          "botanical": "Oryza sativa",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10061010"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "10061010"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "proso-millet",
+          "name": "Proso millet",
+          "botanical": "Panicum miliaceum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10082100"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "10082100"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "canary-grass",
+          "name": "Canary grass",
+          "botanical": "Phalaris canariensis",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "rye",
+          "name": "Rye",
+          "botanical": "Secale cereale",
+          "tags": [
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10021000"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "10021000"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "foxtail-millet",
+          "name": "Foxtail millet",
+          "botanical": "Setaria italica",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10082100"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "10082100"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "sorghum",
+          "name": "Sorghum",
+          "botanical": "Sorghum bicolor",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10071010",
+            "10071090"
+          ],
+          "production_available": true,
+          "trade_status": "PARTIAL",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "10071010",
+            "10071090"
+          ],
+          "evidence_precision": "PARTIAL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "common-wheat",
+          "name": "Common wheat; seasons retained",
+          "botanical": "Triticum aestivum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10019110",
+            "10019120"
+          ],
+          "production_available": true,
+          "trade_status": "PARTIAL",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "10019110",
+            "10019120"
+          ],
+          "evidence_precision": "PARTIAL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "durum-wheat",
+          "name": "Durum wheat",
+          "botanical": "Triticum turgidum subsp. durum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10011100"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "10011100"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "maize",
+          "name": "Maize",
+          "botanical": "Zea mays",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10051013",
+            "10051015",
+            "10051018",
+            "10051090",
+            "07129011"
+          ],
+          "production_available": true,
+          "trade_status": "PARTIAL",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "10051013",
+            "10051015",
+            "10051018",
+            "10051090",
+            "07129011"
+          ],
+          "evidence_precision": "PARTIAL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "sorghum-sudan-hybrid-group",
+          "name": "Sorghum × Sudan grass hybrid group",
+          "botanical": "Sorghum bicolor × Sorghum sudanense",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "spelt",
+          "name": "Spelt",
+          "botanical": "Triticum aestivum subsp. spelta",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "10019110"
+          ],
+          "production_available": true,
+          "trade_status": "PARTIAL",
+          "species_trade": true,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [
+            "10019110"
+          ],
+          "evidence_precision": "PARTIAL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "sudan-grass",
+          "name": "Sudan grass",
+          "botanical": "Sorghum sudanense",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "triticale-group",
+          "name": "Triticale hybrid cereal group",
+          "botanical": "× Triticosecale",
+          "tags": [
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "winter-wheat",
+          "name": "Winter wheat",
+          "botanical": "Triticum aestivum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 20,
+      "observed_trade_entity_count": 15,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "cereals-pseudocereals",
+        "category_name": "Cereals and pseudocereals",
+        "volume_tonnes": 185721.887,
+        "trade_value_eur": 89147327.0,
+        "cn_count": 15,
+        "cn_codes": [
+          "07129011",
+          "10011100",
+          "10019110",
+          "10019120",
+          "10021000",
+          "10031000",
+          "10041000",
+          "10051013",
+          "10051015",
+          "10051018",
+          "10051090",
+          "10061010",
+          "10071010",
+          "10071090",
+          "10082100"
+        ],
+        "linked_cn_market_entities": 15,
+        "linked_existing_direct_commercial_entities": 4,
+        "linked_existing_scope_candidate_entities": 12,
+        "directly_supported_full_scope_species": 3,
+        "limited_scope_species": 3,
+        "core_volume_share_percent": 73.988332,
+        "core_value_share_percent": 22.262436,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "grain-legumes",
+      "name": "Grain legumes and protein crops",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 10,
+      "trade_entity_count": 5,
+      "species": [
+        {
+          "id": "chickpea",
+          "name": "Chickpea",
+          "botanical": "Cicer arietinum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "soybean",
+          "name": "Soybeans",
+          "botanical": "Glycine max",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12011000"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12011000"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "red-pea",
+          "name": "Red pea",
+          "botanical": "Lathyrus cicera",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "lentil",
+          "name": "Lentil",
+          "botanical": "Lens culinaris",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "white-lupin",
+          "name": "White lupin",
+          "botanical": "Lupinus albus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12092950"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092950"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "narrow-leaved-lupin",
+          "name": "Narrow-leaved lupin",
+          "botanical": "Lupinus angustifolius",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12092950"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092950"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "yellow-lupin",
+          "name": "Yellow lupin",
+          "botanical": "Lupinus luteus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12092950"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092950"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "field-pea",
+          "name": "Field peas",
+          "botanical": "Pisum sativum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "07131010"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "07131010"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "bitter-vetch",
+          "name": "Bitter vetch",
+          "botanical": "Vicia ervilia",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "faba-bean",
+          "name": "Faba beans",
+          "botanical": "Vicia faba",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "lupins",
+          "name": "Lupins",
+          "botanical": "Lupinus spp.",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 11,
+      "observed_trade_entity_count": 5,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "grain-legumes",
+        "category_name": "Grain legumes and protein crops",
+        "volume_tonnes": 15999.439,
+        "trade_value_eur": 7261629.0,
+        "cn_count": 3,
+        "cn_codes": [
+          "07131010",
+          "12011000",
+          "12092950"
+        ],
+        "linked_cn_market_entities": 3,
+        "linked_existing_direct_commercial_entities": 2,
+        "linked_existing_scope_candidate_entities": 5,
+        "directly_supported_full_scope_species": 2,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": 6.373895,
+        "core_value_share_percent": 1.81342,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "forage-legumes",
+      "name": "Forage legumes",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 30,
+      "trade_entity_count": 5,
+      "species": [
+        {
+          "id": "biserrula",
+          "name": "Biserrula",
+          "botanical": "Biserrula pelecinus",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "sunn-hemp",
+          "name": "Sunn hemp",
+          "botanical": "Crotalaria juncea",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "fodder-galega",
+          "name": "Fodder galega",
+          "botanical": "Galega orientalis",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "birdsfoot-trefoil",
+          "name": "Birdsfoot trefoil",
+          "botanical": "Lotus corniculatus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "black-medick",
+          "name": "Black medick",
+          "botanical": "Medicago lupulina",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "bur-medick",
+          "name": "Bur medick",
+          "botanical": "Medicago polymorpha",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "alfalfa",
+          "name": "Alfalfa / lucerne",
+          "botanical": "Medicago sativa",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092100"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092100"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "hybrid-lucerne",
+          "name": "Hybrid lucerne",
+          "botanical": "Medicago × varia",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "white-sweetclover",
+          "name": "White sweetclover",
+          "botanical": "Melilotus albus",
+          "tags": [
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "yellow-sweetclover",
+          "name": "Yellow sweetclover",
+          "botanical": "Melilotus officinalis",
+          "tags": [
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "sainfoin",
+          "name": "Sainfoin",
+          "botanical": "Onobrychis viciifolia",
+          "tags": [
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "yellow-serradella",
+          "name": "Yellow serradella",
+          "botanical": "Ornithopus compressus",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "serradella",
+          "name": "Serradella",
+          "botanical": "Ornithopus sativus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "berseem-clover",
+          "name": "Berseem / Egyptian clover",
+          "botanical": "Trifolium alexandrinum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "glandular-clover",
+          "name": "Glandular clover",
+          "botanical": "Trifolium glanduliferum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "rose-clover",
+          "name": "Rose clover",
+          "botanical": "Trifolium hirtum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "alsike-clover",
+          "name": "Alsike clover",
+          "botanical": "Trifolium hybridum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "crimson-clover",
+          "name": "Crimson clover",
+          "botanical": "Trifolium incarnatum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "trifolium-isthmocarpum",
+          "name": "Clover",
+          "botanical": "Trifolium isthmocarpum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "balansa-clover",
+          "name": "Balansa clover",
+          "botanical": "Trifolium michelianum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "red-clover",
+          "name": "Red clover",
+          "botanical": "Trifolium pratense",
+          "tags": [
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092210"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092210"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "white-clover",
+          "name": "White clover",
+          "botanical": "Trifolium repens",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "persian-clover",
+          "name": "Persian clover",
+          "botanical": "Trifolium resupinatum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "trifolium-squarrosum",
+          "name": "Clover",
+          "botanical": "Trifolium squarrosum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "subterranean-clover",
+          "name": "Subterranean clover",
+          "botanical": "Trifolium subterraneum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "arrowleaf-clover",
+          "name": "Arrowleaf clover",
+          "botanical": "Trifolium vesiculosum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092280"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092280"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "purple-vetch",
+          "name": "Purple / Bengal vetch",
+          "botanical": "Vicia benghalensis",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "hungarian-vetch",
+          "name": "Hungarian vetch",
+          "botanical": "Vicia pannonica",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "common-vetch",
+          "name": "Common vetch",
+          "botanical": "Vicia sativa",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "winter-vetch",
+          "name": "Winter vetch",
+          "botanical": "Vicia villosa Roth",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "red-zigzag-clover-cross-group",
+          "name": "Reported red × zigzag clover cross group",
+          "botanical": "Trifolium pratense × Trifolium medium",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 31,
+      "observed_trade_entity_count": 5,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "forage-legumes",
+        "category_name": "Forage legumes",
+        "volume_tonnes": 3583.73,
+        "trade_value_eur": 11426084.0,
+        "cn_count": 3,
+        "cn_codes": [
+          "12092100",
+          "12092210",
+          "12092280"
+        ],
+        "linked_cn_market_entities": 3,
+        "linked_existing_direct_commercial_entities": 2,
+        "linked_existing_scope_candidate_entities": 14,
+        "directly_supported_full_scope_species": 2,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": 1.427695,
+        "core_value_share_percent": 2.853394,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "grass-seeds",
+      "name": "Grass seeds",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 14,
+      "trade_entity_count": 8,
+      "species": [
+        {
+          "id": "browntop",
+          "name": "Brown top / common bent",
+          "botanical": "Agrostis capillaris",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "meadow-foxtail",
+          "name": "Meadow foxtail",
+          "botanical": "Alopecurus pratensis",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "tall-oatgrass",
+          "name": "Tall oatgrass",
+          "botanical": "Arrhenatherum elatius",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "cocksfoot",
+          "name": "Cocksfoot / orchard grass",
+          "botanical": "Dactylis glomerata",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "tall-fescue",
+          "name": "Tall fescue",
+          "botanical": "Festuca arundinacea",
+          "tags": [
+            "FORAGE"
+          ],
+          "cn_codes": [
+            "12092380"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092380"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "meadow-fescue",
+          "name": "Meadow fescue",
+          "botanical": "Festuca pratensis",
+          "tags": [
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092311"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092311"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "red-fescue",
+          "name": "Red fescue",
+          "botanical": "Festuca rubra",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092315"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092315"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "italian-ryegrass",
+          "name": "Italian ryegrass",
+          "botanical": "Lolium multiflorum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092510"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092510"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "perennial-ryegrass",
+          "name": "Perennial ryegrass",
+          "botanical": "Lolium perenne",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092590"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092590"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "hybrid-ryegrass",
+          "name": "Hybrid ryegrass",
+          "botanical": "Lolium × hybridum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "timothy",
+          "name": "Timothy",
+          "botanical": "Phleum pratense",
+          "tags": [
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092945"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092945"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "wood-meadowgrass",
+          "name": "Wood meadowgrass",
+          "botanical": "Poa nemoralis",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "kentucky-bluegrass",
+          "name": "Kentucky bluegrass",
+          "botanical": "Poa pratensis",
+          "tags": [
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092400"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12092400"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "golden-oatgrass",
+          "name": "Golden oatgrass",
+          "botanical": "Trisetum flavescens",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "annual-ryegrass",
+          "name": "Annual ryegrass",
+          "botanical": "Lolium multiflorum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "fescues",
+          "name": "Fescues",
+          "botanical": "Festuca spp.",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "festulolium-group",
+          "name": "Festulolium hybrid grass group",
+          "botanical": "× Festulolium",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 17,
+      "observed_trade_entity_count": 8,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "grass-seeds",
+        "category_name": "Grass seeds",
+        "volume_tonnes": 12488.184,
+        "trade_value_eur": 21728189.0,
+        "cn_count": 6,
+        "cn_codes": [
+          "12092311",
+          "12092315",
+          "12092380",
+          "12092400",
+          "12092510",
+          "12092590"
+        ],
+        "linked_cn_market_entities": 6,
+        "linked_existing_direct_commercial_entities": 5,
+        "linked_existing_scope_candidate_entities": 6,
+        "directly_supported_full_scope_species": 5,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": 4.975073,
+        "core_value_share_percent": 5.426101,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "oil-fibre-seeds",
+      "name": "Oilseed and fibre crops",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 9,
+      "trade_entity_count": 5,
+      "species": [
+        {
+          "id": "rapeseed",
+          "name": "Rapeseed / oilseed rape",
+          "botanical": "Brassica napus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12051010"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12051010"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "turnip-rape",
+          "name": "Turnip rape; source-reported scope",
+          "botanical": "Brassica rapa",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12051010"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12051010"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "camelina",
+          "name": "Camelina",
+          "botanical": "Camelina sativa",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12079920"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12079920"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "hemp",
+          "name": "Hemp",
+          "botanical": "Cannabis sativa",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12079920"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12079920"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "safflower",
+          "name": "Safflower",
+          "botanical": "Carthamus tinctorius",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "niger",
+          "name": "Niger",
+          "botanical": "Guizotia abyssinica",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12079920"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12079920"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "sunflower",
+          "name": "Sunflower",
+          "botanical": "Helianthus annuus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12060010"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12060010"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "flax",
+          "name": "Flax",
+          "botanical": "Linum usitatissimum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12040010"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12040010"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "poppy",
+          "name": "Opium / seed poppy",
+          "botanical": "Papaver somniferum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12079110"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12079110"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 9,
+      "observed_trade_entity_count": 5,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "oil-fibre-seeds",
+        "category_name": "Oilseed and fibre crops",
+        "volume_tonnes": 16653.404,
+        "trade_value_eur": 59269178.0,
+        "cn_count": 5,
+        "cn_codes": [
+          "12040010",
+          "12051010",
+          "12060010",
+          "12079110",
+          "12079920"
+        ],
+        "linked_cn_market_entities": 5,
+        "linked_existing_direct_commercial_entities": 3,
+        "linked_existing_scope_candidate_entities": 8,
+        "directly_supported_full_scope_species": 3,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": 6.634423,
+        "core_value_share_percent": 14.801075,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "brassica-seeds",
+      "name": "Mustard and radish seeds",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 5,
+      "trade_entity_count": 2,
+      "species": [
+        {
+          "id": "ethiopian-mustard",
+          "name": "Ethiopian mustard",
+          "botanical": "Brassica carinata",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "brown-mustard",
+          "name": "Brown mustard",
+          "botanical": "Brassica juncea",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12075010"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12075010"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "black-mustard",
+          "name": "Black mustard",
+          "botanical": "Brassica nigra",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12075010"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12075010"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "cultivated-radish",
+          "name": "Cultivated radish",
+          "botanical": "Raphanus raphanistrum subsp. sativus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "white-mustard",
+          "name": "White mustard",
+          "botanical": "Sinapis alba",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12075010"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12075010"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "mustard-seed",
+          "name": "Mustard seed for sowing",
+          "botanical": null,
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "oilseed-radish-group",
+          "name": "Oilseed / fodder radish seed group",
+          "botanical": "Raphanus raphanistrum subsp. sativus",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 7,
+      "observed_trade_entity_count": 2,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "brassica-seeds",
+        "category_name": "Mustard and radish seeds",
+        "volume_tonnes": 3048.162,
+        "trade_value_eur": 4128117.0,
+        "cn_count": 1,
+        "cn_codes": [
+          "12075010"
+        ],
+        "linked_cn_market_entities": 1,
+        "linked_existing_direct_commercial_entities": 0,
+        "linked_existing_scope_candidate_entities": 3,
+        "directly_supported_full_scope_species": 0,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": 1.214334,
+        "core_value_share_percent": 1.0309,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "vegetable-seeds",
+      "name": "Vegetable seeds",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 31,
+      "trade_entity_count": 5,
+      "species": [
+        {
+          "id": "onion",
+          "name": "Onion / shallot",
+          "botanical": "Allium cepa",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "bunching-onion",
+          "name": "Bunching onion",
+          "botanical": "Allium fistulosum",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "leek",
+          "name": "Leek",
+          "botanical": "Allium porrum",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "chives",
+          "name": "Chives",
+          "botanical": "Allium schoenoprasum",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "chervil",
+          "name": "Chervil",
+          "botanical": "Anthriscus cerefolium",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "celery",
+          "name": "Celery / celeriac",
+          "botanical": "Apium graveolens",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "asparagus",
+          "name": "Asparagus",
+          "botanical": "Asparagus officinalis",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "beet-chard",
+          "name": "Beet / chard; source crop types separate",
+          "botanical": "Beta vulgaris",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12091000",
+            "12092960",
+            "12099130"
+          ],
+          "production_available": true,
+          "trade_status": "PARTIAL",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "12091000",
+            "12092960",
+            "12099130"
+          ],
+          "evidence_precision": "PARTIAL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "cabbage",
+          "name": "Cabbage / kale / broccoli crop types",
+          "botanical": "Brassica oleracea",
+          "tags": [
+            "COVER_CROP",
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "botanical": "Capsicum annuum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "endive",
+          "name": "Endive",
+          "botanical": "Cichorium endivia",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "chicory",
+          "name": "Chicory",
+          "botanical": "Cichorium intybus",
+          "tags": [
+            "COVER_CROP",
+            "FORAGE",
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "watermelon",
+          "name": "Watermelon",
+          "botanical": "Citrullus lanatus",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "melon",
+          "name": "Melon",
+          "botanical": "Cucumis melo",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "cucumber",
+          "name": "Cucumber / gherkin",
+          "botanical": "Cucumis sativus",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "winter-squash",
+          "name": "Winter squash",
+          "botanical": "Cucurbita maxima",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "courgette",
+          "name": "Courgette / pumpkin",
+          "botanical": "Cucurbita pepo",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "artichoke",
+          "name": "Globe artichoke / cardoon",
+          "botanical": "Cynara cardunculus",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "carrot",
+          "name": "Carrot",
+          "botanical": "Daucus carota",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "fennel",
+          "name": "Fennel",
+          "botanical": "Foeniculum vulgare",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "lettuce",
+          "name": "Lettuce",
+          "botanical": "Lactuca sativa",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "garden-cress",
+          "name": "Garden cress",
+          "botanical": "Lepidium sativum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "parsley",
+          "name": "Parsley",
+          "botanical": "Petroselinum crispum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "runner-bean",
+          "name": "Runner bean",
+          "botanical": "Phaseolus coccineus",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "common-bean",
+          "name": "Common bean",
+          "botanical": "Phaseolus vulgaris",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "07133310"
+          ],
+          "production_available": true,
+          "trade_status": "DIRECT",
+          "species_trade": true,
+          "observed_trade_codes": [
+            "07133310"
+          ],
+          "evidence_precision": "DIRECT",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "rhubarb",
+          "name": "Rhubarb",
+          "botanical": "Rheum rhabarbarum",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "black-salsify",
+          "name": "Black salsify",
+          "botanical": "Scorzonera hispanica",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "tomato",
+          "name": "Tomato",
+          "botanical": "Solanum lycopersicum",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "aubergine",
+          "name": "Aubergine",
+          "botanical": "Solanum melongena",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "spinach",
+          "name": "Spinach",
+          "botanical": "Spinacia oleracea",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "lambs-lettuce",
+          "name": "Lamb's lettuce",
+          "botanical": "Valerianella locusta",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [
+            "12099180"
+          ],
+          "production_available": false,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12099180"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "swede-seed-group",
+          "name": "Swede / rutabaga seed group",
+          "botanical": "Brassica napus",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 32,
+      "observed_trade_entity_count": 5,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "vegetable-seeds",
+        "category_name": "Vegetable seeds",
+        "volume_tonnes": 1703.625,
+        "trade_value_eur": 8092589.0,
+        "cn_count": 2,
+        "cn_codes": [
+          "07133310",
+          "12099130"
+        ],
+        "linked_cn_market_entities": 2,
+        "linked_existing_direct_commercial_entities": 1,
+        "linked_existing_scope_candidate_entities": 2,
+        "directly_supported_full_scope_species": 1,
+        "limited_scope_species": 1,
+        "core_volume_share_percent": 0.678694,
+        "core_value_share_percent": 2.020933,
+        "state": "MEASURED_CN_CATEGORY_TOTAL",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "herbs-specialty",
+      "name": "Herbs and specialty flowering crops",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 7,
+      "trade_entity_count": 1,
+      "species": [
+        {
+          "id": "dill",
+          "name": "Dill",
+          "botanical": "Anethum graveolens",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "borage",
+          "name": "Borage",
+          "botanical": "Borago officinalis",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "caraway",
+          "name": "Caraway",
+          "botanical": "Carum carvi",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "coriander",
+          "name": "Coriander",
+          "botanical": "Coriandrum sativum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "phacelia",
+          "name": "Phacelia",
+          "botanical": "Phacelia tanacetifolia",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "ribwort-plantain",
+          "name": "Ribwort plantain",
+          "botanical": "Plantago lanceolata",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP",
+            "FORAGE",
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [
+            "12092980"
+          ],
+          "production_available": true,
+          "trade_status": "GROUP_LEVEL",
+          "species_trade": false,
+          "observed_trade_codes": [
+            "12092980"
+          ],
+          "evidence_precision": "GROUP_LEVEL",
+          "group_volume_allocated": false
+        },
+        {
+          "id": "fenugreek",
+          "name": "Fenugreek",
+          "botanical": "Trigonella foenum-graecum",
+          "tags": [
+            "CATCH_CROP",
+            "COVER_CROP"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 7,
+      "observed_trade_entity_count": 1,
+      "latest_verified_period": "2026-06",
+      "audited_latest_trade": {
+        "category_id": "herbs-specialty",
+        "category_name": "Herbs and specialty flowering crops",
+        "volume_tonnes": null,
+        "trade_value_eur": null,
+        "cn_count": 0,
+        "cn_codes": [],
+        "linked_cn_market_entities": 0,
+        "linked_existing_direct_commercial_entities": 0,
+        "linked_existing_scope_candidate_entities": 0,
+        "directly_supported_full_scope_species": 0,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": null,
+        "core_value_share_percent": null,
+        "state": "DATA_GAP",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "seed-potatoes",
+      "name": "Seed potatoes",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 0,
+      "trade_entity_count": 0,
+      "species": [
+        {
+          "id": "potato",
+          "name": "Potato",
+          "botanical": "Solanum tuberosum",
+          "tags": [
+            "SEED_PRODUCTION"
+          ],
+          "cn_codes": [],
+          "production_available": true,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 1,
+      "observed_trade_entity_count": 0,
+      "latest_verified_period": null,
+      "audited_latest_trade": {
+        "category_id": "seed-potatoes",
+        "category_name": "Seed potatoes",
+        "volume_tonnes": null,
+        "trade_value_eur": null,
+        "cn_count": 0,
+        "cn_codes": [],
+        "linked_cn_market_entities": 0,
+        "linked_existing_direct_commercial_entities": 0,
+        "linked_existing_scope_candidate_entities": 0,
+        "directly_supported_full_scope_species": 0,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": null,
+        "core_value_share_percent": null,
+        "state": "DATA_GAP",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    },
+    {
+      "id": "other-propagation",
+      "name": "Other propagation material",
+      "kind": "PRIMARY_SEED_CATEGORY",
+      "rationale": "Commercial model decision; one primary category, separate crop uses and customs market views",
+      "species_count": 0,
+      "trade_entity_count": 0,
+      "species": [
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "botanical": "Allium sativum",
+          "tags": [
+            "VEGETABLE"
+          ],
+          "cn_codes": [],
+          "production_available": false,
+          "trade_status": "NO_TRADE_EVIDENCE",
+          "species_trade": false,
+          "true_seed_kpi_eligible": false,
+          "observed_trade_codes": [],
+          "evidence_precision": "NO_TRADE_EVIDENCE",
+          "group_volume_allocated": false
+        }
+      ],
+      "commercial_entity_count": 1,
+      "observed_trade_entity_count": 0,
+      "latest_verified_period": null,
+      "audited_latest_trade": {
+        "category_id": "other-propagation",
+        "category_name": "Other propagation material",
+        "volume_tonnes": null,
+        "trade_value_eur": null,
+        "cn_count": 0,
+        "cn_codes": [],
+        "linked_cn_market_entities": 0,
+        "linked_existing_direct_commercial_entities": 0,
+        "linked_existing_scope_candidate_entities": 0,
+        "directly_supported_full_scope_species": 0,
+        "limited_scope_species": 0,
+        "core_volume_share_percent": null,
+        "core_value_share_percent": null,
+        "state": "DATA_GAP",
+        "allocation": "No constituent species volumes or counts of actual contributors inferred."
+      }
+    }
+  ],
+  "entities": [
+    {
+      "id": "CN-12092945",
+      "cn8": "12092945",
+      "official_description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "browntop",
+        "cocksfoot",
+        "timothy",
+        "purple-vetch",
+        "bitter-vetch",
+        "hungarian-vetch",
+        "common-vetch",
+        "winter-vetch"
+      ],
+      "botanical_names": [
+        "Agrostis capillaris",
+        "Dactylis glomerata",
+        "Phleum pratense",
+        "Vicia benghalensis",
+        "Vicia ervilia",
+        "Vicia pannonica",
+        "Vicia sativa",
+        "Vicia villosa Roth"
+      ],
+      "seed_categories": [
+        "forage-legumes",
+        "grain-legumes",
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": null,
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12099180",
+      "cn8": "12099180",
+      "official_description": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "onion",
+        "bunching-onion",
+        "leek",
+        "chives",
+        "chervil",
+        "celery",
+        "asparagus",
+        "cabbage",
+        "pepper",
+        "endive",
+        "chicory",
+        "cucumber",
+        "artichoke",
+        "carrot",
+        "lettuce",
+        "garden-cress",
+        "parsley",
+        "cultivated-radish",
+        "rhubarb",
+        "black-salsify",
+        "tomato",
+        "aubergine",
+        "spinach",
+        "lambs-lettuce"
+      ],
+      "botanical_names": [
+        "Allium cepa",
+        "Allium fistulosum",
+        "Allium porrum",
+        "Allium schoenoprasum",
+        "Anthriscus cerefolium",
+        "Apium graveolens",
+        "Asparagus officinalis",
+        "Brassica oleracea",
+        "Capsicum annuum",
+        "Cichorium endivia",
+        "Cichorium intybus",
+        "Cucumis sativus",
+        "Cynara cardunculus",
+        "Daucus carota",
+        "Lactuca sativa",
+        "Lepidium sativum",
+        "Petroselinum crispum",
+        "Raphanus raphanistrum subsp. sativus",
+        "Rheum rhabarbarum",
+        "Scorzonera hispanica",
+        "Solanum lycopersicum",
+        "Solanum melongena",
+        "Spinacia oleracea",
+        "Valerianella locusta"
+      ],
+      "seed_categories": [
+        "brassica-seeds",
+        "vegetable-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": null,
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092980",
+      "cn8": "12092980",
+      "official_description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "meadow-foxtail",
+        "tall-oatgrass",
+        "biserrula",
+        "fodder-galega",
+        "red-pea",
+        "birdsfoot-trefoil",
+        "black-medick",
+        "bur-medick",
+        "white-sweetclover",
+        "yellow-sweetclover",
+        "sainfoin",
+        "yellow-serradella",
+        "serradella",
+        "ribwort-plantain",
+        "wood-meadowgrass",
+        "golden-oatgrass"
+      ],
+      "botanical_names": [
+        "Alopecurus pratensis",
+        "Arrhenatherum elatius",
+        "Biserrula pelecinus",
+        "Galega orientalis",
+        "Lathyrus cicera",
+        "Lotus corniculatus",
+        "Medicago lupulina",
+        "Medicago polymorpha",
+        "Melilotus albus",
+        "Melilotus officinalis",
+        "Onobrychis viciifolia",
+        "Ornithopus compressus",
+        "Ornithopus sativus",
+        "Plantago lanceolata",
+        "Poa nemoralis",
+        "Trisetum flavescens"
+      ],
+      "seed_categories": [
+        "forage-legumes",
+        "grain-legumes",
+        "grass-seeds",
+        "herbs-specialty"
+      ],
+      "trade_available": true,
+      "allocated_category": null,
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10041000",
+      "cn8": "10041000",
+      "official_description": "Oats seed for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "naked-oat",
+        "oat",
+        "black-oat"
+      ],
+      "botanical_names": [
+        "Avena nuda",
+        "Avena sativa",
+        "Avena strigosa"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12091000",
+      "cn8": "12091000",
+      "official_description": "Sugar beet seed, for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "beet-chard"
+      ],
+      "botanical_names": [
+        "Beta vulgaris"
+      ],
+      "seed_categories": [
+        "vegetable-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": null,
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092960",
+      "cn8": "12092960",
+      "official_description": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "beet-chard"
+      ],
+      "botanical_names": [
+        "Beta vulgaris"
+      ],
+      "seed_categories": [
+        "vegetable-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": null,
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "UNALLOCATED",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12099130",
+      "cn8": "12099130",
+      "official_description": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "beet-chard"
+      ],
+      "botanical_names": [
+        "Beta vulgaris"
+      ],
+      "seed_categories": [
+        "vegetable-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": "vegetable-seeds",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12075010",
+      "cn8": "12075010",
+      "official_description": "Mustard seeds for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "brown-mustard",
+        "black-mustard",
+        "white-mustard"
+      ],
+      "botanical_names": [
+        "Brassica juncea",
+        "Brassica nigra",
+        "Sinapis alba"
+      ],
+      "seed_categories": [
+        "brassica-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "brassica-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12051010",
+      "cn8": "12051010",
+      "official_description": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "rapeseed",
+        "turnip-rape"
+      ],
+      "botanical_names": [
+        "Brassica napus",
+        "Brassica rapa"
+      ],
+      "seed_categories": [
+        "oil-fibre-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12079920",
+      "cn8": "12079920",
+      "official_description": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "camelina",
+        "hemp",
+        "niger"
+      ],
+      "botanical_names": [
+        "Camelina sativa",
+        "Cannabis sativa",
+        "Guizotia abyssinica"
+      ],
+      "seed_categories": [
+        "oil-fibre-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092380",
+      "cn8": "12092380",
+      "official_description": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "tall-fescue"
+      ],
+      "botanical_names": [
+        "Festuca arundinacea"
+      ],
+      "seed_categories": [
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "grass-seeds",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092311",
+      "cn8": "12092311",
+      "official_description": "Meadow fescue seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "meadow-fescue"
+      ],
+      "botanical_names": [
+        "Festuca pratensis"
+      ],
+      "seed_categories": [
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092315",
+      "cn8": "12092315",
+      "official_description": "Red fescue seed \"Festuca rubra L.\" for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "red-fescue"
+      ],
+      "botanical_names": [
+        "Festuca rubra"
+      ],
+      "seed_categories": [
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12011000",
+      "cn8": "12011000",
+      "official_description": "Soya bean seed, for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "soybean"
+      ],
+      "botanical_names": [
+        "Glycine max"
+      ],
+      "seed_categories": [
+        "grain-legumes"
+      ],
+      "trade_available": true,
+      "allocated_category": "grain-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12060010",
+      "cn8": "12060010",
+      "official_description": "Sunflower seeds for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "sunflower"
+      ],
+      "botanical_names": [
+        "Helianthus annuus"
+      ],
+      "seed_categories": [
+        "oil-fibre-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10031000",
+      "cn8": "10031000",
+      "official_description": "Barley seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "barley"
+      ],
+      "botanical_names": [
+        "Hordeum vulgare"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12040010",
+      "cn8": "12040010",
+      "official_description": "Linseed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "flax"
+      ],
+      "botanical_names": [
+        "Linum usitatissimum"
+      ],
+      "seed_categories": [
+        "oil-fibre-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092510",
+      "cn8": "12092510",
+      "official_description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "italian-ryegrass"
+      ],
+      "botanical_names": [
+        "Lolium multiflorum"
+      ],
+      "seed_categories": [
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092590",
+      "cn8": "12092590",
+      "official_description": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "perennial-ryegrass"
+      ],
+      "botanical_names": [
+        "Lolium perenne"
+      ],
+      "seed_categories": [
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092950",
+      "cn8": "12092950",
+      "official_description": "Lupine seed for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "white-lupin",
+        "narrow-leaved-lupin",
+        "yellow-lupin"
+      ],
+      "botanical_names": [
+        "Lupinus albus",
+        "Lupinus angustifolius",
+        "Lupinus luteus"
+      ],
+      "seed_categories": [
+        "grain-legumes"
+      ],
+      "trade_available": true,
+      "allocated_category": "grain-legumes",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092100",
+      "cn8": "12092100",
+      "official_description": "Alfalfa seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "alfalfa"
+      ],
+      "botanical_names": [
+        "Medicago sativa"
+      ],
+      "seed_categories": [
+        "forage-legumes"
+      ],
+      "trade_available": true,
+      "allocated_category": "forage-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10061010",
+      "cn8": "10061010",
+      "official_description": "Rice in husk for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "rice"
+      ],
+      "botanical_names": [
+        "Oryza sativa"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10082100",
+      "cn8": "10082100",
+      "official_description": "Millet seed for sowing (excl. grain sorghum)",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "proso-millet",
+        "foxtail-millet"
+      ],
+      "botanical_names": [
+        "Panicum miliaceum",
+        "Setaria italica"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12079110",
+      "cn8": "12079110",
+      "official_description": "Poppy seeds for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "poppy"
+      ],
+      "botanical_names": [
+        "Papaver somniferum"
+      ],
+      "seed_categories": [
+        "oil-fibre-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": "oil-fibre-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-07133310",
+      "cn8": "07133310",
+      "official_description": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "common-bean"
+      ],
+      "botanical_names": [
+        "Phaseolus vulgaris"
+      ],
+      "seed_categories": [
+        "vegetable-seeds"
+      ],
+      "trade_available": false,
+      "allocated_category": "vegetable-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-07131010",
+      "cn8": "07131010",
+      "official_description": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "field-pea"
+      ],
+      "botanical_names": [
+        "Pisum sativum"
+      ],
+      "seed_categories": [
+        "grain-legumes"
+      ],
+      "trade_available": true,
+      "allocated_category": "grain-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092400",
+      "cn8": "12092400",
+      "official_description": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "kentucky-bluegrass"
+      ],
+      "botanical_names": [
+        "Poa pratensis"
+      ],
+      "seed_categories": [
+        "grass-seeds"
+      ],
+      "trade_available": true,
+      "allocated_category": "grass-seeds",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10021000",
+      "cn8": "10021000",
+      "official_description": "Rye seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "rye"
+      ],
+      "botanical_names": [
+        "Secale cereale"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10071010",
+      "cn8": "10071010",
+      "official_description": "Hybrid grain sorghum, for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "sorghum"
+      ],
+      "botanical_names": [
+        "Sorghum bicolor"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10071090",
+      "cn8": "10071090",
+      "official_description": "Grain sorghum, for sowing (excl. hybrids)",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "sorghum"
+      ],
+      "botanical_names": [
+        "Sorghum bicolor"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092280",
+      "cn8": "12092280",
+      "official_description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "berseem-clover",
+        "glandular-clover",
+        "rose-clover",
+        "alsike-clover",
+        "crimson-clover",
+        "trifolium-isthmocarpum",
+        "balansa-clover",
+        "white-clover",
+        "persian-clover",
+        "trifolium-squarrosum",
+        "subterranean-clover",
+        "arrowleaf-clover"
+      ],
+      "botanical_names": [
+        "Trifolium alexandrinum",
+        "Trifolium glanduliferum",
+        "Trifolium hirtum",
+        "Trifolium hybridum",
+        "Trifolium incarnatum",
+        "Trifolium isthmocarpum",
+        "Trifolium michelianum",
+        "Trifolium repens",
+        "Trifolium resupinatum",
+        "Trifolium squarrosum",
+        "Trifolium subterraneum",
+        "Trifolium vesiculosum"
+      ],
+      "seed_categories": [
+        "forage-legumes"
+      ],
+      "trade_available": true,
+      "allocated_category": "forage-legumes",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-12092210",
+      "cn8": "12092210",
+      "official_description": "Red clover \"Trifolium pratense L.\" seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "red-clover"
+      ],
+      "botanical_names": [
+        "Trifolium pratense"
+      ],
+      "seed_categories": [
+        "forage-legumes"
+      ],
+      "trade_available": true,
+      "allocated_category": "forage-legumes",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10019110",
+      "cn8": "10019110",
+      "official_description": "Spelt seed for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "spelt"
+      ],
+      "botanical_names": [
+        "Triticum aestivum subsp. spelta"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS",
+      "biological_species": "Triticum aestivum",
+      "direct_commercial_entity_id": "spelt"
+    },
+    {
+      "id": "CN-10019120",
+      "cn8": "10019120",
+      "official_description": "Seed of common wheat or meslin, for sowing",
+      "granularity": "GROUP_LEVEL",
+      "species_ids": [
+        "common-wheat"
+      ],
+      "botanical_names": [
+        "Triticum aestivum"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "GROUP_LEVEL",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10011100",
+      "cn8": "10011100",
+      "official_description": "Durum wheat seed for sowing",
+      "granularity": "SPECIES_SPECIFIC",
+      "species_ids": [
+        "durum-wheat"
+      ],
+      "botanical_names": [
+        "Triticum turgidum subsp. durum"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "SPECIES_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10051013",
+      "cn8": "10051013",
+      "official_description": "Three-cross hybrid maize seed for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "maize"
+      ],
+      "botanical_names": [
+        "Zea mays"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": true,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10051015",
+      "cn8": "10051015",
+      "official_description": "Simple hybrid maize seed for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "maize"
+      ],
+      "botanical_names": [
+        "Zea mays"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": true,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10051018",
+      "cn8": "10051018",
+      "official_description": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "maize"
+      ],
+      "botanical_names": [
+        "Zea mays"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": true,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-10051090",
+      "cn8": "10051090",
+      "official_description": "Maize seed for sowing (excl. hybrid)",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "maize"
+      ],
+      "botanical_names": [
+        "Zea mays"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": true,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    },
+    {
+      "id": "CN-07129011",
+      "cn8": "07129011",
+      "official_description": "Dried sweetcorn, hybrid, for sowing",
+      "granularity": "PARTIAL",
+      "species_ids": [
+        "maize"
+      ],
+      "botanical_names": [
+        "Zea mays"
+      ],
+      "seed_categories": [
+        "cereals-pseudocereals"
+      ],
+      "trade_available": false,
+      "allocated_category": "cereals-pseudocereals",
+      "precision": "MARKET_ENTITY_SPECIFIC",
+      "category_allocation": "DIRECT_CN_CATEGORY",
+      "period_scope": "MONTH_ONLY",
+      "species_volume_allocation": "NONE_FOR_GROUPS"
+    }
+  ],
+  "coverage_summary": {
+    "DIRECT": 16,
+    "PARTIAL": 4,
+    "GROUP_LEVEL": 78,
+    "NO_TRADE_EVIDENCE": 23,
+    "direct_total": 20,
+    "biological_species": 121,
+    "commercial_entities": 136
+  },
+  "category_unallocated": {
+    "unallocated_cn_codes": [
+      "12091000",
+      "12092945",
+      "12092960",
+      "12092980",
+      "12099180"
+    ],
+    "unallocated_kg": "11816670.0",
+    "unallocated_eur": "199385215.0",
+    "unallocated_value_share_percent": 49.791741,
+    "sum_categories_plus_unallocated": "PASS",
+    "category_partition_not_species_partition": true,
+    "12099180_note": "Official vegetable customs usage includes scope candidates whose primary SeedTrade categories also include brassica-seeds. Do not silently move commercial entities or allocate this cross-primary-category code."
+  },
+  "source_period": "2026-06"
+}

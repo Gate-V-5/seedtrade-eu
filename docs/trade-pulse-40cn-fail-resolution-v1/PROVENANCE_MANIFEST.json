@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CN_AUDIT_40.json",
+      "sha256": "e919d52eedc9ff3e5c921352e5156ae76c5a6d3751ce521255f81719aef853dc"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/RELEASE_GATE.json",
+      "sha256": "032963f66359dbe6f4bcc12bead00862e9736b717901379434e71420ad2d6cb5"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/RECONCILIATION.json",
+      "sha256": "a491f4b6eb1cca12ea2d5b839c4980261168db65704dd73cafd3f9c63398fb1f"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/AUDIT_QA.json",
+      "sha256": "7806a19c8acedc7ef39c31be86f86a497d99b10b6f1a59708a076bd7f500db1a"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/SPECIES_COVERAGE.json",
+      "sha256": "c8d097dbd2106dabed2b91ed3fdaef34b42ad8e726c8e644b3b750c04c78fe3b"
+    },
+    {
+      "path": "docs/crop-master-v1/CROP_MASTER_V1.json",
+      "sha256": "de0da445b9324a1aa28e7f91b084b12cab913f884213726f960e804960f8f48c"
+    },
+    {
+      "path": "docs/crop-master-v1/CATEGORY_TAXONOMY_V1.json",
+      "sha256": "74c3cef7b0cb9acc4e4e2141f3b1888dafae9513df51a3d1b6a2d7d5c888c38f"
+    }
+  ],
+  "source_audit_archive_sha256": "a3378ef7db11c4c5fc8f8e2a3be71f4435c437f0be384dfc3c1696c243952a30",
+  "source_evidence": "Preserved 1080 raw COMEXT requests, official CN extract and annual concordances in recovered checkpoint.",
+  "methodology": "No network collection; exact Decimal sums from audited CN totals; input evidence unchanged.",
+  "public_safe_scope": "Only official CN/COMEXT figures and master taxonomy in public candidate; retained owner workbook remains internal license review.",
+  "script_sha256": "ffe2b72a25058a3206a536be35ce5161b34b945d828d650cc2919dc6c9f5d940"
+}

@@ -1,0 +1,29 @@
+{
+  "release_gate": "FAIL",
+  "headline_40_cn_numeric_and_sowing_scope": "PASS",
+  "core_extended_split_required": false,
+  "reason": "No non-sowing code found and 40-code arithmetic is correct. Current release lacks a direct spelt commercial-entity link for CN10019110 despite a valid partial biological-parent mapping, under-labels mixed common-wheat/meslin CN10019120, and allocates sugar/fodder beet crop types to vegetable category without scope justification. Preserve totals but repair these attribution/label decisions before publication.",
+  "excluded_headline_cn_codes": [],
+  "remove_codes": [],
+  "relabel_or_relink_codes": [
+    "10019110",
+    "10019120"
+  ],
+  "category_allocation_withheld_codes": [
+    "12091000",
+    "12092960"
+  ],
+  "cross_category_unallocated_codes": [
+    "12092945",
+    "12092980",
+    "12099180"
+  ],
+  "blocking_semantic_decisions": 4,
+  "implementation_repaired": false,
+  "source_observations_changed": false,
+  "source_aggregate_changed": false,
+  "new_commit": "NONE",
+  "push": "NOT_PUSHED",
+  "deployment": "NONE",
+  "globalwits": "NOT_ACCESSED_FOR_NEW_RESEARCH;RAW_WORKBOOK_RETAINED_INTERNAL;0_VALUES_IN_PUBLIC_AGGREGATE"
+}

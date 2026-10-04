@@ -1,0 +1,60 @@
+{
+  "cn_codes_total": 40,
+  "old_cn_codes": 11,
+  "new_cn_codes": 29,
+  "old_11_volume": 30932.07,
+  "new_29_volume": 220083.03,
+  "total_40_volume": 251015.1,
+  "old_11_value": 35685420.0,
+  "new_29_value": 364752908.0,
+  "total_40_value": 400438328.0,
+  "species_specific_cn": 16,
+  "group_level_cn": 13,
+  "partial_cn": 11,
+  "ambiguous_sowing_cn": 0,
+  "excluded_cn": 0,
+  "coverage": {
+    "GROUP_LEVEL_ONLY": 78,
+    "NO_COMPATIBLE_TRADE_DATA": 23,
+    "PARTIAL_SPECIES_SCOPE": 4,
+    "SPECIES_SPECIFIC": 16
+  },
+  "concentration": {
+    "denominator": "29-code expansion only; distinct from 40-code total shares",
+    "volume": {
+      "top_1_cn": "10019120",
+      "top_1_share_percent": 28.116107,
+      "top_3_share_percent": 62.232854,
+      "top_5_share_percent": 72.622777,
+      "top_10_share_percent": 88.474857
+    },
+    "value": {
+      "top_1_cn": "12099180",
+      "top_1_share_percent": 44.656727,
+      "top_3_share_percent": 65.474808,
+      "top_5_share_percent": 75.561195,
+      "top_10_share_percent": 90.984224
+    },
+    "flags": [
+      "CONCENTRATED_NEW_CODE_VOLUME_TOP3_OVER_50_PERCENT",
+      "CONCENTRATED_NEW_CODE_VALUE_TOP3_OVER_50_PERCENT"
+    ]
+  },
+  "category": {
+    "unallocated_cn_codes": [
+      "12091000",
+      "12092945",
+      "12092960",
+      "12092980",
+      "12099180"
+    ],
+    "unallocated_volume_tonnes": 11816.67,
+    "unallocated_value_eur": 199385215.0,
+    "unallocated_volume_share_percent": 4.707553,
+    "unallocated_value_share_percent": 49.791741,
+    "largest_allocated_category_by_volume": "cereals-pseudocereals",
+    "largest_allocated_category_by_value": "cereals-pseudocereals",
+    "largest_category_caveat": "Largest among safely allocated categories; unallocated customs groups may dominate total value and are not a category."
+  },
+  "release_gate": "FAIL"
+}

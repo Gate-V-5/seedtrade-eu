@@ -15,7 +15,7 @@ class TradePulseMarketplaceUxTests(unittest.TestCase):
         self.assertNotIn("Previous Market Signal", panel)
 
     def test_dashboard_has_required_verified_sections(self):
-        for text in ("Trade activity over time", "Monthly volume, tonnes", "Monthly trade value, EUR", "Seasonality", "Top verified seed categories", "Biggest verified volume movers", "Extra-EU trade balance", "Market observations", "Methodology in brief"):
+        for text in ("Trade activity over time", "Monthly volume, tonnes", "Monthly trade value, EUR", "Seasonality", "Top verified customs trade entities", "Biggest verified volume movers", "Extra-EU trade balance", "Market observations", "Methodology in brief"):
             self.assertIn(text, APP)
         self.assertIn("Evidence insufficient for a robust seasonality claim", APP)
         self.assertIn("categories below 100 tonnes are excluded", APP)

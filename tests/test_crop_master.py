@@ -23,7 +23,9 @@ class CropMasterTests(unittest.TestCase):
   prod=load('src/generated/production_public.json');self.assertEqual(len(prod['observations']),1669)
   self.assertEqual({x['metric'] for x in prod['observations']},{'SEED_PRODUCTION_AREA','CERTIFIED_SEED_AREA','CERTIFIED_QUANTITY'})
   for item in load('docs/crop-master-v1/PROVENANCE_MANIFEST.json')['inputs']:
-   self.assertEqual(hashlib.sha256((ROOT/item['path']).read_bytes()).hexdigest(),item['sha256'])
+   # The historical Crop Master input is preserved byte-for-byte; current Pulse is intentionally expanded.
+   source=ROOT/('data/multisource-trade-v1/trade_pulse_baseline.json' if item['path']=='src/generated/trade_pulse_public.json' else item['path'])
+   self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(),item['sha256'])
  def test_csv_json_parity(self):
   for p in (ROOT/'docs/crop-master-v1').glob('*.csv'):
    original=json.loads(p.with_suffix('.json').read_text())

@@ -1,89 +1,243 @@
 {
   "schema": "SEEDTRADE_EU_SEED_TRADE_PULSE_V1",
-  "generated_at": "2026-09-26T00:00:00Z",
+  "generated_at": "2026-10-04T06:07:29.221883+00:00",
   "classification": "PUBLIC_SAFE",
   "source": "Eurostat COMEXT DS-045409",
-  "source_artifact_sha256": "0f013514e7c28bc791c263142e4c67dacefd2230631b0d19732f1a978ef3aa90",
+  "source_artifact_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
   "latest_completed_period": "2026-06",
   "latest_available_partial_period": "2026-07",
   "partial_period_excluded": true,
-  "accepted_observations": 35238,
-  "excluded_partial_observations": 484,
+  "accepted_observations": 153838,
+  "excluded_partial_observations": 0,
   "scope": {
-    "rule": "Only CN codes already approved for the PUBLIC_SAFE market dataset and normalized rows marked VERIFIED are included; unresolved or review-only mappings are excluded.",
+    "rule": "40 verified sowing CN8 codes. Unique reporter-partner-flow-month grain. No species allocation. Comparable 2024–2026 definitions confirmed by official yearly nomenclature evidence.",
     "included_cn_codes": [
       {
-        "cn8": "12092100",
-        "crop": "Alfalfa / lucerne",
-        "slug": "alfalfa-lucerne"
+        "cn8": "12092945",
+        "crop": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+        "slug": null
       },
       {
-        "cn8": "07131010",
-        "crop": "Field peas",
-        "slug": "field-peas"
+        "cn8": "12099180",
+        "crop": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+        "slug": null
+      },
+      {
+        "cn8": "12092980",
+        "crop": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+        "slug": null
+      },
+      {
+        "cn8": "10041000",
+        "crop": "Oats seed for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "12091000",
+        "crop": "Sugar beet seed, for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "12092960",
+        "crop": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "12099130",
+        "crop": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "12075010",
+        "crop": "Mustard seeds for sowing",
+        "slug": "mustard-seed-for-sowing"
+      },
+      {
+        "cn8": "12051010",
+        "crop": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "12079920",
+        "crop": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+        "slug": null
+      },
+      {
+        "cn8": "12092380",
+        "crop": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+        "slug": null
+      },
+      {
+        "cn8": "12092311",
+        "crop": "Meadow fescue seed for sowing",
+        "slug": "meadow-fescue"
+      },
+      {
+        "cn8": "12092315",
+        "crop": "Red fescue seed \"Festuca rubra L.\" for sowing",
+        "slug": "red-fescue"
+      },
+      {
+        "cn8": "12011000",
+        "crop": "Soya bean seed, for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "12060010",
+        "crop": "Sunflower seeds for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10031000",
+        "crop": "Barley seed for sowing",
+        "slug": null
       },
       {
         "cn8": "12040010",
-        "crop": "Flax / linseed for sowing",
+        "crop": "Linseed for sowing",
         "slug": "flax-linseed-for-sowing"
       },
       {
         "cn8": "12092510",
-        "crop": "Italian ryegrass",
+        "crop": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
         "slug": "italian-ryegrass"
       },
       {
-        "cn8": "12092400",
-        "crop": "Kentucky bluegrass",
-        "slug": "kentucky-bluegrass"
-      },
-      {
-        "cn8": "12092950",
-        "crop": "Lupins",
-        "slug": "lupins"
-      },
-      {
-        "cn8": "12092311",
-        "crop": "Meadow fescue",
-        "slug": "meadow-fescue"
-      },
-      {
-        "cn8": "12075010",
-        "crop": "Mustard seed for sowing",
-        "slug": "mustard-seed-for-sowing"
-      },
-      {
         "cn8": "12092590",
-        "crop": "Perennial ryegrass",
+        "crop": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
         "slug": "perennial-ryegrass"
       },
       {
+        "cn8": "12092950",
+        "crop": "Lupine seed for sowing",
+        "slug": "lupins"
+      },
+      {
+        "cn8": "12092100",
+        "crop": "Alfalfa seed for sowing",
+        "slug": "alfalfa-lucerne"
+      },
+      {
+        "cn8": "10061010",
+        "crop": "Rice in husk for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10082100",
+        "crop": "Millet seed for sowing (excl. grain sorghum)",
+        "slug": null
+      },
+      {
+        "cn8": "12079110",
+        "crop": "Poppy seeds for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "07133310",
+        "crop": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "07131010",
+        "crop": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+        "slug": "field-peas"
+      },
+      {
+        "cn8": "12092400",
+        "crop": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+        "slug": "kentucky-bluegrass"
+      },
+      {
+        "cn8": "10021000",
+        "crop": "Rye seed for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10071010",
+        "crop": "Hybrid grain sorghum, for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10071090",
+        "crop": "Grain sorghum, for sowing (excl. hybrids)",
+        "slug": null
+      },
+      {
+        "cn8": "12092280",
+        "crop": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+        "slug": null
+      },
+      {
         "cn8": "12092210",
-        "crop": "Red clover",
+        "crop": "Red clover \"Trifolium pratense L.\" seed for sowing",
         "slug": "red-clover"
       },
       {
-        "cn8": "12092315",
-        "crop": "Red fescue",
-        "slug": "red-fescue"
+        "cn8": "10019110",
+        "crop": "Spelt seed for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10019120",
+        "crop": "Seed of common wheat or meslin, for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10011100",
+        "crop": "Durum wheat seed for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10051013",
+        "crop": "Three-cross hybrid maize seed for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10051015",
+        "crop": "Simple hybrid maize seed for sowing",
+        "slug": null
+      },
+      {
+        "cn8": "10051018",
+        "crop": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+        "slug": null
+      },
+      {
+        "cn8": "10051090",
+        "crop": "Maize seed for sowing (excl. hybrid)",
+        "slug": null
+      },
+      {
+        "cn8": "07129011",
+        "crop": "Dried sweetcorn, hybrid, for sowing",
+        "slug": null
       }
     ],
-    "mirror_flow_control": "EU internal trade uses exporter-reported dispatches only; mirror import declarations are excluded."
+    "mirror_flow_control": "EU internal trade uses exporter-reported dispatches only; mirror import declarations are excluded.",
+    "request_grid_complete": true,
+    "geographic_scope": "EU27 reporting countries; reported country partners only; special territories excluded",
+    "northern_ireland_excluded": true,
+    "taxonomic_precision": {
+      "SPECIES_SPECIFIC": 16,
+      "PARTIAL": 11,
+      "GROUP_LEVEL": 13
+    },
+    "no_species_allocation": true
   },
   "views": {
     "eu_internal_trade": {
       "label": "EU Internal Trade",
       "definition": "Exporter-reported dispatches where both reporter and partner are EU-27 members; each reported export flow is counted once and mirror import declarations are excluded.",
       "latest": {
-        "volume_tonnes": 30932.07,
-        "trade_value_eur": 35685420.0,
-        "unit_value_eur_kg": 1.1537,
-        "observation_count": 821,
-        "cn_code_count": 11,
+        "volume_tonnes": 251015.1,
+        "trade_value_eur": 400438328.0,
+        "unit_value_eur_kg": 1.5953,
+        "observation_count": 3246,
+        "cn_code_count": 40,
         "period": "2026-06",
-        "volume_yoy_percent": 31.21,
-        "value_yoy_percent": 9.11,
-        "unit_value_yoy_percent": -16.84
+        "volume_yoy_percent": 42.08,
+        "value_yoy_percent": 9.67,
+        "unit_value_yoy_percent": -22.81
       },
       "trade_activity": {
         "state": "HIGH",
@@ -92,13 +246,14 @@
       "unit_value_range": {
         "status": "VERIFIED",
         "period": "2026-06",
-        "eligible_category_count": 11,
+        "eligible_category_count": 9,
+        "rule": "Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded. Species-specific customs scope only; broad groups excluded. Expanded codes withheld pending established representative-price engine validation.",
         "low": {
-          "slug": "lupins",
-          "category": "Lupins",
-          "volume_tonnes": 10839.55,
-          "observation_count": 63,
-          "unit_value_eur_kg": 0.3201
+          "slug": "field-peas",
+          "category": "Field peas",
+          "volume_tonnes": 2610.39,
+          "observation_count": 135,
+          "unit_value_eur_kg": 0.7371
         },
         "high": {
           "slug": "red-clover",
@@ -106,129 +261,128 @@
           "volume_tonnes": 434.78,
           "observation_count": 58,
           "unit_value_eur_kg": 4.8111
-        },
-        "rule": "Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded."
+        }
       },
       "history": [
         {
-          "volume_tonnes": 19900.5,
-          "trade_value_eur": 24197916.0,
-          "unit_value_eur_kg": 1.2159,
-          "observation_count": 774,
-          "cn_code_count": 11,
+          "volume_tonnes": 189388.84,
+          "trade_value_eur": 437935719.0,
+          "unit_value_eur_kg": 2.3124,
+          "observation_count": 2870,
+          "cn_code_count": 40,
           "period": "2025-07",
-          "volume_yoy_percent": -8.23,
-          "value_yoy_percent": 12.09
+          "volume_yoy_percent": -16.28,
+          "value_yoy_percent": -5.05
         },
         {
-          "volume_tonnes": 19287.38,
-          "trade_value_eur": 26561392.0,
-          "unit_value_eur_kg": 1.3771,
-          "observation_count": 794,
-          "cn_code_count": 11,
+          "volume_tonnes": 236693.96,
+          "trade_value_eur": 325733917.0,
+          "unit_value_eur_kg": 1.3762,
+          "observation_count": 2977,
+          "cn_code_count": 40,
           "period": "2025-08",
-          "volume_yoy_percent": -10.08,
-          "value_yoy_percent": 1.82
+          "volume_yoy_percent": -8.25,
+          "value_yoy_percent": -1.21
         },
         {
-          "volume_tonnes": 33496.43,
-          "trade_value_eur": 38601596.0,
-          "unit_value_eur_kg": 1.1524,
-          "observation_count": 904,
-          "cn_code_count": 11,
+          "volume_tonnes": 342346.6,
+          "trade_value_eur": 353001804.0,
+          "unit_value_eur_kg": 1.0311,
+          "observation_count": 3255,
+          "cn_code_count": 40,
           "period": "2025-09",
-          "volume_yoy_percent": 16.66,
-          "value_yoy_percent": 8.99
+          "volume_yoy_percent": 9.38,
+          "value_yoy_percent": 3.71
         },
         {
-          "volume_tonnes": 27363.88,
-          "trade_value_eur": 40176543.0,
-          "unit_value_eur_kg": 1.4682,
-          "observation_count": 825,
-          "cn_code_count": 11,
+          "volume_tonnes": 436577.62,
+          "trade_value_eur": 442825875.0,
+          "unit_value_eur_kg": 1.0143,
+          "observation_count": 3166,
+          "cn_code_count": 40,
           "period": "2025-10",
-          "volume_yoy_percent": 15.88,
-          "value_yoy_percent": 25.41
+          "volume_yoy_percent": 15.66,
+          "value_yoy_percent": 12.19
         },
         {
-          "volume_tonnes": 21525.0,
-          "trade_value_eur": 35297348.0,
-          "unit_value_eur_kg": 1.6398,
-          "observation_count": 683,
-          "cn_code_count": 11,
+          "volume_tonnes": 376552.64,
+          "trade_value_eur": 506681557.0,
+          "unit_value_eur_kg": 1.3456,
+          "observation_count": 2832,
+          "cn_code_count": 40,
           "period": "2025-11",
-          "volume_yoy_percent": -29.63,
-          "value_yoy_percent": -1.32
+          "volume_yoy_percent": 27.39,
+          "value_yoy_percent": 6.63
         },
         {
-          "volume_tonnes": 18659.85,
-          "trade_value_eur": 31800897.0,
-          "unit_value_eur_kg": 1.7042,
-          "observation_count": 661,
-          "cn_code_count": 11,
+          "volume_tonnes": 444759.16,
+          "trade_value_eur": 507242661.0,
+          "unit_value_eur_kg": 1.1405,
+          "observation_count": 2756,
+          "cn_code_count": 40,
           "period": "2025-12",
-          "volume_yoy_percent": 3.23,
-          "value_yoy_percent": 8.83
+          "volume_yoy_percent": 80.04,
+          "value_yoy_percent": 17.48
         },
         {
-          "volume_tonnes": 29164.81,
-          "trade_value_eur": 54880293.0,
-          "unit_value_eur_kg": 1.8817,
-          "observation_count": 856,
-          "cn_code_count": 11,
+          "volume_tonnes": 406648.21,
+          "trade_value_eur": 767559869.0,
+          "unit_value_eur_kg": 1.8875,
+          "observation_count": 3314,
+          "cn_code_count": 40,
           "period": "2026-01",
-          "volume_yoy_percent": -3.81,
-          "value_yoy_percent": 1.91
+          "volume_yoy_percent": 30.79,
+          "value_yoy_percent": -3.98
         },
         {
-          "volume_tonnes": 36762.09,
-          "trade_value_eur": 68136865.0,
-          "unit_value_eur_kg": 1.8535,
-          "observation_count": 1034,
-          "cn_code_count": 11,
+          "volume_tonnes": 418019.31,
+          "trade_value_eur": 890250907.0,
+          "unit_value_eur_kg": 2.1297,
+          "observation_count": 3841,
+          "cn_code_count": 40,
           "period": "2026-02",
-          "volume_yoy_percent": 14.89,
-          "value_yoy_percent": 7.92
+          "volume_yoy_percent": 30.12,
+          "value_yoy_percent": 0.77
         },
         {
-          "volume_tonnes": 44393.7,
-          "trade_value_eur": 75260790.0,
-          "unit_value_eur_kg": 1.6953,
-          "observation_count": 1202,
-          "cn_code_count": 11,
+          "volume_tonnes": 429045.31,
+          "trade_value_eur": 886815860.0,
+          "unit_value_eur_kg": 2.067,
+          "observation_count": 4434,
+          "cn_code_count": 40,
           "period": "2026-03",
-          "volume_yoy_percent": 17.83,
-          "value_yoy_percent": 7.8
+          "volume_yoy_percent": 50.99,
+          "value_yoy_percent": 11.2
         },
         {
-          "volume_tonnes": 31862.06,
-          "trade_value_eur": 53665103.0,
-          "unit_value_eur_kg": 1.6843,
-          "observation_count": 1010,
-          "cn_code_count": 11,
+          "volume_tonnes": 248554.83,
+          "trade_value_eur": 454635280.0,
+          "unit_value_eur_kg": 1.8291,
+          "observation_count": 3892,
+          "cn_code_count": 40,
           "period": "2026-04",
-          "volume_yoy_percent": -5.44,
-          "value_yoy_percent": -3.16
+          "volume_yoy_percent": 9.29,
+          "value_yoy_percent": -8.15
         },
         {
-          "volume_tonnes": 23460.73,
-          "trade_value_eur": 34733069.0,
-          "unit_value_eur_kg": 1.4805,
-          "observation_count": 853,
-          "cn_code_count": 11,
+          "volume_tonnes": 237181.1,
+          "trade_value_eur": 317099129.0,
+          "unit_value_eur_kg": 1.3369,
+          "observation_count": 3335,
+          "cn_code_count": 40,
           "period": "2026-05",
-          "volume_yoy_percent": -7.15,
-          "value_yoy_percent": -8.6
+          "volume_yoy_percent": -15.59,
+          "value_yoy_percent": -12.33
         },
         {
-          "volume_tonnes": 30932.07,
-          "trade_value_eur": 35685420.0,
-          "unit_value_eur_kg": 1.1537,
-          "observation_count": 821,
-          "cn_code_count": 11,
+          "volume_tonnes": 251015.1,
+          "trade_value_eur": 400438328.0,
+          "unit_value_eur_kg": 1.5953,
+          "observation_count": 3246,
+          "cn_code_count": 40,
           "period": "2026-06",
-          "volume_yoy_percent": 31.21,
-          "value_yoy_percent": 9.11
+          "volume_yoy_percent": 42.08,
+          "value_yoy_percent": 9.67
         }
       ]
     },
@@ -236,160 +390,160 @@
       "label": "EU Imports",
       "definition": "Reporter-declared EU-27 imports from partners outside the EU-27; EU internal movements and aggregate/special partner codes are excluded.",
       "latest": {
-        "volume_tonnes": 12036.77,
-        "trade_value_eur": 8717321.0,
-        "unit_value_eur_kg": 0.7242,
-        "observation_count": 78,
-        "cn_code_count": 9,
+        "volume_tonnes": 22636.9,
+        "trade_value_eur": 103712274.0,
+        "unit_value_eur_kg": 4.5816,
+        "observation_count": 544,
+        "cn_code_count": 38,
         "period": "2026-06",
-        "volume_yoy_percent": -23.29,
-        "value_yoy_percent": -21.78,
-        "unit_value_yoy_percent": 1.96
+        "volume_yoy_percent": -12.33,
+        "value_yoy_percent": 4.62,
+        "unit_value_yoy_percent": 19.34
       },
       "trade_activity": {
-        "state": "LOW",
+        "state": "NORMAL",
         "rule": "HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast."
       },
       "unit_value_range": {
         "status": "VERIFIED",
         "period": "2026-06",
-        "eligible_category_count": 7,
+        "eligible_category_count": 5,
+        "rule": "Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded. Species-specific customs scope only; broad groups excluded. Expanded codes withheld pending established representative-price engine validation.",
         "low": {
-          "slug": "lupins",
-          "category": "Lupins",
-          "volume_tonnes": 8755.67,
-          "observation_count": 12,
-          "unit_value_eur_kg": 0.3561
+          "slug": "italian-ryegrass",
+          "category": "Italian ryegrass",
+          "volume_tonnes": 1434.19,
+          "observation_count": 13,
+          "unit_value_eur_kg": 1.1094
         },
         "high": {
           "slug": "alfalfa-lucerne",
           "category": "Alfalfa / lucerne",
-          "volume_tonnes": 146.8,
-          "observation_count": 4,
-          "unit_value_eur_kg": 4.394
-        },
-        "rule": "Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded."
+          "volume_tonnes": 168.3,
+          "observation_count": 5,
+          "unit_value_eur_kg": 4.5033
+        }
       },
       "history": [
         {
-          "volume_tonnes": 6766.73,
-          "trade_value_eur": 6772741.0,
-          "unit_value_eur_kg": 1.0009,
-          "observation_count": 75,
-          "cn_code_count": 10,
+          "volume_tonnes": 15380.57,
+          "trade_value_eur": 86893891.0,
+          "unit_value_eur_kg": 5.6496,
+          "observation_count": 547,
+          "cn_code_count": 39,
           "period": "2025-07",
-          "volume_yoy_percent": -48.08,
-          "value_yoy_percent": -17.44
+          "volume_yoy_percent": -40.06,
+          "value_yoy_percent": -16.34
         },
         {
-          "volume_tonnes": 15811.31,
-          "trade_value_eur": 9879952.0,
-          "unit_value_eur_kg": 0.6249,
-          "observation_count": 68,
-          "cn_code_count": 11,
+          "volume_tonnes": 23952.62,
+          "trade_value_eur": 78019631.0,
+          "unit_value_eur_kg": 3.2572,
+          "observation_count": 480,
+          "cn_code_count": 38,
           "period": "2025-08",
-          "volume_yoy_percent": -6.95,
-          "value_yoy_percent": 3.55
+          "volume_yoy_percent": -1.53,
+          "value_yoy_percent": -7.3
         },
         {
-          "volume_tonnes": 12773.8,
-          "trade_value_eur": 11372542.0,
-          "unit_value_eur_kg": 0.8903,
-          "observation_count": 80,
-          "cn_code_count": 11,
+          "volume_tonnes": 17699.23,
+          "trade_value_eur": 71464990.0,
+          "unit_value_eur_kg": 4.0377,
+          "observation_count": 540,
+          "cn_code_count": 39,
           "period": "2025-09",
-          "volume_yoy_percent": -39.16,
-          "value_yoy_percent": -14.33
+          "volume_yoy_percent": -33.62,
+          "value_yoy_percent": -7.59
         },
         {
-          "volume_tonnes": 26909.11,
-          "trade_value_eur": 16512895.0,
-          "unit_value_eur_kg": 0.6137,
-          "observation_count": 81,
-          "cn_code_count": 10,
+          "volume_tonnes": 34359.6,
+          "trade_value_eur": 72948795.0,
+          "unit_value_eur_kg": 2.1231,
+          "observation_count": 538,
+          "cn_code_count": 37,
           "period": "2025-10",
-          "volume_yoy_percent": 148.63,
-          "value_yoy_percent": 58.7
+          "volume_yoy_percent": 57.93,
+          "value_yoy_percent": -16.74
         },
         {
-          "volume_tonnes": 11398.21,
-          "trade_value_eur": 10159670.0,
-          "unit_value_eur_kg": 0.8913,
-          "observation_count": 73,
-          "cn_code_count": 10,
+          "volume_tonnes": 21965.24,
+          "trade_value_eur": 81995232.0,
+          "unit_value_eur_kg": 3.733,
+          "observation_count": 512,
+          "cn_code_count": 36,
           "period": "2025-11",
-          "volume_yoy_percent": -72.02,
-          "value_yoy_percent": -50.17
+          "volume_yoy_percent": -58.63,
+          "value_yoy_percent": -23.33
         },
         {
-          "volume_tonnes": 10655.87,
-          "trade_value_eur": 12019831.0,
-          "unit_value_eur_kg": 1.128,
-          "observation_count": 84,
-          "cn_code_count": 11,
+          "volume_tonnes": 25042.21,
+          "trade_value_eur": 115330917.0,
+          "unit_value_eur_kg": 4.6055,
+          "observation_count": 517,
+          "cn_code_count": 37,
           "period": "2025-12",
-          "volume_yoy_percent": -16.08,
-          "value_yoy_percent": 38.85
+          "volume_yoy_percent": -6.64,
+          "value_yoy_percent": 4.28
         },
         {
-          "volume_tonnes": 11493.62,
-          "trade_value_eur": 13321724.0,
-          "unit_value_eur_kg": 1.1591,
-          "observation_count": 84,
-          "cn_code_count": 11,
+          "volume_tonnes": 31582.57,
+          "trade_value_eur": 125084067.0,
+          "unit_value_eur_kg": 3.9605,
+          "observation_count": 589,
+          "cn_code_count": 39,
           "period": "2026-01",
-          "volume_yoy_percent": 9.5,
-          "value_yoy_percent": 22.55
+          "volume_yoy_percent": -5.4,
+          "value_yoy_percent": -9.77
         },
         {
-          "volume_tonnes": 26120.6,
-          "trade_value_eur": 18902276.0,
-          "unit_value_eur_kg": 0.7237,
-          "observation_count": 113,
-          "cn_code_count": 11,
+          "volume_tonnes": 46956.01,
+          "trade_value_eur": 137582518.0,
+          "unit_value_eur_kg": 2.93,
+          "observation_count": 716,
+          "cn_code_count": 38,
           "period": "2026-02",
-          "volume_yoy_percent": -33.68,
-          "value_yoy_percent": -18.86
+          "volume_yoy_percent": -14.45,
+          "value_yoy_percent": -4.74
         },
         {
-          "volume_tonnes": 11124.46,
-          "trade_value_eur": 11172211.0,
-          "unit_value_eur_kg": 1.0043,
-          "observation_count": 110,
-          "cn_code_count": 11,
+          "volume_tonnes": 26512.63,
+          "trade_value_eur": 133491715.0,
+          "unit_value_eur_kg": 5.035,
+          "observation_count": 768,
+          "cn_code_count": 39,
           "period": "2026-03",
-          "volume_yoy_percent": 9.09,
-          "value_yoy_percent": -13.5
+          "volume_yoy_percent": 11.02,
+          "value_yoy_percent": 13.39
         },
         {
-          "volume_tonnes": 19504.22,
-          "trade_value_eur": 13837909.0,
-          "unit_value_eur_kg": 0.7095,
-          "observation_count": 97,
-          "cn_code_count": 10,
+          "volume_tonnes": 31775.93,
+          "trade_value_eur": 111025964.0,
+          "unit_value_eur_kg": 3.494,
+          "observation_count": 708,
+          "cn_code_count": 39,
           "period": "2026-04",
-          "volume_yoy_percent": 99.1,
-          "value_yoy_percent": 20.53
+          "volume_yoy_percent": 32.61,
+          "value_yoy_percent": -2.19
         },
         {
-          "volume_tonnes": 22746.21,
-          "trade_value_eur": 11820752.0,
-          "unit_value_eur_kg": 0.5197,
-          "observation_count": 82,
-          "cn_code_count": 11,
+          "volume_tonnes": 32634.86,
+          "trade_value_eur": 93646638.0,
+          "unit_value_eur_kg": 2.8695,
+          "observation_count": 557,
+          "cn_code_count": 40,
           "period": "2026-05",
-          "volume_yoy_percent": 55.96,
-          "value_yoy_percent": 19.2
+          "volume_yoy_percent": 22.06,
+          "value_yoy_percent": -29.09
         },
         {
-          "volume_tonnes": 12036.77,
-          "trade_value_eur": 8717321.0,
-          "unit_value_eur_kg": 0.7242,
-          "observation_count": 78,
-          "cn_code_count": 9,
+          "volume_tonnes": 22636.9,
+          "trade_value_eur": 103712274.0,
+          "unit_value_eur_kg": 4.5816,
+          "observation_count": 544,
+          "cn_code_count": 38,
           "period": "2026-06",
-          "volume_yoy_percent": -23.29,
-          "value_yoy_percent": -21.78
+          "volume_yoy_percent": -12.33,
+          "value_yoy_percent": 4.62
         }
       ]
     },
@@ -397,24 +551,25 @@
       "label": "EU Exports",
       "definition": "Reporter-declared EU-27 exports to partners outside the EU-27; EU internal movements and aggregate/special partner codes are excluded.",
       "latest": {
-        "volume_tonnes": 3429.24,
-        "trade_value_eur": 7966495.0,
-        "unit_value_eur_kg": 2.3231,
-        "observation_count": 173,
-        "cn_code_count": 11,
+        "volume_tonnes": 13768.34,
+        "trade_value_eur": 239420235.0,
+        "unit_value_eur_kg": 17.3892,
+        "observation_count": 1041,
+        "cn_code_count": 40,
         "period": "2026-06",
-        "volume_yoy_percent": -42.05,
-        "value_yoy_percent": -31.86,
-        "unit_value_yoy_percent": 17.57
+        "volume_yoy_percent": -11.49,
+        "value_yoy_percent": 6.83,
+        "unit_value_yoy_percent": 20.7
       },
       "trade_activity": {
-        "state": "LOW",
+        "state": "NORMAL",
         "rule": "HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast."
       },
       "unit_value_range": {
         "status": "VERIFIED",
         "period": "2026-06",
         "eligible_category_count": 6,
+        "rule": "Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded. Species-specific customs scope only; broad groups excluded. Expanded codes withheld pending established representative-price engine validation.",
         "low": {
           "slug": "red-fescue",
           "category": "Red fescue",
@@ -425,151 +580,150 @@
         "high": {
           "slug": "alfalfa-lucerne",
           "category": "Alfalfa / lucerne",
-          "volume_tonnes": 191.22,
-          "observation_count": 25,
-          "unit_value_eur_kg": 5.5785
-        },
-        "rule": "Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded."
+          "volume_tonnes": 201.1,
+          "observation_count": 27,
+          "unit_value_eur_kg": 5.5226
+        }
       },
       "history": [
         {
-          "volume_tonnes": 5128.9,
-          "trade_value_eur": 9782398.0,
-          "unit_value_eur_kg": 1.9073,
-          "observation_count": 190,
-          "cn_code_count": 11,
+          "volume_tonnes": 15160.68,
+          "trade_value_eur": 211631600.0,
+          "unit_value_eur_kg": 13.9592,
+          "observation_count": 1039,
+          "cn_code_count": 40,
           "period": "2025-07",
-          "volume_yoy_percent": 27.88,
-          "value_yoy_percent": 7.57
+          "volume_yoy_percent": -13.98,
+          "value_yoy_percent": -1.62
         },
         {
-          "volume_tonnes": 4786.61,
-          "trade_value_eur": 9879563.0,
-          "unit_value_eur_kg": 2.064,
-          "observation_count": 185,
-          "cn_code_count": 11,
+          "volume_tonnes": 17573.56,
+          "trade_value_eur": 204897455.0,
+          "unit_value_eur_kg": 11.6594,
+          "observation_count": 998,
+          "cn_code_count": 39,
           "period": "2025-08",
-          "volume_yoy_percent": 17.95,
-          "value_yoy_percent": 16.61
+          "volume_yoy_percent": 11.93,
+          "value_yoy_percent": -5.25
         },
         {
-          "volume_tonnes": 5406.57,
-          "trade_value_eur": 11742927.0,
-          "unit_value_eur_kg": 2.172,
-          "observation_count": 185,
-          "cn_code_count": 11,
+          "volume_tonnes": 26906.1,
+          "trade_value_eur": 175553405.0,
+          "unit_value_eur_kg": 6.5247,
+          "observation_count": 1030,
+          "cn_code_count": 40,
           "period": "2025-09",
-          "volume_yoy_percent": 36.62,
-          "value_yoy_percent": 37.55
+          "volume_yoy_percent": 25.8,
+          "value_yoy_percent": -1.03
         },
         {
-          "volume_tonnes": 5019.69,
-          "trade_value_eur": 8864185.0,
-          "unit_value_eur_kg": 1.7659,
-          "observation_count": 180,
-          "cn_code_count": 11,
+          "volume_tonnes": 22349.39,
+          "trade_value_eur": 227313853.0,
+          "unit_value_eur_kg": 10.1709,
+          "observation_count": 1056,
+          "cn_code_count": 40,
           "period": "2025-10",
-          "volume_yoy_percent": 48.16,
-          "value_yoy_percent": 31.25
+          "volume_yoy_percent": 28.52,
+          "value_yoy_percent": 3.62
         },
         {
-          "volume_tonnes": 4986.91,
-          "trade_value_eur": 10055729.0,
-          "unit_value_eur_kg": 2.0164,
-          "observation_count": 166,
-          "cn_code_count": 11,
+          "volume_tonnes": 24304.36,
+          "trade_value_eur": 257315399.0,
+          "unit_value_eur_kg": 10.5872,
+          "observation_count": 978,
+          "cn_code_count": 40,
           "period": "2025-11",
-          "volume_yoy_percent": 18.91,
-          "value_yoy_percent": 4.52
+          "volume_yoy_percent": -20.53,
+          "value_yoy_percent": 11.23
         },
         {
-          "volume_tonnes": 5971.1,
-          "trade_value_eur": 11832078.0,
-          "unit_value_eur_kg": 1.9816,
-          "observation_count": 187,
-          "cn_code_count": 11,
+          "volume_tonnes": 19875.5,
+          "trade_value_eur": 280186692.0,
+          "unit_value_eur_kg": 14.0971,
+          "observation_count": 1034,
+          "cn_code_count": 39,
           "period": "2025-12",
-          "volume_yoy_percent": 63.07,
-          "value_yoy_percent": 14.22
+          "volume_yoy_percent": -12.79,
+          "value_yoy_percent": -2.48
         },
         {
-          "volume_tonnes": 7763.34,
-          "trade_value_eur": 16703687.0,
-          "unit_value_eur_kg": 2.1516,
-          "observation_count": 207,
-          "cn_code_count": 11,
+          "volume_tonnes": 29355.97,
+          "trade_value_eur": 298711477.0,
+          "unit_value_eur_kg": 10.1755,
+          "observation_count": 1084,
+          "cn_code_count": 40,
           "period": "2026-01",
-          "volume_yoy_percent": 3.13,
-          "value_yoy_percent": 0.28
+          "volume_yoy_percent": 4.04,
+          "value_yoy_percent": -4.41
         },
         {
-          "volume_tonnes": 10544.99,
-          "trade_value_eur": 23354860.0,
-          "unit_value_eur_kg": 2.2148,
-          "observation_count": 312,
-          "cn_code_count": 11,
+          "volume_tonnes": 39574.22,
+          "trade_value_eur": 390331052.0,
+          "unit_value_eur_kg": 9.8633,
+          "observation_count": 1433,
+          "cn_code_count": 40,
           "period": "2026-02",
-          "volume_yoy_percent": 6.81,
-          "value_yoy_percent": 7.67
+          "volume_yoy_percent": -0.82,
+          "value_yoy_percent": 5.99
         },
         {
-          "volume_tonnes": 7402.78,
-          "trade_value_eur": 18436789.0,
-          "unit_value_eur_kg": 2.4905,
-          "observation_count": 325,
-          "cn_code_count": 11,
+          "volume_tonnes": 43019.4,
+          "trade_value_eur": 383810243.0,
+          "unit_value_eur_kg": 8.9218,
+          "observation_count": 1546,
+          "cn_code_count": 40,
           "period": "2026-03",
-          "volume_yoy_percent": -19.47,
-          "value_yoy_percent": -15.62
+          "volume_yoy_percent": 3.07,
+          "value_yoy_percent": 5.7
         },
         {
-          "volume_tonnes": 5743.03,
-          "trade_value_eur": 14739114.0,
-          "unit_value_eur_kg": 2.5664,
-          "observation_count": 261,
-          "cn_code_count": 11,
+          "volume_tonnes": 21477.3,
+          "trade_value_eur": 268380052.0,
+          "unit_value_eur_kg": 12.496,
+          "observation_count": 1374,
+          "cn_code_count": 40,
           "period": "2026-04",
-          "volume_yoy_percent": -7.32,
-          "value_yoy_percent": -6.18
+          "volume_yoy_percent": -0.98,
+          "value_yoy_percent": -5.89
         },
         {
-          "volume_tonnes": 3957.85,
-          "trade_value_eur": 9919309.0,
-          "unit_value_eur_kg": 2.5062,
-          "observation_count": 193,
-          "cn_code_count": 11,
+          "volume_tonnes": 26281.19,
+          "trade_value_eur": 232235133.0,
+          "unit_value_eur_kg": 8.8366,
+          "observation_count": 1069,
+          "cn_code_count": 40,
           "period": "2026-05",
-          "volume_yoy_percent": -25.56,
-          "value_yoy_percent": -11.92
+          "volume_yoy_percent": 69.34,
+          "value_yoy_percent": -3.41
         },
         {
-          "volume_tonnes": 3429.24,
-          "trade_value_eur": 7966495.0,
-          "unit_value_eur_kg": 2.3231,
-          "observation_count": 173,
-          "cn_code_count": 11,
+          "volume_tonnes": 13768.34,
+          "trade_value_eur": 239420235.0,
+          "unit_value_eur_kg": 17.3892,
+          "observation_count": 1041,
+          "cn_code_count": 40,
           "period": "2026-06",
-          "volume_yoy_percent": -42.05,
-          "value_yoy_percent": -31.86
+          "volume_yoy_percent": -11.49,
+          "value_yoy_percent": 6.83
         }
       ]
     }
   },
   "extra_eu_balance": {
     "period": "2026-06",
-    "volume_tonnes": -8607.53,
-    "trade_value_eur": -750826.0,
+    "volume_tonnes": -8868.56,
+    "trade_value_eur": 135707961.0,
     "definition": "Extra-EU exports minus extra-EU imports for the same eligible seed CN scope and completed month."
   },
   "market_context": {
     "status": "FACTUAL_ONLY",
     "causal_explanation_status": "WITHHELD_INSUFFICIENT_EVIDENCE",
-    "text": "Extra-EU seed trade recorded a EUR 750,826 deficit in 2026-06. Verified trade evidence confirms the balance and flow changes, but does not support a specific supply, price or weather explanation."
+    "text": "Extra-EU seed trade balance: EUR 135,707,961 in 2026-06. Scope expanded to verified sowing customs groups. Verified trade evidence confirms the balance and flow changes, but does not support a specific supply, price or weather explanation."
   },
   "peak_activity": {
     "period": "2026-02",
-    "volume_tonnes": 73427.68,
-    "volume_yoy_percent": -9.63,
+    "volume_tonnes": 504549.54,
+    "volume_yoy_percent": 21.27,
     "status": "VERIFIED",
     "definition": "Highest combined eligible volume across EU Internal Trade, EU Imports and EU Exports within the displayed completed-month period."
   },
@@ -578,10 +732,12 @@
       "view": "EU_INTERNAL_TRADE",
       "period": "2026-06",
       "volume_tonnes": 945.82,
-      "volume_yoy_percent": 8.91,
+      "volume_yoy_percent": 8.88,
       "unit_value_eur_kg": 3.1956,
-      "unit_value_yoy_percent": 47.75,
-      "evidence_status": "VERIFIED"
+      "unit_value_yoy_percent": 47.59,
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "field-peas": {
       "view": "EU_INTERNAL_TRADE",
@@ -590,7 +746,9 @@
       "volume_yoy_percent": 71.54,
       "unit_value_eur_kg": 0.7371,
       "unit_value_yoy_percent": -26.35,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "flax-linseed-for-sowing": {
       "view": "EU_INTERNAL_TRADE",
@@ -599,7 +757,9 @@
       "volume_yoy_percent": 16.7,
       "unit_value_eur_kg": 0.9546,
       "unit_value_yoy_percent": -33.68,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "italian-ryegrass": {
       "view": "EU_INTERNAL_TRADE",
@@ -608,7 +768,9 @@
       "volume_yoy_percent": 13.09,
       "unit_value_eur_kg": 1.3436,
       "unit_value_yoy_percent": 2.21,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "kentucky-bluegrass": {
       "view": "EU_INTERNAL_TRADE",
@@ -617,34 +779,20 @@
       "volume_yoy_percent": -32.79,
       "unit_value_eur_kg": 2.7277,
       "unit_value_yoy_percent": -19.91,
-      "evidence_status": "VERIFIED"
-    },
-    "lupins": {
-      "view": "EU_INTERNAL_TRADE",
-      "period": "2026-06",
-      "volume_tonnes": 10839.55,
-      "volume_yoy_percent": 131.57,
-      "unit_value_eur_kg": 0.3201,
-      "unit_value_yoy_percent": -28.76,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "meadow-fescue": {
       "view": "EU_INTERNAL_TRADE",
       "period": "2026-06",
       "volume_tonnes": 122.66,
-      "volume_yoy_percent": 227.36,
+      "volume_yoy_percent": 227.39,
       "unit_value_eur_kg": 2.6249,
       "unit_value_yoy_percent": -16.95,
-      "evidence_status": "VERIFIED"
-    },
-    "mustard-seed-for-sowing": {
-      "view": "EU_INTERNAL_TRADE",
-      "period": "2026-06",
-      "volume_tonnes": 3048.16,
-      "volume_yoy_percent": 39.68,
-      "unit_value_eur_kg": 1.3543,
-      "unit_value_yoy_percent": 0.06,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "perennial-ryegrass": {
       "view": "EU_INTERNAL_TRADE",
@@ -653,7 +801,9 @@
       "volume_yoy_percent": -9.84,
       "unit_value_eur_kg": 1.8894,
       "unit_value_yoy_percent": 9.68,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "red-clover": {
       "view": "EU_INTERNAL_TRADE",
@@ -662,7 +812,9 @@
       "volume_yoy_percent": 17.37,
       "unit_value_eur_kg": 4.8111,
       "unit_value_yoy_percent": 11.07,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     },
     "red-fescue": {
       "view": "EU_INTERNAL_TRADE",
@@ -671,8 +823,540 @@
       "volume_yoy_percent": -26.44,
       "unit_value_eur_kg": 1.5795,
       "unit_value_yoy_percent": 10.09,
-      "evidence_status": "VERIFIED"
+      "evidence_status": "VERIFIED",
+      "customs_scope": "SPECIES_SPECIFIC",
+      "species_allocation": "NONE_FOR_GROUPS"
     }
   },
-  "interpretation": "Trade Activity is a deterministic description of completed-month volume, not a forecast, recommendation or transaction price."
+  "interpretation": "Trade Activity is a deterministic description of completed-month volume, not a forecast, recommendation or transaction price.",
+  "customs_entity_rankings": [
+    {
+      "crop": {
+        "slug": "CN-12092945",
+        "crop": "CN 12092945"
+      },
+      "volume": 2009.18,
+      "value": 2856781.0,
+      "volumeYoy": -12.16,
+      "valueYoy": -25.79,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12099180",
+        "crop": "CN 12099180"
+      },
+      "volume": 2701.41,
+      "value": 162886710.0,
+      "volumeYoy": 49.49,
+      "valueYoy": 30.07,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092980",
+        "crop": "CN 12092980"
+      },
+      "volume": 6168.68,
+      "value": 15939499.0,
+      "volumeYoy": 17.84,
+      "valueYoy": 10.6,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10041000",
+        "crop": "CN 10041000"
+      },
+      "volume": 7030.46,
+      "value": 2386749.0,
+      "volumeYoy": 30.72,
+      "valueYoy": 30.99,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Oats seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12091000",
+        "crop": "CN 12091000"
+      },
+      "volume": 921.32,
+      "value": 17575120.0,
+      "volumeYoy": -31.42,
+      "valueYoy": -44.5,
+      "granularity": "PARTIAL",
+      "definition": "Sugar beet seed, for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092960",
+        "crop": "CN 12092960"
+      },
+      "volume": 16.08,
+      "value": 127105.0,
+      "volumeYoy": -0.78,
+      "valueYoy": 287.61,
+      "granularity": "PARTIAL",
+      "definition": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12099130",
+        "crop": "CN 12099130"
+      },
+      "volume": 27.23,
+      "value": 304542.0,
+      "volumeYoy": 24.97,
+      "valueYoy": 6.7,
+      "granularity": "PARTIAL",
+      "definition": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12075010",
+        "crop": "CN 12075010"
+      },
+      "volume": 3048.16,
+      "value": 4128117.0,
+      "volumeYoy": 39.68,
+      "valueYoy": 39.75,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Mustard seeds for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12051010",
+        "crop": "CN 12051010"
+      },
+      "volume": 10692.47,
+      "value": 40375382.0,
+      "volumeYoy": 45.05,
+      "valueYoy": 19.06,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12079920",
+        "crop": "CN 12079920"
+      },
+      "volume": 1663.39,
+      "value": 4063348.0,
+      "volumeYoy": -10.46,
+      "valueYoy": -2.29,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092380",
+        "crop": "CN 12092380"
+      },
+      "volume": 1067.65,
+      "value": 2237849.0,
+      "volumeYoy": -36.36,
+      "valueYoy": -37.87,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092311",
+        "crop": "CN 12092311"
+      },
+      "volume": 122.66,
+      "value": 321981.0,
+      "volumeYoy": 227.39,
+      "valueYoy": 171.88,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Meadow fescue seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092315",
+        "crop": "CN 12092315"
+      },
+      "volume": 2294.55,
+      "value": 3624235.0,
+      "volumeYoy": -26.44,
+      "valueYoy": -19.02,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Red fescue seed \"Festuca rubra L.\" for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12011000",
+        "crop": "CN 12011000"
+      },
+      "volume": 2549.49,
+      "value": 1867517.0,
+      "volumeYoy": 38.53,
+      "valueYoy": 18.57,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Soya bean seed, for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12060010",
+        "crop": "CN 12060010"
+      },
+      "volume": 2599.54,
+      "value": 13089806.0,
+      "volumeYoy": 2.88,
+      "valueYoy": -26.13,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Sunflower seeds for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10031000",
+        "crop": "CN 10031000"
+      },
+      "volume": 9026.81,
+      "value": 2272920.0,
+      "volumeYoy": -0.4,
+      "valueYoy": -4.88,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Barley seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12040010",
+        "crop": "CN 12040010"
+      },
+      "volume": 1632.84,
+      "value": 1558633.0,
+      "volumeYoy": 16.7,
+      "valueYoy": -22.6,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Linseed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092510",
+        "crop": "CN 12092510"
+      },
+      "volume": 3331.9,
+      "value": 4476635.0,
+      "volumeYoy": 13.09,
+      "valueYoy": 15.58,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092590",
+        "crop": "CN 12092590"
+      },
+      "volume": 5251.56,
+      "value": 9922227.0,
+      "volumeYoy": -9.84,
+      "valueYoy": -1.11,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092950",
+        "crop": "CN 12092950"
+      },
+      "volume": 10839.55,
+      "value": 3470113.0,
+      "volumeYoy": 131.57,
+      "valueYoy": 65.02,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Lupine seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092100",
+        "crop": "CN 12092100"
+      },
+      "volume": 945.82,
+      "value": 3022469.0,
+      "volumeYoy": 8.88,
+      "valueYoy": 60.69,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Alfalfa seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10061010",
+        "crop": "CN 10061010"
+      },
+      "volume": 2934.84,
+      "value": 1412372.0,
+      "volumeYoy": 426.58,
+      "valueYoy": 313.95,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Rice in husk for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10082100",
+        "crop": "CN 10082100"
+      },
+      "volume": 403.22,
+      "value": 200250.0,
+      "volumeYoy": 21.8,
+      "valueYoy": 11.63,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Millet seed for sowing (excl. grain sorghum)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12079110",
+        "crop": "CN 12079110"
+      },
+      "volume": 65.16,
+      "value": 182009.0,
+      "volumeYoy": 155.17,
+      "valueYoy": 162.47,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Poppy seeds for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-07133310",
+        "crop": "CN 07133310"
+      },
+      "volume": 1676.4,
+      "value": 7788047.0,
+      "volumeYoy": -1.62,
+      "valueYoy": -11.08,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-07131010",
+        "crop": "CN 07131010"
+      },
+      "volume": 2610.39,
+      "value": 1923999.0,
+      "volumeYoy": 71.54,
+      "valueYoy": 26.33,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092400",
+        "crop": "CN 12092400"
+      },
+      "volume": 419.87,
+      "value": 1145262.0,
+      "volumeYoy": -32.79,
+      "valueYoy": -46.18,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10021000",
+        "crop": "CN 10021000"
+      },
+      "volume": 8192.45,
+      "value": 2137115.0,
+      "volumeYoy": 9.84,
+      "valueYoy": -22.1,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Rye seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10071010",
+        "crop": "CN 10071010"
+      },
+      "volume": 649.44,
+      "value": 1074011.0,
+      "volumeYoy": -1.72,
+      "valueYoy": -43.24,
+      "granularity": "PARTIAL",
+      "definition": "Hybrid grain sorghum, for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10071090",
+        "crop": "CN 10071090"
+      },
+      "volume": 188.97,
+      "value": 223612.0,
+      "volumeYoy": -65.9,
+      "valueYoy": 10.77,
+      "granularity": "PARTIAL",
+      "definition": "Grain sorghum, for sowing (excl. hybrids)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092280",
+        "crop": "CN 12092280"
+      },
+      "volume": 2203.13,
+      "value": 6311866.0,
+      "volumeYoy": -2.8,
+      "valueYoy": 21.96,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-12092210",
+        "crop": "CN 12092210"
+      },
+      "volume": 434.78,
+      "value": 2091749.0,
+      "volumeYoy": 17.37,
+      "valueYoy": 30.37,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Red clover \"Trifolium pratense L.\" seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10019110",
+        "crop": "CN 10019110"
+      },
+      "volume": 2861.55,
+      "value": 1672188.0,
+      "volumeYoy": 43.24,
+      "valueYoy": 61.7,
+      "granularity": "PARTIAL",
+      "definition": "Spelt seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10019120",
+        "crop": "CN 10019120"
+      },
+      "volume": 61878.78,
+      "value": 13126731.0,
+      "volumeYoy": 55.3,
+      "valueYoy": 20.52,
+      "granularity": "GROUP_LEVEL",
+      "definition": "Seed of common wheat or meslin, for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10011100",
+        "crop": "CN 10011100"
+      },
+      "volume": 12173.98,
+      "value": 3022037.0,
+      "volumeYoy": -5.75,
+      "valueYoy": -14.14,
+      "granularity": "SPECIES_SPECIFIC",
+      "definition": "Durum wheat seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10051013",
+        "crop": "CN 10051013"
+      },
+      "volume": 704.35,
+      "value": 3070995.0,
+      "volumeYoy": -54.21,
+      "valueYoy": -35.54,
+      "granularity": "PARTIAL",
+      "definition": "Three-cross hybrid maize seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10051015",
+        "crop": "CN 10051015"
+      },
+      "volume": 13272.19,
+      "value": 35559173.0,
+      "volumeYoy": 52.73,
+      "valueYoy": -9.57,
+      "granularity": "PARTIAL",
+      "definition": "Simple hybrid maize seed for sowing",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10051018",
+        "crop": "CN 10051018"
+      },
+      "volume": 4469.34,
+      "value": 1556223.0,
+      "volumeYoy": 80.8,
+      "valueYoy": -16.44,
+      "granularity": "PARTIAL",
+      "definition": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-10051090",
+        "crop": "CN 10051090"
+      },
+      "volume": 61812.98,
+      "value": 19215270.0,
+      "volumeYoy": 98.62,
+      "valueYoy": 93.73,
+      "granularity": "PARTIAL",
+      "definition": "Maize seed for sowing (excl. hybrid)",
+      "species_allocation": "NONE"
+    },
+    {
+      "crop": {
+        "slug": "CN-07129011",
+        "crop": "CN 07129011"
+      },
+      "volume": 122.54,
+      "value": 2217681.0,
+      "volumeYoy": -77.11,
+      "valueYoy": 104.59,
+      "granularity": "PARTIAL",
+      "definition": "Dried sweetcorn, hybrid, for sowing",
+      "species_allocation": "NONE"
+    }
+  ],
+  "period_semantics": {
+    "type": "MONTH_ONLY",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "period": "2026-06",
+    "selection": "eu_internal_trade;period==2026-06",
+    "scope": "40 seed-for-sowing CN codes;gross intra-EU exporter dispatches;not a 121-species measured total"
+  }
 }

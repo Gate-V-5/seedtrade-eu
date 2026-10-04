@@ -1,0 +1,3358 @@
+[
+  {
+    "cn8": "07129011",
+    "official_cn_description": "Dried sweetcorn, hybrid, for sowing",
+    "market_entity": "CN-07129011",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "maize",
+        "botanical": "Zea mays"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 122538.0,
+    "volume_tonnes": 122.538,
+    "trade_value_eur": 2217681.0,
+    "observations": 73,
+    "total_volume_share_percent": 0.048817,
+    "total_value_share_percent": 0.553813,
+    "expansion_volume_share_percent": 0.055678,
+    "expansion_value_share_percent": 0.607995,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:NL:FR:07129011:2:2026-06",
+      "reporter": "NL",
+      "partner": "FR",
+      "kg": 35227.0,
+      "eur": 529181.0,
+      "source_file": "NL-07129011.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&product=07129011&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-07129011",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "07131010",
+    "official_cn_description": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+    "market_entity": "CN-07131010",
+    "linked_botanical_species_measured": [
+      {
+        "id": "field-pea",
+        "name": "Field peas",
+        "botanical": "Pisum sativum"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grain-legumes"
+    ],
+    "allocated_category": "grain-legumes",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 2610393.0,
+    "volume_tonnes": 2610.393,
+    "trade_value_eur": 1923999.0,
+    "observations": 135,
+    "total_volume_share_percent": 1.039935,
+    "total_value_share_percent": 0.480473,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:CZ:DE:07131010:2:2026-06",
+      "reporter": "CZ",
+      "partner": "DE",
+      "kg": 482800.0,
+      "eur": 132138.0,
+      "source_file": "CZ-07131010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=CZ&product=07131010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-07131010",
+    "direct_commercial_entity_ids": [
+      "field-pea"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "07133310",
+    "official_cn_description": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+    "market_entity": "CN-07133310",
+    "linked_botanical_species_measured": [
+      {
+        "id": "common-bean",
+        "name": "Common bean",
+        "botanical": "Phaseolus vulgaris"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "vegetable-seeds"
+    ],
+    "allocated_category": "vegetable-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 1676397.0,
+    "volume_tonnes": 1676.397,
+    "trade_value_eur": 7788047.0,
+    "observations": 155,
+    "total_volume_share_percent": 0.667847,
+    "total_value_share_percent": 1.944881,
+    "expansion_volume_share_percent": 0.761711,
+    "expansion_value_share_percent": 2.135157,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:NL:FR:07133310:2:2026-06",
+      "reporter": "NL",
+      "partner": "FR",
+      "kg": 265370.0,
+      "eur": 1816620.0,
+      "source_file": "NL-07133310.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&product=07133310&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-07133310",
+    "direct_commercial_entity_ids": [
+      "common-bean"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10011100",
+    "official_cn_description": "Durum wheat seed for sowing",
+    "market_entity": "CN-10011100",
+    "linked_botanical_species_measured": [
+      {
+        "id": "durum-wheat",
+        "name": "Durum wheat",
+        "botanical": "Triticum turgidum subsp. durum"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 12173984.0,
+    "volume_tonnes": 12173.984,
+    "trade_value_eur": 3022037.0,
+    "observations": 26,
+    "total_volume_share_percent": 4.849901,
+    "total_value_share_percent": 0.754682,
+    "expansion_volume_share_percent": 5.531542,
+    "expansion_value_share_percent": 0.828516,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:BE:10011100:2:2026-06",
+      "reporter": "FR",
+      "partner": "BE",
+      "kg": 3114501.0,
+      "eur": 805712.0,
+      "source_file": "FR-10011100.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=10011100&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-10011100",
+    "direct_commercial_entity_ids": [
+      "durum-wheat"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10019110",
+    "official_cn_description": "Spelt seed for sowing",
+    "market_entity": "CN-10019110",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "common-wheat",
+        "botanical": "Triticum aestivum"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 2861551.0,
+    "volume_tonnes": 2861.551,
+    "trade_value_eur": 1672188.0,
+    "observations": 30,
+    "total_volume_share_percent": 1.139992,
+    "total_value_share_percent": 0.417589,
+    "expansion_volume_share_percent": 1.300214,
+    "expansion_value_share_percent": 0.458444,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE;REPAIR_ATTRIBUTION_BEFORE_RELEASE",
+    "methodological_note": "Biological parent common-wheat mapping is valid as partial infraspecific scope, but the separate approved spelt commercial entity lacks its direct CN link. Re-link to existing spelt (Triticum aestivum subsp. spelta), without taxonomy expansion.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:BE:DE:10019110:2:2026-06",
+      "reporter": "BE",
+      "partner": "DE",
+      "kg": 1704566.0,
+      "eur": 1028835.0,
+      "source_file": "BE-10019110.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=BE&product=10019110&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "spelt",
+    "direct_commercial_entity_ids": [
+      "spelt"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": {
+      "cn8": "10019110",
+      "previous_fail_reason": "Missing direct separate commercial Spelt link; partial biological-parent mapping is valid.",
+      "resolution": "Direct CN-to-existing-commercial-entity link to spelt; retain biological parent common-wheat as PARTIAL_SCOPE. No new species or entity.",
+      "commercial_entity_id": "spelt",
+      "botanical": "Triticum aestivum subsp. spelta",
+      "biological_species": "Triticum aestivum",
+      "status": "RESOLVED_MODEL_ONLY"
+    },
+    "commercial_botanical": "Triticum aestivum subsp. spelta",
+    "biological_parent": "Triticum aestivum",
+    "partial_parent_scope_only": true,
+    "category_reason": null
+  },
+  {
+    "cn8": "10019120",
+    "official_cn_description": "Seed of common wheat or meslin, for sowing",
+    "market_entity": "CN-10019120",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "common-wheat",
+        "botanical": "Triticum aestivum"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 61878779.0,
+    "volume_tonnes": 61878.779,
+    "trade_value_eur": 13126731.0,
+    "observations": 72,
+    "total_volume_share_percent": 24.651417,
+    "total_value_share_percent": 3.278091,
+    "expansion_volume_share_percent": 28.116107,
+    "expansion_value_share_percent": 3.598801,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE;REPAIR_ATTRIBUTION_BEFORE_RELEASE",
+    "methodological_note": "Common wheat OR meslin is a combined customs scope. Never interpret its entire volume as Triticum aestivum alone; relabel GROUP_LEVEL and retain common-wheat only as scope candidate.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:BE:IE:10019120:2:2026-06",
+      "reporter": "BE",
+      "partner": "IE",
+      "kg": 21693804.0,
+      "eur": 4642913.0,
+      "source_file": "BE-10019120.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=BE&product=10019120&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [
+      "NEW_CODE_VOLUME_SHARE_AT_LEAST_25_PERCENT"
+    ],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-10019120",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": {
+      "cn8": "10019120",
+      "previous_fail_reason": "Common wheat or meslin presented as partial common-wheat scope.",
+      "resolution": "GROUP_LEVEL customs entity CN-10019120. Common-wheat is a scope candidate only; no whole-CN common-wheat volume and no constituent allocation.",
+      "commercial_entity_id": "CN-10019120",
+      "botanical": null,
+      "status": "RESOLVED_MODEL_ONLY"
+    },
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10021000",
+    "official_cn_description": "Rye seed for sowing",
+    "market_entity": "CN-10021000",
+    "linked_botanical_species_measured": [
+      {
+        "id": "rye",
+        "name": "Rye",
+        "botanical": "Secale cereale"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 8192448.0,
+    "volume_tonnes": 8192.448,
+    "trade_value_eur": 2137115.0,
+    "observations": 31,
+    "total_volume_share_percent": 3.263727,
+    "total_value_share_percent": 0.533694,
+    "expansion_volume_share_percent": 3.722435,
+    "expansion_value_share_percent": 0.585908,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:PL:DE:10021000:2:2026-06",
+      "reporter": "PL",
+      "partner": "DE",
+      "kg": 5456850.0,
+      "eur": 1011868.0,
+      "source_file": "PL-10021000.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&product=10021000&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-10021000",
+    "direct_commercial_entity_ids": [
+      "rye"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10031000",
+    "official_cn_description": "Barley seed for sowing",
+    "market_entity": "CN-10031000",
+    "linked_botanical_species_measured": [
+      {
+        "id": "barley",
+        "name": "Barley",
+        "botanical": "Hordeum vulgare"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 9026811.0,
+    "volume_tonnes": 9026.811,
+    "trade_value_eur": 2272920.0,
+    "observations": 100,
+    "total_volume_share_percent": 3.596123,
+    "total_value_share_percent": 0.567608,
+    "expansion_volume_share_percent": 4.101548,
+    "expansion_value_share_percent": 0.62314,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:BE:10031000:2:2026-06",
+      "reporter": "FR",
+      "partner": "BE",
+      "kg": 3512431.0,
+      "eur": 692118.0,
+      "source_file": "FR-10031000.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=10031000&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-10031000",
+    "direct_commercial_entity_ids": [
+      "barley"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10041000",
+    "official_cn_description": "Oats seed for sowing",
+    "market_entity": "CN-10041000",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "naked-oat",
+        "botanical": "Avena nuda"
+      },
+      {
+        "id": "oat",
+        "botanical": "Avena sativa"
+      },
+      {
+        "id": "black-oat",
+        "botanical": "Avena strigosa"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 7030460.0,
+    "volume_tonnes": 7030.46,
+    "trade_value_eur": 2386749.0,
+    "observations": 72,
+    "total_volume_share_percent": 2.800812,
+    "total_value_share_percent": 0.596034,
+    "expansion_volume_share_percent": 3.194458,
+    "expansion_value_share_percent": 0.654347,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:PL:NL:10041000:2:2026-06",
+      "reporter": "PL",
+      "partner": "NL",
+      "kg": 2679821.0,
+      "eur": 517398.0,
+      "source_file": "PL-10041000.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&product=10041000&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-10041000",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10051013",
+    "official_cn_description": "Three-cross hybrid maize seed for sowing",
+    "market_entity": "CN-10051013",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "maize",
+        "botanical": "Zea mays"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 704348.0,
+    "volume_tonnes": 704.348,
+    "trade_value_eur": 3070995.0,
+    "observations": 41,
+    "total_volume_share_percent": 0.2806,
+    "total_value_share_percent": 0.766908,
+    "expansion_volume_share_percent": 0.320037,
+    "expansion_value_share_percent": 0.841938,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DE:FR:10051013:2:2026-06",
+      "reporter": "DE",
+      "partner": "FR",
+      "kg": 252402.0,
+      "eur": 872159.0,
+      "source_file": "DE-10051013.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&product=10051013&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-10051013",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10051015",
+    "official_cn_description": "Simple hybrid maize seed for sowing",
+    "market_entity": "CN-10051015",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "maize",
+        "botanical": "Zea mays"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 13272188.0,
+    "volume_tonnes": 13272.188,
+    "trade_value_eur": 35559173.0,
+    "observations": 97,
+    "total_volume_share_percent": 5.287406,
+    "total_value_share_percent": 8.880062,
+    "expansion_volume_share_percent": 6.030537,
+    "expansion_value_share_percent": 9.748839,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:ES:10051015:2:2026-06",
+      "reporter": "FR",
+      "partner": "ES",
+      "kg": 6049213.0,
+      "eur": 1596281.0,
+      "source_file": "FR-10051015.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=10051015&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-10051015",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10051018",
+    "official_cn_description": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+    "market_entity": "CN-10051018",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "maize",
+        "botanical": "Zea mays"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 4469335.0,
+    "volume_tonnes": 4469.335,
+    "trade_value_eur": 1556223.0,
+    "observations": 51,
+    "total_volume_share_percent": 1.780504,
+    "total_value_share_percent": 0.38863,
+    "expansion_volume_share_percent": 2.03075,
+    "expansion_value_share_percent": 0.426651,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:RO:IT:10051018:2:2026-06",
+      "reporter": "RO",
+      "partner": "IT",
+      "kg": 2950209.0,
+      "eur": 590214.0,
+      "source_file": "RO-10051018.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=RO&product=10051018&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-10051018",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10051090",
+    "official_cn_description": "Maize seed for sowing (excl. hybrid)",
+    "market_entity": "CN-10051090",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "maize",
+        "botanical": "Zea mays"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 61812981.0,
+    "volume_tonnes": 61812.981,
+    "trade_value_eur": 19215270.0,
+    "observations": 69,
+    "total_volume_share_percent": 24.625204,
+    "total_value_share_percent": 4.798559,
+    "expansion_volume_share_percent": 28.08621,
+    "expansion_value_share_percent": 5.268024,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:PL:PT:10051090:2:2026-06",
+      "reporter": "PL",
+      "partner": "PT",
+      "kg": 27000000.0,
+      "eur": 6831858.0,
+      "source_file": "PL-10051090.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&product=10051090&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [
+      "NEW_CODE_VOLUME_SHARE_AT_LEAST_25_PERCENT"
+    ],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-10051090",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10061010",
+    "official_cn_description": "Rice in husk for sowing",
+    "market_entity": "CN-10061010",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "rice",
+        "botanical": "Oryza sativa"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 2934844.0,
+    "volume_tonnes": 2934.844,
+    "trade_value_eur": 1412372.0,
+    "observations": 12,
+    "total_volume_share_percent": 1.16919,
+    "total_value_share_percent": 0.352706,
+    "expansion_volume_share_percent": 1.333517,
+    "expansion_value_share_percent": 0.387213,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:ES:PT:10061010:2:2026-06",
+      "reporter": "ES",
+      "partner": "PT",
+      "kg": 2516460.0,
+      "eur": 791203.0,
+      "source_file": "ES-10061010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=ES&product=10061010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-10061010",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10071010",
+    "official_cn_description": "Hybrid grain sorghum, for sowing",
+    "market_entity": "CN-10071010",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "sorghum",
+        "botanical": "Sorghum bicolor"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 649436.0,
+    "volume_tonnes": 649.436,
+    "trade_value_eur": 1074011.0,
+    "observations": 26,
+    "total_volume_share_percent": 0.258724,
+    "total_value_share_percent": 0.268209,
+    "expansion_volume_share_percent": 0.295087,
+    "expansion_value_share_percent": 0.294449,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:BE:10071010:2:2026-06",
+      "reporter": "FR",
+      "partner": "BE",
+      "kg": 265054.0,
+      "eur": 56747.0,
+      "source_file": "FR-10071010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=10071010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-10071010",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10071090",
+    "official_cn_description": "Grain sorghum, for sowing (excl. hybrids)",
+    "market_entity": "CN-10071090",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "sorghum",
+        "botanical": "Sorghum bicolor"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 188968.0,
+    "volume_tonnes": 188.968,
+    "trade_value_eur": 223612.0,
+    "observations": 39,
+    "total_volume_share_percent": 0.075282,
+    "total_value_share_percent": 0.055842,
+    "expansion_volume_share_percent": 0.085862,
+    "expansion_value_share_percent": 0.061305,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:ES:10071090:2:2026-06",
+      "reporter": "FR",
+      "partner": "ES",
+      "kg": 50980.0,
+      "eur": 9676.0,
+      "source_file": "FR-10071090.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=10071090&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-10071090",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "10082100",
+    "official_cn_description": "Millet seed for sowing (excl. grain sorghum)",
+    "market_entity": "CN-10082100",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "proso-millet",
+        "botanical": "Panicum miliaceum"
+      },
+      {
+        "id": "foxtail-millet",
+        "botanical": "Setaria italica"
+      }
+    ],
+    "canonical_categories": [
+      "cereals-pseudocereals"
+    ],
+    "allocated_category": "cereals-pseudocereals",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 403216.0,
+    "volume_tonnes": 403.216,
+    "trade_value_eur": 200250.0,
+    "observations": 49,
+    "total_volume_share_percent": 0.160634,
+    "total_value_share_percent": 0.050008,
+    "expansion_volume_share_percent": 0.183211,
+    "expansion_value_share_percent": 0.0549,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:NL:10082100:2:2026-06",
+      "reporter": "FR",
+      "partner": "NL",
+      "kg": 161760.0,
+      "eur": 44466.0,
+      "source_file": "FR-10082100.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=10082100&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-10082100",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12011000",
+    "official_cn_description": "Soya bean seed, for sowing",
+    "market_entity": "CN-12011000",
+    "linked_botanical_species_measured": [
+      {
+        "id": "soybean",
+        "name": "Soybeans",
+        "botanical": "Glycine max"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grain-legumes"
+    ],
+    "allocated_category": "grain-legumes",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 2549495.0,
+    "volume_tonnes": 2549.495,
+    "trade_value_eur": 1867517.0,
+    "observations": 61,
+    "total_volume_share_percent": 1.015674,
+    "total_value_share_percent": 0.466368,
+    "expansion_volume_share_percent": 1.158424,
+    "expansion_value_share_percent": 0.511995,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:NL:DE:12011000:2:2026-06",
+      "reporter": "NL",
+      "partner": "DE",
+      "kg": 652784.0,
+      "eur": 112257.0,
+      "source_file": "NL-12011000.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&product=12011000&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12011000",
+    "direct_commercial_entity_ids": [
+      "soybean"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12040010",
+    "official_cn_description": "Linseed for sowing",
+    "market_entity": "CN-12040010",
+    "linked_botanical_species_measured": [
+      {
+        "id": "flax",
+        "name": "Flax",
+        "botanical": "Linum usitatissimum"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "oil-fibre-seeds"
+    ],
+    "allocated_category": "oil-fibre-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 1632835.0,
+    "volume_tonnes": 1632.835,
+    "trade_value_eur": 1558633.0,
+    "observations": 34,
+    "total_volume_share_percent": 0.650493,
+    "total_value_share_percent": 0.389232,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:PL:DE:12040010:2:2026-06",
+      "reporter": "PL",
+      "partner": "DE",
+      "kg": 993820.0,
+      "eur": 630718.0,
+      "source_file": "PL-12040010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&product=12040010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12040010",
+    "direct_commercial_entity_ids": [
+      "flax"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12051010",
+    "official_cn_description": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+    "market_entity": "CN-12051010",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "rapeseed",
+        "botanical": "Brassica napus"
+      },
+      {
+        "id": "turnip-rape",
+        "botanical": "Brassica rapa"
+      }
+    ],
+    "canonical_categories": [
+      "oil-fibre-seeds"
+    ],
+    "allocated_category": "oil-fibre-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 10692473.0,
+    "volume_tonnes": 10692.473,
+    "trade_value_eur": 40375382.0,
+    "observations": 88,
+    "total_volume_share_percent": 4.259693,
+    "total_value_share_percent": 10.082797,
+    "expansion_volume_share_percent": 4.858381,
+    "expansion_value_share_percent": 11.069242,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:EE:FI:12051010:2:2026-06",
+      "reporter": "EE",
+      "partner": "FI",
+      "kg": 3074260.0,
+      "eur": 1684368.0,
+      "source_file": "EE-12051010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=EE&product=12051010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12051010",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12060010",
+    "official_cn_description": "Sunflower seeds for sowing",
+    "market_entity": "CN-12060010",
+    "linked_botanical_species_measured": [
+      {
+        "id": "sunflower",
+        "name": "Sunflower",
+        "botanical": "Helianthus annuus"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "oil-fibre-seeds"
+    ],
+    "allocated_category": "oil-fibre-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 2599542.0,
+    "volume_tonnes": 2599.542,
+    "trade_value_eur": 13089806.0,
+    "observations": 156,
+    "total_volume_share_percent": 1.035612,
+    "total_value_share_percent": 3.268869,
+    "expansion_volume_share_percent": 1.181164,
+    "expansion_value_share_percent": 3.588678,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:CZ:DE:12060010:2:2026-06",
+      "reporter": "CZ",
+      "partner": "DE",
+      "kg": 621650.0,
+      "eur": 338371.0,
+      "source_file": "CZ-12060010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=CZ&product=12060010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12060010",
+    "direct_commercial_entity_ids": [
+      "sunflower"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12075010",
+    "official_cn_description": "Mustard seeds for sowing",
+    "market_entity": "CN-12075010",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "brown-mustard",
+        "botanical": "Brassica juncea"
+      },
+      {
+        "id": "black-mustard",
+        "botanical": "Brassica nigra"
+      },
+      {
+        "id": "white-mustard",
+        "botanical": "Sinapis alba"
+      }
+    ],
+    "canonical_categories": [
+      "brassica-seeds"
+    ],
+    "allocated_category": "brassica-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 3048162.0,
+    "volume_tonnes": 3048.162,
+    "trade_value_eur": 4128117.0,
+    "observations": 92,
+    "total_volume_share_percent": 1.214334,
+    "total_value_share_percent": 1.0309,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:CZ:DE:12075010:2:2026-06",
+      "reporter": "CZ",
+      "partner": "DE",
+      "kg": 949234.0,
+      "eur": 1065036.0,
+      "source_file": "CZ-12075010.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=CZ&product=12075010&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12075010",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12079110",
+    "official_cn_description": "Poppy seeds for sowing",
+    "market_entity": "CN-12079110",
+    "linked_botanical_species_measured": [
+      {
+        "id": "poppy",
+        "name": "Opium / seed poppy",
+        "botanical": "Papaver somniferum"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "oil-fibre-seeds"
+    ],
+    "allocated_category": "oil-fibre-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 65160.0,
+    "volume_tonnes": 65.16,
+    "trade_value_eur": 182009.0,
+    "observations": 53,
+    "total_volume_share_percent": 0.025959,
+    "total_value_share_percent": 0.045452,
+    "expansion_volume_share_percent": 0.029607,
+    "expansion_value_share_percent": 0.049899,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:SK:CZ:12079110:2:2026-06",
+      "reporter": "SK",
+      "partner": "CZ",
+      "kg": 32270.0,
+      "eur": 53341.0,
+      "source_file": "SK-12079110.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=SK&product=12079110&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12079110",
+    "direct_commercial_entity_ids": [
+      "poppy"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12079920",
+    "official_cn_description": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+    "market_entity": "CN-12079920",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "camelina",
+        "botanical": "Camelina sativa"
+      },
+      {
+        "id": "hemp",
+        "botanical": "Cannabis sativa"
+      },
+      {
+        "id": "niger",
+        "botanical": "Guizotia abyssinica"
+      }
+    ],
+    "canonical_categories": [
+      "oil-fibre-seeds"
+    ],
+    "allocated_category": "oil-fibre-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 1663394.0,
+    "volume_tonnes": 1663.394,
+    "trade_value_eur": 4063348.0,
+    "observations": 127,
+    "total_volume_share_percent": 0.662667,
+    "total_value_share_percent": 1.014725,
+    "expansion_volume_share_percent": 0.755803,
+    "expansion_value_share_percent": 1.114,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DE:DK:12079920:2:2026-06",
+      "reporter": "DE",
+      "partner": "DK",
+      "kg": 286775.0,
+      "eur": 633469.0,
+      "source_file": "DE-12079920.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&product=12079920&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12079920",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12091000",
+    "official_cn_description": "Sugar beet seed, for sowing",
+    "market_entity": "CN-12091000",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "beet-chard",
+        "botanical": "Beta vulgaris"
+      }
+    ],
+    "canonical_categories": [
+      "vegetable-seeds"
+    ],
+    "allocated_category": null,
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 921317.0,
+    "volume_tonnes": 921.317,
+    "trade_value_eur": 17575120.0,
+    "observations": 51,
+    "total_volume_share_percent": 0.367036,
+    "total_value_share_percent": 4.38897,
+    "expansion_volume_share_percent": 0.418622,
+    "expansion_value_share_percent": 4.818363,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE;REPAIR_ATTRIBUTION_BEFORE_RELEASE",
+    "methodological_note": "Sugar-beet seed is a crop-type subset of Beta vulgaris. Whole sugar-beet trade must not automatically become vegetable-category trade merely through a beet/chard canonical label. Category allocation withheld pending explicit commercial-scope decision.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:BE:DE:12091000:2:2026-06",
+      "reporter": "BE",
+      "partner": "DE",
+      "kg": 215812.0,
+      "eur": 1312552.0,
+      "source_file": "BE-12091000.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=BE&product=12091000&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-12091000",
+    "direct_commercial_entity_ids": [],
+    "category_status": "UNALLOCATED_COMMERCIAL_SCOPE",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": {
+      "cn8": "12091000",
+      "previous_fail_reason": "Sugar-beet crop type inherited vegetable category from Beta vulgaris biological link.",
+      "resolution": "Keep sugar-beet customs crop-type evidence at CN-12091000 with Beta vulgaris PARTIAL_SCOPE; category UNALLOCATED_COMMERCIAL_SCOPE. Do not invent an eleventh category or pretend vegetable usage.",
+      "commercial_entity_id": "CN-12091000",
+      "botanical": "Beta vulgaris",
+      "status": "RESOLVED_BY_WITHHOLDING_CATEGORY"
+    },
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": "Cross-category customs group or commercial beet crop type does not safely resolve to one approved primary category. Keep in headline and explicit unallocated category reconciliation bucket."
+  },
+  {
+    "cn8": "12092100",
+    "official_cn_description": "Alfalfa seed for sowing",
+    "market_entity": "CN-12092100",
+    "linked_botanical_species_measured": [
+      {
+        "id": "alfalfa",
+        "name": "Alfalfa / lucerne",
+        "botanical": "Medicago sativa"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "forage-legumes"
+    ],
+    "allocated_category": "forage-legumes",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 945816.0,
+    "volume_tonnes": 945.816,
+    "trade_value_eur": 3022469.0,
+    "observations": 106,
+    "total_volume_share_percent": 0.376796,
+    "total_value_share_percent": 0.75479,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:ES:PT:12092100:2:2026-06",
+      "reporter": "ES",
+      "partner": "PT",
+      "kg": 184326.0,
+      "eur": 51897.0,
+      "source_file": "ES-12092100.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=ES&product=12092100&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092100",
+    "direct_commercial_entity_ids": [
+      "alfalfa"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092210",
+    "official_cn_description": "Red clover \"Trifolium pratense L.\" seed for sowing",
+    "market_entity": "CN-12092210",
+    "linked_botanical_species_measured": [
+      {
+        "id": "red-clover",
+        "name": "Red clover",
+        "botanical": "Trifolium pratense"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "forage-legumes"
+    ],
+    "allocated_category": "forage-legumes",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 434780.0,
+    "volume_tonnes": 434.78,
+    "trade_value_eur": 2091749.0,
+    "observations": 58,
+    "total_volume_share_percent": 0.173209,
+    "total_value_share_percent": 0.522365,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:PL:DE:12092210:2:2026-06",
+      "reporter": "PL",
+      "partner": "DE",
+      "kg": 70315.0,
+      "eur": 372367.0,
+      "source_file": "PL-12092210.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=PL&product=12092210&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092210",
+    "direct_commercial_entity_ids": [
+      "red-clover"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092280",
+    "official_cn_description": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+    "market_entity": "CN-12092280",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "berseem-clover",
+        "botanical": "Trifolium alexandrinum"
+      },
+      {
+        "id": "glandular-clover",
+        "botanical": "Trifolium glanduliferum"
+      },
+      {
+        "id": "rose-clover",
+        "botanical": "Trifolium hirtum"
+      },
+      {
+        "id": "alsike-clover",
+        "botanical": "Trifolium hybridum"
+      },
+      {
+        "id": "crimson-clover",
+        "botanical": "Trifolium incarnatum"
+      },
+      {
+        "id": "trifolium-isthmocarpum",
+        "botanical": "Trifolium isthmocarpum"
+      },
+      {
+        "id": "balansa-clover",
+        "botanical": "Trifolium michelianum"
+      },
+      {
+        "id": "white-clover",
+        "botanical": "Trifolium repens"
+      },
+      {
+        "id": "persian-clover",
+        "botanical": "Trifolium resupinatum"
+      },
+      {
+        "id": "trifolium-squarrosum",
+        "botanical": "Trifolium squarrosum"
+      },
+      {
+        "id": "subterranean-clover",
+        "botanical": "Trifolium subterraneum"
+      },
+      {
+        "id": "arrowleaf-clover",
+        "botanical": "Trifolium vesiculosum"
+      }
+    ],
+    "canonical_categories": [
+      "forage-legumes"
+    ],
+    "allocated_category": "forage-legumes",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 2203134.0,
+    "volume_tonnes": 2203.134,
+    "trade_value_eur": 6311866.0,
+    "observations": 108,
+    "total_volume_share_percent": 0.87769,
+    "total_value_share_percent": 1.576239,
+    "expansion_volume_share_percent": 1.001047,
+    "expansion_value_share_percent": 1.73045,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:IT:FR:12092280:2:2026-06",
+      "reporter": "IT",
+      "partner": "FR",
+      "kg": 371283.0,
+      "eur": 1016647.0,
+      "source_file": "IT-12092280.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=IT&product=12092280&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12092280",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092311",
+    "official_cn_description": "Meadow fescue seed for sowing",
+    "market_entity": "CN-12092311",
+    "linked_botanical_species_measured": [
+      {
+        "id": "meadow-fescue",
+        "name": "Meadow fescue",
+        "botanical": "Festuca pratensis"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grass-seeds"
+    ],
+    "allocated_category": "grass-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 122662.0,
+    "volume_tonnes": 122.662,
+    "trade_value_eur": 321981.0,
+    "observations": 21,
+    "total_volume_share_percent": 0.048866,
+    "total_value_share_percent": 0.080407,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DK:DE:12092311:2:2026-06",
+      "reporter": "DK",
+      "partner": "DE",
+      "kg": 24570.0,
+      "eur": 53527.0,
+      "source_file": "DK-12092311.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DK&product=12092311&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092311",
+    "direct_commercial_entity_ids": [
+      "meadow-fescue"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092315",
+    "official_cn_description": "Red fescue seed \"Festuca rubra L.\" for sowing",
+    "market_entity": "CN-12092315",
+    "linked_botanical_species_measured": [
+      {
+        "id": "red-fescue",
+        "name": "Red fescue",
+        "botanical": "Festuca rubra"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grass-seeds"
+    ],
+    "allocated_category": "grass-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 2294546.0,
+    "volume_tonnes": 2294.546,
+    "trade_value_eur": 3624235.0,
+    "observations": 57,
+    "total_volume_share_percent": 0.914107,
+    "total_value_share_percent": 0.905067,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DK:DE:12092315:2:2026-06",
+      "reporter": "DK",
+      "partner": "DE",
+      "kg": 680680.0,
+      "eur": 976895.0,
+      "source_file": "DK-12092315.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DK&product=12092315&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092315",
+    "direct_commercial_entity_ids": [
+      "red-fescue"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092380",
+    "official_cn_description": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+    "market_entity": "CN-12092380",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "tall-fescue",
+        "botanical": "Festuca arundinacea"
+      }
+    ],
+    "canonical_categories": [
+      "grass-seeds"
+    ],
+    "allocated_category": "grass-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 1067647.0,
+    "volume_tonnes": 1067.647,
+    "trade_value_eur": 2237849.0,
+    "observations": 91,
+    "total_volume_share_percent": 0.425332,
+    "total_value_share_percent": 0.55885,
+    "expansion_volume_share_percent": 0.485111,
+    "expansion_value_share_percent": 0.613525,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DK:NL:12092380:2:2026-06",
+      "reporter": "DK",
+      "partner": "NL",
+      "kg": 151192.0,
+      "eur": 314100.0,
+      "source_file": "DK-12092380.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DK&product=12092380&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12092380",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092400",
+    "official_cn_description": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+    "market_entity": "CN-12092400",
+    "linked_botanical_species_measured": [
+      {
+        "id": "kentucky-bluegrass",
+        "name": "Kentucky bluegrass",
+        "botanical": "Poa pratensis"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grass-seeds"
+    ],
+    "allocated_category": "grass-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 419871.0,
+    "volume_tonnes": 419.871,
+    "trade_value_eur": 1145262.0,
+    "observations": 29,
+    "total_volume_share_percent": 0.167269,
+    "total_value_share_percent": 0.286002,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DK:DE:12092400:2:2026-06",
+      "reporter": "DK",
+      "partner": "DE",
+      "kg": 236324.0,
+      "eur": 709690.0,
+      "source_file": "DK-12092400.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DK&product=12092400&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092400",
+    "direct_commercial_entity_ids": [
+      "kentucky-bluegrass"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092510",
+    "official_cn_description": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+    "market_entity": "CN-12092510",
+    "linked_botanical_species_measured": [
+      {
+        "id": "italian-ryegrass",
+        "name": "Italian ryegrass",
+        "botanical": "Lolium multiflorum"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grass-seeds"
+    ],
+    "allocated_category": "grass-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 3331899.0,
+    "volume_tonnes": 3331.899,
+    "trade_value_eur": 4476635.0,
+    "observations": 73,
+    "total_volume_share_percent": 1.32737,
+    "total_value_share_percent": 1.117934,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:NL:DE:12092510:2:2026-06",
+      "reporter": "NL",
+      "partner": "DE",
+      "kg": 336801.0,
+      "eur": 257009.0,
+      "source_file": "NL-12092510.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&product=12092510&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092510",
+    "direct_commercial_entity_ids": [
+      "italian-ryegrass"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092590",
+    "official_cn_description": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+    "market_entity": "CN-12092590",
+    "linked_botanical_species_measured": [
+      {
+        "id": "perennial-ryegrass",
+        "name": "Perennial ryegrass",
+        "botanical": "Lolium perenne"
+      }
+    ],
+    "linked_scope_candidates_only": [],
+    "canonical_categories": [
+      "grass-seeds"
+    ],
+    "allocated_category": "grass-seeds",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "SPECIES_SPECIFIC",
+    "audited_granularity": "SPECIES_SPECIFIC",
+    "volume_kg": 5251559.0,
+    "volume_tonnes": 5251.559,
+    "trade_value_eur": 9922227.0,
+    "observations": 153,
+    "total_volume_share_percent": 2.092129,
+    "total_value_share_percent": 2.477841,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Sowing use and single botanical scope confirmed.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DK:DE:12092590:2:2026-06",
+      "reporter": "DK",
+      "partner": "DE",
+      "kg": 1670842.0,
+      "eur": 3125410.0,
+      "source_file": "DK-12092590.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DK&product=12092590&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "SPECIES_SPECIFIC",
+    "precision": "SPECIES_SPECIFIC",
+    "measurement_entity_id": "CN-12092590",
+    "direct_commercial_entity_ids": [
+      "perennial-ryegrass"
+    ],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092945",
+    "official_cn_description": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+    "market_entity": "CN-12092945",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "browntop",
+        "botanical": "Agrostis capillaris"
+      },
+      {
+        "id": "cocksfoot",
+        "botanical": "Dactylis glomerata"
+      },
+      {
+        "id": "timothy",
+        "botanical": "Phleum pratense"
+      },
+      {
+        "id": "purple-vetch",
+        "botanical": "Vicia benghalensis"
+      },
+      {
+        "id": "bitter-vetch",
+        "botanical": "Vicia ervilia"
+      },
+      {
+        "id": "hungarian-vetch",
+        "botanical": "Vicia pannonica"
+      },
+      {
+        "id": "common-vetch",
+        "botanical": "Vicia sativa"
+      },
+      {
+        "id": "winter-vetch",
+        "botanical": "Vicia villosa Roth"
+      }
+    ],
+    "canonical_categories": [
+      "forage-legumes",
+      "grain-legumes",
+      "grass-seeds"
+    ],
+    "allocated_category": null,
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 2009184.0,
+    "volume_tonnes": 2009.184,
+    "trade_value_eur": 2856781.0,
+    "observations": 104,
+    "total_volume_share_percent": 0.800424,
+    "total_value_share_percent": 0.713413,
+    "expansion_volume_share_percent": 0.912921,
+    "expansion_value_share_percent": 0.78321,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:NL:DE:12092945:2:2026-06",
+      "reporter": "NL",
+      "partner": "DE",
+      "kg": 230369.0,
+      "eur": 309744.0,
+      "source_file": "NL-12092945.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=NL&product=12092945&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12092945",
+    "direct_commercial_entity_ids": [],
+    "category_status": "UNALLOCATED_COMMERCIAL_SCOPE",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": "Cross-category customs group or commercial beet crop type does not safely resolve to one approved primary category. Keep in headline and explicit unallocated category reconciliation bucket."
+  },
+  {
+    "cn8": "12092950",
+    "official_cn_description": "Lupine seed for sowing",
+    "market_entity": "CN-12092950",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "white-lupin",
+        "botanical": "Lupinus albus"
+      },
+      {
+        "id": "narrow-leaved-lupin",
+        "botanical": "Lupinus angustifolius"
+      },
+      {
+        "id": "yellow-lupin",
+        "botanical": "Lupinus luteus"
+      }
+    ],
+    "canonical_categories": [
+      "grain-legumes"
+    ],
+    "allocated_category": "grain-legumes",
+    "baseline_status": "OLD_BASELINE_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 10839551.0,
+    "volume_tonnes": 10839.551,
+    "trade_value_eur": 3470113.0,
+    "observations": 63,
+    "total_volume_share_percent": 4.318286,
+    "total_value_share_percent": 0.866579,
+    "expansion_volume_share_percent": null,
+    "expansion_value_share_percent": null,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:BE:NL:12092950:2:2026-06",
+      "reporter": "BE",
+      "partner": "NL",
+      "kg": 7480105.0,
+      "eur": 2134814.0,
+      "source_file": "BE-12092950.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=BE&product=12092950&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12092950",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12092960",
+    "official_cn_description": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+    "market_entity": "CN-12092960",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "beet-chard",
+        "botanical": "Beta vulgaris"
+      }
+    ],
+    "canonical_categories": [
+      "vegetable-seeds"
+    ],
+    "allocated_category": null,
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 16079.0,
+    "volume_tonnes": 16.079,
+    "trade_value_eur": 127105.0,
+    "observations": 18,
+    "total_volume_share_percent": 0.006406,
+    "total_value_share_percent": 0.031741,
+    "expansion_volume_share_percent": 0.007306,
+    "expansion_value_share_percent": 0.034847,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE;REPAIR_ATTRIBUTION_BEFORE_RELEASE",
+    "methodological_note": "Fodder-beet seed is a crop-type subset of Beta vulgaris. Whole fodder-beet trade must not automatically become vegetable-category trade. Category allocation withheld pending explicit commercial-scope decision.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DE:NL:12092960:2:2026-06",
+      "reporter": "DE",
+      "partner": "NL",
+      "kg": 12777.0,
+      "eur": 107470.0,
+      "source_file": "DE-12092960.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DE&product=12092960&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-12092960",
+    "direct_commercial_entity_ids": [],
+    "category_status": "UNALLOCATED_COMMERCIAL_SCOPE",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": {
+      "cn8": "12092960",
+      "previous_fail_reason": "Fodder-beet crop type inherited vegetable category from Beta vulgaris biological link.",
+      "resolution": "Keep fodder-beet customs crop-type evidence at CN-12092960 with Beta vulgaris PARTIAL_SCOPE; category UNALLOCATED_COMMERCIAL_SCOPE. Original botanical terminology retained; no forced vegetable allocation.",
+      "commercial_entity_id": "CN-12092960",
+      "botanical": "Beta vulgaris",
+      "source_botanical": "Beta vulgaris var. alba",
+      "status": "RESOLVED_BY_WITHHOLDING_CATEGORY"
+    },
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": "Cross-category customs group or commercial beet crop type does not safely resolve to one approved primary category. Keep in headline and explicit unallocated category reconciliation bucket."
+  },
+  {
+    "cn8": "12092980",
+    "official_cn_description": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+    "market_entity": "CN-12092980",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "meadow-foxtail",
+        "botanical": "Alopecurus pratensis"
+      },
+      {
+        "id": "tall-oatgrass",
+        "botanical": "Arrhenatherum elatius"
+      },
+      {
+        "id": "biserrula",
+        "botanical": "Biserrula pelecinus"
+      },
+      {
+        "id": "fodder-galega",
+        "botanical": "Galega orientalis"
+      },
+      {
+        "id": "red-pea",
+        "botanical": "Lathyrus cicera"
+      },
+      {
+        "id": "birdsfoot-trefoil",
+        "botanical": "Lotus corniculatus"
+      },
+      {
+        "id": "black-medick",
+        "botanical": "Medicago lupulina"
+      },
+      {
+        "id": "bur-medick",
+        "botanical": "Medicago polymorpha"
+      },
+      {
+        "id": "white-sweetclover",
+        "botanical": "Melilotus albus"
+      },
+      {
+        "id": "yellow-sweetclover",
+        "botanical": "Melilotus officinalis"
+      },
+      {
+        "id": "sainfoin",
+        "botanical": "Onobrychis viciifolia"
+      },
+      {
+        "id": "yellow-serradella",
+        "botanical": "Ornithopus compressus"
+      },
+      {
+        "id": "serradella",
+        "botanical": "Ornithopus sativus"
+      },
+      {
+        "id": "ribwort-plantain",
+        "botanical": "Plantago lanceolata"
+      },
+      {
+        "id": "wood-meadowgrass",
+        "botanical": "Poa nemoralis"
+      },
+      {
+        "id": "golden-oatgrass",
+        "botanical": "Trisetum flavescens"
+      }
+    ],
+    "canonical_categories": [
+      "forage-legumes",
+      "grain-legumes",
+      "grass-seeds",
+      "herbs-specialty"
+    ],
+    "allocated_category": null,
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 6168684.0,
+    "volume_tonnes": 6168.684,
+    "trade_value_eur": 15939499.0,
+    "observations": 209,
+    "total_volume_share_percent": 2.457495,
+    "total_value_share_percent": 3.980513,
+    "expansion_volume_share_percent": 2.802889,
+    "expansion_value_share_percent": 4.369944,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:IT:FR:12092980:2:2026-06",
+      "reporter": "IT",
+      "partner": "FR",
+      "kg": 431979.0,
+      "eur": 894129.0,
+      "source_file": "IT-12092980.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=IT&product=12092980&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12092980",
+    "direct_commercial_entity_ids": [],
+    "category_status": "UNALLOCATED_COMMERCIAL_SCOPE",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": "Cross-category customs group or commercial beet crop type does not safely resolve to one approved primary category. Keep in headline and explicit unallocated category reconciliation bucket."
+  },
+  {
+    "cn8": "12099130",
+    "official_cn_description": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+    "market_entity": "CN-12099130",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "beet-chard",
+        "botanical": "Beta vulgaris"
+      }
+    ],
+    "canonical_categories": [
+      "vegetable-seeds"
+    ],
+    "allocated_category": "vegetable-seeds",
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "PARTIAL",
+    "audited_granularity": "PARTIAL",
+    "volume_kg": 27228.0,
+    "volume_tonnes": 27.228,
+    "trade_value_eur": 304542.0,
+    "observations": 122,
+    "total_volume_share_percent": 0.010847,
+    "total_value_share_percent": 0.076052,
+    "expansion_volume_share_percent": 0.012372,
+    "expansion_value_share_percent": 0.083493,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Partial botanical/crop-type scope is not full species coverage.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:FR:IT:12099130:2:2026-06",
+      "reporter": "FR",
+      "partner": "IT",
+      "kg": 11902.0,
+      "eur": 101809.0,
+      "source_file": "FR-12099130.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&product=12099130&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "PARTIAL",
+    "precision": "MARKET_ENTITY_SPECIFIC",
+    "measurement_entity_id": "CN-12099130",
+    "direct_commercial_entity_ids": [],
+    "category_status": "ALLOCATED_CN_CATEGORY",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": null
+  },
+  {
+    "cn8": "12099180",
+    "official_cn_description": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+    "market_entity": "CN-12099180",
+    "linked_botanical_species_measured": [],
+    "linked_scope_candidates_only": [
+      {
+        "id": "onion",
+        "botanical": "Allium cepa"
+      },
+      {
+        "id": "bunching-onion",
+        "botanical": "Allium fistulosum"
+      },
+      {
+        "id": "leek",
+        "botanical": "Allium porrum"
+      },
+      {
+        "id": "chives",
+        "botanical": "Allium schoenoprasum"
+      },
+      {
+        "id": "chervil",
+        "botanical": "Anthriscus cerefolium"
+      },
+      {
+        "id": "celery",
+        "botanical": "Apium graveolens"
+      },
+      {
+        "id": "asparagus",
+        "botanical": "Asparagus officinalis"
+      },
+      {
+        "id": "cabbage",
+        "botanical": "Brassica oleracea"
+      },
+      {
+        "id": "pepper",
+        "botanical": "Capsicum annuum"
+      },
+      {
+        "id": "endive",
+        "botanical": "Cichorium endivia"
+      },
+      {
+        "id": "chicory",
+        "botanical": "Cichorium intybus"
+      },
+      {
+        "id": "cucumber",
+        "botanical": "Cucumis sativus"
+      },
+      {
+        "id": "artichoke",
+        "botanical": "Cynara cardunculus"
+      },
+      {
+        "id": "carrot",
+        "botanical": "Daucus carota"
+      },
+      {
+        "id": "lettuce",
+        "botanical": "Lactuca sativa"
+      },
+      {
+        "id": "garden-cress",
+        "botanical": "Lepidium sativum"
+      },
+      {
+        "id": "parsley",
+        "botanical": "Petroselinum crispum"
+      },
+      {
+        "id": "cultivated-radish",
+        "botanical": "Raphanus raphanistrum subsp. sativus"
+      },
+      {
+        "id": "rhubarb",
+        "botanical": "Rheum rhabarbarum"
+      },
+      {
+        "id": "black-salsify",
+        "botanical": "Scorzonera hispanica"
+      },
+      {
+        "id": "tomato",
+        "botanical": "Solanum lycopersicum"
+      },
+      {
+        "id": "aubergine",
+        "botanical": "Solanum melongena"
+      },
+      {
+        "id": "spinach",
+        "botanical": "Spinacia oleracea"
+      },
+      {
+        "id": "lambs-lettuce",
+        "botanical": "Valerianella locusta"
+      }
+    ],
+    "canonical_categories": [
+      "brassica-seeds",
+      "vegetable-seeds"
+    ],
+    "allocated_category": null,
+    "baseline_status": "NEW_CN",
+    "sowing_specificity": "CONFIRMED_SOWING_SPECIFIC",
+    "sowing_use_confirmed": true,
+    "original_granularity": "GROUP_LEVEL",
+    "audited_granularity": "GROUP_LEVEL",
+    "volume_kg": 2701406.0,
+    "volume_tonnes": 2701.406,
+    "trade_value_eur": 162886710.0,
+    "observations": 294,
+    "total_volume_share_percent": 1.076193,
+    "total_value_share_percent": 40.677103,
+    "expansion_volume_share_percent": 1.227449,
+    "expansion_value_share_percent": 44.656727,
+    "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance",
+    "source_period": "2026-06",
+    "flow": "EXPORTER_DISPATCH_INTRA_EU_ONLY",
+    "public_safe": true,
+    "inclusion_recommendation": "INCLUDE_HEADLINE_SOWING_SCOPE",
+    "methodological_note": "Group trade is not allocated to constituent species.",
+    "source_evidence": {
+      "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+      "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+      "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+    },
+    "dominant_country_grain": {
+      "identity": "COMEXT:M:DK:DE:12099180:2:2026-06",
+      "reporter": "DK",
+      "partner": "DE",
+      "kg": 500084.0,
+      "eur": 5994009.0,
+      "source_file": "DK-12099180.json",
+      "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=DK&product=12099180&sinceTimePeriod=2024-01&untilTimePeriod=2026-06"
+    },
+    "concentration_flags": [
+      "NEW_CODE_VALUE_SHARE_AT_LEAST_25_PERCENT"
+    ],
+    "classification": "CORE_SEED_TRADE",
+    "classification_reason": "Explicit seed-for-sowing customs scope is safe in a CN-defined headline. Botanical precision is a separate dimension and is disclosed; no species completeness claim.",
+    "botanical_precision": "GROUP_LEVEL",
+    "precision": "GROUP_LEVEL",
+    "measurement_entity_id": "CN-12099180",
+    "direct_commercial_entity_ids": [],
+    "category_status": "UNALLOCATED_COMMERCIAL_SCOPE",
+    "species_volume_allocation": "NONE_FOR_GROUPS",
+    "provenance": {
+      "original_audit": "CN_AUDIT_40.json",
+      "original_audit_version": "r2",
+      "classification_evidence": {
+        "classification_url": "https://www.ksh.hu/docs/osztalyozasok/kn/kn2026_structure.xlsx",
+        "classification_sha256": "083d065994fd2b41037aae21dc26087300a3a013e948e1884117abdd9d87ac56",
+        "trade_request_pattern": "Preserved requests for all 27 reporters in COMEXT_REQUEST_MANIFEST.json"
+      },
+      "period": "2026-06",
+      "source": "Eurostat COMEXT DS-045409;KSH official CN2026;official annual concordance"
+    },
+    "implementation_status": "RECOMMENDATION_ONLY_NOT_APPLIED",
+    "resolved_fail_reason": null,
+    "commercial_botanical": null,
+    "biological_parent": null,
+    "partial_parent_scope_only": null,
+    "category_reason": "Cross-category customs group or commercial beet crop type does not safely resolve to one approved primary category. Keep in headline and explicit unallocated category reconciliation bucket."
+  }
+]

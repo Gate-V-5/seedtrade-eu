@@ -20,7 +20,7 @@ class DailyNewsV1Tests(unittest.TestCase):
 
     def test_protected_data_and_server_are_unchanged(self):
         for path in ['server/index.mjs', 'src/generated/market_public.json',
-                     'src/generated/trade_pulse_public.json', 'src/generated/weather_public.json',
+                     'src/generated/weather_public.json',
                      'src/generated/supply_public.json', 'src/generated/rfqs_public.json',
                      'src/generated/insights.json', 'src/data/species_master_v1_1.json']:
             canonical = subprocess.check_output(['git', 'show', f'{BASE}:{path}'], cwd=ROOT)
@@ -40,4 +40,7 @@ class DailyNewsV1Tests(unittest.TestCase):
         original = json.loads(subprocess.check_output(['git', 'show', f'{BASE}:src/generated/public_data_manifest.json'], cwd=ROOT))
         current = json.loads((ROOT / 'src/generated/public_data_manifest.json').read_text())
         for key, value in original['datasets'].items():
-            self.assertEqual(current['datasets'][key], value)
+            if key=='trade_pulse':
+                self.assertEqual(current['datasets'][key]['included_cn_code_count'],40)
+                self.assertEqual(current['datasets'][key]['source'],value['source'])
+            else:self.assertEqual(current['datasets'][key], value)

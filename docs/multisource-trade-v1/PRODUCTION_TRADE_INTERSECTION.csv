@@ -1,0 +1,122 @@
+species_id,common_name,botanical,primary_category,production_available,species_trade_available,partial_species_scope,group_trade_available,trade_codes,status,volume_allocated_to_species,interpretation
+browntop,Brown top / common bent,Agrostis capillaris,grass-seeds,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+onion,Onion / shallot,Allium cepa,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+bunching-onion,Bunching onion,Allium fistulosum,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+leek,Leek,Allium porrum,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+chives,Chives,Allium schoenoprasum,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+meadow-foxtail,Meadow foxtail,Alopecurus pratensis,grass-seeds,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+dill,Dill,Anethum graveolens,herbs-specialty,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+chervil,Chervil,Anthriscus cerefolium,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+celery,Celery / celeriac,Apium graveolens,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+tall-oatgrass,Tall oatgrass,Arrhenatherum elatius,grass-seeds,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+asparagus,Asparagus,Asparagus officinalis,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+naked-oat,Naked oat,Avena nuda,cereals-pseudocereals,true,false,false,true,"[""10041000""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+oat,Oat,Avena sativa,cereals-pseudocereals,true,false,false,true,"[""10041000""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+black-oat,Bristle / black oat,Avena strigosa,cereals-pseudocereals,true,false,false,true,"[""10041000""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+beet-chard,Beet / chard; source crop types separate,Beta vulgaris,vegetable-seeds,true,true,true,false,"[""12091000"", ""12092960"", ""12099130""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+biserrula,Biserrula,Biserrula pelecinus,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+borage,Borage,Borago officinalis,herbs-specialty,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+ethiopian-mustard,Ethiopian mustard,Brassica carinata,brassica-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+brown-mustard,Brown mustard,Brassica juncea,brassica-seeds,false,false,false,true,"[""12075010""]",TRADE_ONLY,false,NOT_PERFORMED
+rapeseed,Rapeseed / oilseed rape,Brassica napus,oil-fibre-seeds,true,false,false,true,"[""12051010""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+black-mustard,Black mustard,Brassica nigra,brassica-seeds,false,false,false,true,"[""12075010""]",TRADE_ONLY,false,NOT_PERFORMED
+cabbage,Cabbage / kale / broccoli crop types,Brassica oleracea,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+turnip-rape,Turnip rape; source-reported scope,Brassica rapa,oil-fibre-seeds,true,false,false,true,"[""12051010""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+camelina,Camelina,Camelina sativa,oil-fibre-seeds,true,false,false,true,"[""12079920""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+hemp,Hemp,Cannabis sativa,oil-fibre-seeds,true,false,false,true,"[""12079920""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+pepper,Pepper,Capsicum annuum,vegetable-seeds,true,false,false,true,"[""12099180""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+safflower,Safflower,Carthamus tinctorius,oil-fibre-seeds,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+caraway,Caraway,Carum carvi,herbs-specialty,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+quinoa,Quinoa,Chenopodium quinoa,cereals-pseudocereals,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+chickpea,Chickpea,Cicer arietinum,grain-legumes,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+endive,Endive,Cichorium endivia,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+chicory,Chicory,Cichorium intybus,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+watermelon,Watermelon,Citrullus lanatus,vegetable-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+coriander,Coriander,Coriandrum sativum,herbs-specialty,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+sunn-hemp,Sunn hemp,Crotalaria juncea,forage-legumes,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+melon,Melon,Cucumis melo,vegetable-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+cucumber,Cucumber / gherkin,Cucumis sativus,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+winter-squash,Winter squash,Cucurbita maxima,vegetable-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+courgette,Courgette / pumpkin,Cucurbita pepo,vegetable-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+artichoke,Globe artichoke / cardoon,Cynara cardunculus,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+cocksfoot,Cocksfoot / orchard grass,Dactylis glomerata,grass-seeds,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+carrot,Carrot,Daucus carota,vegetable-seeds,true,false,false,true,"[""12099180""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+buckwheat,Buckwheat,Fagopyrum esculentum,cereals-pseudocereals,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+tall-fescue,Tall fescue,Festuca arundinacea,grass-seeds,true,false,false,true,"[""12092380""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+meadow-fescue,Meadow fescue,Festuca pratensis,grass-seeds,true,true,false,false,"[""12092311""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+red-fescue,Red fescue,Festuca rubra,grass-seeds,true,true,false,false,"[""12092315""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+fennel,Fennel,Foeniculum vulgare,vegetable-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+fodder-galega,Fodder galega,Galega orientalis,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+soybean,Soybeans,Glycine max,grain-legumes,true,true,false,false,"[""12011000""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+niger,Niger,Guizotia abyssinica,oil-fibre-seeds,false,false,false,true,"[""12079920""]",TRADE_ONLY,false,NOT_PERFORMED
+sunflower,Sunflower,Helianthus annuus,oil-fibre-seeds,true,true,false,false,"[""12060010""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+barley,Barley,Hordeum vulgare,cereals-pseudocereals,true,true,false,false,"[""10031000""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+lettuce,Lettuce,Lactuca sativa,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+red-pea,Red pea,Lathyrus cicera,grain-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+lentil,Lentil,Lens culinaris,grain-legumes,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+garden-cress,Garden cress,Lepidium sativum,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+flax,Flax,Linum usitatissimum,oil-fibre-seeds,true,true,false,false,"[""12040010""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+italian-ryegrass,Italian ryegrass,Lolium multiflorum,grass-seeds,true,true,false,false,"[""12092510""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+perennial-ryegrass,Perennial ryegrass,Lolium perenne,grass-seeds,true,true,false,false,"[""12092590""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+hybrid-ryegrass,Hybrid ryegrass,Lolium × hybridum,grass-seeds,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+birdsfoot-trefoil,Birdsfoot trefoil,Lotus corniculatus,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+white-lupin,White lupin,Lupinus albus,grain-legumes,true,false,false,true,"[""12092950""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+narrow-leaved-lupin,Narrow-leaved lupin,Lupinus angustifolius,grain-legumes,true,false,false,true,"[""12092950""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+yellow-lupin,Yellow lupin,Lupinus luteus,grain-legumes,false,false,false,true,"[""12092950""]",TRADE_ONLY,false,NOT_PERFORMED
+black-medick,Black medick,Medicago lupulina,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+bur-medick,Bur medick,Medicago polymorpha,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+alfalfa,Alfalfa / lucerne,Medicago sativa,forage-legumes,true,true,false,false,"[""12092100""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+hybrid-lucerne,Hybrid lucerne,Medicago × varia,forage-legumes,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+white-sweetclover,White sweetclover,Melilotus albus,forage-legumes,false,false,false,true,"[""12092980""]",TRADE_ONLY,false,NOT_PERFORMED
+yellow-sweetclover,Yellow sweetclover,Melilotus officinalis,forage-legumes,false,false,false,true,"[""12092980""]",TRADE_ONLY,false,NOT_PERFORMED
+sainfoin,Sainfoin,Onobrychis viciifolia,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+yellow-serradella,Yellow serradella,Ornithopus compressus,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+serradella,Serradella,Ornithopus sativus,forage-legumes,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+rice,Rice,Oryza sativa,cereals-pseudocereals,true,false,false,true,"[""10061010""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+proso-millet,Proso millet,Panicum miliaceum,cereals-pseudocereals,true,false,false,true,"[""10082100""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+poppy,Opium / seed poppy,Papaver somniferum,oil-fibre-seeds,true,true,false,false,"[""12079110""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+parsley,Parsley,Petroselinum crispum,vegetable-seeds,true,false,false,true,"[""12099180""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+phacelia,Phacelia,Phacelia tanacetifolia,herbs-specialty,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+canary-grass,Canary grass,Phalaris canariensis,cereals-pseudocereals,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+runner-bean,Runner bean,Phaseolus coccineus,vegetable-seeds,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+common-bean,Common bean,Phaseolus vulgaris,vegetable-seeds,true,true,false,false,"[""07133310""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+timothy,Timothy,Phleum pratense,grass-seeds,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+field-pea,Field peas,Pisum sativum,grain-legumes,true,true,false,false,"[""07131010""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+ribwort-plantain,Ribwort plantain,Plantago lanceolata,herbs-specialty,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+wood-meadowgrass,Wood meadowgrass,Poa nemoralis,grass-seeds,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+kentucky-bluegrass,Kentucky bluegrass,Poa pratensis,grass-seeds,true,true,false,false,"[""12092400""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+cultivated-radish,Cultivated radish,Raphanus raphanistrum subsp. sativus,brassica-seeds,true,false,false,true,"[""12099180""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+rhubarb,Rhubarb,Rheum rhabarbarum,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+black-salsify,Black salsify,Scorzonera hispanica,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+rye,Rye,Secale cereale,cereals-pseudocereals,true,true,false,false,"[""10021000""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+foxtail-millet,Foxtail millet,Setaria italica,cereals-pseudocereals,true,false,false,true,"[""10082100""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+white-mustard,White mustard,Sinapis alba,brassica-seeds,true,false,false,true,"[""12075010""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+tomato,Tomato,Solanum lycopersicum,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+aubergine,Aubergine,Solanum melongena,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+sorghum,Sorghum,Sorghum bicolor,cereals-pseudocereals,true,true,true,false,"[""10071010"", ""10071090""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+spinach,Spinach,Spinacia oleracea,vegetable-seeds,true,false,false,true,"[""12099180""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+berseem-clover,Berseem / Egyptian clover,Trifolium alexandrinum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+glandular-clover,Glandular clover,Trifolium glanduliferum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+rose-clover,Rose clover,Trifolium hirtum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+alsike-clover,Alsike clover,Trifolium hybridum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+crimson-clover,Crimson clover,Trifolium incarnatum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+trifolium-isthmocarpum,Clover,Trifolium isthmocarpum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+balansa-clover,Balansa clover,Trifolium michelianum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+red-clover,Red clover,Trifolium pratense,forage-legumes,true,true,false,false,"[""12092210""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+white-clover,White clover,Trifolium repens,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+persian-clover,Persian clover,Trifolium resupinatum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+trifolium-squarrosum,Clover,Trifolium squarrosum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+subterranean-clover,Subterranean clover,Trifolium subterraneum,forage-legumes,false,false,false,true,"[""12092280""]",TRADE_ONLY,false,NOT_PERFORMED
+arrowleaf-clover,Arrowleaf clover,Trifolium vesiculosum,forage-legumes,true,false,false,true,"[""12092280""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+fenugreek,Fenugreek,Trigonella foenum-graecum,herbs-specialty,false,false,false,false,[],NEITHER,null,NOT_PERFORMED
+golden-oatgrass,Golden oatgrass,Trisetum flavescens,grass-seeds,true,false,false,true,"[""12092980""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+common-wheat,Common wheat; seasons retained,Triticum aestivum,cereals-pseudocereals,true,true,true,false,"[""10019110"", ""10019120""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+durum-wheat,Durum wheat,Triticum turgidum subsp. durum,cereals-pseudocereals,true,true,false,false,"[""10011100""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED
+lambs-lettuce,Lamb's lettuce,Valerianella locusta,vegetable-seeds,false,false,false,true,"[""12099180""]",TRADE_ONLY,false,NOT_PERFORMED
+purple-vetch,Purple / Bengal vetch,Vicia benghalensis,forage-legumes,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+bitter-vetch,Bitter vetch,Vicia ervilia,grain-legumes,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+faba-bean,Faba beans,Vicia faba,grain-legumes,true,false,false,false,[],PRODUCTION_ONLY,null,NOT_PERFORMED
+hungarian-vetch,Hungarian vetch,Vicia pannonica,forage-legumes,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+common-vetch,Common vetch,Vicia sativa,forage-legumes,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+winter-vetch,Winter vetch,Vicia villosa Roth,forage-legumes,true,false,false,true,"[""12092945""]",PRODUCTION_AND_GROUP_TRADE,false,NOT_PERFORMED
+maize,Maize,Zea mays,cereals-pseudocereals,true,true,true,false,"[""10051013"", ""10051015"", ""10051018"", ""10051090"", ""07129011""]",PRODUCTION_AND_SPECIES_TRADE,null,NOT_PERFORMED

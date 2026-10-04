@@ -1,0 +1,153 @@
+{
+  "starting_head": "dbfd99350479044794837269ed7ef2e7b6c2d4ab",
+  "recovered_checkpoint_sha256": "c5fe73a45f179329c801a52dabfb205a1b8729ca43d8d6ede37250f539cfa011",
+  "original_implementation_file_hashes": "EXACT_CHECKPOINT_MANIFEST_MATCH",
+  "source_files_revalidated": 1080,
+  "raw_cell_pairs_revalidated": 153838,
+  "inputs": [
+    {
+      "path": "multisource_work/comext-normalized-public.jsonl.gz",
+      "size": 5970695,
+      "sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3"
+    },
+    {
+      "path": "multisource_work/COMEXT_REQUEST_MANIFEST.json",
+      "size": 671038,
+      "sha256": "91409430c6711a11cfc275c52d5ed66eaed71484daf8c73f50a0a572757da886"
+    },
+    {
+      "path": "multisource_work/CN_HISTORY_EVIDENCE.json",
+      "size": 93970,
+      "sha256": "41eade8459b5535cbeb16af3f11be4f675cf663e9a148ad6ec318f17935023ba"
+    },
+    {
+      "path": "seedtrade-multisource-v1/docs/trade-cn-v1/TRADE_MARKET_ENTITIES.json",
+      "size": 259830,
+      "sha256": "f64e9eb320e3f5fe8b0e78d26900095864bcc8331f0e4ee6d9044f019335d4eb"
+    },
+    {
+      "path": "seedtrade-multisource-v1/docs/crop-master-v1/CROP_MASTER_V1.json",
+      "size": 862880,
+      "sha256": "de0da445b9324a1aa28e7f91b084b12cab913f884213726f960e804960f8f48c"
+    },
+    {
+      "path": "seedtrade-multisource-v1/data/multisource-trade-v1/trade_pulse_baseline.json",
+      "size": 21926,
+      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "AUDIT_QA.json",
+      "sha256": "7806a19c8acedc7ef39c31be86f86a497d99b10b6f1a59708a076bd7f500db1a"
+    },
+    {
+      "path": "CATEGORY_ANALYSIS.json",
+      "sha256": "768290484f5b4c7aa2df7cea9ce891da5b117c063799a8363a519268d82003f0"
+    },
+    {
+      "path": "CATEGORY_TABLE.csv",
+      "sha256": "1a9202d5053cd205e2229c2091cd5cf77742ce0878b4cdafc23c6787dcff98fa"
+    },
+    {
+      "path": "CATEGORY_TABLE.json",
+      "sha256": "ae51e21e58f25005b2b2d32a40ed7209e19aaf871337ef161f9eca83e677c0a6"
+    },
+    {
+      "path": "CN_AUDIT_40.csv",
+      "sha256": "8f634295292d02dfe1d0223719d6b8dfde2182cb0bc8f3e80507d66f6793ef89"
+    },
+    {
+      "path": "CN_AUDIT_40.json",
+      "sha256": "e919d52eedc9ff3e5c921352e5156ae76c5a6d3751ce521255f81719aef853dc"
+    },
+    {
+      "path": "CONCENTRATION.json",
+      "sha256": "9e68bad82d6a2132606d4aeee2f7acc5522defbbb303f511b7f03281105ab906"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "sha256": "682a67138eafdfcdc7a7b4d0d4d1f570e89628b0bed6b9c4d0e6794225df23ef"
+    },
+    {
+      "path": "NEW_CN_CONTRIBUTIONS_29.csv",
+      "sha256": "730dd77a210a7c407d702c2896c68f53071a4ae0d9bd2d90f5062317689fa5ab"
+    },
+    {
+      "path": "NEW_CN_CONTRIBUTIONS_29.json",
+      "sha256": "08e3fa95482d9c214356030259f995adf2f9d7a8e9bd6f0bd253bfd05360c9bd"
+    },
+    {
+      "path": "RECONCILIATION.json",
+      "sha256": "a491f4b6eb1cca12ea2d5b839c4980261168db65704dd73cafd3f9c63398fb1f"
+    },
+    {
+      "path": "REGRESSION_QA.json",
+      "sha256": "282d5b926178e7d16b2236e1e0ae6d6ea8c9ce3e434f9bc264bb04c10b5d95cc"
+    },
+    {
+      "path": "RELEASE_CANDIDATE.json",
+      "sha256": "f2391bee7d3e17a9d5a254ef22adfebd0589d7dd838da23e57d9ca11de3b4001"
+    },
+    {
+      "path": "RELEASE_GATE.json",
+      "sha256": "032963f66359dbe6f4bcc12bead00862e9736b717901379434e71420ad2d6cb5"
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "9052b9c688ee03382223e3b6df582e683258cfac02b188d133a52e6a446aff6a"
+    },
+    {
+      "path": "SPECIES_COVERAGE.csv",
+      "sha256": "86db4c9da14330d0fe3f2874a33699d47eb6c7a4bf0404bc83588fbc77804d15"
+    },
+    {
+      "path": "SPECIES_COVERAGE.json",
+      "sha256": "c8d097dbd2106dabed2b91ed3fdaef34b42ad8e726c8e644b3b750c04c78fe3b"
+    },
+    {
+      "path": "SPECIES_COVERAGE_SUMMARY.json",
+      "sha256": "aeb27239f76cafcb0ab671d1442c71e826629798df886cd528f3f6eb085c3450"
+    },
+    {
+      "path": "SUMMARY.json",
+      "sha256": "5bd45bf306566a53580810b8b83fd5cba778a057009fb16fbc5e2db33f113bd3"
+    },
+    {
+      "path": "TOP_10_CN_BY_VALUE.csv",
+      "sha256": "a149e1c259dea2bd241b7952c0455a119991f7af7af8e755d9d458ef0a8a4ccf"
+    },
+    {
+      "path": "TOP_10_CN_BY_VALUE.json",
+      "sha256": "f76f66182ff943bd229a7781417ef822bd233d13d22fd3839648e9ff98ca1a32"
+    },
+    {
+      "path": "TOP_10_CN_BY_VOLUME.csv",
+      "sha256": "6fee7e48d382b6637c7ac509ef41dae7a65bf82637a97dc522fdcd5d4ed5ff25"
+    },
+    {
+      "path": "TOP_10_CN_BY_VOLUME.json",
+      "sha256": "c0fca0e1ec351094f2dcbaacfe1c0aabbf3512eca1f953611a780caa5bed8111"
+    }
+  ],
+  "release_gate": "FAIL",
+  "source_data_changed": false,
+  "public_ui_changed": false,
+  "globalwits_research": "NONE;EXISTING_OWNER_SOURCE_RETAINED_INTERNAL_ONLY",
+  "targeted_documentation": [
+    {
+      "organisation": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/documents/3859598/12137783/KS-GQ-20-012-EN-N.pdf/f982fc06-3ff8-d37b-298f-9c76c843ae52",
+      "finding": "Net mass unit is 100 kg; values are euros.",
+      "retrieval_date": "2026-10-04",
+      "evidence_kind": "Official public documentation lookup"
+    },
+    {
+      "organisation": "Royal Botanic Gardens Kew",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77189305-1",
+      "finding": "Spelt is an accepted subspecies within Triticum aestivum. Biological-parent partial mapping is valid; the separate commercial entity should retain its direct CN link.",
+      "retrieval_date": "2026-10-04",
+      "evidence_kind": "Targeted botanical source check; no taxonomy expansion"
+    }
+  ]
+}
