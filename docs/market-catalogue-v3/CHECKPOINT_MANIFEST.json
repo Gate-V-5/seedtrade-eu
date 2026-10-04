@@ -1,0 +1,3122 @@
+{
+  "schema": "SEEDTRADE_CATALOGUE_V3_CHECKPOINT_MANIFEST",
+  "starting_head": "6f638719d5991b1ba3306ac8692b51638218acc1",
+  "entries": [
+    {
+      "path": ".gitignore",
+      "size": 427,
+      "sha256": "8e6a153a7dd053d88bf576c6e779978923c6ba805b3253a9ef8c2ea21651dedb"
+    },
+    {
+      "path": "NETWORK_FORM_SERVER.md",
+      "size": 1863,
+      "sha256": "4c63bcce34c23f4c3a06452284ae3f411c48d6dce02aa4fff1cc679c4e0bfb23"
+    },
+    {
+      "path": "README.md",
+      "size": 1323,
+      "sha256": "8858f96a70d70cebaed09f46b44cb64e8fb5883db7d68d3c51106b6cf291f5fa"
+    },
+    {
+      "path": "assets/licensed-news-originals/potato.jpg",
+      "size": 491266,
+      "sha256": "d4febdfd25ed652268dd0eff9147ab71ba62b4c77fb978246d89d03d508c1747"
+    },
+    {
+      "path": "assets/licensed-news-originals/valencia.jpg",
+      "size": 1097780,
+      "sha256": "0c77b286bb48b357b233041c6596174883fe29e07a6d5ab209d3d47532c8bec2"
+    },
+    {
+      "path": "assets/licensed-news-originals/weather.jpg",
+      "size": 1768426,
+      "sha256": "224928594644075aeb4e99c129911c17bf5346ba8f269c28c716cc2a198f297e"
+    },
+    {
+      "path": "assets/licensed-news-originals/wet.jpg",
+      "size": 301551,
+      "sha256": "fbad7d7fe206053428289687979f2d8d080b37045454546ab4599f98ec22ae49"
+    },
+    {
+      "path": "assets/owner-approved/euroseeds-2026-congress-valencia.png",
+      "size": 476508,
+      "sha256": "90075c9b202f920f72f76fa6c18605c8dce13473df876e7f0bb2c03abd0598cf"
+    },
+    {
+      "path": "assets/owner-approved/interpom-2026-europe-potato-value-chain.png",
+      "size": 432632,
+      "sha256": "e85a108681ca40514d4f78e805a1656a2dbd8e065fceb89efb45664a286a285a"
+    },
+    {
+      "path": "assets/owner-approved/lagrenas-contract-seed-multiplication-lithuania.png",
+      "size": 126574,
+      "sha256": "5de6802831bca396a6df117bc7d4d4143b3f959e7f074d256ca8ac0b0e6507d8"
+    },
+    {
+      "path": "assets/owner-approved/market.png",
+      "size": 4192845,
+      "sha256": "38551fdee108fca5849c253b217d9b0734218cd2d0909099b913df4fea657b7d"
+    },
+    {
+      "path": "assets/owner-approved/production.png",
+      "size": 3331197,
+      "sha256": "478d8ca1453a98438a15ce5cfab46d6d56ecb023061a568f6735127a5a40ae9b"
+    },
+    {
+      "path": "assets/owner-approved/weather.png",
+      "size": 4874895,
+      "sha256": "0c8647deea01ba20fb77ddbd7e7b886b9cbc67bab5ff166169435c6ea4b2fe3f"
+    },
+    {
+      "path": "data/crop-master-v1/extensions.json",
+      "size": 14824,
+      "sha256": "e0e6292dc5c442decd24f5ed1159bb1602106a22428697a8898f7915ea1084bc"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-canonical.json",
+      "size": 294187,
+      "sha256": "599a61eb4b5da086aa51410c6119114c3affd6642916b6c30a69c092f062a768"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-catch-discovery.json",
+      "size": 1962,
+      "sha256": "d3afe80b7d4a929d1be41469998f42fb3efaff85fd143bc69f1f765cb4f2b1b9"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-cn.json",
+      "size": 113880,
+      "sha256": "3cca09a68c6c32f47b2ee8a5a1dc04d032788305431f119c68516ce51eb572eb"
+    },
+    {
+      "path": "data/crop-master-v1/recovered-source-taxa.json",
+      "size": 167526,
+      "sha256": "23c7f945ac68f2f7151071150c3ca57db21f97b087acb31d12b30df6e8f6d1df"
+    },
+    {
+      "path": "data/crop-master-v1/sources.json",
+      "size": 3279,
+      "sha256": "877e33392af4ec762e040e699a7d2193181448231bbd2e9636c983b05699998e"
+    },
+    {
+      "path": "data/multisource-trade-v1/trade_pulse_baseline.json",
+      "size": 21926,
+      "sha256": "d2386e598b066b64f0da9fbbc98876d336e627cf4ad4507423f43691d622d84a"
+    },
+    {
+      "path": "data/species-coverage-v1/accepted-rows.json",
+      "size": 8757,
+      "sha256": "3a2f14ccff173e122d3bcb4b05828d0f43d7806da19dee8226f8c9ba842ffa45"
+    },
+    {
+      "path": "data/species-coverage-v1/withheld-rows.json",
+      "size": 4153,
+      "sha256": "63f87f98d1eebdff1494e23f74bacfd5f44e41fec267d13b498e7b9f953a5e29"
+    },
+    {
+      "path": "data/trade-cn-v1/COMEXT_REQUESTS.json",
+      "size": 22477,
+      "sha256": "b5ea0a0fd5ad7d391cc42d9a6ba41421eb2dffdf74421cd77531c5e6efdfa1d0"
+    },
+    {
+      "path": "data/trade-cn-v1/comext-normalized.json",
+      "size": 483631,
+      "sha256": "a96539fa4b7b7e68bf8a7aaffbb26e4de39c552b0d28b5db900d873dd593540c"
+    },
+    {
+      "path": "data/trade-cn-v1/decisions.json",
+      "size": 4347,
+      "sha256": "723cb5c508c627a9b31310310822ce08390d7d344e951ebe1921543ea1d3d677"
+    },
+    {
+      "path": "data/trade-cn-v1/official-cn-extract.json",
+      "size": 277962,
+      "sha256": "55f55129408811fdb3f145d039f61ad15fe49cadcc038dfe6a38d51d33a1fa6d"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-10051013.json",
+      "size": 2746,
+      "sha256": "b010c6ba474d601924accea7fb74c4f2df21cbbe95fe4fba41887a45d699a286"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-10051015.json",
+      "size": 2918,
+      "sha256": "b6bdd8f756b55a550eec37f9ace03a280006b40a2e8ba50a58c766615964940b"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-10051018.json",
+      "size": 2760,
+      "sha256": "74a696a31e972c9b3240aec52abe2e378f916d3387333032ce6ce71010d70d19"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-10051090.json",
+      "size": 2774,
+      "sha256": "c3bd50d84c47883e091a547d04bc600d05c3b3c4d4f8cfce0826e2d9257457a3"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-12011000.json",
+      "size": 2703,
+      "sha256": "f6fb373733ec211983fcfe035e189da3786bbc9b28265873942b8659d39674dd"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-12092280.json",
+      "size": 2911,
+      "sha256": "ce8e5326be8ada8147500325ff025522416b8f90130c1934b3df07bd5671ffe8"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-12092380.json",
+      "size": 2962,
+      "sha256": "eb9b54f203e85f9a6689d7ce8deb13fc5b689c75b5169d3ba0ede059489142b4"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-12092945.json",
+      "size": 2985,
+      "sha256": "9c5a8b8c594e2fbf14b941fe5827da0db1c44946b251ff7abad6e02136dbbda4"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-12092980.json",
+      "size": 3345,
+      "sha256": "87273f06268c04f26643394f548a3bfeda88f2aece3190ad56cc29d21b5449a5"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-DE-12099180.json",
+      "size": 2946,
+      "sha256": "d8fa55d34515b9fd87c1dbb0c5e136050e6d4c1be6387c4189503ad5198e5d82"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-10051013.json",
+      "size": 2965,
+      "sha256": "b199e4b35f6a679de7023c0e29c0ec13955be248d3434e4f5123024e520ce3a5"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-10051015.json",
+      "size": 3026,
+      "sha256": "f10359196f91b5e2321ff71680a024c7e6a240fbea599d6d2af08b2d817fbd49"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-10051018.json",
+      "size": 2774,
+      "sha256": "1becad50b08aebc54615267a6610b5c2371da822ce37428f924ce6515bf35b07"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-10051090.json",
+      "size": 2805,
+      "sha256": "02521d7c5317fc27e5c4f5b66a43b40c6207faa9f08938e197f5fedff66ee576"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-12011000.json",
+      "size": 2752,
+      "sha256": "4ff7473bc72221f85d4e7dabb8e990a69320ebbf590cc8d4a64377d0b97a1fb2"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-12092280.json",
+      "size": 2792,
+      "sha256": "85c0c7ed9a5a4d34dd688b98ec6d995ede6d9e9926453aae5dd057baeb93d62e"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-12092380.json",
+      "size": 2987,
+      "sha256": "ce0746d0a4461524d52a8c3ba015c292de5c6a6a66c6e82fed532c6000d595fc"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-12092945.json",
+      "size": 3033,
+      "sha256": "e3f60d95c88fffc29652fe3b6eb282444f2827c31db9bbcbd51fe582344756a8"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-12092980.json",
+      "size": 3364,
+      "sha256": "ff29ba87304ea4af727f0751c7c19b4860bcc4331f360140923b37c14dc264e8"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-FR-12099180.json",
+      "size": 3054,
+      "sha256": "4330ae7e29b454d9a91ea69e2cf89b662ff484293156fca829d53fc63997b70f"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-10051013.json",
+      "size": 2501,
+      "sha256": "773648fda33434bd414e4aa822d2afc7bd96780397edc266f18ea770481332fc"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-10051015.json",
+      "size": 2537,
+      "sha256": "1adb7506a4503f37da5536f3903f3f06ea92bda2d35d3645835b1ade5940e2c5"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-10051018.json",
+      "size": 2575,
+      "sha256": "a3c3527db47f59f8f32358861e26d04d8de28fe0aadd74a8ade6a123dd05a4f4"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-10051090.json",
+      "size": 2517,
+      "sha256": "6dafdedc6a67907fe3ac0153933e3850267bcebc7d90bbb04c7b1a3599128d28"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-12011000.json",
+      "size": 2487,
+      "sha256": "9b259857eb04ed445ce79057e4d30ebfe13e9e5040c2dbe685f7beb9f0515dc3"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-12092280.json",
+      "size": 2831,
+      "sha256": "cb3f4f60c4ff4306f3bf02250906b2d753e0b5e4883a6781e1728a2cfbc93212"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-12092380.json",
+      "size": 2706,
+      "sha256": "14ee170a1e7713e4c45c4cd8f68e626428a12cef5840d9fe785cb1f50c812f6f"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-12092945.json",
+      "size": 2845,
+      "sha256": "32895b55b9c9941d4b6ba44bd8e7b325c4367b67b302ab23bcd1a3235661c824"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-12092980.json",
+      "size": 3315,
+      "sha256": "ba25bec799ebec68de332de3b9d4e7c5e497e3ae65cf14047489aa115a21ea2a"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-NL-12099180.json",
+      "size": 2937,
+      "sha256": "660ab8a1c653f7d6c87fc189601c9c3ee0aeb464e63f6a6360f278e409d5dc08"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-10051013.json",
+      "size": 2721,
+      "sha256": "c3b27abb8ed69c48bafda62de2dc088916c1f30a958e033ade683f37a3658033"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-10051015.json",
+      "size": 2851,
+      "sha256": "347d29f5a060dddc1e24d15ee892df2b06f250f85ad18266d1d6ce7069b437b2"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-10051018.json",
+      "size": 2944,
+      "sha256": "a01b5ed560a496fb050955e24ddf4696587cde8f61c7975e823d7651ae1a339f"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-10051090.json",
+      "size": 2979,
+      "sha256": "eecbb625c5f06c5f347a9d8a0237b350fdb150c035f7b12e1626694e164c9a02"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-12011000.json",
+      "size": 2812,
+      "sha256": "93b0a8c345bbe3c42431ddb688149141e7fa59a705488cf375d3609582d99feb"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-12092280.json",
+      "size": 2732,
+      "sha256": "1f78773d7d5d92a2334011f9aa28e37a35d6adb9bb406c7071ab95b8e5a435fc"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-12092380.json",
+      "size": 2873,
+      "sha256": "d1b8d6f9e4d6bbfc9ae5b4b7c442c19f60ce0d7ba283f1850a60e1c967177d75"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-12092945.json",
+      "size": 3047,
+      "sha256": "191d55f32ab2b8a8d3ee8cea3a074e163ac3ebb479cac4c8c40c7910ad3135f1"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-12092980.json",
+      "size": 3368,
+      "sha256": "f1b4a92949059ccd92c5dd7d6780488478e6ffff5ff20ed8beb692cbc4b13bcf"
+    },
+    {
+      "path": "data/trade-cn-v1/raw-comext/comext-PL-12099180.json",
+      "size": 2968,
+      "sha256": "96159ebfc049c57fedf9c49dc5e57cc804c0ba0eb9bdf47dbbc5d21edcc07069"
+    },
+    {
+      "path": "dist/.htaccess",
+      "size": 437,
+      "sha256": "95736c57655778974c460f9eb5acb6cbe26b6144d7c1916facb5ea05e17041ef"
+    },
+    {
+      "path": "dist/about/index.html",
+      "size": 8006,
+      "sha256": "188ff3d6fec3dad6e0c37b6358bed4b85f9ea583de1940dbfe631151eae8631b"
+    },
+    {
+      "path": "dist/account/index.html",
+      "size": 4382,
+      "sha256": "07e78158e8d86d9c4bc6720df616cad57dfe39d58e319eb31c692cd74091dd00"
+    },
+    {
+      "path": "dist/admin/index.html",
+      "size": 4378,
+      "sha256": "322e3e00bd0dce30aa81e14f10a9c78dadc5a49b4ac2ef590f7f3211be21ac82"
+    },
+    {
+      "path": "dist/apple-touch-icon.png",
+      "size": 27785,
+      "sha256": "4d984ce8578922a3ae539a1899e0b5eb7a3e89bb65e2a2acca138a5d14dc6900"
+    },
+    {
+      "path": "dist/assets/MarketCatalogue-CL8fpwM5.js",
+      "size": 356735,
+      "sha256": "3688ab529d23189aaa3c5fe63ae444c745ad37c4c1953fd95948ec9694dca17e"
+    },
+    {
+      "path": "dist/assets/MarketCatalogue-DiF9codG.css",
+      "size": 6503,
+      "sha256": "36c8baceee98e32cd6d70f4528dbe0de9492463fd2711194497cdb7b0a6388e8"
+    },
+    {
+      "path": "dist/assets/MarketCategories-Bnz0Uvqi.js",
+      "size": 5019,
+      "sha256": "e3c44c8ec1c4801cbb0848e1dbda69929a74432bd0d74cc20c233df05661e2f3"
+    },
+    {
+      "path": "dist/assets/ProductionIntelligence-CeumaP2L.js",
+      "size": 908781,
+      "sha256": "c323c6544591017c472888a3a65b8f64e6e6c57669d56ce4325c0abe358b074c"
+    },
+    {
+      "path": "dist/assets/TradeCoverage-HIwC4I8n.js",
+      "size": 2426156,
+      "sha256": "ec127e0ef76177c89bbfdb206ef8f223fb234fc5bd008b86c67027845593f9e3"
+    },
+    {
+      "path": "dist/assets/i18n-C5rnfGFE.js",
+      "size": 180237,
+      "sha256": "fcd37ba74558258e8c45c588a58ad46ae8ebfdec46f2db5c4b4b9740a702d424"
+    },
+    {
+      "path": "dist/assets/index-BSfekq5o.js",
+      "size": 546282,
+      "sha256": "d7dde7153acac36bddd46c89c5f5dd51436190e38e92165eb50c6784c300ad0e"
+    },
+    {
+      "path": "dist/assets/index-zkciDw7r.css",
+      "size": 86813,
+      "sha256": "f80267b15dcb35fc3efc81115e53349bf18635a15959134e977fd5356e9d99e9"
+    },
+    {
+      "path": "dist/assets/market_categories_public-pVFvVEdc.js",
+      "size": 68922,
+      "sha256": "7f87d8dea0003fdf69fb9c99447c0dae73169af32456085c7883d37f59885a7a"
+    },
+    {
+      "path": "dist/buying-requests/flax-kaolin-c1-50t/index.html",
+      "size": 6199,
+      "sha256": "415082f89075cd789dff1a008581120fe4d76167cbb1855c0e466657b4717f73"
+    },
+    {
+      "path": "dist/buying-requests/flax-ls-riviera-c1-50t/index.html",
+      "size": 6223,
+      "sha256": "47137de62e9dffbd453d0272f0186c8783f92c4d7018ff722503e0fe6aff0c8f"
+    },
+    {
+      "path": "dist/buying-requests/flax-ls-riviera-c2-100t/index.html",
+      "size": 6229,
+      "sha256": "d6f26997ed4d8296072bb3113205f28d38dcf988fccdbdb63d06a65b361fca89"
+    },
+    {
+      "path": "dist/buying-requests/index.html",
+      "size": 11967,
+      "sha256": "c78264999f92ecb6c0314e930dc3dc0c0a6ce6446a9d86805c960f43a07474da"
+    },
+    {
+      "path": "dist/buying-requests/red-clover-rgt-savvor-c-20t/index.html",
+      "size": 6268,
+      "sha256": "e6f6b2b3a548eafa30f27c6b223f4f619673e7e5d3c77db5a6f3c24558c44c7c"
+    },
+    {
+      "path": "dist/buying-requests/winter-vetch-rea-organic-c1-30t/index.html",
+      "size": 5946,
+      "sha256": "2e9ad8add982c91c6408235f641a83b041415c931f6c53e5986c119f7619134c"
+    },
+    {
+      "path": "dist/catalogue/catch-crops.webp",
+      "size": 348952,
+      "sha256": "f4e8d29ea73580a0af3d6bbbb8feb0c093ead475e2e0ea171e673b853c3a6e8e"
+    },
+    {
+      "path": "dist/catalogue/cereals.webp",
+      "size": 230774,
+      "sha256": "f2ef13417199ea189594daa85003ba3fd3ab06af7f8654bd340d70f97c236b05"
+    },
+    {
+      "path": "dist/catalogue/fodder-grasses.webp",
+      "size": 319120,
+      "sha256": "f5f309ceb778e8b080f455cb1fb546e257ab6abbd2c42f08b72e3680a7b6d737"
+    },
+    {
+      "path": "dist/catalogue/maize-sorghum.webp",
+      "size": 303930,
+      "sha256": "a941c7262da12163c0e2857916e2803bb1a1d0935bff42dcc07f5a698684e54f"
+    },
+    {
+      "path": "dist/catalogue/oil-fibre.webp",
+      "size": 298266,
+      "sha256": "7440f1c16e8398ce30879cce796d2b77e1086ec71a3ad2104cdfa7886983398b"
+    },
+    {
+      "path": "dist/catalogue/pulses-legumes.webp",
+      "size": 180342,
+      "sha256": "2f7bf989f8248b00dfac6c41b9a3a808ca4be3a339de9b403af106c500dd5e99"
+    },
+    {
+      "path": "dist/catalogue/vegetables.webp",
+      "size": 422682,
+      "sha256": "8dc13470250c59bdb47b381fa85c829bee0981a230a1d8ee8382ccaa492a3e63"
+    },
+    {
+      "path": "dist/catalogue-v3/catch-crops.png",
+      "size": 5359719,
+      "sha256": "df9b48d69ba3eb09bac8fbd537d4fa794ac5659066717f8aa4288eb2870e9fc0"
+    },
+    {
+      "path": "dist/catalogue-v3/cereals-pulses.png",
+      "size": 4931079,
+      "sha256": "3489f8b2b5de49a1009b8f44fa42c07c17b698f25c5fd005518951f256f24290"
+    },
+    {
+      "path": "dist/catalogue-v3/fodder-amenity.png",
+      "size": 5209869,
+      "sha256": "aa8d9484525b3c8237a7bca2fcef6964f4f56af8fce184efa202613c9d929f91"
+    },
+    {
+      "path": "dist/catalogue-v3/maize-sorghum.png",
+      "size": 5997826,
+      "sha256": "0698f525f6fbc88eaca38fa4a76e8316a1bc754b6820a1a11d19fba1e918a91b"
+    },
+    {
+      "path": "dist/catalogue-v3/oil-fibre.png",
+      "size": 5436374,
+      "sha256": "114ef17b54e16c37cc828b61b7e9764752374be9e980767c448e4827df926d9e"
+    },
+    {
+      "path": "dist/catalogue-v3/vegetables.png",
+      "size": 5237753,
+      "sha256": "84016b74e1bd341609044130a1856a8e62a8093829948b0b62c5bbb38ba5f0a3"
+    },
+    {
+      "path": "dist/confidentiality/index.html",
+      "size": 4696,
+      "sha256": "176a0eb9d731084c26d52f6610658e0bb6790c74557b53f8b35976dd5bff016e"
+    },
+    {
+      "path": "dist/data/crop-master-v1.json",
+      "size": 1082845,
+      "sha256": "963e32c31634610e27a530810efdbb3677e5c3bc2e5b40b175c400d8ea11988b"
+    },
+    {
+      "path": "dist/data/multisource-official-source-manifest-v1.json",
+      "size": 569714,
+      "sha256": "c7e2aef6b251575931dd09e33b8a335c1be7c1a160767f2b416f81ca03d6abf3"
+    },
+    {
+      "path": "dist/data/species-coverage-v1.json",
+      "size": 1293255,
+      "sha256": "38bde9fe6378f868fb154d8fd8c184168f96e95d236b4565180ebe358b6b704c"
+    },
+    {
+      "path": "dist/data/trade-40cn-approved-coverage-v1.json",
+      "size": 114000,
+      "sha256": "511b67e40e0612eb5e063192fe88c7e6a6f1ea3de8b6adb73ccdd28354184980"
+    },
+    {
+      "path": "dist/data/trade-cn-coverage-v1.json",
+      "size": 856876,
+      "sha256": "81cbf421cebf3186767d2dca5995490ece2fc2dc66575a5101319426da86b5ca"
+    },
+    {
+      "path": "dist/disclaimer/index.html",
+      "size": 4636,
+      "sha256": "ae45ab375f91f03126d691e8a12ecde5c81d3557d2e2c5212ab8f0cb55f093d7"
+    },
+    {
+      "path": "dist/editorial/eu-agronomist-latvia-autumn-establishment.webp",
+      "size": 79226,
+      "sha256": "504fbc3a522d3dbb5ce285079e57af7b61dc7b00839aefd889313fbbf434e53d"
+    },
+    {
+      "path": "dist/editorial/eu-events-euroseeds-valencia-october-2026.webp",
+      "size": 271386,
+      "sha256": "4c1a00c7c45396f99b0695d8e6097a400d4b6a88845d4f6f53abb8afc39f482b"
+    },
+    {
+      "path": "dist/editorial/eu-trade-market-nak-interim-seed-potato-checks.webp",
+      "size": 415462,
+      "sha256": "4fab8d63e670cb502a005b2a6c142d84d2d29301608c3360891774a02805ba31"
+    },
+    {
+      "path": "dist/editorial/eu-weather-september-2026-baseline.webp",
+      "size": 83112,
+      "sha256": "cfec1d2236e06b5ca685224a78dc56ae9999c3ce6fc3060cb72e7bd01c497dd4"
+    },
+    {
+      "path": "dist/editorial/euroseeds-2026-congress-valencia.webp",
+      "size": 48388,
+      "sha256": "0cf7a8d50090d1d6cbff597f8953e0d9339605124a2d2e64308aa0cf9608ecb3"
+    },
+    {
+      "path": "dist/editorial/interpom-2026-europe-potato-value-chain.webp",
+      "size": 74348,
+      "sha256": "42ccb7ad6257edfa1da89a13ea82f80df9ddbb00ab07f9412615f510439a9c3b"
+    },
+    {
+      "path": "dist/editorial/lagrenas-contract-seed-multiplication-lithuania.webp",
+      "size": 19982,
+      "sha256": "9ce023336ebce6a69c5acbce186d8252382db8d892a765549d2f99f2cffb68b3"
+    },
+    {
+      "path": "dist/editorial/market.webp",
+      "size": 236548,
+      "sha256": "117e7111997103f9ac8898ef9a6631bed68e92051cea6246ac46fcd9448c7044"
+    },
+    {
+      "path": "dist/editorial/production.webp",
+      "size": 450438,
+      "sha256": "18d1a798a40110eb20ffac65257b8d08ffa9935bcb446e1432cc8a469520f563"
+    },
+    {
+      "path": "dist/editorial/weather.webp",
+      "size": 390652,
+      "sha256": "854602670b666198b15af58fc976528d82693ecd2387179bc76e46eb384dd433"
+    },
+    {
+      "path": "dist/favicon-16x16.png",
+      "size": 801,
+      "sha256": "06c9c3468f81c367b02087ae7c8d637874506b6717031b5ecf4f3f8c0c2a2bec"
+    },
+    {
+      "path": "dist/favicon-32x32.png",
+      "size": 2206,
+      "sha256": "641eab6fbc06a05b45fc876c4f9d1820b542ff1d7c16a72a51984d3e9b736456"
+    },
+    {
+      "path": "dist/favicon.ico",
+      "size": 12495,
+      "sha256": "d6a224bd1028e4e91a9e38ce26800a0c0b49f4f33c5704474e1f305d583a73d7"
+    },
+    {
+      "path": "dist/index.html",
+      "size": 34996,
+      "sha256": "933229782b5fabb5c69c70741a20def3f751b2d36658f18c28e06df26cce2806"
+    },
+    {
+      "path": "dist/insights/euroseeds-2026-congress-valencia/index.html",
+      "size": 8238,
+      "sha256": "5627386009b723a7cdd958a4ff4a67ba378ba5b5080ca2d62260ada6c9ac9a0f"
+    },
+    {
+      "path": "dist/insights/index.html",
+      "size": 7847,
+      "sha256": "fea5d4e464d7fed47574302d3a3e599c9d0c983f5b460d3d6d6687e167ecbf19"
+    },
+    {
+      "path": "dist/insights/interpom-2026-europe-potato-value-chain/index.html",
+      "size": 8623,
+      "sha256": "8bfd871ccc3a50ebf424230205fcb3917f05ed7ff046b03a70ed90add2e30872"
+    },
+    {
+      "path": "dist/insights/lagrenas-contract-seed-multiplication-lithuania/index.html",
+      "size": 8398,
+      "sha256": "fcdb2f45a4e469b73087cdc3e5188b2ae493e29bdfaf691afe4ac6bed9b0977a"
+    },
+    {
+      "path": "dist/market/alfalfa-lucerne/index.html",
+      "size": 9691,
+      "sha256": "d2b028f052bd33bb0bac5f2432bd4dfdfade8c6032efcbd65591aceb70cc4b1a"
+    },
+    {
+      "path": "dist/market/catch-crops/index.html",
+      "size": 29568,
+      "sha256": "b87e5deb29aaef213f1e32a03f24f2d2da85435c3179dd17219c312c029a1a9c"
+    },
+    {
+      "path": "dist/market/cereals/index.html",
+      "size": 14010,
+      "sha256": "a7699e98d5294cc6f2c0b66b368cb626afb01ba3c1d05f5fa1ca79c30127894f"
+    },
+    {
+      "path": "dist/market/cereals-pulses/index.html",
+      "size": 14024,
+      "sha256": "e7d40f2ccaf1f2ad27dd474c4e9e54401b7eac4154d28167eb6731e472ad457f"
+    },
+    {
+      "path": "dist/market/field-peas/index.html",
+      "size": 9637,
+      "sha256": "c6de071f1cf32af07090673f46b32ea74609cff275c13ac98418ba861d9433cb"
+    },
+    {
+      "path": "dist/market/flax-linseed-for-sowing/index.html",
+      "size": 9759,
+      "sha256": "69d16f065817ad16088b3611251e974e40ffe4e04d9db2da92f90e4a170f62a8"
+    },
+    {
+      "path": "dist/market/fodder-amenity/index.html",
+      "size": 21731,
+      "sha256": "bd2b47167064aa5e4975d3e09469a4cc40f18bde74bbf1832410d355aeb82b8d"
+    },
+    {
+      "path": "dist/market/fodder-grasses/index.html",
+      "size": 21731,
+      "sha256": "035f0d8c1d48508b8148eed13bee70786b11587b940babfa38aa9945408fb367"
+    },
+    {
+      "path": "dist/market/index.html",
+      "size": 8193,
+      "sha256": "df86b4e542c1100bf676f4ad32865e13d90f56a44e1dd6d58425e031456a5699"
+    },
+    {
+      "path": "dist/market/italian-ryegrass/index.html",
+      "size": 9696,
+      "sha256": "168d440a1ee05da787b1c1ebdcd8cb705f7f6020950d371bdccccd93274c8185"
+    },
+    {
+      "path": "dist/market/kentucky-bluegrass/index.html",
+      "size": 9693,
+      "sha256": "60d87c6c482769f2d829d474b20dfc0bc62aab061dd9d596812e88fe5223a160"
+    },
+    {
+      "path": "dist/market/lupins/index.html",
+      "size": 9592,
+      "sha256": "e55d881eb52af2dbb5ea7d6888e47edea6b4bca12782ab220a7e2aa28f9011bd"
+    },
+    {
+      "path": "dist/market/maize-sorghum/index.html",
+      "size": 6707,
+      "sha256": "54c396ea8a75d1287aad3101a0f27ab6e64b39f9ccbe60cab9ab27d79fbb16ef"
+    },
+    {
+      "path": "dist/market/meadow-fescue/index.html",
+      "size": 9657,
+      "sha256": "a8e3d77b59c79bf5284a187992d1177106419b6a205d7b0d88c373194fbeecc2"
+    },
+    {
+      "path": "dist/market/mustard-seed-for-sowing/index.html",
+      "size": 9768,
+      "sha256": "9c0c0d23e20eb37900d0f1053f473f7fa8efc53c648905c480eda4f39a49cada"
+    },
+    {
+      "path": "dist/market/oil-fibre/index.html",
+      "size": 12055,
+      "sha256": "d877f3c74608e21fea694be415699ecdba55f09e88c16f1ad2d49db2f9cef6f9"
+    },
+    {
+      "path": "dist/market/perennial-ryegrass/index.html",
+      "size": 9714,
+      "sha256": "4750305cc59d7e8760332967d96691cdffb75c8fa4e1cf4593b25394c82b9e8a"
+    },
+    {
+      "path": "dist/market/pulses-legumes/index.html",
+      "size": 14024,
+      "sha256": "271bc6d53ece96627a8a86b6855962b653ec79a1cbaaed65ada3992a3e5a6d2f"
+    },
+    {
+      "path": "dist/market/red-clover/index.html",
+      "size": 9635,
+      "sha256": "7b8066f5f5190d68bab69b062071e90a3e531cd73e0c7cab2ef7af37b46cd72e"
+    },
+    {
+      "path": "dist/market/red-fescue/index.html",
+      "size": 9627,
+      "sha256": "a8d507372e684c03107ecd5ec071c27ff648ffb5f80abe215bb8032244f0dc6b"
+    },
+    {
+      "path": "dist/market/seeds/alfalfa/index.html",
+      "size": 15329,
+      "sha256": "3f3031c371c99426c57addd352269e33202e43b96b264e57dd06e1787fe6a922"
+    },
+    {
+      "path": "dist/market/seeds/alsike-clover/index.html",
+      "size": 10328,
+      "sha256": "1ea744d89c5d143e52f92ca77ac5dee1b4b3c2cee69216519aef02806b2fb116"
+    },
+    {
+      "path": "dist/market/seeds/balansa-clover/index.html",
+      "size": 9272,
+      "sha256": "fcbb5f91f672eeab6bdd9f3bc72ac9132bb1549c95231e63463adb197cdf9baf"
+    },
+    {
+      "path": "dist/market/seeds/barley/index.html",
+      "size": 21481,
+      "sha256": "42089ec302a0834425cfa3dc880140b02e25ca9e34b0d4320eb9ccaebc5b5058"
+    },
+    {
+      "path": "dist/market/seeds/berseem-clover/index.html",
+      "size": 12327,
+      "sha256": "e9b6bf2b8fd7a9a691335892ba76ec113788e56547166b8a569269d7559569f5"
+    },
+    {
+      "path": "dist/market/seeds/birdsfoot-trefoil/index.html",
+      "size": 9281,
+      "sha256": "b04905d90d1a2073a36aa0f4add6fb0ffe94f57448012cc9066fb54d82cddefe"
+    },
+    {
+      "path": "dist/market/seeds/black-medick/index.html",
+      "size": 7725,
+      "sha256": "bf38262775adec355a888354549b54bbfe616ca3f57ac5274f98436061435246"
+    },
+    {
+      "path": "dist/market/seeds/black-mustard/index.html",
+      "size": 5978,
+      "sha256": "36cf9963665ff799503499b9d0f6cc0dea817566c0b0fbe302920cfdcc23a92b"
+    },
+    {
+      "path": "dist/market/seeds/black-oat/index.html",
+      "size": 11018,
+      "sha256": "7787e4a65684bac298b7586602bcbab7f889fb21a318b55f21e425fb89351564"
+    },
+    {
+      "path": "dist/market/seeds/brown-mustard/index.html",
+      "size": 6062,
+      "sha256": "d45da948b28e05a5fa7b3196168fbeb2cd6a72841f0f5d38725b385c25694b8b"
+    },
+    {
+      "path": "dist/market/seeds/buckwheat/index.html",
+      "size": 15002,
+      "sha256": "167a3685ff3fa7d29bd98b25e2b8fa1f96dee79138801a05424a8ee677886b82"
+    },
+    {
+      "path": "dist/market/seeds/camelina/index.html",
+      "size": 8098,
+      "sha256": "de14e19e47a9513e49178c185133863d1b3f5980e8547f2b234914992bd83423"
+    },
+    {
+      "path": "dist/market/seeds/caraway/index.html",
+      "size": 8376,
+      "sha256": "0cc6ae90de57631e48427c2802d409d01c9b231754f469925cd31bb3ec863ab8"
+    },
+    {
+      "path": "dist/market/seeds/carrot/index.html",
+      "size": 5995,
+      "sha256": "750ca54a0d179fe8bb9cad907c5e42bb7fef4995d218ac15563852e3fee1ffda"
+    },
+    {
+      "path": "dist/market/seeds/chickpea/index.html",
+      "size": 9985,
+      "sha256": "91a8dc77db1b7c3d55bc7cf59cedf94c3fb69b9b4a23547620573c896cba3357"
+    },
+    {
+      "path": "dist/market/seeds/chicory/index.html",
+      "size": 6060,
+      "sha256": "ea82d8b596c4749a76721104c7f5b51555db24c506072e4a6f0a03058c8b5078"
+    },
+    {
+      "path": "dist/market/seeds/cocksfoot/index.html",
+      "size": 11227,
+      "sha256": "6541dea11ff7a01522d951c1ecbf36dc24e30f28310ea4d7342e6fabf6073815"
+    },
+    {
+      "path": "dist/market/seeds/common-vetch/index.html",
+      "size": 15770,
+      "sha256": "beaf01dbc343175e11305f93502ad5b1e68adca3a3ecc221d12eb8b3409d06ea"
+    },
+    {
+      "path": "dist/market/seeds/coriander/index.html",
+      "size": 5790,
+      "sha256": "d33746ca5e91b551ab5ea5077e33f45dff76ca9681a521faed0fd597df69ff0c"
+    },
+    {
+      "path": "dist/market/seeds/crimson-clover/index.html",
+      "size": 14650,
+      "sha256": "1780cbb231b50db80645e55f5976e3c3ef971c55d4dbe990ebbbb0d5150dc2cc"
+    },
+    {
+      "path": "dist/market/seeds/dill/index.html",
+      "size": 5755,
+      "sha256": "82913db29d9f0ad1f3121f41477f4dcbe6a095790014cf623c5ccdb939ce9431"
+    },
+    {
+      "path": "dist/market/seeds/faba-bean/index.html",
+      "size": 15033,
+      "sha256": "7947ca08e5a3fbea56d56ff5688359cf7a4a5a9e8d9e62ec03f9df22b40b8e59"
+    },
+    {
+      "path": "dist/market/seeds/festulolium/index.html",
+      "size": 10865,
+      "sha256": "ea67cdc989a5a8e617d702f99f757cadae864891460d3e98a634f45d1177b64c"
+    },
+    {
+      "path": "dist/market/seeds/field-pea/index.html",
+      "size": 16638,
+      "sha256": "b1a1448a588404e8e93ca129f945658ed9acb7cdfce369e525a5f2370f74266a"
+    },
+    {
+      "path": "dist/market/seeds/flax/index.html",
+      "size": 15649,
+      "sha256": "7798fcd4a04c95cfe7c728d1a353347e89193119906f2ae363b7c831c19ca9cd"
+    },
+    {
+      "path": "dist/market/seeds/fodder-beet/index.html",
+      "size": 6472,
+      "sha256": "492e5cac14e54ef1a42982bac720ceb18140d720dba17970b09bcc22820d0cbf"
+    },
+    {
+      "path": "dist/market/seeds/fodder-kale/index.html",
+      "size": 6112,
+      "sha256": "3f24398c5f82b84b237ab0d261f7681c2e90a397c8964d76858cb9c971745e2c"
+    },
+    {
+      "path": "dist/market/seeds/fodder-turnip/index.html",
+      "size": 6205,
+      "sha256": "5a807934851fa7b1ec7e928da6b49c250c104cac8b2de939dcc973e335779ed5"
+    },
+    {
+      "path": "dist/market/seeds/hemp/index.html",
+      "size": 13291,
+      "sha256": "c2feac2dd4bf3829daf6171031405603cf570935ff2d26a51b3bd7fb51a37d6f"
+    },
+    {
+      "path": "dist/market/seeds/hungarian-vetch/index.html",
+      "size": 10588,
+      "sha256": "1cb98006bb9042a2f02a34c514d082d0ab1e6e66ac0830582411e226aff3db57"
+    },
+    {
+      "path": "dist/market/seeds/hybrid-ryegrass/index.html",
+      "size": 11527,
+      "sha256": "eec0dd0f68af03f64516127d77fe55605567bd177b56826292489ea2fd49dcd7"
+    },
+    {
+      "path": "dist/market/seeds/italian-ryegrass/index.html",
+      "size": 17062,
+      "sha256": "cea01bc22b80f92fa254b915b8d02bf0d36bdbd24e0b3ff1e5add5f6743585d4"
+    },
+    {
+      "path": "dist/market/seeds/meadow-fescue/index.html",
+      "size": 11351,
+      "sha256": "f01592788ea3ac67188a56d0c0cff7e280a544f767d480ca3878ac5b60fc9885"
+    },
+    {
+      "path": "dist/market/seeds/narrow-leaved-lupin/index.html",
+      "size": 6967,
+      "sha256": "8d9563be548bef95b597467caffda47c96430514efb0bf7ec7f8868997e3f97c"
+    },
+    {
+      "path": "dist/market/seeds/niger/index.html",
+      "size": 6256,
+      "sha256": "9472a689b1ba156d06546c53969271c7767b8787a14f598bf73434054b6ee3c5"
+    },
+    {
+      "path": "dist/market/seeds/oat/index.html",
+      "size": 20085,
+      "sha256": "211b53bfe4ec1828e6e2255c38ef904b04cd80da36bd37debabb15b80a07bee0"
+    },
+    {
+      "path": "dist/market/seeds/oil-radish/index.html",
+      "size": 6145,
+      "sha256": "4a00db3dcff1cea539c99bc47c17e2b0f86c37831e04f9751a8b1d888ce930ad"
+    },
+    {
+      "path": "dist/market/seeds/perennial-ryegrass/index.html",
+      "size": 13333,
+      "sha256": "a8932c81f04b7a5264c862a8de2b0b6f86b720ff6e1cd322b7166d250a5b6b33"
+    },
+    {
+      "path": "dist/market/seeds/persian-clover/index.html",
+      "size": 11961,
+      "sha256": "7e525acdb994a501b641af5f0c405a6793148eb71763e9320bcbac989e3ad982"
+    },
+    {
+      "path": "dist/market/seeds/phacelia/index.html",
+      "size": 11431,
+      "sha256": "0eb9ba8432170a8e46e56a5757334c07e572840ececc99c73d2682c4309e2d34"
+    },
+    {
+      "path": "dist/market/seeds/proso-millet/index.html",
+      "size": 10250,
+      "sha256": "b890938629a8b3617fd9b527ccfcf25c900d056c9f667c35cbb5c4e0fcc01822"
+    },
+    {
+      "path": "dist/market/seeds/purple-vetch/index.html",
+      "size": 8258,
+      "sha256": "0c38267543c9422944af81b0c3ebee5836ec475e2cea372ba6602bece47764d5"
+    },
+    {
+      "path": "dist/market/seeds/quinoa/index.html",
+      "size": 5774,
+      "sha256": "1e03cbed009d85fd3fe6f22f88922eb518fe473d75d2e1047842b87a9c88d469"
+    },
+    {
+      "path": "dist/market/seeds/rapeseed/index.html",
+      "size": 13370,
+      "sha256": "094a08d6d03bf1108708abba64b2edbc0e412fde7a0846907d8fe37167674be1"
+    },
+    {
+      "path": "dist/market/seeds/red-clover/index.html",
+      "size": 16039,
+      "sha256": "1e3a4b01381df5be17ce838579aa71c3ffc87f440e39824ef643983d6dc1bcd3"
+    },
+    {
+      "path": "dist/market/seeds/rye/index.html",
+      "size": 14948,
+      "sha256": "3132d5c3335b1498b53cd1fdad8a2e5abd2d6e7c47c528b77b94ad3fca35d271"
+    },
+    {
+      "path": "dist/market/seeds/safflower/index.html",
+      "size": 10257,
+      "sha256": "f3f5591d41b88d3620c5d14c4d0666a15bd10c799625cd1de5e62749f111b08e"
+    },
+    {
+      "path": "dist/market/seeds/sainfoin/index.html",
+      "size": 10642,
+      "sha256": "4f4905ba74e14307d210267140ab60d24f0c9c90a69dc4e9bfc2f61064d2bb1c"
+    },
+    {
+      "path": "dist/market/seeds/seed-potatoes/index.html",
+      "size": 5953,
+      "sha256": "179623f7174a95013c1dba48f1a4eef4f02477ac75c41a608c34e4be315a0021"
+    },
+    {
+      "path": "dist/market/seeds/sorghum/index.html",
+      "size": 9877,
+      "sha256": "798188e0a577c85fed0ae04368f1995e83f1208db0a9d8f39d7f35e6c7729b96"
+    },
+    {
+      "path": "dist/market/seeds/sorghum-sudan-hybrid/index.html",
+      "size": 6034,
+      "sha256": "791dca9545b1f4079e9e661912878b8783223472e2be680b9e5974df01a81aec"
+    },
+    {
+      "path": "dist/market/seeds/soybean/index.html",
+      "size": 11040,
+      "sha256": "c87bd8fbd7cf6dbd0cc6eea397c38bdbfeadae7ae33ccbb2f71b641fe54df6d7"
+    },
+    {
+      "path": "dist/market/seeds/subterranean-clover/index.html",
+      "size": 6195,
+      "sha256": "ce00693cf5353a155351e37640b2a5d4fb9feb1e69ef4b8c996e0b7b0b8b596f"
+    },
+    {
+      "path": "dist/market/seeds/sudan-grass/index.html",
+      "size": 6171,
+      "sha256": "3eb1bda28f1b876e1acf9a798c31a030304d53e16dc5966ef091e768186953f3"
+    },
+    {
+      "path": "dist/market/seeds/sugar-beet/index.html",
+      "size": 5976,
+      "sha256": "a225fd3a63f9d1299093f42b704f1e4579082ce854e4d0045ff647b13d7f5b57"
+    },
+    {
+      "path": "dist/market/seeds/sunflower/index.html",
+      "size": 11437,
+      "sha256": "272df3f52acca608db15fa038d331108f7743cb1e58bc4d3544ac86c5c48aae0"
+    },
+    {
+      "path": "dist/market/seeds/tall-fescue/index.html",
+      "size": 7005,
+      "sha256": "f3a1ddb9a8855d96d8beaa56b077f8e1b4f37f3508cbda95c6ee6029acc5f023"
+    },
+    {
+      "path": "dist/market/seeds/triticale/index.html",
+      "size": 18267,
+      "sha256": "bba6481d5c86d96cfbd704691edc9d75d5f8e3e3038fe43e1342da0f66d1fe94"
+    },
+    {
+      "path": "dist/market/seeds/turnip-rape/index.html",
+      "size": 10565,
+      "sha256": "d019cba1e4cf37e3d7a8e59e376868f24cf4528c237c92a20c5fc34e18b84b11"
+    },
+    {
+      "path": "dist/market/seeds/westerwold-ryegrass/index.html",
+      "size": 6261,
+      "sha256": "6c540ef98b24eb2a413b02df85242a24c1397ef63413caf22c293f775bf93094"
+    },
+    {
+      "path": "dist/market/seeds/wheat/index.html",
+      "size": 19644,
+      "sha256": "139ba60707c80f5b0f2b2b1cc7459fd3c09bb3cb3af13da60b524f7719e159e3"
+    },
+    {
+      "path": "dist/market/seeds/white-clover/index.html",
+      "size": 10558,
+      "sha256": "ac9d1a07118dae3d1ab2913709bcc8d6c414732609b7c0758ca4002cc04e77b0"
+    },
+    {
+      "path": "dist/market/seeds/white-lupin/index.html",
+      "size": 6839,
+      "sha256": "5c09a723e42d348bae10199f1284e2bd53170daffd41fdb1174fee0eadd199a4"
+    },
+    {
+      "path": "dist/market/seeds/white-mustard/index.html",
+      "size": 6873,
+      "sha256": "3529397b4103aabfa3f9cb936fdaf5ac18f847ee5604091c0d796e38aa4463d8"
+    },
+    {
+      "path": "dist/market/seeds/white-sweetclover/index.html",
+      "size": 6542,
+      "sha256": "17ce93387b17a0e861d9d56f7dea89b1b60ef28336dbb0a027ba84d94b024ca8"
+    },
+    {
+      "path": "dist/market/seeds/winter-vetch/index.html",
+      "size": 16039,
+      "sha256": "3b551ac79148ca680d0765d89932cd894b5aeba5b2e2c6af12eb76eddde3562a"
+    },
+    {
+      "path": "dist/market/seeds/yellow-lupin/index.html",
+      "size": 6006,
+      "sha256": "3b4d9f7ea70702506f26f32605ee4c1949d11a258dfa07519632af4624ce8009"
+    },
+    {
+      "path": "dist/market/seeds/yellow-sweetclover/index.html",
+      "size": 6579,
+      "sha256": "98affe19df3531de8b8743154b2149433fa28efd201fb0b4930fd16a0bd74f5f"
+    },
+    {
+      "path": "dist/market/vegetables/index.html",
+      "size": 7184,
+      "sha256": "e99884209290818158c782f18495617bd1f0f670f29b3c727780d121ee21d5b0"
+    },
+    {
+      "path": "dist/methodology/index.html",
+      "size": 8458,
+      "sha256": "56933ddc7914921a8d0ecb00c86ce51a31a3c89e8eb4185b15d09f91998bc2df"
+    },
+    {
+      "path": "dist/news/eu-agronomist-latvia-autumn-establishment/index.html",
+      "size": 9737,
+      "sha256": "5fa0053b0552f2ae0992d5e70aa6b7fb5c355bba03f72285d46ccaaf2e027c19"
+    },
+    {
+      "path": "dist/news/eu-events-euroseeds-valencia-october-2026/index.html",
+      "size": 9515,
+      "sha256": "92d2a632a9183f3657f1523f41e5a132f62b3a2cd23eb36995f4e9ca965d7444"
+    },
+    {
+      "path": "dist/news/eu-trade-market-nak-interim-seed-potato-checks/index.html",
+      "size": 9644,
+      "sha256": "8001869d0a042be3d67759bccc70edad2c4dc50de45f0b8a43ca98115a927b9e"
+    },
+    {
+      "path": "dist/news/eu-weather-september-2026-baseline/index.html",
+      "size": 10719,
+      "sha256": "188dd27db3979927bb5d53814fd3d5492f817b7727c3ddbea7043febb05aca50"
+    },
+    {
+      "path": "dist/news/europe-potato-crop-drought-estimate-2026/index.html",
+      "size": 8218,
+      "sha256": "abc84d6618a958d927642b57e0b54a4e8a98e97c203a44d20cf5bd0641851a8b"
+    },
+    {
+      "path": "dist/news/europe-summer-crop-heat-drought-2026/index.html",
+      "size": 7978,
+      "sha256": "a0b7c9fc0b82b55766b4088e500cb4c9e350d9ec692eceaecffbdbc6eef64cf7"
+    },
+    {
+      "path": "dist/news/index.html",
+      "size": 22139,
+      "sha256": "79b21807acb5f3a50d18c3ba9991a85934521f55b494d4b2ab509fe8f36710e1"
+    },
+    {
+      "path": "dist/news/interpom-2026-exhibitor-profile/index.html",
+      "size": 7804,
+      "sha256": "cfa9d49fa6deb96041e1a67da31e464e9b57f0a56f96ce9a7ebaff06b8db0694"
+    },
+    {
+      "path": "dist/news/northern-ireland-seed-potato-rules-update-2026/index.html",
+      "size": 8258,
+      "sha256": "1f11ff5c9ea869e73901f29c383724b6951fe61be03b74192e01625b54de9355"
+    },
+    {
+      "path": "dist/news-visuals/eu-agronomist-latvia-autumn-establishment.svg",
+      "size": 1367,
+      "sha256": "ffeb3a429b4dd1057fdadf3a9f263e4ce3ae635aa88b361ec070d24190813338"
+    },
+    {
+      "path": "dist/news-visuals/eu-events-euroseeds-valencia-october-2026.svg",
+      "size": 775,
+      "sha256": "ef37c4fde192e6b873ab069e119fc5681cf4b1ed196170367b743712b7875137"
+    },
+    {
+      "path": "dist/news-visuals/eu-trade-market-nak-interim-seed-potato-checks.svg",
+      "size": 593,
+      "sha256": "61266e98e800b7e782b771040cea74361e61f37db07b085583cf7dd34406437f"
+    },
+    {
+      "path": "dist/news-visuals/eu-weather-september-2026-baseline.svg",
+      "size": 1098,
+      "sha256": "8ff840a29620e53350dcd0c9775f911b39e628d10439bc25082ced2bd8faeecd"
+    },
+    {
+      "path": "dist/news-visuals/europe-potato-crop-drought-estimate-2026.svg",
+      "size": 922,
+      "sha256": "6d357d67c4cc1e43a6a026303a2b5270ed34e66fbd1529820bee20fd677a0d53"
+    },
+    {
+      "path": "dist/news-visuals/europe-summer-crop-heat-drought-2026.svg",
+      "size": 965,
+      "sha256": "a4b0257459159b95bb3e9f55f56009c714d4e6e35101f8b17ef0879d9fff10b5"
+    },
+    {
+      "path": "dist/news-visuals/interpom-2026-exhibitor-profile.svg",
+      "size": 552,
+      "sha256": "8b8dd8d45c855721d7dfcca7b6a4453b9e6722c1e27dd87cea480a0752b6496f"
+    },
+    {
+      "path": "dist/news-visuals/northern-ireland-seed-potato-rules-update-2026.svg",
+      "size": 751,
+      "sha256": "fd0768d882bb560fccbfab721f9eaa4adf0fb548780a6bd9a4c2fab28bd74398"
+    },
+    {
+      "path": "dist/offer/index.html",
+      "size": 4992,
+      "sha256": "1a1fa102b8fbb0f23125b2c60940d793ae71ae5efe2e24cf06f86ef6b0f370c2"
+    },
+    {
+      "path": "dist/privacy/index.html",
+      "size": 4553,
+      "sha256": "0981729594fee527701456ec795bb6649a27c9ec95f0c5f156603edab79adcb2"
+    },
+    {
+      "path": "dist/production-intelligence/index.html",
+      "size": 22458,
+      "sha256": "2f5b7a85249c348026ba5148a90cbb0c9bec09e1d468ca19c42c35e2568560a2"
+    },
+    {
+      "path": "dist/rfq/index.html",
+      "size": 4990,
+      "sha256": "f0d52957fd429f913c35b4ce22123db159f89b0ac5c513729de33e32182bf7ed"
+    },
+    {
+      "path": "dist/robots.txt",
+      "size": 133,
+      "sha256": "4344efd1fe953672675f2498332b0bea0490445c14a1685d5ecd20984221c25a"
+    },
+    {
+      "path": "dist/seedtrade-official-logo-footer.png",
+      "size": 12324,
+      "sha256": "ced692143660e2f4a2a9aa46c9fbadb0efaf2a3e9934a6650b9995379bd7d783"
+    },
+    {
+      "path": "dist/seedtrade-official-logo.png",
+      "size": 12324,
+      "sha256": "4698ad58b6d85ac6aea508cff72afa8e99b7b3e4a1e36d0891b93482e993e3de"
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "size": 3003,
+      "sha256": "34a6991d4ecc324afb4542ae8e97bca4bfe5ad3ab74822c0967ecfd33b0584cb"
+    },
+    {
+      "path": "dist/terms/index.html",
+      "size": 4545,
+      "sha256": "bd19d38c40f4a12c825db4a7724d53ae91148109a9c2a434147ff22b62dea830"
+    },
+    {
+      "path": "dist/trade-pulse/index.html",
+      "size": 24458,
+      "sha256": "b1b2fa9f66916da79dcb1423f8bce1c19f6c921dd2109e29c4730230511e2c6f"
+    },
+    {
+      "path": "dist/weather-evidence/index.html",
+      "size": 46137,
+      "sha256": "6771ea2bef9047d7890c728ae98171756b26d4aa6a220af38c647a69fcb14283"
+    },
+    {
+      "path": "docs/DAILY_NEWS_VISUALS_V1.md",
+      "size": 2872,
+      "sha256": "6cd6876cf13ae7e101e5a3b76cade878d5f51355b9a515745b3a6485667030cd"
+    },
+    {
+      "path": "docs/RESPONSIVE_PRODUCTION_FIXES_V1.md",
+      "size": 2938,
+      "sha256": "b61fece842b008393b87cfb195b33988b0a0792b78c538a0e627e03ea3732131"
+    },
+    {
+      "path": "docs/crop-master-v1/CATCH_CROP_RECOVERY_AUDIT_V1.csv",
+      "size": 19861,
+      "sha256": "8d640ab0df819a1fb40594f0a298cfb21ad299a23c30844b3f30e8a82b2dab2e"
+    },
+    {
+      "path": "docs/crop-master-v1/CATCH_CROP_RECOVERY_AUDIT_V1.json",
+      "size": 35840,
+      "sha256": "d237e9d1430d731d0ee502b6ccf11cb49128a6866d5f30f5f2ccbc1c0aca258c"
+    },
+    {
+      "path": "docs/crop-master-v1/CATEGORY_AUDIT_V1.csv",
+      "size": 3844,
+      "sha256": "799e7bcf71819efba59dd7202fea007b2f5b3263299aecf78bb2abddc7f961cd"
+    },
+    {
+      "path": "docs/crop-master-v1/CATEGORY_AUDIT_V1.json",
+      "size": 6073,
+      "sha256": "99878d71d58907fba88885ecfdc1adf287f9d2cc360c99fcf0e3f90d2da85b8c"
+    },
+    {
+      "path": "docs/crop-master-v1/CATEGORY_TAXONOMY_V1.csv",
+      "size": 1578,
+      "sha256": "2b6a57c30c1919e9f68c34fd8b9e39d41fddb76435e6816b45f33c695b83754f"
+    },
+    {
+      "path": "docs/crop-master-v1/CATEGORY_TAXONOMY_V1.json",
+      "size": 2248,
+      "sha256": "74c3cef7b0cb9acc4e4e2141f3b1888dafae9513df51a3d1b6a2d7d5c888c38f"
+    },
+    {
+      "path": "docs/crop-master-v1/CN_MAPPINGS_V1.csv",
+      "size": 91703,
+      "sha256": "d9fc8e1fb929109fd779b8c26ad62641b1b45762c1ef09ac55e151da87d26897"
+    },
+    {
+      "path": "docs/crop-master-v1/CN_MAPPINGS_V1.json",
+      "size": 150317,
+      "sha256": "2861a27046b5cd8031e23436a78eb3ebc83c4ad0ae90edb74dba836d64521017"
+    },
+    {
+      "path": "docs/crop-master-v1/CROP_MASTER_V1.csv",
+      "size": 641298,
+      "sha256": "2a320b9dfbb847fcda5849f56fe6fa58835cabb209b5ee2c5bf951cdc6b583b6"
+    },
+    {
+      "path": "docs/crop-master-v1/CROP_MASTER_V1.json",
+      "size": 862880,
+      "sha256": "de0da445b9324a1aa28e7f91b084b12cab913f884213726f960e804960f8f48c"
+    },
+    {
+      "path": "docs/crop-master-v1/PRODUCTION_MAPPINGS_V1.csv",
+      "size": 29242,
+      "sha256": "8a232d48daec88f21a87bfc719734ceb72655a7c264665a661b3cc6f04f9b6fb"
+    },
+    {
+      "path": "docs/crop-master-v1/PRODUCTION_MAPPINGS_V1.json",
+      "size": 56542,
+      "sha256": "3d5cf1c5ffeb739f97862cf7e8c12aee15f5a91b24b0e980cc8998b5609a5c65"
+    },
+    {
+      "path": "docs/crop-master-v1/PROVENANCE_MANIFEST.json",
+      "size": 5131,
+      "sha256": "b4af28f4eccab2bf14455a67a23606efbb09dceae3a84978af5391a4af9ae19f"
+    },
+    {
+      "path": "docs/crop-master-v1/REPORT.md",
+      "size": 6872,
+      "sha256": "cff2a1f94863cbb047495652616804b897cd5b6cd4f8816e1585c885038ac81b"
+    },
+    {
+      "path": "docs/crop-master-v1/SOURCE_TAXONOMY_MAPPINGS_V1.csv",
+      "size": 139193,
+      "sha256": "55ab4fd6d017c50cf3672171b4a4fc4917d5764a6fbd279c37772fd8ec1bb783"
+    },
+    {
+      "path": "docs/crop-master-v1/SOURCE_TAXONOMY_MAPPINGS_V1.json",
+      "size": 167526,
+      "sha256": "23c7f945ac68f2f7151071150c3ca57db21f97b087acb31d12b30df6e8f6d1df"
+    },
+    {
+      "path": "docs/crop-master-v1/SPECIES_COVERAGE_V1.csv",
+      "size": 65137,
+      "sha256": "55fee51502a529adf39596589f0a2ed7224619c086c1322faa9da36c4d3f6ade"
+    },
+    {
+      "path": "docs/crop-master-v1/SPECIES_COVERAGE_V1.json",
+      "size": 140812,
+      "sha256": "0a33b8460b31b2cc2672a823b4d92bcf97f0e834b6b3e119fce6baf2a30e7447"
+    },
+    {
+      "path": "docs/crop-master-v1/SUMMARY.json",
+      "size": 952,
+      "sha256": "a60956433c8043430217165e83ced53bdfaf9625a32f88ea7e5d647480afaf40"
+    },
+    {
+      "path": "docs/crop-master-v1/TRADE_MAPPINGS_V1.csv",
+      "size": 24529,
+      "sha256": "7d12aa8a48e14eb697caf9b244d6beb138355dfce9b030ef15f0b2696bb360bd"
+    },
+    {
+      "path": "docs/crop-master-v1/TRADE_MAPPINGS_V1.json",
+      "size": 53379,
+      "sha256": "fe4c3c6b0adb0e8e0b1f8406812ac860086e10d76b575095fc268d009586ed27"
+    },
+    {
+      "path": "docs/crop-master-v1/USE_TAG_TAXONOMY_V1.csv",
+      "size": 169,
+      "sha256": "318068a66f0d749b9ad12b77421228daa91a0fcb665f9398e92f601cf8de1146"
+    },
+    {
+      "path": "docs/crop-master-v1/USE_TAG_TAXONOMY_V1.json",
+      "size": 468,
+      "sha256": "605e5dc166a98d9fedcbed82d7855ae20bfe2bc0f3c4d1a956c66de516d33db2"
+    },
+    {
+      "path": "docs/crop-master-v1/qa/BASELINE_RESEARCH_VERIFICATION.txt",
+      "size": 241,
+      "sha256": "4ac8e1bffb4bb3778611c7213caadd19df158185cc469e9fdd194159aaa93806"
+    },
+    {
+      "path": "docs/crop-master-v1/qa/QA_RESULT.json",
+      "size": 1710,
+      "sha256": "f8ad4f757f24009fa41e7c6fbda7ba70afaa3b9386a2868b8af93f583097b82a"
+    },
+    {
+      "path": "docs/crop-master-v1/qa/performance-current.json",
+      "size": 551,
+      "sha256": "104aab908b950cd2349d3ea0380de6f1e4d5b0efdc83cb263beee3033f63d27e"
+    },
+    {
+      "path": "docs/market-catalogue-v2/APPROVED_BASE_DIFF.patch",
+      "size": 30088,
+      "sha256": "5fddf0b62da1b517b2a5622286d5b2ec6a372fe1d223c2a577f81177a47bd50b"
+    },
+    {
+      "path": "docs/market-catalogue-v2/BUILD_EVIDENCE.json",
+      "size": 1382,
+      "sha256": "2356d29e38ea4c1fa82e788f3aed72e1033251754062307547a0214d1e6a8ff5"
+    },
+    {
+      "path": "docs/market-catalogue-v2/CHECKPOINT_METADATA.json",
+      "size": 2938,
+      "sha256": "8d9053a72da995da2d8f3f94e4e03203b507fa2fbe44e1024f641f4594dea63b"
+    },
+    {
+      "path": "docs/market-catalogue-v2/LOCAL_VERIFICATION_RECEIPT.json",
+      "size": 273,
+      "sha256": "b77397f6c11b52a2a1e76cddb0dd340ba29bfca36232bf5cc14d27f16323d0c4"
+    },
+    {
+      "path": "docs/market-catalogue-v2/PUBLIC_PROJECTION_QA.json",
+      "size": 524,
+      "sha256": "939305792895ee7ee9864c1bcdead5502641bc0baad60eb297e745cd39774584"
+    },
+    {
+      "path": "docs/market-catalogue-v2/QA_RESULT.json",
+      "size": 5024,
+      "sha256": "ca8df1f0f74fb926c000d6cdbab29e78d986cae243e501ff4ae8028349f00842"
+    },
+    {
+      "path": "docs/market-catalogue-v2/REPORT.md",
+      "size": 6678,
+      "sha256": "2ef4bd84f4798e3ca179e278ae63c358c79dd3bf066c1085e7e6d6b2db8224b7"
+    },
+    {
+      "path": "docs/market-catalogue-v2/VISUAL_PROVENANCE.json",
+      "size": 7035,
+      "sha256": "e85f1809f6ee0931e5c74210d8d2cc7787c125d95361951e5004ff97cceafc9a"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/MASTER_V2.json",
+      "size": 491943,
+      "sha256": "7fb011abcfdc6729e06bdb3e94ef7ca4e076f96cc40b948c36076302031f8daf"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/PRIORITY_65_BIOLOGICAL_TAXA.json",
+      "size": 19464,
+      "sha256": "991ad8fe813821119ac36c8ecee626ad324332be7d469830126426bf4096ad47"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/PRIORITY_65_CARD_DATA.json",
+      "size": 293045,
+      "sha256": "d84b680d10d31aefa872b98dd68143c5718562ce80a8b1f9b702539881099cd2"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/PRIORITY_65_CATEGORY_MAPPING.json",
+      "size": 6937,
+      "sha256": "1eec78cb16381519ad97907ef641e90357e3e0f944715652f4e593340ab78c18"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/PRIORITY_65_CATEGORY_SUMMARIES.json",
+      "size": 7139,
+      "sha256": "fab0a6f985a57f0fb50263ceb0430cd961e6d20ce2b492d62349858a85df1563"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/PROVENANCE.json",
+      "size": 16581,
+      "sha256": "9e5b87af6a5e017ab80807dbbf7b22b843ed531fe29a66708a1cd080a168a180"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/QA_REPORT.json",
+      "size": 5919,
+      "sha256": "2904723de86dbd71e79b311e29eb281970a6b66f6eebab07e9a26375f0af99eb"
+    },
+    {
+      "path": "docs/market-catalogue-v2/inputs/RECOVERY.json",
+      "size": 1205,
+      "sha256": "93342b40b0e578f34df61ff5454ae8b023dafe73f26cb80bc3ccfa17b4180b52"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/build.log",
+      "size": 2009,
+      "sha256": "19b63d18a0769640290acc21d9fae202f3ef04a044b9b241da4968550f33db01"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/checkpoint_diagnosis.json",
+      "size": 345,
+      "sha256": "dcb2d13ddb85791a07efd8a876392a7a0f52c1021307e788052064560bf8412e"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/hydration.log",
+      "size": 6792,
+      "sha256": "25aad2c00b953a08617d518ea31dfda78e2b3e154705017d8877e6826d92bd3b"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/i18n-ssr.log",
+      "size": 120,
+      "sha256": "a508ec07717f075d82b2962ef19512560f82b810b3aeca6104ec3e8433ea56a1"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/i18n.log",
+      "size": 176,
+      "sha256": "1f6f4338ec271b20817ddfba13635244e37c8bfc1e4522d1b179cb5124b7aa0b"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/node.log",
+      "size": 4232,
+      "sha256": "40b174d88c67ac1517f337cbc9a15c983664e7dc519ff753547b68650de48dfd"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/node_initial.log",
+      "size": 5306,
+      "sha256": "4fad134441e3223fbda0af1f86ff94428c108601cf6b0133da4fa1ffe022da83"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/python.log",
+      "size": 369,
+      "sha256": "92c6d89294e4733904aa154b5c8524e1521a9c298f200ccec3605662cce728e9"
+    },
+    {
+      "path": "docs/market-catalogue-v2/qa/python_initial.log",
+      "size": 27293,
+      "sha256": "81b3bb779db0fed53d6b29e6c3dd4bde672ab396a4fd8b38f1e634bc6d509bc4"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/catch-crops.png",
+      "size": 2839403,
+      "sha256": "fc6f7696e4df73986af201d089508fa5328d091a609860f4d26a0e8bdf4c5844"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/cereals.png",
+      "size": 2517162,
+      "sha256": "f493d5643290a57b86cd5a4afb768f917406a3affcc989e7bf50c71ab428c4b9"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/fodder-grasses.png",
+      "size": 2761410,
+      "sha256": "07550e09092848e4001f77ef5b19594646174acc8fa9c381f6889bc81c789261"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/maize-sorghum.png",
+      "size": 2618095,
+      "sha256": "082a7f3fbdcdd39f2b42c2d578da2b2aaa496fac68f0e01f4619ec91929b98e1"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/oil-fibre.png",
+      "size": 2593882,
+      "sha256": "17c8164e10145507d2d554eac59256b89344fb4bc404b59ba69b33f0fdf59920"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/pulses-legumes.png",
+      "size": 2307553,
+      "sha256": "fb4ac153bd63df770040bf006cb8c2410ac2511c0d91fed53eefaa79fc328b97"
+    },
+    {
+      "path": "docs/market-catalogue-v2/visual-originals/vegetables.png",
+      "size": 3022163,
+      "sha256": "0c261ff32ca8a98ade2bc46a903c4b7c90dbee904e949972a93f2d768cac3a2a"
+    },
+    {
+      "path": "docs/market-catalogue-v3/APPROVED_BASE_DIFF.patch",
+      "size": 31971,
+      "sha256": "9ffa66fa896148febd2741179537b1c72492ebbd0c25e03b73e319e259aab2be"
+    },
+    {
+      "path": "docs/market-catalogue-v3/BUILD_EVIDENCE.json",
+      "size": 1300,
+      "sha256": "586c92a865389a3309af969a5fe97a080dfcc0799efd50147a305846af2ae402"
+    },
+    {
+      "path": "docs/market-catalogue-v3/CHECKPOINT_METADATA.json",
+      "size": 3571,
+      "sha256": "3caa5ad87c9e510ec157779786147db7c746ec885a562748ae09ec6089f03a6a"
+    },
+    {
+      "path": "docs/market-catalogue-v3/LOCAL_VERIFICATION_RECEIPT.json",
+      "size": 273,
+      "sha256": "aef6a1ffb1a078d7014abd4bb1602886c871c05869c21b0af01068adf4ca4e7d"
+    },
+    {
+      "path": "docs/market-catalogue-v3/OWNER_VISUAL_PROVENANCE.json",
+      "size": 2206,
+      "sha256": "84a11e5493cc25bc38411213d3622d27ce3bbaeef9d747b7c8dd74734829ce26"
+    },
+    {
+      "path": "docs/market-catalogue-v3/PUBLIC_PROJECTION_QA.json",
+      "size": 524,
+      "sha256": "97116c13dcc8830f8a4a480ba6bc80c2b670c8c84edfeb310926da26f966b382"
+    },
+    {
+      "path": "docs/market-catalogue-v3/QA_RESULT.json",
+      "size": 5362,
+      "sha256": "7ab46ed57fbd926964d4ae947f3b07b65f81313db7a06248b8c075eae9607b08"
+    },
+    {
+      "path": "docs/market-catalogue-v3/REPORT.md",
+      "size": 6107,
+      "sha256": "17dbe8e8bf91887d64ca91f17b57d8add32d461c3466edd9a9190140dc384b06"
+    },
+    {
+      "path": "docs/market-catalogue-v3/V2_PRESERVATION.json",
+      "size": 509,
+      "sha256": "65863286f54c70e363f70f0b6643d09820ebcd2434e02679feef760ef7c3c29e"
+    },
+    {
+      "path": "docs/market-catalogue-v3/qa/build.log",
+      "size": 2009,
+      "sha256": "30b3725c4fc2c69740be4e3a186a7e2d3577b9a5c7a746065f30edcbaf8e68b3"
+    },
+    {
+      "path": "docs/market-catalogue-v3/qa/hydration.log",
+      "size": 7564,
+      "sha256": "8dde9203c827472e115cbed72d4316d1a7b74a33b0a6226ddab97d092492f320"
+    },
+    {
+      "path": "docs/market-catalogue-v3/qa/i18n-dom.log",
+      "size": 176,
+      "sha256": "65f5b317425e6e543f35c0f50ed5c0d23ab269b78e54b4f9368a10e499f6a036"
+    },
+    {
+      "path": "docs/market-catalogue-v3/qa/i18n-ssr.log",
+      "size": 120,
+      "sha256": "b7ad2142557a18a822fede78572c8a716dae7f8903ddfb9475949d39d262df61"
+    },
+    {
+      "path": "docs/market-catalogue-v3/qa/node.log",
+      "size": 4236,
+      "sha256": "4e039a880ade7e794f2de60da5286512b4f2337a8a4b9b94909f8d05cd3cf4b8"
+    },
+    {
+      "path": "docs/market-catalogue-v3/qa/python.log",
+      "size": 369,
+      "sha256": "354d595f7df9d719f3a6fdd6e92682a30bf41fbdd4ea86cf674c924251eeaf3a"
+    },
+    {
+      "path": "docs/mobile-news-production-fix/IMPLEMENTATION.md",
+      "size": 2031,
+      "sha256": "3177d0347eeaa844869f00a45f7063a08aad9ff623be79c2064de9bdc4b8bb4f"
+    },
+    {
+      "path": "docs/mobile-news-production-fix/VERIFICATION.json",
+      "size": 736,
+      "sha256": "291847ff5dbe32dba98b3bc5b59afd8ff7afc37895d3bf5cf8778e93fdb7403a"
+    },
+    {
+      "path": "docs/multisource-trade-v1/CN_HISTORY_EVIDENCE.json",
+      "size": 93970,
+      "sha256": "41eade8459b5535cbeb16af3f11be4f675cf663e9a148ad6ec318f17935023ba"
+    },
+    {
+      "path": "docs/multisource-trade-v1/COMEXT_UNIVERSE_QA.json",
+      "size": 944606,
+      "sha256": "7b39828d89f50989fec77fb9b103bc33f576c6eeba5d82cb4746e49fa394de7f"
+    },
+    {
+      "path": "docs/multisource-trade-v1/FINAL_DATA_QA.json",
+      "size": 645,
+      "sha256": "3054d98ca83fe5be9a24efb556aa2d6c583b59e55c65bbd871b2a8b084c9df2a"
+    },
+    {
+      "path": "docs/multisource-trade-v1/PRODUCTION_TRADE_INTERSECTION.csv",
+      "size": 16900,
+      "sha256": "388d884613e8a411b20f46d2a4bb13331ebdfed4413882bf8e41ec35571bd885"
+    },
+    {
+      "path": "docs/multisource-trade-v1/PRODUCTION_TRADE_INTERSECTION.json",
+      "size": 59803,
+      "sha256": "c5d12dedc021e765aa9afe07a49413376d9dcac8aa978216fef96cfdca778304"
+    },
+    {
+      "path": "docs/multisource-trade-v1/PROVENANCE_MANIFEST.json",
+      "size": 2427,
+      "sha256": "f9450e27623f1d2a6cc50d04b7e7654ba023d41fd67e1d6469f179c575a8de01"
+    },
+    {
+      "path": "docs/multisource-trade-v1/RECONCILIATION_RULES.md",
+      "size": 2952,
+      "sha256": "922005b10f5b820c778ae63875e69f1f8a4de26ac34114155a946d86f5257ad3"
+    },
+    {
+      "path": "docs/multisource-trade-v1/REPORT.md",
+      "size": 6637,
+      "sha256": "e26abd8d9eea2b36f2b77fe896ee99db41022f4c518bc92fc336f0d5c1dc2a97"
+    },
+    {
+      "path": "docs/multisource-trade-v1/RESEARCH_NOTES.md",
+      "size": 3928,
+      "sha256": "3f2efadc2c621abe030234ca31096285f7751f2ac9c2c3b8df68b9cebb5742ad"
+    },
+    {
+      "path": "docs/multisource-trade-v1/SOURCE_ARCHITECTURE.json",
+      "size": 2744,
+      "sha256": "33cbb9000fe6d628283108662cc7918f742b5e7e9c4e2da1d882aee5205efe13"
+    },
+    {
+      "path": "docs/multisource-trade-v1/SUMMARY.json",
+      "size": 3036,
+      "sha256": "e9ff97a5d4fa2c05117d87d8c95a1bf80d52eb29a5d87dbed9ef7b5463551820"
+    },
+    {
+      "path": "docs/multisource-trade-v1/TRADE_PULSE_RECALCULATION_AUDIT.json",
+      "size": 129710,
+      "sha256": "0e343b02ecaa97879980bba1eaecca456fac31b9d7ef8db8aa3521ea1b54a570"
+    },
+    {
+      "path": "docs/multisource-trade-v1/qa/BROWSER_QA.json",
+      "size": 448,
+      "sha256": "0eac033c9978e862c2ebb9a2ed1071c12c3de3795799394125292ced16e2fe7b"
+    },
+    {
+      "path": "docs/multisource-trade-v1/qa/GATES.json",
+      "size": 574,
+      "sha256": "cebd1ea7781959c62d9d191e65ba3678560299e77e912dd538247a60f5458cef"
+    },
+    {
+      "path": "docs/multisource-trade-v1/qa/PERFORMANCE.json",
+      "size": 702,
+      "sha256": "9cd7409448a33930077967e83593367dc472a684535400563432b2c950cfc226"
+    },
+    {
+      "path": "docs/production-intelligence/AUDIT.json",
+      "size": 2987,
+      "sha256": "9a5a9573ce8d3cbf707970602795dfabac62de739e93785f98b10bd6a37256e4"
+    },
+    {
+      "path": "docs/production-intelligence/IMPLEMENTATION.md",
+      "size": 4716,
+      "sha256": "d4ac1c7c0483dc0cff1f936344b41b0cf1df6328eff2fe4e3c4a6113c9fa29cd"
+    },
+    {
+      "path": "docs/production-intelligence/PROVENANCE.json",
+      "size": 138982,
+      "sha256": "43916b05a7abdb7581192fc15472a58bdc2cf34ebabc5f85ec6e0bd9e58a2b65"
+    },
+    {
+      "path": "docs/production-intelligence/QA_PERFORMANCE_AUDIT.json",
+      "size": 3248,
+      "sha256": "2188f938e27abdfde9a03d6a9a64137e7899df1a6542260a210942f46942a011"
+    },
+    {
+      "path": "docs/production-intelligence/QA_PERFORMANCE_REPORT.md",
+      "size": 3957,
+      "sha256": "4302825453f72b470b7b1544b1d19fc1a30ca5235d9ef5071b9266d60acf73cb"
+    },
+    {
+      "path": "docs/production-intelligence/qa/browser.json",
+      "size": 468,
+      "sha256": "233a11ccd8baad002533e4f5a5e45c10ce113bf3a0db8e9e18900dc852f4807d"
+    },
+    {
+      "path": "docs/production-intelligence/qa/performance-after.json",
+      "size": 551,
+      "sha256": "bbeb9c42f0b76bae87bda6c182d79bf7f4bd5343dc2df622b48f2f2df50bc27f"
+    },
+    {
+      "path": "docs/production-intelligence/qa/performance-before.json",
+      "size": 258,
+      "sha256": "cb6da532ec4dd0679b9273f54f83618ca79f87c3e278426afea8185d23aa6ef4"
+    },
+    {
+      "path": "docs/realistic-visuals/EDITORIAL_IMAGE_POLICY.md",
+      "size": 2059,
+      "sha256": "db623049259197a01c10f628e72502c8ad1fc70e676b584e7edc91a4e497dbaf"
+    },
+    {
+      "path": "docs/realistic-visuals/IMPLEMENTATION.md",
+      "size": 1371,
+      "sha256": "0185b2369d039ddbbc78052bf6bfae062d59d5e6daf489605ee5a806c7205efd"
+    },
+    {
+      "path": "docs/realistic-visuals/VERIFICATION.json",
+      "size": 2075,
+      "sha256": "98067c51f0ccacdc025c08f9e03a2a79be22a7ad568d72d165a0d5e21cf169ef"
+    },
+    {
+      "path": "docs/species-coverage-v1/CN_AUDIT_121.csv",
+      "size": 22741,
+      "sha256": "de4e8059f2c9eca06ba9dd55149f59885d7d695cc3391ac707854ef1d5099813"
+    },
+    {
+      "path": "docs/species-coverage-v1/CN_AUDIT_121.json",
+      "size": 49440,
+      "sha256": "31ab0ab709e7ee9f4928d0f1049ec7f4f4787a5dcce2e60ae3552521301d53f2"
+    },
+    {
+      "path": "docs/species-coverage-v1/HISTORICAL_DIRECTION.csv",
+      "size": 83117,
+      "sha256": "ebfa8662139452a452f6937a74c660869f9c2052841f73b19ef06bf94492ae74"
+    },
+    {
+      "path": "docs/species-coverage-v1/HISTORICAL_DIRECTION.json",
+      "size": 177018,
+      "sha256": "ceae6330786827da741105b49655db6a9004b8f50666ff5bc851add9cc16c38c"
+    },
+    {
+      "path": "docs/species-coverage-v1/NEW_COMPARABLE_SERIES.csv",
+      "size": 4516,
+      "sha256": "42b51ba717680197f879e802f330bee9f3c64a2e60008bdaeaf39ee3ecad767c"
+    },
+    {
+      "path": "docs/species-coverage-v1/NEW_COMPARABLE_SERIES.json",
+      "size": 9163,
+      "sha256": "7b8f62644f73dabe2c0a828ff9873a58bc23007b49319a6ac1c08975191450ed"
+    },
+    {
+      "path": "docs/species-coverage-v1/NEW_OFFICIAL_OBSERVATIONS.csv",
+      "size": 18743,
+      "sha256": "eba87367989ae26c52ccd336e9ea6b012e49266bd453c43b2a1d015e1e2f3484"
+    },
+    {
+      "path": "docs/species-coverage-v1/NEW_OFFICIAL_OBSERVATIONS.json",
+      "size": 39153,
+      "sha256": "1258297ec4043e183f7f7f75d9d13ccaa5421904418314da431f458030112a2c"
+    },
+    {
+      "path": "docs/species-coverage-v1/PROVENANCE_MANIFEST.json",
+      "size": 2467,
+      "sha256": "8ba4850b0829453ea08df3f2253021e77e709cf1e364ed31e8a593d20e45c309"
+    },
+    {
+      "path": "docs/species-coverage-v1/QA_RESULT.json",
+      "size": 1441,
+      "sha256": "c733a7dcbcafd4d12f429901e03a0e939e8c583fcc449df90cbf9ab1598ac939"
+    },
+    {
+      "path": "docs/species-coverage-v1/REPORT.md",
+      "size": 5720,
+      "sha256": "acdecd5e849986896d506e9f1182b331da62a6acc1ed0a804310cee10eb343db"
+    },
+    {
+      "path": "docs/species-coverage-v1/SOURCE_REGISTRY.json",
+      "size": 1832,
+      "sha256": "828d6573737a1a7c663bda54d91b7db3eafd62c84031e472ce3c81ad10a28ca5"
+    },
+    {
+      "path": "docs/species-coverage-v1/SPECIES_COVERAGE_121.csv",
+      "size": 946327,
+      "sha256": "44f90c8e38ce385f4e75eafe555393f97d1695a275b176ce7a641705227da3eb"
+    },
+    {
+      "path": "docs/species-coverage-v1/SPECIES_COVERAGE_121.json",
+      "size": 1230502,
+      "sha256": "c2f00467985adf3094a8aa834716e08d24b09d440c4c83e5bde952191901f4c7"
+    },
+    {
+      "path": "docs/species-coverage-v1/SUMMARY.json",
+      "size": 1396,
+      "sha256": "d65e3280925babcfbb5b308a8654ab4fae4ace84dbca3367d594d83977e0b905"
+    },
+    {
+      "path": "docs/species-coverage-v1/WITHHELD_SOURCE_ROWS.csv",
+      "size": 2385,
+      "sha256": "b18eb16e6969e3c976e8aab9e7a463ec9f1a23c2cadd67aae57e6f088edd311d"
+    },
+    {
+      "path": "docs/species-coverage-v1/WITHHELD_SOURCE_ROWS.json",
+      "size": 4153,
+      "sha256": "63f87f98d1eebdff1494e23f74bacfd5f44e41fec267d13b498e7b9f953a5e29"
+    },
+    {
+      "path": "docs/trade-40cn-production-v1/PRE_PUSH_QA.json",
+      "size": 4009,
+      "sha256": "a8b2c693e538b909b190a1d14ef2e676b2bc1a600d0338b636d8aceb493099f5"
+    },
+    {
+      "path": "docs/trade-40cn-production-v1/RELEASE_RECEIPT_PREPARATION.json",
+      "size": 357,
+      "sha256": "a53e9f6107ee6023bf17d58cdbcba1418b5c5c237c6b022b75534814cf9e1c92"
+    },
+    {
+      "path": "docs/trade-40cn-production-v1/REPORT.md",
+      "size": 1484,
+      "sha256": "9e1daead13b20f35985dfab0cbf2aab68a7689f60e1b6b5f0612699b86486c56"
+    },
+    {
+      "path": "docs/trade-cn-v1/ANNUAL_REPORTED_TRADE.csv",
+      "size": 33310,
+      "sha256": "30a3f84615a8b5eb46cca983d2eb24948b9107981eced8932367dc2021df5c37"
+    },
+    {
+      "path": "docs/trade-cn-v1/ANNUAL_REPORTED_TRADE.json",
+      "size": 51109,
+      "sha256": "dc0c4043317171f00034fb90d45928dc453fc952691f079a523e8e60ce6702c8"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_AUDIT_121.csv",
+      "size": 341564,
+      "sha256": "16ab325537c24560e987aeaa43b80ab9d08188a43a7ae3fb52b876d145140ab7"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_AUDIT_121.json",
+      "size": 510483,
+      "sha256": "f7e9607556756e7009ed0b0d1022dc1165794c1fee228bb050c1ad0215de0ca9"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_EVIDENCE_REGISTER.csv",
+      "size": 169001,
+      "sha256": "05e30070577a32c925a6e07765548eb74fe4000578b4d81ae14d4f389f34289d"
+    },
+    {
+      "path": "docs/trade-cn-v1/CN_EVIDENCE_REGISTER.json",
+      "size": 277955,
+      "sha256": "1014177aee55bfba72afd5f1715fa7a915633378b69f282b306cdd0b9a24569d"
+    },
+    {
+      "path": "docs/trade-cn-v1/COMEXT_COVERAGE_REPORT.json",
+      "size": 2565,
+      "sha256": "90429ce824c9b6981cf7b502f7646be13111234441bcc3b8b14759c7792a5220"
+    },
+    {
+      "path": "docs/trade-cn-v1/COMEXT_EXTRACTION_QA.json",
+      "size": 10746,
+      "sha256": "ffd3277e97c6ff45796808062b6c79db907d9cb1c2f39c0395b86db5595ea932"
+    },
+    {
+      "path": "docs/trade-cn-v1/PERFORMANCE.json",
+      "size": 551,
+      "sha256": "3cfef7b32c53b9595047ac5e7d3ea12b365250a13c1efa51ba9a4d5c75922ea3"
+    },
+    {
+      "path": "docs/trade-cn-v1/PRODUCTION_TRADE_INTERSECTION.csv",
+      "size": 9831,
+      "sha256": "1dc01fde40f8485c71b617f60490781390a842adc9fd2e5b6cffd8c875aa20ad"
+    },
+    {
+      "path": "docs/trade-cn-v1/PRODUCTION_TRADE_INTERSECTION.json",
+      "size": 38114,
+      "sha256": "53db104c4c05a280854d015b1072b74a013fd9bc601cd973fd0fcb406fad6e7b"
+    },
+    {
+      "path": "docs/trade-cn-v1/PROVENANCE_MANIFEST.json",
+      "size": 5088,
+      "sha256": "3b683d1f6c1ca3b6334781bf74cf314dbc8f5485a4dcd204d25a358772c76cfc"
+    },
+    {
+      "path": "docs/trade-cn-v1/QA_REPORT.json",
+      "size": 1125,
+      "sha256": "206e204792588c1a8fe58a42197d734bb69c5515120df4b9377a493a46bb7a8b"
+    },
+    {
+      "path": "docs/trade-cn-v1/REPORT.md",
+      "size": 4891,
+      "sha256": "486369e935d99b18f835238b3f72e491fb72f7e651b2c83546ee6862bc47e5c3"
+    },
+    {
+      "path": "docs/trade-cn-v1/SOURCES.json",
+      "size": 26313,
+      "sha256": "31ae2af3bfbe8621a9b431449e6aff2c498187883af1dd73adbb37889da63a70"
+    },
+    {
+      "path": "docs/trade-cn-v1/SPECIES_CN_TRADE_MAP.csv",
+      "size": 20711,
+      "sha256": "8f252d73de4e578d35e337546f70846e74e587e341c19ad895dd95c86fcfbad4"
+    },
+    {
+      "path": "docs/trade-cn-v1/SPECIES_CN_TRADE_MAP.json",
+      "size": 39842,
+      "sha256": "be3375a9aa3b845af54dcc470cbfa3fcb20172f16a675eda98ea42ec9334d3d6"
+    },
+    {
+      "path": "docs/trade-cn-v1/SUMMARY.json",
+      "size": 1707,
+      "sha256": "46d8405075b581f1b18076b2c138ddf5322a1aaf6e13a3e301f422d1b0ab1e53"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_COVERAGE.csv",
+      "size": 8240,
+      "sha256": "43be6dfebda879c290406c127dd053c59ed39e8259946b8228f0d3476d6dc571"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_COVERAGE.json",
+      "size": 36235,
+      "sha256": "a05869445b5fd09bae02f443cc1d5303a2a8d32bf5d06013d3b0e1e84af395c9"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_MARKET_ENTITIES.csv",
+      "size": 206987,
+      "sha256": "8cc7956e6f96fcad557b3adb159feb200bb936491a17314a5ced1375ecd8b326"
+    },
+    {
+      "path": "docs/trade-cn-v1/TRADE_MARKET_ENTITIES.json",
+      "size": 259830,
+      "sha256": "f64e9eb320e3f5fe8b0e78d26900095864bcc8331f0e4ee6d9044f019335d4eb"
+    },
+    {
+      "path": "docs/trade-cn-v1/UNRESOLVED_MAPPINGS.csv",
+      "size": 43876,
+      "sha256": "f38fc1404bb335b24217a750156843b644d5aedd01f588d4baf6a8111b63b6f0"
+    },
+    {
+      "path": "docs/trade-cn-v1/UNRESOLVED_MAPPINGS.json",
+      "size": 71125,
+      "sha256": "42960fa5f51809bee25f6155a03391de278c3d7861da24903a4f8f5f5ca5772c"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/AUDIT_QA.json",
+      "size": 476,
+      "sha256": "7806a19c8acedc7ef39c31be86f86a497d99b10b6f1a59708a076bd7f500db1a"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CATEGORY_ANALYSIS.json",
+      "size": 7307,
+      "sha256": "768290484f5b4c7aa2df7cea9ce891da5b117c063799a8363a519268d82003f0"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CATEGORY_TABLE.csv",
+      "size": 3145,
+      "sha256": "1a9202d5053cd205e2229c2091cd5cf77742ce0878b4cdafc23c6787dcff98fa"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CATEGORY_TABLE.json",
+      "size": 6348,
+      "sha256": "ae51e21e58f25005b2b2d32a40ed7209e19aaf871337ef161f9eca83e677c0a6"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CN_AUDIT_40.csv",
+      "size": 53086,
+      "sha256": "8f634295292d02dfe1d0223719d6b8dfde2182cb0bc8f3e80507d66f6793ef89"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CN_AUDIT_40.json",
+      "size": 90467,
+      "sha256": "e919d52eedc9ff3e5c921352e5156ae76c5a6d3751ce521255f81719aef853dc"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/CONCENTRATION.json",
+      "size": 609,
+      "sha256": "9e68bad82d6a2132606d4aeee2f7acc5522defbbb303f511b7f03281105ab906"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/METHODOLOGY.md",
+      "size": 428,
+      "sha256": "682a67138eafdfcdc7a7b4d0d4d1f570e89628b0bed6b9c4d0e6794225df23ef"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/NEW_CN_CONTRIBUTIONS_29.csv",
+      "size": 39871,
+      "sha256": "730dd77a210a7c407d702c2896c68f53071a4ae0d9bd2d90f5062317689fa5ab"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/NEW_CN_CONTRIBUTIONS_29.json",
+      "size": 67173,
+      "sha256": "08e3fa95482d9c214356030259f995adf2f9d7a8e9bd6f0bd253bfd05360c9bd"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/PROVENANCE_MANIFEST.json",
+      "size": 5591,
+      "sha256": "4879fbf35255f957fab5e22896ff5b1a787dce36d9286370ced1ad7434b5a685"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/RECONCILIATION.json",
+      "size": 1658,
+      "sha256": "a491f4b6eb1cca12ea2d5b839c4980261168db65704dd73cafd3f9c63398fb1f"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/REGRESSION_QA.json",
+      "size": 607,
+      "sha256": "282d5b926178e7d16b2236e1e0ae6d6ea8c9ce3e434f9bc264bb04c10b5d95cc"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/RELEASE_CANDIDATE.json",
+      "size": 351,
+      "sha256": "f2391bee7d3e17a9d5a254ef22adfebd0589d7dd838da23e57d9ca11de3b4001"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/RELEASE_GATE.json",
+      "size": 1175,
+      "sha256": "032963f66359dbe6f4bcc12bead00862e9736b717901379434e71420ad2d6cb5"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/REPORT.md",
+      "size": 9906,
+      "sha256": "9052b9c688ee03382223e3b6df582e683258cfac02b188d133a52e6a446aff6a"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/SPECIES_COVERAGE.csv",
+      "size": 12407,
+      "sha256": "86db4c9da14330d0fe3f2874a33699d47eb6c7a4bf0404bc83588fbc77804d15"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/SPECIES_COVERAGE.json",
+      "size": 46091,
+      "sha256": "c8d097dbd2106dabed2b91ed3fdaef34b42ad8e726c8e644b3b750c04c78fe3b"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/SPECIES_COVERAGE_SUMMARY.json",
+      "size": 410,
+      "sha256": "aeb27239f76cafcb0ab671d1442c71e826629798df886cd528f3f6eb085c3450"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/SUMMARY.json",
+      "size": 1836,
+      "sha256": "5bd45bf306566a53580810b8b83fd5cba778a057009fb16fbc5e2db33f113bd3"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/TOP_10_CN_BY_VALUE.csv",
+      "size": 16473,
+      "sha256": "a149e1c259dea2bd241b7952c0455a119991f7af7af8e755d9d458ef0a8a4ccf"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/TOP_10_CN_BY_VALUE.json",
+      "size": 26290,
+      "sha256": "f76f66182ff943bd229a7781417ef822bd233d13d22fd3839648e9ff98ca1a32"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/TOP_10_CN_BY_VOLUME.csv",
+      "size": 14124,
+      "sha256": "6fee7e48d382b6637c7ac509ef41dae7a65bf82637a97dc522fdcd5d4ed5ff25"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-audit-v1/TOP_10_CN_BY_VOLUME.json",
+      "size": 23114,
+      "sha256": "c0fca0e1ec351094f2dcbaacfe1c0aabbf3512eca1f953611a780caa5bed8111"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/CATEGORY_ANALYSIS.csv",
+      "size": 2607,
+      "sha256": "17afa12c5c3442ad89925bfdc91009c6947b6a5c1f4780a7d7a64449b481d367"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/CATEGORY_ANALYSIS.json",
+      "size": 6963,
+      "sha256": "5ba053773fd1fe804b757de55b6e33ebe823976c0ccb9534bb8bc58838749100"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/CATEGORY_RECONCILIATION.json",
+      "size": 562,
+      "sha256": "89beb37851f9c1f945ea7f40c462c4d84c75523a0dda242947d54b0160bbd746"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/CN_CLASSIFICATION_40.csv",
+      "size": 90006,
+      "sha256": "6c8acf2d46c4cffa9501696254624609804dc32c10ff1cfff8855bf386ae0bd0"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/CN_CLASSIFICATION_40.json",
+      "size": 146600,
+      "sha256": "c194692a238a2757491cb68f67403a54685d892dfa47b9ec48680b89b4075464"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/FAIL_REASON_RESOLUTIONS.csv",
+      "size": 1443,
+      "sha256": "3b069f334be540f2f46fb28c60967f429f25818f687c140356a3410a85443a38"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/FAIL_REASON_RESOLUTIONS.json",
+      "size": 2109,
+      "sha256": "b907644c3266eb1bd5ad014d2d872b4b81374829c725efdec4538882528a3075"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/FINAL_QA.json",
+      "size": 1994,
+      "sha256": "23c4b1811669a1ce3007bc901f3378f6ae5a526cc5bcd8be2627e845b6268ce6"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/LOCAL_VERIFICATION_RECEIPT.json",
+      "size": 341,
+      "sha256": "f82f70a9a223dbdf33d5f371fd66571eab29f3f60804698f7956da1a1a5a4bf7"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/MODEL_RECOMMENDATION.json",
+      "size": 4716,
+      "sha256": "dc17b054e7c27fd7cc551d040b73e285a9c39dc4f36b6e2b50b928fd4797b509"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/PROVENANCE_MANIFEST.json",
+      "size": 1729,
+      "sha256": "83c2d9ee03a283ba29465d8c5860f9805c9e4ab1b8edd5807ed6115c6f956851"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/RECONCILIATION.json",
+      "size": 617,
+      "sha256": "46dcc24acf3247a259b81c797e5c4b8a1875abea77068c6fa695b55d7da8672c"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/REPORT.md",
+      "size": 8414,
+      "sha256": "8cc08ac0b4e6fd992524a0b65520d3e0521cb5a41021fac131979b3e5a29512a"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SAFE_AGGREGATES.csv",
+      "size": 845,
+      "sha256": "b2af51a627115e749be17f6429fe12181b4599b65bb0366aa07cdc8296100be3"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SAFE_AGGREGATES.json",
+      "size": 1791,
+      "sha256": "086b1ad04d0698f40c3d5d22735eb9c65b7909336f43a89f291f705dfe7e92f8"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SPECIES_COVERAGE.csv",
+      "size": 28339,
+      "sha256": "50c53f776d7d78c8a402b85aefa56d0cc56b036b3b2b009055ba25c6bc278a9e"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SPECIES_COVERAGE.json",
+      "size": 73611,
+      "sha256": "209735265d1763ab5176954598b66d2a51bf3c4e3cb6c698e01820f7fb3c882d"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SPECIES_COVERAGE_SUMMARY.json",
+      "size": 409,
+      "sha256": "ab58f0a3121ef00a52e77e88d513559d14834a387772d59d673ac5b1d2910634"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SPELT_WHEAT_MODEL.json",
+      "size": 658,
+      "sha256": "2bcce8ef354c907e5e3c12fc7d38ae4ea0e2325e87fc724729e66d13fb490064"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/SUMMARY.json",
+      "size": 1177,
+      "sha256": "effe22f2791a4f873f3e2df39c152a856490634ef8d8d94ac30c9660cdce8d05"
+    },
+    {
+      "path": "docs/trade-pulse-40cn-fail-resolution-v1/TARGETED_QA.json",
+      "size": 1567,
+      "sha256": "0677c416f2cf85c7d6d3dad113b04d2b4d2801b8babd44a512791d55f15476b2"
+    },
+    {
+      "path": "index.html",
+      "size": 2137,
+      "sha256": "34245ab248cf8095772dc211c0eacf99054fcb2acf48c3a157c9b2fecec08103"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 47306,
+      "sha256": "cc96b57d36be1f7ab0178be46463a910dc0026334abb7da134f34b09de36838a"
+    },
+    {
+      "path": "package.json",
+      "size": 866,
+      "sha256": "b2fe638dec56310ff1b2778705f7df911022dd3f41752193c9597efa6c0129ad"
+    },
+    {
+      "path": "public/.htaccess",
+      "size": 437,
+      "sha256": "95736c57655778974c460f9eb5acb6cbe26b6144d7c1916facb5ea05e17041ef"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "size": 27785,
+      "sha256": "4d984ce8578922a3ae539a1899e0b5eb7a3e89bb65e2a2acca138a5d14dc6900"
+    },
+    {
+      "path": "public/catalogue/catch-crops.webp",
+      "size": 348952,
+      "sha256": "f4e8d29ea73580a0af3d6bbbb8feb0c093ead475e2e0ea171e673b853c3a6e8e"
+    },
+    {
+      "path": "public/catalogue/cereals.webp",
+      "size": 230774,
+      "sha256": "f2ef13417199ea189594daa85003ba3fd3ab06af7f8654bd340d70f97c236b05"
+    },
+    {
+      "path": "public/catalogue/fodder-grasses.webp",
+      "size": 319120,
+      "sha256": "f5f309ceb778e8b080f455cb1fb546e257ab6abbd2c42f08b72e3680a7b6d737"
+    },
+    {
+      "path": "public/catalogue/maize-sorghum.webp",
+      "size": 303930,
+      "sha256": "a941c7262da12163c0e2857916e2803bb1a1d0935bff42dcc07f5a698684e54f"
+    },
+    {
+      "path": "public/catalogue/oil-fibre.webp",
+      "size": 298266,
+      "sha256": "7440f1c16e8398ce30879cce796d2b77e1086ec71a3ad2104cdfa7886983398b"
+    },
+    {
+      "path": "public/catalogue/pulses-legumes.webp",
+      "size": 180342,
+      "sha256": "2f7bf989f8248b00dfac6c41b9a3a808ca4be3a339de9b403af106c500dd5e99"
+    },
+    {
+      "path": "public/catalogue/vegetables.webp",
+      "size": 422682,
+      "sha256": "8dc13470250c59bdb47b381fa85c829bee0981a230a1d8ee8382ccaa492a3e63"
+    },
+    {
+      "path": "public/catalogue-v3/catch-crops.png",
+      "size": 5359719,
+      "sha256": "df9b48d69ba3eb09bac8fbd537d4fa794ac5659066717f8aa4288eb2870e9fc0"
+    },
+    {
+      "path": "public/catalogue-v3/cereals-pulses.png",
+      "size": 4931079,
+      "sha256": "3489f8b2b5de49a1009b8f44fa42c07c17b698f25c5fd005518951f256f24290"
+    },
+    {
+      "path": "public/catalogue-v3/fodder-amenity.png",
+      "size": 5209869,
+      "sha256": "aa8d9484525b3c8237a7bca2fcef6964f4f56af8fce184efa202613c9d929f91"
+    },
+    {
+      "path": "public/catalogue-v3/maize-sorghum.png",
+      "size": 5997826,
+      "sha256": "0698f525f6fbc88eaca38fa4a76e8316a1bc754b6820a1a11d19fba1e918a91b"
+    },
+    {
+      "path": "public/catalogue-v3/oil-fibre.png",
+      "size": 5436374,
+      "sha256": "114ef17b54e16c37cc828b61b7e9764752374be9e980767c448e4827df926d9e"
+    },
+    {
+      "path": "public/catalogue-v3/vegetables.png",
+      "size": 5237753,
+      "sha256": "84016b74e1bd341609044130a1856a8e62a8093829948b0b62c5bbb38ba5f0a3"
+    },
+    {
+      "path": "public/data/crop-master-v1.json",
+      "size": 1082845,
+      "sha256": "963e32c31634610e27a530810efdbb3677e5c3bc2e5b40b175c400d8ea11988b"
+    },
+    {
+      "path": "public/data/multisource-official-source-manifest-v1.json",
+      "size": 569714,
+      "sha256": "c7e2aef6b251575931dd09e33b8a335c1be7c1a160767f2b416f81ca03d6abf3"
+    },
+    {
+      "path": "public/data/species-coverage-v1.json",
+      "size": 1293255,
+      "sha256": "38bde9fe6378f868fb154d8fd8c184168f96e95d236b4565180ebe358b6b704c"
+    },
+    {
+      "path": "public/data/trade-40cn-approved-coverage-v1.json",
+      "size": 114000,
+      "sha256": "511b67e40e0612eb5e063192fe88c7e6a6f1ea3de8b6adb73ccdd28354184980"
+    },
+    {
+      "path": "public/data/trade-cn-coverage-v1.json",
+      "size": 856876,
+      "sha256": "81cbf421cebf3186767d2dca5995490ece2fc2dc66575a5101319426da86b5ca"
+    },
+    {
+      "path": "public/editorial/eu-agronomist-latvia-autumn-establishment.webp",
+      "size": 79226,
+      "sha256": "504fbc3a522d3dbb5ce285079e57af7b61dc7b00839aefd889313fbbf434e53d"
+    },
+    {
+      "path": "public/editorial/eu-events-euroseeds-valencia-october-2026.webp",
+      "size": 271386,
+      "sha256": "4c1a00c7c45396f99b0695d8e6097a400d4b6a88845d4f6f53abb8afc39f482b"
+    },
+    {
+      "path": "public/editorial/eu-trade-market-nak-interim-seed-potato-checks.webp",
+      "size": 415462,
+      "sha256": "4fab8d63e670cb502a005b2a6c142d84d2d29301608c3360891774a02805ba31"
+    },
+    {
+      "path": "public/editorial/eu-weather-september-2026-baseline.webp",
+      "size": 83112,
+      "sha256": "cfec1d2236e06b5ca685224a78dc56ae9999c3ce6fc3060cb72e7bd01c497dd4"
+    },
+    {
+      "path": "public/editorial/euroseeds-2026-congress-valencia.webp",
+      "size": 48388,
+      "sha256": "0cf7a8d50090d1d6cbff597f8953e0d9339605124a2d2e64308aa0cf9608ecb3"
+    },
+    {
+      "path": "public/editorial/interpom-2026-europe-potato-value-chain.webp",
+      "size": 74348,
+      "sha256": "42ccb7ad6257edfa1da89a13ea82f80df9ddbb00ab07f9412615f510439a9c3b"
+    },
+    {
+      "path": "public/editorial/lagrenas-contract-seed-multiplication-lithuania.webp",
+      "size": 19982,
+      "sha256": "9ce023336ebce6a69c5acbce186d8252382db8d892a765549d2f99f2cffb68b3"
+    },
+    {
+      "path": "public/editorial/market.webp",
+      "size": 236548,
+      "sha256": "117e7111997103f9ac8898ef9a6631bed68e92051cea6246ac46fcd9448c7044"
+    },
+    {
+      "path": "public/editorial/production.webp",
+      "size": 450438,
+      "sha256": "18d1a798a40110eb20ffac65257b8d08ffa9935bcb446e1432cc8a469520f563"
+    },
+    {
+      "path": "public/editorial/weather.webp",
+      "size": 390652,
+      "sha256": "854602670b666198b15af58fc976528d82693ecd2387179bc76e46eb384dd433"
+    },
+    {
+      "path": "public/favicon-16x16.png",
+      "size": 801,
+      "sha256": "06c9c3468f81c367b02087ae7c8d637874506b6717031b5ecf4f3f8c0c2a2bec"
+    },
+    {
+      "path": "public/favicon-32x32.png",
+      "size": 2206,
+      "sha256": "641eab6fbc06a05b45fc876c4f9d1820b542ff1d7c16a72a51984d3e9b736456"
+    },
+    {
+      "path": "public/favicon.ico",
+      "size": 12495,
+      "sha256": "d6a224bd1028e4e91a9e38ce26800a0c0b49f4f33c5704474e1f305d583a73d7"
+    },
+    {
+      "path": "public/news-visuals/eu-agronomist-latvia-autumn-establishment.svg",
+      "size": 1367,
+      "sha256": "ffeb3a429b4dd1057fdadf3a9f263e4ce3ae635aa88b361ec070d24190813338"
+    },
+    {
+      "path": "public/news-visuals/eu-events-euroseeds-valencia-october-2026.svg",
+      "size": 775,
+      "sha256": "ef37c4fde192e6b873ab069e119fc5681cf4b1ed196170367b743712b7875137"
+    },
+    {
+      "path": "public/news-visuals/eu-trade-market-nak-interim-seed-potato-checks.svg",
+      "size": 593,
+      "sha256": "61266e98e800b7e782b771040cea74361e61f37db07b085583cf7dd34406437f"
+    },
+    {
+      "path": "public/news-visuals/eu-weather-september-2026-baseline.svg",
+      "size": 1098,
+      "sha256": "8ff840a29620e53350dcd0c9775f911b39e628d10439bc25082ced2bd8faeecd"
+    },
+    {
+      "path": "public/news-visuals/europe-potato-crop-drought-estimate-2026.svg",
+      "size": 922,
+      "sha256": "6d357d67c4cc1e43a6a026303a2b5270ed34e66fbd1529820bee20fd677a0d53"
+    },
+    {
+      "path": "public/news-visuals/europe-summer-crop-heat-drought-2026.svg",
+      "size": 965,
+      "sha256": "a4b0257459159b95bb3e9f55f56009c714d4e6e35101f8b17ef0879d9fff10b5"
+    },
+    {
+      "path": "public/news-visuals/interpom-2026-exhibitor-profile.svg",
+      "size": 552,
+      "sha256": "8b8dd8d45c855721d7dfcca7b6a4453b9e6722c1e27dd87cea480a0752b6496f"
+    },
+    {
+      "path": "public/news-visuals/northern-ireland-seed-potato-rules-update-2026.svg",
+      "size": 751,
+      "sha256": "fd0768d882bb560fccbfab721f9eaa4adf0fb548780a6bd9a4c2fab28bd74398"
+    },
+    {
+      "path": "public/robots.txt",
+      "size": 133,
+      "sha256": "4344efd1fe953672675f2498332b0bea0490445c14a1685d5ecd20984221c25a"
+    },
+    {
+      "path": "public/seedtrade-official-logo-footer.png",
+      "size": 12324,
+      "sha256": "ced692143660e2f4a2a9aa46c9fbadb0efaf2a3e9934a6650b9995379bd7d783"
+    },
+    {
+      "path": "public/seedtrade-official-logo.png",
+      "size": 12324,
+      "sha256": "4698ad58b6d85ac6aea508cff72afa8e99b7b3e4a1e36d0891b93482e993e3de"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "size": 3003,
+      "sha256": "34a6991d4ecc324afb4542ae8e97bca4bfe5ad3ab74822c0967ecfd33b0584cb"
+    },
+    {
+      "path": "scripts/CONTENT_LOCALIZATION.md",
+      "size": 1882,
+      "sha256": "98cb2751d52bdbc770d7c883b8896531986977c0dbd7dee03994f3264919b7eb"
+    },
+    {
+      "path": "scripts/DAILY_NEWS_V1.md",
+      "size": 7164,
+      "sha256": "2f11b9b4084a8100fb28e9614643935a99fa5803f10045c4c8370489f2ba1714"
+    },
+    {
+      "path": "scripts/aggregate_trade_cn_annual.py",
+      "size": 1213,
+      "sha256": "bb83158beea0f471d29659bfa2d95fbaf0564111b64aa28835b00f5f253279f7"
+    },
+    {
+      "path": "scripts/apply_trade_40cn_release.py",
+      "size": 5228,
+      "sha256": "750a748bcc07fad935b78fc03c171f0d79546e0b17f7a1809cdb5a364716534f"
+    },
+    {
+      "path": "scripts/audit_trade_pulse_40cn.py",
+      "size": 16895,
+      "sha256": "51c8965f019d7a6c82e8859e991261353b3be361775fca9939b6a49425d99e6c"
+    },
+    {
+      "path": "scripts/build_crop_master.py",
+      "size": 17939,
+      "sha256": "7b247e8abdbc830a7892fc32d3ed5b49431b9f8b268f2f98a9264f06af200a11"
+    },
+    {
+      "path": "scripts/build_species_coverage.py",
+      "size": 12452,
+      "sha256": "8808ef193fcdb66b2d9081d8463abb0c8308fc11aa55c5cee65dfb947622889d"
+    },
+    {
+      "path": "scripts/build_trade_cn_coverage.py",
+      "size": 12165,
+      "sha256": "42dfec7e32bb4160d0519850e8802070b7d3296fa9fdd07f58cb7862b069b43f"
+    },
+    {
+      "path": "scripts/check_crop_master.mjs",
+      "size": 1643,
+      "sha256": "b345d00c685550f1a427f02efb91e60e53b3d822b23cdb6fb797f77b075b8845"
+    },
+    {
+      "path": "scripts/check_daily_news_dom.mjs",
+      "size": 5554,
+      "sha256": "54faf5e2b8a5304970b36407df0a86093e5d7f11193fd5c960856e7d43560f0c"
+    },
+    {
+      "path": "scripts/check_hydration_initial.mjs",
+      "size": 2119,
+      "sha256": "bc4545790ce478ff68993921b83a94682f93676f2eed19ba17346a044295945d"
+    },
+    {
+      "path": "scripts/check_i18n_dom.mjs",
+      "size": 11601,
+      "sha256": "f8474f11d4080df8b5e04f2dbc009710543df524fcd1b0060c9ce8288a044307"
+    },
+    {
+      "path": "scripts/check_i18n_v1a.mjs",
+      "size": 6777,
+      "sha256": "f89a427f3a525460e57a5ecf51bb3ff90ec6ae58ad3e82241353ce0ca5a81e51"
+    },
+    {
+      "path": "scripts/check_i18n_v1b.mjs",
+      "size": 7938,
+      "sha256": "b9151779b83202c57bc8c73c923726b5d2130d8203a37a9cb918cc2bdecf7229"
+    },
+    {
+      "path": "scripts/check_mobile_news_placement.mjs",
+      "size": 4977,
+      "sha256": "ceb8f732acda7cb4b7f817009520c796f43362c78d9101f5754bfe3bde4aa125"
+    },
+    {
+      "path": "scripts/check_multisource_categories.mjs",
+      "size": 2250,
+      "sha256": "c7e77eb0483dcd6e4ed01313ee7245a19f2eb7d471d065bc8c2087c221010ab4"
+    },
+    {
+      "path": "scripts/check_news_visuals.mjs",
+      "size": 5442,
+      "sha256": "4d02b35eceaaa4d1ace8fceb67254d795c83bdb1a9e5d97c341e0d8bfc1361a3"
+    },
+    {
+      "path": "scripts/check_production_bundle.py",
+      "size": 1770,
+      "sha256": "e17052ca1f3c4fafc9b011d1c5f46bcc0f6983762b7c8bf4a075903e12370fce"
+    },
+    {
+      "path": "scripts/check_production_controls.mjs",
+      "size": 2370,
+      "sha256": "81bb38ef11c6100ef1af2273cf10f008f687ce9d1731c7afd996fc826a2dbe7a"
+    },
+    {
+      "path": "scripts/check_production_intelligence.mjs",
+      "size": 2291,
+      "sha256": "7b987e9780df69c808220f0cedf1f8015de619d2f5ae672cad05a4ff5f5e32a1"
+    },
+    {
+      "path": "scripts/check_production_responsive.mjs",
+      "size": 2434,
+      "sha256": "6b4a1ae89a0d539b9e56c4532ab486d4027a1842c93d0db5f42c671566067d73"
+    },
+    {
+      "path": "scripts/check_responsive_production.mjs",
+      "size": 6236,
+      "sha256": "5109776eeaf32aa8f9afb8df8e5ffb82e40a7ee905f152d45e50a973835ef5d0"
+    },
+    {
+      "path": "scripts/check_species_coverage.mjs",
+      "size": 1873,
+      "sha256": "c84063ceb58facb5363ca4d68a78802002469fb42d9c80953107d3658bf2af52"
+    },
+    {
+      "path": "scripts/check_trade_cn_controls.mjs",
+      "size": 2440,
+      "sha256": "d9a910899efb3b8c58fdbdf7c86fcd2576c33b69c93efd229fbb018bc0c9e245"
+    },
+    {
+      "path": "scripts/check_trade_cn_coverage.mjs",
+      "size": 1655,
+      "sha256": "6552b1336f1982665707d833fa1540b9a836bf98b8ec1b2af3cdfb61a90a9ed3"
+    },
+    {
+      "path": "scripts/checkpoint_market_catalogue.py",
+      "size": 3931,
+      "sha256": "4b66d0beafe77e4daa9f3bc839b8dd93460574184ae554bb57eabfe3763e03d8"
+    },
+    {
+      "path": "scripts/extract_coverage_evidence.py",
+      "size": 1533,
+      "sha256": "1532953c6d4fd807fef7e3bac11f3c271f25f67f2c48918f13e34b9b8c3abdbc"
+    },
+    {
+      "path": "scripts/generate_brand_icons.py",
+      "size": 886,
+      "sha256": "42b88f311c2def960861f122e06574adb4219f18303bfc54504087521b4bbc0c"
+    },
+    {
+      "path": "scripts/generate_market_catalogue.py",
+      "size": 9175,
+      "sha256": "d195d466500ab72c2cd2819e9eca00054aaddfa9832fe1da198c0e6ac4d14ace"
+    },
+    {
+      "path": "scripts/generate_production_public.py",
+      "size": 6049,
+      "sha256": "03751fc29b69e278ba6f2777bb4e14ca404b51183ca85db40fece49405ca65aa"
+    },
+    {
+      "path": "scripts/generate_trade_pulse.py",
+      "size": 12487,
+      "sha256": "65040dbfb3839255263caba91c50d49e7b8f14e7fd751133915ac549e4e52005"
+    },
+    {
+      "path": "scripts/generate_weather_country_map.py",
+      "size": 3119,
+      "sha256": "9015a4eef8a6a80ab391baab86d8a8cc82b64d53028406a6650d8948af3261dc"
+    },
+    {
+      "path": "scripts/multisource/README.md",
+      "size": 1825,
+      "sha256": "a68f48b6e8ee02bec826973442f82ad8e7588ca82af5f24feafdf24e895dd76c"
+    },
+    {
+      "path": "scripts/multisource/build_intersection.py",
+      "size": 1833,
+      "sha256": "1e279de99f03cd1a792ae246ef512fde465b2d92369a1973b466842370ff1a03"
+    },
+    {
+      "path": "scripts/multisource/evidence.py",
+      "size": 1898,
+      "sha256": "16b78fdf37fae2a2a9d8e991e6f3489f89f0ef632f956ca224fa50640e091b7c"
+    },
+    {
+      "path": "scripts/multisource/finalize_evidence.py",
+      "size": 1804,
+      "sha256": "f7762cffec33384d6808483412870d3123a63bac1f2707e1a562c5cdca404257"
+    },
+    {
+      "path": "scripts/multisource/finish_categories.py",
+      "size": 976,
+      "sha256": "88efe8f3e5cbd65b6eee938853c854d8dafbf1ff4bc50d846114f8a4c0a3c485"
+    },
+    {
+      "path": "scripts/multisource/normalize.py",
+      "size": 5723,
+      "sha256": "bb7fe1d8a93cd8e494b47fc434a09f2e1e8727ae9fb4144ddad3e78f741e035b"
+    },
+    {
+      "path": "scripts/multisource/recalculate.py",
+      "size": 9784,
+      "sha256": "804be6b7f0333fee8b97ab7909473e6d5b7ce0af6527a4a1fcbfbb7dff25c6ce"
+    },
+    {
+      "path": "scripts/multisource/validate_universe.py",
+      "size": 3373,
+      "sha256": "534a2853ec5d0e1248f0c9458143de0efb5a932ad0655e76d5d2f805f83dab7f"
+    },
+    {
+      "path": "scripts/normalize_trade_cn_comext.py",
+      "size": 2549,
+      "sha256": "ce9d5b259143409a71278b589f712c93b4c148b8c7c25c33a89db24b45a29dde"
+    },
+    {
+      "path": "scripts/prerender_seo.mjs",
+      "size": 7711,
+      "sha256": "ff4bd63a3069327c224590e53fa306320b6758244c56a215ee253fd3618407ca"
+    },
+    {
+      "path": "scripts/prerender_static_first.mjs",
+      "size": 2084,
+      "sha256": "cfb6831522d4a3f678d102f641d01c05ae8aac1cb07633ba6dd05e5bba8ebf20"
+    },
+    {
+      "path": "scripts/resolve_trade_pulse_40cn.py",
+      "size": 16082,
+      "sha256": "ffe2b72a25058a3206a536be35ce5161b34b945d828d650cc2919dc6c9f5d940"
+    },
+    {
+      "path": "scripts/validate_daily_news.mjs",
+      "size": 3081,
+      "sha256": "00ccada33a9b8b5538683bc41259f034c58e55ab57f073b8c4bd6c8cd4ca9f2a"
+    },
+    {
+      "path": "scripts/validate_editorial_assets.mjs",
+      "size": 1817,
+      "sha256": "e427a131e2dd24c577ecc6f537fef36f82b1460fb35c071ca42a342d955a44d9"
+    },
+    {
+      "path": "scripts/validate_market_catalogue.py",
+      "size": 7362,
+      "sha256": "4611d3c8186971577c0319fca7dce90458ba659e8fa7558c3bbf1f087c1b9347"
+    },
+    {
+      "path": "scripts/validate_production_checkpoint.py",
+      "size": 1072,
+      "sha256": "42923d7e23eab0f062740829e85c8ebe46f4ca634b0a6e944ef6b01c91d76211"
+    },
+    {
+      "path": "server/index.mjs",
+      "size": 2776,
+      "sha256": "f7d83ebac9633d886a892d371bbc8daadf6a43c17642ef56b62c84f74a0421df"
+    },
+    {
+      "path": "server/networkInterest.mjs",
+      "size": 3717,
+      "sha256": "618ab8dbaa99130ea77370157a582d08d5a9d717cb3518531e5aeffe8e1dc4a7"
+    },
+    {
+      "path": "src/App.jsx",
+      "size": 17889,
+      "sha256": "8ccd9c4ff7d3eee310f0da1450b6b4594d5f4b512608f8a7d4c0cbfb1adcbfd9"
+    },
+    {
+      "path": "src/AppV2.jsx",
+      "size": 84473,
+      "sha256": "5e34fa696867cdb1a6b80e9ff5adadd59bc347d59fca1b5a7ba89c21f60a5f5d"
+    },
+    {
+      "path": "src/MarketCatalogue.jsx",
+      "size": 10335,
+      "sha256": "98da1040170998b4b0f7898a0a31d7a8002aaf7c3ae259afc872031ad9d8e114"
+    },
+    {
+      "path": "src/MarketCategories.jsx",
+      "size": 4062,
+      "sha256": "d327d1b4ff8e420cee830a37b047f97441eba76916324a4411f7a9eb70c715dc"
+    },
+    {
+      "path": "src/ProductionIntelligence.jsx",
+      "size": 8549,
+      "sha256": "c52ec213aad32c2126f454b8307b30cda389715a70577d205aa931fed9ae95de"
+    },
+    {
+      "path": "src/TradeCoverage.jsx",
+      "size": 6499,
+      "sha256": "325005d2b2ced7d4acf793465dac3559636453929f815be62e01a7d78f062c65"
+    },
+    {
+      "path": "src/WeatherEvidence.jsx",
+      "size": 5277,
+      "sha256": "3155fa47c253ebe4b024de3bb48e173be698e05efaffdca9cbacf368fbec4d7e"
+    },
+    {
+      "path": "src/cropMasterModel.mjs",
+      "size": 959,
+      "sha256": "7c6935f7a51d9c1e3fedfc95ba92b6807418b4ce6f871edebbbc5bfc8b5b29d3"
+    },
+    {
+      "path": "src/data/fixed_editorial_visuals.json",
+      "size": 3471,
+      "sha256": "7fad3131e1f37f35cd530bca2a041264c04b55338e081de15bdba2bd3261e21f"
+    },
+    {
+      "path": "src/data/news_sources.json",
+      "size": 13719,
+      "sha256": "63433a88f1a7e1018d6bec155ebc9b61f5cca21d01b9bd6762ee90b75a203e34"
+    },
+    {
+      "path": "src/data/news_visuals.json",
+      "size": 6197,
+      "sha256": "f3dcb7d930e77d8436a6931d321d2f937d8bf98332c5112243997c94cb762a17"
+    },
+    {
+      "path": "src/data/species_master.json",
+      "size": 3284,
+      "sha256": "616db6f40cc2fb36b55773f6bfd806a401af2b4bea99014cfbb585b439b9f129"
+    },
+    {
+      "path": "src/data/species_master_v1_1.json",
+      "size": 5397,
+      "sha256": "88e47d0bd30fd4fb719c8f5caa8e463b9626627d4a2b9bc48ef562ec203d831d"
+    },
+    {
+      "path": "src/evidenceConfidence.mjs",
+      "size": 1516,
+      "sha256": "ca49fb008068cf78ac4fca62965f70edb140c3723c185b6d79121d6fbd8f6cc7"
+    },
+    {
+      "path": "src/generated/country_customs_totals.json",
+      "size": 2381404,
+      "sha256": "0d23508897a88e45fa6b275068beb5384ba4c340f471644939ff7380841adafe"
+    },
+    {
+      "path": "src/generated/crop_master_summary.json",
+      "size": 25660,
+      "sha256": "58dcc70e4b0196f0045523cf3ea64b681b56fed5051575207e0e3ddca1a69ffe"
+    },
+    {
+      "path": "src/generated/europe_country_map_public.json",
+      "size": 34186,
+      "sha256": "124b12bba48bd9574b5617779a6be8832bc7f845f95e96e15fbc3a268796fe1f"
+    },
+    {
+      "path": "src/generated/insights.json",
+      "size": 34199,
+      "sha256": "97454e8232fc6f2d21d995f98637f26d23ab03dcf92b9839de871738be8654e2"
+    },
+    {
+      "path": "src/generated/market_catalogue_public.json",
+      "size": 342759,
+      "sha256": "213eef8b39129e8cdc088fc5c963109cf223bdd09a575c8a136500604bf33266"
+    },
+    {
+      "path": "src/generated/market_catalogue_routes.json",
+      "size": 14973,
+      "sha256": "802c4ec74583e8c2cfdb915a0cdcfc66b14150ffffc6c43abf10c4d476062da0"
+    },
+    {
+      "path": "src/generated/market_categories_public.json",
+      "size": 116151,
+      "sha256": "d200211b8a7ecbf9046ce1c43c15a3a4fc4a8e0a79d45d8840d849e7e4cd9803"
+    },
+    {
+      "path": "src/generated/market_public.json",
+      "size": 151243,
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    {
+      "path": "src/generated/news.json",
+      "size": 84218,
+      "sha256": "9947569707a3fa413208b15dff403655bddfcf05fc85ca7a5dd2a5dce722b594"
+    },
+    {
+      "path": "src/generated/production_coverage_additions.json",
+      "size": 38673,
+      "sha256": "5190b8e3c695a9080becd2b0061a693898284af3da6d42ac269821e6dce6e9dd"
+    },
+    {
+      "path": "src/generated/production_public.json",
+      "size": 1280851,
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4"
+    },
+    {
+      "path": "src/generated/public_data_manifest.json",
+      "size": 3352,
+      "sha256": "742b1af8ee2d6d83be9ecdf21d5e2962aad0ba5e0079eefef006496c70a3dc8a"
+    },
+    {
+      "path": "src/generated/rfqs_public.json",
+      "size": 5054,
+      "sha256": "5db03a9fac2138b3f013320c377612f883c2b2bea6a0e53b4d5e433171bf6089"
+    },
+    {
+      "path": "src/generated/supply_public.json",
+      "size": 702,
+      "sha256": "a19c62a661dcbfbcff5698f05f8c5dcf576ba0db0a72f3fa542ea432e5ea96ba"
+    },
+    {
+      "path": "src/generated/trade_cn_public.json",
+      "size": 284782,
+      "sha256": "326dc983ce1cb526f09634a4e5c4caf01627b8b11bab813d9c1ed7dffe71c083"
+    },
+    {
+      "path": "src/generated/trade_entity_scope.json",
+      "size": 1275,
+      "sha256": "d5e4fbbf08d70c263eea4ae2abaebcee3a240cab5f9ea70fa829432ba06ca915"
+    },
+    {
+      "path": "src/generated/trade_pulse_public.json",
+      "size": 42959,
+      "sha256": "2af4e6b02a9be3b43c081092b84327ab8b25ce9b6551aba0d70e867671cc75e4"
+    },
+    {
+      "path": "src/generated/weather_public.json",
+      "size": 8647,
+      "sha256": "de4110d8eadaeedcab7e94a21828a6edec438dd7927328752330567ff59d471d"
+    },
+    {
+      "path": "src/i18n/content.mjs",
+      "size": 1653,
+      "sha256": "19919285118a0ae7b71b0f071937b44f60f0f09ebba3a70fe5b0b5c983b24784"
+    },
+    {
+      "path": "src/i18n/index.jsx",
+      "size": 2068,
+      "sha256": "8e4a4f15b9962c5ef0eab67d55aa046ceacd4ffd8493c07bd58acfd05629dbdb"
+    },
+    {
+      "path": "src/i18n/messages.js",
+      "size": 176866,
+      "sha256": "ad7e0c41fff718d544ec84716131d918e3b0e127aa3f0c5f9f416fdaa469e136"
+    },
+    {
+      "path": "src/main.jsx",
+      "size": 452,
+      "sha256": "4740c6ada3416dd7797ecec7855e729a5429daa005cb0a3fdb4e3936796ca82c"
+    },
+    {
+      "path": "src/marketCatalogue.css",
+      "size": 6521,
+      "sha256": "d1ae2d193e3b3ba317e90c2dfaac62abee98cc9ba0eb31477d683fa0bb71884d"
+    },
+    {
+      "path": "src/news.mjs",
+      "size": 11221,
+      "sha256": "49e4ae3434e9e07af23696af894752b4623da9d4e40a75395d9019aab8e610d7"
+    },
+    {
+      "path": "src/productionCoverageData.mjs",
+      "size": 836,
+      "sha256": "787410fc9633ccdeb43839b2fe9b766a29872f302f4590e458bac248efb88c9c"
+    },
+    {
+      "path": "src/productionEvidence.mjs",
+      "size": 1542,
+      "sha256": "de92d8b2f3ee985eaf10e606c108c094504c243af99968c6c9381e93252f4352"
+    },
+    {
+      "path": "src/styles.css",
+      "size": 101068,
+      "sha256": "463c1862a86c0c040e66759ce1629d57d48b2b37218a6a6c9ad666ac93fbbe1e"
+    },
+    {
+      "path": "src/tradePulsePeriods.mjs",
+      "size": 1037,
+      "sha256": "b9db9d791fa901f157399e1003ee340c39ed4abe5d3c7cf1f497aab14537e7f1"
+    },
+    {
+      "path": "tests/cropMaster.test.mjs",
+      "size": 2692,
+      "sha256": "238e0ce22fd5ac7e738b33438f826fc926e2f1f6ca6f6f5dccef921aca58e4fa"
+    },
+    {
+      "path": "tests/dailyNews.test.mjs",
+      "size": 10625,
+      "sha256": "c9a648a3445f313f0f681061b6ddc2ad4818f556e0ff7022edc45792205974cc"
+    },
+    {
+      "path": "tests/marketCatalogue.test.mjs",
+      "size": 6717,
+      "sha256": "fc4a4e2fd9b6a506bcbc4a6f122f5b6205c5e2fd10e1ecb8d7003357f76ba0f1"
+    },
+    {
+      "path": "tests/multisourceCategories.test.mjs",
+      "size": 940,
+      "sha256": "d29072b92c2e742d5311a6756cf7e27443dd96741ff3d579d0aba01a6d0b5b64"
+    },
+    {
+      "path": "tests/networkInterest.test.mjs",
+      "size": 3339,
+      "sha256": "432ac9fa676d263977f5c573540c7632b18001fc3505c8440960410df914ea2d"
+    },
+    {
+      "path": "tests/productionEvidence.test.mjs",
+      "size": 2328,
+      "sha256": "f4059b9d01c2c6c13f2e7b126a3c988a4c0a3ffc4c39d8960e00fd2b75710c8f"
+    },
+    {
+      "path": "tests/speciesCoverage.test.mjs",
+      "size": 2301,
+      "sha256": "d1e90986ae18a6cb84cb1b0c697079be1854a0a9e2321d3e8dca30bb6135c345"
+    },
+    {
+      "path": "tests/test_about_market_intelligence_ux_v1.py",
+      "size": 3211,
+      "sha256": "96326216f68125334c859682956757b3aecd434d23ad3acfb6a1ead1c1c1ad91"
+    },
+    {
+      "path": "tests/test_brand_header_contact_ux_v1.py",
+      "size": 3235,
+      "sha256": "4c27a70de072fe50b127fe8527171a42507412544ee0add529e68c7fd6ebd9be"
+    },
+    {
+      "path": "tests/test_crop_master.py",
+      "size": 2906,
+      "sha256": "fe749137600f7bbe03c56a5f027cd5d526a0e7be602487ebf5ddf781ad861c3e"
+    },
+    {
+      "path": "tests/test_daily_news_v1.py",
+      "size": 2582,
+      "sha256": "f2ca8d37eb89595c04d03ce230822614a4d40bc1d1f9753ef12ac96c37ba4361"
+    },
+    {
+      "path": "tests/test_evidence_confidence_ux_v1.py",
+      "size": 3094,
+      "sha256": "aedd39ac11aa360941b5a414eba069378dac3150c7d2b8a9bfd9440fb16028ea"
+    },
+    {
+      "path": "tests/test_final_v5_refinement.py",
+      "size": 2931,
+      "sha256": "249927bf49abbe58f38feae40b8c45d653663b5a5096f1cca15f4b781428de7b"
+    },
+    {
+      "path": "tests/test_homepage_hero_dynamic_metrics_v1.py",
+      "size": 3192,
+      "sha256": "aa83cca91b065c368f46cb84244fbdacc8b06ce8b715d69de6bf43c1bd703d29"
+    },
+    {
+      "path": "tests/test_homepage_marketplace_v5.py",
+      "size": 4199,
+      "sha256": "d4541fe461b12938753a97074d9ff4b4420cf3a339cd226a9e8c21902b8f3fe9"
+    },
+    {
+      "path": "tests/test_homepage_v2_brand_rfq.py",
+      "size": 3790,
+      "sha256": "0040a0d80e3a3ff35427e68c269e51b797a502695833fd35fe80509538082d60"
+    },
+    {
+      "path": "tests/test_homepage_visual_refinement_v2.py",
+      "size": 2460,
+      "sha256": "e3daa4348af46f8bda085be9159555c23486205bf484f30e6e6e569f97684329"
+    },
+    {
+      "path": "tests/test_hostinger_node_build_fix.py",
+      "size": 2416,
+      "sha256": "408cf5dc8e4c346b750b1f1a5240ebecdd34f04158a5bddee061e5333cd48c50"
+    },
+    {
+      "path": "tests/test_hostinger_static_first_v4.py",
+      "size": 3291,
+      "sha256": "043a16891ccd3a1773c2cef1712ba020208fd237a8a547243a3d45fb40ebba81"
+    },
+    {
+      "path": "tests/test_hydration_valid_markup_v1.py",
+      "size": 2715,
+      "sha256": "a1dcc2037146f25bce37dd19e8f9bf7c7370324cf0364420ddcbace94e7aea3f"
+    },
+    {
+      "path": "tests/test_i18n_v1a.py",
+      "size": 765,
+      "sha256": "927aa4ae9034a34a65343b86960fcf92ffc81df45606a11a4d14d88e1bf47480"
+    },
+    {
+      "path": "tests/test_i18n_v1b.py",
+      "size": 436,
+      "sha256": "d3f097f6b817117f4e956b211d60106d971fb0daad4ffde18bfb7425ec857ae9"
+    },
+    {
+      "path": "tests/test_intelligence_three_card_visual_v1.py",
+      "size": 2770,
+      "sha256": "5e7396af8a3d1796b1bf8486cdf8600bec2f49913e98e3c5e08bed805f6f486b"
+    },
+    {
+      "path": "tests/test_marketplace_live_batch_1.py",
+      "size": 4874,
+      "sha256": "bc8ba3d241ba6370e269386baa2a72c9526a2444c8abcadffe4b8a0f1f53c588"
+    },
+    {
+      "path": "tests/test_master_homepage_design.py",
+      "size": 2256,
+      "sha256": "343bee4d7a930457afbd8ae573a6e3db35b08c97337c09c5a991d29d1b34a8e4"
+    },
+    {
+      "path": "tests/test_mobile_content_consistency_v51.py",
+      "size": 3609,
+      "sha256": "ec61f2d3a7e81c160cf6f1bcfd7664be82fb2373b226362fa2f00688b8955839"
+    },
+    {
+      "path": "tests/test_mobile_news_placement.py",
+      "size": 470,
+      "sha256": "3a1b9f9a283d218ac72198af1fc4238051e5a6cd94f49a73a589b492057a3faf"
+    },
+    {
+      "path": "tests/test_multisource_trade.py",
+      "size": 4820,
+      "sha256": "972e1f4373511b67807be3b026c9f8eefdc6d9810e9f295a42c96a3bdbecc2ef"
+    },
+    {
+      "path": "tests/test_news_visuals.py",
+      "size": 449,
+      "sha256": "021a1e88bfb1f7ca3a5b12443a81ec6a41cad6e835bd83c69f16d0b2c79fdfbc"
+    },
+    {
+      "path": "tests/test_prelaunch_rc1.py",
+      "size": 3222,
+      "sha256": "1915e01f711fd70cba677e21d4c4088e8bacb8645622011477e6b33efe42c4a9"
+    },
+    {
+      "path": "tests/test_production_data_activation_v1.py",
+      "size": 3602,
+      "sha256": "82e736822e78fe67bb78e76caf18a9e75d92a65814034ccb7ab0ec6c64bfab39"
+    },
+    {
+      "path": "tests/test_production_intelligence.py",
+      "size": 1977,
+      "sha256": "f52a366a858528379dbc862ddcebc333a93f8fb3a4587e07f0c9b6f74f04a91e"
+    },
+    {
+      "path": "tests/test_production_qa_fix_batch_1.py",
+      "size": 3053,
+      "sha256": "b6c5929857d6f5ae65c35b080f3fe614a0992d1b5de697bce129577543c6927b"
+    },
+    {
+      "path": "tests/test_react_hydration_consistency.py",
+      "size": 1080,
+      "sha256": "55682290c32c31e665a04ebe90a2e8b80d0b76c43a0cd384161189444067d20c"
+    },
+    {
+      "path": "tests/test_realistic_editorial_assets.py",
+      "size": 472,
+      "sha256": "e3ff2d1e5ba4e3724c04d7f17af17a6bb54e149323dc1caa095e9489f15ccffd"
+    },
+    {
+      "path": "tests/test_responsive_production.py",
+      "size": 477,
+      "sha256": "ece947dddd0002691f090855875ab5bdd2d660cbd352384f850ce6cb05ceebfe"
+    },
+    {
+      "path": "tests/test_species_coverage.py",
+      "size": 1861,
+      "sha256": "a55a46419be9e6fd3fa6f1b3fbe1cff25bddf499aa9ff91c30cf4ef7e10f1ad1"
+    },
+    {
+      "path": "tests/test_trade_40cn_production_release.py",
+      "size": 2625,
+      "sha256": "b3baaf0e5a87797acb028bbf77af6ecd3d0dd03cd41e491b548516decc137b5a"
+    },
+    {
+      "path": "tests/test_trade_cn_coverage.py",
+      "size": 3031,
+      "sha256": "56774fedfa08bd364a2dd4d6032d74a8ceef2de6fbcc38e35c9ca074da3b2ca6"
+    },
+    {
+      "path": "tests/test_trade_pulse_40cn_audit.py",
+      "size": 2094,
+      "sha256": "bb0bdec67bbecf854a9405c59cbe57a9609da5fcd402a4bd27b3f0422af1ac3c"
+    },
+    {
+      "path": "tests/test_trade_pulse_40cn_resolution.py",
+      "size": 3358,
+      "sha256": "388f5e98c0c35b6cea92bbe48a95843d7e15daca914ca8345d80d8b04059123f"
+    },
+    {
+      "path": "tests/test_trade_pulse_intelligence_ux_v2.py",
+      "size": 5857,
+      "sha256": "0503142c278a549778873ebf9f5bae37c60d776ee511ce213cb0b91a850581d0"
+    },
+    {
+      "path": "tests/test_trade_pulse_marketplace_ux.py",
+      "size": 2042,
+      "sha256": "6cc4dc4924fa3e45a71df332c83fd2e4f635fb27da88d3c71f92946537b69128"
+    },
+    {
+      "path": "tests/test_trade_pulse_rolling_clarity_v1.py",
+      "size": 4020,
+      "sha256": "343ef8e5dd94a85756b960df388978d5ab800e0d59bdd241db00d3943eb2309c"
+    },
+    {
+      "path": "tests/test_trade_pulse_v1.py",
+      "size": 4698,
+      "sha256": "a6e3e22b2e0f6937ed43751bc6e5584dea8e9e74e7249858b70f2bc57bfbcc76"
+    },
+    {
+      "path": "tests/test_ui_completion_v1.py",
+      "size": 1942,
+      "sha256": "66b7db51324987c5eef90d12bdd30cf93b45991c0f9a11bacffb58bec288bffb"
+    },
+    {
+      "path": "tests/test_ui_fix_v1.py",
+      "size": 2458,
+      "sha256": "3d28ba34e06047748e76e3950c21e3462951367ccdbb0d0ba6cfaf6fe6a29c9b"
+    },
+    {
+      "path": "tests/test_weather_seed_risk_map_v1.py",
+      "size": 4068,
+      "sha256": "96896f35ae09495d551ba2c5bb49bb1095326085aed9704e392740f82a3f173d"
+    },
+    {
+      "path": "tests/tradeCNCoverage.test.mjs",
+      "size": 1577,
+      "sha256": "e99f538fffa904e38d2a9ff71ff00ea5862942b4b847e33a4626703444d1bea8"
+    }
+  ],
+  "manifest_self_hash": "external sidecar; manifest intentionally not self-referential"
+}

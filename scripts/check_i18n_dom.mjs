@@ -49,7 +49,8 @@ try {
   const { default: App } = await vite.ssrLoadModule('/src/AppV2.jsx')
   const { languages, translate } = await vite.ssrLoadModule('/src/i18n/index.jsx')
   const files = routeFiles('dist')
-  assert.equal(files.length, 45)
+  const catalogueRoutes=JSON.parse(readFileSync('src/generated/market_catalogue_routes.json','utf8'))
+  assert.equal(files.length,45+catalogueRoutes.length-1)
   async function load(file, savedLanguage) {
     if (root) await act(async () => root.unmount())
     dom.reconfigure({ url: 'https://seedtrade.test/' + path.relative('dist', path.dirname(file)) + '/' })
@@ -119,10 +120,10 @@ try {
     assert.equal(document.querySelector('.empty-state h2').textContent, translate(code, 'No matching listings'))
     await fillInput(document.getElementById('marketplace-search'), 'LS Riviera')
     assert.equal(document.querySelectorAll('.request-card').length, 2)
-    await load('dist/market/index.html', saved)
-    await fillInput(document.getElementById('market-search'), translate(code, 'Red clover'))
-    assert.equal(document.querySelectorAll('.crop-card').length, 1)
-    assert.ok(document.querySelector('.crop-card h3').textContent.includes('Trifolium pratense'))
+    await load('dist/market/fodder-grasses/index.html', saved)
+    await fillInput(document.getElementById('catalogue-search'), translate(code, 'Red clover'))
+    assert.equal(document.querySelectorAll('.catalogue-seed-card').length, 1)
+    assert.equal(document.querySelector('.catalogue-botanical').textContent,'Trifolium pratense')
     // New roots simulate full-document navigation/refresh using origin storage.
     for (const file of files) {
       await load(file, saved)
@@ -179,7 +180,7 @@ try {
   window.Storage.prototype.getItem = getItem
   window.Storage.prototype.setItem = setItem
   assert.deepEqual(errors, [], 'Hydration must not require recovery')
-  console.log('DOM hydration: 225 route/language combinations, selection, refresh/navigation storage, invalid/blocked storage and mocked B2B validation/success/error PASS; real email sends=0')
+  console.log(`DOM hydration: ${files.length*languages.length} route/language combinations, selection, refresh/navigation storage, invalid/blocked storage and mocked B2B validation/success/error PASS; real email sends=0`)
 } finally {
   if (root) await act(async () => root.unmount())
   globalThis.fetch = originalFetch

@@ -27,13 +27,21 @@ class EvidenceConfidenceUX(unittest.TestCase):
         self.assertEqual("2026-06", market["latest_completed_period"])
 
     def test_explanation_prerendered_on_market_and_crop_page(self):
-        for path in (ROOT / "dist/market/index.html", ROOT / "dist/market/red-clover/index.html"):
+        for path in (ROOT / "dist/index.html", ROOT / "dist/market/red-clover/index.html"):
             html = path.read_text()
             self.assertIn("Market Signal<!-- -->: <!-- -->Limited", html)
             self.assertIn("Why this level?", html)
             self.assertIn("Price evidence<!-- -->: <!-- -->Eligible", html)
             self.assertIn("Verified trade observations remain available", html)
             self.assertNotIn("PRIVATE_DATA", html)
+
+    def test_catalogue_hides_technical_primary_flow_but_retains_detail_provenance(self):
+        html = (ROOT / "dist/market/index.html").read_text()
+        self.assertIn("catalogue-category-grid", html)
+        self.assertNotIn("Why this level?", html)
+        detail = (ROOT / "dist/market/seeds/red-clover/index.html").read_text()
+        self.assertIn("catalogue-provenance", detail)
+        self.assertIn("Trifolium pratense", detail)
 
     def test_trade_pulse_marketplace_and_methodology_unaltered(self):
         self.assertIn("Category-level unit values are derived indicators, not market prices", APP)

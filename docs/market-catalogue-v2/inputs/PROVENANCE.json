@@ -1,0 +1,384 @@
+{
+  "starting_head": "6f638719d5991b1ba3306ac8692b51638218acc1",
+  "owner_scope_source": "evidence/OWNER_APPROVED_TASK.txt",
+  "owner_scope_approved": true,
+  "master_v2_checkpoint_sha256": "06499266d53be983c375283d3b20bb9cdda4d53a5819bce33b07c7ed27f80908",
+  "retrieval_mode": "Existing exact workspace/public Git files only; no new external extraction",
+  "files": [
+    {
+      "path": "evidence/CN_AUDIT_40.json",
+      "sha256": "e919d52eedc9ff3e5c921352e5156ae76c5a6d3751ce521255f81719aef853dc"
+    },
+    {
+      "path": "evidence/CN_HISTORY_EVIDENCE.json",
+      "sha256": "41eade8459b5535cbeb16af3f11be4f675cf663e9a148ad6ec318f17935023ba"
+    },
+    {
+      "path": "evidence/MASTER_V2_CURRENT_52_CATCH_USE_REVIEW.json",
+      "sha256": "114a05b886cc23d7a4448cbbdd935dc18aea1e802107a187813d468be1f81e2c"
+    },
+    {
+      "path": "evidence/MASTER_V2_EU_COMMERCIAL_SEED_SPECIES_MASTER_V2.json",
+      "sha256": "7fb011abcfdc6729e06bdb3e94ef7ca4e076f96cc40b948c36076302031f8daf"
+    },
+    {
+      "path": "evidence/MASTER_V2_PROVENANCE.json",
+      "sha256": "639fe470990512121a7d6f54ae48434a30894b0415e682f511a4c9ee70eaeec3"
+    },
+    {
+      "path": "evidence/MASTER_V2_QA_REPORT.json",
+      "sha256": "107d8d14efda493cffb9e42774ba63768868458ae77a3000c86aee62cb365245"
+    },
+    {
+      "path": "evidence/METHODOLOGY.md",
+      "sha256": "682a67138eafdfcdc7a7b4d0d4d1f570e89628b0bed6b9c4d0e6794225df23ef"
+    },
+    {
+      "path": "evidence/OFFICIAL_SOURCE_MANIFEST.json",
+      "sha256": "c7e2aef6b251575931dd09e33b8a335c1be7c1a160767f2b416f81ca03d6abf3"
+    },
+    {
+      "path": "evidence/OWNER_APPROVED_TASK.txt",
+      "sha256": "1660a9e702c89de2eb38ee4bbd07474bbc0614525186dac77d6a4bcbacd4903f"
+    },
+    {
+      "path": "evidence/RECONCILIATION.json",
+      "sha256": "a491f4b6eb1cca12ea2d5b839c4980261168db65704dd73cafd3f9c63398fb1f"
+    },
+    {
+      "path": "evidence/RELEASE_GATE.json",
+      "sha256": "032963f66359dbe6f4bcc12bead00862e9736b717901379434e71420ad2d6cb5"
+    },
+    {
+      "path": "evidence/VERIFIED_TRADE_PRECISION.json",
+      "sha256": "209735265d1763ab5176954598b66d2a51bf3c4e3cb6c698e01820f7fb3c882d"
+    },
+    {
+      "path": "evidence/country_customs_totals.json",
+      "sha256": "0d23508897a88e45fa6b275068beb5384ba4c340f471644939ff7380841adafe"
+    },
+    {
+      "path": "evidence/crop-master-v1.json",
+      "sha256": "963e32c31634610e27a530810efdbb3677e5c3bc2e5b40b175c400d8ea11988b"
+    },
+    {
+      "path": "evidence/market_public.json",
+      "sha256": "1b4319c003597dc4019947b413f15d594931238390b3ea29ec5cb1cc6b634067"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/AT-cover-drought.html",
+      "sha256": "39641c35a36fbe5859a3ff100451f214c719a50eba5b612a2419d25672a1d74c"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/AT-nigella.html",
+      "sha256": "aa27a6f946bf0bb1b6e5fc2bc96e26f668f50dc8812939bf33615e8e35831aea"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/AT-sowing.html",
+      "sha256": "444e26dcabac0ec20bc79db0964f6a4ce6197ae85584883a2b9c3f27f7addd88"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-crops-2026.pdf",
+      "sha256": "3bf55d21c53392dbc091365adcca9b90d6ef3d990f8dbed097b5c25a3c2cb53d"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-crops-2026.txt",
+      "sha256": "4b880b609e7f6110da9e03004252643777778fd77fe27debb71fa0f1745e22ab"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-forage-2024.pdf",
+      "sha256": "f8f219c3dd4bdc95c2ace29b74cd840ac431b25212b4ae91a9e1730a028faa9c"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-forage-2024.txt",
+      "sha256": "fb17b47eed13d92044f1d07266164004b586593fffc5fcbbc5edbb84f51dda00"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-lists.html",
+      "sha256": "7827ef1983a53d36297833bd153bc870ea1f5db8cb1b717d06a0bda44a0d7319"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-turf-2025.pdf",
+      "sha256": "283c1b5c8b81c8ac34effbfc5c0549b34ad2e7bb81b187b2e2201b93acc7d2cd"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA-turf-2025.txt",
+      "sha256": "fa5d0249295855190e1e9af249b18c41f557801e8a1b09045268c7e45b89f992"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/BSA_DOWNLOAD_RECEIPT.json",
+      "sha256": "16f240f4d5fe882d66a6b9c47872732ad4192a753aff7c2b4cf83f377d5c5f83"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/DE-AELF-cover.html",
+      "sha256": "d59547268c25ae3b84d8bfc8c6c685ec475465d4c80e8b1c2d3298ae25f6c1aa"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/DLF-IE-forage-2026.pdf",
+      "sha256": "539baa8419f658b087521ccf6eacefa5709789b257680530cd53e3d241c23416"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/DLF-IE-forage-2026.txt",
+      "sha256": "a122e39d033e5a42faa521a4767265d4115f993187d1dcf9b8f56aea96185207"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/DLF-forage.html",
+      "sha256": "bcb7c0e6a8f17eda481d432e82e58b5450fab48dc2061f648d95fbee0537dd89"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/DLF-turf.html",
+      "sha256": "52ab5cb2aeef272fab6372e3233d65f73cd87d190a53241b9028e2d04c800c09"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/FINAL_DOWNLOAD_RECEIPT.json",
+      "sha256": "98518f439d19c0caa3b6c91351aac013fc7b5097645465d32293aab6518e4728"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/FR-bermuda-seed.html",
+      "sha256": "b03287d136f9c7bebdeb779d74db7a1d3c77f2cb26b7d21bc2967396718e7ccb"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/GR-catalogue-2025.xlsx",
+      "sha256": "bedc891fc3a80d698a5eb2d80489e8391de18d7f320b04f883428ee1d131c72b"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/GR-catalogue.html",
+      "sha256": "0c9e9f1144aa51dfb73dff034dab09de98392cdccc7ec5b83d0c1076a676248e"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/GR-certified-cotton.pdf",
+      "sha256": "51506ff757572000feec4bb79f23a32be44e8ec36c2a7557e322798b8db8357f"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/GR-certified-cotton.txt",
+      "sha256": "0177a1868563b1f6a5583f7cf5a92b6a61a769bf74704e77c103024722c9276a"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/Hohenheim-cover.html",
+      "sha256": "8ae79da2a8902e2941e6963a8574c8134ec053a5c04253586e765d0d9053044d"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IE-swards-2022.pdf",
+      "sha256": "aecc316c51580bbe993958954a579295d0b28dfca5a57f19d2e249b7a0523c0a"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IE-swards-2022.txt",
+      "sha256": "6346163d98a16e6aee2f5a1fe79d944e546b891e8eaddf55da7437e2176c63d6"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-mediterranean-forage-registration.pdf",
+      "sha256": "5735ab8c3b23bd4f25b536807aee9b6405d0288cba7049f892458ac38bbf6551"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-mediterranean-forage-registration.txt",
+      "sha256": "dd3919ebf9d88f7434aeaf62f32a3f48b4284598760ae7e53367218989924f64"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-organic-seed-2007.pdf",
+      "sha256": "c911e72bbc3ea2a51d0229ce3684246e0763e090c702119b1eeca3c2bd0d6e53"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-organic-seed-2007.txt",
+      "sha256": "f6913ff220d7f50585fa1531cf67cee1f3b68ff0f7b5a4e9b42e273fd4826118"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-seed-law-2025.pdf",
+      "sha256": "eba169fede4026492210a2eb988f15e9df11fdcbf8c489599e1052c60f861531"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-seed-law-2025.txt",
+      "sha256": "228bb16b26992a6928e8df069fa076a8e380997ab3e9aadc27b458760a944a62"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-seed-price-2024.pdf",
+      "sha256": "6a6e6689164add0dc29bae8f0834cc8bb772bd5894437e6cdcb186d7df140275"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-seed-price-2024.txt",
+      "sha256": "55c3d40e8b1a0c8b69d879765beabb9133988dfbfb5638b24a6f294568c2917e"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/IT-sesame-seed.html",
+      "sha256": "f8f3acb9f4a4d435be3cbbe82d98ada10e6a2e3ca415a034e63f1ec5baf4ed0a"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-caraway-green.html",
+      "sha256": "e1c572a3b84f1262bd5e2038c1a14cf91b8caaefc2eb39ef50b70cb61c0da1c0"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-cover-2018.pdf",
+      "sha256": "e71381fcc33bc5b1d5787e761f8aa995c3feec535e58d6246e58ac182a6e3d54"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-cover-2018.txt",
+      "sha256": "8191ac6ea2a6b4923f80052f32955242e26373502fdf2ff61f2036ad7fe13332"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-cover-sowing.pdf",
+      "sha256": "6ba49aa23495bf57ab7fd16b6128db82371cde841dc75773c513200b603e4e64"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-cover-sowing.txt",
+      "sha256": "8644e3634f40ab5bb0f513fbf414c19f8efe5c044fd4f68f81e7f5b352179cb7"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-cover.html",
+      "sha256": "2447e2badbe107b9b4b95aefb634d5de14bded5543fe8ac30e5214e376238900"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/LfL-hemp-cover.html",
+      "sha256": "645399f1f82c1429ca7c83143e85893bbc4197193f310d485d9e20f521713434"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/MORE_DOWNLOAD_RECEIPT.json",
+      "sha256": "d05100ce43cf44d34a4c541fdc489b2568d68b618109c0d7c6ce70752bb68115"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/OIL_FINAL_DOWNLOAD_RECEIPT.json",
+      "sha256": "5bf33f592341340b42f1518bc788857df3b7b46cdc4938c3d6cabda7f1f04d6d"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/PRIMARY_DOWNLOAD_RECEIPT.json",
+      "sha256": "3585964fd5a621e2a0881865ed8c19edc83bd88958933361cfbd8d0453a7bda3"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/SEGMENT_DOWNLOAD_RECEIPT.json",
+      "sha256": "907698a075a27b42fdae0dfe6c0ffe84b8b7f7543f265771f4f84c2b0c0710db"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/SU-cover-2026.pdf",
+      "sha256": "77d82f464bc5bd5e1f7751f866b7b5328e64656ad145be65e349eca9d8ea8129"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/SU-cover-2026.txt",
+      "sha256": "1e83f5e1e8ccc3d6fda34f79619d40b6a573550ae53a3422acdda586ca5a592c"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/SU-download.html",
+      "sha256": "a2cfa987f1a70d905bf8746cf242314dc86948df18979a973e8f06758c572aaa"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/SUPPLEMENT_DOWNLOAD_RECEIPT.json",
+      "sha256": "9d15a6cc7a517f40f1f0f7d61d8d4d83b03dd131dc3128a5ca64f0e4f4e4f645"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/accepted_taxa_primary.json",
+      "sha256": "6c63ce59af5e793a3585ab98cfb1947f41a236d6b03b4f5babfec29f0b502ddd"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/eu_market_strong_check.json",
+      "sha256": "e6f8295bdf4b845611f40605aa7b1e0437d9a90de32956138589c63fc58a432a"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/final_botany_market.json",
+      "sha256": "183b63ae09096c3f528a3ebbab4f7d198fa19e31ca24ed1b9e634339c6cf880c"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/further_priority_candidates.json",
+      "sha256": "cf98b3f61f32836a0acf5d37138b258ea9cffb69032cb3de05105eedc2be2d50"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/herb_identity.json",
+      "sha256": "58f17dadfc7728cbcefdd4c75c9c03898c3d9099c5e696e5c0c3a87ef6bcd399"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/market_candidates_check.json",
+      "sha256": "f7c7ee03074868b87518c7340f1dea74d3eba66b094354eeb679a7f81ab90fe8"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/master_bsa_su.json",
+      "sha256": "f59bd0cf832d4a1a6ec1cbbf69f2ac5a4f321517208c6592139f96092a2011e1"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/master_discovery.json",
+      "sha256": "a8106013cffe800b3cb29130ee5826c3136b2dd546cb933eafd0e10fe884a882"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/master_primary_pages.json",
+      "sha256": "30a717d10beecfc127d2b1355009c904993829c5ce904d69f7f7ab6e455b2658"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/new_taxonomy_check.json",
+      "sha256": "a78f4eab29198e95be5e15e8d28a251a69982a7174a775f2cb30e15eca498ccd"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/oil-directive.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/oil_candidate_limits.json",
+      "sha256": "66b840c6a2955b41463424343a451e64bbeae2562f9f6988c67f11c24a316f03"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/oil_final_scope.json",
+      "sha256": "ba40ac89d2ad739a49efcf585265ca4f96da6f406300f53e4e922cf91383eb11"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/priority_use_checks.json",
+      "sha256": "e8de092c3c44e75bce324cb95f50c497d57fb93692c8baf7b15a744f0b1d79df"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/sheet1-GR.txt",
+      "sha256": "ae4fdd5b884d4e026eddd3262156ba81847b4038e242eba48c03c4d4822ae768"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/sheet2-GR.txt",
+      "sha256": "4cad8ad74500acc5d9d4bb8855ba3092aec2a85595ae43886a22c82410f6f3c3"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/sheet3-GR.txt",
+      "sha256": "3c8cc3d937734d1832cfb9e899cbb8748a1d18647d7abd1dd866318da4dd4180"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/taxonomy_price_primary.json",
+      "sha256": "1761d3f73c1a49f8f385c3c04e58928899c6f5753d7a4db1d5b845c92590e214"
+    },
+    {
+      "path": "evidence/master-v2-public-sources/taxonomy_seed_check.json",
+      "sha256": "f337f99af2aac5d0fa5ccd8fa19f0f0ecbd684f7fe41389d7d2304a3a24a1620"
+    },
+    {
+      "path": "evidence/production_coverage_additions.json",
+      "sha256": "5190b8e3c695a9080becd2b0061a693898284af3da6d42ac269821e6dce6e9dd"
+    },
+    {
+      "path": "evidence/production_public.json",
+      "sha256": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4"
+    },
+    {
+      "path": "evidence/species-coverage-v1.json",
+      "sha256": "38bde9fe6378f868fb154d8fd8c184168f96e95d236b4565180ebe358b6b704c"
+    },
+    {
+      "path": "evidence/trade-40cn-approved-coverage-v1.json",
+      "sha256": "511b67e40e0612eb5e063192fe88c7e6a6f1ea3de8b6adb73ccdd28354184980"
+    },
+    {
+      "path": "evidence/trade_cn_public.json",
+      "sha256": "326dc983ce1cb526f09634a4e5c4caf01627b8b11bab813d9c1ed7dffe71c083"
+    },
+    {
+      "path": "evidence/trade_entity_scope.json",
+      "sha256": "d5e4fbbf08d70c263eea4ae2abaebcee3a240cab5f9ea70fa829432ba06ca915"
+    },
+    {
+      "path": "evidence/trade_pulse_public.json",
+      "sha256": "2af4e6b02a9be3b43c081092b84327ab8b25ce9b6551aba0d70e867671cc75e4"
+    }
+  ],
+  "original_source_urls": "MASTER_V2_PROVENANCE.json; crop-master-v1.json:production_source_catalogue; production_public.json:sources; production_coverage_additions.json:sources; trade_cn_public.json and Trade Pulse source artifact hash.",
+  "source_dates_preserved": true,
+  "owner_supply_labels": "Vocabulary provided, per-entity assignments absent. All owner labels null, pending owner input; not invented.",
+  "allowed_owner_supply_label_vocabulary": [
+    "EU PRODUCED",
+    "EU + IMPORT",
+    "EU PRODUCED + IMPORT",
+    "IMPORT HEAVY",
+    "EU LIMITED / IMPORT",
+    "IMPORT DEPENDENT"
+  ],
+  "privacy": "Only approved scope metadata and existing public facts. No GlobalWits/Datamyne owner material copied.",
+  "trade_method": "Aggregate existing reporter totals once by CN-period with EU pseudo-reporter excluded, exporter dispatches only; mirrors excluded upstream by verified pipeline. Missing scope/value is null. New representative prices not calculated; existing price series with differing upstream period volumes withheld pending snapshot/methodology reconciliation.",
+  "production_method": "Reference preserved observation IDs/source IDs; no amounts summed or transferred to forms; category ALL_REPORTED and subcategories not summed.",
+  "category_summary_method": "Headline amounts withheld. Internal observed subtotals use unique CN set, never sum card rows; overlapping category subtotals not additive."
+}

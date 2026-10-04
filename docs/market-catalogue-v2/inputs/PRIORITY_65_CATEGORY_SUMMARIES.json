@@ -1,0 +1,169 @@
+[
+  {
+    "category_id": "CEREALS",
+    "commercial_entities_count": 9,
+    "biological_species_count": 8,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 22,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [
+        "10019110",
+        "10021000",
+        "10031000"
+      ],
+      "latest_period": "2026-06",
+      "volume_t": "20080.81",
+      "value_eur": "6082223.0",
+      "reporter_count": 19,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  },
+  {
+    "category_id": "PULSES_LEGUMES",
+    "commercial_entities_count": 7,
+    "biological_species_count": 7,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 21,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [
+        "07131010",
+        "12011000"
+      ],
+      "latest_period": "2026-06",
+      "volume_t": "5159.888",
+      "value_eur": "3791516.0",
+      "reporter_count": 21,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  },
+  {
+    "category_id": "VEGETABLES",
+    "commercial_entities_count": 1,
+    "biological_species_count": 1,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 8,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [
+        "12092960"
+      ],
+      "latest_period": "2026-06",
+      "volume_t": "16.079",
+      "value_eur": "127105.0",
+      "reporter_count": 8,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  },
+  {
+    "category_id": "OIL_FIBRE",
+    "commercial_entities_count": 12,
+    "biological_species_count": 12,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 23,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [
+        "12011000",
+        "12040010",
+        "12060010"
+      ],
+      "latest_period": "2026-06",
+      "volume_t": "6781.872",
+      "value_eur": "16515956.0",
+      "reporter_count": 22,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  },
+  {
+    "category_id": "MAIZE_SORGHUM",
+    "commercial_entities_count": 3,
+    "biological_species_count": 1,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 3,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [],
+      "latest_period": null,
+      "volume_t": null,
+      "value_eur": null,
+      "reporter_count": null,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  },
+  {
+    "category_id": "FODDER_AMENITY",
+    "commercial_entities_count": 29,
+    "biological_species_count": 27,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 21,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [
+        "12092100",
+        "12092210",
+        "12092311",
+        "12092590"
+      ],
+      "latest_period": "2026-06",
+      "volume_t": "6754.817",
+      "value_eur": "15358426.0",
+      "reporter_count": 21,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  },
+  {
+    "category_id": "CATCH_CROP",
+    "commercial_entities_count": 43,
+    "biological_species_count": 43,
+    "trade_volume_t": null,
+    "trade_value_eur": null,
+    "countries_observed_count": 25,
+    "countries_scope": "Strict assigned production countries and measured reporter coverage; not inferred from broad customs constituent lists.",
+    "trade_summary_status": "WITHHELD",
+    "withhold_reason": "The approved commercial subset has missing and unresolved form/group trade coverage. Observed compatible scopes can support a subtotal, but not a complete 65-priority category headline total.",
+    "compatible_observed_subtotal_internal_only": {
+      "cn_codes": [
+        "07131010",
+        "10021000",
+        "12040010",
+        "12060010",
+        "12092100",
+        "12092210",
+        "12092311",
+        "12092590"
+      ],
+      "latest_period": "2026-06",
+      "volume_t": "21790.035",
+      "value_eur": "34067979.0",
+      "reporter_count": 24,
+      "status": "NOT_A_FULL_CATEGORY_TOTAL; NEVER_SUM_CARD_ROWS; UNIQUE_CN_GRAINS_ONLY"
+    },
+    "overlapping_category_views_not_additive": true
+  }
+]

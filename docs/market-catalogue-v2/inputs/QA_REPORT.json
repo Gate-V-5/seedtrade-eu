@@ -1,0 +1,236 @@
+{
+  "QA": "PASS",
+  "QA_FAILURES": 0,
+  "checks_total": 42,
+  "checks": [
+    {
+      "check": "exactly_65_entities_and_cards",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "exact_owner_order_names_botanicals",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "market_ids_and_slugs_unique",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "owner_approved_entities_never_dropped",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "59_unique_biological_taxa_no_group_inflation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "three_hybrid_groups_no_invented_species",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "brassica_rapa_two_entities_one_biology",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "italian_westerwold_two_entities_one_biology",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "sorghum_sudan_share_biology_group_separate",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "all_62_master_links_resolve",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "six_distinct_form_proposals",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "master_review_not_silently_upgraded",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "botanical_display_present_in_all_cards",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "mandatory_hemp_and_caraway",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "seven_category_views_exhaustive",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "category_joins_not_observation_copies",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "group_parent_or_absent_scope_numeric_values_null",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "shared_italian_scope_not_copied_to_forms",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "sorghum_scope_not_copied_to_forms",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "form_production_no_parent_amount_transfer",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "fodder_beet_specific_cn_description",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "source_aggregated_grains_unique",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "all_measured_card_amounts_yoy_countries_reconciled",
+      "status": "PASS",
+      "details": {
+        "measured_cards": 12,
+        "EU_aggregate_reporter_excluded": true,
+        "imports_and_exports_not_summed": true
+      }
+    },
+    {
+      "check": "no_price_spliced_across_mismatched_source_volumes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "CEREALS_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "PULSES_LEGUMES_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "VEGETABLES_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "OIL_FIBRE_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "MAIZE_SORGHUM_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "FODDER_AMENITY_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "CATCH_CROP_internal_unique_CN_subtotal",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "category_full_trade_totals_withheld_not_zero",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "owner_supply_labels_not_fabricated",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "card_status_counts_exhaustive",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "observed_countries_not_zero_for_missing_evidence",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "public_safe_boundaries",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "all_provenance_file_hashes_match",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "PRIORITY_65_CARD_DATA_CSV_JSON_ALL_FIELDS_MATCH",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "PRIORITY_65_COMMERCIAL_MARKET_ENTITIES_CSV_JSON_ALL_FIELDS_MATCH",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "379_website_and_data_files_unchanged",
+      "status": "PASS",
+      "details": {
+        "changed_files": []
+      }
+    },
+    {
+      "check": "local_remote_head_unchanged_workspace_clean",
+      "status": "PASS",
+      "details": {
+        "local": "6f638719d5991b1ba3306ac8692b51638218acc1",
+        "remote": "6f638719d5991b1ba3306ac8692b51638218acc1",
+        "git_status": ""
+      }
+    },
+    {
+      "check": "existing_homepage_KPI_still_121",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "scope": "Owner inventory, biological/commercial separation, provenance, conservative aggregation, CSV parity and byte-level application invariance. Not an independent re-audit of original raw COMEXT or a rendered UI test.",
+  "documented_limitations": [
+    "No individual owner supply labels supplied; 65 remain REVIEW_REQUIRED.",
+    "Five group/infraspecific taxonomy exceptions remain explicit.",
+    "Six legacy price-series upstream volumes mismatch current totals; numerical prices withheld.",
+    "All seven full category trade summaries withheld; compatible observed subtotals retained internally."
+  ],
+  "REAL_EMAILS": 0,
+  "WEBSITE_CHANGED": false
+}

@@ -11,6 +11,7 @@ const dist = path.join(root, 'dist')
 
 const readJson = async relative => JSON.parse(await fs.readFile(path.join(root, relative), 'utf8'))
 const market = await readJson('src/generated/market_public.json')
+const catalogueRoutes = await readJson('src/generated/market_catalogue_routes.json')
 const insights = await readJson('src/generated/insights.json')
 const news = await readJson('src/generated/news.json')
 const newsSources = await readJson('src/data/news_sources.json')
@@ -21,7 +22,7 @@ const marketplace = await readJson('src/generated/rfqs_public.json')
 
 const routes = [
   ['production-intelligence', 'Seed Production Intelligence', 'Official European seed multiplication and certification evidence by species, country, metric and year.', true],
-  ['market', 'EU Seed Market Dashboard', 'Representative prices and trade volumes for eleven European seed categories.', true],
+  ['market', 'European Seed Market Catalogue', 'Browse European commercial seed categories and individual seed markets.', true],
   ['trade-pulse', 'EU Seed Trade Pulse', 'Verified EU internal, import and export seed trade volume, value and activity intelligence.', true],
   ['weather-evidence', 'Weather & Seed Risk coverage', 'Map and list of 23 monitored European seed-production regions; weather exposure is not validated production impact.', true],
   ['methodology', 'SeedTrade data methodology', 'How SeedTrade validates official trade data, representative prices and evidence status.', true],
@@ -35,6 +36,7 @@ const routes = [
   ['buying-requests', 'Active Seed Marketplace Listings', 'Verified PUBLIC_SAFE seed offers and buying requests; sensitive company and contact details remain private.', true],
 ]
 
+for (const route of catalogueRoutes.filter(x=>x.path!=='/market')) routes.push([route.path.slice(1),route.title,route.description,true])
 for (const crop of market.crops) routes.push([
   `market/${crop.slug}`,
   `${crop.crop} market data`,

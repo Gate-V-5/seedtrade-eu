@@ -1,0 +1,62 @@
+[
+  {
+    "category": "catch-crops",
+    "source_filename": "diverse_flowering_catch_crop_30829_Nano_Banana_2(1).png",
+    "public_asset": "/catalogue-v3/catch-crops.png",
+    "sha256": "df9b48d69ba3eb09bac8fbd537d4fa794ac5659066717f8aa4288eb2870e9fc0",
+    "bytes": 5359719,
+    "owner_supplied": true,
+    "content_changed": false,
+    "image_generation": false
+  },
+  {
+    "category": "fodder-amenity",
+    "source_filename": "diverse_flowering_catch_crop_23476_Nano_Banana_2(1).png",
+    "public_asset": "/catalogue-v3/fodder-amenity.png",
+    "sha256": "aa8d9484525b3c8237a7bca2fcef6964f4f56af8fce184efa202613c9d929f91",
+    "bytes": 5209869,
+    "owner_supplied": true,
+    "content_changed": false,
+    "image_generation": false
+  },
+  {
+    "category": "vegetables",
+    "source_filename": "diverse_flowering_catch_crop_69423_Nano_Banana_2(1).png",
+    "public_asset": "/catalogue-v3/vegetables.png",
+    "sha256": "84016b74e1bd341609044130a1856a8e62a8093829948b0b62c5bbb38ba5f0a3",
+    "bytes": 5237753,
+    "owner_supplied": true,
+    "content_changed": false,
+    "image_generation": false
+  },
+  {
+    "category": "maize-sorghum",
+    "source_filename": "diverse_flowering_catch_crop_12187_Nano_Banana_2.png",
+    "public_asset": "/catalogue-v3/maize-sorghum.png",
+    "sha256": "0698f525f6fbc88eaca38fa4a76e8316a1bc754b6820a1a11d19fba1e918a91b",
+    "bytes": 5997826,
+    "owner_supplied": true,
+    "content_changed": false,
+    "image_generation": false
+  },
+  {
+    "category": "oil-fibre",
+    "source_filename": "diverse_flowering_catch_crop_83560_Nano_Banana_2.png",
+    "public_asset": "/catalogue-v3/oil-fibre.png",
+    "sha256": "114ef17b54e16c37cc828b61b7e9764752374be9e980767c448e4827df926d9e",
+    "bytes": 5436374,
+    "owner_supplied": true,
+    "content_changed": false,
+    "image_generation": false
+  },
+  {
+    "category": "cereals-pulses",
+    "source_filename": "diverse_flowering_catch_crop_00058_Nano_Banana_2.png",
+    "public_asset": "/catalogue-v3/cereals-pulses.png",
+    "sha256": "3489f8b2b5de49a1009b8f44fa42c07c17b698f25c5fd005518951f256f24290",
+    "bytes": 4931079,
+    "owner_supplied": true,
+    "content_changed": false,
+    "image_generation": false
+  }
+]

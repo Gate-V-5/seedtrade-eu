@@ -1,0 +1,53 @@
+{
+  "assets": [
+    {
+      "file": "dist/assets/index-BSfekq5o.js",
+      "bytes": 546282,
+      "gzip_bytes": 155057
+    },
+    {
+      "file": "dist/assets/ProductionIntelligence-CeumaP2L.js",
+      "bytes": 908781,
+      "gzip_bytes": 71810
+    },
+    {
+      "file": "dist/assets/MarketCatalogue-DiF9codG.css",
+      "bytes": 6503,
+      "gzip_bytes": 1574
+    },
+    {
+      "file": "dist/assets/MarketCatalogue-CL8fpwM5.js",
+      "bytes": 356735,
+      "gzip_bytes": 23302
+    },
+    {
+      "file": "dist/assets/index-zkciDw7r.css",
+      "bytes": 86813,
+      "gzip_bytes": 16238
+    },
+    {
+      "file": "dist/assets/market_categories_public-pVFvVEdc.js",
+      "bytes": 68922,
+      "gzip_bytes": 8364
+    },
+    {
+      "file": "dist/assets/i18n-C5rnfGFE.js",
+      "bytes": 180237,
+      "gzip_bytes": 58821
+    },
+    {
+      "file": "dist/assets/MarketCategories-Bnz0Uvqi.js",
+      "bytes": 5019,
+      "gzip_bytes": 1892
+    },
+    {
+      "file": "dist/assets/TradeCoverage-HIwC4I8n.js",
+      "bytes": 2426156,
+      "gzip_bytes": 407084
+    }
+  ],
+  "routes": 122,
+  "build": "PASS_WITH_EXISTING_BUNDLE_WARNING",
+  "owner_images": "PNG originals unmodified; intentionally no resize, encoding conversion, image generation or web search",
+  "owner_image_total_bytes": 32172620
+}

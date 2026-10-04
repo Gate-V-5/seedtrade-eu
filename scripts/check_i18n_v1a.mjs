@@ -41,7 +41,7 @@ try {
   assert.match(source, /localStorage\.getItem\(STORAGE_KEY\)/)
   assert.match(source, /localStorage\.setItem\(STORAGE_KEY, code\)/)
   assert.match(appSource, /value=\{language\} onChange=\{event=>setLanguage\(event.target.value\)\}/)
-  for (const file of ['src/AppV2.jsx', 'src/WeatherEvidence.jsx']) {
+  for (const file of ['src/AppV2.jsx', 'src/WeatherEvidence.jsx', 'src/MarketCatalogue.jsx']) {
     const content = readFileSync(file, 'utf8')
     const keys = [...content.matchAll(/<T>([^<]+)<\/T>/g)].map(match => match[1].replaceAll('&amp;', '&'))
       .concat([...content.matchAll(/<I18n text="([^"]+)"/g)].map(match => match[1]))
@@ -52,7 +52,7 @@ try {
   }
   const pages = [
     ['/', ['European seed market intelligence', 'Top News', 'Join the European seed market network', 'Company name', 'Business email', 'Register interest']],
-    ['/market', ['Market Intelligence', 'What is moving, where and when?']],
+    ['/market', ['Market Intelligence', 'European Seed Market']],
     ['/trade-pulse', ['Trade activity over time', 'Market observations']],
     ['/buying-requests', ['Seed marketplace discovery', 'Search species or variety']],
     ['/methodology', ['Data and Market Intelligence Methodology', 'Metrics and evidence']],
@@ -87,13 +87,14 @@ try {
     })
   }
   const files = routeFiles('dist')
-  assert.equal(files.length, 45)
+  const catalogueRoutes = JSON.parse(readFileSync('src/generated/market_catalogue_routes.json', 'utf8'))
+  assert.equal(files.length, 45 + catalogueRoutes.length - 1)
   for (const language of languages) for (const file of files) {
     globalThis.window = { location: { pathname: '/' + path.relative('dist', path.dirname(file)), hash: '' } }
     const html = renderToStaticMarkup(React.createElement(AppV2, { initialLanguage: language.code }))
     assert.ok(html.includes(`${language.flag} ${language.code}`))
     assert.ok(html.includes(translate(language.code, 'Optional analytics')))
   }
-  console.log('225 route/language SSR combinations PASS')
+  console.log(`${files.length * languages.length} route/language SSR combinations PASS`)
   console.log('Five-language UI, flags, fallback, catalog, B2B messages and SSR coverage PASS')
 } finally { await server.close() }

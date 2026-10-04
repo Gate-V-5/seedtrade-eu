@@ -53,7 +53,7 @@ class HydrationValidMarkupV1(unittest.TestCase):
                 self.assertIn("SeedTrade", root)
 
     def test_evidence_disclosure_kept_and_no_blank_root(self):
-        for route in ("index.html", "market/index.html", "market/red-clover/index.html"):
+        for route in ("index.html", "market/red-clover/index.html"):
             markup = (ROOT / "dist" / route).read_text()
             self.assertIn("Why this level?", markup)
             self.assertIn("Market Signal", markup)

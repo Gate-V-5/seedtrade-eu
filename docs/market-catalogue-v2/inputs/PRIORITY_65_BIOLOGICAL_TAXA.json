@@ -1,0 +1,654 @@
+[
+  {
+    "biological_species_id": "white-mustard",
+    "botanical_name": "Sinapis alba",
+    "accepted_taxon": "Sinapis alba",
+    "biological_key": "Sinapis alba",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "white-mustard"
+    ]
+  },
+  {
+    "biological_species_id": "brown-mustard",
+    "botanical_name": "Brassica juncea",
+    "accepted_taxon": "Brassica juncea",
+    "biological_key": "Brassica juncea",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "brown-mustard"
+    ]
+  },
+  {
+    "biological_species_id": "black-mustard",
+    "botanical_name": "Brassica nigra",
+    "accepted_taxon": "Brassica nigra",
+    "biological_key": "Brassica nigra",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "black-mustard"
+    ]
+  },
+  {
+    "biological_species_id": "cultivated-radish",
+    "botanical_name": "Raphanus raphanistrum subsp. sativus",
+    "accepted_taxon": "Raphanus raphanistrum subsp. sativus",
+    "biological_key": "Raphanus raphanistrum",
+    "taxonomic_rank": "SUBSPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "oil-radish"
+    ]
+  },
+  {
+    "biological_species_id": "rapeseed",
+    "botanical_name": "Brassica napus",
+    "accepted_taxon": "Brassica napus",
+    "biological_key": "Brassica napus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "rapeseed"
+    ]
+  },
+  {
+    "biological_species_id": "turnip-rape",
+    "botanical_name": "Brassica rapa",
+    "accepted_taxon": "Brassica rapa",
+    "biological_key": "Brassica rapa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "turnip-rape",
+      "fodder-turnip"
+    ]
+  },
+  {
+    "biological_species_id": "cabbage",
+    "botanical_name": "Brassica oleracea",
+    "accepted_taxon": "Brassica oleracea",
+    "biological_key": "Brassica oleracea",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "fodder-kale"
+    ]
+  },
+  {
+    "biological_species_id": "phacelia",
+    "botanical_name": "Phacelia tanacetifolia",
+    "accepted_taxon": "Phacelia tanacetifolia",
+    "biological_key": "Phacelia tanacetifolia",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "phacelia"
+    ]
+  },
+  {
+    "biological_species_id": "sunflower",
+    "botanical_name": "Helianthus annuus",
+    "accepted_taxon": "Helianthus annuus",
+    "biological_key": "Helianthus annuus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "sunflower"
+    ]
+  },
+  {
+    "biological_species_id": "buckwheat",
+    "botanical_name": "Fagopyrum esculentum",
+    "accepted_taxon": "Fagopyrum esculentum",
+    "biological_key": "Fagopyrum esculentum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "buckwheat"
+    ]
+  },
+  {
+    "biological_species_id": "oat",
+    "botanical_name": "Avena sativa",
+    "accepted_taxon": "Avena sativa",
+    "biological_key": "Avena sativa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "oat"
+    ]
+  },
+  {
+    "biological_species_id": "black-oat",
+    "botanical_name": "Avena strigosa",
+    "accepted_taxon": "Avena strigosa",
+    "biological_key": "Avena strigosa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "black-oat"
+    ]
+  },
+  {
+    "biological_species_id": "rye",
+    "botanical_name": "Secale cereale",
+    "accepted_taxon": "Secale cereale",
+    "biological_key": "Secale cereale",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "rye"
+    ]
+  },
+  {
+    "biological_species_id": "barley",
+    "botanical_name": "Hordeum vulgare",
+    "accepted_taxon": "Hordeum vulgare",
+    "biological_key": "Hordeum vulgare",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "barley"
+    ]
+  },
+  {
+    "biological_species_id": "common-wheat",
+    "botanical_name": "Triticum aestivum",
+    "accepted_taxon": "Triticum aestivum",
+    "biological_key": "Triticum aestivum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "wheat"
+    ]
+  },
+  {
+    "biological_species_id": "proso-millet",
+    "botanical_name": "Panicum miliaceum",
+    "accepted_taxon": "Panicum miliaceum",
+    "biological_key": "Panicum miliaceum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "proso-millet"
+    ]
+  },
+  {
+    "biological_species_id": "sorghum",
+    "botanical_name": "Sorghum bicolor",
+    "accepted_taxon": "Sorghum bicolor",
+    "biological_key": "Sorghum bicolor",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "sorghum",
+      "sudan-grass"
+    ]
+  },
+  {
+    "biological_species_id": "italian-ryegrass",
+    "botanical_name": "Lolium multiflorum",
+    "accepted_taxon": "Lolium multiflorum",
+    "biological_key": "Lolium multiflorum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "italian-ryegrass",
+      "westerwold-ryegrass"
+    ]
+  },
+  {
+    "biological_species_id": "perennial-ryegrass",
+    "botanical_name": "Lolium perenne",
+    "accepted_taxon": "Lolium perenne",
+    "biological_key": "Lolium perenne",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "perennial-ryegrass"
+    ]
+  },
+  {
+    "biological_species_id": "hybrid-ryegrass",
+    "botanical_name": "Lolium × hybridum",
+    "accepted_taxon": "Lolium × hybridum",
+    "biological_key": "Lolium × hybridum",
+    "taxonomic_rank": "NAMED_HYBRID_SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "hybrid-ryegrass"
+    ]
+  },
+  {
+    "biological_species_id": "meadow-fescue",
+    "botanical_name": "Festuca pratensis",
+    "accepted_taxon": "Festuca pratensis",
+    "biological_key": "Festuca pratensis",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "meadow-fescue"
+    ]
+  },
+  {
+    "biological_species_id": "tall-fescue",
+    "botanical_name": "Festuca arundinacea",
+    "accepted_taxon": "Festuca arundinacea",
+    "biological_key": "Festuca arundinacea",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "tall-fescue"
+    ]
+  },
+  {
+    "biological_species_id": "cocksfoot",
+    "botanical_name": "Dactylis glomerata",
+    "accepted_taxon": "Dactylis glomerata",
+    "biological_key": "Dactylis glomerata",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "cocksfoot"
+    ]
+  },
+  {
+    "biological_species_id": "common-vetch",
+    "botanical_name": "Vicia sativa",
+    "accepted_taxon": "Vicia sativa",
+    "biological_key": "Vicia sativa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "common-vetch"
+    ]
+  },
+  {
+    "biological_species_id": "winter-vetch",
+    "botanical_name": "Vicia villosa",
+    "accepted_taxon": "Vicia villosa",
+    "biological_key": "Vicia villosa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "winter-vetch"
+    ]
+  },
+  {
+    "biological_species_id": "hungarian-vetch",
+    "botanical_name": "Vicia pannonica",
+    "accepted_taxon": "Vicia pannonica",
+    "biological_key": "Vicia pannonica",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "hungarian-vetch"
+    ]
+  },
+  {
+    "biological_species_id": "purple-vetch",
+    "botanical_name": "Vicia benghalensis",
+    "accepted_taxon": "Vicia benghalensis",
+    "biological_key": "Vicia benghalensis",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "purple-vetch"
+    ]
+  },
+  {
+    "biological_species_id": "field-pea",
+    "botanical_name": "Pisum sativum",
+    "accepted_taxon": "Pisum sativum",
+    "biological_key": "Pisum sativum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "field-pea"
+    ]
+  },
+  {
+    "biological_species_id": "faba-bean",
+    "botanical_name": "Vicia faba",
+    "accepted_taxon": "Vicia faba",
+    "biological_key": "Vicia faba",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "faba-bean"
+    ]
+  },
+  {
+    "biological_species_id": "narrow-leaved-lupin",
+    "botanical_name": "Lupinus angustifolius",
+    "accepted_taxon": "Lupinus angustifolius",
+    "biological_key": "Lupinus angustifolius",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "narrow-leaved-lupin"
+    ]
+  },
+  {
+    "biological_species_id": "yellow-lupin",
+    "botanical_name": "Lupinus luteus",
+    "accepted_taxon": "Lupinus luteus",
+    "biological_key": "Lupinus luteus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "yellow-lupin"
+    ]
+  },
+  {
+    "biological_species_id": "white-lupin",
+    "botanical_name": "Lupinus albus",
+    "accepted_taxon": "Lupinus albus",
+    "biological_key": "Lupinus albus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "white-lupin"
+    ]
+  },
+  {
+    "biological_species_id": "red-clover",
+    "botanical_name": "Trifolium pratense",
+    "accepted_taxon": "Trifolium pratense",
+    "biological_key": "Trifolium pratense",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "red-clover"
+    ]
+  },
+  {
+    "biological_species_id": "white-clover",
+    "botanical_name": "Trifolium repens",
+    "accepted_taxon": "Trifolium repens",
+    "biological_key": "Trifolium repens",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "white-clover"
+    ]
+  },
+  {
+    "biological_species_id": "persian-clover",
+    "botanical_name": "Trifolium resupinatum",
+    "accepted_taxon": "Trifolium resupinatum",
+    "biological_key": "Trifolium resupinatum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "persian-clover"
+    ]
+  },
+  {
+    "biological_species_id": "berseem-clover",
+    "botanical_name": "Trifolium alexandrinum",
+    "accepted_taxon": "Trifolium alexandrinum",
+    "biological_key": "Trifolium alexandrinum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "berseem-clover"
+    ]
+  },
+  {
+    "biological_species_id": "crimson-clover",
+    "botanical_name": "Trifolium incarnatum",
+    "accepted_taxon": "Trifolium incarnatum",
+    "biological_key": "Trifolium incarnatum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "crimson-clover"
+    ]
+  },
+  {
+    "biological_species_id": "balansa-clover",
+    "botanical_name": "Trifolium michelianum",
+    "accepted_taxon": "Trifolium michelianum",
+    "biological_key": "Trifolium michelianum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "balansa-clover"
+    ]
+  },
+  {
+    "biological_species_id": "alsike-clover",
+    "botanical_name": "Trifolium hybridum",
+    "accepted_taxon": "Trifolium hybridum",
+    "biological_key": "Trifolium hybridum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "alsike-clover"
+    ]
+  },
+  {
+    "biological_species_id": "subterranean-clover",
+    "botanical_name": "Trifolium subterraneum",
+    "accepted_taxon": "Trifolium subterraneum",
+    "biological_key": "Trifolium subterraneum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "subterranean-clover"
+    ]
+  },
+  {
+    "biological_species_id": "alfalfa",
+    "botanical_name": "Medicago sativa",
+    "accepted_taxon": "Medicago sativa",
+    "biological_key": "Medicago sativa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "alfalfa"
+    ]
+  },
+  {
+    "biological_species_id": "black-medick",
+    "botanical_name": "Medicago lupulina",
+    "accepted_taxon": "Medicago lupulina",
+    "biological_key": "Medicago lupulina",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "black-medick"
+    ]
+  },
+  {
+    "biological_species_id": "yellow-sweetclover",
+    "botanical_name": "Melilotus officinalis",
+    "accepted_taxon": "Melilotus officinalis",
+    "biological_key": "Melilotus officinalis",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "yellow-sweetclover"
+    ]
+  },
+  {
+    "biological_species_id": "white-sweetclover",
+    "botanical_name": "Melilotus albus",
+    "accepted_taxon": "Melilotus albus",
+    "biological_key": "Melilotus albus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "white-sweetclover"
+    ]
+  },
+  {
+    "biological_species_id": "birdsfoot-trefoil",
+    "botanical_name": "Lotus corniculatus",
+    "accepted_taxon": "Lotus corniculatus",
+    "biological_key": "Lotus corniculatus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "birdsfoot-trefoil"
+    ]
+  },
+  {
+    "biological_species_id": "sainfoin",
+    "botanical_name": "Onobrychis viciifolia",
+    "accepted_taxon": "Onobrychis viciifolia",
+    "biological_key": "Onobrychis viciifolia",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "sainfoin"
+    ]
+  },
+  {
+    "biological_species_id": "soybean",
+    "botanical_name": "Glycine max",
+    "accepted_taxon": "Glycine max",
+    "biological_key": "Glycine max",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "soybean"
+    ]
+  },
+  {
+    "biological_species_id": "chickpea",
+    "botanical_name": "Cicer arietinum",
+    "accepted_taxon": "Cicer arietinum",
+    "biological_key": "Cicer arietinum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "chickpea"
+    ]
+  },
+  {
+    "biological_species_id": "flax",
+    "botanical_name": "Linum usitatissimum",
+    "accepted_taxon": "Linum usitatissimum",
+    "biological_key": "Linum usitatissimum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "flax"
+    ]
+  },
+  {
+    "biological_species_id": "hemp",
+    "botanical_name": "Cannabis sativa",
+    "accepted_taxon": "Cannabis sativa",
+    "biological_key": "Cannabis sativa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "hemp"
+    ]
+  },
+  {
+    "biological_species_id": "safflower",
+    "botanical_name": "Carthamus tinctorius",
+    "accepted_taxon": "Carthamus tinctorius",
+    "biological_key": "Carthamus tinctorius",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "safflower"
+    ]
+  },
+  {
+    "biological_species_id": "coriander",
+    "botanical_name": "Coriandrum sativum",
+    "accepted_taxon": "Coriandrum sativum",
+    "biological_key": "Coriandrum sativum",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "coriander"
+    ]
+  },
+  {
+    "biological_species_id": "caraway",
+    "botanical_name": "Carum carvi",
+    "accepted_taxon": "Carum carvi",
+    "biological_key": "Carum carvi",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "caraway"
+    ]
+  },
+  {
+    "biological_species_id": "dill",
+    "botanical_name": "Anethum graveolens",
+    "accepted_taxon": "Anethum graveolens",
+    "biological_key": "Anethum graveolens",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "dill"
+    ]
+  },
+  {
+    "biological_species_id": "camelina",
+    "botanical_name": "Camelina sativa",
+    "accepted_taxon": "Camelina sativa",
+    "biological_key": "Camelina sativa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "camelina"
+    ]
+  },
+  {
+    "biological_species_id": "niger",
+    "botanical_name": "Guizotia abyssinica",
+    "accepted_taxon": "Guizotia abyssinica",
+    "biological_key": "Guizotia abyssinica",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "niger"
+    ]
+  },
+  {
+    "biological_species_id": "quinoa",
+    "botanical_name": "Chenopodium quinoa",
+    "accepted_taxon": "Chenopodium quinoa",
+    "biological_key": "Chenopodium quinoa",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "quinoa"
+    ]
+  },
+  {
+    "biological_species_id": "beet-chard",
+    "botanical_name": "Beta vulgaris",
+    "accepted_taxon": "Beta vulgaris",
+    "biological_key": "Beta vulgaris",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "fodder-beet"
+    ]
+  },
+  {
+    "biological_species_id": "chicory",
+    "botanical_name": "Cichorium intybus",
+    "accepted_taxon": "Cichorium intybus",
+    "biological_key": "Cichorium intybus",
+    "taxonomic_rank": "SPECIES",
+    "source": "MASTER_V2; retained seed-market nomenclature",
+    "market_entity_ids": [
+      "chicory"
+    ]
+  }
+]

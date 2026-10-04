@@ -1,0 +1,18 @@
+{
+  "input_entities": 65,
+  "output_entities": 65,
+  "withheld_current_taxonomy_conflicts": [
+    {
+      "entity": "wheat",
+      "codes": [
+        "10019110"
+      ],
+      "reason": "CURRENT_CANONICAL_CN_TAXON_CONFLICT; quantities withheld in projection only"
+    }
+  ],
+  "source_sha256": "d84b680d10d31aefa872b98dd68143c5718562ce80a8b1f9b702539881099cd2",
+  "no_observations_modified": true,
+  "no_supply_labels_exposed": true,
+  "no_legacy_price_conflicts_exposed": true,
+  "no_category_trade_totals_exposed": true
+}

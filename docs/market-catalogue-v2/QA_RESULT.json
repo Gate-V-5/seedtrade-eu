@@ -1,0 +1,189 @@
+{
+  "starting_head": "6f638719d5991b1ba3306ac8692b51638218acc1",
+  "checks": [
+    {
+      "check": "65 commercial identities preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "original common and botanical labels preserved",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "mandatory hemp and caraway",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "seven categories",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "category union covers 65",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "39 multi-category entities",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "seven unsafe category totals withheld",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "all 73 catalogue routes unique and prerendered",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "all missing prices withheld",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "group quantities not assigned to species",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "current wheat/spelt conflict withheld",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "11 safely attributed trade cards",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "unverified owner supply labels absent",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "no copied observation arrays",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "homepage KPI 121",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "approved Trade Pulse unchanged",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "only scoped baseline changes",
+      "status": "PASS",
+      "evidence": [
+        "scripts/check_i18n_dom.mjs",
+        "scripts/check_i18n_v1a.mjs",
+        "scripts/prerender_seo.mjs",
+        "src/AppV2.jsx",
+        "src/i18n/messages.js",
+        "tests/test_evidence_confidence_ux_v1.py",
+        "tests/test_homepage_marketplace_v5.py",
+        "tests/test_hydration_valid_markup_v1.py"
+      ]
+    },
+    {
+      "check": "all protected tracked files unchanged",
+      "status": "PASS",
+      "evidence": 371
+    },
+    {
+      "check": "homepage implementation byte-equivalent",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "production route still lazy",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "technical evidence removed from primary market",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "category technical CN lists absent",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "seven new category visuals exist",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "public projection excludes private paths and supply claims",
+      "status": "PASS",
+      "evidence": null
+    },
+    {
+      "check": "responsive structural guards",
+      "status": "PASS",
+      "evidence": null
+    }
+  ],
+  "failures": 0,
+  "categories": {
+    "CEREALS": 9,
+    "PULSES_LEGUMES": 7,
+    "VEGETABLES": 1,
+    "OIL_FIBRE": 12,
+    "MAIZE_SORGHUM": 3,
+    "FODDER_AMENITY": 29,
+    "CATCH_CROP": 43
+  },
+  "commercial_entities": 65,
+  "multi_category_entities": 39,
+  "trade_metric_cards": 11,
+  "group_scope_cards": 33,
+  "developing_trade_cards": 54,
+  "visual_qa": "BLOCKED_ENVIRONMENT",
+  "visual_blocker": "Connected browser rejected http://127.0.0.1:4173/market/ with net::ERR_BLOCKED_BY_CLIENT. Local Chromium unavailable. Vite preview additionally failed uv_interface_addresses; Python static preview starts but cloud browser access is blocked.",
+  "widths": {
+    "360": "NOT_RENDERED; responsive structural guards checked only",
+    "390": "NOT_RENDERED; responsive structural guards checked only",
+    "430": "NOT_RENDERED; responsive structural guards checked only",
+    "768": "NOT_RENDERED; responsive structural guards checked only",
+    "1024": "NOT_RENDERED; responsive structural guards checked only",
+    "1440": "NOT_RENDERED; responsive structural guards checked only"
+  },
+  "tests": {
+    "python": 268,
+    "node": 43,
+    "prerender_routes": 117,
+    "dom_hydration_combinations": 585,
+    "real_emails": 0
+  },
+  "source_conflicts": {
+    "input_entities": 65,
+    "output_entities": 65,
+    "withheld_current_taxonomy_conflicts": [
+      {
+        "entity": "wheat",
+        "codes": [
+          "10019110"
+        ],
+        "reason": "CURRENT_CANONICAL_CN_TAXON_CONFLICT; quantities withheld in projection only"
+      }
+    ],
+    "source_sha256": "d84b680d10d31aefa872b98dd68143c5718562ce80a8b1f9b702539881099cd2",
+    "no_observations_modified": true,
+    "no_supply_labels_exposed": true,
+    "no_legacy_price_conflicts_exposed": true,
+    "no_category_trade_totals_exposed": true
+  }
+}

@@ -1,0 +1,1 @@
+{"initial_archive": "incomplete across tool-call boundary", "reported_size_in_creation_process":47938813,"observed_size_after_call":29608956,"cross_call_zip_integrity":"FAIL_BAD_ZIP","uploaded":false,"repair":"Write excluded .tmp archive, close and verify, then atomically rename final ZIP; revalidate from a separate tool call before upload."}

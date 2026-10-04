@@ -1,0 +1,54 @@
+{
+  "assets": [
+    {
+      "file": "dist/assets/MarketCatalogue-BGJ8l5p6.css",
+      "bytes": 5776,
+      "gzip_bytes": 1464
+    },
+    {
+      "file": "dist/assets/MarketCatalogue-elA2tQ6x.js",
+      "bytes": 351745,
+      "gzip_bytes": 22678
+    },
+    {
+      "file": "dist/assets/MarketCategories-B4_yFO_b.js",
+      "bytes": 5019,
+      "gzip_bytes": 1891
+    },
+    {
+      "file": "dist/assets/ProductionIntelligence-nN_7YjQr.js",
+      "bytes": 908781,
+      "gzip_bytes": 71809
+    },
+    {
+      "file": "dist/assets/TradeCoverage-BTczk_GI.js",
+      "bytes": 2426156,
+      "gzip_bytes": 407084
+    },
+    {
+      "file": "dist/assets/i18n-BgilrEaT.js",
+      "bytes": 178444,
+      "gzip_bytes": 58414
+    },
+    {
+      "file": "dist/assets/index-D5SHiDdn.js",
+      "bytes": 546282,
+      "gzip_bytes": 155061
+    },
+    {
+      "file": "dist/assets/index-zkciDw7r.css",
+      "bytes": 86813,
+      "gzip_bytes": 16238
+    },
+    {
+      "file": "dist/assets/market_categories_public-pVFvVEdc.js",
+      "bytes": 68922,
+      "gzip_bytes": 8364
+    }
+  ],
+  "routes": 117,
+  "build": "PASS_WITH_EXISTING_BUNDLE_WARNING",
+  "catalogue_loading": "ROUTE_ONLY_DYNAMIC_IMPORT",
+  "production_loading": "UNCHANGED_ROUTE_ONLY_DYNAMIC_IMPORT",
+  "limitation": "Existing /market legacy TradeCoverage and MarketCategories imports remain; no architecture rewrite undertaken."
+}

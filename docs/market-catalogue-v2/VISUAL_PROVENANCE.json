@@ -1,0 +1,128 @@
+[
+  {
+    "category_slug": "cereals",
+    "file": "/catalogue/cereals.webp",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "source_original_sha256": "f493d5643290a57b86cd5a4afb768f917406a3affcc989e7bf50c71ab428c4b9",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Common wheat (Triticum aestivum), ripe ears in a European seed field",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "f2ef13417199ea189594daa85003ba3fd3ab06af7f8654bd340d70f97c236b05"
+  },
+  {
+    "category_slug": "pulses-legumes",
+    "file": "/catalogue/pulses-legumes.webp",
+    "dimensions": [
+      1916,
+      821
+    ],
+    "source_original_sha256": "fb4ac153bd63df770040bf006cb8c2410ac2511c0d91fed53eefaa79fc328b97",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Pea (Pisum sativum) and faba bean (Vicia faba), dry seeds in wooden trays",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "2f7bf989f8248b00dfac6c41b9a3a808ca4be3a339de9b403af106c500dd5e99"
+  },
+  {
+    "category_slug": "vegetables",
+    "file": "/catalogue/vegetables.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "source_original_sha256": "0c261ff32ca8a98ade2bc46a903c4b7c90dbee904e949972a93f2d768cac3a2a",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Beet (Beta vulgaris), seed plants with leaves and branching flowering stems",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "8dc13470250c59bdb47b381fa85c829bee0981a230a1d8ee8382ccaa492a3e63"
+  },
+  {
+    "category_slug": "oil-fibre",
+    "file": "/catalogue/oil-fibre.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "source_original_sha256": "17c8164e10145507d2d554eac59256b89344fb4bc404b59ba69b33f0fdf59920",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Sunflower (Helianthus annuus) and flax (Linum usitatissimum), yellow flowers and blue foreground blooms",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "7440f1c16e8398ce30879cce796d2b77e1086ec71a3ad2104cdfa7886983398b"
+  },
+  {
+    "category_slug": "maize-sorghum",
+    "file": "/catalogue/maize-sorghum.webp",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "source_original_sha256": "082a7f3fbdcdd39f2b42c2d578da2b2aaa496fac68f0e01f4619ec91929b98e1",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Grain sorghum (Sorghum bicolor), mature bronze panicles",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "a941c7262da12163c0e2857916e2803bb1a1d0935bff42dcc07f5a698684e54f"
+  },
+  {
+    "category_slug": "fodder-grasses",
+    "file": "/catalogue/fodder-grasses.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "source_original_sha256": "07550e09092848e4001f77ef5b19594646174acc8fa9c381f6889bc81c789261",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Perennial ryegrass (Lolium perenne) and red clover (Trifolium pratense), grass spikes and pink flower heads",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "f5f309ceb778e8b080f455cb1fb546e257ab6abbd2c42f08b72e3680a7b6d737"
+  },
+  {
+    "category_slug": "catch-crops",
+    "file": "/catalogue/catch-crops.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "source_original_sha256": "fc6f7696e4df73986af201d089508fa5328d091a609860f4d26a0e8bdf4c5844",
+    "classification": "PUBLIC_SAFE_GENERATED_ILLUSTRATION",
+    "method": "Built-in imagegen; encoding-only WebP conversion, no content edit",
+    "creator": "OpenAI image generation",
+    "documentary_evidence": false,
+    "existing_owner_approved_homepage_assets": "UNCHANGED",
+    "prompt_constraints": "Photorealistic editorial crop photograph for European B2B seed-market category; relevant actual crop subject; natural daylight; no people, text, brands, watermark, chart or collage.",
+    "subject_brief": "Phacelia (Phacelia tanacetifolia) and white mustard (Sinapis alba), purple and yellow cover-crop field",
+    "visual_inspection": "Inspected generated crop asset; not a rendered page QA",
+    "asset_sha256": "f4e8d29ea73580a0af3d6bbbb8feb0c093ead475e2e0ea171e673b853c3a6e8e"
+  }
+]
