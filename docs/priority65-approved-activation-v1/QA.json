@@ -1,0 +1,2572 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "65_priority_entities",
+      "status": "PASS"
+    },
+    {
+      "check": "68_unique_cards",
+      "status": "PASS"
+    },
+    {
+      "check": "taxonomy_category_KPI_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "CN_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:white-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:white-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:white-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:white-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:white-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:brown-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:brown-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:brown-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:brown-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:brown-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:black-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:black-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:black-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:black-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:black-mustard",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:oil-radish",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:oil-radish",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:oil-radish",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:oil-radish",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:oil-radish",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:rapeseed",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:rapeseed",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:rapeseed",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:rapeseed",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:rapeseed",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:turnip-rape",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:turnip-rape",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:turnip-rape",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:turnip-rape",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:turnip-rape",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:fodder-kale",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:fodder-kale",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:fodder-kale",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:fodder-kale",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:fodder-kale",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:fodder-turnip",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:fodder-turnip",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:fodder-turnip",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:fodder-turnip",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:fodder-turnip",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:phacelia",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:phacelia",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:phacelia",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:phacelia",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:phacelia",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:sunflower",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:sunflower",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:sunflower",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:sunflower",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:sunflower",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:sunflower",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:buckwheat",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:buckwheat",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:buckwheat",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:buckwheat",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:buckwheat",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:oat",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:oat",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:oat",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:oat",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:oat",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:black-oat",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:black-oat",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:black-oat",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:black-oat",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:black-oat",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:rye",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:rye",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:rye",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:rye",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:rye",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:rye",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:barley",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:barley",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:barley",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:barley",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:barley",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:barley",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:wheat",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:wheat",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:wheat",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:wheat",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:wheat",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:triticale",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:triticale",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:triticale",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:triticale",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:triticale",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:proso-millet",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:proso-millet",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:proso-millet",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:proso-millet",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:proso-millet",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:sorghum",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:sorghum",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:sorghum",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:sorghum",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:sudan-grass",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:sudan-grass",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:sudan-grass",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:sudan-grass",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:sudan-grass",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:sorghum-sudan-hybrid",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:sorghum-sudan-hybrid",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:sorghum-sudan-hybrid",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:sorghum-sudan-hybrid",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:sorghum-sudan-hybrid",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:italian-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:italian-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:italian-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:italian-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:italian-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:italian-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:perennial-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:perennial-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:perennial-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:perennial-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:perennial-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:perennial-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:hybrid-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:hybrid-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:hybrid-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:hybrid-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:hybrid-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:westerwold-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:westerwold-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:westerwold-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:westerwold-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:westerwold-ryegrass",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:festulolium",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:festulolium",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:festulolium",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:festulolium",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:festulolium",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:meadow-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:meadow-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:meadow-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:meadow-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:meadow-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:meadow-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:tall-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:tall-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:tall-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:tall-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:tall-fescue",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:cocksfoot",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:cocksfoot",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:cocksfoot",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:cocksfoot",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:cocksfoot",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:common-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:common-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:common-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:common-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:common-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:winter-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:winter-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:winter-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:winter-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:winter-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:hungarian-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:hungarian-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:hungarian-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:hungarian-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:hungarian-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:purple-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:purple-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:purple-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:purple-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:purple-vetch",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:field-pea",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:field-pea",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:field-pea",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:field-pea",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:field-pea",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:field-pea",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:faba-bean",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:faba-bean",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:faba-bean",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:faba-bean",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:faba-bean",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:narrow-leaved-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:narrow-leaved-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:narrow-leaved-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:narrow-leaved-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:narrow-leaved-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:yellow-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:yellow-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:yellow-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:yellow-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:yellow-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:white-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:white-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:white-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:white-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:white-lupin",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:red-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:red-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:red-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:red-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:red-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:red-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:white-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:white-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:white-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:white-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:white-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:persian-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:persian-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:persian-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:persian-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:persian-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:berseem-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:berseem-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:berseem-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:berseem-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:berseem-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:crimson-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:crimson-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:crimson-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:crimson-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:crimson-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:balansa-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:balansa-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:balansa-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:balansa-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:balansa-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:alsike-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:alsike-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:alsike-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:alsike-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:alsike-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:subterranean-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:subterranean-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:subterranean-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:subterranean-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:subterranean-clover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:alfalfa",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:alfalfa",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:alfalfa",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:alfalfa",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:alfalfa",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:alfalfa",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:black-medick",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:black-medick",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:black-medick",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:black-medick",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:black-medick",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:yellow-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:yellow-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:yellow-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:yellow-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:yellow-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:white-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:white-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:white-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:white-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:white-sweetclover",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:birdsfoot-trefoil",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:birdsfoot-trefoil",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:birdsfoot-trefoil",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:birdsfoot-trefoil",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:birdsfoot-trefoil",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:sainfoin",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:sainfoin",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:sainfoin",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:sainfoin",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:sainfoin",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:soybean",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:soybean",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:soybean",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:soybean",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:soybean",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:soybean",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:chickpea",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:chickpea",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:chickpea",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:chickpea",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:chickpea",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:flax",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:flax",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:flax",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:flax",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:flax",
+      "status": "PASS"
+    },
+    {
+      "check": "latest_price:flax",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:hemp",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:hemp",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:hemp",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:hemp",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:hemp",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:safflower",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:safflower",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:safflower",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:safflower",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:safflower",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:coriander",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:coriander",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:coriander",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:coriander",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:coriander",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:caraway",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:caraway",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:caraway",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:caraway",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:caraway",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:dill",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:dill",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:dill",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:dill",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:dill",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:camelina",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:camelina",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:camelina",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:camelina",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:camelina",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:niger",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:niger",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:niger",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:niger",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:niger",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:quinoa",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:quinoa",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:quinoa",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:quinoa",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:quinoa",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:fodder-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:fodder-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:fodder-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:fodder-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "external_balance:fodder-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:chicory",
+      "status": "PASS"
+    },
+    {
+      "check": "approved_numeric:chicory",
+      "status": "PASS"
+    },
+    {
+      "check": "cn_latest_override:chicory",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_ids:chicory",
+      "status": "PASS"
+    },
+    {
+      "check": "no_group_numeric:chicory",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:sugar-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "out_of_scope:sugar-beet",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:seed-potatoes",
+      "status": "PASS"
+    },
+    {
+      "check": "out_of_scope:seed-potatoes",
+      "status": "PASS"
+    },
+    {
+      "check": "identity:carrot",
+      "status": "PASS"
+    },
+    {
+      "check": "out_of_scope:carrot",
+      "status": "PASS"
+    },
+    {
+      "check": "51_approved_supply_entities",
+      "status": "PASS"
+    },
+    {
+      "check": "1212_supply_unique",
+      "status": "PASS"
+    },
+    {
+      "check": "supply_public_provenance",
+      "status": "PASS"
+    },
+    {
+      "check": "153838_unique_grains",
+      "status": "PASS"
+    },
+    {
+      "check": "internal_dispatch_only",
+      "status": "PASS"
+    },
+    {
+      "check": "external_directions",
+      "status": "PASS"
+    },
+    {
+      "check": "units",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:sunflower:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:sunflower:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:sunflower:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:sunflower:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:rye:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:rye:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:rye:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:rye:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:barley:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:barley:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:barley:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:barley:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:italian-ryegrass:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:italian-ryegrass:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:italian-ryegrass:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:italian-ryegrass:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:perennial-ryegrass:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:perennial-ryegrass:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:perennial-ryegrass:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:perennial-ryegrass:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:meadow-fescue:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:meadow-fescue:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:meadow-fescue:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:meadow-fescue:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:field-pea:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:field-pea:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:field-pea:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:field-pea:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:field-pea:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:field-pea:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:red-clover:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:red-clover:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:red-clover:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:red-clover:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:alfalfa:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:alfalfa:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:alfalfa:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:alfalfa:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:alfalfa:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:soybean:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:soybean:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:soybean:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:soybean:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2024-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-06",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-07",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-08",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-09",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-10",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-11",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2025-12",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2026-01",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2026-02",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2026-03",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2026-04",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2026-05",
+      "status": "PASS"
+    },
+    {
+      "check": "price_witness:flax:2026-06",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:flax:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:flax:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:flax:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:fodder-beet:internal",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:fodder-beet:external_exports",
+      "status": "PASS"
+    },
+    {
+      "check": "trade_witness:fodder-beet:external_imports",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/CommercialSeedCard.jsx",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/marketCatalogue.css",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/commercialEvidence.mjs",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/generated/trade_pulse_public.json",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/generated/production_public.json",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/generated/production_coverage_additions.json",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/generated/market_public.json",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/generated/news.json",
+      "status": "PASS"
+    },
+    {
+      "check": "protected:src/generated/crop_master_summary.json",
+      "status": "PASS"
+    },
+    {
+      "check": "owner_image:catch-crops.png",
+      "status": "PASS"
+    },
+    {
+      "check": "owner_image:cereals-pulses.png",
+      "status": "PASS"
+    },
+    {
+      "check": "owner_image:maize-sorghum.png",
+      "status": "PASS"
+    },
+    {
+      "check": "owner_image:oil-fibre.png",
+      "status": "PASS"
+    },
+    {
+      "check": "owner_image:vegetables.png",
+      "status": "PASS"
+    },
+    {
+      "check": "owner_image:fodder-amenity.png",
+      "status": "PASS"
+    },
+    {
+      "check": "no_restricted_leakage",
+      "status": "PASS"
+    },
+    {
+      "check": "no_source_totals_changed",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "source_total_before": {
+    "volume_tonnes": 251015.1,
+    "trade_value_eur": 400438328.0,
+    "unit_value_eur_kg": 1.5953,
+    "observation_count": 3246,
+    "cn_code_count": 40,
+    "period": "2026-06",
+    "volume_yoy_percent": 42.08,
+    "value_yoy_percent": 9.67,
+    "unit_value_yoy_percent": -22.81
+  },
+  "source_total_after": {
+    "volume_tonnes": 251015.1,
+    "trade_value_eur": 400438328.0,
+    "unit_value_eur_kg": 1.5953,
+    "observation_count": 3246,
+    "cn_code_count": 40,
+    "period": "2026-06",
+    "volume_yoy_percent": 42.08,
+    "value_yoy_percent": 9.67,
+    "unit_value_yoy_percent": -22.81
+  },
+  "source_total_change": "ZERO",
+  "source_raw_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+  "source_observations": 153838,
+  "globalwits_public_safe_activated": 0
+}

@@ -23,12 +23,12 @@ test('latest independently validated prices retain older dates instead of forcin
 })
 test('snapshot derives from resolved catalogue and includes verified price-only species',()=>{
  assert.equal(snapshotCandidates(data.cards).length,12)
- const italian=data.cards.find(c=>c.market_entity_id==='italian-ryegrass');assert.equal(italian.trade_volume_t,null);assert.ok(latestValidPrice(italian.price_observations));assert.ok(snapshotCandidates(data.cards).includes(italian))
+ const italian=data.cards.find(c=>c.market_entity_id==='italian-ryegrass');assert.equal(italian.trade_volume_t,3331.899);assert.ok(latestValidPrice(italian.price_observations));assert.ok(snapshotCandidates(data.cards).includes(italian))
 })
 test('only witnessed observations enter histories; missing points are not invented',()=>{
- const witnesses=read('docs/price-kpi-audit-v1/PRICE_OBSERVATION_WITNESSES.json');let points=0
+ const witnesses=[...read('docs/price-kpi-audit-v1/PRICE_OBSERVATION_WITNESSES.json'),...read('docs/priority65-approved-activation-v1/NEW_PRICE_WITNESSES.json')];let points=0
  for(const c of data.cards){for(const p of c.price_observations){points++;const w=witnesses.find(w=>w.id===p.source_witness_id);assert.ok(w);assert.ok(Math.abs(Number(w.value_basis_eur)/Number(w.quantity_basis_kg)-p.price_eur_kg)<1e-9);assert.ok(w.source_observation_ids.length>0)} }
- assert.equal(points,110)
+ assert.equal(points,230)
  const c=data.cards.find(c=>c.market_entity_id==='alfalfa'),p=latestValidPrice(c.price_observations);const slots=calendarSlots(c.price_observations,p.period,12,'price_eur_kg');assert.ok(slots.some(s=>s.point===null))
 })
 test('251015.10 headline is monthly, directly sourced and double-counting-free',()=>{
@@ -44,6 +44,6 @@ test('compact display never modifies exact underlying tonnes',()=>{
  assert.ok(fs.readFileSync('src/MarketCatalogue.jsx','utf8').includes('label="Monthly trade volume"'))
 })
 test('EU external blocks and safe trade evidence are preserved',()=>{
- assert.equal(data.cards.filter(c=>c.external_trade).length,10);assert.equal(data.cards.filter(c=>c.trade_volume_t!==null).length,11)
+ assert.equal(data.cards.filter(c=>c.external_trade).length,12);assert.equal(data.cards.filter(c=>c.trade_volume_t!==null).length,12)
  assert.equal(data.categories.length,6);assert.equal(data.cards.length,68);assert.equal(data.eu_summary.seed_species,121);assert.equal(data.eu_summary.commercial_market_entities,136)
 })

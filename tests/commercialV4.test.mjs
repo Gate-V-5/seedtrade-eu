@@ -33,8 +33,8 @@ test('group scopes never acquire individual metrics or external totals',()=>{
  for(const c of data.cards.filter(c=>!['SPECIES_SPECIFIC','COMMERCIAL_ENTITY_SPECIFIC'].includes(c.customs_scope_type))){assert.equal(c.trade_volume_t,null);assert.equal(c.external_trade,null);assert.deepEqual(c.leading_exporters,[])}
 })
 test('external totals require verified complete evidence, missing stays absent',()=>{
- assert.equal(data.cards.filter(c=>c.external_trade).length,10)
- for(const c of data.cards){if(!c.external_trade)continue;const x=c.external_trade;assert.equal(x.source_sha256,'523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3');assert.ok(x.coverage.startsWith('COMPLETE_REQUEST_GRID'));assert.ok(Math.abs(x.balance_t-x.exports.volume_t+x.imports.volume_t)<1e-7)}
+ assert.equal(data.cards.filter(c=>c.external_trade).length,12)
+ for(const c of data.cards){if(!c.external_trade)continue;const x=c.external_trade;assert.equal(x.source_sha256,'523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3');assert.ok(x.coverage.startsWith('COMPLETE_REQUEST_GRID'));if(x.exports.period===x.imports.period)assert.ok(Math.abs(x.balance_t-x.exports.volume_t+x.imports.volume_t)<1e-7);else{assert.equal(x.balance_t,null);assert.equal(x.period,null)}}
 })
 test('canonical categories, observations and KPI retained; source data not rewritten',()=>{
  assert.equal(data.cards.length,68);assert.equal(data.categories.length,6)

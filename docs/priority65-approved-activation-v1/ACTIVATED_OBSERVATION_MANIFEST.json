@@ -1,0 +1,1300 @@
+[
+  {
+    "entity_id": "white-mustard",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:48"
+  },
+  {
+    "entity_id": "white-mustard",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:42"
+  },
+  {
+    "entity_id": "brown-mustard",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:47"
+  },
+  {
+    "entity_id": "brown-mustard",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:41"
+  },
+  {
+    "entity_id": "oil-radish",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:29"
+  },
+  {
+    "entity_id": "oil-radish",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:25"
+  },
+  {
+    "entity_id": "rapeseed",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:43"
+  },
+  {
+    "entity_id": "rapeseed",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:44"
+  },
+  {
+    "entity_id": "rapeseed",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:37"
+  },
+  {
+    "entity_id": "rapeseed",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:38"
+  },
+  {
+    "entity_id": "turnip-rape",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:46"
+  },
+  {
+    "entity_id": "turnip-rape",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:40"
+  },
+  {
+    "entity_id": "fodder-kale",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:24"
+  },
+  {
+    "entity_id": "phacelia",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:30"
+  },
+  {
+    "entity_id": "phacelia",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:26"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-01",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-01"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-02",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-02"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-03",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-03"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-04",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-04"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-05",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-05"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-06",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-06"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-07",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-07"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-08",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-08"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-09",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-09"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-10",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-10"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-11",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-11"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2024-12",
+    "source_witness_id": "P65V2:PRICE:sunflower:2024-12"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-01",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-01"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-02",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-02"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-03",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-03"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-04",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-04"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-05",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-05"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-06",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-06"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-07",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-07"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-08",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-08"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-09",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-09"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-10",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-10"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-11",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-11"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2025-12",
+    "source_witness_id": "P65V2:PRICE:sunflower:2025-12"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2026-01",
+    "source_witness_id": "P65V2:PRICE:sunflower:2026-01"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2026-02",
+    "source_witness_id": "P65V2:PRICE:sunflower:2026-02"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2026-03",
+    "source_witness_id": "P65V2:PRICE:sunflower:2026-03"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2026-04",
+    "source_witness_id": "P65V2:PRICE:sunflower:2026-04"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2026-05",
+    "source_witness_id": "P65V2:PRICE:sunflower:2026-05"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "PRICE",
+    "period": "2026-06",
+    "source_witness_id": "P65V2:PRICE:sunflower:2026-06"
+  },
+  {
+    "entity_id": "sunflower",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:45"
+  },
+  {
+    "entity_id": "oat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:14"
+  },
+  {
+    "entity_id": "oat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:15"
+  },
+  {
+    "entity_id": "oat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:11"
+  },
+  {
+    "entity_id": "oat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:12"
+  },
+  {
+    "entity_id": "black-oat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:16"
+  },
+  {
+    "entity_id": "black-oat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:13"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-01",
+    "source_witness_id": "P65V2:PRICE:rye:2024-01"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-02",
+    "source_witness_id": "P65V2:PRICE:rye:2024-02"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-03",
+    "source_witness_id": "P65V2:PRICE:rye:2024-03"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-04",
+    "source_witness_id": "P65V2:PRICE:rye:2024-04"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-05",
+    "source_witness_id": "P65V2:PRICE:rye:2024-05"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-06",
+    "source_witness_id": "P65V2:PRICE:rye:2024-06"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-07",
+    "source_witness_id": "P65V2:PRICE:rye:2024-07"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-08",
+    "source_witness_id": "P65V2:PRICE:rye:2024-08"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-09",
+    "source_witness_id": "P65V2:PRICE:rye:2024-09"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-10",
+    "source_witness_id": "P65V2:PRICE:rye:2024-10"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-11",
+    "source_witness_id": "P65V2:PRICE:rye:2024-11"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2024-12",
+    "source_witness_id": "P65V2:PRICE:rye:2024-12"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-01",
+    "source_witness_id": "P65V2:PRICE:rye:2025-01"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-02",
+    "source_witness_id": "P65V2:PRICE:rye:2025-02"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-03",
+    "source_witness_id": "P65V2:PRICE:rye:2025-03"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-04",
+    "source_witness_id": "P65V2:PRICE:rye:2025-04"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-05",
+    "source_witness_id": "P65V2:PRICE:rye:2025-05"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-06",
+    "source_witness_id": "P65V2:PRICE:rye:2025-06"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-07",
+    "source_witness_id": "P65V2:PRICE:rye:2025-07"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-08",
+    "source_witness_id": "P65V2:PRICE:rye:2025-08"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-09",
+    "source_witness_id": "P65V2:PRICE:rye:2025-09"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-10",
+    "source_witness_id": "P65V2:PRICE:rye:2025-10"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-11",
+    "source_witness_id": "P65V2:PRICE:rye:2025-11"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2025-12",
+    "source_witness_id": "P65V2:PRICE:rye:2025-12"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2026-01",
+    "source_witness_id": "P65V2:PRICE:rye:2026-01"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2026-02",
+    "source_witness_id": "P65V2:PRICE:rye:2026-02"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2026-03",
+    "source_witness_id": "P65V2:PRICE:rye:2026-03"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2026-04",
+    "source_witness_id": "P65V2:PRICE:rye:2026-04"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2026-05",
+    "source_witness_id": "P65V2:PRICE:rye:2026-05"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "PRICE",
+    "period": "2026-06",
+    "source_witness_id": "P65V2:PRICE:rye:2026-06"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:18"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:19"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:15"
+  },
+  {
+    "entity_id": "rye",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:16"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-01",
+    "source_witness_id": "P65V2:PRICE:barley:2024-01"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-02",
+    "source_witness_id": "P65V2:PRICE:barley:2024-02"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-03",
+    "source_witness_id": "P65V2:PRICE:barley:2024-03"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-04",
+    "source_witness_id": "P65V2:PRICE:barley:2024-04"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-05",
+    "source_witness_id": "P65V2:PRICE:barley:2024-05"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-06",
+    "source_witness_id": "P65V2:PRICE:barley:2024-06"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-07",
+    "source_witness_id": "P65V2:PRICE:barley:2024-07"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-08",
+    "source_witness_id": "P65V2:PRICE:barley:2024-08"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-09",
+    "source_witness_id": "P65V2:PRICE:barley:2024-09"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-10",
+    "source_witness_id": "P65V2:PRICE:barley:2024-10"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-11",
+    "source_witness_id": "P65V2:PRICE:barley:2024-11"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2024-12",
+    "source_witness_id": "P65V2:PRICE:barley:2024-12"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-01",
+    "source_witness_id": "P65V2:PRICE:barley:2025-01"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-02",
+    "source_witness_id": "P65V2:PRICE:barley:2025-02"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-03",
+    "source_witness_id": "P65V2:PRICE:barley:2025-03"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-04",
+    "source_witness_id": "P65V2:PRICE:barley:2025-04"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-05",
+    "source_witness_id": "P65V2:PRICE:barley:2025-05"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-06",
+    "source_witness_id": "P65V2:PRICE:barley:2025-06"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-07",
+    "source_witness_id": "P65V2:PRICE:barley:2025-07"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-08",
+    "source_witness_id": "P65V2:PRICE:barley:2025-08"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-09",
+    "source_witness_id": "P65V2:PRICE:barley:2025-09"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-10",
+    "source_witness_id": "P65V2:PRICE:barley:2025-10"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-11",
+    "source_witness_id": "P65V2:PRICE:barley:2025-11"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2025-12",
+    "source_witness_id": "P65V2:PRICE:barley:2025-12"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2026-01",
+    "source_witness_id": "P65V2:PRICE:barley:2026-01"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2026-02",
+    "source_witness_id": "P65V2:PRICE:barley:2026-02"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2026-03",
+    "source_witness_id": "P65V2:PRICE:barley:2026-03"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2026-04",
+    "source_witness_id": "P65V2:PRICE:barley:2026-04"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2026-05",
+    "source_witness_id": "P65V2:PRICE:barley:2026-05"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "PRICE",
+    "period": "2026-06",
+    "source_witness_id": "P65V2:PRICE:barley:2026-06"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:12"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:13"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:9"
+  },
+  {
+    "entity_id": "barley",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:10"
+  },
+  {
+    "entity_id": "wheat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:25"
+  },
+  {
+    "entity_id": "wheat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:29"
+  },
+  {
+    "entity_id": "wheat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:22"
+  },
+  {
+    "entity_id": "wheat",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:26"
+  },
+  {
+    "entity_id": "triticale",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:20"
+  },
+  {
+    "entity_id": "triticale",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:21"
+  },
+  {
+    "entity_id": "triticale",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:17"
+  },
+  {
+    "entity_id": "triticale",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:18"
+  },
+  {
+    "entity_id": "italian-ryegrass",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:47"
+  },
+  {
+    "entity_id": "italian-ryegrass",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:46"
+  },
+  {
+    "entity_id": "italian-ryegrass",
+    "kind": "INTERNAL_TRADE",
+    "period": "2026-06",
+    "source_observation_ids": [
+      "COMEXT:M:AT:DE:12092510:2:2026-06",
+      "COMEXT:M:BE:DE:12092510:2:2026-06",
+      "COMEXT:M:BE:FR:12092510:2:2026-06",
+      "COMEXT:M:BE:NL:12092510:2:2026-06",
+      "COMEXT:M:CZ:DE:12092510:2:2026-06",
+      "COMEXT:M:CZ:DK:12092510:2:2026-06",
+      "COMEXT:M:CZ:FR:12092510:2:2026-06",
+      "COMEXT:M:CZ:IT:12092510:2:2026-06",
+      "COMEXT:M:DE:AT:12092510:2:2026-06",
+      "COMEXT:M:DE:BE:12092510:2:2026-06",
+      "COMEXT:M:DE:CZ:12092510:2:2026-06",
+      "COMEXT:M:DE:DK:12092510:2:2026-06",
+      "COMEXT:M:DE:ES:12092510:2:2026-06",
+      "COMEXT:M:DE:FI:12092510:2:2026-06",
+      "COMEXT:M:DE:FR:12092510:2:2026-06",
+      "COMEXT:M:DE:HR:12092510:2:2026-06",
+      "COMEXT:M:DE:IT:12092510:2:2026-06",
+      "COMEXT:M:DE:NL:12092510:2:2026-06",
+      "COMEXT:M:DE:SE:12092510:2:2026-06",
+      "COMEXT:M:DE:SI:12092510:2:2026-06",
+      "COMEXT:M:DK:DE:12092510:2:2026-06",
+      "COMEXT:M:DK:FR:12092510:2:2026-06",
+      "COMEXT:M:DK:IT:12092510:2:2026-06",
+      "COMEXT:M:DK:NL:12092510:2:2026-06",
+      "COMEXT:M:DK:PT:12092510:2:2026-06",
+      "COMEXT:M:DK:SI:12092510:2:2026-06",
+      "COMEXT:M:ES:IT:12092510:2:2026-06",
+      "COMEXT:M:FR:BE:12092510:2:2026-06",
+      "COMEXT:M:FR:CZ:12092510:2:2026-06",
+      "COMEXT:M:FR:DK:12092510:2:2026-06",
+      "COMEXT:M:FR:IT:12092510:2:2026-06",
+      "COMEXT:M:FR:LU:12092510:2:2026-06",
+      "COMEXT:M:FR:NL:12092510:2:2026-06",
+      "COMEXT:M:HU:HR:12092510:2:2026-06",
+      "COMEXT:M:HU:IT:12092510:2:2026-06",
+      "COMEXT:M:HU:SK:12092510:2:2026-06",
+      "COMEXT:M:IT:AT:12092510:2:2026-06",
+      "COMEXT:M:IT:BE:12092510:2:2026-06",
+      "COMEXT:M:IT:DE:12092510:2:2026-06",
+      "COMEXT:M:IT:ES:12092510:2:2026-06",
+      "COMEXT:M:IT:FR:12092510:2:2026-06",
+      "COMEXT:M:IT:HR:12092510:2:2026-06",
+      "COMEXT:M:IT:RO:12092510:2:2026-06",
+      "COMEXT:M:LT:FR:12092510:2:2026-06",
+      "COMEXT:M:LT:LV:12092510:2:2026-06",
+      "COMEXT:M:LU:BE:12092510:2:2026-06",
+      "COMEXT:M:LU:DE:12092510:2:2026-06",
+      "COMEXT:M:NL:AT:12092510:2:2026-06",
+      "COMEXT:M:NL:BE:12092510:2:2026-06",
+      "COMEXT:M:NL:CY:12092510:2:2026-06",
+      "COMEXT:M:NL:DE:12092510:2:2026-06",
+      "COMEXT:M:NL:DK:12092510:2:2026-06",
+      "COMEXT:M:NL:ES:12092510:2:2026-06",
+      "COMEXT:M:NL:FR:12092510:2:2026-06",
+      "COMEXT:M:NL:IE:12092510:2:2026-06",
+      "COMEXT:M:NL:LV:12092510:2:2026-06",
+      "COMEXT:M:NL:SE:12092510:2:2026-06",
+      "COMEXT:M:NL:SI:12092510:2:2026-06",
+      "COMEXT:M:PL:BE:12092510:2:2026-06",
+      "COMEXT:M:PL:CZ:12092510:2:2026-06",
+      "COMEXT:M:PL:DE:12092510:2:2026-06",
+      "COMEXT:M:PL:ES:12092510:2:2026-06",
+      "COMEXT:M:PL:FR:12092510:2:2026-06",
+      "COMEXT:M:PL:IT:12092510:2:2026-06",
+      "COMEXT:M:PL:LT:12092510:2:2026-06",
+      "COMEXT:M:PL:LV:12092510:2:2026-06",
+      "COMEXT:M:PL:RO:12092510:2:2026-06",
+      "COMEXT:M:PL:SE:12092510:2:2026-06",
+      "COMEXT:M:PT:ES:12092510:2:2026-06",
+      "COMEXT:M:PT:IT:12092510:2:2026-06",
+      "COMEXT:M:RO:DK:12092510:2:2026-06",
+      "COMEXT:M:RO:NL:12092510:2:2026-06",
+      "COMEXT:M:SI:HR:12092510:2:2026-06"
+    ]
+  },
+  {
+    "entity_id": "italian-ryegrass",
+    "kind": "EXTERNAL_EXPORTS",
+    "period": "2026-06",
+    "source_observation_ids": [
+      "COMEXT:M:AT:AL:12092510:2:2026-06",
+      "COMEXT:M:AT:GB:12092510:2:2026-06",
+      "COMEXT:M:DE:CH:12092510:2:2026-06",
+      "COMEXT:M:DE:GB:12092510:2:2026-06",
+      "COMEXT:M:DK:GB:12092510:2:2026-06",
+      "COMEXT:M:DK:NO:12092510:2:2026-06",
+      "COMEXT:M:DK:TR:12092510:2:2026-06",
+      "COMEXT:M:ES:UY:12092510:2:2026-06",
+      "COMEXT:M:FR:GB:12092510:2:2026-06",
+      "COMEXT:M:IE:GB:12092510:2:2026-06",
+      "COMEXT:M:IT:CH:12092510:2:2026-06",
+      "COMEXT:M:IT:GB:12092510:2:2026-06",
+      "COMEXT:M:IT:TR:12092510:2:2026-06",
+      "COMEXT:M:NL:CO:12092510:2:2026-06",
+      "COMEXT:M:NL:GB:12092510:2:2026-06",
+      "COMEXT:M:NL:LY:12092510:2:2026-06",
+      "COMEXT:M:NL:SY:12092510:2:2026-06",
+      "COMEXT:M:PL:TR:12092510:2:2026-06"
+    ]
+  },
+  {
+    "entity_id": "italian-ryegrass",
+    "kind": "EXTERNAL_IMPORTS",
+    "period": "2026-06",
+    "source_observation_ids": [
+      "COMEXT:M:DE:CH:12092510:1:2026-06",
+      "COMEXT:M:DE:UY:12092510:1:2026-06",
+      "COMEXT:M:ES:US:12092510:1:2026-06",
+      "COMEXT:M:FR:US:12092510:1:2026-06",
+      "COMEXT:M:FR:UY:12092510:1:2026-06",
+      "COMEXT:M:IE:GB:12092510:1:2026-06",
+      "COMEXT:M:IT:AR:12092510:1:2026-06",
+      "COMEXT:M:IT:CA:12092510:1:2026-06",
+      "COMEXT:M:IT:US:12092510:1:2026-06",
+      "COMEXT:M:IT:UY:12092510:1:2026-06",
+      "COMEXT:M:NL:AR:12092510:1:2026-06",
+      "COMEXT:M:NL:UY:12092510:1:2026-06",
+      "COMEXT:M:PL:BY:12092510:1:2026-06"
+    ]
+  },
+  {
+    "entity_id": "perennial-ryegrass",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:45"
+  },
+  {
+    "entity_id": "perennial-ryegrass",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:43"
+  },
+  {
+    "entity_id": "hybrid-ryegrass",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:44"
+  },
+  {
+    "entity_id": "hybrid-ryegrass",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:42"
+  },
+  {
+    "entity_id": "festulolium",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:35"
+  },
+  {
+    "entity_id": "meadow-fescue",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:43"
+  },
+  {
+    "entity_id": "meadow-fescue",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:40"
+  },
+  {
+    "entity_id": "meadow-fescue",
+    "kind": "EXTERNAL_EXPORTS",
+    "period": "2026-06",
+    "source_observation_ids": [
+      "COMEXT:M:DE:CH:12092311:2:2026-06",
+      "COMEXT:M:FR:GB:12092311:2:2026-06",
+      "COMEXT:M:IT:BY:12092311:2:2026-06"
+    ]
+  },
+  {
+    "entity_id": "meadow-fescue",
+    "kind": "EXTERNAL_IMPORTS",
+    "period": "2026-05",
+    "source_observation_ids": [
+      "COMEXT:M:SE:NO:12092311:1:2026-05"
+    ]
+  },
+  {
+    "entity_id": "tall-fescue",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:40"
+  },
+  {
+    "entity_id": "tall-fescue",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:37"
+  },
+  {
+    "entity_id": "cocksfoot",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:4:37"
+  },
+  {
+    "entity_id": "cocksfoot",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:33"
+  },
+  {
+    "entity_id": "common-vetch",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:23"
+  },
+  {
+    "entity_id": "common-vetch",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:18"
+  },
+  {
+    "entity_id": "winter-vetch",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:25"
+  },
+  {
+    "entity_id": "winter-vetch",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:20"
+  },
+  {
+    "entity_id": "hungarian-vetch",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:24"
+  },
+  {
+    "entity_id": "hungarian-vetch",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:19"
+  },
+  {
+    "entity_id": "field-pea",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:19"
+  },
+  {
+    "entity_id": "field-pea",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:14"
+  },
+  {
+    "entity_id": "faba-bean",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:18"
+  },
+  {
+    "entity_id": "faba-bean",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:13"
+  },
+  {
+    "entity_id": "narrow-leaved-lupin",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:21"
+  },
+  {
+    "entity_id": "narrow-leaved-lupin",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:16"
+  },
+  {
+    "entity_id": "white-lupin",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:22"
+  },
+  {
+    "entity_id": "white-lupin",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:17"
+  },
+  {
+    "entity_id": "red-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:13"
+  },
+  {
+    "entity_id": "red-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:55"
+  },
+  {
+    "entity_id": "white-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:8"
+  },
+  {
+    "entity_id": "persian-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:54"
+  },
+  {
+    "entity_id": "berseem-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:50"
+  },
+  {
+    "entity_id": "crimson-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:12"
+  },
+  {
+    "entity_id": "crimson-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:53"
+  },
+  {
+    "entity_id": "alsike-clover",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:7"
+  },
+  {
+    "entity_id": "alfalfa",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:14"
+  },
+  {
+    "entity_id": "alfalfa",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:9"
+  },
+  {
+    "entity_id": "black-medick",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:51"
+  },
+  {
+    "entity_id": "birdsfoot-trefoil",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:11"
+  },
+  {
+    "entity_id": "birdsfoot-trefoil",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:3:52"
+  },
+  {
+    "entity_id": "sainfoin",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:10"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-01",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-01"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-02",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-02"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-03",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-03"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-04",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-04"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-05",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-05"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-06",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-06"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-07",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-07"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-08",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-08"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-09",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-09"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-10",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-10"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-11",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-11"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2024-12",
+    "source_witness_id": "P65V2:PRICE:soybean:2024-12"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-01",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-01"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-02",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-02"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-03",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-03"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-04",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-04"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-05",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-05"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-06",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-06"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-07",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-07"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-08",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-08"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-09",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-09"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-10",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-10"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-11",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-11"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2025-12",
+    "source_witness_id": "P65V2:PRICE:soybean:2025-12"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2026-01",
+    "source_witness_id": "P65V2:PRICE:soybean:2026-01"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2026-02",
+    "source_witness_id": "P65V2:PRICE:soybean:2026-02"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2026-03",
+    "source_witness_id": "P65V2:PRICE:soybean:2026-03"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2026-04",
+    "source_witness_id": "P65V2:PRICE:soybean:2026-04"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2026-05",
+    "source_witness_id": "P65V2:PRICE:soybean:2026-05"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "PRICE",
+    "period": "2026-06",
+    "source_witness_id": "P65V2:PRICE:soybean:2026-06"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:49"
+  },
+  {
+    "entity_id": "soybean",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:43"
+  },
+  {
+    "entity_id": "flax",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:40"
+  },
+  {
+    "entity_id": "flax",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:34"
+  },
+  {
+    "entity_id": "hemp",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:5:39"
+  },
+  {
+    "entity_id": "hemp",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:33"
+  },
+  {
+    "entity_id": "fodder-beet",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_gemFlaechen_LW_Art_2026:6:12"
+  },
+  {
+    "entity_id": "fodder-beet",
+    "kind": "SUPPLY",
+    "observation_id": "P65V2:BSA:P1_anerkMengen_LW_Art_20260916:4:50"
+  }
+]

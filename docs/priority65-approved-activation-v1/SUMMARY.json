@@ -1,0 +1,48 @@
+{
+  "ACTIVATED_ENTITIES": 51,
+  "ACTIVATED_OBSERVATIONS": 212,
+  "PRICES_ACTIVATED": 120,
+  "SUPPLY_FIELDS_ACTIVATED": 87,
+  "INTERNAL_TRADE_FIELDS_ACTIVATED": 3,
+  "EXTERNAL_TRADE_FIELDS_ACTIVATED": 12,
+  "CN_FIELDS_UPDATED": 102,
+  "card_coverage": {
+    "LIMITED": 47,
+    "DATA_GAP": 6,
+    "COMPLETE": 11,
+    "PARTIAL": 1
+  },
+  "snapshot": 12,
+  "actual_runtime_before": {
+    "internal": 11,
+    "external": 10,
+    "price": 7
+  },
+  "actual_runtime_after": {
+    "internal": 12,
+    "external": 12,
+    "price": 11
+  },
+  "ACTIVATION_COUNT_DEFINITIONS": {
+    "ACTIVATED_OBSERVATIONS": "120 new price points + 87 new supply observations + 1 internal monthly aggregate + 4 directional external monthly aggregates; reused source rows are not new raw trade observations",
+    "PRICES_ACTIVATED": "New verified price observation points; four additional entities receive a price",
+    "INTERNAL_TRADE_FIELDS_ACTIVATED": "Previously absent scalar latest volume, value, period fields",
+    "EXTERNAL_TRADE_FIELDS_ACTIVATED": "Previously absent scalar directional volume, value, period fields",
+    "SUPPLY_FIELDS_ACTIVATED": "New canonical scoped supply-observation records; metric/unit/definition preserved",
+    "CN_FIELDS_UPDATED": "Changed CN code/status/scope/note fields; no raw customs data modified"
+  },
+  "NEW_PRICE_ENTITIES": 4,
+  "SOURCE_TOTAL_BEFORE": {
+    "volume_t": 251015.1,
+    "value_eur": 400438328,
+    "period": "2026-06",
+    "scope": "EU27_INTERNAL_EXPORTER_DISPATCHES"
+  },
+  "SOURCE_TOTAL_AFTER": {
+    "volume_t": 251015.1,
+    "value_eur": 400438328,
+    "period": "2026-06",
+    "scope": "EU27_INTERNAL_EXPORTER_DISPATCHES"
+  },
+  "SOURCE_TOTAL_CHANGE": "ZERO"
+}
