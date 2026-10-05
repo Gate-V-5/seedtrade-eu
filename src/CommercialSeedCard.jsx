@@ -47,7 +47,7 @@ export function SeedCard({card,snapshot=false}) {
         {hasTrade&&<div className="catalogue-card-measure catalogue-volume-measure"><dl><Metric label="Trade volume" value={card.trade_volume_t} unit=" t"/></dl><CardTrend label="Volume YoY" value={card.trade_volume_yoy} compact={snapshot}/></div>}
       </div>
       <div className="catalogue-card-trade-history">{hasTrade&&<><p className="catalogue-history-label">{t("EU internal trade volume — tonnes")}</p><CardHistory card={card}/><p className="catalogue-period catalogue-trade-period">{snapshot?t('Completed · {period}',{period:displayMonth(card.latest_trade_period,language)}):t('Completed {period}',{period:card.latest_trade_period})}</p></>}</div>
-      {card.CN_status==='PARTIAL'&&<p className="catalogue-note">{t('This customs scope covers only part of the seed market.')}</p>}
+      {snapshot?<div className="catalogue-card-scope">{card.CN_status==='PARTIAL'&&<p className="catalogue-note">{t('This customs scope covers only part of the seed market.')}</p>}</div>:card.CN_status==='PARTIAL'&&<p className="catalogue-note">{t('This customs scope covers only part of the seed market.')}</p>}
     </>}
     <a className="catalogue-card-cta" href={`/market/seeds/${card.slug}`}>{t('Explore market →')}</a>
   </article>

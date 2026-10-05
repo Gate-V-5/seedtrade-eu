@@ -56,3 +56,7 @@
 .market-snapshot .catalogue-tags{min-block-size:52px;align-content:start}
 .market-snapshot .catalogue-yoy{white-space:nowrap}
 .market-snapshot .catalogue-period{line-height:1.5}
+
+/* Shared disclosure row keeps optional customs notes from shifting Snapshot rotation. */
+.market-snapshot .catalogue-card-scope{min-block-size:3em;line-height:1.5;font-size:.87rem}
+.market-snapshot .catalogue-card-scope>.catalogue-note{margin:0;line-height:inherit}

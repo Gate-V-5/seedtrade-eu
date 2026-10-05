@@ -30,6 +30,20 @@ try {
  await test('snapshot botanical names are semantically italic in all language modes',()=>{
   for(const lang of ['EN','DE','FR','ES','IT','ZZ'])for(const c of data.cards){const d=render(SeedCard,{card:c,snapshot:true},lang);assert.equal(d.querySelector('.catalogue-botanical em').textContent,c.botanical_display_name);assert.equal(d.querySelector('h3 em'),null)}
  })
+ await test('Snapshot reserves one common disclosure row without inventing missing metrics',()=>{
+  const eligible=data.cards.filter(c=>c.price_observations.length||c.trade_volume_t!==null);
+  assert.equal(eligible.length,12);
+  for(const c of eligible){
+   const d=render(SeedCard,{card:c,snapshot:true});const scope=d.querySelector('.catalogue-card-scope');
+   assert.ok(scope);assert.equal(scope.querySelectorAll('.catalogue-note').length,c.CN_status==='PARTIAL'?1:0);
+   if(c.CN_status!=='PARTIAL')assert.equal(scope.textContent,'');
+   if(!c.price_observations.length)assert.equal(d.querySelector('.catalogue-price-measure'),null);
+   assert.ok(!d.querySelector('article').textContent.includes('No price'));
+   assert.equal(d.querySelector('article').lastElementChild.className,'catalogue-card-cta');
+  }
+  assert.match(css,/\.market-snapshot \.catalogue-card-scope\{min-block-size:3em/);
+  assert.match(css,/\.market-snapshot \.catalogue-card-scope>\.catalogue-note\{margin:0/);
+ })
  await test('both chart measures align axis to plot and retain precise observed periods and gaps',()=>{
   assert.match(css,/\.catalogue-history-chart\{display:grid;grid-template-columns:48px minmax\(0,1fr\)/)
   for(const [field,price,unit] of [['price_eur_kg',true,'€/kg'],['volume_t',false,'t']]){
