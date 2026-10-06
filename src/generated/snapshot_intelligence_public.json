@@ -1,0 +1,195 @@
+{
+  "schema_version": "1",
+  "origin": "APPROVED_SNAPSHOT_12_PUBLIC_PROJECTION;EDITORIAL_COMPRESSION_ONLY",
+  "records": [
+    {
+      "entity_id": "sunflower",
+      "presentation": "MARKET_SITUATION",
+      "market_situation": "June 2026 seed dispatches rose slightly; customs unit value fell. Seed-production evidence ends in 2025.",
+      "market_watch": [],
+      "b2b_view": null,
+      "latest_market_evidence": "Latest completed trade: June 2026. Customs values describe shipments, not current offers or available lots.",
+      "as_of": "2026-06",
+      "as_of_precision": "MONTH",
+      "as_of_source_basis": "EUROSTAT_COMEXT_DS045409",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "rye",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany’s 2026 spring and winter seed declarations show planned capacity, not deliverable seed.",
+      "market_watch": [
+        "Approved area by spring/winter form",
+        "Hybrid versus open-pollinated lot availability"
+      ],
+      "b2b_view": "Compare hybrid and open-pollinated lots separately.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "barley",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Bavaria’s 2026 spring and winter field results remain separate; final certified quantities and stocks are unconfirmed.",
+      "market_watch": [
+        "Final germination and certified quantity by form",
+        "Next-season spring/winter orders"
+      ],
+      "b2b_view": "Check seed class and deliverability by spring/winter form.",
+      "latest_market_evidence": null,
+      "as_of": "2026-09-10",
+      "as_of_precision": "DAY",
+      "as_of_source_basis": "lfl_field_winter/lfl_field_spring",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "italian-ryegrass",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany’s 2026 declarations show seed capacity. Customs data do not separate Westerwolds and other forms.",
+      "market_watch": [
+        "Certified new-harvest quantity",
+        "Availability by commercial form and cultivar"
+      ],
+      "b2b_view": "Match the commercial form and cultivar to the intended use.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "perennial-ryegrass",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany reports 2026 seed declarations. The latest customs unit value is from February 2025.",
+      "market_watch": [
+        "New certified-lot availability",
+        "Current variety-specific offers"
+      ],
+      "b2b_view": "Compare current offers by variety, germination and delivery terms.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "meadow-fescue",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany reports 2026 seed capacity. External import and export periods differ; no net balance is inferred.",
+      "market_watch": [
+        "Same-period external import and export update",
+        "Certified 2026 lot availability"
+      ],
+      "b2b_view": "Verify delivered lots; unmatched flows do not establish shortage.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "field-pea",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany reports 2026 seed declarations. June volume and customs unit value diverged; current availability is unconfirmed.",
+      "market_watch": [
+        "New-crop certified quantity and germination",
+        "Next-season buyer orders by variety"
+      ],
+      "b2b_view": "Match variety, germination and treatment when comparing offers.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "red-clover",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany reports 2026 seed declarations. Earlier Irish reseeding payments do not establish mono-species orders.",
+      "market_watch": [
+        "Certified availability by ploidy and cultivar",
+        "Red-clover inclusion in reseeding orders"
+      ],
+      "b2b_view": "Compare ploidy, cultivar and germination for deliverable seed.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "alfalfa",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany reports 2026 seed declarations. The latest customs unit value is from December 2024.",
+      "market_watch": [
+        "New certified-lot availability",
+        "Current cultivar-specific offers"
+      ],
+      "b2b_view": "Compare cultivar and lot quality; the old value is not a current quote.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "soybean",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Germany reports 2026 seed declarations. June trade rose and unit value fell; variety-level availability is unresolved.",
+      "market_watch": [
+        "Certified availability by maturity group",
+        "New-lot germination and treatment"
+      ],
+      "b2b_view": "Match maturity group and certified lot specifications.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "flax",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "Reported 2026 fibre-flax area expanded in France, Belgium and the Netherlands; next-season seed demand is unconfirmed.",
+      "market_watch": [
+        "Oilseed versus fibre sowing contracts",
+        "Seed usage and replacement rate"
+      ],
+      "b2b_view": "Separate oilseed and fibre requirements; confirm sowing contracts.",
+      "latest_market_evidence": null,
+      "as_of": "2026-07-30",
+      "as_of_precision": "DAY",
+      "as_of_source_basis": "alliance2026",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    },
+    {
+      "entity_id": "fodder-beet",
+      "presentation": "MARKET_WATCH",
+      "market_situation": "German certification includes domestic and foreign-grown seed; declared 2026 area is not the entire supply.",
+      "market_watch": [
+        "Current certified fodder-beet lots",
+        "Domestic versus foreign production origin"
+      ],
+      "b2b_view": "Check fodder-beet scope and lot origin; other beet uses differ.",
+      "latest_market_evidence": null,
+      "as_of": "2026",
+      "as_of_precision": "YEAR",
+      "as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+      "classification": "PUBLIC_SAFE",
+      "source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+    }
+  ]
+}

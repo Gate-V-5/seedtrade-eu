@@ -1,6 +1,7 @@
 import {useT,useLanguage} from './i18n/index.jsx'
 import snapshot from './generated/market_snapshot_public.json'
-import {latestValidPrice} from './commercialEvidence.mjs'
+import {latestTradeUnitValue,latestSeedPrice} from './commercialEvidence.mjs'
+import SnapshotIntelligence from './SnapshotIntelligence.jsx'
 import './marketCatalogue.css'
 const displayMonth=(period,language)=>new Intl.DateTimeFormat(locale(language),{month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(`${period}-01T00:00:00Z`))
 const categoryById=id=>snapshot.categories.find(c=>c.id===id)
@@ -37,13 +38,15 @@ function CardHistory({card}) {
   </div>
 }
 export function SeedCard({card,snapshot=false}) {
-  const t=useT(),{language}=useLanguage(),hasTrade=available(card.trade_volume_t),price=latestValidPrice(card.price_observations)
+  const t=useT(),{language}=useLanguage(),hasTrade=available(card.trade_volume_t),price=latestTradeUnitValue(card.price_observations),seedPrice=latestSeedPrice(card.price_observations)
   return <article className={`catalogue-seed-card${snapshot?" crop-card":""}`} data-entity-id={card.market_entity_id}>
     <div className="catalogue-seed-heading"><h3>{t(card.common_name_en)}</h3><p className="catalogue-botanical"><em>{card.botanical_display_name}</em></p></div>
     <Tags card={card}/>
-    {(hasTrade||price)&&<>
+    {snapshot&&<SnapshotIntelligence entityId={card.market_entity_id}/>}
+    {(hasTrade||price||seedPrice)&&<>
       <div className="catalogue-card-metrics">
-        {price&&<div className="catalogue-card-measure catalogue-price-measure" title={t(price.scope)}><dl><Metric label="Representative price" value={price.price_eur_kg} unit=" €/kg"/></dl><CardTrend label="Price YoY" value={price.yoy_percent} compact={snapshot}/><p className="catalogue-period">{snapshot?t("Observed · {period}",{period:displayMonth(price.period,language)}):t("Price observed {period}",{period:price.period})}</p></div>}
+        {seedPrice&&<div className="catalogue-card-measure catalogue-seed-price-measure"><dl><Metric label="Seed price" value={seedPrice.price_eur_kg} unit=" €/kg"/></dl><p className="catalogue-period">{t('Observed · {period}',{period:seedPrice.period})}</p></div>}
+        {price&&<div className="catalogue-card-measure catalogue-price-measure" title={t('Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation.')}><dl><Metric label="Trade unit value" value={price.price_eur_kg} unit=" €/kg"/></dl><span className="catalogue-metric-help"><abbr title={t('Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation.')} tabIndex="0" aria-label={t('Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation.')}>ⓘ</abbr></span><CardTrend label="Trade unit value YoY" value={price.yoy_percent} compact={snapshot}/><p className="catalogue-period">{snapshot?t("Observed · {period}",{period:displayMonth(price.period,language)}):t("Observed · {period}",{period:price.period})}</p></div>}
         {hasTrade&&<div className="catalogue-card-measure catalogue-volume-measure"><dl><Metric label="Trade volume" value={card.trade_volume_t} unit=" t"/></dl><CardTrend label="Volume YoY" value={card.trade_volume_yoy} compact={snapshot}/></div>}
       </div>
       <div className="catalogue-card-trade-history">{hasTrade&&<><p className="catalogue-history-label">{t("EU internal trade volume — tonnes")}</p><CardHistory card={card}/><p className="catalogue-period catalogue-trade-period">{snapshot?t('Completed · {period}',{period:displayMonth(card.latest_trade_period,language)}):t('Completed {period}',{period:card.latest_trade_period})}</p></>}</div>

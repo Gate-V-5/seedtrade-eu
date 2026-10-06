@@ -1,3 +1,4 @@
+import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
   ["Monthly trade volume", "Monatliches Handelsvolumen", "Volume mensuel des échanges", "Volumen comercial mensual", "Volume mensile degli scambi"],
@@ -11,7 +12,7 @@ const rows = [
   ["Observed · {period}", "Beobachtet · {period}", "Observé · {period}", "Observado · {period}", "Osservato · {period}"],
   ["Completed · {period}", "Abgeschlossen · {period}", "Période complète · {period}", "Período completo · {period}", "Periodo completo · {period}"],
   ["Price observed {period}", "Preisbeobachtung {period}", "Prix observé {period}", "Precio observado {period}", "Prezzo osservato {period}"],
-  ["Latest available: €{value}/kg · {period}", "Zuletzt verfügbar: €{value}/kg · {period}", "Dernier prix disponible : €{value}/kg · {period}", "Último disponible: €{value}/kg · {period}", "Ultimo disponibile: €{value}/kg · {period}"],
+  ["Latest available: €{value}/kg · {period}", "Zuletzt verfügbar: €{value}/kg · {period}", "Dernière valeur disponible : €{value}/kg · {period}", "Último disponible: €{value}/kg · {period}", "Ultimo disponibile: €{value}/kg · {period}"],
   ["Representative price uses eligible evidence for this seed and its stated market scope; it is not an official EU average.", "Der repräsentative Preis nutzt geeignete Daten für dieses Saatgut und den angegebenen Marktumfang; er ist kein amtlicher EU-Durchschnitt.", "Le prix représentatif utilise des données admissibles pour cette semence et le périmètre indiqué ; ce n’est pas une moyenne officielle de l’UE.", "El precio representativo utiliza evidencia admisible para esta semilla y el ámbito indicado; no es una media oficial de la UE.", "Il prezzo rappresentativo usa dati ammissibili per questa semente e l’ambito indicato; non è una media ufficiale UE."],
   ["EU external trade", "EU-Außenhandel", "Commerce extérieur de l’UE", "Comercio exterior de la UE", "Commercio estero UE"],
   ["Exports outside EU", "Ausfuhren außerhalb der EU", "Exportations hors UE", "Exportaciones fuera de la UE", "Esportazioni fuori UE"],
@@ -781,4 +782,4 @@ const rows = [
   ["escaa summary field area", "ESCAA-Flächenübersicht", "Surface de la synthèse ESCAA", "Superficie del resumen ESCAA", "Superficie del riepilogo ESCAA"],
 ]
 const codes = ["DE", "FR", "ES", "IT"]
-export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries(rows.map(row => [row[0], row[index + 1]]))]))
+export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...rows,...snapshotIntelligenceRows].map(row => [row[0], row[index + 1]]))]))

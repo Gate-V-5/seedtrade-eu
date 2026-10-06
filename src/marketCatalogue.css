@@ -60,3 +60,29 @@
 /* Shared disclosure row keeps optional customs notes from shifting Snapshot rotation. */
 .market-snapshot .catalogue-card-scope{min-block-size:3em;line-height:1.5;font-size:.87rem}
 .market-snapshot .catalogue-card-scope>.catalogue-note{margin:0;line-height:inherit}
+
+/* Intelligence candidate: complete readable copy; common measured height across rotation. */
+.snapshot-card-train{position:relative}
+.market-snapshot .snapshot-card-train>.carousel-train>.catalogue-seed-card{height:auto;min-block-size:var(--snapshot-card-block-size,auto);gap:10px}
+.snapshot-card-measurement{position:absolute;inset:0 0 auto;visibility:hidden;pointer-events:none;z-index:-1;align-items:start}
+.market-snapshot .snapshot-card-measurement>.catalogue-seed-card{height:auto;min-block-size:0;gap:10px}
+.snapshot-intelligence{display:flex;flex-direction:column;gap:9px;border-top:1px solid var(--line);padding-top:10px;min-width:0}
+.snapshot-intelligence p,.snapshot-intelligence h4,.snapshot-intelligence ul{margin:0}
+.snapshot-intelligence-badge{align-self:flex-start;background:#edf4ee;color:#365f43;padding:4px 7px;border-radius:4px;font-size:.69rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.snapshot-intelligence .snapshot-situation{font-size:.84rem;line-height:1.45;color:var(--navy)}
+.snapshot-intelligence h4{font-size:.69rem;font-weight:800;letter-spacing:.025em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.snapshot-intelligence ul{padding-left:16px;font-size:.8rem;line-height:1.4}
+.snapshot-intelligence li{margin:0 0 3px}
+.snapshot-b2b p,.snapshot-latest p{font-size:.8rem;line-height:1.4;color:var(--muted)}
+.snapshot-intelligence .snapshot-as-of{font-size:.73rem;line-height:1.4;color:var(--muted)}
+.snapshot-as-of time{font-variant-numeric:tabular-nums}
+.catalogue-metric-help{display:block;font-size:.75rem;color:var(--muted);margin-top:4px}
+.catalogue-metric-help abbr{cursor:help;text-decoration:none;border:0}
+.catalogue-metric-help abbr:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.market-snapshot .catalogue-price-measure{position:relative}
+.market-snapshot .catalogue-metric-help{position:absolute;top:0;right:0;margin:0}
+.market-snapshot .catalogue-seed-price-measure{grid-row:auto}
+.market-snapshot .catalogue-card-metrics:has(.catalogue-seed-price-measure){grid-template-rows:none}
+@media(max-width:620px){.snapshot-intelligence .snapshot-situation{font-size:.9rem}.snapshot-intelligence ul,.snapshot-b2b p,.snapshot-latest p{font-size:.85rem}.snapshot-intelligence{gap:9px}}
+
+.market-snapshot .catalogue-card-metrics:has(.catalogue-seed-price-measure)>.catalogue-card-measure{grid-row:auto}

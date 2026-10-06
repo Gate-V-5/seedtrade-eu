@@ -31,7 +31,7 @@ class EvidenceConfidenceUX(unittest.TestCase):
             html = path.read_text()
             self.assertIn("Market Signal<!-- -->: <!-- -->Limited", html)
             self.assertIn("Why this level?", html)
-            self.assertIn("Price evidence<!-- -->: <!-- -->Eligible", html)
+            self.assertIn("Trade unit value evidence<!-- -->: <!-- -->Eligible", html)
             self.assertIn("Verified trade observations remain available", html)
             self.assertNotIn("PRIVATE_DATA", html)
 
@@ -39,7 +39,7 @@ class EvidenceConfidenceUX(unittest.TestCase):
         html = (ROOT / "dist/index.html").read_text()
         self.assertIn("catalogue-seed-card", html)
         self.assertIn("Explore market", html)
-        self.assertNotIn("Price evidence<!-- -->: <!-- -->Eligible", html)
+        self.assertNotIn("Trade unit value evidence<!-- -->: <!-- -->Eligible", html)
 
     def test_catalogue_hides_technical_primary_flow_but_retains_detail_provenance(self):
         html = (ROOT / "dist/market/index.html").read_text()

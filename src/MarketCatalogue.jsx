@@ -7,7 +7,7 @@ import './marketCatalogue.css'
 import {compactTonnes,exactTonnes} from './tradeKpiDisplay.mjs'
 import EvidenceHistory from './CommercialHistory.jsx'
 import {SeedCard,Tags} from './CommercialSeedCard.jsx'
-import {latestValidPrice,eligiblePrices,calendarSlots,rankedExporters,rankedCorridors} from './commercialEvidence.mjs'
+import {latestTradeUnitValue,eligibleTradeUnitValues,calendarSlots,rankedExporters,rankedCorridors} from './commercialEvidence.mjs'
 
 export const catalogueRouteMeta = path => {
   const route=routes.find(x=>x.path===path)
@@ -50,11 +50,11 @@ function CategoryPage({category}) {
   return <main className="market-catalogue"><a className="catalogue-back" href="/market">{t('← All categories')}</a><header className="catalogue-page-head catalogue-category-head"><div><p className="eyebrow">{t('European seed market')}</p><h1>{t(category.title)}</h1><p>{t(category.description)}</p></div><img src={category.image} alt={t(category.title)} width="2048" height="1143" decoding="async"/></header><div className="catalogue-summary"><div><span>{t('Seed types')}</span><strong>{category.entity_count}</strong></div>{category.countries_observed_count!=null&&<div><span>{t('Countries observed')}</span><strong>{category.countries_observed_count}</strong></div>}</div><div className="catalogue-browse"><label htmlFor="catalogue-search">{t('Find a seed type')}<input id="catalogue-search" type="search" placeholder={t('Common or botanical name')} value={query} onChange={event=>setQuery(event.target.value)}/></label><p role="status">{t('{count} seed types',{count:filtered.length})}</p></div>{filtered.length ? <section className="catalogue-seed-grid" aria-label={t('Seed market cards')}>{filtered.map(c=><SeedCard key={c.market_entity_id} card={c}/>)}</section> : <p className="catalogue-empty">{t('No seed types match your search.')}</p>}</main>
 }
 function MarketEvidence({card}) {
- const t=useT(),{language}=useLanguage(),price=latestValidPrice(card.price_observations),prices=eligiblePrices(card.price_observations),external=card.external_trade
+ const t=useT(),{language}=useLanguage(),price=latestTradeUnitValue(card.price_observations),prices=eligibleTradeUnitValues(card.price_observations),external=card.external_trade
  const fmt=value=>new Intl.NumberFormat(locale(language),{maximumFractionDigits:2}).format(Number(value))
  return <>
- {price&&<section className="catalogue-detail-panel"><h2>{t('Representative price')}</h2><dl><Metric label="Representative price" value={price.price_eur_kg} unit=" €/kg"/><Metric label="Price YoY" value={price.yoy_percent} unit="%" trend/></dl><p>{t('Price observed {period}',{period:price.period})}</p><p className="catalogue-note">{t(price.scope)}</p><a href={price.source_url}>{price.source}</a></section>}
- {prices.length>0&&<EvidenceHistory points={prices} field="price_eur_kg" title="Representative seed price history — €/kg" unit="€/kg" price/>}
+ {price&&<section className="catalogue-detail-panel"><h2>{t('Trade unit value')}</h2><dl><Metric label="Trade unit value" value={price.price_eur_kg} unit=" €/kg"/><Metric label="Trade unit value YoY" value={price.yoy_percent} unit="%" trend/></dl><p>{t('Observed · {period}',{period:price.period})}</p><p className="catalogue-note">{t(price.scope)}</p><a href={price.source_url}>{price.source}</a></section>}
+ {prices.length>0&&<EvidenceHistory points={prices} field="price_eur_kg" title="Trade unit value history — €/kg" unit="€/kg" price/>}
  {card.trade_history?.length>0&&<EvidenceHistory points={card.trade_history} field="volume_t" title="EU internal trade volume — tonnes" unit="t"/>}
  {(card.leading_exporters?.length>0||card.major_corridors?.length>0)&&<div className="catalogue-detail-grid">
  {card.leading_exporters?.length>0&&<section className="catalogue-detail-panel"><h2>{t('Leading exporters')}</h2><ol>{rankedExporters(card.leading_exporters).map(x=><li key={x.country}>{x.country} <b>{fmt(x.share_percent)}%</b></li>)}</ol><p className="catalogue-period">{t('Completed {period}',{period:card.latest_trade_period})}</p></section>}

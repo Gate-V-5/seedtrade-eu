@@ -16,7 +16,7 @@ try {
   const d=render('/market');assert.equal(d.querySelectorAll('.catalogue-global-kpis dd')[2].textContent,'251.0k t');assert.equal(d.querySelectorAll('.catalogue-global-kpis dd')[2].title,'251,015.1 tonnes');assert.equal(d.querySelectorAll('.catalogue-global-kpis dt')[2].textContent,'Monthly trade volume');assert.equal(d.querySelector('.catalogue-eu-summary>p').textContent,'EU internal seed trade · 40 sowing CN codes · June 2026')
  })
  await test('older price dates, no form price, histories and Latin names remain explicit',()=>{
-  for(const c of data.cards.filter(c=>c.price_observations.length)){const d=render('/market/seeds/'+c.slug);assert.ok(d.body.textContent.includes(c.price_period));assert.ok(d.body.textContent.includes(c.botanical_display_name));assert.ok(d.body.textContent.includes('Representative seed price history — €/kg'));assert.ok(d.body.textContent.includes('not an official EU average'))}
-  const d=render('/market/seeds/westerwold-ryegrass');assert.ok(!d.body.textContent.includes('Representative seed price history — €/kg'));assert.ok(!d.body.textContent.includes('€0.00'))
+  for(const c of data.cards.filter(c=>c.price_observations.length)){const d=render('/market/seeds/'+c.slug);assert.ok(d.body.textContent.includes(c.price_period));assert.ok(d.body.textContent.includes(c.botanical_display_name));assert.ok(d.body.textContent.includes('Trade unit value history — €/kg'));assert.ok(d.body.textContent.includes('not a seller quotation'))}
+  const d=render('/market/seeds/westerwold-ryegrass');assert.ok(!d.body.textContent.includes('Trade unit value history — €/kg'));assert.ok(!d.body.textContent.includes('€0.00'))
  })
 } finally {await vite.close()}

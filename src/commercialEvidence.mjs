@@ -12,3 +12,10 @@ export function calendarSlots(points, end, count=12, field='volume_t') {
 }
 export const rankedExporters = rows => rows.slice().sort((a,b)=>Number(b.share_percent)-Number(a.share_percent)||a.country.localeCompare(b.country)).slice(0,5)
 export const rankedCorridors = rows => rows.slice().sort((a,b)=>Number(b.volume_t)-Number(a.volume_t)||`${a.exporter}-${a.importer}`.localeCompare(`${b.exporter}-${b.importer}`)).slice(0,5)
+
+// Presentation semantics; canonical values/eligibility and aggregation stay unchanged.
+export const isCustomsUnitValue = p => /customs|COMEXT|net weight/i.test(`${p?.methodology||''} ${p?.source||''}`)
+export const eligibleTradeUnitValues = observations => eligiblePrices(observations).filter(isCustomsUnitValue)
+export const latestTradeUnitValue = observations => eligibleTradeUnitValues(observations).at(-1)||null
+export const eligibleSeedPrices = observations => eligiblePrices(observations).filter(p=>p.metric_type==='COMMERCIAL_SEED_PRICE' && p.commercial_evidence_verified===true && p.publication_rights_verified===true && !isCustomsUnitValue(p))
+export const latestSeedPrice = observations => eligibleSeedPrices(observations).at(-1)||null
