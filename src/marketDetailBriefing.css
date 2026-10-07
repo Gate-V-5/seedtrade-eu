@@ -5,3 +5,13 @@
 .market-detail-briefing .briefing-drivers dt,.market-detail-briefing .briefing-drivers dd{font-size:1rem;white-space:normal;overflow-wrap:normal}
 .market-detail-briefing .catalogue-history-chart{grid-template-columns:72px minmax(0,1fr)}
 .market-detail-briefing .catalogue-history-axis>span{white-space:nowrap;overflow-wrap:normal}
+/* Approved pre-Detail desktop geometry from 64031c6; current content and mobile remain intact. */
+@media(min-width:1024px){
+ .market-detail-briefing{max-width:1200px}
+ .market-detail-briefing .catalogue-page-head{margin-bottom:28px}
+ .market-detail-briefing .briefing-primary{max-width:none;margin:24px 0}
+ .market-detail-briefing .catalogue-detail-intelligence:has(.snapshot-intelligence){padding:22px 24px}
+ .market-detail-briefing .snapshot-intelligence .snapshot-situation{font-size:1rem;line-height:1.5}
+ .market-detail-briefing .snapshot-intelligence h4{font-size:.69rem;margin-top:0;margin-bottom:4px}
+ .market-detail-briefing .snapshot-watch ul,.market-detail-briefing .snapshot-b2b p,.market-detail-briefing .snapshot-latest p{font-size:.95rem;line-height:1.5}
+}
