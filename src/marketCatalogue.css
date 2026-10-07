@@ -35,7 +35,7 @@
 
 /* V4 visual hotfix: shared card layout also applies outside market-catalogue. */
 .catalogue-seed-card .catalogue-botanical{font-style:italic;line-height:1.45;margin:0;overflow-wrap:anywhere}
-.market-snapshot .catalogue-card-metrics{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;align-items:start}
+.market-snapshot .catalogue-card-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start;border-top:1px solid var(--line);padding-top:10px}
 .catalogue-seed-card .catalogue-card-measure{min-width:0}
 .catalogue-seed-card .catalogue-card-measure>dl>.catalogue-metric{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:0;border:0}
 .catalogue-seed-card .catalogue-card-measure dt,.catalogue-seed-card .catalogue-card-measure dd{margin:0;text-align:left;overflow-wrap:normal;white-space:normal}
@@ -47,19 +47,28 @@
 .catalogue-history-chart .catalogue-history-slot small{font-size:11px;transform:translateX(-50%) rotate(-35deg);margin-top:12px}
 @media(max-width:600px){.catalogue-history-chart{grid-template-columns:42px minmax(0,1fr);gap:6px}.catalogue-history-chart .catalogue-evidence-history,.catalogue-history-chart .catalogue-history-axis{height:150px}.catalogue-history-chart .catalogue-history-slot:nth-child(even) small{visibility:hidden}.catalogue-history-chart .catalogue-history-slot:last-child small{visibility:visible}.catalogue-history-chart .catalogue-history-slot small{font-size:10px}}
 
-/* Snapshot reserves shared optional metric slots, never species-specific heights. */
-.market-snapshot .catalogue-card-metrics{grid-template-rows:minmax(100px,auto) minmax(70px,auto);gap:12px}
-.market-snapshot .catalogue-price-measure{grid-row:1}
-.market-snapshot .catalogue-volume-measure{grid-row:2}
-.market-snapshot .catalogue-card-trade-history{min-block-size:96px}
-.market-snapshot .catalogue-seed-heading{min-block-size:64px}
-.market-snapshot .catalogue-tags{min-block-size:52px;align-content:start}
-.market-snapshot .catalogue-yoy{white-space:nowrap}
-.market-snapshot .catalogue-period{line-height:1.5}
-
-/* Shared disclosure row keeps optional customs notes from shifting Snapshot rotation. */
-.market-snapshot .catalogue-card-scope{min-block-size:3em;line-height:1.5;font-size:.87rem}
-.market-snapshot .catalogue-card-scope>.catalogue-note{margin:0;line-height:inherit}
+/* Compact Snapshot: reserve only natural identity/metric geometry, no research slots. */
+.market-snapshot .catalogue-seed-heading{min-block-size:52px}
+.market-snapshot .catalogue-tags{min-block-size:44px;align-content:start}
+.market-snapshot .catalogue-card-metrics{grid-template-rows:auto}
+.market-snapshot .catalogue-price-measure{grid-column:1;grid-row:1}
+.market-snapshot .catalogue-volume-measure{grid-column:2;grid-row:1}
+.market-snapshot .catalogue-seed-price-measure{grid-column:1/-1;grid-row:auto}
+.market-snapshot .catalogue-card-measure dt{min-block-size:2.6em;line-height:1.3}
+.market-snapshot .catalogue-price-measure dt{padding-inline-end:16px}
+.market-snapshot .catalogue-card-measure dd{font-size:1.15rem}
+.market-snapshot .catalogue-yoy{font-size:.75rem;line-height:1.4;white-space:normal}
+.market-snapshot .catalogue-period{line-height:1.35;font-size:.72rem}
+.market-snapshot .catalogue-history-label{margin:0 0 4px;font-size:.75rem;line-height:1.3}
+.market-snapshot .catalogue-card-history{height:32px;margin:0 0 4px}
+.market-snapshot .catalogue-card-trade-history{min-block-size:64px}
+.market-snapshot .catalogue-card-cta{padding-top:6px}
+@media(max-width:620px){
+ .market-snapshot .catalogue-card-metrics{grid-template-columns:minmax(0,1fr);gap:10px}
+ .market-snapshot .catalogue-price-measure,.market-snapshot .catalogue-volume-measure{grid-column:1;grid-row:auto}
+ .market-snapshot .catalogue-card-measure dt{min-block-size:0}
+ .market-snapshot .catalogue-tags,.market-snapshot .catalogue-seed-heading{min-block-size:0}
+}
 
 /* Intelligence candidate: complete readable copy; common measured height across rotation. */
 .snapshot-card-train{position:relative}
@@ -86,3 +95,13 @@
 @media(max-width:620px){.snapshot-intelligence .snapshot-situation{font-size:.9rem}.snapshot-intelligence ul,.snapshot-b2b p,.snapshot-latest p{font-size:.85rem}.snapshot-intelligence{gap:9px}}
 
 .market-snapshot .catalogue-card-metrics:has(.catalogue-seed-price-measure)>.catalogue-card-measure{grid-row:auto}
+
+/* The homepage is a summary; full Intelligence lives on the market detail page. */
+.snapshot-intelligence-compact{gap:6px}
+.snapshot-intelligence-compact .snapshot-situation{font-size:.875rem;line-height:1.4}
+.catalogue-detail-intelligence:has(.snapshot-intelligence){padding:22px 24px;margin-bottom:24px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.catalogue-detail-intelligence .snapshot-intelligence{border:0;padding:0;gap:12px}
+.catalogue-detail-intelligence .snapshot-situation{font-size:1rem;line-height:1.5}
+.catalogue-detail-intelligence .snapshot-watch ul,.catalogue-detail-intelligence .snapshot-b2b p,.catalogue-detail-intelligence .snapshot-latest p{font-size:.95rem;line-height:1.5}
+.catalogue-detail-intelligence .snapshot-as-of{font-size:.85rem}
+@media(max-width:620px){.catalogue-detail-intelligence:has(.snapshot-intelligence){padding:18px}.snapshot-intelligence-compact .snapshot-situation{font-size:.9rem}}

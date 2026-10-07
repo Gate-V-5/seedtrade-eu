@@ -13,36 +13,34 @@ const {default:History}=await vite.ssrLoadModule('/src/CommercialHistory.jsx')
 const {LanguageProvider}=await vite.ssrLoadModule('/src/i18n/index.jsx')
 const render=(component,props,lang='EN')=>new JSDOM(renderToString(React.createElement(LanguageProvider,{initialLanguage:lang},React.createElement(component,props)))).window.document
 try {
- await test('snapshot metric blocks use scoped normal-flow grid and independent stacked definitions',()=>{
-  assert.match(css,/\.market-snapshot \.catalogue-card-metrics\{display:grid;grid-template-columns:minmax\(0,1fr\)/)
+ await test('snapshot metric blocks use scoped normal-flow grid and independent definitions in compact desktop columns',()=>{
+  assert.match(css,/\.market-snapshot \.catalogue-card-metrics\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/)
   assert.match(css,/\.catalogue-seed-card \.catalogue-card-measure>dl>\.catalogue-metric\{display:flex;flex-direction:column/)
   for(const c of data.cards.filter(c=>c.price_observations.length||c.trade_volume_t!==null)){
    const d=render(SeedCard,{card:c,snapshot:true});for(const m of d.querySelectorAll('.catalogue-card-measure'))assert.equal(m.querySelectorAll(':scope>dl>.catalogue-metric>dd').length,1)
   }
  })
- await test('vertical Snapshot retains independent compact dates and concise YoY lines',()=>{
+ await test('compact Snapshot retains independent compact dates and concise YoY lines',()=>{
   for(const c of data.cards.filter(c=>c.price_observations.length)){
    const d=render(SeedCard,{card:c,snapshot:true});const price=d.querySelector('.catalogue-price-measure');assert.ok(price.textContent.includes('Observed ·'));assert.equal(price.querySelector('.sr-only'),null);assert.ok(price.querySelector('dd').textContent.endsWith('/kg'));
    const expected=new Intl.DateTimeFormat('en-GB',{month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(c.price_period+'-01T00:00:00Z'));assert.ok(price.textContent.includes(expected))
   }
-  assert.match(css,/grid-template-rows:minmax\(100px,auto\) minmax\(70px,auto\)/);assert.match(css,/white-space:nowrap;word-break:normal/)
+  assert.match(css,/grid-template-rows:auto/);assert.doesNotMatch(css,/minmax\(100px,auto\) minmax\(70px,auto\)/);assert.match(css,/white-space:nowrap;word-break:normal/)
  })
  await test('snapshot botanical names are semantically italic in all language modes',()=>{
   for(const lang of ['EN','DE','FR','ES','IT','ZZ'])for(const c of data.cards){const d=render(SeedCard,{card:c,snapshot:true},lang);assert.equal(d.querySelector('.catalogue-botanical em').textContent,c.botanical_display_name);assert.equal(d.querySelector('h3 em'),null)}
  })
- await test('Snapshot reserves one common disclosure row without inventing missing metrics',()=>{
+ await test('Snapshot keeps detailed customs caveats on detail pages without inventing missing metrics',()=>{
   const eligible=data.cards.filter(c=>c.price_observations.length||c.trade_volume_t!==null);
   assert.equal(eligible.length,12);
   for(const c of eligible){
    const d=render(SeedCard,{card:c,snapshot:true});const scope=d.querySelector('.catalogue-card-scope');
-   assert.ok(scope);assert.equal(scope.querySelectorAll('.catalogue-note').length,c.CN_status==='PARTIAL'?1:0);
-   if(c.CN_status!=='PARTIAL')assert.equal(scope.textContent,'');
+   assert.equal(scope,null);
    if(!c.price_observations.length)assert.equal(d.querySelector('.catalogue-price-measure'),null);
    assert.ok(!d.querySelector('article').textContent.includes('No price'));
    assert.equal(d.querySelector('article').lastElementChild.className,'catalogue-card-cta');
   }
-  assert.match(css,/\.market-snapshot \.catalogue-card-scope\{min-block-size:3em/);
-  assert.match(css,/\.market-snapshot \.catalogue-card-scope>\.catalogue-note\{margin:0/);
+  assert.doesNotMatch(css,/\.market-snapshot \.catalogue-card-scope\{min-block-size:3em/);
  })
  await test('both chart measures align axis to plot and retain precise observed periods and gaps',()=>{
   assert.match(css,/\.catalogue-history-chart\{display:grid;grid-template-columns:48px minmax\(0,1fr\)/)
