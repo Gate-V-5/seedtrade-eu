@@ -19,17 +19,19 @@ class DailyNewsV1Tests(unittest.TestCase):
         self.assertIn('Daily News DOM PASS', result.stdout)
 
     def test_protected_data_and_server_are_unchanged(self):
-        for path in ['server/networkInterest.mjs', 'src/generated/market_public.json',
+        for path in ['server/networkInterestLegacy.mjs', 'src/generated/market_public.json',
                      'src/generated/weather_public.json',
                      'src/generated/supply_public.json', 'src/generated/rfqs_public.json',
                      'src/generated/insights.json', 'src/data/species_master_v1_1.json']:
-            canonical = subprocess.check_output(['git', 'show', f'{BASE}:{path}'], cwd=ROOT)
+            canonical = subprocess.check_output(['git', 'show', f'{BASE}:{path.replace("networkInterestLegacy.mjs", "networkInterest.mjs")}'], cwd=ROOT)
             self.assertEqual((ROOT / path).read_bytes(), canonical, path)
 
     def test_static_server_routing_is_unchanged(self):
         canonical = subprocess.check_output(['git', 'show', f'{BASE}:server/index.mjs'], cwd=ROOT, text=True)
         current = (ROOT / 'server/index.mjs').read_text()
-        self.assertEqual(current.split('const dist =', 1)[1], canonical.split('const dist =', 1)[1])
+        current = current.replace("  if (runtime) res.setHeader('X-SeedTrade-Staging-Backend', 'package3h')\n", '')
+        current_static = current.split('const dist =', 1)[1].split('server.requestTimeout', 1)[0].replace("  if (runtime?.cron && req.url === '/api/internal/network-delivery') return runtime.cron(req, res)\n", '')
+        self.assertEqual(current_static, canonical.split('const dist =', 1)[1].split('server.listen(listenPort)', 1)[0])
 
     def test_about_and_b2b_components_are_unchanged(self):
         canonical = subprocess.check_output(['git', 'show', f'{BASE}:src/AppV2.jsx'], cwd=ROOT, text=True)

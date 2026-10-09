@@ -26,7 +26,7 @@ test('SMTP configuration preserved and unknown mode rejected', () => {
 
 test('test transport cannot produce false delivery success', async () => {
   const { Readable } = await import('node:stream')
-  const { createNetworkHandler } = await import('../server/networkInterest.mjs')
+  const { createNetworkHandler } = await import('../server/networkInterestLegacy.mjs')
   const {transport,from}=createRuntimeMail(staging)
   const req=Readable.from([JSON.stringify({company:'Synthetic test',email:'synthetic@example.invalid',role:'Buyer',country:'Test'})])
   Object.assign(req,{url:'/api/network-interest',method:'POST',headers:{host:'staging.seedtrade.eu',origin:'https://staging.seedtrade.eu','content-type':'application/json'},socket:{remoteAddress:'127.0.0.1'}})
