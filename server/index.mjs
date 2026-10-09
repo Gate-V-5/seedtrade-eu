@@ -1,16 +1,13 @@
-import nodemailer from 'nodemailer'
 import http from 'node:http'
 import { readFile, stat } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { createNetworkHandler } from './networkInterest.mjs'
 
-const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM, PORT } = process.env
-if (![SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM].every(Boolean)) throw new Error('Server SMTP configuration is incomplete')
-const port = Number(SMTP_PORT)
-if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error('Invalid SMTP_PORT')
-const transport = nodemailer.createTransport({ host: SMTP_HOST, port, secure: port === 465, auth: { user: SMTP_USER, pass: SMTP_PASS } })
-const networkInterest = createNetworkHandler({ sendMail: options => transport.sendMail(options), from: SMTP_FROM })
+const { PORT } = process.env
+const { createRuntimeMail } = await import('./runtimeMail.mjs')
+const { transport, from } = createRuntimeMail(process.env)
+const networkInterest = createNetworkHandler({ sendMail: options => transport.sendMail(options), from })
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist')
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.ico': 'image/x-icon', '.webp': 'image/webp', '.woff2': 'font/woff2' }
 
