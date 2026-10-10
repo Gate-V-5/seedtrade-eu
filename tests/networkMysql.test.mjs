@@ -1,3 +1,4 @@
+import { syntheticCa } from './mysqlTlsFixtures.mjs'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
@@ -61,7 +62,7 @@ test('migration is manual, InnoDB, idempotent and has primary/unique/FK constrai
  assert.match(sql,/key_hash.*PRIMARY KEY/);assert.match(sql,/UNIQUE KEY b2b_attempt_claim/);assert.equal((sql.match(/ON DELETE CASCADE/g)||[]).length,2)
 })
 test('pool enforces TLS/parameter isolation; unsafe/incomplete config fails',()=>{
- const env={B2B_MYSQL_HOST:'db.example.test',B2B_MYSQL_USER:'app',B2B_MYSQL_PASSWORD:'not-real',B2B_MYSQL_DATABASE:'private'}
+ const env={B2B_MYSQL_HOST:'db.example.test',B2B_MYSQL_TLS_SERVERNAME:'db.example.test',B2B_MYSQL_TLS_IDENTITY_AUTHORISED:'true',B2B_MYSQL_TLS_RUNTIME_VERIFIED:'true',B2B_MYSQL_TLS_TRUST_STORE:'owner-ca-pem',B2B_MYSQL_TLS_CA:syntheticCa,B2B_MYSQL_USER:'app',B2B_MYSQL_PASSWORD:'not-real',B2B_MYSQL_DATABASE:'private'}
  const config=mysqlConfiguration(env);assert.equal(config.ssl.rejectUnauthorized,true);assert.equal(config.multipleStatements,false);assert.equal(config.waitForConnections,false)
  assert.throws(()=>mysqlConfiguration({...env,B2B_MYSQL_PORT:'0'}));assert.throws(()=>mysqlConfiguration({}))
 })

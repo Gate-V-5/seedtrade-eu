@@ -1,3 +1,4 @@
+import { syntheticCa } from './mysqlTlsFixtures.mjs'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { Readable } from 'node:stream'
@@ -9,7 +10,7 @@ import { createStagingNetworkRuntime, createStagingTestSender } from '../server/
 import { createMockLeadStore } from '../server/networkLeadStore.mjs'
 import { createDeliveryWorker } from '../server/networkDeliveryWorker.mjs'
 const staging = { SEEDTRADE_RUNTIME_ENV:'staging', SEEDTRADE_PUBLIC_ORIGIN:'https://staging.seedtrade.eu', SEEDTRADE_MAIL_TRANSPORT:'test-stream' }
-const configured = { ...staging, B2B_MYSQL_DATABASE:TEST_DATABASE, B2B_MYSQL_USER:TEST_USER, B2B_MYSQL_PASSWORD:'synthetic-not-real', B2B_MYSQL_HOST:'database.example.invalid', B2B_STORAGE_SECRET:'synthetic-secret-'.repeat(4) }
+const configured = { ...staging, B2B_MYSQL_DATABASE:TEST_DATABASE, B2B_MYSQL_USER:TEST_USER, B2B_MYSQL_PASSWORD:'synthetic-not-real', B2B_MYSQL_HOST:'localhost',B2B_MYSQL_TLS_SERVERNAME:'srv505.hstgr.io',B2B_MYSQL_TLS_IDENTITY_AUTHORISED:'true',B2B_MYSQL_TLS_RUNTIME_VERIFIED:'true',B2B_MYSQL_TLS_TRUST_STORE:'owner-ca-pem',B2B_MYSQL_TLS_CA:syntheticCa,...Object.fromEntries(['B2B_ENQUIRIES_ENABLED','B2B_RUNTIME_VERIFIED','B2B_STORAGE_VERIFIED','B2B_PRIVACY_APPROVED','B2B_STAGING_TEST_EXECUTION','B2B_STAGING_REAL_TESTS','B2B_STAGING_WORKER_ENABLED'].map(k=>[k,'false'])), B2B_STORAGE_SECRET:'synthetic-secret-'.repeat(4) }
 function connection({db=TEST_DATABASE,user=TEST_USER,cipher='TLS_AES_256_GCM_SHA384',grants=[`GRANT USAGE ON *.* TO '${TEST_USER}'@'localhost'`,`GRANT SELECT, INSERT, UPDATE, DELETE ON \`${TEST_DATABASE}\`.* TO '${TEST_USER}'@'localhost'`]}={}) {
  const queries=[]
  return {queries,async execute(q){queries.push(q.sql);if(q.sql.startsWith('SELECT DATABASE'))return [[{db,account:user+'@localhost'}]];if(q.sql.startsWith('SHOW SESSION'))return [[{Value:cipher}]];if(q.sql.startsWith('SHOW GRANTS'))return [grants.map(g=>({Grants:g}))];throw Error('Unexpected query')},destroy(){this.destroyed=true},release(){}}
@@ -43,7 +44,7 @@ test('enabled staging missing config/connection failure remains unavailable with
  const env={...staging,B2B_ENQUIRIES_ENABLED:'true',B2B_RUNTIME_VERIFIED:'true',B2B_STORAGE_VERIFIED:'true',B2B_PRIVACY_APPROVED:'true',B2B_PROXY_VERIFIED:'true',B2B_PROXY_MODE:'direct'}
  await unavailable(await createStagingNetworkRuntime(env))
  let closes=0
- await unavailable(await createStagingNetworkRuntime({...env,...configured},{poolFactory:()=>({end:async()=>{closes++}}),storeFactory:()=>({verify:async()=>{throw Error('credential should not leak')}})}))
+ await unavailable(await createStagingNetworkRuntime({...configured,...env},{poolFactory:()=>({end:async()=>{closes++}}),storeFactory:()=>({verify:async()=>{throw Error('credential should not leak')}})}))
  assert.equal(closes,1)
 })
 test('staging stream cannot fake provider acceptance or retry an intentional non-delivery',async()=>{
