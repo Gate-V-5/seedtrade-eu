@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-16",
+  "scope": "Asset visual review only; no browser or device acceptance",
+  "method": "Original-source contact sheet; actual 800px WebP contact sheet; actual 1200px WebP review sheet opened for inspection",
+  "observations": "Natural photographs; crop subject retained after centered 16:9 framing; no stretch, watermark, decorative graphic, people or apparent endorsement; no invented event or performance claim. Small maize rows intentionally depict establishment, not mature yield.",
+  "desktop_layout": "UNVERIFIED",
+  "mobile_layout": "UNVERIFIED",
+  "items": [
+    {
+      "slug": "cereals-pulses",
+      "status": "PASS",
+      "variant_sha256": [
+        "b29296a7c7f4b9a5b571a62971b0e35e266c0aabacf00f4ddb5ed41d8077d839",
+        "f1ba0ab5a93c9625640b91f6e5746420897147fbd7e9a7e36b7adbc6b2de70f6",
+        "4efe26bd975670e8b4ffdae786c79fd3788102e75a332adccc305e27d3e36118"
+      ]
+    },
+    {
+      "slug": "fodder-amenity",
+      "status": "PASS",
+      "variant_sha256": [
+        "6d990ad3a9b6a9994af02fdf4d28a952634ad10f2f05bd39861bfaf2fca850b4",
+        "9d5ae716921c0ac9daab11128ab0c93f6415814e3a055953ba57d53f62f7b854",
+        "6d15dd91b4864474ac54ca2addd1ed33ca887aab52cc02a5a2c7f99815c10cbe"
+      ]
+    },
+    {
+      "slug": "catch-crops",
+      "status": "PASS",
+      "variant_sha256": [
+        "64434d612434c04a275d5c89f2995bc51bf37905b414be42983d46d17b58098d",
+        "5699faa7a157a25fcde05fe9920a4f1e8679ad8f8ee4c517ab91de3c0113accb",
+        "e806a2752446bcce3307c6504bb4953b0310d509b087deeb7b66f328ddefc14b"
+      ]
+    },
+    {
+      "slug": "oil-fibre",
+      "status": "PASS",
+      "variant_sha256": [
+        "d90addc052fa7daee212f9d6eafdc1e71628748efe0fb330b981aba1495c5521",
+        "f143947ac205c2fccd955969ae342960106572edf858ea85aba84ef5fdcea8bd",
+        "5a573b509748d35759f0d677c51485522d4b3a6f06dd28db4864823a8095438f"
+      ]
+    },
+    {
+      "slug": "maize-sorghum",
+      "status": "PASS",
+      "variant_sha256": [
+        "59404ea82544d51d502e3260ef06c555065caa90bc2e52a011d30974fa8be4f5",
+        "553df0d84346771e9e92370723672a566a158166f653904a066edf85fdd12441",
+        "cc4afd4947b7dc0bc1ce157057a2edb7770f3ad8872caff5796aba51ba2dc303"
+      ]
+    },
+    {
+      "slug": "vegetables",
+      "status": "PASS",
+      "variant_sha256": [
+        "b5f7fc9a1b4b125f07f71d824fa84c6a2e0be1b295c50c05edbdb12f7cc1910f",
+        "b81de94dc7f44a28cb86c8b07ce17abd357973e3decde75b610fc596a7a8643a",
+        "ed41b4a4108245587d120883f9eb38992b22f8fad7db5be8c172cc2bd996585b"
+      ]
+    }
+  ]
+}

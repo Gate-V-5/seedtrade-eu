@@ -1,0 +1,31 @@
+Original licensed category photographs. Existing unrelated owner PNGs are preserved separately.
+
+cereals-pulses.jpg — Wheat-8244.jpg — Hans
+https://commons.wikimedia.org/wiki/File:Wheat-8244.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Original acquired file; SHA256 91cc702d68288a65ef8d459cb54cbd3fafdbd043bf07c3604d69b40f422c81f6
+
+fodder-amenity.jpg — Grass Field in Pereiaslav-Khmelnytskyi.jpg — Frunze103
+https://commons.wikimedia.org/wiki/File:Grass_Field_in_Pereiaslav-Khmelnytskyi.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Original acquired file; SHA256 05a84a1aa51cc2ed1380094c561f314e2d9fec603e62e4d7635b3183e62b16f7
+
+catch-crops.jpg — Phacelia field, Ehrenbach.jpg — Gerda Arendt
+https://commons.wikimedia.org/wiki/File:Phacelia_field,_Ehrenbach.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Original acquired file; SHA256 4d434476bb40af300e97c6c1d10805362893de4d306be7a7631f0aea7d0bcd26
+
+oil-fibre.jpg — Rapeseed field, Ehrenbach.jpg — Gerda Arendt
+https://commons.wikimedia.org/wiki/File:Rapeseed_field,_Ehrenbach.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Original acquired file; SHA256 b650bd297edf6f17c25e508d9cb604bfd3e7c23fa7714a28aa152eed1f733fd4
+
+maize-sorghum.jpg — Maize field at Simselwitz.jpg — Der-Hobbybahner-Sachsen
+https://commons.wikimedia.org/wiki/File:Maize_field_at_Simselwitz.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Original acquired file; SHA256 5b7b10b821aeb19b5dcfabba348b317c5d2bdd51bdeffb95cbb1e150857d73d4
+
+vegetables.jpg — Schuelp weisskohlfeld.jpg — Southgeist
+https://commons.wikimedia.org/wiki/File:Schuelp_weisskohlfeld.jpg
+CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/
+Original acquired file; SHA256 7039653ed431bdd01d5f571755374a6af016199b7729bdf7ed2c57f425833ec2

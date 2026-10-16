@@ -1,0 +1,39 @@
+Catalogue photograph licenses and attribution
+Verification date: 2026-10-16
+Illustrative crop photography, not evidence of current conditions or all category species.
+
+Wheat-8244.jpg — Hans
+https://commons.wikimedia.org/wiki/File:Wheat-8244.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Cropped to 16:9, resized and converted to WebP. Derivatives distributed under the same stated image license.
+Files: cereals-pulses-400.b29296a7c7f4.webp, cereals-pulses-800.f1ba0ab5a93c.webp, cereals-pulses-1200.4efe26bd9756.webp
+
+Grass Field in Pereiaslav-Khmelnytskyi.jpg — Frunze103
+https://commons.wikimedia.org/wiki/File:Grass_Field_in_Pereiaslav-Khmelnytskyi.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Cropped to 16:9, resized and converted to WebP. Derivatives distributed under the same stated image license.
+Files: fodder-amenity-400.6d990ad3a9b6.webp, fodder-amenity-800.9d5ae716921c.webp, fodder-amenity-1200.6d15dd91b486.webp
+
+Phacelia field, Ehrenbach.jpg — Gerda Arendt
+https://commons.wikimedia.org/wiki/File:Phacelia_field,_Ehrenbach.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Cropped to 16:9, resized and converted to WebP. Derivatives distributed under the same stated image license.
+Files: catch-crops-400.64434d612434.webp, catch-crops-800.5699faa7a157.webp, catch-crops-1200.e806a2752446.webp
+
+Rapeseed field, Ehrenbach.jpg — Gerda Arendt
+https://commons.wikimedia.org/wiki/File:Rapeseed_field,_Ehrenbach.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Cropped to 16:9, resized and converted to WebP. Derivatives distributed under the same stated image license.
+Files: oil-fibre-400.d90addc052fa.webp, oil-fibre-800.f143947ac205.webp, oil-fibre-1200.5a573b509748.webp
+
+Maize field at Simselwitz.jpg — Der-Hobbybahner-Sachsen
+https://commons.wikimedia.org/wiki/File:Maize_field_at_Simselwitz.jpg
+CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+Cropped to 16:9, resized and converted to WebP. Derivatives distributed under the same stated image license.
+Files: maize-sorghum-400.59404ea82544.webp, maize-sorghum-800.553df0d84346.webp, maize-sorghum-1200.cc4afd4947b7.webp
+
+Schuelp weisskohlfeld.jpg — Southgeist
+https://commons.wikimedia.org/wiki/File:Schuelp_weisskohlfeld.jpg
+CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/
+Cropped to 16:9, resized and converted to WebP. Derivatives distributed under the same stated image license.
+Files: vegetables-400.b5f7fc9a1b4b.webp, vegetables-800.b81de94dc7f4.webp, vegetables-1200.ed41b4a41082.webp

@@ -1,0 +1,257 @@
+{
+  "schema": "CATALOGUE_PHOTOGRAPHS_V1",
+  "items": [
+    {
+      "original": "/catalogue-v3/cereals-pulses.png",
+      "slug": "cereals-pulses",
+      "rights_status": "VERIFIED",
+      "visual_review": "PASS",
+      "rights_evidence": "https://commons.wikimedia.org/wiki/File:Wheat-8244.jpg",
+      "file_title": "Wheat-8244.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wheat-8244.jpg",
+      "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Wheat-8244.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Hans",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "verified_date": "2026-10-16",
+      "alt": "Wheat ears in a field; illustrative cereal photograph",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "changes": "Cropped to 16:9, resized and converted to WebP",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/cereals-pulses-400.b29296a7c7f4.webp",
+          "width": 400,
+          "height": 225,
+          "bytes": 15370,
+          "sha256": "b29296a7c7f4b9a5b571a62971b0e35e266c0aabacf00f4ddb5ed41d8077d839"
+        },
+        {
+          "src": "/catalogue-v3/responsive/cereals-pulses-800.f1ba0ab5a93c.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 36420,
+          "sha256": "f1ba0ab5a93c9625640b91f6e5746420897147fbd7e9a7e36b7adbc6b2de70f6"
+        },
+        {
+          "src": "/catalogue-v3/responsive/cereals-pulses-1200.4efe26bd9756.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 51322,
+          "sha256": "4efe26bd975670e8b4ffdae786c79fd3788102e75a332adccc305e27d3e36118"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/fodder-amenity.png",
+      "slug": "fodder-amenity",
+      "rights_status": "VERIFIED",
+      "visual_review": "PASS",
+      "rights_evidence": "https://commons.wikimedia.org/wiki/File:Grass_Field_in_Pereiaslav-Khmelnytskyi.jpg",
+      "file_title": "Grass Field in Pereiaslav-Khmelnytskyi.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grass_Field_in_Pereiaslav-Khmelnytskyi.jpg",
+      "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Grass_Field_in_Pereiaslav-Khmelnytskyi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Frunze103",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "verified_date": "2026-10-16",
+      "alt": "Grassland near the Trubizh River; illustrative grass photograph",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "changes": "Cropped to 16:9, resized and converted to WebP",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/fodder-amenity-400.6d990ad3a9b6.webp",
+          "width": 400,
+          "height": 225,
+          "bytes": 9604,
+          "sha256": "6d990ad3a9b6a9994af02fdf4d28a952634ad10f2f05bd39861bfaf2fca850b4"
+        },
+        {
+          "src": "/catalogue-v3/responsive/fodder-amenity-800.9d5ae716921c.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 45154,
+          "sha256": "9d5ae716921c0ac9daab11128ab0c93f6415814e3a055953ba57d53f62f7b854"
+        },
+        {
+          "src": "/catalogue-v3/responsive/fodder-amenity-1200.6d15dd91b486.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 93812,
+          "sha256": "6d15dd91b4864474ac54ca2addd1ed33ca887aab52cc02a5a2c7f99815c10cbe"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/catch-crops.png",
+      "slug": "catch-crops",
+      "rights_status": "VERIFIED",
+      "visual_review": "PASS",
+      "rights_evidence": "https://commons.wikimedia.org/wiki/File:Phacelia_field,_Ehrenbach.jpg",
+      "file_title": "Phacelia field, Ehrenbach.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Phacelia_field,_Ehrenbach.jpg",
+      "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Phacelia_field%2C_Ehrenbach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Gerda Arendt",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "verified_date": "2026-10-16",
+      "alt": "Flowering phacelia field in Ehrenbach; illustrative cover crop photograph",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "changes": "Cropped to 16:9, resized and converted to WebP",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/catch-crops-400.64434d612434.webp",
+          "width": 400,
+          "height": 225,
+          "bytes": 21528,
+          "sha256": "64434d612434c04a275d5c89f2995bc51bf37905b414be42983d46d17b58098d"
+        },
+        {
+          "src": "/catalogue-v3/responsive/catch-crops-800.5699faa7a157.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 90740,
+          "sha256": "5699faa7a157a25fcde05fe9920a4f1e8679ad8f8ee4c517ab91de3c0113accb"
+        },
+        {
+          "src": "/catalogue-v3/responsive/catch-crops-1200.e806a2752446.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 183780,
+          "sha256": "e806a2752446bcce3307c6504bb4953b0310d509b087deeb7b66f328ddefc14b"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/oil-fibre.png",
+      "slug": "oil-fibre",
+      "rights_status": "VERIFIED",
+      "visual_review": "PASS",
+      "rights_evidence": "https://commons.wikimedia.org/wiki/File:Rapeseed_field,_Ehrenbach.jpg",
+      "file_title": "Rapeseed field, Ehrenbach.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rapeseed_field,_Ehrenbach.jpg",
+      "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Rapeseed_field%2C_Ehrenbach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Gerda Arendt",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "verified_date": "2026-10-16",
+      "alt": "Flowering rapeseed field in Ehrenbach; illustrative oilseed photograph",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "changes": "Cropped to 16:9, resized and converted to WebP",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/oil-fibre-400.d90addc052fa.webp",
+          "width": 400,
+          "height": 225,
+          "bytes": 16172,
+          "sha256": "d90addc052fa7daee212f9d6eafdc1e71628748efe0fb330b981aba1495c5521"
+        },
+        {
+          "src": "/catalogue-v3/responsive/oil-fibre-800.f143947ac205.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 61790,
+          "sha256": "f143947ac205c2fccd955969ae342960106572edf858ea85aba84ef5fdcea8bd"
+        },
+        {
+          "src": "/catalogue-v3/responsive/oil-fibre-1200.5a573b509748.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 116732,
+          "sha256": "5a573b509748d35759f0d677c51485522d4b3a6f06dd28db4864823a8095438f"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/maize-sorghum.png",
+      "slug": "maize-sorghum",
+      "rights_status": "VERIFIED",
+      "visual_review": "PASS",
+      "rights_evidence": "https://commons.wikimedia.org/wiki/File:Maize_field_at_Simselwitz.jpg",
+      "file_title": "Maize field at Simselwitz.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maize_field_at_Simselwitz.jpg",
+      "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Maize_field_at_Simselwitz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Der-Hobbybahner-Sachsen",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution_required": false,
+      "verified_date": "2026-10-16",
+      "alt": "Rows of young maize at Simselwitz; illustrative maize photograph",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "changes": "Cropped to 16:9, resized and converted to WebP",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/maize-sorghum-400.59404ea82544.webp",
+          "width": 400,
+          "height": 225,
+          "bytes": 30732,
+          "sha256": "59404ea82544d51d502e3260ef06c555065caa90bc2e52a011d30974fa8be4f5"
+        },
+        {
+          "src": "/catalogue-v3/responsive/maize-sorghum-800.553df0d84346.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 134374,
+          "sha256": "553df0d84346771e9e92370723672a566a158166f653904a066edf85fdd12441"
+        },
+        {
+          "src": "/catalogue-v3/responsive/maize-sorghum-1200.cc4afd4947b7.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 273618,
+          "sha256": "cc4afd4947b7dc0bc1ce157057a2edb7770f3ad8872caff5796aba51ba2dc303"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/vegetables.png",
+      "slug": "vegetables",
+      "rights_status": "VERIFIED",
+      "visual_review": "PASS",
+      "rights_evidence": "https://commons.wikimedia.org/wiki/File:Schuelp_weisskohlfeld.jpg",
+      "file_title": "Schuelp weisskohlfeld.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Schuelp_weisskohlfeld.jpg",
+      "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Schuelp_weisskohlfeld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Southgeist",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution_required": true,
+      "verified_date": "2026-10-16",
+      "alt": "Rows of young white cabbage in Schülp; illustrative vegetable photograph",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "changes": "Cropped to 16:9, resized and converted to WebP",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/vegetables-400.b5f7fc9a1b4b.webp",
+          "width": 400,
+          "height": 225,
+          "bytes": 27482,
+          "sha256": "b5f7fc9a1b4b125f07f71d824fa84c6a2e0be1b295c50c05edbdb12f7cc1910f"
+        },
+        {
+          "src": "/catalogue-v3/responsive/vegetables-800.b81de94dc7f4.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 101834,
+          "sha256": "b81de94dc7f44a28cb86c8b07ce17abd357973e3decde75b610fc596a7a8643a"
+        },
+        {
+          "src": "/catalogue-v3/responsive/vegetables-1200.ed41b4a41082.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 174828,
+          "sha256": "ed41b4a4108245587d120883f9eb38992b22f8fad7db5be8c172cc2bd996585b"
+        }
+      ]
+    }
+  ]
+}

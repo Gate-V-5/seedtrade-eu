@@ -1,0 +1,23 @@
+{
+  "pillow": "12.3.0",
+  "webp_encoder": "1.6.0",
+  "source_originals_unchanged": true,
+  "widths": [
+    400,
+    800,
+    1200
+  ],
+  "aspect_ratio": "16:9",
+  "resize_filter": "LANCZOS",
+  "crop": "centered, after EXIF orientation",
+  "webp_quality": {
+    "400": 80,
+    "800": 80,
+    "1200": 76
+  },
+  "method": 6,
+  "color_grading": "NONE",
+  "ai_generation": "NONE",
+  "alpha": "opaque photographs",
+  "new_color_profile_claim": "No unverified color-profile identity claim; input converted RGB; no creative grading"
+}

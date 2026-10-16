@@ -1,3 +1,4 @@
+import {CataloguePhoto,CataloguePhotoCredits} from './CataloguePhotography.jsx'
 import { useState } from 'react'
 import { useT, useLanguage, translate } from './i18n/index.jsx'
 import data from './generated/market_catalogue_public.json'
@@ -33,7 +34,7 @@ function Metric({label,value,unit='',money=false,trend=false,compact=false}) {
 function CategoryTile({category}) {
   const t=useT()
   return <a className="catalogue-category-tile" href={`/market/${category.slug}`}>
-    <img src={category.image} alt={t(category.title)} width="2048" height="1143" loading="lazy" decoding="async"/>
+    <CataloguePhoto category={category} lazy/>
     <div><p className="eyebrow">{t('{count} seed types',{count:category.entity_count})}</p><h2>{t(category.title)}</h2><p>{t(category.description)}</p><span className="catalogue-category-cta">{t('Browse seed types →')}</span></div>
   </a>
 }
@@ -44,12 +45,12 @@ function EuMarketSummary() {
 }
 function CatalogueHome() {
   const t=useT(),order=['CEREALS_PULSES','FODDER_AMENITY','CATCH_CROP','OIL_FIBRE','MAIZE_SORGHUM','VEGETABLES']
-  return <main className="market-catalogue"><header className="catalogue-page-head"><p className="eyebrow">{t('European seed market')}</p><h1>{t('European Seed Market')}</h1><p>{t('Choose a category to explore commercial seed types and market intelligence.')}</p></header><EuMarketSummary/><section className="catalogue-category-grid" aria-label={t('Seed market categories')}>{order.map(id=><CategoryTile key={id} category={categoryById(id)}/>)}</section></main>
+  return <main className="market-catalogue"><header className="catalogue-page-head"><p className="eyebrow">{t('European seed market')}</p><h1>{t('European Seed Market')}</h1><p>{t('Choose a category to explore commercial seed types and market intelligence.')}</p></header><EuMarketSummary/><section className="catalogue-category-grid" aria-label={t('Seed market categories')}>{order.map(id=><CategoryTile key={id} category={categoryById(id)}/>)}</section><CataloguePhotoCredits/></main>
 }
 function CategoryPage({category}) {
   const t=useT(),{language}=useLanguage(),[query,setQuery]=useState('')
   const cards=data.cards.filter(x=>category.entity_ids.includes(x.market_entity_id)),filtered=filterCatalogueCards(cards,query,language)
-  return <main className="market-catalogue"><a className="catalogue-back" href="/market">{t('← All categories')}</a><header className="catalogue-page-head catalogue-category-head"><div><p className="eyebrow">{t('European seed market')}</p><h1>{t(category.title)}</h1><p>{t(category.description)}</p></div><img src={category.image} alt={t(category.title)} width="2048" height="1143" decoding="async"/></header><div className="catalogue-summary"><div><span>{t('Seed types')}</span><strong>{category.entity_count}</strong></div>{category.countries_observed_count!=null&&<div><span>{t('Countries observed')}</span><strong>{category.countries_observed_count}</strong></div>}</div><div className="catalogue-browse"><label htmlFor="catalogue-search">{t('Find a seed type')}<input id="catalogue-search" type="search" placeholder={t('Common or botanical name')} value={query} onChange={event=>setQuery(event.target.value)}/></label><p role="status">{t('{count} seed types',{count:filtered.length})}</p></div>{filtered.length ? <section className="catalogue-seed-grid" aria-label={t('Seed market cards')}>{filtered.map(c=><SeedCard key={c.market_entity_id} card={c}/>)}</section> : <p className="catalogue-empty">{t('No seed types match your search.')}</p>}</main>
+  return <main className="market-catalogue"><a className="catalogue-back" href="/market">{t('← All categories')}</a><header className="catalogue-page-head catalogue-category-head"><div><p className="eyebrow">{t('European seed market')}</p><h1>{t(category.title)}</h1><p>{t(category.description)}</p></div><CataloguePhoto category={category}/></header><CataloguePhotoCredits category={category}/><div className="catalogue-summary"><div><span>{t('Seed types')}</span><strong>{category.entity_count}</strong></div>{category.countries_observed_count!=null&&<div><span>{t('Countries observed')}</span><strong>{category.countries_observed_count}</strong></div>}</div><div className="catalogue-browse"><label htmlFor="catalogue-search">{t('Find a seed type')}<input id="catalogue-search" type="search" placeholder={t('Common or botanical name')} value={query} onChange={event=>setQuery(event.target.value)}/></label><p role="status">{t('{count} seed types',{count:filtered.length})}</p></div>{filtered.length ? <section className="catalogue-seed-grid" aria-label={t('Seed market cards')}>{filtered.map(c=><SeedCard key={c.market_entity_id} card={c}/>)}</section> : <p className="catalogue-empty">{t('No seed types match your search.')}</p>}</main>
 }
 function MarketEvidence({card,briefing=false}) {
  const t=useT(),{language}=useLanguage(),price=latestTradeUnitValue(card.price_observations),prices=eligibleTradeUnitValues(card.price_observations),external=card.external_trade
