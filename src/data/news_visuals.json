@@ -114,5 +114,31 @@
     "object_position": "50% 50%",
     "documentary_evidence": false,
     "topic": "Valencia Conference Centre exterior; venue photograph, not congress attendance"
+  },
+  "europe-september-2026-climate-retrospective": {
+    "src": "/news-visuals/europe-september-2026-climate-retrospective.svg",
+    "width": 1000,
+    "height": 560,
+    "alt": "Original schematic of rain, sunshine and layered soil; not a measured weather map",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "documentary_evidence": false,
+    "article_mapping": "europe-september-2026-climate-retrospective",
+    "topic": "September climate retrospective"
+  },
+  "autumn-2026-agronomy-evidence-review": {
+    "src": "/news-visuals/autumn-2026-agronomy-evidence-review.svg",
+    "width": 1000,
+    "height": 560,
+    "alt": "Original schematic of cereal ears, a seedling and legume seeds; not a field photograph",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_ILLUSTRATION",
+    "creator": "SeedTrade",
+    "reuse_basis": "Original project-created SVG; no third-party imagery",
+    "documentary_evidence": false,
+    "article_mapping": "autumn-2026-agronomy-evidence-review",
+    "topic": "Autumn crop establishment and variety evidence"
   }
 }

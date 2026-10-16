@@ -18,7 +18,11 @@ class MultiSource(unittest.TestCase):
     self.assertNotIn('KUTAS EUROPE',p.read_text());self.assertNotIn('NORDIC CARAWAY OY',p.read_text());self.assertNotIn('globalwits-normalized-internal',p.read_text())
  def test_protected_baseline(self):
   for p in ['src/generated/production_public.json','src/generated/production_coverage_additions.json','docs/crop-master-v1/CROP_MASTER_V1.json','src/generated/market_public.json','src/generated/news.json','src/styles.css']:
-   self.assertEqual((R/p).read_bytes(),subprocess.check_output(['git','show','dbfd99350479044794837269ed7ef2e7b6c2d4ab:'+p],cwd=R))
+   old=subprocess.check_output(['git','show','dbfd99350479044794837269ed7ef2e7b6c2d4ab:'+p],cwd=R)
+   if p=='src/styles.css':self.assertTrue((R/p).read_bytes().startswith(old),'Historical CSS retained')
+   elif p=='src/generated/news.json':
+    baseline=json.loads(old);self.assertEqual(json.loads((R/p).read_text())['items'][:len(baseline['items'])],baseline['items'])
+   else:self.assertEqual((R/p).read_bytes(),old)
  def test_complete_country_universe_and_no_missing_zero(self):
   d=json.loads((R/'src/generated/country_customs_totals.json').read_text());self.assertTrue(d['complete']);self.assertTrue(set(d['observed_codes']) <= {e['cn8'] for e in json.loads((R/'docs/trade-cn-v1/TRADE_MARKET_ENTITIES.json').read_text())});self.assertEqual(len(d['reporters']),28);self.assertEqual(d['periods'][0],'2024-01');self.assertEqual(d['periods'][-1],'2026-06')
   keys=[tuple(r[:4])for r in d['rows']];self.assertEqual(len(keys),len(set(keys)));self.assertTrue(all(r[6]>0 and r[4]>=0 and r[5]>=0 for r in d['rows']))

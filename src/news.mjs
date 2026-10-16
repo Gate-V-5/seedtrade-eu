@@ -117,10 +117,19 @@ export function eventStatus(item, asOf) {
   return event.end_date < asOf ? 'COMPLETED' : event.status
 }
 export function selectStreamHighlights(items, asOf, registry) {
+  if (!validDate(asOf)) return []
   const eligible = publicNewsItems(items, registry).filter(item => item.stream && item.publication_date <= asOf && item.valid_until >= asOf &&
     (item.stream !== 'EU Events' || !['CANCELLED', 'COMPLETED'].includes(eventStatus(item, asOf))))
-  return NEWS_STREAMS.map(stream => ({stream, item: eligible.filter(item => item.stream === stream)
-    .sort((a, b) => b.publication_date.localeCompare(a.publication_date) || b.updated_at.localeCompare(a.updated_at) || a.id.localeCompare(b.id))[0] || null}))
+  const seen = new Set(), highlights = []
+  for (const stream of NEWS_STREAMS) {
+    const item = eligible.filter(item => item.stream === stream)
+      .sort((a, b) => b.publication_date.localeCompare(a.publication_date) || b.updated_at.localeCompare(a.updated_at) || a.id.localeCompare(b.id))
+      .find(item => ![item.id, item.slug, item.canonical_url].some(key => seen.has(key)))
+    if (!item) continue
+    for (const key of [item.id, item.slug, item.canonical_url]) seen.add(key)
+    highlights.push({stream, item})
+  }
+  return highlights
 }
 export function filterNewsArchive(items, filters, asOf, registry) {
   const start = new Date(`${asOf}T00:00:00Z`); start.setUTCDate(start.getUTCDate() - 19)

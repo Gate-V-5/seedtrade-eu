@@ -88,7 +88,7 @@ try {
   }
   const files = routeFiles('dist')
   const catalogueRoutes = JSON.parse(readFileSync('src/generated/market_catalogue_routes.json', 'utf8'))
-  assert.equal(files.length, 45 + catalogueRoutes.length - 1)
+  assert.equal(files.length, 37 + JSON.parse(readFileSync('src/generated/news.json','utf8')).items.length + catalogueRoutes.length - 1)
   for (const language of languages) for (const file of files) {
     globalThis.window = { location: { pathname: '/' + path.relative('dist', path.dirname(file)), hash: '' } }
     const html = renderToStaticMarkup(React.createElement(AppV2, { initialLanguage: language.code }))

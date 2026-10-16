@@ -4,6 +4,8 @@ import React from 'react'
 import {renderToStaticMarkup} from 'react-dom/server'
 import {JSDOM} from 'jsdom'
 import {createServer} from 'vite'
+import {selectStreamHighlights} from '../src/news.mjs'
+import registry from '../src/data/news_sources.json' with {type:'json'}
 import {messages} from '../src/i18n/messages.js'
 import {localizedContentText} from '../src/i18n/content.mjs'
 const news=JSON.parse(fs.readFileSync('src/generated/news.json'))
@@ -20,10 +22,10 @@ try {
   for(const key of ['market','weather','production'])assert.equal(home.window.document.querySelector(`.fixed-evidence-image[src="${fixed[key].src}"]`).getAttribute('data-fixed-editorial'),'true')
   for(const key of Object.keys(fixed).filter(key=>!['market','weather','production'].includes(key)))assert.ok(home.window.document.querySelector(`.visual-insights img[src="${fixed[key].src}"]`))
   assert.deepEqual([...home.window.document.querySelectorAll('.visual-insights .geographic-label')].map(el=>el.textContent),['VALENCIA / SPAIN','BELGIUM','LITHUANIA'])
-  assert.deepEqual([...home.window.document.querySelectorAll('.top-news .geographic-label')].map(el=>el.getAttribute('data-geography')),['EU','LATVIA','NETHERLANDS','SPAIN'])
+  assert.deepEqual([...home.window.document.querySelectorAll('.top-news .geographic-label')].map(el=>el.getAttribute('data-geography')),['EU','EU','NETHERLANDS','SPAIN'])
   for(const img of home.window.document.querySelectorAll('.top-news img,.intelligence-commercial img,.visual-insights img')){assert.ok(img.getAttribute('src').startsWith('/') && !img.getAttribute('src').startsWith('//'));assert.ok(img.getAttribute('alt'));assert.ok(img.getAttribute('width') && img.getAttribute('height'))}
 
-  assert.equal(archive.window.document.querySelectorAll('.news-editorial-image').length,8)
+  assert.equal(archive.window.document.querySelectorAll('.news-editorial-image').length,news.items.length)
   for(const item of news.items){
    const visual=visuals[item.slug];assert.equal(visual.classification,'PUBLIC_SAFE');assert.equal(visual.documentary_evidence,false)
    assert.ok(fs.existsSync(`public${visual.src}`))
@@ -43,12 +45,12 @@ try {
    for(const source of item.sources||[{url:item.source_url}])assert.ok(doc.querySelector(`.news-references a[href="${source.url}"]`))
    for(const [index,section] of (item.content||[]).entries()){const expected=[...new Set(section.claim_ids.map(id=>item.claims.find(c=>c.id===id).evidence_class))];assert.equal(doc.querySelectorAll('.news-section').length,item.content.length);for(const value of expected)assert.ok(doc.querySelectorAll('.news-section')[index].querySelector('.evidence-labels').textContent.includes(messages[code]?.[value] || value))}
    const card=archive.window.document.querySelector(`a[href="/news/${item.slug}"] img`);assert.equal(card.getAttribute('src'),img.getAttribute('src'))
-   if(item.stream)assert.equal(home.window.document.querySelector(`a[href="/news/${item.slug}"] img`).getAttribute('src'),visual.src)
+   if(selectStreamHighlights(news.items,news.as_of,registry).some(slot=>slot.item.slug===item.slug))assert.equal(home.window.document.querySelector(`a[href="/news/${item.slug}"] img`).getAttribute('src'),visual.src)
    page.window.close()
   }
   home.window.close();archive.window.close()
  }
  assert.ok(css.includes('@media(max-width:620px)'));assert.ok(css.includes('object-fit:contain'))
- assert.equal(new Set(Object.values(visuals).map(v=>v.src)).size,8)
- console.log('News visuals PASS: 8 archive/detail and 4 homepage canonical editorial visuals, all five languages, ordered hero, sources, PUBLIC_SAFE and licensed photographs and archived SVGs')
+ assert.equal(new Set(Object.values(visuals).map(v=>v.src)).size,news.items.length)
+ console.log('News visuals PASS: 10 archive/detail and 4 homepage canonical editorial visuals, all five languages, ordered hero, sources, PUBLIC_SAFE and licensed photographs and archived SVGs')
 }finally{await vite.close()}

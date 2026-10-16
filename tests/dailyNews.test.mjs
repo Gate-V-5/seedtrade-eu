@@ -7,12 +7,12 @@ import {NEWS_STREAMS,validateNewsRecord,validateSourceRegistry,publicNewsItems,s
 import {validateDailyNews,fingerprint} from '../scripts/validate_daily_news.mjs'
 import {localizedContentText} from '../src/i18n/content.mjs'
 const read=file=>JSON.parse(fs.readFileSync(file,'utf8'))
-const news=read('src/generated/news.json'),registry=read('src/data/news_sources.json'),initial=news.items.filter(item=>item.stream)
+const news=read('src/generated/news.json'),registry=read('src/data/news_sources.json'),initial=news.items.filter(item=>item.stream).slice(0,4)
 const clone=item=>structuredClone(item),asOf='2026-10-01'
 
-test('reviewed collection and 19 active public source families validate',()=>{
+test('reviewed collection and 20 active public source families validate',()=>{
  assert.deepEqual(validateDailyNews(news,registry),[])
- assert.equal(registry.sources.filter(source=>source.active).length,19)
+ assert.equal(registry.sources.filter(source=>source.active).length,20)
  assert.deepEqual(validateSourceRegistry({...registry,sources:[...registry.sources,registry.sources[0]]}).length>0,true)
  const restricted=clone(registry);restricted.sources[0].access_type='SUBSCRIPTION';assert.ok(validateSourceRegistry(restricted).length)
  assert.ok(validateSourceRegistry({sources:[null]}).length)
@@ -25,19 +25,19 @@ test('homepage selects four distinct streams in fixed order, independent of reco
   assert.ok(slots.every(slot=>slot.item.stream===slot.stream))
  }
 })
-test('no new information retains original dates; expired assessment produces an empty slot',()=>{
+test('no new information retains original dates; expired assessment is omitted',()=>{
  const slots=selectStreamHighlights(news.items,'2026-10-02',registry)
  assert.ok(slots.every(slot=>slot.item.publication_date===asOf))
- assert.equal(selectStreamHighlights(news.items,'2026-10-10',registry)[0].item,null)
+ assert.ok(!selectStreamHighlights(news.items,'2026-10-10',registry).some(slot=>slot.stream==='EU Weather'))
 })
 test('unpublished, private, future and secret-bearing records cannot become highlights',()=>{
  for(const changes of [{classification:'PRIVATE_DATA'},{publication_status:'DRAFT'},{publication_eligible:false},{review_status:'PENDING'},{market_engine_input:true},{token:'test-fixture-only'}]){
   const record={...clone(initial[0]),...changes}
   assert.equal(publicNewsItems([record],registry).length,0)
-  assert.equal(selectStreamHighlights([record],asOf,registry)[0].item,null)
+  assert.deepEqual(selectStreamHighlights([record],asOf,registry),[])
  }
  const future={...clone(initial[0]),publication_date:'2026-10-02',updated_at:'2026-10-02',checked_at:'2026-10-02'}
- assert.equal(selectStreamHighlights([future],asOf,registry)[0].item,null)
+ assert.deepEqual(selectStreamHighlights([future],asOf,registry),[])
  assert.equal(filterNewsArchive([future],{period:'ALL'},asOf,registry).length,0)
 })
 test('malformed records fail closed without a rendering exception',()=>{
@@ -72,14 +72,14 @@ test('continuity references require an earlier public record in the same series'
  const copy=clone(news);copy.items[4].previous_item_id='missing';copy.items[4].fingerprint=fingerprint(copy.items[4])
  assert.ok(validateDailyNews(copy,registry).some(error=>error.includes('continuity')))
  const next=clone(initial[0]);next.id='next-weather';next.slug='next-weather';next.canonical_url='https://seedtrade.eu/news/next-weather';next.previous_item_id=initial[0].id;next.publication_date='2026-10-02';next.updated_at='2026-10-02';next.checked_at='2026-10-02';next.fingerprint=fingerprint(next)
- assert.deepEqual(validateDailyNews({...news,as_of:'2026-10-02',items:[...news.items,next]},registry),[])
+ assert.deepEqual(validateDailyNews({...news,items:[...news.items,next]},registry),[])
 })
 test('cancelled and completed events never occupy the upcoming homepage slot',()=>{
  const event=initial[3];assert.equal(eventStatus(event,'2026-10-28'),'CONFIRMED');assert.equal(eventStatus(event,'2026-10-29'),'COMPLETED')
- assert.equal(selectStreamHighlights(news.items,'2026-10-29',registry)[3].item,null)
+ assert.ok(!selectStreamHighlights(news.items,'2026-10-29',registry).some(slot=>slot.stream==='EU Events'))
  for(const status of ['CANCELLED','COMPLETED']){
   const changed={...clone(event),event:{...event.event,status}}
-  assert.equal(selectStreamHighlights([changed],asOf,registry)[3].item,null)
+  assert.deepEqual(selectStreamHighlights([changed],asOf,registry),[])
   assert.deepEqual(filterNewsArchive([changed],{period:'UPCOMING'},asOf,registry),[])
   assert.equal(filterNewsArchive([changed],{period:'ALL'},asOf,registry).length,1)
  }
@@ -121,13 +121,13 @@ test('missing one localized narrative field falls back to EN without changing ad
   assert.equal(localizedContentText(record,language,'content.1.body'),record.localizations[language].content[1].body)
  }
 })
-test('manifest checksums and canonical sitemap include exactly the eight public News URLs',()=>{
+test('manifest checksums and canonical sitemap include all public News URLs',()=>{
  const manifest=read('src/generated/public_data_manifest.json').datasets.daily_news
- assert.equal(manifest.public_records,8)
+ assert.equal(manifest.public_records,news.items.length)
  assert.equal(manifest.sha256,createHash('sha256').update(fs.readFileSync('src/generated/news.json')).digest('hex'))
  assert.equal(manifest.source_registry_sha256,createHash('sha256').update(fs.readFileSync('src/data/news_sources.json')).digest('hex'))
  const sitemap=fs.readFileSync('public/sitemap.xml','utf8')
- assert.equal((sitemap.match(/<loc>https:\/\/seedtrade.eu\/news\//g)||[]).length,8)
+ assert.equal((sitemap.match(/<loc>https:\/\/seedtrade.eu\/news\//g)||[]).length,news.items.length)
  for(const item of news.items)assert.ok(sitemap.includes(item.canonical_url))
 })
 

@@ -5,6 +5,8 @@ import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { JSDOM } from 'jsdom'
 import { createServer } from 'vite'
+import {selectStreamHighlights} from '../src/news.mjs'
+const registry=JSON.parse(readFileSync('src/data/news_sources.json','utf8'))
 import { localizedContentText as text } from '../src/i18n/content.mjs'
 
 const baseline='2424fd0e5bc498a0de4c5b18eba95955952d1cbf'
@@ -78,7 +80,7 @@ try {
         globalThis.window={location:{pathname:route}}
         const dom=new JSDOM(renderToStaticMarkup(React.createElement(App,{initialLanguage:code})))
         const displayed=plain(dom.window.document.querySelector('main').textContent)
-        for(const record of records.filter(item=>kind!=='news'||route!=='/'||item.stream))assert.ok(displayed.includes(plain(text(record,code,kind==='news'&&route==='/'?'headline':'summary'))),`${code} card discovery text`)
+        for(const record of records.filter(item=>kind!=='news'||route!=='/'||selectStreamHighlights(data.news.items,data.news.as_of,registry).some(slot=>slot.item.slug===item.slug)))assert.ok(displayed.includes(plain(text(record,code,kind==='news'&&route==='/'?'headline':'summary'))),`${code} card discovery text`)
         dom.window.close()
       }
     }

@@ -50,7 +50,7 @@ try {
   const { languages, translate } = await vite.ssrLoadModule('/src/i18n/index.jsx')
   const files = routeFiles('dist')
   const catalogueRoutes=JSON.parse(readFileSync('src/generated/market_catalogue_routes.json','utf8'))
-  assert.equal(files.length,45+catalogueRoutes.length-1)
+  assert.equal(files.length,37+JSON.parse(readFileSync('src/generated/news.json','utf8')).items.length+catalogueRoutes.length-1)
   async function load(file, savedLanguage) {
     if (root) await act(async () => root.unmount())
     dom.reconfigure({ url: 'https://seedtrade.test/' + path.relative('dist', path.dirname(file)) + '/' })

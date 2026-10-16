@@ -63,8 +63,11 @@ prove a claim. Deactivating monitoring does not erase valid historical evidence.
 ## Selection, archive and date handling
 
 The homepage selects the latest eligible, still-valid record independently for
-each stream. Missing evidence or an expired assessment leaves a localized
-"No new verified assessment" slot. No slice(0,4) selection or publication quota.
+each stream. Missing evidence or an expired assessment omits the card. Category links remain
+available even when a stream has no eligible highlight. An older article is used
+only while it still passes the unchanged review/provenance and valid_until gates.
+Duplicate article identities cannot appear in the same selection. Remaining cards
+rebalance across desktop/tablet tracks; mobile keeps one column. No slice(0,4) selection or publication quota.
 
 The permanent archive defaults to All history. Recent covers the inclusive last
 20 calendar dates; filters combine stream, country, crop, date range and period.
@@ -115,3 +118,20 @@ with evidence-driven interim updates, regional agronomic rotation, meaningful
 trade releases and event changes. Retain original dates when nothing changes.
 Autonomous publishing, SEO V2, Vegetable & Potato Insights and the unidentified
 GENT source remain deferred.
+
+## Homepage restoration review: 2026-10-16
+
+Two new original syntheses restore Weather and Agronomist; the eight prior
+records remain unchanged. Publication dates of new editorial work are distinct
+from source dates and observation periods. The September climate review is
+retrospective, not an October forecast. Both new records require homepage review
+by 2026-10-30; expiry hides cards, never bypasses verification.
+
+New visuals may be licensed photographs or attributed original static SVG
+illustrations. Original illustrations must contain no third-party imagery,
+scripts, external resources or documentary-evidence claims. Existing photo
+licence requirements and immutable owner-approved images are unchanged.
+
+Run node --test tests/homepageNewsRestoration.test.mjs and
+node scripts/check_homepage_restoration.mjs (also included through npm test).
+DOM/CSS checks do not establish actual browser pixel rendering.
