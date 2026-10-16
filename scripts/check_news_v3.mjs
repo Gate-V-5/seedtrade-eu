@@ -11,7 +11,18 @@ const baseline='87d60c30ba7187b4c3222906531dc0dc50a57fdc'
 const css=fs.readFileSync('src/styles.css','utf8'),oldCss=execFileSync('git',['show',`${baseline}:src/styles.css`],{encoding:'utf8'})
 const styleRules=css=>{const d=new JSDOM('<style></style>');d.window.document.querySelector('style').textContent=css;return[d,d.window.document.styleSheets[0].cssRules]}
 const nonNews=(rules,context='')=>[...rules].flatMap(r=>r.media?nonNews(r.cssRules,context+r.conditionText):r.cssRules?nonNews(r.cssRules,context+r.name):r.selectorText?r.selectorText.split(/,(?![^()]*\))/).filter(s=>!/\.(?:news[\w-]*|top-news)\b/.test(s)).map(s=>context+s.trim()+r.style.cssText):[context+r.cssText])
-const [bd,br]=styleRules(oldCss),[ad,ar]=styleRules(css)
+// Package 1E.2 permits only these exact non-news accessibility declarations.
+const accessibilityCss=`
+.skip-link{position:fixed;top:8px;left:16px;transform:translateY(-160%);z-index:1000;padding:12px 18px;background:#fff;color:#0B1F33;border:3px solid #146B49;border-radius:6px}
+.skip-link:focus{transform:none;outline:3px solid #0B1F33;outline-offset:2px}
+:where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid #146B49;outline-offset:3px;box-shadow:0 0 0 2px #fff}
+.carousel-controls button.carousel-pause{width:auto;min-width:44px;min-height:44px;padding:8px 12px;border-radius:8px;font-size:14px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+.about-hero .eyebrow{color:#76DBB1}
+#main-content :where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid #146B49;outline-offset:3px;box-shadow:0 0 0 2px #fff}
+`
+const expectedCss=oldCss.replace(/\.eyebrow,\r?\n\.kicker\{[^}]*\}/,block=>block.replace('color:var(--green)','color:#146B49').replace('font-size:10px','font-size:12px').replace('letter-spacing:.17em','letter-spacing:.12em'))+accessibilityCss
+const [bd,br]=styleRules(expectedCss),[ad,ar]=styleRules(css)
 assert.deepEqual(nonNews(ar),nonNews(br),'All unrelated CSS declarations and media conditions preserved');bd.window.close();ad.window.close()
 const active=(rules,width)=>[...rules].flatMap(r=>r.media?([...r.conditionText.matchAll(/min-width\s*:\s*(\d+)px/g)].every(m=>width>=+m[1])&&[...r.conditionText.matchAll(/max-width\s*:\s*(\d+)px/g)].every(m=>width<=+m[1])?active(r.cssRules,width):[]):r.cssRules?active(r.cssRules,width):r.cssText).join('\n')
 const news=JSON.parse(fs.readFileSync('src/generated/news.json')),visuals=JSON.parse(fs.readFileSync('src/data/news_visuals.json'))

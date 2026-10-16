@@ -223,10 +223,10 @@ nav a:hover:after{
 .eyebrow,
 .kicker{
   margin-bottom:12px;
-  color:var(--green);
-  font-size:10px;
+  color:#146B49;
+  font-size:12px;
   font-weight:900;
-  letter-spacing:.17em;
+  letter-spacing:.12em;
   text-transform:uppercase;
 }
 
@@ -1603,9 +1603,9 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .news-card-body{display:flex;flex:1;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;min-width:0;padding:16px}
 .news-card-body>div{display:flex;flex-wrap:wrap;align-items:center;gap:5px 9px;justify-content:space-between}
 .news-card h3{margin:12px 0 16px;font-size:18px;line-height:1.35;overflow:visible;white-space:normal;word-break:normal;overflow-wrap:normal}
-.news-card .category,.news-card time{font-size:10px}
+.news-card .category,.news-card time{font-size:12px}
 .news-card .category{white-space:normal}
-.news-card-body>a{margin-top:auto;padding-top:8px;font-size:12px;font-weight:750;color:var(--green)}
+.news-card-body>a{margin-top:auto;padding-top:8px;font-size:14px;font-weight:750;color:#146B49}
 .news-card a:focus-visible,.news-photo-attribution a:focus-visible,.news-photo-attribution summary:focus-visible,.news-references a:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 .news-stream-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 14px;font-size:12px;font-weight:750}
 .news-filters{display:flex;flex-wrap:wrap;align-items:end;gap:10px;margin-bottom:20px}
@@ -1640,3 +1640,13 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .news-references .reference-organization{font-weight:600}
 @media(max-width:1120px){.news-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}}
 @media(max-width:620px){.news-list,.news-grid{grid-template-columns:minmax(0,1fr);gap:16px}.news-card-body{padding:14px}.news-card h3{font-size:18px}.news-article h1{font-size:30px}.news-hero{margin:16px 0}.news-article .lead{font-size:16px}.news-filters>*{min-width:0;max-width:100%}}
+
+/* Package 1: site-wide keyboard access and explicit motion controls. */
+.skip-link{position:fixed;top:8px;left:16px;transform:translateY(-160%);z-index:1000;padding:12px 18px;background:#fff;color:#0B1F33;border:3px solid #146B49;border-radius:6px}
+.skip-link:focus{transform:none;outline:3px solid #0B1F33;outline-offset:2px}
+:where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid #146B49;outline-offset:3px;box-shadow:0 0 0 2px #fff}
+.carousel-controls button.carousel-pause{width:auto;min-width:44px;min-height:44px;padding:8px 12px;border-radius:8px;font-size:14px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+.about-hero .eyebrow{color:#76DBB1}
+/* Keep scoped component rules from overriding the accessible focus treatment. */
+#main-content :where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid #146B49;outline-offset:3px;box-shadow:0 0 0 2px #fff}

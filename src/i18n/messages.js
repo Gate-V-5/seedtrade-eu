@@ -1,6 +1,9 @@
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["Skip to main content", "Zum Hauptinhalt springen", "Aller au contenu principal", "Saltar al contenido principal", "Vai al contenuto principale"],
+  ["Pause rotation", "Rotation pausieren", "Mettre la rotation en pause", "Pausar rotación", "Sospendi rotazione"],
+  ["Resume rotation", "Rotation fortsetzen", "Reprendre la rotation", "Reanudar rotación", "Riprendi rotazione"],
   ["Catalogue photo credits", "Bildnachweise zum Katalog", "Crédits photographiques du catalogue", "Créditos fotográficos del catálogo", "Crediti fotografici del catalogo"],
   ["Illustrative crop photographs, not evidence of current conditions or every species in a category.", "Die Pflanzenfotos dienen der Illustration, nicht als Nachweis aktueller Bedingungen oder sämtlicher Arten einer Kategorie.", "Photographies de cultures à titre illustratif, sans représenter les conditions actuelles ni toutes les espèces d’une catégorie.", "Fotografías ilustrativas de cultivos; no documentan las condiciones actuales ni todas las especies de una categoría.", "Fotografie illustrative delle colture, non prove delle condizioni attuali o di tutte le specie di una categoria."],
   ["Cropped to 16:9, resized and converted to WebP.", "Auf 16:9 zugeschnitten, skaliert und in WebP konvertiert.", "Recadrée en 16:9, redimensionnée et convertie en WebP.", "Recortada a 16:9, redimensionada y convertida a WebP.", "Ritagliata in 16:9, ridimensionata e convertita in WebP."],
