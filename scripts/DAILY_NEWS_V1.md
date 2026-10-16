@@ -146,3 +146,12 @@ visible compliant credit and EN/DE/FR/ES/IT descriptions. Run the image validato
 as part of build; do not add new stories to the legacy exceptions. Desktop and
 mobile browser evidence is required for final sign-off; record a blocked check
 honestly. No verified photo means hold publication, not add a schematic fallback.
+
+## News Experience V3 presentation gate
+
+Follow docs/news-experience-v3/NEWS_PRESENTATION_POLICY.md. Shared16:9 cards carry
+only discovery fields; compliant credits and reviewed human-readable references
+are on articles. New reference URLs require a reviewed news_presentation entry.
+Build includes validate_news_presentation.mjs after prerender and fails closed
+on internal editorial UI codes. Never alter immutable article content merely to
+pass this check; resolve any contradictory editorial requirements first.

@@ -7,6 +7,7 @@ import { JSDOM } from 'jsdom'
 import { createServer } from 'vite'
 import {selectStreamHighlights} from '../src/news.mjs'
 const registry=JSON.parse(readFileSync('src/data/news_sources.json','utf8'))
+import { publicNewsText } from '../src/newsPresentation.mjs'
 import { localizedContentText as text } from '../src/i18n/content.mjs'
 
 const baseline='2424fd0e5bc498a0de4c5b18eba95955952d1cbf'
@@ -66,12 +67,12 @@ try {
         globalThis.window={location:{pathname:`/${kind}/${record.slug}`}}
         const dom=new JSDOM(renderToStaticMarkup(React.createElement(App,{initialLanguage:code})))
         const main=dom.window.document.querySelector('main'), displayed=plain(main.textContent)
-        for(const field of fields(record))assert.ok(displayed.includes(plain(text(record,code,field))),`${code} ${kind} ${field}`)
+        for(const field of fields(record))assert.ok(displayed.includes(plain(kind==='news'?publicNewsText(record,code,field):text(record,code,field))),`${code} ${kind} ${field}`)
         const latin=[...main.querySelectorAll('i.botanical')].map(el=>el.textContent)
         if(code==='EN')taxa.set(record.slug,new Set(latin))
         else for(const name of taxa.get(record.slug))assert.ok(latin.includes(name),`${code}: preserve botanical ${name}`)
         for(const source of record.sources||[{url:record.source_url,label:record.source_name}]) {
-          const link=main.querySelector(`a[href="${source.url}"]`);assert.ok(link);assert.equal(link.textContent,source.label)
+          const link=main.querySelector(`a[href="${source.url}"]`);assert.ok(link);assert.ok(link.closest('li')?.textContent.includes(source.label) || link.textContent===source.label)
         }
         assert.equal(dom.window.document.querySelector('.language-select').value,code)
         dom.window.close()
@@ -80,7 +81,7 @@ try {
         globalThis.window={location:{pathname:route}}
         const dom=new JSDOM(renderToStaticMarkup(React.createElement(App,{initialLanguage:code})))
         const displayed=plain(dom.window.document.querySelector('main').textContent)
-        for(const record of records.filter(item=>kind!=='news'||route!=='/'||selectStreamHighlights(data.news.items,data.news.as_of,registry).some(slot=>slot.item.slug===item.slug)))assert.ok(displayed.includes(plain(text(record,code,kind==='news'&&route==='/'?'headline':'summary'))),`${code} card discovery text`)
+        for(const record of records.filter(item=>kind!=='news'||route!=='/'||selectStreamHighlights(data.news.items,data.news.as_of,registry).some(slot=>slot.item.slug===item.slug)))assert.ok(displayed.includes(plain(text(record,code,kind==='news'?'headline':'summary'))),`${code} card discovery text`)
         dom.window.close()
       }
     }

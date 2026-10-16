@@ -14,7 +14,7 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
 
     def test_top_news_four_card_desktop_row(self):
         self.assertIn("<DailyNewsHighlights/>", APP)
-        self.assertIn(".news-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))", V2_CSS)
+        self.assertIn(".news-list{grid-template-columns:repeat(var(--news-count,4),minmax(0,1fr))", V2_CSS)
 
     def test_intelligence_commercial_overview(self):
         self.assertIn("EU Market Pulse", APP)
@@ -46,7 +46,7 @@ class HomepageVisualRefinementV2Tests(unittest.TestCase):
         self.assertIn("Activity labels are evidence-gated", APP)
 
     def test_mobile_does_not_force_four_columns(self):
-        self.assertIn(".signal-crops,.news-list,.homepage-crops,.request-grid{grid-template-columns:1fr}", V2_CSS)
+        self.assertIn(".signal-crops,.homepage-crops,.request-grid{grid-template-columns:1fr}", V2_CSS)
 
 
 if __name__ == "__main__":

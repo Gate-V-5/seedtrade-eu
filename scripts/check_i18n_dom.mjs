@@ -1,3 +1,4 @@
+import {publicNewsText} from '../src/newsPresentation.mjs'
 // DOM integration: hydrate the production prerender, then exercise React events.
 // JSDOM does not replace a visual browser check. No email/network is permitted.
 import assert from 'node:assert/strict'
@@ -136,7 +137,7 @@ try {
         const record=(isNews?news.items:insights.articles).find(item=>item.slug===slug)
         assert.deepEqual(narrative.map(plain),[localizedContentText(record,code,isNews?'headline':'title'),localizedContentText(record,code,'summary')].map(plain))
         const fields=isNews?['why_it_matters',...(record.content||[]).flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]:[...(record.partner_disclosure?['partner_disclosure']:[]),...record.content.flatMap((_,i)=>[`content.${i}.heading`,`content.${i}.body`])]
-        for(const field of fields)assert.ok(plain(document.querySelector('main').textContent).includes(plain(localizedContentText(record,code,field))))
+        for(const field of fields)assert.ok(plain(document.querySelector('main').textContent).includes(plain(isNews?publicNewsText(record,code,field):localizedContentText(record,code,field))))
       }
       if(file.endsWith('/weather-evidence/index.html')) {
         assert.ok(document.querySelector('main').textContent.includes(localizedContentText(weather,code,'methodology_note')))

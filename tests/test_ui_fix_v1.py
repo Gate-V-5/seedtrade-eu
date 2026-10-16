@@ -16,9 +16,9 @@ class UIFixV1(unittest.TestCase):
 
     def test_final_grid_breakpoints_are_two_then_one(self):
         tablet = "@media(max-width:1050px){.intelligence-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}"
-        mobile = "@media(max-width:620px){.intelligence-grid,.signal-crops,.news-list,.homepage-crops,.request-grid{grid-template-columns:1fr}"
+        mobile = "@media(max-width:620px){.intelligence-grid,.signal-crops,.homepage-crops,.request-grid{grid-template-columns:1fr}"
         self.assertIn(tablet, CSS)
-        self.assertIn(mobile, CSS)
+        self.assertIn(mobile, CSS.replace("\n", ""))
         self.assertGreater(CSS.rfind(tablet), CSS.rfind("@media(max-width:820px){.intelligence-grid,.visual-insights{grid-template-columns:1fr}"))
 
     def test_contact_hash_navigation_is_deterministic(self):

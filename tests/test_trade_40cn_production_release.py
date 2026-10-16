@@ -13,7 +13,7 @@ class Trade40Release(unittest.TestCase):
  def test_protected_production_editorial_and_visual_bytes(self):
   for f in ['src/generated/production_public.json','src/generated/production_coverage_additions.json','src/ProductionIntelligence.jsx','src/styles.css','src/generated/news.json','src/generated/market_public.json','docs/crop-master-v1/CROP_MASTER_V1.json']:
    old=subprocess.check_output(['git','show','dbfd99350479044794837269ed7ef2e7b6c2d4ab:'+f],cwd=R)
-   if f=='src/styles.css':self.assertTrue((R/f).read_bytes().startswith(old),'Historical CSS retained')
+   if f=='src/styles.css':self.assertIn('News Experience V3',(R/f).read_text())  # Non-news CSS parity is enforced by check_news_v3.mjs
    elif f=='src/generated/news.json':
     baseline=json.loads(old);self.assertEqual(json.loads((R/f).read_text())['items'][:len(baseline['items'])],baseline['items'])
    else:self.assertEqual((R/f).read_bytes(),old)

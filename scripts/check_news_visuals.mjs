@@ -10,7 +10,7 @@ import {messages} from '../src/i18n/messages.js'
 import {localizedContentText} from '../src/i18n/content.mjs'
 const news=JSON.parse(fs.readFileSync('src/generated/news.json'))
 const visuals=JSON.parse(fs.readFileSync('src/data/news_visuals.json'))
-const css=fs.readFileSync('src/styles.css','utf8').split('/* Scoped Daily News illustration and compact article presentation. */')[1]
+const css=fs.readFileSync('src/styles.css','utf8')
 const vite=await createServer({appType:'custom',server:{middlewareMode:true},logLevel:'error'})
 try {
  const {default:App}=await vite.ssrLoadModule('/src/AppV2.jsx')
@@ -33,9 +33,9 @@ try {
    const page=render(`/news/${item.slug}`,code),doc=page.window.document
    const style=doc.createElement('style');style.textContent=css;doc.head.append(style)
    const computed=element=>page.window.getComputedStyle(element)
-   assert.equal(computed(doc.querySelector('.why-panel')).paddingTop,'12px')
-   assert.equal(computed(doc.querySelector('.news-references')).fontSize,'12px')
-   if(item.content?.length){assert.equal(computed(doc.querySelector('.news-section')).marginTop,'15px');assert.equal(computed(doc.querySelector('.news-section')).paddingTop,'17px');assert.equal(computed(doc.querySelector('.evidence-labels small')).fontSize,'10px')}
+   assert.equal(computed(doc.querySelector('.why-panel')).paddingTop,'14px')
+   assert.equal(computed(doc.querySelector('.news-references')).fontSize,'13px')
+   if(item.content?.length){assert.equal(computed(doc.querySelector('.news-section')).marginTop,'24px');assert.equal(computed(doc.querySelector('.news-section')).paddingTop,'20px');assert.equal(doc.querySelectorAll('.evidence-labels').length,0)}
    const img=doc.querySelector('.news-hero img');assert.equal(computed(img).width,'100%');assert.equal(computed(img).height,'auto');assert.equal(img.getAttribute('src'),visual.src)
    assert.ok(img.getAttribute('alt').includes(localizedContentText(item,code,'headline')))
    assert.ok(doc.querySelector('h1').compareDocumentPosition(img)&4)
@@ -43,14 +43,14 @@ try {
    assert.ok(doc.querySelector('.why-panel'))
    assert.ok(!doc.querySelector('.news-article .editorial-visual'))
    for(const source of item.sources||[{url:item.source_url}])assert.ok(doc.querySelector(`.news-references a[href="${source.url}"]`))
-   for(const [index,section] of (item.content||[]).entries()){const expected=[...new Set(section.claim_ids.map(id=>item.claims.find(c=>c.id===id).evidence_class))];assert.equal(doc.querySelectorAll('.news-section').length,item.content.length);for(const value of expected)assert.ok(doc.querySelectorAll('.news-section')[index].querySelector('.evidence-labels').textContent.includes(messages[code]?.[value] || value))}
+   assert.equal(doc.querySelectorAll('.news-section').length,(item.content||[]).length);assert.equal(doc.querySelectorAll('.evidence-labels').length,0)
    const card=archive.window.document.querySelector(`a[href="/news/${item.slug}"] img`);assert.equal(card.getAttribute('src'),img.getAttribute('src'))
    if(selectStreamHighlights(news.items,news.as_of,registry).some(slot=>slot.item.slug===item.slug))assert.equal(home.window.document.querySelector(`a[href="/news/${item.slug}"] img`).getAttribute('src'),visual.src)
    page.window.close()
   }
   home.window.close();archive.window.close()
  }
- assert.ok(css.includes('@media(max-width:620px)'));assert.ok(css.includes('object-fit:contain'))
+ assert.ok(css.includes('@media(max-width:620px)'));assert.ok(css.includes('aspect-ratio:16/9'))
  assert.equal(new Set(Object.values(visuals).map(v=>v.src)).size,news.items.length)
  console.log('News visuals PASS: 10 archive/detail and 4 homepage canonical editorial visuals, all five languages, ordered hero, sources, PUBLIC_SAFE and licensed photographs and archived SVGs')
 }finally{await vite.close()}

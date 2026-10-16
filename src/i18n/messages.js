@@ -1,6 +1,14 @@
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["News archive", "Nachrichtenarchiv", "Archives des actualités", "Archivo de noticias", "Archivio notizie"],
+  ["Sources & References", "Quellen & Referenzen", "Sources et références", "Fuentes y referencias", "Fonti e riferimenti"],
+  ["Photo", "Foto", "Photo", "Foto", "Foto"],
+  ["Photo credits", "Bildnachweise", "Crédits photo", "Créditos de la foto", "Crediti fotografici"],
+  ["Image adapted for display.", "Bild für die Darstellung angepasst.", "Image adaptée à l’affichage.", "Imagen adaptada para su visualización.", "Immagine adattata per la visualizzazione."],
+  ["Illustrative photograph; not evidence of the reported event.", "Symbolfoto; kein Nachweis des beschriebenen Ereignisses.", "Photographie illustrative ; elle ne documente pas l’événement rapporté.", "Fotografía ilustrativa; no documenta el acontecimiento descrito.", "Fotografia illustrativa; non documenta l’evento descritto."],
+  ["Photograph unavailable", "Foto nicht verfügbar", "Photographie indisponible", "Fotografía no disponible", "Fotografia non disponibile"],
+
   ["Monthly trade volume", "Monatliches Handelsvolumen", "Volume mensuel des échanges", "Volumen comercial mensual", "Volume mensile degli scambi"],
   ["EU internal seed trade · {count} sowing CN codes · {period}", "EU-interner Saatguthandel · {count} Aussaat-KN-Codes · {period}", "Commerce intra-UE de semences · {count} codes NC pour semences · {period}", "Comercio interno de semillas de la UE · {count} códigos NC para siembra · {period}", "Commercio interno UE di sementi · {count} codici NC per la semina · {period}"],
   ["{value} tonnes", "{value} Tonnen", "{value} tonnes", "{value} toneladas", "{value} tonnellate"],

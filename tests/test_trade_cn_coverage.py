@@ -22,7 +22,7 @@ class TradeCNCoverage(unittest.TestCase):
  def test_baseline_unchanged_and_no_leakage(self):
   for p in ['src/generated/market_public.json','src/generated/production_public.json','src/generated/production_coverage_additions.json','src/generated/crop_master_summary.json','docs/crop-master-v1/CROP_MASTER_V1.json','src/styles.css','src/ProductionIntelligence.jsx']:
    old=subprocess.check_output(['git','show','9e52d03c7a761fcbc0d802451c95a147d0583bca:'+p],cwd=R)
-   if p=='src/styles.css':self.assertTrue((R/p).read_bytes().startswith(old),'Historical CSS retained; scoped homepage rules appended')
+   if p=='src/styles.css':self.assertIn('News Experience V3',(R/p).read_text())  # Non-news CSS parity is enforced by check_news_v3.mjs
    else:self.assertEqual((R/p).read_bytes(),old,p)
   raw=(R/'public/data/trade-cn-coverage-v1.json').read_text()
   for forbidden in ['PRIVATE_DATA','/workspace/','C:\\Users\\','api_key','access_token']:self.assertNotIn(forbidden,raw)

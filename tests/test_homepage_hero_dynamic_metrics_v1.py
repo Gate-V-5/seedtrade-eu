@@ -34,7 +34,7 @@ class HomepageHeroDynamicMetricsV1(unittest.TestCase):
         self.assertIn(".hero-coverage{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))", CSS)
         self.assertIn(".hero-coverage{grid-template-columns:repeat(5,minmax(0,1fr))}", CSS)
         self.assertIn(".hero-coverage{grid-template-columns:repeat(2,minmax(0,1fr))}", CSS)
-        self.assertIn("main .top-news{margin-top:12px!important}", CSS)
+        self.assertIn(".top-news{margin-top:28px}", CSS)
         self.assertIn(".dashboard-hero .hero-copy{margin:0}", CSS)
         hero_css = CSS[CSS.index("/* Homepage Hero + Dynamic Metrics V1") : CSS.index("/* UI Completion V1")]
         self.assertNotRegex(hero_css, re.compile(r"overflow-x:auto"))

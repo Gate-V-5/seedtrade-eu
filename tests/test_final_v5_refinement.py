@@ -35,14 +35,14 @@ class FinalV5RefinementTests(unittest.TestCase):
 
     def test_homepage_mobile_news_has_four_compact_items(self):
         self.assertIn('<DailyNewsHighlights/>', APP)
-        self.assertIn('grid-template-columns:88px minmax(0,1fr)', CSS)
+        self.assertIn('aspect-ratio:16/9', CSS)
 
     def test_news_archive_is_compact_two_columns(self):
         self.assertIn('.news-grid{grid-template-columns:repeat(2,minmax(0,1fr))', CSS)
-        self.assertIn('.news-grid .news-card{display:grid;grid-template-columns:142px', CSS)
+        self.assertIn('.news-card{display:flex;flex-direction:column', CSS)
 
     def test_news_batch_rule_and_permanent_archive(self):
-        self.assertIn('Permanent PUBLIC_SAFE archive', APP)
+        self.assertIn('<T>News archive</T>', APP)
         self.assertIn('daily checking does not imply daily publication', APP)
 
     def test_insights_archive_three_columns(self):

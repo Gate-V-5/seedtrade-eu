@@ -31,8 +31,8 @@ source gates remain unchanged. Images do not substantiate article claims.
    crop further on mobile; verify the focal subject remains visible.
 5. Supply meaningful ALT, illustrative caption, modification notice and neutral
    missing-image text in all five languages. Preserve the photographer’s name,
-   source and licence links; title/author/licence and change notice are visible
-   on cards and article pages for V1 images. Distribute CC derivatives under
+   source and licence links; title/author are visible on article pages and
+   licence/change notices are in accessible Photo credits details (V3). Distribute CC derivatives under
    their original licence; do not impose additional reuse restrictions.
 6. Run node scripts/validate_editorial_assets.mjs, the image policy/DOM tests,
    npm run build and npm test. Build fails closed for missing provenance,
@@ -63,3 +63,11 @@ historical unused assets; the current mappings never select them as fallbacks.
 Six owner-approved fixed assets are separate in fixed_editorial_visuals.json;
 Daily News updates must not alter them. Approval is not a stock licence. Their
 original PNG hashes, contextual labels and existing uses remain protected.
+
+## Presentation supersession — News Experience V3
+
+[Canonical News Presentation Policy](../news-experience-v3/NEWS_PRESENTATION_POLICY.md)
+now governs placement: no credits in homepage/archive cards; title/photographer
+and compact accessible licence disclosure on articles. Full metadata remains in
+the registry. V1 commercial rights, image identity, local hashes, attribution,
+ShareAlike and real-photo requirements remain unchanged. V3 is the canonical presentation policy.
