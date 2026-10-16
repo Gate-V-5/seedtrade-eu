@@ -135,3 +135,14 @@ licence requirements and immutable owner-approved images are unchanged.
 Run node --test tests/homepageNewsRestoration.test.mjs and
 node scripts/check_homepage_restoration.mjs (also included through npm test).
 DOM/CSS checks do not establish actual browser pixel rendering.
+
+## Mandatory image review — News Photography Standard V1
+
+Before approving any future News item, complete all eight steps in
+[the permanent image policy](../docs/realistic-visuals/EDITORIAL_IMAGE_POLICY.md).
+Use a unique real photograph with independently verified commercial reuse and
+redistribution rights, unmodified local original, hashed optimized derivative,
+visible compliant credit and EN/DE/FR/ES/IT descriptions. Run the image validator
+as part of build; do not add new stories to the legacy exceptions. Desktop and
+mobile browser evidence is required for final sign-off; record a blocked check
+honestly. No verified photo means hold publication, not add a schematic fallback.

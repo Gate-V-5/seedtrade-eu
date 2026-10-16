@@ -12,7 +12,7 @@ test('current reviewed reports restore both categories; original publication dat
  const selected=pick(news.items)
  assert.equal(selected.length,4)
  for(const item of fresh){assert.ok(selected.some(row=>row.item.id===item.id));assert.equal(item.publication_date,asOf)}
- const before=JSON.parse(execFileSync('git',['show','origin/main:src/generated/news.json'],{encoding:'utf8'}))
+ const before=JSON.parse(execFileSync('git',['show','c0940c65136cc245321ea7bbca88a501bc91b5d3:src/generated/news.json'],{encoding:'utf8'}))
  assert.deepEqual(news.items.slice(0,before.items.length),before.items)
  assert.deepEqual(pick(before.items).map(row=>row.stream),['EU Trade Market','EU Events'])
 })

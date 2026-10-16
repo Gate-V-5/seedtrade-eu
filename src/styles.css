@@ -1800,3 +1800,11 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .news-stream-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 14px;font-size:12px;font-weight:750}
 @media(min-width:1121px){.top-news .news-list{grid-template-columns:repeat(var(--news-count,4),minmax(0,1fr))}}
 @media(min-width:621px) and (max-width:1120px){.top-news .news-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}}
+
+/* News photography standard V1: scoped photographs, neutral missing-image fallback. */
+.news-editorial-image[data-news-photo-policy="1"]{object-fit:cover}
+.news-photo-credit{display:block;margin-top:8px;font-size:10px;line-height:1.4;color:var(--muted);overflow-wrap:anywhere}
+.news-photo-credit a{text-decoration:underline;color:inherit}
+.news-photo-unavailable{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;min-height:100px;padding:12px;background:#f3f5f2;color:var(--muted);font-size:12px;text-align:center}
+.news-hero .news-photo-credit{font-size:12px}
+@media(max-width:620px){.news-photo-credit{font-size:9px}.news-photo-unavailable{height:100%;aspect-ratio:auto;padding:8px}}

@@ -116,29 +116,135 @@
     "topic": "Valencia Conference Centre exterior; venue photograph, not congress attendance"
   },
   "europe-september-2026-climate-retrospective": {
-    "src": "/news-visuals/europe-september-2026-climate-retrospective.svg",
-    "width": 1000,
-    "height": 560,
-    "alt": "Original schematic of rain, sunshine and layered soil; not a measured weather map",
+    "src": "/editorial/europe-september-2026-climate-retrospective.webp",
+    "width": 1024,
+    "height": 576,
+    "alt": "Straw bales on a harvested field in France; historical illustrative photograph, before 15 September 2007, not September 2026 observations.",
     "classification": "PUBLIC_SAFE",
-    "kind": "EDITORIAL_ILLUSTRATION",
-    "creator": "SeedTrade",
-    "reuse_basis": "Original project-created SVG; no third-party imagery",
-    "documentary_evidence": false,
+    "kind": "EDITORIAL_PHOTOGRAPH",
+    "creator": "Tractorboy60",
+    "title": "Roundbales",
+    "source_platform": "Wikimedia Commons",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Roundbales.jpg",
+    "licence": "Public domain (author dedication)",
+    "licence_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg#file",
+    "reuse_basis": "Commercial use, redistribution and derivatives permitted; author public-domain dedication and fallback unrestricted permission",
+    "retrieval_date": "2026-10-16",
+    "license_verified_at": "2026-10-16",
     "article_mapping": "europe-september-2026-climate-retrospective",
-    "topic": "September climate retrospective"
+    "changes": "Cropped to 16:9, resized and converted to WebP",
+    "object_position": "50% 50%",
+    "documentary_evidence": false,
+    "image_policy_version": 1,
+    "commercial_use_verified": true,
+    "redistribution_verified": true,
+    "relevance_verified": true,
+    "ai_generated": false,
+    "original_sha256": "95bd46673ee42362390a7f07c8de748287f65ebefa0fdedead57efca1ca875e2",
+    "asset_sha256": "c1fd60837e8d26c265aee7814c371d081248f65894cddbd54c5c3f5610651dde",
+    "license_evidence_sha256": "0af52b1772d874955170bd80b14dd81023e971eef909065873b9e7d7ea3977c8",
+    "attribution_required": false,
+    "derivative_licence": "Public domain (author dedication)",
+    "relevance_note": "French harvested stubble illustrates post-harvest land context only; no inference of measured drought or 2026 conditions.",
+    "localizations": {
+      "en": {
+        "alt": "Straw bales on a harvested field in France; historical illustrative photograph, before 15 September 2007, not September 2026 observations.",
+        "caption": "Straw bales on a harvested field in France; historical illustrative photograph, before 15 September 2007, not September 2026 observations.",
+        "changes": "Cropped to 16:9, resized and converted to WebP",
+        "fallback": "Photograph unavailable"
+      },
+      "de": {
+        "alt": "Strohballen auf einem abgeernteten Feld in Frankreich; historisches Symbolfoto, vor dem 15. September 2007, keine Beobachtungen vom September 2026.",
+        "caption": "Strohballen auf einem abgeernteten Feld in Frankreich; historisches Symbolfoto, vor dem 15. September 2007, keine Beobachtungen vom September 2026.",
+        "changes": "Auf 16:9 zugeschnitten, verkleinert und in WebP konvertiert",
+        "fallback": "Foto nicht verfügbar"
+      },
+      "fr": {
+        "alt": "Balles de paille dans un champ récolté en France ; photographie illustrative historique, avant le 15 septembre 2007, pas des observations de septembre 2026.",
+        "caption": "Balles de paille dans un champ récolté en France ; photographie illustrative historique, avant le 15 septembre 2007, pas des observations de septembre 2026.",
+        "changes": "Recadrée en 16:9, redimensionnée et convertie en WebP",
+        "fallback": "Photographie indisponible"
+      },
+      "es": {
+        "alt": "Balas de paja en un campo cosechado en Francia; fotografía histórica ilustrativa, anterior al 15 de septiembre de 2007, no observaciones de septiembre de 2026.",
+        "caption": "Balas de paja en un campo cosechado en Francia; fotografía histórica ilustrativa, anterior al 15 de septiembre de 2007, no observaciones de septiembre de 2026.",
+        "changes": "Recortada a 16:9, redimensionada y convertida a WebP",
+        "fallback": "Fotografía no disponible"
+      },
+      "it": {
+        "alt": "Balle di paglia in un campo raccolto in Francia; fotografia storica illustrativa, prima del 15 settembre 2007, non osservazioni di settembre 2026.",
+        "caption": "Balle di paglia in un campo raccolto in Francia; fotografia storica illustrativa, prima del 15 settembre 2007, non osservazioni di settembre 2026.",
+        "changes": "Ritagliata a 16:9, ridimensionata e convertita in WebP",
+        "fallback": "Fotografia non disponibile"
+      }
+    },
+    "original_local_path": "assets/licensed-news-originals/europe-september-2026-climate-retrospective.jpg"
   },
   "autumn-2026-agronomy-evidence-review": {
-    "src": "/news-visuals/autumn-2026-agronomy-evidence-review.svg",
-    "width": 1000,
-    "height": 560,
-    "alt": "Original schematic of cereal ears, a seedling and legume seeds; not a field photograph",
+    "src": "/editorial/autumn-2026-agronomy-evidence-review.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": "Winter wheat (Triticum aestivum) seedlings at Great Gidding, England, 14 October 2011; illustrative photograph, not the reported French or Irish fields.",
     "classification": "PUBLIC_SAFE",
-    "kind": "EDITORIAL_ILLUSTRATION",
-    "creator": "SeedTrade",
-    "reuse_basis": "Original project-created SVG; no third-party imagery",
-    "documentary_evidence": false,
+    "kind": "EDITORIAL_PHOTOGRAPH",
+    "creator": "Michael Trolove",
+    "title": "Winter wheat plants at ground level",
+    "source_platform": "Wikimedia Commons",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "reuse_basis": "Commercial use, redistribution and derivatives permitted; attribution and ShareAlike 2.0 required, derivative retains licence",
+    "retrieval_date": "2026-10-16",
+    "license_verified_at": "2026-10-16",
     "article_mapping": "autumn-2026-agronomy-evidence-review",
-    "topic": "Autumn crop establishment and variety evidence"
+    "changes": "Cropped to 16:9, resized and converted to WebP",
+    "object_position": "50% 50%",
+    "documentary_evidence": false,
+    "image_policy_version": 1,
+    "commercial_use_verified": true,
+    "redistribution_verified": true,
+    "relevance_verified": true,
+    "ai_generated": false,
+    "original_sha256": "c7b564dc710624342717c393a64b0174560aae87d52a139a32f18f5192f4a246",
+    "asset_sha256": "c0cfd679ac26f3202cbbbc0c67604c48181f05a7cb5413fcb9be39ab1425a1c1",
+    "license_evidence_sha256": "cc228b9cd4d484c2c53eaa4d159c39a9222d549818ebcb1f8d7e57660d232537",
+    "attribution_required": true,
+    "derivative_licence": "CC BY-SA 2.0",
+    "relevance_note": "October European cereal establishment matches the seedbed section; English historical stock, not French/Irish trial or treatment evidence.",
+    "localizations": {
+      "en": {
+        "alt": "Winter wheat (Triticum aestivum) seedlings at Great Gidding, England, 14 October 2011; illustrative photograph, not the reported French or Irish fields.",
+        "caption": "Winter wheat (Triticum aestivum) seedlings at Great Gidding, England, 14 October 2011; illustrative photograph, not the reported French or Irish fields.",
+        "changes": "Cropped to 16:9, resized and converted to WebP",
+        "fallback": "Photograph unavailable"
+      },
+      "de": {
+        "alt": "Keimlinge von Winterweizen (Triticum aestivum) in Great Gidding, England, am 14. Oktober 2011; Symbolfoto, nicht die beschriebenen französischen oder irischen Felder.",
+        "caption": "Keimlinge von Winterweizen (Triticum aestivum) in Great Gidding, England, am 14. Oktober 2011; Symbolfoto, nicht die beschriebenen französischen oder irischen Felder.",
+        "changes": "Auf 16:9 zugeschnitten, verkleinert und in WebP konvertiert",
+        "fallback": "Foto nicht verfügbar"
+      },
+      "fr": {
+        "alt": "Plantules de blé d’hiver (Triticum aestivum) à Great Gidding, Angleterre, le 14 octobre 2011 ; photographie illustrative, pas les parcelles françaises ou irlandaises décrites.",
+        "caption": "Plantules de blé d’hiver (Triticum aestivum) à Great Gidding, Angleterre, le 14 octobre 2011 ; photographie illustrative, pas les parcelles françaises ou irlandaises décrites.",
+        "changes": "Recadrée en 16:9, redimensionnée et convertie en WebP",
+        "fallback": "Photographie indisponible"
+      },
+      "es": {
+        "alt": "Plántulas de trigo de invierno (Triticum aestivum) en Great Gidding, Inglaterra, 14 de octubre de 2011; fotografía ilustrativa, no los campos franceses o irlandeses descritos.",
+        "caption": "Plántulas de trigo de invierno (Triticum aestivum) en Great Gidding, Inglaterra, 14 de octubre de 2011; fotografía ilustrativa, no los campos franceses o irlandeses descritos.",
+        "changes": "Recortada a 16:9, redimensionada y convertida a WebP",
+        "fallback": "Fotografía no disponible"
+      },
+      "it": {
+        "alt": "Plantule di frumento invernale (Triticum aestivum) a Great Gidding, Inghilterra, 14 ottobre 2011; fotografia illustrativa, non i campi francesi o irlandesi descritti.",
+        "caption": "Plantule di frumento invernale (Triticum aestivum) a Great Gidding, Inghilterra, 14 ottobre 2011; fotografia illustrativa, non i campi francesi o irlandesi descritti.",
+        "changes": "Ritagliata a 16:9, ridimensionata e convertita in WebP",
+        "fallback": "Fotografia non disponibile"
+      }
+    },
+    "original_local_path": "assets/licensed-news-originals/autumn-2026-agronomy-evidence-review.jpg"
   }
 }

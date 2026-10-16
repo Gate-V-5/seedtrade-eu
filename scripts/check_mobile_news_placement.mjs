@@ -45,7 +45,9 @@ try{
      const a=selector?card.querySelector(selector):card,b=selector?old.querySelector(selector):old
      for(const property of ['display','width','height','min-height','padding','margin','gap','font-size','line-height','grid-template-columns','grid-column','grid-row','object-fit','aspect-ratio','border-radius','align-items'])assert.equal(get(a).getPropertyValue(property),oldGet(b).getPropertyValue(property),`${width} ${selector} ${property} unchanged`)
     }
-    assert.equal(visibleText(card,after.window),visibleText(old,before.window),'Approved desktop visible content unchanged')
+    // V1 photo credits are the only authorized new card text; dedicated image tests verify them.
+    for(const credit of card.querySelectorAll('.news-photo-credit')){assert.ok(card.querySelector('[data-news-photo-policy="1"]'));credit.remove()}
+    assert.equal(visibleText(card,after.window),visibleText(old,before.window),'Approved desktop article content unchanged apart from verified photo credit')
    }
   }
   before.window.close();after.window.close()

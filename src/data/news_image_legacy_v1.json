@@ -1,0 +1,34 @@
+{
+  "interpom-2026-exhibitor-profile": {
+    "visual_sha256": "8f6b7c121f70640351ca28e0c660fb11f8dae087a600c5ec39692754ee1ae029",
+    "article_sha256": "a91816efe775efca08ce4c3da4541011337426f11aa8289cb9de10ea61cdf3c6"
+  },
+  "europe-potato-crop-drought-estimate-2026": {
+    "visual_sha256": "f11dc0cd376738a5f464d0168714644ed7c3f0e13813d05e85a92984eef4703b",
+    "article_sha256": "94539884e1550424cdec063bbf77c1a190bbea59842cc0db5c1bd98f8402b8f6"
+  },
+  "northern-ireland-seed-potato-rules-update-2026": {
+    "visual_sha256": "0e89808bdf4ab012f188a9f0d019d74abf597027e28bdf00cb1ebcda8dc589f4",
+    "article_sha256": "1289b66c111b91ed02dce34e32b22e0a93e2c6ca4319e886fe220201ca3bdf85"
+  },
+  "europe-summer-crop-heat-drought-2026": {
+    "visual_sha256": "23c774b73f3952004e75d56123de3432473a0eec11f839df12e3f9901955ba72",
+    "article_sha256": "c9d865f06b31bfcfca34c4fccd244eaeefb182ed17b846146a196cab9cd31593"
+  },
+  "eu-weather-september-2026-baseline": {
+    "visual_sha256": "d3019a4b257789caa198b49fa19323c3b8e9d55e59bda6a07fa85955a40befe0",
+    "article_sha256": "e81b9b1e585260b3507327504056634c706b1d77a8e42b596110a311d5586bf6"
+  },
+  "eu-agronomist-latvia-autumn-establishment": {
+    "visual_sha256": "5884c949e7163532958f14e8169a511a0fb3e2a8ee856a5190fac21ed85a146f",
+    "article_sha256": "87fec07aee522525bd3c7cf262fd64ca4bbaec4ef455faad25f0f1b46f9fea15"
+  },
+  "eu-trade-market-nak-interim-seed-potato-checks": {
+    "visual_sha256": "9c6a8f431534dbeefb8db9577e9142a0b0321ce447aecb20767f0d9dcdaf0471",
+    "article_sha256": "1c21d0a5891dc2f9f8571c7fdb38f652d03cf7a13ffd18fb4bd584af4e80581d"
+  },
+  "eu-events-euroseeds-valencia-october-2026": {
+    "visual_sha256": "4456bc7972caf0d8b6adf4331f4942a578ac4958d76bd93e02871713774f9bae",
+    "article_sha256": "23a5f5f965f48014cf5024ff57fc033b351d149864f573f954e79d52c93a494d"
+  }
+}

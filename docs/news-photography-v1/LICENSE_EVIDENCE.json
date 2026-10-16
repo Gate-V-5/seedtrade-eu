@@ -1,0 +1,28 @@
+{
+  "europe-september-2026-climate-retrospective": {
+    "creator": "Tractorboy60",
+    "title": "Roundbales",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Roundbales.jpg",
+    "licence": "Public domain (author dedication)",
+    "licence_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg#file",
+    "license_verified_at": "2026-10-16",
+    "original_sha256": "95bd46673ee42362390a7f07c8de748287f65ebefa0fdedead57efca1ca875e2",
+    "license_evidence_sha256": "0af52b1772d874955170bd80b14dd81023e971eef909065873b9e7d7ea3977c8",
+    "commercial_use_verified": true,
+    "redistribution_verified": true
+  },
+  "autumn-2026-agronomy-evidence-review": {
+    "creator": "Michael Trolove",
+    "title": "Winter wheat plants at ground level",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_verified_at": "2026-10-16",
+    "original_sha256": "c7b564dc710624342717c393a64b0174560aae87d52a139a32f18f5192f4a246",
+    "license_evidence_sha256": "cc228b9cd4d484c2c53eaa4d159c39a9222d549818ebcb1f8d7e57660d232537",
+    "commercial_use_verified": true,
+    "redistribution_verified": true
+  }
+}
