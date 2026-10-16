@@ -39,7 +39,7 @@ try{
     assert.equal(get(body).width,'auto');assert.equal(get(body).maxWidth,'none');assert.equal(get(body).alignItems,'stretch')
     assert.equal(get(card.querySelector('h3')).overflowWrap,'normal');assert.equal(get(card.querySelector('h3')).whiteSpace,'normal')
     assert.equal(card.querySelectorAll('p,small').length,0)
-    assert.equal(visibleText(card.querySelector('.geographic-label'),after.window),['EUROPE','LATVIA','NETHERLANDS','SPAIN'][index])
+    assert.equal(visibleText(card.querySelector('.geographic-label'),after.window),card.querySelector('.geographic-label').getAttribute('data-geography').replace(/^EU$/,'EUROPE'))
    }else{
     for(const selector of [null,'.news-image-link','img','.news-card-body','h3','.category','time','.geographic-label']){
      const a=selector?card.querySelector(selector):card,b=selector?old.querySelector(selector):old

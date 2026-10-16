@@ -1274,8 +1274,548 @@
           ]
         }
       ]
+    },
+    {
+      "id": "europe-september-2026-climate-retrospective",
+      "slug": "europe-september-2026-climate-retrospective",
+      "canonical_url": "https://seedtrade.eu/news/europe-september-2026-climate-retrospective",
+      "schema_version": 2,
+      "stream": "EU Weather",
+      "category": "WEATHER",
+      "tags": [
+        "EU Weather"
+      ],
+      "countries": [
+        "FR",
+        "DE",
+        "IT",
+        "ES"
+      ],
+      "region_codes": [],
+      "species_ids": [],
+      "geography": {
+        "countries": [
+          "FR",
+          "DE",
+          "IT",
+          "ES"
+        ],
+        "region": "Europe"
+      },
+      "links": {
+        "crops": [],
+        "countries": [
+          "FR",
+          "DE",
+          "IT",
+          "ES"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "publication_date": "2026-10-16",
+      "updated_at": "2026-10-16",
+      "observation_period": {
+        "start": "2026-09-01",
+        "end": "2026-09-30"
+      },
+      "source_published_at": "2026-10-12",
+      "checked_at": "2026-10-16",
+      "valid_until": "2026-10-30",
+      "sources": [
+        {
+          "id": "climate",
+          "source_id": "copernicus-c3s",
+          "label": "Copernicus Climate Change Service / ECMWF",
+          "source_type": "OFFICIAL_DATA",
+          "url": "https://climate.copernicus.eu/copernicus-second-warmest-september-global-temperatures-stay-above-15degc",
+          "published_at": "2026-10-12",
+          "checked_at": "2026-10-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Page header: 12 October; embedded newsflash: 9 October. Header date retained, discrepancy disclosed.",
+          "scope": "Europe; September 2026",
+          "evidence_locator": "European temperature and hydrological highlights",
+          "origin_id": "ECMWF_C3S"
+        },
+        {
+          "id": "hydro",
+          "source_id": "copernicus-c3s",
+          "label": "Copernicus Climate Change Service / ECMWF",
+          "source_type": "OFFICIAL_DATA",
+          "url": "https://climate.copernicus.eu/precipitation-relative-humidity-soil-moisture-and-river-flow-september-2026",
+          "published_at": null,
+          "checked_at": "2026-10-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "No publication date displayed; September is observation month, not a publication date.",
+          "scope": "European precipitation and surface soil moisture; September 2026",
+          "evidence_locator": "Europe – September 2026; introductory methodological caveat",
+          "origin_id": "ECMWF_C3S"
+        }
+      ],
+      "source_name": "Copernicus Climate Change Service / ECMWF",
+      "source_url": "https://climate.copernicus.eu/copernicus-second-warmest-september-global-temperatures-stay-above-15degc",
+      "source_tier": 1,
+      "provenance_class": "OFFICIAL_SOURCE",
+      "series_id": "daily-eu-weather",
+      "previous_item_id": "daily-weather-20261001",
+      "related_item_ids": [],
+      "assessment_outcome": "DATED_REVIEW",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "fingerprint": "73afbe58fba062ea686eb0931af5ce430ebcc7f5d77685df9eba027e8d901171",
+      "corrections": [],
+      "image": null,
+      "localizations": {
+        "de": {
+          "headline": "September-Klimarückblick: unterschiedliche Niederschläge prägen die Aussaatbedingungen",
+          "summary": "Copernicus meldet einen warmen, trockenen September in weiten Teilen West- und Mitteleuropas sowie feuchtere Bedingungen im Norden und Nordosten. Dies ist ein Rückblick, keine aktuelle Vorhersage.",
+          "why_it_matters": "Für Aussaat und Ernte aktuelle nationale Vorhersagen und Feldbedingungen prüfen. Monatliche regionale Abweichungen belegen weder Befahrbarkeit noch Verluste in der Saatgutproduktion.",
+          "content": [
+            {
+              "id": "climate",
+              "heading": "Beobachtete Septemberbedingungen",
+              "body": "Copernicus beziffert die europäische Septembertemperatur auf 1.54°C über dem Mittel 1991–2020. Die hydrologische Übersicht beschreibt Niederschlags- und Oberbodenfeuchtedefizite in weiten Teilen West- und Mitteleuropas. Später Regen brachte örtliche Entlastung, aber auch Überschwemmungen; Teile Nord- und Nordosteuropas waren feuchter."
+            },
+            {
+              "id": "hydro",
+              "heading": "Nutzung und Grenzen",
+              "body": "Die hydrologische Übersicht bewertet Bodenfeuchte als qualitativen Kontext. Diese datierte Grundlage dient örtlichen Prüfungen von Saatbettfeuchte und Erntezugang, nicht als Arbeitsanweisung. Der Kopf der Pressemitteilung nennt den 12. Oktober, die eingebettete Meldung den 9. Oktober. Eine Oktobervorhersage oder Verlustschätzung wird daraus nicht abgeleitet."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Bilan climatique de septembre : des pluies contrastées pour les implantations",
+          "summary": "Copernicus décrit un septembre chaud et sec dans une grande partie de l’Europe occidentale et centrale, plus humide au nord et au nord-est. Il s’agit d’un bilan rétrospectif, pas d’une prévision actuelle.",
+          "why_it_matters": "Pour les semis et récoltes, consulter les prévisions nationales actuelles et observer les parcelles. Une anomalie régionale mensuelle ne prouve ni la praticabilité ni des pertes de production de semences.",
+          "content": [
+            {
+              "id": "climate",
+              "heading": "Conditions observées en septembre",
+              "body": "Copernicus situe la température européenne de septembre à 1.54°C au-dessus de la moyenne 1991–2020. Son bilan hydrologique décrit des déficits de pluie et d’humidité superficielle dans une grande partie de l’ouest et du centre de l’Europe. Les pluies tardives ont apporté un répit local mais aussi des inondations ; certaines zones du nord et du nord-est étaient plus humides."
+            },
+            {
+              "id": "hydro",
+              "heading": "Utilisation et limites",
+              "body": "Le bilan hydrologique considère l’humidité du sol comme un contexte qualitatif. Utiliser ce repère daté pour orienter les contrôles locaux du lit de semences et de l’accès aux récoltes, sans prescrire les opérations. L’en-tête du communiqué indique le 12 octobre, la dépêche intégrée le 9 octobre. Aucune prévision d’octobre ni estimation de pertes n’en est déduite."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Balance climático de septiembre: lluvias desiguales y contexto de implantación",
+          "summary": "Copernicus describe un septiembre cálido y seco en gran parte de Europa occidental y central, con condiciones más húmedas en el norte y nordeste. Es un análisis retrospectivo, no un pronóstico actual.",
+          "why_it_matters": "Para siembra y cosecha, consultar los pronósticos nacionales actuales y revisar las parcelas. Una anomalía regional mensual no demuestra transitabilidad ni pérdidas de producción de semillas.",
+          "content": [
+            {
+              "id": "climate",
+              "heading": "Condiciones observadas en septiembre",
+              "body": "Copernicus sitúa la temperatura europea de septiembre 1.54°C por encima del promedio 1991–2020. El balance hidrológico describe déficits de lluvia y humedad superficial en gran parte del oeste y centro de Europa. Las lluvias tardías aliviaron algunas zonas pero también causaron inundaciones; partes del norte y nordeste fueron más húmedas."
+            },
+            {
+              "id": "hydro",
+              "heading": "Uso y limitaciones",
+              "body": "El balance hidrológico considera la humedad del suelo como contexto cualitativo. Esta referencia fechada orienta comprobaciones locales del lecho de siembra y acceso a la cosecha, sin prescribir operaciones. La cabecera del comunicado indica el 12 de octubre; la nota integrada dice 9 de octubre. No se infiere un pronóstico de octubre ni una estimación de pérdidas."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Bilancio climatico di settembre: piogge disomogenee e contesto di insediamento",
+          "summary": "Copernicus descrive un settembre caldo e secco in gran parte dell’Europa occidentale e centrale, più umido al nord e nord-est. È un’analisi retrospettiva, non una previsione attuale.",
+          "why_it_matters": "Per semine e raccolti, consultare le previsioni nazionali aggiornate e verificare i campi. Un’anomalia regionale mensile non dimostra praticabilità o perdite nella produzione di sementi.",
+          "content": [
+            {
+              "id": "climate",
+              "heading": "Condizioni osservate a settembre",
+              "body": "Copernicus colloca la temperatura europea di settembre a 1.54°C sopra la media 1991–2020. Il bilancio idrologico descrive deficit di pioggia e umidità superficiale in gran parte dell’ovest e centro Europa. Le piogge tardive hanno dato sollievo locale ma anche alluvioni; alcune zone settentrionali e nordorientali erano più umide."
+            },
+            {
+              "id": "hydro",
+              "heading": "Impiego e limiti",
+              "body": "Il bilancio idrologico considera l’umidità del suolo un contesto qualitativo. Usare questa base datata per orientare controlli locali del letto di semina e dell’accesso alla raccolta, senza prescrivere operazioni. L’intestazione del comunicato indica il 12 ottobre, la notizia incorporata il 9 ottobre. Non si deducono previsioni di ottobre o stime di perdite."
+            }
+          ]
+        }
+      },
+      "coverage_limitations": "Monthly regional retrospective, not an October forecast. No field soil-moisture measurements, crop-stage observations, seed losses or new Weather/Phenology model inputs. Copernicus sources share ECMWF/C3S origin. Press-release header and embedded newsflash dates differ.",
+      "headline": "September climate review: uneven rainfall leaves contrasting establishment context",
+      "summary": "Copernicus reports a warm, dry September across much of western and central Europe, with wetter conditions in parts of the north and northeast. This is a retrospective assessment, not a current forecast.",
+      "why_it_matters": "For sowing and harvest planning, check current national forecasts and field conditions. A monthly regional anomaly cannot establish field readiness or seed-production losses.",
+      "content": [
+        {
+          "id": "climate",
+          "heading": "Observed September conditions",
+          "body": "Copernicus places European September temperature 1.54°C above the 1991–2020 average. Its hydrological review describes rainfall and surface soil-moisture deficits across much of western and central Europe. Late rain provided local relief but also flooding; parts of northern and northeastern Europe were wetter.",
+          "claim_ids": [
+            "climate"
+          ]
+        },
+        {
+          "id": "hydro",
+          "heading": "Use and limitations",
+          "body": "The hydrological review treats soil moisture as qualitative context. Use this dated baseline to frame local checks for seedbed moisture and harvest access, not to prescribe operations. The press-release header is dated 12 October; its embedded newsflash says 9 October. No October forecast or crop-loss estimate is inferred.",
+          "claim_ids": [
+            "hydro"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "climate",
+          "statement": "Copernicus places European September temperature 1.54°C above the 1991–2020 average. Its hydrological review describes rainfall and surface soil-moisture deficits across much of western and central Europe. Late rain provided local relief but also flooding; parts of northern and northeastern Europe were wetter.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "climate",
+            "hydro"
+          ],
+          "scope": "Monthly regional retrospective, not an October forecast. No field soil-moisture measurements, crop-stage observations, seed losses or new Weather/Phenology model inputs. Copernicus sources share ECMWF/C3S origin. Press-release header and embedded newsflash dates differ.",
+          "limitations": "Source-specific synthesis with explicit limits; practical relevance is editorial interpretation, not a measured outcome.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "hydro",
+          "statement": "The hydrological review treats soil moisture as qualitative context. Use this dated baseline to frame local checks for seedbed moisture and harvest access, not to prescribe operations. The press-release header is dated 12 October; its embedded newsflash says 9 October. No October forecast or crop-loss estimate is inferred.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "hydro"
+          ],
+          "scope": "Monthly regional retrospective, not an October forecast. No field soil-moisture measurements, crop-stage observations, seed losses or new Weather/Phenology model inputs. Copernicus sources share ECMWF/C3S origin. Press-release header and embedded newsflash dates differ.",
+          "limitations": "Source-specific synthesis with explicit limits; practical relevance is editorial interpretation, not a measured outcome.",
+          "publish_conclusion": true
+        }
+      ]
+    },
+    {
+      "id": "autumn-2026-agronomy-evidence-review",
+      "slug": "autumn-2026-agronomy-evidence-review",
+      "canonical_url": "https://seedtrade.eu/news/autumn-2026-agronomy-evidence-review",
+      "schema_version": 2,
+      "stream": "EU Agronomist",
+      "category": "AGRONOMY",
+      "tags": [
+        "EU Agronomist"
+      ],
+      "countries": [
+        "FR",
+        "IE"
+      ],
+      "region_codes": [],
+      "species_ids": [
+        "winter-wheat",
+        "field-pea",
+        "perennial-ryegrass"
+      ],
+      "geography": {
+        "countries": [
+          "FR",
+          "IE"
+        ],
+        "region": "France / Ireland"
+      },
+      "links": {
+        "crops": [
+          "winter wheat",
+          "barley",
+          "rapeseed",
+          "peas",
+          "lentils",
+          "chickpeas",
+          "perennial ryegrass",
+          "white clover"
+        ],
+        "countries": [
+          "FR",
+          "IE"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "publication_date": "2026-10-16",
+      "updated_at": "2026-10-16",
+      "observation_period": {
+        "start": "2026-01-01",
+        "end": "2026-10-09"
+      },
+      "source_published_at": "2026-10-09",
+      "checked_at": "2026-10-16",
+      "valid_until": "2026-10-30",
+      "sources": [
+        {
+          "id": "legume",
+          "source_id": "terres-inovia",
+          "label": "Terres Inovia",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://www.terresinovia.fr/fr/actualites/legumineuses-les-travaux-de-terres-inovia-partages-sur-la-scene-internationale",
+          "published_at": "2026-10-09",
+          "checked_at": "2026-10-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible publication date",
+          "scope": "France; grain-legume research",
+          "evidence_locator": "Research project summaries and root-disease workshop; date visible in official news index",
+          "origin_id": "terres-inovia"
+        },
+        {
+          "id": "cereal",
+          "source_id": "arvalis",
+          "label": "ARVALIS",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://www.arvalis.fr/infos-techniques/secheresse-comment-adapter-les-semis-de-cereales-paille",
+          "published_at": "2026-10-01",
+          "checked_at": "2026-10-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible publication date",
+          "scope": "France; autumn cereal establishment",
+          "evidence_locator": "Rappels généraux; Une certaine flexibilité des céréales à la date de semis",
+          "origin_id": "arvalis"
+        },
+        {
+          "id": "rape",
+          "source_id": "terres-inovia",
+          "label": "Terres Inovia",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://www.terresinovia.fr/fr/actualites/regulateur-lautomne-la-question-ne-se-pose-quau-cas-par-cas",
+          "published_at": "2026-10-02",
+          "checked_at": "2026-10-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible publication date",
+          "scope": "Normandy / western Ile-de-France; oilseed rape",
+          "evidence_locator": "2026 : un potentiel thermique élevé; Faut-il réguler; date from official news index",
+          "origin_id": "terres-inovia"
+        },
+        {
+          "id": "forage",
+          "source_id": "teagasc",
+          "label": "Teagasc",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://teagasc.ie/wp-content/uploads/uploads/media/website/crops/grassland/Grass-and-white-clover-varieties-%E2%80%93-Recommended-list-2026.pdf",
+          "published_at": null,
+          "checked_at": "2026-10-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "PDF says January 2026 only. Exact day unknown; no day invented.",
+          "scope": "Ireland; 2026 forage variety evaluation",
+          "evidence_locator": "PDF pages 1–3: publication month, source attribution, introduction",
+          "origin_id": "teagasc"
+        }
+      ],
+      "source_name": "Terres Inovia",
+      "source_url": "https://www.terresinovia.fr/fr/actualites/legumineuses-les-travaux-de-terres-inovia-partages-sur-la-scene-internationale",
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "series_id": "daily-eu-agronomist",
+      "previous_item_id": "daily-agronomist-20261001",
+      "related_item_ids": [],
+      "assessment_outcome": "DATED_REVIEW",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "fingerprint": "8ac9ccf851ec5a0ec2d8ca5dc8681eb445b625a3bb0ca79f98d0c816b553c71b",
+      "corrections": [],
+      "image": null,
+      "localizations": {
+        "de": {
+          "headline": "Herbstliche Saatgutentscheidungen: Etablierung, Sorten und Leguminosenforschung",
+          "summary": "Französische Fachinstitute und Irlands amtliche Sortenliste liefern ergänzende Erkenntnisse zu Getreide, Raps, Körnerleguminosen und Futterpflanzensaatgut. Regionale Beratung und Forschungsberichte begründen keine EU-weiten Leistungsranglisten.",
+          "why_it_matters": "Sortennachweise an örtliche Böden, Krankheitsrisiken und Nutzung anpassen. Forschungsmeldungen belegen weder Ertragsvorteile noch Arbeitsanweisungen für Saatgutvermehrungsflächen.",
+          "content": [
+            {
+              "id": "cereal",
+              "heading": "Getreide: Saatbett prüfen",
+              "body": "Die ARVALIS-Beratung vom 1. Oktober verknüpft Getreideetablierung mit Saatbettfeuchte und Verunkrautung. Bei Winterweizen (Triticum aestivum) und Wintergerste (Hordeum vulgare) vor der Terminplanung die Felder prüfen. Der damalige Regenausblick für Anfang Oktober ist historisch, keine heutige Vorhersage."
+            },
+            {
+              "id": "rape",
+              "heading": "Raps: Bestandsentwicklung beobachten",
+              "body": "Die Beratung von Terres Inovia vom 2. Oktober für die Normandie beschreibt unterschiedliche Entwicklung von Raps (Brassica napus) unter Wärme und Trockenheit. Entscheidungen zu Wachstumsreglern beginnen am beobachteten Bestand, nicht allein bei Temperatursummen. Regionale Empfehlungen belegen keinen Behandlungsbedarf aller Felder."
+            },
+            {
+              "id": "legume",
+              "heading": "Leguminosen: Forschung statt Sortenversprechen",
+              "body": "Der Forschungsbericht von Terres Inovia vom 9. Oktober behandelt Krankheiten bei Wintererbsen (Pisum sativum) sowie genetische Ressourcen für Linsen (Lens culinaris) und Kichererbsen (Cicer arietinum). Er beschreibt Forschungsarbeiten, keine neu belegten resistenten Sorten oder quantifizierten Betriebsvorteile."
+            },
+            {
+              "id": "forage",
+              "heading": "Futterpflanzensaatgut: Sorten passend wählen",
+              "body": "Die von Teagasc bereitgestellte DAFM-Liste Grass and White Clover Recommended List Varieties for Ireland 2026 beruht auf mehrjährigen Prüfungen an mehreren Standorten. Die Wahl von Deutschem Weidelgras (Lolium perenne) und Weißklee (Trifolium repens) hängt von Reife, Bewirtschaftung und irischen Bedingungen ab. Sie zertifiziert keine Saatgutpartien und liefert keine Rangliste für jede EU-Region."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Choix de semences d’automne : implantation, variétés et recherche sur les légumineuses",
+          "summary": "Les instituts français et la liste variétale officielle irlandaise apportent des éléments complémentaires sur céréales, colza, légumineuses à graines et semences fourragères. Leurs conseils régionaux et synthèses de recherche ne constituent pas des classements européens.",
+          "why_it_matters": "Adapter les références variétales aux sols, risques sanitaires et usages locaux. Une annonce de recherche ne prouve ni gain de rendement ni conduite à appliquer aux parcelles de multiplication.",
+          "content": [
+            {
+              "id": "cereal",
+              "heading": "Céréales : observer le lit de semences",
+              "body": "Le conseil ARVALIS du 1 octobre relie l’implantation des céréales à l’humidité du lit de semences et au passé d’enherbement. Pour le blé d’hiver (Triticum aestivum) et l’orge d’hiver (Hordeum vulgare), observer les parcelles avant de programmer les travaux. Les perspectives de pluie de début octobre sont historiques, pas une prévision actuelle."
+            },
+            {
+              "id": "rape",
+              "heading": "Colza : observer le développement",
+              "body": "Le conseil Terres Inovia du 2 octobre pour la Normandie décrit un développement variable du colza (Brassica napus) sous chaleur et sécheresse. La décision de régulation part du colza observé, pas des seules sommes de températures. Ce conseil régional ne démontre pas que toutes les parcelles doivent être traitées."
+            },
+            {
+              "id": "legume",
+              "heading": "Légumineuses : recherche et limites",
+              "body": "Le bilan de recherche Terres Inovia du 9 octobre aborde les maladies du pois d’hiver (Pisum sativum) et les ressources génétiques de lentille (Lens culinaris) et pois chiche (Cicer arietinum). Il décrit des travaux, pas de nouvelles variétés résistantes démontrées ni des bénéfices agricoles quantifiés."
+            },
+            {
+              "id": "forage",
+              "heading": "Semences fourragères : adapter le choix variétal",
+              "body": "La publication DAFM Grass and White Clover Recommended List Varieties for Ireland 2026, hébergée par Teagasc, repose sur des évaluations pluriannuelles et multisites. Les choix de ray-grass anglais (Lolium perenne) et trèfle blanc (Trifolium repens) dépendent de la précocité, de la conduite et des conditions irlandaises. Elle ne certifie pas les lots de semences et ne classe pas les variétés pour chaque région européenne."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Decisiones de semilla otoñal: implantación, variedades e investigación en leguminosas",
+          "summary": "Los institutos franceses y la lista varietal oficial irlandesa aportan evidencia complementaria para cereales, colza, leguminosas de grano y semillas forrajeras. Sus consejos regionales y resúmenes de investigación no establecen clasificaciones europeas de rendimiento.",
+          "why_it_matters": "Adaptar la evidencia varietal a suelos, riesgos sanitarios y usos locales. Una noticia de investigación no demuestra una ventaja de rendimiento ni prescribe prácticas para campos de multiplicación.",
+          "content": [
+            {
+              "id": "cereal",
+              "heading": "Cereales: revisar el lecho",
+              "body": "El consejo ARVALIS del 1 de octubre relaciona la implantación de cereales con la humedad del lecho y el historial de malas hierbas. Para trigo de invierno (Triticum aestivum) y cebada de invierno (Hordeum vulgare), revisar las parcelas antes de programar labores. La previsión de lluvia de principios de octubre es histórica, no actual."
+            },
+            {
+              "id": "rape",
+              "heading": "Colza: observar el desarrollo",
+              "body": "El consejo de Terres Inovia del 2 de octubre para Normandía describe desarrollo desigual de colza (Brassica napus) bajo calor y sequía. La decisión sobre reguladores parte del cultivo observado, no solo de las temperaturas acumuladas. Este consejo regional no demuestra que todas las parcelas necesiten tratamiento."
+            },
+            {
+              "id": "legume",
+              "heading": "Leguminosas: investigación y límites",
+              "body": "El informe de investigación de Terres Inovia del 9 de octubre aborda enfermedades del guisante de invierno (Pisum sativum) y recursos genéticos de lenteja (Lens culinaris) y garbanzo (Cicer arietinum). Describe investigación, no nuevas variedades resistentes demostradas ni beneficios agrícolas cuantificados."
+            },
+            {
+              "id": "forage",
+              "heading": "Semillas forrajeras: adaptar variedades",
+              "body": "La publicación DAFM Grass and White Clover Recommended List Varieties for Ireland 2026, alojada por Teagasc, se basa en evaluaciones plurianuales en varios lugares. La elección de raigrás inglés (Lolium perenne) y trébol blanco (Trifolium repens) depende de madurez, manejo y condiciones irlandesas. No certifica lotes de semillas ni clasifica variedades para cada región europea."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Scelte sementiere autunnali: insediamento, varietà e ricerca sulle leguminose",
+          "summary": "Gli istituti francesi e la lista varietale ufficiale irlandese offrono evidenze complementari per cereali, colza, leguminose da granella e sementi foraggere. Consigli regionali e sintesi di ricerca non stabiliscono classifiche europee delle prestazioni.",
+          "why_it_matters": "Adattare le evidenze varietali a suoli, rischi sanitari e impieghi locali. Una notizia di ricerca non dimostra vantaggi produttivi né prescrive pratiche per campi di moltiplicazione.",
+          "content": [
+            {
+              "id": "cereal",
+              "heading": "Cereali: verificare il letto di semina",
+              "body": "Il consiglio ARVALIS del 1 ottobre collega l’insediamento dei cereali all’umidità del letto e alla storia delle infestanti. Per frumento invernale (Triticum aestivum) e orzo invernale (Hordeum vulgare), osservare i campi prima di programmare i lavori. La prospettiva di pioggia di inizio ottobre è storica, non una previsione attuale."
+            },
+            {
+              "id": "rape",
+              "heading": "Colza: osservare lo sviluppo",
+              "body": "Il consiglio Terres Inovia del 2 ottobre per la Normandia descrive sviluppo variabile della colza (Brassica napus) con caldo e siccità. La decisione sui regolatori parte dalla coltura osservata, non soltanto dalle somme termiche. Questa indicazione regionale non dimostra che ogni campo necessiti di trattamento."
+            },
+            {
+              "id": "legume",
+              "heading": "Leguminose: ricerca e limiti",
+              "body": "Il rapporto di ricerca Terres Inovia del 9 ottobre riguarda malattie del pisello invernale (Pisum sativum) e risorse genetiche di lenticchia (Lens culinaris) e cece (Cicer arietinum). Descrive attività di ricerca, non nuove varietà resistenti dimostrate o benefici aziendali quantificati."
+            },
+            {
+              "id": "forage",
+              "heading": "Sementi foraggere: adattare le varietà",
+              "body": "La pubblicazione DAFM Grass and White Clover Recommended List Varieties for Ireland 2026, ospitata da Teagasc, si basa su valutazioni pluriennali in più località. Le scelte di loietto perenne (Lolium perenne) e trifoglio bianco (Trifolium repens) dipendono da precocità, gestione e condizioni irlandesi. Non certifica lotti di sementi né classifica varietà per ogni regione europea."
+            }
+          ]
+        }
+      },
+      "coverage_limitations": "Regional French advice and research reporting plus Irish forage trials; not an EU variety ranking or certification of seed-production fields. No pesticide programme or universal sowing rate is prescribed. January 2026 is the forage-list publication month; observation start is a year-level coverage bound, not a dated field measurement.",
+      "headline": "Autumn seed decisions: establishment, varieties and legume research",
+      "summary": "French technical institutes and Ireland’s official variety list offer complementary evidence for cereals, oilseed rape, grain legumes and forage seed choices. Their regional advice and research summaries do not establish EU-wide performance rankings.",
+      "why_it_matters": "Match variety evidence to local soils, disease risks and intended use. Research announcements are not proof of a yield advantage or a prescription for seed-production fields.",
+      "content": [
+        {
+          "id": "cereal",
+          "heading": "Cereals: inspect the seedbed",
+          "body": "ARVALIS’s 1 October advisory links cereal establishment to seedbed moisture and weed history. For winter wheat (Triticum aestivum) and winter barley (Hordeum vulgare), inspect fields before timing operations. The article’s early-October rain outlook is historical, not a forecast for today.",
+          "claim_ids": [
+            "cereal"
+          ]
+        },
+        {
+          "id": "rape",
+          "heading": "Oilseed rape: observe crop development",
+          "body": "Terres Inovia’s 2 October Normandy advisory describes variable oilseed rape (Brassica napus) development under warmth and drought. Its growth-regulator decision starts with the observed crop, not temperature totals alone. This is regional management guidance, not evidence that all fields need treatment.",
+          "claim_ids": [
+            "rape"
+          ]
+        },
+        {
+          "id": "legume",
+          "heading": "Legumes: research, not a proven variety claim",
+          "body": "Terres Inovia’s 9 October research report covers winter pea (Pisum sativum) diseases and genetic resources for lentil (Lens culinaris) and chickpea (Cicer arietinum). It describes research activity, not newly proven disease-resistant varieties or quantified farm-level benefits.",
+          "claim_ids": [
+            "legume"
+          ]
+        },
+        {
+          "id": "forage",
+          "heading": "Forage seed: match varieties to conditions",
+          "body": "The DAFM Grass and White Clover Recommended List Varieties for Ireland 2026, hosted by Teagasc, draws on multi-location, multi-year evaluation. Perennial ryegrass (Lolium perenne) and white clover (Trifolium repens) choices depend on maturity, management and Irish conditions. This does not certify seed-lot quality or rank varieties for every EU region.",
+          "claim_ids": [
+            "forage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "cereal",
+          "statement": "ARVALIS’s 1 October advisory links cereal establishment to seedbed moisture and weed history. For winter wheat (Triticum aestivum) and winter barley (Hordeum vulgare), inspect fields before timing operations. The article’s early-October rain outlook is historical, not a forecast for today.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "cereal"
+          ],
+          "scope": "Regional French advice and research reporting plus Irish forage trials; not an EU variety ranking or certification of seed-production fields. No pesticide programme or universal sowing rate is prescribed. January 2026 is the forage-list publication month; observation start is a year-level coverage bound, not a dated field measurement.",
+          "limitations": "Source-specific synthesis with explicit limits; practical relevance is editorial interpretation, not a measured outcome.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "rape",
+          "statement": "Terres Inovia’s 2 October Normandy advisory describes variable oilseed rape (Brassica napus) development under warmth and drought. Its growth-regulator decision starts with the observed crop, not temperature totals alone. This is regional management guidance, not evidence that all fields need treatment.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "rape"
+          ],
+          "scope": "Regional French advice and research reporting plus Irish forage trials; not an EU variety ranking or certification of seed-production fields. No pesticide programme or universal sowing rate is prescribed. January 2026 is the forage-list publication month; observation start is a year-level coverage bound, not a dated field measurement.",
+          "limitations": "Source-specific synthesis with explicit limits; practical relevance is editorial interpretation, not a measured outcome.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "legume",
+          "statement": "Terres Inovia’s 9 October research report covers winter pea (Pisum sativum) diseases and genetic resources for lentil (Lens culinaris) and chickpea (Cicer arietinum). It describes research activity, not newly proven disease-resistant varieties or quantified farm-level benefits.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "legume"
+          ],
+          "scope": "Regional French advice and research reporting plus Irish forage trials; not an EU variety ranking or certification of seed-production fields. No pesticide programme or universal sowing rate is prescribed. January 2026 is the forage-list publication month; observation start is a year-level coverage bound, not a dated field measurement.",
+          "limitations": "Source-specific synthesis with explicit limits; practical relevance is editorial interpretation, not a measured outcome.",
+          "publish_conclusion": true
+        },
+        {
+          "id": "forage",
+          "statement": "The DAFM Grass and White Clover Recommended List Varieties for Ireland 2026, hosted by Teagasc, draws on multi-location, multi-year evaluation. Perennial ryegrass (Lolium perenne) and white clover (Trifolium repens) choices depend on maturity, management and Irish conditions. This does not certify seed-lot quality or rank varieties for every EU region.",
+          "evidence_class": "SUPPORTED",
+          "source_ids": [
+            "forage"
+          ],
+          "scope": "Regional French advice and research reporting plus Irish forage trials; not an EU variety ranking or certification of seed-production fields. No pesticide programme or universal sowing rate is prescribed. January 2026 is the forage-list publication month; observation start is a year-level coverage bound, not a dated field measurement.",
+          "limitations": "Source-specific synthesis with explicit limits; practical relevance is editorial interpretation, not a measured outcome.",
+          "publish_conclusion": true
+        }
+      ]
     }
   ],
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-16",
   "editorial_model_version": 2
 }

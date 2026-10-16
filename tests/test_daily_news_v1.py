@@ -18,6 +18,12 @@ class DailyNewsV1Tests(unittest.TestCase):
                                 capture_output=True, text=True, check=True)
         self.assertIn('Daily News DOM PASS', result.stdout)
 
+    def test_homepage_restoration_selection_and_provenance(self):
+        subprocess.run(['node', '--test', 'tests/homepageNewsRestoration.test.mjs'], cwd=ROOT, capture_output=True, text=True, check=True)
+
+    def test_homepage_restoration_empty_and_image_fallbacks(self):
+        subprocess.run(['node', 'scripts/check_homepage_restoration.mjs'], cwd=ROOT, capture_output=True, text=True, check=True)
+
     def test_protected_data_and_server_are_unchanged(self):
         for path in ['server/networkInterestLegacy.mjs', 'src/generated/market_public.json',
                      'src/generated/weather_public.json',

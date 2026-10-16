@@ -4,10 +4,15 @@ import fs from 'node:fs'
 import React,{act} from 'react'
 import {JSDOM} from 'jsdom'
 import {createServer} from 'vite'
+import {selectStreamHighlights} from '../src/news.mjs'
+import registry from '../src/data/news_sources.json' with {type:'json'}
 import {localizedContentText} from '../src/i18n/content.mjs'
 const species=JSON.parse(fs.readFileSync('src/data/species_master_v1_1.json','utf8')).species
 const plain=value=>species.reduce((text,item)=>item.botanical_name?text.replaceAll(` (${item.botanical_name})`,''):text,value)
 const data=JSON.parse(fs.readFileSync('src/generated/news.json','utf8')),records=data.items.filter(item=>item.stream)
+// Pin the reviewed publication snapshot; wall-clock expiry is tested separately.
+const NativeDateTimeFormat=Intl.DateTimeFormat
+Intl.DateTimeFormat=function(locale,options){const f=new NativeDateTimeFormat(locale,options);if(options?.timeZone==='Europe/Vilnius')f.formatToParts=()=>['year','month','day'].map((type,i)=>({type,value:data.as_of.split('-')[i]}));return f}
 const dom=new JSDOM('<html><head><title></title></head><body><div id="root"></div></body></html>',{url:'https://seedtrade.test/news',pretendToBeVisual:true})
 globalThis.window=dom.window;globalThis.document=dom.window.document;globalThis.IS_REACT_ACT_ENVIRONMENT=true
 window.HTMLElement.prototype.scrollIntoView=()=>{}
@@ -31,11 +36,11 @@ try {
  const load=async path=>{if(root)await act(async()=>root.unmount());dom.reconfigure({url:`https://seedtrade.test${path}`});root=createRoot(document.getElementById('root'));await act(async()=>root.render(React.createElement(App)))}
  await load('/news')
  const cards=()=>[...document.querySelectorAll('.news-grid .news-card')]
- assert.equal(cards().length,8)
- await change(document.querySelector('select[aria-label="Filter news by date"]'),'RECENT');assert.ok(cards().length<8&&cards().length>=4)
+ assert.equal(cards().length,data.items.length)
+ await change(document.querySelector('select[aria-label="Filter news by date"]'),'RECENT');assert.ok(cards().length<data.items.length&&cards().length>=4)
  await change(document.querySelector('select[aria-label="Filter news by date"]'),'ALL')
  await act(async()=>[...document.querySelectorAll('.filters button')].find(button=>button.textContent==='EU Agronomist').click())
- assert.equal(cards().length,1);assert.ok(cards()[0].textContent.includes(records[1].headline))
+ assert.equal(cards().length,2);assert.ok(cards().some(card=>card.textContent.includes(records[1].headline)))
  await change(document.querySelector('select[aria-label="Filter news by country or region"]'),'NL');assert.equal(cards().length,0);assert.ok(document.querySelector('.empty-state'))
  await change(document.querySelector('select[aria-label="Filter news by country or region"]'),'LV');assert.equal(cards().length,1)
  await change(document.querySelector('select[aria-label="Filter news by crop"]'),'winter wheat');assert.equal(cards().length,1)
@@ -50,7 +55,7 @@ try {
  }
  await change(document.querySelector('.language-select'),'DE')
  await load('/');assert.equal(document.querySelector('.language-select').value,'DE');assert.equal(document.querySelectorAll('.top-news .news-card').length,4)
- for(const item of records)assert.ok(plain(document.querySelector('.top-news').textContent).includes(plain(localizedContentText(item,'DE','headline'))))
+ for(const {item} of selectStreamHighlights(data.items,'2026-10-16',registry))assert.ok(plain(document.querySelector('.top-news').textContent).includes(plain(localizedContentText(item,'DE','headline'))))
  await load(`/news/${records[0].slug}`);assert.equal(document.querySelector('.language-select').value,'DE');assert.ok(plain(document.querySelector('main').textContent).includes(plain(localizedContentText(records[0],'DE','content.0.body'))))
  await load(`/news/${records[0].slug}`);assert.equal(document.querySelector('.language-select').value,'DE')
  for(const slug of ['private-fixture','draft-fixture','future-fixture']){
@@ -60,4 +65,4 @@ try {
   assert.equal(document.querySelectorAll('.news-section').length,0)
  }
  console.log('Daily News DOM PASS: stream/country/crop/date/period controls, empty state, EN → DE → FR → ES → IT → EN, flags, navigation and refresh persistence; external requests=0')
-}finally{if(root)await act(async()=>root.unmount());await vite.close();dom.window.close();globalThis.fetch=originalFetch}
+}finally{if(root)await act(async()=>root.unmount());await vite.close();dom.window.close();globalThis.fetch=originalFetch;Intl.DateTimeFormat=NativeDateTimeFormat}

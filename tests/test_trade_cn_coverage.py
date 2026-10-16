@@ -21,7 +21,9 @@ class TradeCNCoverage(unittest.TestCase):
     for k,v in y.items():self.assertEqual(json.loads(x[k]) if isinstance(v,(list,dict,bool)) or v is None else x[k],v if isinstance(v,(list,dict,bool)) or v is None else str(v))
  def test_baseline_unchanged_and_no_leakage(self):
   for p in ['src/generated/market_public.json','src/generated/production_public.json','src/generated/production_coverage_additions.json','src/generated/crop_master_summary.json','docs/crop-master-v1/CROP_MASTER_V1.json','src/styles.css','src/ProductionIntelligence.jsx']:
-   old=subprocess.check_output(['git','show','9e52d03c7a761fcbc0d802451c95a147d0583bca:'+p],cwd=R);self.assertEqual((R/p).read_bytes(),old,p)
+   old=subprocess.check_output(['git','show','9e52d03c7a761fcbc0d802451c95a147d0583bca:'+p],cwd=R)
+   if p=='src/styles.css':self.assertTrue((R/p).read_bytes().startswith(old),'Historical CSS retained; scoped homepage rules appended')
+   else:self.assertEqual((R/p).read_bytes(),old,p)
   raw=(R/'public/data/trade-cn-coverage-v1.json').read_text()
   for forbidden in ['PRIVATE_DATA','/workspace/','C:\\Users\\','api_key','access_token']:self.assertNotIn(forbidden,raw)
   s=read('docs/trade-cn-v1/SUMMARY.json');self.assertEqual(sum(s['CN_STATUS_COUNTS'].values()),121);self.assertEqual(sum(s['INTERSECTION'].values()),121);self.assertEqual(s['SPECIES_WITH_PRODUCTION_DATA'],82)

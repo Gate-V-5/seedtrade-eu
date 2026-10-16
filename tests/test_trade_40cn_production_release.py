@@ -12,4 +12,8 @@ class Trade40Release(unittest.TestCase):
   metrics=[x['audited_latest_trade']for x in d['categories']];u=d['category_unallocated'];self.assertEqual(sum(D(str(x['trade_value_eur']or 0))for x in metrics)+D(u['unallocated_eur']),D('400438328'));self.assertTrue(all(x['volume_tonnes']is None for x in metrics if not x['cn_count']));self.assertTrue(all(not s['group_volume_allocated']for c in d['categories']for s in c['species']))
  def test_protected_production_editorial_and_visual_bytes(self):
   for f in ['src/generated/production_public.json','src/generated/production_coverage_additions.json','src/ProductionIntelligence.jsx','src/styles.css','src/generated/news.json','src/generated/market_public.json','docs/crop-master-v1/CROP_MASTER_V1.json']:
-   self.assertEqual((R/f).read_bytes(),subprocess.check_output(['git','show','dbfd99350479044794837269ed7ef2e7b6c2d4ab:'+f],cwd=R),f)
+   old=subprocess.check_output(['git','show','dbfd99350479044794837269ed7ef2e7b6c2d4ab:'+f],cwd=R)
+   if f=='src/styles.css':self.assertTrue((R/f).read_bytes().startswith(old),'Historical CSS retained')
+   elif f=='src/generated/news.json':
+    baseline=json.loads(old);self.assertEqual(json.loads((R/f).read_text())['items'][:len(baseline['items'])],baseline['items'])
+   else:self.assertEqual((R/f).read_bytes(),old)

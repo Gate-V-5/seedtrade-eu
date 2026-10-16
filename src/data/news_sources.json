@@ -103,7 +103,7 @@
       "reliability_notes": "Applied trials and regional advice",
       "limitations": "Trial conditions and regional applicability must be retained.",
       "active": true,
-      "last_checked": "2026-10-01",
+      "last_checked": "2026-10-16",
       "access_check_status": "VERIFIED_PUBLIC"
     },
     {
@@ -120,7 +120,7 @@
       "reliability_notes": "Oilseed and protein-crop applied research",
       "limitations": "Commodity quality is not certified sowing-seed quality.",
       "active": true,
-      "last_checked": "2026-10-01",
+      "last_checked": "2026-10-16",
       "access_check_status": "VERIFIED_PUBLIC"
     },
     {
@@ -175,7 +175,7 @@
       "reliability_notes": "Public research and extension",
       "limitations": "Irish assumptions are not automatically transferable.",
       "active": true,
-      "last_checked": "2026-10-01",
+      "last_checked": "2026-10-16",
       "access_check_status": "VERIFIED_PUBLIC"
     },
     {
@@ -353,6 +353,23 @@
       "limitations": "Screen for seed relevance and confirm individual event details.",
       "active": true,
       "last_checked": "2026-10-01",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "copernicus-c3s",
+      "source_name": "Copernicus Climate Change Service / ECMWF",
+      "country_region": "Europe",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Weather"
+      ],
+      "public_url": "https://climate.copernicus.eu/climate-bulletin",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Monthly retrospective climate bulletin",
+      "reliability_notes": "Primary ERA5 and ERA5-Land climate analysis; not a forecast.",
+      "limitations": "Surface soil moisture is qualitative regional context, not field measurements or certified-seed losses.",
+      "active": true,
+      "last_checked": "2026-10-16",
       "access_check_status": "VERIFIED_PUBLIC"
     }
   ]

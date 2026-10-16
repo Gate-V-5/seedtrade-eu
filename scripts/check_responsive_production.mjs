@@ -31,7 +31,7 @@ try{
   const doc=dom.window.document,style=doc.createElement('style');style.textContent=active(parser.window.document.styleSheets[0].cssRules,width);doc.head.append(style)
   const computed=element=>dom.window.getComputedStyle(element)
   assert.equal(doc.querySelectorAll('.top-news .news-card').length,4)
-  const expectedColumns=width<=620?'minmax(0,1fr)':width<=1120?'repeat(2,minmax(0,1fr))':'repeat(4,minmax(0,1fr))'
+  const expectedColumns=width<=620?'minmax(0,1fr)':width<=1120?'repeat(auto-fit,minmax(min(100%,260px),1fr))':'repeat(var(--news-count,4),minmax(0,1fr))'
   assert.equal(computed(doc.querySelector('.top-news .news-list')).gridTemplateColumns.replaceAll(' ',''),expectedColumns.replaceAll(' ',''))
   for(const card of doc.querySelectorAll('.top-news .news-card')){
    const link=card.querySelector('.news-image-link'),img=link.querySelector('img')
