@@ -1,0 +1,257 @@
+{
+  "schema": "CATALOGUE_GATE_VISUALS_V1",
+  "items": [
+    {
+      "original": "/catalogue-v3/cereals-pulses.png",
+      "slug": "cereals-pulses",
+      "kind": "GATE_OWNER_AI_VISUAL",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "owner": "GATE",
+      "rights_status": "VERIFIED",
+      "rights_scope": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+      "rights_evidence": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "owner_approval": "PACKAGE1E3A_20261017",
+      "license": "OWNER_AUTHORIZED_NOT_A_PUBLIC_LICENSE",
+      "visual_review": "PASS",
+      "original_sha256": "3489f8b2b5de49a1009b8f44fa42c07c17b698f25c5fd005518951f256f24290",
+      "original_width": 2048,
+      "original_height": 1143,
+      "historical_commit": "7f308361ab5493a66de8e392515b59de5a8c1247",
+      "category_title": "Cereals & Pulses",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/gate-cereals-pulses-400.70d7ee4727a1.webp",
+          "width": 400,
+          "height": 223,
+          "bytes": 26438,
+          "sha256": "70d7ee4727a1bd72d3cd238614d97a2aca748446b60be25ae6af8e0551046c16"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-cereals-pulses-800.3312381fd0f6.webp",
+          "width": 800,
+          "height": 446,
+          "bytes": 72478,
+          "sha256": "3312381fd0f62007e9654e4db6c7592b39a1e461a2681b7219167e2aa117cd43"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-cereals-pulses-1200.295494825e23.webp",
+          "width": 1200,
+          "height": 670,
+          "bytes": 121064,
+          "sha256": "295494825e23b1b9768e362a1a91a51072edeab1cd3d913866325102baa78da3"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/vegetables.png",
+      "slug": "vegetables",
+      "kind": "GATE_OWNER_AI_VISUAL",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "owner": "GATE",
+      "rights_status": "VERIFIED",
+      "rights_scope": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+      "rights_evidence": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "owner_approval": "PACKAGE1E3A_20261017",
+      "license": "OWNER_AUTHORIZED_NOT_A_PUBLIC_LICENSE",
+      "visual_review": "PASS",
+      "original_sha256": "84016b74e1bd341609044130a1856a8e62a8093829948b0b62c5bbb38ba5f0a3",
+      "original_width": 2048,
+      "original_height": 1143,
+      "historical_commit": "7f308361ab5493a66de8e392515b59de5a8c1247",
+      "category_title": "Vegetables",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/gate-vegetables-400.a69b0ef57954.webp",
+          "width": 400,
+          "height": 223,
+          "bytes": 27824,
+          "sha256": "a69b0ef5795439a09e129ad289d47b7666dd75f0d3acffbc7b30e0127e571fc9"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-vegetables-800.325fbddc48c3.webp",
+          "width": 800,
+          "height": 446,
+          "bytes": 75798,
+          "sha256": "325fbddc48c3af335e8fcd38eb06e6c9a9899ffbb94f20b43a23e68b5a65dca4"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-vegetables-1200.faa9d1829181.webp",
+          "width": 1200,
+          "height": 670,
+          "bytes": 129986,
+          "sha256": "faa9d1829181b8067c71a44909dbdf8d851af9d8cec6434ac7ff846fc45b2516"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/oil-fibre.png",
+      "slug": "oil-fibre",
+      "kind": "GATE_OWNER_AI_VISUAL",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "owner": "GATE",
+      "rights_status": "VERIFIED",
+      "rights_scope": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+      "rights_evidence": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "owner_approval": "PACKAGE1E3A_20261017",
+      "license": "OWNER_AUTHORIZED_NOT_A_PUBLIC_LICENSE",
+      "visual_review": "PASS",
+      "original_sha256": "114ef17b54e16c37cc828b61b7e9764752374be9e980767c448e4827df926d9e",
+      "original_width": 2048,
+      "original_height": 1143,
+      "historical_commit": "7f308361ab5493a66de8e392515b59de5a8c1247",
+      "category_title": "Oil & Fibre Seeds",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/gate-oil-fibre-400.87a61b148fc4.webp",
+          "width": 400,
+          "height": 223,
+          "bytes": 30288,
+          "sha256": "87a61b148fc4a97cb1711292e5f3de4fd2c966e751631ea0e8e740fa5cda09e7"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-oil-fibre-800.8f7c65167da5.webp",
+          "width": 800,
+          "height": 446,
+          "bytes": 94182,
+          "sha256": "8f7c65167da5e9dd69ec261cc1fa6461d217cf61e09921924af407cdd07e0cf2"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-oil-fibre-1200.5b7c892e1a8d.webp",
+          "width": 1200,
+          "height": 670,
+          "bytes": 171808,
+          "sha256": "5b7c892e1a8db0d9719eaaff9e57528b9177de86911e403e1c8f109db2d3cfa3"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/maize-sorghum.png",
+      "slug": "maize-sorghum",
+      "kind": "GATE_OWNER_AI_VISUAL",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "owner": "GATE",
+      "rights_status": "VERIFIED",
+      "rights_scope": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+      "rights_evidence": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "owner_approval": "PACKAGE1E3A_20261017",
+      "license": "OWNER_AUTHORIZED_NOT_A_PUBLIC_LICENSE",
+      "visual_review": "PASS",
+      "original_sha256": "0698f525f6fbc88eaca38fa4a76e8316a1bc754b6820a1a11d19fba1e918a91b",
+      "original_width": 2048,
+      "original_height": 1143,
+      "historical_commit": "7f308361ab5493a66de8e392515b59de5a8c1247",
+      "category_title": "Maize & Sorghum",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/gate-maize-sorghum-400.264b367edd82.webp",
+          "width": 400,
+          "height": 223,
+          "bytes": 42324,
+          "sha256": "264b367edd825cfb620bc265f13bede2ea943b79aef17e6b6166697a12bec444"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-maize-sorghum-800.dabddba655bc.webp",
+          "width": 800,
+          "height": 446,
+          "bytes": 132008,
+          "sha256": "dabddba655bc9f358ef9259c0b54ae13e2d4e2a534682b6b413f665ddf5095f6"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-maize-sorghum-1200.03b3565d78e9.webp",
+          "width": 1200,
+          "height": 670,
+          "bytes": 224306,
+          "sha256": "03b3565d78e9284c800d88e39846b8284c152aa9759d60ff1ba522b4a85b7ddb"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/fodder-amenity.png",
+      "slug": "fodder-amenity",
+      "kind": "GATE_OWNER_AI_VISUAL",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "owner": "GATE",
+      "rights_status": "VERIFIED",
+      "rights_scope": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+      "rights_evidence": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "owner_approval": "PACKAGE1E3A_20261017",
+      "license": "OWNER_AUTHORIZED_NOT_A_PUBLIC_LICENSE",
+      "visual_review": "PASS",
+      "original_sha256": "aa8d9484525b3c8237a7bca2fcef6964f4f56af8fce184efa202613c9d929f91",
+      "original_width": 2048,
+      "original_height": 1143,
+      "historical_commit": "7f308361ab5493a66de8e392515b59de5a8c1247",
+      "category_title": "Fodder Plants & Amenity Grasses",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/gate-fodder-amenity-400.18d46cbd3be8.webp",
+          "width": 400,
+          "height": 223,
+          "bytes": 29640,
+          "sha256": "18d46cbd3be8a468e219b8a01c63f224ec703cc7e73e9830c588cfe7b46f3062"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-fodder-amenity-800.848c73359153.webp",
+          "width": 800,
+          "height": 446,
+          "bytes": 87522,
+          "sha256": "848c733591537ee1cfa748d0e5a325883879588c8b6c6638148e480176d25080"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-fodder-amenity-1200.0d96d84b69d3.webp",
+          "width": 1200,
+          "height": 670,
+          "bytes": 150646,
+          "sha256": "0d96d84b69d3cd791359c6493d8764c7c5d989223ef0096bd866e9c6527a95b6"
+        }
+      ]
+    },
+    {
+      "original": "/catalogue-v3/catch-crops.png",
+      "slug": "catch-crops",
+      "kind": "GATE_OWNER_AI_VISUAL",
+      "classification": "PUBLIC_SAFE",
+      "documentary_evidence": false,
+      "owner": "GATE",
+      "rights_status": "VERIFIED",
+      "rights_scope": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+      "rights_evidence": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "owner_approval": "PACKAGE1E3A_20261017",
+      "license": "OWNER_AUTHORIZED_NOT_A_PUBLIC_LICENSE",
+      "visual_review": "PASS",
+      "original_sha256": "df9b48d69ba3eb09bac8fbd537d4fa794ac5659066717f8aa4288eb2870e9fc0",
+      "original_width": 2048,
+      "original_height": 1143,
+      "historical_commit": "7f308361ab5493a66de8e392515b59de5a8c1247",
+      "category_title": "Catch / Cover Crops",
+      "variants": [
+        {
+          "src": "/catalogue-v3/responsive/gate-catch-crops-400.bb58c8adf8c0.webp",
+          "width": 400,
+          "height": 223,
+          "bytes": 30208,
+          "sha256": "bb58c8adf8c099ce6acc82f321599e84ddbec3d89e97ad29bc8fa5c1a16d0e39"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-catch-crops-800.799d076de847.webp",
+          "width": 800,
+          "height": 446,
+          "bytes": 92750,
+          "sha256": "799d076de8474f281605f4514c3199113e8a62caa40928053526b0367261f43b"
+        },
+        {
+          "src": "/catalogue-v3/responsive/gate-catch-crops-1200.cd652e3282e6.webp",
+          "width": 1200,
+          "height": 670,
+          "bytes": 166568,
+          "sha256": "cd652e3282e68870ffe3166e8cdc1cf65ef17f88a4bd8c002a8ea9aacdd809ac"
+        }
+      ]
+    }
+  ]
+}

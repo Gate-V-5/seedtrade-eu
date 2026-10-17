@@ -71,3 +71,8 @@ now governs placement: no credits in homepage/archive cards; title/photographer
 and compact accessible licence disclosure on articles. Full metadata remains in
 the registry. V1 commercial rights, image identity, local hashes, attribution,
 ShareAlike and real-photo requirements remain unchanged. V3 is the canonical presentation policy.
+
+
+## Group-specific visual policy
+
+[Visual Asset Policy V1](../visual-policy/VISUAL_ASSET_POLICY.md) governs the four protected visual groups. News photography requirements apply to News;they do not authorize replacing owner-protected GATE category/Evidence artwork or partner assets.

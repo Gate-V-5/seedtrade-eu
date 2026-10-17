@@ -26,9 +26,9 @@ const notices=fs.readFileSync('public/catalogue-v3/responsive/LICENSES.txt','utf
 for(const item of registry.items){assert.ok(notices.includes(item.file_title));assert.ok(notices.includes(item.author));assert.ok(notices.includes(item.source_page));assert.ok(notices.includes(item.license_url))}
 console.log('Catalogue photography PASS: six verified sources,18 hashed WebP derivatives,original identity,license notices,<=1MB at each width; real browser selection separate')
 if(process.argv.includes('--finalize')){
- // Preserve originals in source/recovery, but do not ship the unverified legacy
+ // Preserve originals in source/recovery, but do not ship the high-resolution source
  // catalogue PNGs in a newly built release. Only these exact six paths retire.
  for(const item of registry.items){const file='dist'+item.original;if(fs.existsSync(file))fs.unlinkSync(file)}
  function visit(directory){for(const entry of fs.readdirSync(directory,{withFileTypes:true})){const file=directory+'/'+entry.name;if(entry.isDirectory())visit(file);else if(entry.name==='index.html'){const html=fs.readFileSync(file,'utf8');for(const item of registry.items)assert.ok(!html.includes('src="'+item.original+'"'),'Legacy image rendered: '+file)}}}
- visit('dist');console.log('Final artifact: six unverified legacy PNGs withheld; immutable source originals preserved')
+ visit('dist');console.log('Final artifact: six high-resolution source PNGs withheld; immutable originals preserved')
 }

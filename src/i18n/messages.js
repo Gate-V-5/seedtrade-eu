@@ -1,6 +1,11 @@
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["Original GATE AI illustration", "Originale GATE-KI-Illustration", "Illustration IA originale GATE", "Ilustración IA original de GATE", "Illustrazione IA originale GATE"],
+  ["Category visual unavailable", "Kategorieabbildung nicht verfügbar", "Visuel de catégorie indisponible", "Imagen de categoría no disponible", "Immagine della categoria non disponibile"],
+  ["Catalogue visual provenance", "Herkunft der Katalogabbildungen", "Provenance des visuels du catalogue", "Procedencia de las imágenes del catálogo", "Provenienza delle immagini del catalogo"],
+  ["Original GATE-created AI illustrations; illustrative category visuals, not documentary evidence.", "Originale, von GATE erstellte KI-Illustrationen; illustrative Kategorieabbildungen, keine dokumentarischen Nachweise.", "Illustrations IA originales créées par GATE ; visuels illustratifs des catégories, pas des preuves documentaires.", "Ilustraciones IA originales creadas por GATE; imágenes ilustrativas de categorías, no pruebas documentales.", "Illustrazioni IA originali create da GATE; immagini illustrative delle categorie, non prove documentali."],
+  ["Owner-approved restoration; resized and converted to WebP without cropping. No public reuse license is asserted.", "Vom Eigentümer genehmigte Wiederherstellung; ohne Beschnitt skaliert und in WebP konvertiert. Keine öffentliche Nachnutzungslizenz zugesichert.", "Restauration approuvée par le propriétaire ; redimensionnement et conversion WebP sans recadrage. Aucune licence publique de réutilisation déclarée.", "Restauración aprobada por el propietario; redimensionadas y convertidas a WebP sin recorte. No se declara una licencia pública de reutilización.", "Ripristino approvato dal proprietario; ridimensionamento e conversione WebP senza ritaglio. Nessuna licenza pubblica di riutilizzo dichiarata."],
   ["Seed offer", "Saatgutangebot", "Offre de semences", "Oferta de semillas", "Offerta di sementi"],
   ["Skip to main content", "Zum Hauptinhalt springen", "Aller au contenu principal", "Saltar al contenido principal", "Vai al contenuto principale"],
   ["Pause rotation", "Rotation pausieren", "Mettre la rotation en pause", "Pausar rotación", "Sospendi rotazione"],

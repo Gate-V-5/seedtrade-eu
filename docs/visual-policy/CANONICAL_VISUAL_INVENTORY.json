@@ -1,0 +1,370 @@
+{
+  "schema": "PROTECTED_VISUAL_GROUPS_V1",
+  "owner_approval": "PACKAGE1E3A_20261017",
+  "groups": {
+    "TOP_NEWS": [
+      {
+        "path": "public/news-visuals/interpom-2026-exhibitor-profile.svg",
+        "sha256": "8b8dd8d45c855721d7dfcca7b6a4453b9e6722c1e27dd87cea480a0752b6496f",
+        "key": "interpom-2026-exhibitor-profile",
+        "kind": "EDITORIAL_ILLUSTRATION",
+        "rights": "Original project-created SVG; no third-party imagery",
+        "top_news_eligible": false,
+        "historical_archive_exception": true
+      },
+      {
+        "path": "public/news-visuals/europe-potato-crop-drought-estimate-2026.svg",
+        "sha256": "6d357d67c4cc1e43a6a026303a2b5270ed34e66fbd1529820bee20fd677a0d53",
+        "key": "europe-potato-crop-drought-estimate-2026",
+        "kind": "EDITORIAL_ILLUSTRATION",
+        "rights": "Original project-created SVG; no third-party imagery",
+        "top_news_eligible": false,
+        "historical_archive_exception": true
+      },
+      {
+        "path": "public/news-visuals/northern-ireland-seed-potato-rules-update-2026.svg",
+        "sha256": "fd0768d882bb560fccbfab721f9eaa4adf0fb548780a6bd9a4c2fab28bd74398",
+        "key": "northern-ireland-seed-potato-rules-update-2026",
+        "kind": "EDITORIAL_ILLUSTRATION",
+        "rights": "Original project-created SVG; no third-party imagery",
+        "top_news_eligible": false,
+        "historical_archive_exception": true
+      },
+      {
+        "path": "public/news-visuals/europe-summer-crop-heat-drought-2026.svg",
+        "sha256": "a4b0257459159b95bb3e9f55f56009c714d4e6e35101f8b17ef0879d9fff10b5",
+        "key": "europe-summer-crop-heat-drought-2026",
+        "kind": "EDITORIAL_ILLUSTRATION",
+        "rights": "Original project-created SVG; no third-party imagery",
+        "top_news_eligible": false,
+        "historical_archive_exception": true
+      },
+      {
+        "path": "public/editorial/eu-weather-september-2026-baseline.webp",
+        "sha256": "cfec1d2236e06b5ca685224a78dc56ae9999c3ce6fc3060cb72e7bd01c497dd4",
+        "key": "eu-weather-september-2026-baseline",
+        "kind": "EDITORIAL_PHOTOGRAPH",
+        "rights": "CC BY-SA 4.0",
+        "top_news_eligible": true,
+        "historical_archive_exception": false
+      },
+      {
+        "path": "public/editorial/eu-agronomist-latvia-autumn-establishment.webp",
+        "sha256": "504fbc3a522d3dbb5ce285079e57af7b61dc7b00839aefd889313fbbf434e53d",
+        "key": "eu-agronomist-latvia-autumn-establishment",
+        "kind": "EDITORIAL_PHOTOGRAPH",
+        "rights": "CC BY-SA 2.0",
+        "top_news_eligible": true,
+        "historical_archive_exception": false
+      },
+      {
+        "path": "public/editorial/eu-trade-market-nak-interim-seed-potato-checks.webp",
+        "sha256": "4fab8d63e670cb502a005b2a6c142d84d2d29301608c3360891774a02805ba31",
+        "key": "eu-trade-market-nak-interim-seed-potato-checks",
+        "kind": "EDITORIAL_PHOTOGRAPH",
+        "rights": "CC BY-SA 3.0",
+        "top_news_eligible": true,
+        "historical_archive_exception": false
+      },
+      {
+        "path": "public/editorial/eu-events-euroseeds-valencia-october-2026.webp",
+        "sha256": "4c1a00c7c45396f99b0695d8e6097a400d4b6a88845d4f6f53abb8afc39f482b",
+        "key": "eu-events-euroseeds-valencia-october-2026",
+        "kind": "EDITORIAL_PHOTOGRAPH",
+        "rights": "CC BY-SA 4.0",
+        "top_news_eligible": true,
+        "historical_archive_exception": false
+      },
+      {
+        "path": "public/editorial/europe-september-2026-climate-retrospective.webp",
+        "sha256": "c1fd60837e8d26c265aee7814c371d081248f65894cddbd54c5c3f5610651dde",
+        "key": "europe-september-2026-climate-retrospective",
+        "kind": "EDITORIAL_PHOTOGRAPH",
+        "rights": "Public domain (author dedication)",
+        "top_news_eligible": true,
+        "historical_archive_exception": false
+      },
+      {
+        "path": "public/editorial/autumn-2026-agronomy-evidence-review.webp",
+        "sha256": "c0cfd679ac26f3202cbbbc0c67604c48181f05a7cb5413fcb9be39ab1425a1c1",
+        "key": "autumn-2026-agronomy-evidence-review",
+        "kind": "EDITORIAL_PHOTOGRAPH",
+        "rights": "CC BY-SA 2.0",
+        "top_news_eligible": true,
+        "historical_archive_exception": false
+      }
+    ],
+    "EVIDENCE_FOR_COMMERCIAL_SEED_DECISIONS": [
+      {
+        "path": "public/editorial/market.webp",
+        "sha256": "117e7111997103f9ac8898ef9a6631bed68e92051cea6246ac46fcd9448c7044",
+        "key": "market",
+        "kind": "OWNER_GATE_AI",
+        "source_original": {
+          "path": "assets/owner-approved/market.png",
+          "sha256": "38551fdee108fca5849c253b217d9b0734218cd2d0909099b913df4fea657b7d"
+        },
+        "rights": "OWNER_APPROVED_CONTEXTUAL_USE_NOT_STOCK_LICENSE",
+        "placement": ".intelligence-overview .intelligence-topic-visual.trade"
+      },
+      {
+        "path": "public/editorial/weather.webp",
+        "sha256": "854602670b666198b15af58fc976528d82693ecd2387179bc76e46eb384dd433",
+        "key": "weather",
+        "kind": "OWNER_GATE_AI",
+        "source_original": {
+          "path": "assets/owner-approved/weather.png",
+          "sha256": "0c8647deea01ba20fb77ddbd7e7b886b9cbc67bab5ff166169435c6ea4b2fe3f"
+        },
+        "rights": "OWNER_APPROVED_CONTEXTUAL_USE_NOT_STOCK_LICENSE",
+        "placement": ".intelligence-overview .intelligence-topic-visual.weather"
+      },
+      {
+        "path": "public/editorial/production.webp",
+        "sha256": "18d1a798a40110eb20ffac65257b8d08ffa9935bcb446e1432cc8a469520f563",
+        "key": "production",
+        "kind": "OWNER_GATE_AI",
+        "source_original": {
+          "path": "assets/owner-approved/production.png",
+          "sha256": "478d8ca1453a98438a15ce5cfab46d6d56ecb023061a568f6735127a5a40ae9b"
+        },
+        "rights": "OWNER_APPROVED_CONTEXTUAL_USE_NOT_STOCK_LICENSE",
+        "placement": ".intelligence-overview .intelligence-topic-visual.production"
+      }
+    ],
+    "RESEARCH_PARTNER_INSIGHTS_EVENTS": [
+      {
+        "path": "public/editorial/euroseeds-2026-congress-valencia.webp",
+        "sha256": "0cf7a8d50090d1d6cbff597f8953e0d9339605124a2d2e64308aa0cf9608ecb3",
+        "key": "euroseeds-2026-congress-valencia",
+        "kind": "PARTNER_CLIENT_APPROVED",
+        "source_original": {
+          "path": "assets/owner-approved/euroseeds-2026-congress-valencia.png",
+          "sha256": "90075c9b202f920f72f76fa6c18605c8dce13473df876e7f0bb2c03abd0598cf"
+        },
+        "rights": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+        "placement": "Research & Partner Insights / Events;unchanged associated article"
+      },
+      {
+        "path": "public/editorial/interpom-2026-europe-potato-value-chain.webp",
+        "sha256": "42ccb7ad6257edfa1da89a13ea82f80df9ddbb00ab07f9412615f510439a9c3b",
+        "key": "interpom-2026-europe-potato-value-chain",
+        "kind": "PARTNER_CLIENT_APPROVED",
+        "source_original": {
+          "path": "assets/owner-approved/interpom-2026-europe-potato-value-chain.png",
+          "sha256": "e85a108681ca40514d4f78e805a1656a2dbd8e065fceb89efb45664a286a285a"
+        },
+        "rights": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+        "placement": "Research & Partner Insights / Events;unchanged associated article"
+      },
+      {
+        "path": "public/editorial/lagrenas-contract-seed-multiplication-lithuania.webp",
+        "sha256": "9ce023336ebce6a69c5acbce186d8252382db8d892a765549d2f99f2cffb68b3",
+        "key": "lagrenas-contract-seed-multiplication-lithuania",
+        "kind": "PARTNER_CLIENT_APPROVED",
+        "source_original": {
+          "path": "assets/owner-approved/lagrenas-contract-seed-multiplication-lithuania.png",
+          "sha256": "5de6802831bca396a6df117bc7d4d4143b3f959e7f074d256ca8ac0b0e6507d8"
+        },
+        "rights": "Owner-approved supplied editorial asset; approval recorded 2026-10-02; no broader third-party licence asserted",
+        "placement": "Research & Partner Insights / Events;unchanged associated article"
+      }
+    ],
+    "EUROPEAN_SEED_MARKET": [
+      {
+        "path": "public/catalogue-v3/cereals-pulses.png",
+        "sha256": "3489f8b2b5de49a1009b8f44fa42c07c17b698f25c5fd005518951f256f24290",
+        "key": "cereals-pulses",
+        "kind": "GATE_OWNER_AI_VISUAL",
+        "rights": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+        "placement": "/market and /market/cereals-pulses",
+        "derivatives": [
+          {
+            "path": "public/catalogue-v3/responsive/gate-cereals-pulses-400.70d7ee4727a1.webp",
+            "sha256": "70d7ee4727a1bd72d3cd238614d97a2aca748446b60be25ae6af8e0551046c16"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-cereals-pulses-800.3312381fd0f6.webp",
+            "sha256": "3312381fd0f62007e9654e4db6c7592b39a1e461a2681b7219167e2aa117cd43"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-cereals-pulses-1200.295494825e23.webp",
+            "sha256": "295494825e23b1b9768e362a1a91a51072edeab1cd3d913866325102baa78da3"
+          }
+        ]
+      },
+      {
+        "path": "public/catalogue-v3/vegetables.png",
+        "sha256": "84016b74e1bd341609044130a1856a8e62a8093829948b0b62c5bbb38ba5f0a3",
+        "key": "vegetables",
+        "kind": "GATE_OWNER_AI_VISUAL",
+        "rights": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+        "placement": "/market and /market/vegetables",
+        "derivatives": [
+          {
+            "path": "public/catalogue-v3/responsive/gate-vegetables-400.a69b0ef57954.webp",
+            "sha256": "a69b0ef5795439a09e129ad289d47b7666dd75f0d3acffbc7b30e0127e571fc9"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-vegetables-800.325fbddc48c3.webp",
+            "sha256": "325fbddc48c3af335e8fcd38eb06e6c9a9899ffbb94f20b43a23e68b5a65dca4"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-vegetables-1200.faa9d1829181.webp",
+            "sha256": "faa9d1829181b8067c71a44909dbdf8d851af9d8cec6434ac7ff846fc45b2516"
+          }
+        ]
+      },
+      {
+        "path": "public/catalogue-v3/oil-fibre.png",
+        "sha256": "114ef17b54e16c37cc828b61b7e9764752374be9e980767c448e4827df926d9e",
+        "key": "oil-fibre",
+        "kind": "GATE_OWNER_AI_VISUAL",
+        "rights": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+        "placement": "/market and /market/oil-fibre",
+        "derivatives": [
+          {
+            "path": "public/catalogue-v3/responsive/gate-oil-fibre-400.87a61b148fc4.webp",
+            "sha256": "87a61b148fc4a97cb1711292e5f3de4fd2c966e751631ea0e8e740fa5cda09e7"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-oil-fibre-800.8f7c65167da5.webp",
+            "sha256": "8f7c65167da5e9dd69ec261cc1fa6461d217cf61e09921924af407cdd07e0cf2"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-oil-fibre-1200.5b7c892e1a8d.webp",
+            "sha256": "5b7c892e1a8db0d9719eaaff9e57528b9177de86911e403e1c8f109db2d3cfa3"
+          }
+        ]
+      },
+      {
+        "path": "public/catalogue-v3/maize-sorghum.png",
+        "sha256": "0698f525f6fbc88eaca38fa4a76e8316a1bc754b6820a1a11d19fba1e918a91b",
+        "key": "maize-sorghum",
+        "kind": "GATE_OWNER_AI_VISUAL",
+        "rights": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+        "placement": "/market and /market/maize-sorghum",
+        "derivatives": [
+          {
+            "path": "public/catalogue-v3/responsive/gate-maize-sorghum-400.264b367edd82.webp",
+            "sha256": "264b367edd825cfb620bc265f13bede2ea943b79aef17e6b6166697a12bec444"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-maize-sorghum-800.dabddba655bc.webp",
+            "sha256": "dabddba655bc9f358ef9259c0b54ae13e2d4e2a534682b6b413f665ddf5095f6"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-maize-sorghum-1200.03b3565d78e9.webp",
+            "sha256": "03b3565d78e9284c800d88e39846b8284c152aa9759d60ff1ba522b4a85b7ddb"
+          }
+        ]
+      },
+      {
+        "path": "public/catalogue-v3/fodder-amenity.png",
+        "sha256": "aa8d9484525b3c8237a7bca2fcef6964f4f56af8fce184efa202613c9d929f91",
+        "key": "fodder-amenity",
+        "kind": "GATE_OWNER_AI_VISUAL",
+        "rights": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+        "placement": "/market and /market/fodder-amenity",
+        "derivatives": [
+          {
+            "path": "public/catalogue-v3/responsive/gate-fodder-amenity-400.18d46cbd3be8.webp",
+            "sha256": "18d46cbd3be8a468e219b8a01c63f224ec703cc7e73e9830c588cfe7b46f3062"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-fodder-amenity-800.848c73359153.webp",
+            "sha256": "848c733591537ee1cfa748d0e5a325883879588c8b6c6638148e480176d25080"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-fodder-amenity-1200.0d96d84b69d3.webp",
+            "sha256": "0d96d84b69d3cd791359c6493d8764c7c5d989223ef0096bd866e9c6527a95b6"
+          }
+        ]
+      },
+      {
+        "path": "public/catalogue-v3/catch-crops.png",
+        "sha256": "df9b48d69ba3eb09bac8fbd537d4fa794ac5659066717f8aa4288eb2870e9fc0",
+        "key": "catch-crops",
+        "kind": "GATE_OWNER_AI_VISUAL",
+        "rights": "OWNER_AUTHORIZED_SITE_USE_ONLY",
+        "placement": "/market and /market/catch-crops",
+        "derivatives": [
+          {
+            "path": "public/catalogue-v3/responsive/gate-catch-crops-400.bb58c8adf8c0.webp",
+            "sha256": "bb58c8adf8c099ce6acc82f321599e84ddbec3d89e97ad29bc8fa5c1a16d0e39"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-catch-crops-800.799d076de847.webp",
+            "sha256": "799d076de8474f281605f4514c3199113e8a62caa40928053526b0367261f43b"
+          },
+          {
+            "path": "public/catalogue-v3/responsive/gate-catch-crops-1200.cd652e3282e6.webp",
+            "sha256": "cd652e3282e68870ffe3166e8cdc1cf65ef17f88a4bd8c002a8ea9aacdd809ac"
+          }
+        ]
+      }
+    ]
+  },
+  "protected_mapping_files": [
+    {
+      "path": "src/data/fixed_editorial_visuals.json",
+      "sha256": "7fad3131e1f37f35cd530bca2a041264c04b55338e081de15bdba2bd3261e21f"
+    },
+    {
+      "path": "src/data/news_visuals.json",
+      "sha256": "cca00c7dde4cd881b0c4959d0b2bebc0ec589b768837df7781091affbbe86878"
+    },
+    {
+      "path": "src/data/news_image_legacy_v1.json",
+      "sha256": "cb49b38f9d66020ecb207fec3aff8e08ba7d549bf0057241cadcc39d724f6913"
+    },
+    {
+      "path": "docs/news-photography-v1/LICENSE_EVIDENCE.json",
+      "sha256": "d923c003e9290002d6d50a8546cc96e1e8b8df5beb5070cccab540ca7d7cf15d"
+    },
+    {
+      "path": "docs/market-catalogue-v3/OWNER_VISUAL_PROVENANCE.json",
+      "sha256": "84a11e5493cc25bc38411213d3622d27ce3bbaeef9d747b7c8dd74734829ce26"
+    },
+    {
+      "path": "src/generated/insights.json",
+      "sha256": "97454e8232fc6f2d21d995f98637f26d23ab03dcf92b9839de871738be8654e2"
+    },
+    {
+      "path": "src/generated/news.json",
+      "sha256": "6b6762a44a52a14caf4a43b89b27703f13ae1b20f4f0673913fa53a3585cae8e"
+    },
+    {
+      "path": "src/data/catalogue_gate_visuals.json",
+      "sha256": "3a2ad015ec96d6ae4bd4bf6f141d95906d05c93f7a337dc3b45f440de24a5e88"
+    },
+    {
+      "path": "docs/visual-policy/HISTORICAL_GATE_SOURCES.json",
+      "sha256": "ad71fbcdfbf87b38fb572326aec1b07b82b3753ea362cacf9de81132be4eb054"
+    },
+    {
+      "path": "docs/visual-policy/GATE_ENCODING.json",
+      "sha256": "dd3d5d7c0953f7f167de50b2a467bbb9fdbba21e47d648b3a885f9308964d09d"
+    },
+    {
+      "path": "docs/visual-policy/GATE_VISUAL_REVIEW.json",
+      "sha256": "d0e8845157b5018fd23733255278f0dbe6cc43ecfd1c2cedeb2a69c4eab91328"
+    },
+    {
+      "path": "src/CataloguePhotography.jsx",
+      "sha256": "f1377b14c2864259a2a99aee57040442d9d909c001c95526375e3626f6f9ae39"
+    },
+    {
+      "path": "src/marketCatalogue.css",
+      "sha256": "83324626265d50f297195737fcc5fa346f0fd7a115c92f3cd0555c419a598eda"
+    },
+    {
+      "path": "src/catalogueImages.mjs",
+      "sha256": "0aff8f6d1b1c6f0f634aceea390058951ac2be0e0eb3d2913098260c0de08f9e"
+    },
+    {
+      "path": "docs/visual-policy/VISUAL_ASSET_POLICY.md",
+      "sha256": "055126a68c71fec9ee83deb79dd286e808356cb7d68190cda3629476f6cd8440"
+    }
+  ]
+}

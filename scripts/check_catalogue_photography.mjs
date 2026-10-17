@@ -6,13 +6,13 @@ import {renderToStaticMarkup} from 'react-dom/server'
 import {JSDOM} from 'jsdom'
 import {createServer} from 'vite'
 import {catalogueImageProps} from '../src/catalogueImages.mjs'
-const registry=JSON.parse(fs.readFileSync('src/data/catalogue_photographs.json'))
+const registry=JSON.parse(fs.readFileSync('src/data/catalogue_gate_visuals.json'))
 const categoryPaths=registry.items.map(i=>'/market/'+i.slug)
 const aliases=JSON.parse(fs.readFileSync('src/generated/market_catalogue_routes.json')).filter(r=>categoryPaths.includes(r.alias_of)).map(r=>r.path)
 const checks=[];const check=(name,fn)=>{fn();checks.push(name)}
-check('All six licenses permit commercial modification with required credits',()=>{
+check('All six original GATE visuals have exact owner restoration authority',()=>{
  assert.equal(registry.items.length,6)
- for(const item of registry.items){assert.ok(['CC0 1.0','CC BY-SA 3.0'].includes(item.license));assert.ok(item.author&&item.file_title&&item.source_page&&item.license_url);assert.equal(item.documentary_evidence,false);assert.equal(item.classification,'PUBLIC_SAFE')}
+ for(const item of registry.items){assert.equal(item.kind,'GATE_OWNER_AI_VISUAL');assert.equal(item.owner_approval,'PACKAGE1E3A_20261017');assert.ok(item.original_sha256&&item.rights_evidence);assert.equal(item.documentary_evidence,false);assert.equal(item.classification,'PUBLIC_SAFE')}
 })
 check('Responsive helper rejects unknown rights and unsafe variant paths',()=>{
  const item=registry.items[0];assert.ok(catalogueImageProps(item.original,registry).srcSet)
@@ -37,10 +37,10 @@ try{
   check(`${language} ${route}: responsive imagery, credits and language`,()=>{
    const images=[...doc.querySelectorAll('.catalogue-category-tile>img,.catalogue-category-head>img')]
    assert.equal(images.length,route==='/market'?6:1)
-   for(const img of images){assert.ok(img.src.endsWith('.webp'));assert.equal(img.getAttribute('srcset').split(',').length,3);assert.equal(img.getAttribute('sizes'),catalogueImageProps(registry.items[0].original,registry,{hero:route!=='/market'}).sizes);assert.equal(img.width/img.height,16/9);assert.ok(img.alt);if(language!=='EN')assert.ok(!registry.items.some(item=>item.alt===img.alt));if(route==='/market')assert.equal(img.getAttribute('loading'),'lazy')}
+   for(const img of images){assert.ok(img.src.endsWith('.webp'));assert.equal(img.getAttribute('srcset').split(',').length,3);assert.equal(img.getAttribute('sizes'),catalogueImageProps(registry.items[0].original,registry,{hero:route!=='/market'}).sizes);assert.equal(img.width,1200);assert.equal(img.height,670);assert.ok(img.alt);if(language!=='EN')assert.ok(!img.alt.startsWith('Original GATE AI illustration'));if(route==='/market')assert.equal(img.getAttribute('loading'),'lazy')}
    const credits=doc.querySelector('.catalogue-photo-credits');assert.ok(credits);assert.equal(credits.querySelectorAll('li').length,route==='/market'?6:1)
-   if(language!=='EN')assert.notEqual(credits.querySelector('summary').textContent,'Catalogue photo credits')
-   if(route==='/market'||route.endsWith('/vegetables')){assert.ok(credits.textContent.includes('Southgeist'));assert.ok(credits.querySelector('a[href="https://creativecommons.org/licenses/by-sa/3.0/"]'));assert.ok(credits.textContent.includes('Schuelp weisskohlfeld.jpg'))}
+   if(language!=='EN')assert.notEqual(credits.querySelector('summary').textContent,'Catalogue visual provenance')
+   assert.ok(credits.textContent.includes('GATE'));assert.equal(credits.querySelectorAll('a[href*="creativecommons"]').length,0)
   });d.window.close()
  }
  const {CataloguePhoto}=await vite.ssrLoadModule('/src/CataloguePhotography.jsx');const {LanguageProvider}=await vite.ssrLoadModule('/src/i18n/index.jsx')

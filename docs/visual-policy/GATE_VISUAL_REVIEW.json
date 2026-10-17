@@ -1,0 +1,72 @@
+{
+  "review": "Actual historical-original and800px optimized contact sheets inspected in Work;all six mapping/compositions preserved, no crop/recomposition;desktop/mobile browser review separate",
+  "status": "PASS_OFFLINE_VISUAL_REVIEW",
+  "items": [
+    {
+      "slug": "cereals-pulses",
+      "original_sha256": "3489f8b2b5de49a1009b8f44fa42c07c17b698f25c5fd005518951f256f24290",
+      "variant_sha256": [
+        "70d7ee4727a1bd72d3cd238614d97a2aca748446b60be25ae6af8e0551046c16",
+        "3312381fd0f62007e9654e4db6c7592b39a1e461a2681b7219167e2aa117cd43",
+        "295494825e23b1b9768e362a1a91a51072edeab1cd3d913866325102baa78da3"
+      ],
+      "composition": "FULL_FRAME_NO_CROP",
+      "status": "PASS"
+    },
+    {
+      "slug": "vegetables",
+      "original_sha256": "84016b74e1bd341609044130a1856a8e62a8093829948b0b62c5bbb38ba5f0a3",
+      "variant_sha256": [
+        "a69b0ef5795439a09e129ad289d47b7666dd75f0d3acffbc7b30e0127e571fc9",
+        "325fbddc48c3af335e8fcd38eb06e6c9a9899ffbb94f20b43a23e68b5a65dca4",
+        "faa9d1829181b8067c71a44909dbdf8d851af9d8cec6434ac7ff846fc45b2516"
+      ],
+      "composition": "FULL_FRAME_NO_CROP",
+      "status": "PASS"
+    },
+    {
+      "slug": "oil-fibre",
+      "original_sha256": "114ef17b54e16c37cc828b61b7e9764752374be9e980767c448e4827df926d9e",
+      "variant_sha256": [
+        "87a61b148fc4a97cb1711292e5f3de4fd2c966e751631ea0e8e740fa5cda09e7",
+        "8f7c65167da5e9dd69ec261cc1fa6461d217cf61e09921924af407cdd07e0cf2",
+        "5b7c892e1a8db0d9719eaaff9e57528b9177de86911e403e1c8f109db2d3cfa3"
+      ],
+      "composition": "FULL_FRAME_NO_CROP",
+      "status": "PASS"
+    },
+    {
+      "slug": "maize-sorghum",
+      "original_sha256": "0698f525f6fbc88eaca38fa4a76e8316a1bc754b6820a1a11d19fba1e918a91b",
+      "variant_sha256": [
+        "264b367edd825cfb620bc265f13bede2ea943b79aef17e6b6166697a12bec444",
+        "dabddba655bc9f358ef9259c0b54ae13e2d4e2a534682b6b413f665ddf5095f6",
+        "03b3565d78e9284c800d88e39846b8284c152aa9759d60ff1ba522b4a85b7ddb"
+      ],
+      "composition": "FULL_FRAME_NO_CROP",
+      "status": "PASS"
+    },
+    {
+      "slug": "fodder-amenity",
+      "original_sha256": "aa8d9484525b3c8237a7bca2fcef6964f4f56af8fce184efa202613c9d929f91",
+      "variant_sha256": [
+        "18d46cbd3be8a468e219b8a01c63f224ec703cc7e73e9830c588cfe7b46f3062",
+        "848c733591537ee1cfa748d0e5a325883879588c8b6c6638148e480176d25080",
+        "0d96d84b69d3cd791359c6493d8764c7c5d989223ef0096bd866e9c6527a95b6"
+      ],
+      "composition": "FULL_FRAME_NO_CROP",
+      "status": "PASS"
+    },
+    {
+      "slug": "catch-crops",
+      "original_sha256": "df9b48d69ba3eb09bac8fbd537d4fa794ac5659066717f8aa4288eb2870e9fc0",
+      "variant_sha256": [
+        "bb58c8adf8c099ce6acc82f321599e84ddbec3d89e97ad29bc8fa5c1a16d0e39",
+        "799d076de8474f281605f4514c3199113e8a62caa40928053526b0367261f43b",
+        "cd652e3282e68870ffe3166e8cdc1cf65ef17f88a4bd8c002a8ea9aacdd809ac"
+      ],
+      "composition": "FULL_FRAME_NO_CROP",
+      "status": "PASS"
+    }
+  ]
+}
