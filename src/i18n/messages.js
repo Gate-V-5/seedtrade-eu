@@ -1,6 +1,7 @@
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
+  ["Seed offer", "Saatgutangebot", "Offre de semences", "Oferta de semillas", "Offerta di sementi"],
   ["Skip to main content", "Zum Hauptinhalt springen", "Aller au contenu principal", "Saltar al contenido principal", "Vai al contenuto principale"],
   ["Pause rotation", "Rotation pausieren", "Mettre la rotation en pause", "Pausar rotación", "Sospendi rotazione"],
   ["Resume rotation", "Rotation fortsetzen", "Reprendre la rotation", "Reanudar rotación", "Riprendi rotazione"],

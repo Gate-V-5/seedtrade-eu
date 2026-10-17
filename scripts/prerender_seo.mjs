@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /** Create unique SEO route shells and fail-closed noindex private shells. */
 import fs from 'node:fs/promises'
+import {listingTitle} from '../src/listingMetadata.mjs'
 import {publicNewsItems} from '../src/news.mjs'
 import {validateDailyNews} from './validate_daily_news.mjs'
 import path from 'node:path'
@@ -57,7 +58,7 @@ for (const item of publicNews) routes.push([
 ])
 for (const listing of marketplace.items) routes.push([
   `buying-requests/${listing.slug}`,
-  `${listing.species_common_name} ${listing.variety} seed offer`,
+  listingTitle(listing),
   `Active PUBLIC_SAFE ${listing.species_common_name} seed offer: ${listing.quantity} ${listing.quantity_unit}, ${listing.incoterm} ${listing.location}.`,
   true,
 ])

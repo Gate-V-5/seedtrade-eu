@@ -1,45 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://seedtrade.eu/</loc></url>
-  <url><loc>https://seedtrade.eu/market</loc></url>
-  <url><loc>https://seedtrade.eu/trade-pulse</loc></url>
-  <url><loc>https://seedtrade.eu/weather-evidence</loc></url>
-  <url><loc>https://seedtrade.eu/market/alfalfa-lucerne</loc></url>
-  <url><loc>https://seedtrade.eu/market/field-peas</loc></url>
-  <url><loc>https://seedtrade.eu/market/flax-linseed-for-sowing</loc></url>
-  <url><loc>https://seedtrade.eu/market/italian-ryegrass</loc></url>
-  <url><loc>https://seedtrade.eu/market/kentucky-bluegrass</loc></url>
-  <url><loc>https://seedtrade.eu/market/lupins</loc></url>
-  <url><loc>https://seedtrade.eu/market/meadow-fescue</loc></url>
-  <url><loc>https://seedtrade.eu/market/mustard-seed-for-sowing</loc></url>
-  <url><loc>https://seedtrade.eu/market/perennial-ryegrass</loc></url>
-  <url><loc>https://seedtrade.eu/market/red-clover</loc></url>
-  <url><loc>https://seedtrade.eu/market/red-fescue</loc></url>
-  <url><loc>https://seedtrade.eu/methodology</loc></url>
   <url><loc>https://seedtrade.eu/about</loc></url>
-  <url><loc>https://seedtrade.eu/privacy</loc></url>
-  <url><loc>https://seedtrade.eu/terms</loc></url>
+  <url><loc>https://seedtrade.eu/buying-requests</loc></url>
+  <url><loc>https://seedtrade.eu/buying-requests/flax-kaolin-c1-50t</loc></url>
+  <url><loc>https://seedtrade.eu/buying-requests/flax-ls-riviera-c1-50t</loc></url>
+  <url><loc>https://seedtrade.eu/buying-requests/flax-ls-riviera-c2-100t</loc></url>
+  <url><loc>https://seedtrade.eu/buying-requests/red-clover-rgt-savvor-c-20t</loc></url>
+  <url><loc>https://seedtrade.eu/buying-requests/winter-vetch-rea-organic-c1-30t</loc></url>
   <url><loc>https://seedtrade.eu/confidentiality</loc></url>
   <url><loc>https://seedtrade.eu/disclaimer</loc></url>
   <url><loc>https://seedtrade.eu/insights</loc></url>
-  <url><loc>https://seedtrade.eu/news</loc></url>
-  <url><loc>https://seedtrade.eu/buying-requests</loc></url>
-  <url><loc>https://seedtrade.eu/buying-requests/flax-ls-riviera-c2-100t</loc></url>
-  <url><loc>https://seedtrade.eu/buying-requests/flax-ls-riviera-c1-50t</loc></url>
-  <url><loc>https://seedtrade.eu/buying-requests/flax-kaolin-c1-50t</loc></url>
-  <url><loc>https://seedtrade.eu/buying-requests/winter-vetch-rea-organic-c1-30t</loc></url>
-  <url><loc>https://seedtrade.eu/buying-requests/red-clover-rgt-savvor-c-20t</loc></url>
-  <url><loc>https://seedtrade.eu/news/interpom-2026-exhibitor-profile</loc></url>
-  <url><loc>https://seedtrade.eu/news/europe-potato-crop-drought-estimate-2026</loc></url>
-  <url><loc>https://seedtrade.eu/news/northern-ireland-seed-potato-rules-update-2026</loc></url>
-  <url><loc>https://seedtrade.eu/news/europe-summer-crop-heat-drought-2026</loc></url>
   <url><loc>https://seedtrade.eu/insights/euroseeds-2026-congress-valencia</loc></url>
   <url><loc>https://seedtrade.eu/insights/interpom-2026-europe-potato-value-chain</loc></url>
   <url><loc>https://seedtrade.eu/insights/lagrenas-contract-seed-multiplication-lithuania</loc></url>
-  <url><loc>https://seedtrade.eu/news/eu-weather-september-2026-baseline</loc></url>
+  <url><loc>https://seedtrade.eu/market</loc></url>
+  <url><loc>https://seedtrade.eu/market/alfalfa-lucerne</loc></url>
+  <url><loc>https://seedtrade.eu/market/catch-crops</loc></url>
+  <url><loc>https://seedtrade.eu/market/cereals-pulses</loc></url>
+  <url><loc>https://seedtrade.eu/market/field-peas</loc></url>
+  <url><loc>https://seedtrade.eu/market/flax-linseed-for-sowing</loc></url>
+  <url><loc>https://seedtrade.eu/market/fodder-amenity</loc></url>
+  <url><loc>https://seedtrade.eu/market/italian-ryegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/kentucky-bluegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/lupins</loc></url>
+  <url><loc>https://seedtrade.eu/market/maize-sorghum</loc></url>
+  <url><loc>https://seedtrade.eu/market/meadow-fescue</loc></url>
+  <url><loc>https://seedtrade.eu/market/mustard-seed-for-sowing</loc></url>
+  <url><loc>https://seedtrade.eu/market/oil-fibre</loc></url>
+  <url><loc>https://seedtrade.eu/market/perennial-ryegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/red-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/red-fescue</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/alfalfa</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/alsike-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/balansa-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/barley</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/berseem-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/birdsfoot-trefoil</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/black-medick</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/black-mustard</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/black-oat</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/brown-mustard</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/buckwheat</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/camelina</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/caraway</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/carrot</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/chickpea</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/chicory</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/cocksfoot</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/common-vetch</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/coriander</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/crimson-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/dill</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/faba-bean</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/festulolium</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/field-pea</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/flax</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/fodder-beet</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/fodder-kale</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/fodder-turnip</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/hemp</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/hungarian-vetch</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/hybrid-ryegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/italian-ryegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/meadow-fescue</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/narrow-leaved-lupin</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/niger</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/oat</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/oil-radish</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/perennial-ryegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/persian-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/phacelia</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/proso-millet</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/purple-vetch</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/quinoa</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/rapeseed</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/red-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/rye</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/safflower</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/sainfoin</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/seed-potatoes</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/sorghum</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/sorghum-sudan-hybrid</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/soybean</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/subterranean-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/sudan-grass</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/sugar-beet</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/sunflower</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/tall-fescue</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/triticale</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/turnip-rape</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/westerwold-ryegrass</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/wheat</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/white-clover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/white-lupin</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/white-mustard</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/white-sweetclover</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/winter-vetch</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/yellow-lupin</loc></url>
+  <url><loc>https://seedtrade.eu/market/seeds/yellow-sweetclover</loc></url>
+  <url><loc>https://seedtrade.eu/market/vegetables</loc></url>
+  <url><loc>https://seedtrade.eu/methodology</loc></url>
+  <url><loc>https://seedtrade.eu/news</loc></url>
+  <url><loc>https://seedtrade.eu/news/autumn-2026-agronomy-evidence-review</loc></url>
   <url><loc>https://seedtrade.eu/news/eu-agronomist-latvia-autumn-establishment</loc></url>
-  <url><loc>https://seedtrade.eu/news/eu-trade-market-nak-interim-seed-potato-checks</loc></url>
   <url><loc>https://seedtrade.eu/news/eu-events-euroseeds-valencia-october-2026</loc></url>
-<url><loc>https://seedtrade.eu/news/europe-september-2026-climate-retrospective</loc><lastmod>2026-10-16</lastmod></url>
-<url><loc>https://seedtrade.eu/news/autumn-2026-agronomy-evidence-review</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://seedtrade.eu/news/eu-trade-market-nak-interim-seed-potato-checks</loc></url>
+  <url><loc>https://seedtrade.eu/news/eu-weather-september-2026-baseline</loc></url>
+  <url><loc>https://seedtrade.eu/news/europe-potato-crop-drought-estimate-2026</loc></url>
+  <url><loc>https://seedtrade.eu/news/europe-september-2026-climate-retrospective</loc></url>
+  <url><loc>https://seedtrade.eu/news/europe-summer-crop-heat-drought-2026</loc></url>
+  <url><loc>https://seedtrade.eu/news/interpom-2026-exhibitor-profile</loc></url>
+  <url><loc>https://seedtrade.eu/news/northern-ireland-seed-potato-rules-update-2026</loc></url>
+  <url><loc>https://seedtrade.eu/privacy</loc></url>
+  <url><loc>https://seedtrade.eu/production-intelligence</loc></url>
+  <url><loc>https://seedtrade.eu/terms</loc></url>
+  <url><loc>https://seedtrade.eu/trade-pulse</loc></url>
+  <url><loc>https://seedtrade.eu/weather-evidence</loc></url>
 </urlset>
