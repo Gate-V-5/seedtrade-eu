@@ -107,7 +107,7 @@
 @media(max-width:620px){.catalogue-detail-intelligence:has(.snapshot-intelligence){padding:18px}.snapshot-intelligence-compact .snapshot-situation{font-size:.9rem}}
 
 /* Licensed catalogue photography: image framing and credits only. */
-.catalogue-category-tile>img,.catalogue-category-head>img{aspect-ratio:16/9;object-fit:cover}
+.catalogue-category-tile>img,.catalogue-category-head>img{aspect-ratio:16/9;object-fit:contain}
 .catalogue-photo-credits{margin:20px 0;color:#485B68;font-size:14px;line-height:1.6}
 .catalogue-photo-credits summary{cursor:pointer;font-weight:700}
 .catalogue-photo-credits a{color:#146B49;text-decoration:underline;overflow-wrap:anywhere}
