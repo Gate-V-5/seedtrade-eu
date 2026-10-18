@@ -1,3 +1,5 @@
+import EstimatedMarketRange from './EstimatedMarketRange.jsx'
+import {hasEstimatedRange} from './estimatedMarketRange.mjs'
 import {useT,useLanguage} from './i18n/index.jsx'
 import snapshot from './generated/market_snapshot_public.json'
 import {latestTradeUnitValue,latestSeedPrice} from './commercialEvidence.mjs'
@@ -39,11 +41,12 @@ function CardHistory({card}) {
   </div>
 }
 export function SeedCard({card,snapshot=false}) {
-  const t=useT(),{language}=useLanguage(),hasTrade=available(card.trade_volume_t),price=latestTradeUnitValue(card.price_observations),seedPrice=latestSeedPrice(card.price_observations)
+  const t=useT(),{language}=useLanguage(),hasTrade=available(card.trade_volume_t),price=latestTradeUnitValue(card.price_observations),seedPrice=hasEstimatedRange(card.market_entity_id)?null:latestSeedPrice(card.price_observations)
   return <article className={`catalogue-seed-card${snapshot?" crop-card":""}`} data-entity-id={card.market_entity_id}>
     <div className="catalogue-seed-heading"><h3>{t(card.common_name_en)}</h3><p className="catalogue-botanical"><em>{card.botanical_display_name}</em></p></div>
     <Tags card={card}/>
     {snapshot&&<SnapshotIntelligence entityId={card.market_entity_id} compact/>}
+    <EstimatedMarketRange entityId={card.market_entity_id}/>
     {(hasTrade||price||seedPrice)&&<>
       <div className="catalogue-card-metrics">
         {seedPrice&&<div className="catalogue-card-measure catalogue-seed-price-measure"><dl><Metric label="Seed price" value={seedPrice.price_eur_kg} unit=" €/kg"/></dl><p className="catalogue-period">{t('Observed · {period}',{period:seedPrice.period})}</p></div>}

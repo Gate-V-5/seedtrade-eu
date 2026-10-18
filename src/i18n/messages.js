@@ -1,3 +1,4 @@
+import {marketCardNameRows} from './marketCardNames.js'
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
@@ -810,4 +811,4 @@ const rows = [
   ["escaa summary field area", "ESCAA-Flächenübersicht", "Surface de la synthèse ESCAA", "Superficie del resumen ESCAA", "Superficie del riepilogo ESCAA"],
 ]
 const codes = ["DE", "FR", "ES", "IT"]
-export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...rows,...snapshotIntelligenceRows].map(row => [row[0], row[index + 1]]))]))
+export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...marketCardNameRows,...rows,...snapshotIntelligenceRows].map(row => [row[0], row[index + 1]]))]))

@@ -1,0 +1,270 @@
+{
+  "schema": "SEEDTRADE_ESTIMATED_MARKET_RANGE_V1_1",
+  "records": {
+    "white-mustard": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.24",
+      "upper_eur_kg": "3.36"
+    },
+    "brown-mustard": {
+      "state": "RANGE",
+      "lower_eur_kg": "3.69",
+      "upper_eur_kg": "5.54"
+    },
+    "black-mustard": {
+      "state": "RANGE",
+      "lower_eur_kg": "4.52",
+      "upper_eur_kg": "6.79"
+    },
+    "oil-radish": {
+      "state": "RANGE",
+      "lower_eur_kg": "3.04",
+      "upper_eur_kg": "4.56"
+    },
+    "rapeseed": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.39",
+      "upper_eur_kg": "3.59"
+    },
+    "turnip-rape": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.70",
+      "upper_eur_kg": "4.06"
+    },
+    "fodder-kale": {
+      "state": "RANGE",
+      "lower_eur_kg": "7.54",
+      "upper_eur_kg": "11.32"
+    },
+    "fodder-turnip": {
+      "state": "DISCOVERY",
+      "lower_eur_kg": null,
+      "upper_eur_kg": null
+    },
+    "phacelia": {
+      "state": "RANGE",
+      "lower_eur_kg": "5.20",
+      "upper_eur_kg": "7.80"
+    },
+    "sunflower": {
+      "state": "RANGE",
+      "lower_eur_kg": "4.16",
+      "upper_eur_kg": "6.24"
+    },
+    "buckwheat": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.19",
+      "upper_eur_kg": "1.80"
+    },
+    "oat": {
+      "state": "RANGE",
+      "lower_eur_kg": "0.30",
+      "upper_eur_kg": "0.50"
+    },
+    "black-oat": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.44",
+      "upper_eur_kg": "2.16"
+    },
+    "rye": {
+      "state": "RANGE",
+      "lower_eur_kg": "0.33",
+      "upper_eur_kg": "0.54"
+    },
+    "sorghum": {
+      "state": "DISCOVERY",
+      "lower_eur_kg": null,
+      "upper_eur_kg": null
+    },
+    "italian-ryegrass": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.56",
+      "upper_eur_kg": "2.34"
+    },
+    "perennial-ryegrass": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.68",
+      "upper_eur_kg": "2.52"
+    },
+    "hybrid-ryegrass": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.65",
+      "upper_eur_kg": "3.98"
+    },
+    "westerwold-ryegrass": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.56",
+      "upper_eur_kg": "2.34"
+    },
+    "festulolium": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.92",
+      "upper_eur_kg": "2.88"
+    },
+    "meadow-fescue": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.32",
+      "upper_eur_kg": "3.48"
+    },
+    "tall-fescue": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.32",
+      "upper_eur_kg": "3.48"
+    },
+    "cocksfoot": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.96",
+      "upper_eur_kg": "4.44"
+    },
+    "common-vetch": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.08",
+      "upper_eur_kg": "1.62"
+    },
+    "winter-vetch": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.58",
+      "upper_eur_kg": "2.38"
+    },
+    "hungarian-vetch": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.48",
+      "upper_eur_kg": "2.22"
+    },
+    "purple-vetch": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.75",
+      "upper_eur_kg": "4.14"
+    },
+    "field-pea": {
+      "state": "RANGE",
+      "lower_eur_kg": "0.96",
+      "upper_eur_kg": "1.44"
+    },
+    "faba-bean": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.24",
+      "upper_eur_kg": "1.88"
+    },
+    "narrow-leaved-lupin": {
+      "state": "RANGE",
+      "lower_eur_kg": "0.88",
+      "upper_eur_kg": "1.33"
+    },
+    "yellow-lupin": {
+      "state": "RANGE",
+      "lower_eur_kg": "1.87",
+      "upper_eur_kg": "2.81"
+    },
+    "red-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "5.04",
+      "upper_eur_kg": "7.56"
+    },
+    "white-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "6.00",
+      "upper_eur_kg": "9.00"
+    },
+    "persian-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "4.40",
+      "upper_eur_kg": "6.60"
+    },
+    "berseem-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "6.32",
+      "upper_eur_kg": "9.48"
+    },
+    "crimson-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.72",
+      "upper_eur_kg": "4.08"
+    },
+    "balansa-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "3.58",
+      "upper_eur_kg": "5.39"
+    },
+    "alsike-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "10.29",
+      "upper_eur_kg": "15.45"
+    },
+    "subterranean-clover": {
+      "state": "RANGE",
+      "lower_eur_kg": "6.08",
+      "upper_eur_kg": "9.13"
+    },
+    "alfalfa": {
+      "state": "RANGE",
+      "lower_eur_kg": "6.00",
+      "upper_eur_kg": "9.00"
+    },
+    "black-medick": {
+      "state": "RANGE",
+      "lower_eur_kg": "8.05",
+      "upper_eur_kg": "12.09"
+    },
+    "yellow-sweetclover": {
+      "state": "RANGE",
+      "lower_eur_kg": "3.88",
+      "upper_eur_kg": "5.82"
+    },
+    "white-sweetclover": {
+      "state": "RANGE",
+      "lower_eur_kg": "3.88",
+      "upper_eur_kg": "5.82"
+    },
+    "birdsfoot-trefoil": {
+      "state": "RANGE",
+      "lower_eur_kg": "10.24",
+      "upper_eur_kg": "15.36"
+    },
+    "sainfoin": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.68",
+      "upper_eur_kg": "4.02"
+    },
+    "flax": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.85",
+      "upper_eur_kg": "4.29"
+    },
+    "hemp": {
+      "state": "DISCOVERY",
+      "lower_eur_kg": null,
+      "upper_eur_kg": null
+    },
+    "coriander": {
+      "state": "RANGE",
+      "lower_eur_kg": "4.48",
+      "upper_eur_kg": "6.72"
+    },
+    "caraway": {
+      "state": "RANGE",
+      "lower_eur_kg": "4.96",
+      "upper_eur_kg": "7.44"
+    },
+    "dill": {
+      "state": "DISCOVERY",
+      "lower_eur_kg": null,
+      "upper_eur_kg": null
+    },
+    "camelina": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.56",
+      "upper_eur_kg": "3.84"
+    },
+    "niger": {
+      "state": "RANGE",
+      "lower_eur_kg": "2.72",
+      "upper_eur_kg": "4.08"
+    },
+    "chicory": {
+      "state": "RANGE",
+      "lower_eur_kg": "14.29",
+      "upper_eur_kg": "21.45"
+    }
+  }
+}
