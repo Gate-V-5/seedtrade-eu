@@ -232,9 +232,9 @@
       "upper_eur_kg": "4.29"
     },
     "hemp": {
-      "state": "DISCOVERY",
-      "lower_eur_kg": null,
-      "upper_eur_kg": null
+      "state": "RANGE",
+      "lower_eur_kg": "7.95",
+      "upper_eur_kg": "9.40"
     },
     "coriander": {
       "state": "RANGE",
@@ -247,9 +247,9 @@
       "upper_eur_kg": "7.44"
     },
     "dill": {
-      "state": "DISCOVERY",
-      "lower_eur_kg": null,
-      "upper_eur_kg": null
+      "state": "RANGE",
+      "lower_eur_kg": "12.80",
+      "upper_eur_kg": "19.20"
     },
     "camelina": {
       "state": "RANGE",

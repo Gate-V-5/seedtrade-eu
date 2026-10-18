@@ -13,8 +13,8 @@ const ids=Object.keys(records),categories=catalogue.categories.filter(c=>['CATCH
 await test('exactly 53 canonical commercial card records and 19 shared appearances',()=>{
  assert.equal(ids.length,53);assert.equal(new Set(categories.flatMap(c=>c.entity_ids)).size,53)
  assert.equal(categories[0].entity_ids.filter(id=>categories[1].entity_ids.includes(id)).length,19)
- assert.equal(ids.filter(id=>records[id].state==='RANGE').length,49)
- assert.equal(ids.filter(id=>records[id].state==='DISCOVERY').length,4)
+ assert.equal(ids.filter(id=>records[id].state==='RANGE').length,51)
+ assert.equal(ids.filter(id=>records[id].state==='DISCOVERY').length,2)
 })
 await test('public projection has only bounds and state, no source asks or internal evidence',()=>{
  for(const record of Object.values(records))assert.deepEqual(Object.keys(record).sort(),['lower_eur_kg','state','upper_eur_kg'])

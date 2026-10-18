@@ -17,3 +17,23 @@ export function rangePresentation(entityId,language='EN') {
  return {label,state:valid?'RANGE':'DISCOVERY',value:valid?`€${fmt(low)} – €${fmt(high)}/kg`:discovery}
 }
 export const hasEstimatedRange=entityId=>Object.hasOwn(data.records,entityId)
+
+export const priceContextCopy=Object.freeze({
+ EN:'Modelled merchant asking prices, excluding VAT; source dates vary. Not a current supplier quotation.',
+ DE:'Modellierte Händler-Angebotspreise ohne MwSt.; Quelldaten variieren. Kein aktuelles Lieferantenangebot.',
+ FR:'Prix demandés par les négociants, modélisés hors TVA ; dates des sources variables. Pas une offre fournisseur actuelle.',
+ ES:'Precios solicitados por comerciantes, modelizados sin IVA; fechas de fuentes variables. No es una cotización actual del proveedor.',
+ IT:'Prezzi richiesti dai commercianti, modellizzati IVA esclusa; date delle fonti variabili. Non è un’offerta attuale del fornitore.'
+})
+export const historicalContextCopy=Object.freeze({
+ EN:'Historical evidence as of',DE:'Historischer Datenstand',FR:'Données historiques au',ES:'Datos históricos a',IT:'Dati storici al'
+})
+
+export const dillPriceContextCopy=Object.freeze({
+ EN:'Estimate from a 10–24 kg sowing-seed quantity tier. VAT treatment and final pack sizes are unconfirmed; not a current supplier quotation.',
+ DE:'Schätzung aus einer Saatgut-Mengenstaffel von 10–24 kg. MwSt.-Behandlung und endgültige Gebinde sind unbestätigt; kein aktuelles Lieferantenangebot.',
+ FR:'Estimation issue d’un tarif de semences pour 10–24 kg. TVA et conditionnements finaux non confirmés ; pas une offre fournisseur actuelle.',
+ ES:'Estimación de una tarifa de semillas para 10–24 kg. IVA y envases finales sin confirmar; no es una cotización actual del proveedor.',
+ IT:'Stima da una fascia quantitativa di sementi di 10–24 kg. IVA e confezioni finali non confermate; non è un’offerta attuale del fornitore.'
+})
+export const priceContext=(entityId,language='EN')=>entityId==='dill'?(dillPriceContextCopy[language]||dillPriceContextCopy.EN):(priceContextCopy[language]||priceContextCopy.EN)
