@@ -1,3 +1,6 @@
+import {createRemoteNetworkReview} from './networkReview/remoteRuntime.mjs'
+import {stagingReviewOptions} from './networkReview/stagingBindings.mjs'
+import {runConfiguredTransportAcceptance} from './networkTransport/managedAcceptance.mjs'
 import http from 'node:http'
 import { readFile, stat } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
@@ -16,7 +19,11 @@ const networkInterest = runtime?.networkInterest || createNetworkHandler({ sendM
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist')
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.ico': 'image/x-icon', '.webp': 'image/webp', '.woff2': 'font/woff2' }
 
+const reviewManifest=JSON.parse(await readFile(path.join(dist,'.vite/manifest.json'),'utf8'))
+const networkReviewOptions=stagingReviewOptions({env:process.env,distRoot:dist})
+const networkReview=await createRemoteNetworkReview({options:networkReviewOptions,manifest:reviewManifest})
 const server = http.createServer(async (req, res) => {
+  if(await networkReview(req,res))return
   if (runtime) res.setHeader('X-SeedTrade-Staging-Backend', 'package3h')
   if (runtime?.cron && req.url === '/api/internal/network-delivery') return runtime.cron(req, res)
   if (req.url?.split('?')[0] === '/api/network-interest') return networkInterest(req, res)
@@ -39,5 +46,5 @@ if (!Number.isInteger(listenPort) || listenPort < 1 || listenPort > 65535) throw
 server.requestTimeout = 15000
 server.headersTimeout = 10000
 server.timeout = runtime?.cron ? 60000 : 15000
-server.listen(listenPort)
+server.listen(listenPort,()=>{runConfiguredTransportAcceptance().catch(()=>console.error('STAGING_MTLS_ACCEPTANCE_BLOCKED'))})
 for (const signal of ['SIGINT','SIGTERM']) process.on(signal, () => server.close(() => Promise.resolve(runtime?.close()).finally(() => process.exit(0))))

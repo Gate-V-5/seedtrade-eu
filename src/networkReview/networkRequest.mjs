@@ -1,0 +1,1 @@
+export function createNetworkRequest(request=fetch){const inflight=new Map();return (url,options)=>{if(!url.endsWith('/bootstrap'))return request(url,options);const key=url+'|'+options.body;let p=inflight.get(key);if(!p){p=request(url,options);inflight.set(key,p);p.finally(()=>{if(inflight.get(key)===p)inflight.delete(key)}).catch(()=>{})}return p.then(r=>r.clone())}}

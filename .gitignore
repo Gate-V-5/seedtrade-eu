@@ -34,3 +34,6 @@ Thumbs.db
 .vscode/
 __pycache__/
 *.py[cod]
+
+# Protected B2B build output is not source.
+.seedtrade-private-assets/
