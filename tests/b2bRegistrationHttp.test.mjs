@@ -11,7 +11,7 @@ function request(path, body={}, opts={}) {
 function response(){return {status:0,headers:null,body:'',writeHead(code,headers){this.status=code;this.headers=headers;},end(data){this.body=data;}};}
 function handler({enabled=true,rateLimiter=async()=>true,service}={}){
   return createB2bRegistrationHttp({enabled,rateLimiter,allowedOrigin:'https://staging.seedtrade.eu',
-    service:service??{async register(){},async verifyEmail(){}}});
+    service:service??{async register(){return {status:'PENDING_EMAIL_VERIFICATION'};},async verifyEmail(){return {status:'EMAIL_VERIFIED'};}}});
 }
 test('disabled router is invisible',async()=>{
   const res=response();assert.equal(await handler({enabled:false})(request('/api/b2b/v1/register'),res),true);assert.equal(res.status,404);
@@ -22,7 +22,7 @@ test('does not intercept unrelated routes',async()=>{
 test('register and verify return non-sensitive acknowledgements',async()=>{
   const h=handler();
   for(const path of ['/api/b2b/v1/register','/api/b2b/v1/verify-email']){
-    const res=response();await h(request(path),res);assert.equal(res.status,202);assert.equal(res.headers['Cache-Control'],'no-store');
+    const res=response();await h(request(path),res);assert.equal(res.status,path.endsWith('/register')?202:200);assert.equal(res.headers['Cache-Control'],'no-store');
   }
 });
 test('origin, content type, rate limits and JSON are enforced',async()=>{
@@ -38,4 +38,13 @@ test('origin, content type, rate limits and JSON are enforced',async()=>{
 test('service errors do not leak database details or falsely claim success',async()=>{
   const res=response();await handler({service:{async register(){throw Error('secret db host')},async verifyEmail(){}}})(request('/api/b2b/v1/register'),res);
   assert.equal(res.status,503);assert.doesNotMatch(res.body,/secret|db host/i);
+});
+
+test('invalid token cannot be reported as verified',async()=>{
+ const res=response();await handler({service:{async register(){return {status:'PENDING_EMAIL_VERIFICATION'};},async verifyEmail(){return {status:'INVALID_OR_EXPIRED'};}}})(request('/api/b2b/v1/verify-email'),res);
+ assert.equal(res.status,400);assert.match(res.body,/INVALID_OR_EXPIRED/);
+});
+test('mail delivery failure is reported as pending, not delivered',async()=>{
+ const res=response();await handler({service:{async register(){return {status:'PENDING_EMAIL_DELIVERY'};},async verifyEmail(){return {status:'EMAIL_VERIFIED'};}}})(request('/api/b2b/v1/register'),res);
+ assert.equal(res.status,202);assert.match(res.body,/PENDING_EMAIL_DELIVERY/);
 });
