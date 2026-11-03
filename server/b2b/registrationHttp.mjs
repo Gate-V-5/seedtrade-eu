@@ -37,11 +37,14 @@ export function createB2bRegistrationHttp({service, rateLimiter, allowedOrigin, 
     catch { respond(res, 400, {error:'INVALID_REQUEST'}); return true; }
     try {
       if (pathname === '/api/b2b/v1/register') {
-        await service.register(body);
-        respond(res, 202, {status:'REGISTRATION_RECEIVED'});
+        const result = await service.register(body);
+        if (!['PENDING_EMAIL_VERIFICATION','PENDING_EMAIL_DELIVERY'].includes(result?.status)) throw new Error('REGISTRATION_RESULT_INVALID');
+        respond(res, 202, {status: result.status});
       } else {
-        await service.verifyEmail(body);
-        respond(res, 202, {status:'VERIFICATION_RECEIVED'});
+        const result = await service.verifyEmail(body);
+        if (result?.status === 'EMAIL_VERIFIED') respond(res, 200, {status:'EMAIL_VERIFIED'});
+        else if (result?.status === 'INVALID_OR_EXPIRED') respond(res, 400, {error:'INVALID_OR_EXPIRED'});
+        else throw new Error('VERIFICATION_RESULT_INVALID');
       }
     } catch (error) {
       if (error instanceof TypeError && /^INVALID_/.test(error.message)) {
