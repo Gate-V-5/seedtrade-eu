@@ -12,7 +12,8 @@
     "build:vite": "node scripts/validate_editorial_assets.mjs && vite build --manifest && node scripts/prerender_seo.mjs && node scripts/prerender_static_first.mjs && node server/networkReview/privateAssets.mjs dist .seedtrade-private-assets",
     "build": "npm run build:vite",
     "postinstall": "npm run build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:b2b": "node --test tests/b2b*.test.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.1.1",
