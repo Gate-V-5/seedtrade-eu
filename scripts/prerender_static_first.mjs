@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import process from 'node:process'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { createServer } from 'vite'
 
-const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dist = path.join(root, 'dist')
 
 const storage = {
