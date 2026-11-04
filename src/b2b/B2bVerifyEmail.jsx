@@ -1,24 +1,27 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import {confirmB2bEmail} from './confirmEmail.mjs';
 
 // Isolated confirmation view. Does not enable the registration API.
 export default function B2bVerifyEmail() {
   const [status, setStatus] = useState('VERIFYING');
+  const pending = useRef(null);
   useEffect(() => {
-    const controller = new AbortController();
-    // StrictMode may remount effects; capture and erase the fragment synchronously
-    // in the first effect before any asynchronous request.
-    confirmB2bEmail({
-      location: window.location,
-      history: window.history,
-      fetcher: window.fetch.bind(window),
-      signal: controller.signal
-    }).then(result => {
-      if (!controller.signal.aborted) setStatus(result.status);
+    let active = true;
+    // Reuse the same verification attempt across React StrictMode effect replay.
+    // Do not abort the first request and accidentally lose its one-time token.
+    if (!pending.current) {
+      pending.current = confirmB2bEmail({
+        location: window.location,
+        history: window.history,
+        fetcher: window.fetch.bind(window)
+      });
+    }
+    pending.current.then(result => {
+      if (active) setStatus(result.status);
     }).catch(() => {
-      if (!controller.signal.aborted) setStatus('UNAVAILABLE');
+      if (active) setStatus('UNAVAILABLE');
     });
-    return () => controller.abort();
+    return () => { active = false; };
   }, []);
   const messages = {
     VERIFYING: ['Verifying your email', 'Please wait while we check your confirmation link.'],
