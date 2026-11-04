@@ -11,7 +11,12 @@ test('verification mail uses injected transport and a scoped confirmation URL',a
   await mailer.sendVerification({email:'user@example.test',token:'a'.repeat(64),userId:42});
   assert.equal(messages.length,1);
   assert.equal(messages[0].to,'user@example.test');
-  assert.match(messages[0].text,/https:\/\/staging\.seedtrade\.eu\/b2b\/verify-email\?user=42&token=/);
+  const link = messages[0].text.match(/https:\/\/[^\s]+/)[0];
+  const url = new URL(link);
+  assert.equal(url.pathname, '/b2b/verify-email');
+  assert.equal(url.search, '');
+  assert.equal(new URLSearchParams(url.hash.slice(1)).get('user'), '42');
+  assert.equal(new URLSearchParams(url.hash.slice(1)).get('token'), 'a'.repeat(64));
   assert.equal(messages[0].disableFileAccess,true);
 });
 test('invalid messages are rejected before any email is sent',async()=>{
