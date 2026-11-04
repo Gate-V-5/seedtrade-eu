@@ -38,7 +38,7 @@ export function createRegistrationService({repository, passwordHasher, mailer, n
       // Send only after commit; a mail failure must not roll back the committed account.
       // The caller must not report the registration as complete until delivery is handled.
       try {
-        await mailer.sendVerification({email: normalizedEmail, token: issued.token});
+        await mailer.sendVerification({email: normalizedEmail, token: issued.token, userId: result.userId});
       } catch {
         return {...result, status: 'PENDING_EMAIL_DELIVERY'};
       }
