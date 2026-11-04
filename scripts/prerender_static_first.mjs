@@ -47,6 +47,8 @@ try {
   for (const file of files.sort()) {
     const relative = path.relative(dist, path.dirname(file)).split(path.sep).join('/')
     const route = relative ? `/${relative}` : '/'
+    // Do not render the public AppV2 into isolated B2B browser pages.
+    if (route === '/b2b/register' || route === '/b2b/verify-email') continue
     window.location.pathname = route
     // hydrateRoot requires React's hydratable text-boundary markers. Static
     // markup deliberately omits them and caused production errors #418/#423/#425.
