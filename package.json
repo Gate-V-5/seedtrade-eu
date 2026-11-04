@@ -13,7 +13,7 @@
     "build": "npm run build:vite",
     "postinstall": "npm run build",
     "preview": "vite preview",
-    "test:b2b": "node --test tests/b2bComposition.test.mjs tests/b2bConfirmEmail.test.mjs tests/b2bDatabaseReadiness.test.mjs tests/b2bDomain.test.mjs tests/b2bEmailVerification.test.mjs tests/b2bIntegratedFlow.test.mjs tests/b2bMysqlRegistrationRepository.test.mjs tests/b2bRegistrationHttp.test.mjs tests/b2bRegistrationService.test.mjs tests/b2bVerificationMailer.test.mjs"
+    "test:b2b": "node --test tests/b2bComposition.test.mjs tests/b2bConfirmEmail.test.mjs tests/b2bDatabaseReadiness.test.mjs tests/b2bDisabledApi.test.mjs tests/b2bDomain.test.mjs tests/b2bEmailVerification.test.mjs tests/b2bIntegratedFlow.test.mjs tests/b2bMysqlRegistrationRepository.test.mjs tests/b2bRegistrationHttp.test.mjs tests/b2bRegistrationService.test.mjs tests/b2bVerificationMailer.test.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.1.1",
