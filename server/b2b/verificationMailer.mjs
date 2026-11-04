@@ -14,8 +14,10 @@ export function createB2bVerificationMailer({transport, from, origin}) {
         throw new TypeError('INVALID_VERIFICATION_MESSAGE');
       }
       const url = new URL('/b2b/verify-email', origin);
-      url.searchParams.set('user', String(userId));
-      url.searchParams.set('token', token);
+      // Keep the one-time credential out of HTTP request URLs and server access logs.
+      // The confirmation page must read the fragment and immediately clear it
+      // from browser history before POSTing it in a JSON body.
+      url.hash = new URLSearchParams({user: String(userId), token}).toString();
       await transport.sendMail({
         from, to: email,
         subject: 'SeedTrade — confirm your email address',
