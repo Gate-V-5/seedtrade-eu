@@ -8,6 +8,7 @@ import path from 'node:path'
 import { createNetworkHandler } from './networkInterestLegacy.mjs'
 import { createStagingNetworkRuntime } from './networkStagingRuntime.mjs'
 import { requireStagingIdentity } from './networkStagingDatabase.mjs'
+import { handleDisabledB2bApi } from './b2b/disabledApi.mjs'
 
 const { PORT } = process.env
 const { createRuntimeMail } = await import('./runtimeMail.mjs')
@@ -23,6 +24,7 @@ const reviewManifest=JSON.parse(await readFile(path.join(dist,'.vite/manifest.js
 const networkReviewOptions=stagingReviewOptions({env:process.env,distRoot:dist})
 const networkReview=await createRemoteNetworkReview({options:networkReviewOptions,manifest:reviewManifest})
 const server = http.createServer(async (req, res) => {
+  if (handleDisabledB2bApi(req,res)) return
   if(await networkReview(req,res))return
   if (runtime) res.setHeader('X-SeedTrade-Staging-Backend', 'package3h')
   if (runtime?.cron && req.url === '/api/internal/network-delivery') return runtime.cron(req, res)
