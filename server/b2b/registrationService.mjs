@@ -1,4 +1,4 @@
-// Integrated B2B registration workflow. Not mounted on the public HTTP server.
+// Integrated B2B registration workflow, used by the gated staging runtime.
 // Inject a vetted password hasher, a transactional repository and an email sender.
 // The repository must use parameterized SQL and enforce unique email/company keys.
 import {normalizeCompany} from './domain.mjs';
@@ -28,7 +28,9 @@ export function createRegistrationService({repository, passwordHasher, mailer, n
         requireDependency(tx, 'insertEmailVerification');
         requireDependency(tx, 'appendAudit');
         const companyId = await tx.insertCompany(normalizedCompany);
+        if (!Number.isSafeInteger(companyId) || companyId < 1) throw new Error('B2B_ID_UNSUPPORTED');
         const userId = await tx.insertUser({email: normalizedEmail, passwordHash});
+        if (!Number.isSafeInteger(userId) || userId < 1) throw new Error('B2B_ID_UNSUPPORTED');
         await tx.insertCompanyMember({companyId, userId, role: 'COMPANY_ADMIN'});
         await tx.insertEmailVerification({userId, tokenHash: issued.tokenHash, expiresAt: new Date(issued.expiresAt)});
         await tx.appendAudit({actorUserId: userId, companyId, action: 'COMPANY_REGISTRATION',
@@ -46,6 +48,7 @@ export function createRegistrationService({repository, passwordHasher, mailer, n
     },
 
     async verifyEmail({userId, token}) {
+      if (!Number.isSafeInteger(userId) || userId < 1) throw new TypeError('INVALID_USER_ID');
       const tokenHash = hashVerificationToken(token);
       return repository.transaction(async tx => {
         requireDependency(tx, 'consumeEmailVerification');

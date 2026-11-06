@@ -18,6 +18,17 @@ test('disabled router is invisible',async()=>{
 });
 test('does not intercept unrelated routes',async()=>{
   assert.equal(await handler()(request('/api/network-interest'),response()),false);
+  assert.equal(await handler()(request('http://['),response()),false);
+});
+
+test('rate limiter failure returns a generic outage without invoking storage',async()=>{
+  let calls=0;
+  const res=response();
+  await handler({rateLimiter:async()=>{throw Error('private details');},
+    service:{async register(){calls++;},async verifyEmail(){calls++;}}})(request('/api/b2b/v1/register'),res);
+  assert.equal(res.status,503);
+  assert.deepEqual(JSON.parse(res.body),{error:'TEMPORARILY_UNAVAILABLE'});
+  assert.equal(calls,0);
 });
 test('register and verify return non-sensitive acknowledgements',async()=>{
   const h=handler();

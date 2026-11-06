@@ -25,8 +25,7 @@ export function b2bRegistrationReadiness(env = {}) {
   };
 }
 
-// Isolated composition only. Never mounted by server/index.mjs.
-// Runtime activation needs a separate owner-approved integration.
+// Reused by the gated staging runtime and offline tests.
 export function createB2bRegistrationModule(options) {
   const repository = createMysqlB2bRepository(options.pool);
   const service = createRegistrationService({repository, passwordHasher:options.passwordHasher ?? createB2bPasswordHasher(), mailer:options.mailer});

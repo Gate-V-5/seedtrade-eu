@@ -8,7 +8,7 @@ import path from 'node:path'
 import { createNetworkHandler } from './networkInterestLegacy.mjs'
 import { createStagingNetworkRuntime } from './networkStagingRuntime.mjs'
 import { requireStagingIdentity } from './networkStagingDatabase.mjs'
-import { handleDisabledB2bApi } from './b2b/disabledApi.mjs'
+import { createB2bStagingRuntime } from './b2b/stagingRuntime.mjs'
 
 const { PORT } = process.env
 const { createRuntimeMail } = await import('./runtimeMail.mjs')
@@ -16,6 +16,7 @@ const staging = process.env.SEEDTRADE_RUNTIME_ENV === 'staging' || process.env.S
 if (staging) requireStagingIdentity(process.env)
 const { transport, from } = createRuntimeMail(process.env)
 const runtime = staging ? await createStagingNetworkRuntime(process.env) : null
+const b2bRuntime = await createB2bStagingRuntime(process.env)
 const networkInterest = runtime?.networkInterest || createNetworkHandler({ sendMail: options => transport.sendMail(options), from })
 const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../dist')
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.ico': 'image/x-icon', '.webp': 'image/webp', '.woff2': 'font/woff2' }
@@ -24,7 +25,7 @@ const reviewManifest=JSON.parse(await readFile(path.join(dist,'.vite/manifest.js
 const networkReviewOptions=stagingReviewOptions({env:process.env,distRoot:dist})
 const networkReview=await createRemoteNetworkReview({options:networkReviewOptions,manifest:reviewManifest})
 const server = http.createServer(async (req, res) => {
-  if (handleDisabledB2bApi(req,res)) return
+  if (await b2bRuntime.handle(req,res)) return
   if(await networkReview(req,res))return
   if (runtime) res.setHeader('X-SeedTrade-Staging-Backend', 'package3h')
   if (runtime?.cron && req.url === '/api/internal/network-delivery') return runtime.cron(req, res)
@@ -49,4 +50,4 @@ server.requestTimeout = 15000
 server.headersTimeout = 10000
 server.timeout = runtime?.cron ? 60000 : 15000
 server.listen(listenPort,()=>{runConfiguredTransportAcceptance().catch(()=>console.error('STAGING_MTLS_ACCEPTANCE_BLOCKED'))})
-for (const signal of ['SIGINT','SIGTERM']) process.on(signal, () => server.close(() => Promise.resolve(runtime?.close()).finally(() => process.exit(0))))
+for (const signal of ['SIGINT','SIGTERM']) process.on(signal, () => server.close(() => Promise.allSettled([runtime?.close(), b2bRuntime.close()]).finally(() => process.exit(0))))
