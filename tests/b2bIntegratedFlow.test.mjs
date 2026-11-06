@@ -56,7 +56,7 @@ test('full HTTP registration and verification with injected transactional fake D
   }
   const registration=await post('/api/b2b/v1/register',{
     email:'owner@example.test',password:'a sufficiently long password',
-    company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}
+    noticesAccepted:true,company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}
   });
   assert.equal(registration.status,202);
   assert.equal(registration.body.status,'PENDING_EMAIL_VERIFICATION');

@@ -22,7 +22,7 @@ function harness({mailFails = false,companyId=21,userId=42} = {}) {
 test('registration commits company, user, membership and token before sending email',async()=>{
   const {calls,service}=harness();
   const result=await service.register({email:' OWNER@EXAMPLE.COM ',password:'a sufficiently long password',
-    company:{legalName:'Seed Trade',registrationCountry:'lt',registrationNumber:'123456'}});
+    noticesAccepted:true,company:{legalName:'Seed Trade',registrationCountry:'lt',registrationNumber:'123456'}});
   assert.deepEqual(result,{companyId:21,userId:42,status:'PENDING_EMAIL_VERIFICATION'});
   assert.ok(calls.findIndex(x=>x[0]==='commit')<calls.findIndex(x=>x[0]==='mail'));
   assert.equal(calls.find(x=>x[0]==='member')[1].role,'COMPANY_ADMIN');
@@ -38,14 +38,14 @@ test('unsafe verification IDs are rejected before storage and unsafe generated I
   for(const options of [{companyId:0},{companyId:'21'},{userId:Number.MAX_SAFE_INTEGER+1}]) {
     const h=harness(options);
     await assert.rejects(h.service.register({email:'owner@example.test',password:'a sufficiently long password',
-      company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}}),/B2B_ID_UNSUPPORTED/);
+      noticesAccepted:true,company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}}),/B2B_ID_UNSUPPORTED/);
     assert.equal(h.calls.some(call=>call[0]==='commit'||call[0]==='mail'),false);
   }
 });
 test('mail failure remains recoverable and is not a false registration success',async()=>{
   const {service}=harness({mailFails:true});
   const result=await service.register({email:'owner@example.com',password:'a sufficiently long password',
-    company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}});
+    noticesAccepted:true,company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}});
   assert.equal(result.status,'PENDING_EMAIL_DELIVERY');
 });
 test('email verification consumes token in same transaction as verified state',async()=>{
@@ -58,5 +58,8 @@ test('email verification consumes token in same transaction as verified state',a
 test('invalid registration inputs fail before writes',async()=>{
   const {calls,service}=harness();
   await assert.rejects(()=>service.register({email:'bad',password:'short',company:{}}),/INVALID_EMAIL/);
+  assert.equal(calls.length,0);
+  await assert.rejects(service.register({email:'owner@example.test',password:'a sufficiently long password',
+    company:{legalName:'Seed Trade',registrationCountry:'LT',registrationNumber:'123456'}}),/INVALID_NOTICES_ACKNOWLEDGEMENT/);
   assert.equal(calls.length,0);
 });

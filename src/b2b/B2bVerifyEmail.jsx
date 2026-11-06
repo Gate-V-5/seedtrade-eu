@@ -35,6 +35,7 @@ export default function B2bVerifyEmail() {
     <a href="/" style={{color:'inherit'}}>SeedTrade.eu</a>
     <h1 aria-live="polite">{title}</h1>
     <p role="status">{detail}</p>
+    <p><a href="/b2b/account">Sign in to your company account</a></p>
     <a href="/">Return to SeedTrade.eu</a>
   </main>;
 }

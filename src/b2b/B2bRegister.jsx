@@ -22,7 +22,7 @@ export default function B2bRegister() {
     try {
       const response = await fetch('/api/b2b/v1/register', {
         method:'POST', headers:{'Content-Type':'application/json'}, credentials:'same-origin', cache:'no-store',
-        body:JSON.stringify({email:values.get('email'), password:values.get('password'), company:{
+        body:JSON.stringify({email:values.get('email'), password:values.get('password'),noticesAccepted:values.get('noticesAccepted')==='on', company:{
           legalName:values.get('legalName'), registrationCountry:values.get('registrationCountry'),
           registrationNumber:values.get('registrationNumber')}})
       });
@@ -51,9 +51,11 @@ export default function B2bRegister() {
         <label>Company registration number<input name="registrationNumber" required minLength={2} maxLength={100} /></label>
         <label>Business email<input name="email" type="email" autoComplete="email" required maxLength={254} /></label>
         <label>Password<input name="password" type="password" autoComplete="new-password" required minLength={12} maxLength={1024} /></label>
+        <label><input name="noticesAccepted" type="checkbox" required />I acknowledge the <a href="/privacy" target="_blank" rel="noreferrer">privacy notice</a> and accept the <a href="/terms" target="_blank" rel="noreferrer">terms</a>.</label>
         <button type="submit">Register company</button>
       </fieldset>
     </form>
     <p role="status">{status || (available ? 'Your company remains subject to review after email confirmation.' : 'No registration data is submitted while this form is unavailable.')}</p>
+    <a href="/b2b/account">Sign in or request another verification email</a>
   </main>;
 }

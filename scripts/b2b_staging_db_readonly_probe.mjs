@@ -61,8 +61,11 @@ export async function runStagingDatabaseProbe({env, driver}) {
     'SELECT TABLE_NAME AS name, ENGINE AS engine FROM information_schema.TABLES WHERE TABLE_SCHEMA = ? AND TABLE_TYPE = ? ORDER BY TABLE_NAME',
     [expectedDatabase, 'BASE TABLE']
   );
-  if (tables.length !== expectedTables.length ||
-      tables.some((row,i) => row.name !== expectedTables[i] || row.engine !== 'InnoDB'))
+  const portalTables=['b2b_sessions','b2b_offers','b2b_enquiries','b2b_enquiry_messages'];
+  const portal=tables.length===expectedTables.length+portalTables.length;
+  const allowedTables=portal?[...expectedTables,...portalTables].sort():expectedTables;
+  if (tables.length !== allowedTables.length ||
+      tables.some((row,i) => row.name !== allowedTables[i] || row.engine !== 'InnoDB'))
     throw new Error('BLOCKED');
   const [keys] = await connection.execute(
     'SELECT TABLE_NAME AS table_name, COLUMN_NAME AS column_name, REFERENCED_TABLE_NAME AS target_table, REFERENCED_COLUMN_NAME AS target_column FROM information_schema.KEY_COLUMN_USAGE WHERE TABLE_SCHEMA = ? AND REFERENCED_TABLE_NAME IS NOT NULL',
@@ -72,7 +75,17 @@ export async function runStagingDatabaseProbe({env, driver}) {
   const expected = [
     'b2b_company_members:company_id:b2b_companies:id',
     'b2b_company_members:user_id:b2b_users:id',
-    'b2b_email_verifications:user_id:b2b_users:id'
+    'b2b_email_verifications:user_id:b2b_users:id',
+    ...(portal?[
+      'b2b_sessions:user_id:b2b_users:id',
+      'b2b_offers:company_id:b2b_companies:id',
+      'b2b_enquiries:offer_id:b2b_offers:id',
+      'b2b_enquiries:buyer_company_id:b2b_companies:id',
+      'b2b_enquiries:created_by_user_id:b2b_users:id',
+      'b2b_enquiry_messages:enquiry_id:b2b_enquiries:id',
+      'b2b_enquiry_messages:author_user_id:b2b_users:id',
+      'b2b_enquiry_messages:author_company_id:b2b_companies:id'
+    ]:[])
   ].sort();
   if (JSON.stringify(actual) !== JSON.stringify(expected)) throw new Error('BLOCKED');
   result = {status: 'PASS', stage};

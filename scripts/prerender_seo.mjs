@@ -66,6 +66,7 @@ for (const listing of marketplace.items) routes.push([
 for (const [route, title] of [
   ['b2b/register', 'SeedTrade company registration — unavailable'],
   ['b2b/verify-email', 'SeedTrade email confirmation'],
+  ['b2b/account', 'SeedTrade company account'],
 ]) routes.push([route, title, 'Private B2B application page.', false])
 
 for (const privateRoute of ['rfq', 'offer', 'account', 'admin']) routes.push([

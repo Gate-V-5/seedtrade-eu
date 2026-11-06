@@ -5,11 +5,13 @@ import './styles.css'
 // Keep private B2B pages outside the public app's analytics, hash navigation,
 // metadata and consent initialization. This does not activate the B2B API.
 const pathname = window.location.pathname.replace(/\/$/, '') || '/'
-const privateRoute = pathname === '/b2b/verify-email' || pathname === '/b2b/register'
+const privateRoute = ['/b2b/verify-email','/b2b/register','/b2b/account'].includes(pathname)
 const App = privateRoute
   ? (pathname === '/b2b/verify-email'
       ? (await import('./b2b/B2bVerifyEmail.jsx')).default
-      : (await import('./b2b/B2bRegister.jsx')).default)
+      : pathname === '/b2b/account'
+        ? (await import('./b2b/B2bAccount.jsx')).default
+        : (await import('./b2b/B2bRegister.jsx')).default)
   : (await import('./AppV2')).default
 
 const root = document.getElementById('root')

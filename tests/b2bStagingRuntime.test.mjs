@@ -54,7 +54,7 @@ function fixture({wrongIdentity = false, failedDatabase = false} = {}) {
   return {state, dependencies};
 }
 const body = {email:'owner@example.test', password:'a sufficiently long test password',
-  company:{legalName:'Synthetic Company', registrationCountry:'LT', registrationNumber:'WP05-TEST'}};
+  noticesAccepted:true,company:{legalName:'Synthetic Company', registrationCountry:'LT', registrationNumber:'WP05-TEST'}};
 
 test('every missing gate, production, SMTP and wrong database stay closed without creating dependencies', async () => {
   const configurations = [{}, ...Object.keys(env).filter(key => key.startsWith('B2B_REGISTRATION_'))
@@ -69,7 +69,8 @@ test('every missing gate, production, SMTP and wrong database stay closed withou
       driver:{createPool(){pools++; throw new Error('unexpected pool');}},
       createMail(){transports++; throw new Error('unexpected transport');}
     });
-    for (const url of ['/api/b2b/v1/status','/api/b2b/v1/register','/api/b2b/v1/verify-email']) {
+    for (const url of ['/api/b2b/v1/status','/api/b2b/v1/register','/api/b2b/v1/verify-email',
+      '/api/b2b/v1/session','/api/b2b/v1/login','/api/b2b/v1/offers','/api/b2b/v1/enquiries','/api/b2b/v1/companies/review']) {
       assert.equal((await request(runtime,url)).status,404);
     }
     await runtime.close();
@@ -78,10 +79,22 @@ test('every missing gate, production, SMTP and wrong database stay closed withou
   }
 });
 
+test('portal adds independent storage/activation gates and unauthenticated reads never acquire a database connection',async()=>{
+  for(const storage of ['false','true']) {
+    const f=fixture();f.dependencies.catalogue=[{id:'red-clover',name:'Red clover',botanical:'Trifolium pratense',category:'forage-legumes'}];
+    const runtime=await createB2bStagingRuntime({...env,B2B_PORTAL_ENABLED:'true',B2B_PORTAL_STORAGE_VERIFIED:storage},f.dependencies);
+    const enabled=storage==='true';
+    assert.equal((await request(runtime,'/api/b2b/v1/status')).body.portalAvailable,enabled);
+    assert.equal((await request(runtime,'/api/b2b/v1/session')).status,enabled?401:404);
+    assert.equal(f.state.sql.length,0);assert.equal(f.state.sent.length,0);
+    await runtime.close();
+  }
+});
+
 test('gated staging flow checks identity before writes, uses UTC, reports stream non-delivery and verifies once', async () => {
   const {state, dependencies} = fixture();
   const runtime = await createB2bStagingRuntime(env, dependencies);
-  assert.deepEqual((await request(runtime,'/api/b2b/v1/status')).body,{registrationAvailable:true});
+  assert.deepEqual((await request(runtime,'/api/b2b/v1/status')).body,{registrationAvailable:true,portalAvailable:false});
   assert.equal(state.sql.length,0);
   const registration = await request(runtime,'/api/b2b/v1/register',body);
   assert.equal(registration.status,202);
@@ -104,7 +117,7 @@ test('proxy spoofing cannot reach storage and a wrong database identity fails be
     const {state, dependencies} = fixture(options);
     const runtime = await createB2bStagingRuntime(env, dependencies);
     const spoofed = {socket:{remoteAddress:'192.0.2.9'}};
-    assert.deepEqual((await request(runtime,'/api/b2b/v1/status',null,spoofed)).body,{registrationAvailable:false});
+    assert.deepEqual((await request(runtime,'/api/b2b/v1/status',null,spoofed)).body,{registrationAvailable:false,portalAvailable:false});
     assert.equal((await request(runtime,'/api/b2b/v1/register',body,spoofed)).status,429);
     assert.equal(state.sql.length,0);
     const result = await request(runtime,'/api/b2b/v1/register',body);

@@ -40,7 +40,10 @@ const server = http.createServer(async (req, res) => {
     const file = (await stat(target)).isDirectory() ? path.join(target, 'index.html') : target
     const data = await readFile(file)
     const extension = path.extname(file).toLowerCase()
-    res.writeHead(200, { 'Content-Type': mime[extension] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff', 'Cache-Control': extension === '.html' ? 'no-cache, must-revalidate' : 'public, max-age=31536000, immutable' })
+    const privatePage=pathname==='/b2b'||pathname.startsWith('/b2b/');
+    res.writeHead(200, { 'Content-Type': mime[extension] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff',
+      ...(privatePage?{'Referrer-Policy':'no-referrer','X-Frame-Options':'DENY','X-Robots-Tag':'noindex, nofollow'}:{}),
+      'Cache-Control': privatePage&&extension==='.html'?'no-store':extension === '.html' ? 'no-cache, must-revalidate' : 'public, max-age=31536000, immutable' })
     res.end(req.method === 'HEAD' ? undefined : data)
   } catch { res.writeHead(404); res.end() }
 })

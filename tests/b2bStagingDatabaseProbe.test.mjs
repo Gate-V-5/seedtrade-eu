@@ -80,6 +80,18 @@ test('successful probe uses restricted options, three SELECTs and closes before 
   }
 });
 
+test('the same read-only probe accepts the proposed nine-table journey only with all eleven foreign keys',async()=>{
+  const f=fixture();
+  f.rows[1]=[...tableNames,'b2b_sessions','b2b_offers','b2b_enquiries','b2b_enquiry_messages'].sort().map(name=>({name,engine:'InnoDB'}));
+  f.rows[2].push(...[
+    ['b2b_sessions','user_id','b2b_users'],['b2b_offers','company_id','b2b_companies'],
+    ['b2b_enquiries','offer_id','b2b_offers'],['b2b_enquiries','buyer_company_id','b2b_companies'],['b2b_enquiries','created_by_user_id','b2b_users'],
+    ['b2b_enquiry_messages','enquiry_id','b2b_enquiries'],['b2b_enquiry_messages','author_user_id','b2b_users'],['b2b_enquiry_messages','author_company_id','b2b_companies']
+  ].map(([table_name,column_name,target_table])=>({table_name,column_name,target_table,target_column:'id'})));
+  assert.deepEqual(await f.run(),{status:'PASS',stage:'SCHEMA'});
+  assert.equal(f.state.queries.length,3);
+});
+
 test('every configuration restriction fails closed before creating a connection', async () => {
   for (const key of Object.keys(env)) {
     for (const value of [undefined, '', 'unexpected-value']) {

@@ -13,9 +13,10 @@ export function createRegistrationService({repository, passwordHasher, mailer, n
   requireDependency(passwordHasher, 'hash');
   requireDependency(mailer, 'sendVerification');
   return {
-    async register({email, password, company}) {
+    async register({email, password, company, noticesAccepted}) {
       const normalizedEmail = normalizeEmail(email);
       const normalizedCompany = normalizeCompany(company);
+      if(noticesAccepted!==true)throw new TypeError('INVALID_NOTICES_ACKNOWLEDGEMENT');
       if (typeof password !== 'string' || password.length < 12 || password.length > 1024)
         throw new TypeError('INVALID_PASSWORD');
       const passwordHash = await passwordHasher.hash(password);
@@ -35,6 +36,7 @@ export function createRegistrationService({repository, passwordHasher, mailer, n
         await tx.insertEmailVerification({userId, tokenHash: issued.tokenHash, expiresAt: new Date(issued.expiresAt)});
         await tx.appendAudit({actorUserId: userId, companyId, action: 'COMPANY_REGISTRATION',
           entityType: 'company', entityId: String(companyId)});
+        await tx.appendAudit({actorUserId:userId,companyId,action:'NOTICES_ACKNOWLEDGED',entityType:'privacy_terms',entityId:'b2b-v1-2026-11'});
         return {companyId, userId};
       });
       // Send only after commit; a mail failure must not roll back the committed account.
