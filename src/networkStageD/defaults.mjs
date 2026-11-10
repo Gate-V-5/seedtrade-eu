@@ -1,0 +1,2 @@
+export const emptyPermissions=()=>({listingDetails:false,companyIdentity:false,contactInformation:false,price:false,quantity:false,aggregatedPriceSignals:false})
+export const emptyListing=()=>({type:'SELL_OFFER',speciesId:'',variety:'',seedStatus:'SOWING_STATUS_UNKNOWN',certificationClass:'',cropYear:'',originCountry:'',quantity:'',quantityUnit:'KG',packaging:'',price:'',priceUnit:'KG',currency:'EUR',vat:'UNKNOWN',quality:[],certification:'',documents:[],deliveryLocation:'',incoterm:'',validUntil:'',description:'',contactPreference:''})

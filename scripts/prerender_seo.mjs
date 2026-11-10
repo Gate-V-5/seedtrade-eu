@@ -62,6 +62,8 @@ for (const listing of marketplace.items) routes.push([
   `Active PUBLIC_SAFE ${listing.species_common_name} seed offer: ${listing.quantity} ${listing.quantity_unit}, ${listing.incoterm} ${listing.location}.`,
   true,
 ])
+for (const [route,title] of [['b2b/register','SeedTrade company registration — unavailable'],['b2b/verify-email','SeedTrade email confirmation'],['b2b/account','SeedTrade company account']]) routes.push([route,title,'Private B2B application page.',false])
+
 for (const privateRoute of ['rfq', 'offer', 'account', 'admin']) routes.push([
   privateRoute,
   'SeedTrade private application',
@@ -87,7 +89,25 @@ function replaceOnce(source, pattern, replacement) {
   return source.replace(pattern, replacement)
 }
 
-const source = await fs.readFile(path.join(dist, 'index.html'), 'utf8')
+// Public AppV2 is lazy only to isolate B2B initialization. Its static CSS must still
+// be present for the existing no-JavaScript public rendering.
+const manifest = JSON.parse(await fs.readFile(path.join(dist,'.vite/manifest.json'),'utf8'))
+const publicCss = new Set(), visited = new Set()
+function collectPublicCss(key) {
+  if (visited.has(key)) return
+  visited.add(key)
+  const entry = manifest[key]
+  if (!entry) throw new Error('Missing public build manifest entry')
+  for (const child of entry.imports || []) collectPublicCss(child)
+  for (const css of entry.css || []) publicCss.add(css)
+}
+collectPublicCss('src/AppV2.jsx')
+const originalShell = await fs.readFile(path.join(dist,'index.html'),'utf8')
+const cssLinks = [...publicCss].filter(css => !originalShell.includes('href="/'+css+'"')).map(css => '<link rel="stylesheet" crossorigin href="/'+css+'">').join('\n    ')
+const publicShell = cssLinks ? originalShell.replace(/(?=<link rel="stylesheet")/, cssLinks+'\n    ') : originalShell
+await fs.writeFile(path.join(dist,'index.html'),publicShell,'utf8')
+
+const source = publicShell
 for (const [route, title, description, indexable] of routes) {
   const canonical = `https://seedtrade.eu/${route}`
   let page = source

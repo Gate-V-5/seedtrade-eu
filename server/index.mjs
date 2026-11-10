@@ -20,6 +20,11 @@ const server = http.createServer(async (req, res) => {
   let pathname
   try { pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname) } catch { res.writeHead(400); return res.end() }
   if (pathname.includes('\0') || pathname.split('/').includes('..') || pathname.startsWith('/api/')) { res.writeHead(404); return res.end() }
+  // Keep B2B pages closed until a separately approved activation release.
+  if (/^\/b2b(?:\/|$)/i.test(pathname)) {
+    res.writeHead(404, {'Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow','X-Content-Type-Options':'nosniff'});
+    return res.end()
+  }
   const target = path.resolve(dist, `.${pathname}`)
   if (target !== dist && !target.startsWith(dist + path.sep)) { res.writeHead(404); return res.end() }
   try {

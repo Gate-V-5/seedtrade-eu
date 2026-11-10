@@ -9,6 +9,8 @@
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # Keep production B2B pages closed, including direct static-file delivery.
+  RewriteRule ^b2b(?:/|$) - [R=404,L,NC]
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]

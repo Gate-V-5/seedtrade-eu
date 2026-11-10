@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import {fileURLToPath} from 'node:url'
 import process from 'node:process'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { createServer } from 'vite'
 
-const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dist = path.join(root, 'dist')
 
 const storage = {
@@ -28,7 +29,7 @@ const vite = await createServer({
   root,
   appType: 'custom',
   logLevel: 'error',
-  server: { middlewareMode: true },
+  server: { middlewareMode: true, hmr: false },
 })
 
 try {
@@ -46,6 +47,7 @@ try {
   for (const file of files.sort()) {
     const relative = path.relative(dist, path.dirname(file)).split(path.sep).join('/')
     const route = relative ? `/${relative}` : '/'
+    if (['/b2b/register','/b2b/verify-email','/b2b/account'].includes(route)) continue
     window.location.pathname = route
     // hydrateRoot requires React's hydratable text-boundary markers. Static
     // markup deliberately omits them and caused production errors #418/#423/#425.
