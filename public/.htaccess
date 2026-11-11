@@ -5,11 +5,16 @@
   <FilesMatch "\.(css|js)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
+  Header set Cache-Control "no-store" env=B2B_PRIVATE_PAGE
+  Header set X-Robots-Tag "noindex, nofollow" env=B2B_PRIVATE_PAGE
+  Header set Referrer-Policy "no-referrer" env=B2B_PRIVATE_PAGE
+  Header set X-Frame-Options "DENY" env=B2B_PRIVATE_PAGE
 </IfModule>
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # Keep production B2B pages closed, including direct static-file delivery.
+  # Only canonical private B2B pages may open; unknown B2B paths stay closed.
+  RewriteRule ^b2b/(register|verify-email|account)/?$ - [E=B2B_PRIVATE_PAGE:1,L]
   RewriteRule ^b2b(?:/|$) - [R=404,L,NC]
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d

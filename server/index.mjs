@@ -17,11 +17,12 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; cha
 const server = http.createServer(async (req, res) => {
   if (req.url?.split('?')[0] === '/api/network-interest') return networkInterest(req, res)
   if (req.method !== 'GET' && req.method !== 'HEAD') { res.writeHead(405); return res.end() }
-  let pathname
-  try { pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname) } catch { res.writeHead(400); return res.end() }
+  let pathname, rawPathname
+  try { rawPathname = new URL(req.url, 'http://localhost').pathname; pathname = decodeURIComponent(rawPathname) } catch { res.writeHead(400); return res.end() }
   if (pathname.includes('\0') || pathname.split('/').includes('..') || pathname.startsWith('/api/')) { res.writeHead(404); return res.end() }
-  // Keep B2B pages closed until a separately approved activation release.
-  if (/^\/b2b(?:\/|$)/i.test(pathname)) {
+  // Only the three private application pages may open in an approved activation.
+  const b2bPage = /^\/b2b\/(?:register|verify-email|account)\/?$/.test(pathname) && rawPathname === pathname
+  if (/^\/b2b(?:\/|$)/i.test(pathname) && !b2bPage) {
     res.writeHead(404, {'Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow','X-Content-Type-Options':'nosniff'});
     return res.end()
   }
@@ -31,7 +32,7 @@ const server = http.createServer(async (req, res) => {
     const file = (await stat(target)).isDirectory() ? path.join(target, 'index.html') : target
     const data = await readFile(file)
     const extension = path.extname(file).toLowerCase()
-    res.writeHead(200, { 'Content-Type': mime[extension] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff', 'Cache-Control': extension === '.html' ? 'no-cache, must-revalidate' : 'public, max-age=31536000, immutable' })
+    res.writeHead(200, { 'Content-Type': mime[extension] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff', 'Cache-Control': b2bPage ? 'no-store' : extension === '.html' ? 'no-cache, must-revalidate' : 'public, max-age=31536000, immutable', ...(b2bPage ? {'Referrer-Policy':'no-referrer','X-Frame-Options':'DENY','X-Robots-Tag':'noindex, nofollow'} : {}) })
     res.end(req.method === 'HEAD' ? undefined : data)
   } catch { res.writeHead(404); res.end() }
 })

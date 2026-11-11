@@ -62,7 +62,7 @@ for (const listing of marketplace.items) routes.push([
   `Active PUBLIC_SAFE ${listing.species_common_name} seed offer: ${listing.quantity} ${listing.quantity_unit}, ${listing.incoterm} ${listing.location}.`,
   true,
 ])
-for (const [route,title] of [['b2b/register','SeedTrade company registration — unavailable'],['b2b/verify-email','SeedTrade email confirmation'],['b2b/account','SeedTrade company account']]) routes.push([route,title,'Private B2B application page.',false])
+for (const [route,title] of [['b2b/register','SeedTrade company registration'],['b2b/verify-email','SeedTrade email confirmation'],['b2b/account','SeedTrade company account']]) routes.push([route,title,'Private B2B application page.',false])
 
 for (const privateRoute of ['rfq', 'offer', 'account', 'admin']) routes.push([
   privateRoute,
