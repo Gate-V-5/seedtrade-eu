@@ -96,6 +96,15 @@
 
 .market-snapshot .catalogue-card-metrics:has(.catalogue-seed-price-measure)>.catalogue-card-measure{grid-row:auto}
 
+/* Catalogue discovery uses the existing cards and category layout. */
+.catalogue-global-search{margin-top:32px}
+.catalogue-production-link{display:inline-block;color:var(--green);text-decoration:underline;text-underline-offset:3px;line-height:1.5;overflow-wrap:anywhere}
+.catalogue-seed-card>.catalogue-production-link{margin-top:10px;font-size:.875rem}
+.catalogue-production-link:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.catalogue-global-search>h2{font-size:1.3rem;margin:0 0 16px}
+.catalogue-clear-search{flex-shrink:0;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--green);font:inherit;cursor:pointer}
+.catalogue-clear-search:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+
 /* The homepage is a summary; full Intelligence lives on the market detail page. */
 .snapshot-intelligence-compact{gap:6px}
 .snapshot-intelligence-compact .snapshot-situation{font-size:.875rem;line-height:1.4}

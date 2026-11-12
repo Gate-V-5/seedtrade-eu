@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import {fileURLToPath} from 'node:url'
+import {fileURLToPath,pathToFileURL} from 'node:url'
 import process from 'node:process'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
-import { createServer } from 'vite'
+import { build } from 'vite'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dist = path.join(root, 'dist')
@@ -25,15 +25,27 @@ global.window = {
 }
 global.localStorage = storage
 
-const vite = await createServer({
+// Use production SSR loading inside the existing prerender step. The dev
+// runner incorrectly inlines CommonJS React on Windows. This build-only bundle
+// is outside dist/public and resolves the same installed React as this script.
+const ssrDirectory = path.join(root, '.seedtrade-ssr')
+await build({
   root,
-  appType: 'custom',
   logLevel: 'error',
-  server: { middlewareMode: true, hmr: false },
+  build: {
+    ssr: path.join(root, 'src/AppV2.jsx'),
+    outDir: ssrDirectory,
+    emptyOutDir: false,
+    copyPublicDir: false,
+    rollupOptions: {
+      external: ['react', 'react/jsx-runtime', 'react/jsx-dev-runtime'],
+      output: { entryFileNames: 'AppV2.mjs' },
+    },
+  },
 })
 
-try {
-  const { default: AppV2 } = await vite.ssrLoadModule('/src/AppV2.jsx')
+{
+  const { default: AppV2 } = await import(pathToFileURL(path.join(ssrDirectory, 'AppV2.mjs')).href)
   const files = []
   async function walk(directory) {
     for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
@@ -60,6 +72,4 @@ try {
     await fs.writeFile(file, html, 'utf8')
   }
   process.stdout.write(`static-first prerendered ${files.length} routes\n`)
-} finally {
-  await vite.close()
 }

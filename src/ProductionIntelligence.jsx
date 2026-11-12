@@ -1,7 +1,7 @@
-import {useMemo,useState} from 'react'
+import {useEffect,useMemo,useState} from 'react'
 import {useT,useLanguage} from './i18n/index.jsx'
 import data from './productionCoverageData.mjs'
-import {metricLabels,selectEvidence,coverage,countryLabel} from './productionEvidence.mjs'
+import {metricLabels,selectEvidence,coverage,countryLabel,productionViewDefaults,validateProductionView,productionViewFromSearch,productionViewLocation} from './productionEvidence.mjs'
 
 function EntityName({entity}) {
   const t=useT()
@@ -19,7 +19,26 @@ function HistoryPlot({group,format}) {
   </svg><figcaption>{t('Points show reported values only. No interpolation or EU total.')}</figcaption></figure>
 }
 export default function ProductionIntelligence() {
-  const t=useT(),{language}=useLanguage(),[entity,setEntity]=useState('alfalfa'),[country,setCountry]=useState('CZ'),[metric,setMetric]=useState('SEED_PRODUCTION_AREA'),[year,setYear]=useState(''),[history,setHistory]=useState('0'),[grain,setGrain]=useState('')
+  const t=useT(),{language}=useLanguage(),[view,setView]=useState(()=>({...productionViewDefaults})),[adjusted,setAdjusted]=useState(false)
+  const {entity,country,metric,year,history,scope:grain}=view
+  useEffect(()=>{
+    const restore=event=>{
+      const result=productionViewFromSearch(data,window.location.search)
+      setView(result.view)
+      // StrictMode can replay the initial effect after URL canonicalisation.
+      // Retain that initial notice; a later valid popstate clears it.
+      setAdjusted(previous=>result.adjusted||(!event&&previous))
+      window.history.replaceState(window.history.state,'',productionViewLocation(data,result.view))
+    }
+    restore();window.addEventListener('popstate',restore)
+    return ()=>window.removeEventListener('popstate',restore)
+  },[])
+  const update=patch=>{
+    const result=validateProductionView(data,{...view,...patch})
+    setView(result.view);setAdjusted(false)
+    window.history.replaceState(window.history.state,'',productionViewLocation(data,result.view))
+  }
+  const shareLocation=useMemo(()=>productionViewLocation(data,view),[view])
   const format=value=>new Intl.NumberFormat({EN:'en-GB',DE:'de-DE',FR:'fr-FR',ES:'es-ES',IT:'it-IT'}[language]||'en-GB',{maximumFractionDigits:2}).format(value)
   const selectedEntity=data.entities.find(e=>e.id===entity)
   const groups=useMemo(()=>selectEvidence(data,{entity,country,metric,year,history}),[entity,country,metric,year,history])
@@ -31,17 +50,19 @@ export default function ProductionIntelligence() {
   return <main className="production-intelligence">
     <div className="page-head"><p className="eyebrow">{t('European Seed Market Intelligence')}</p><h1>{t('Seed Production Intelligence')}</h1><p>{t('Official seed multiplication and certification evidence by species, country, metric and year. Seed-production area is distinct from commodity crop area.')}</p><a href="/market">{t('Market Intelligence')} →</a></div>
     <section className="production-filters" aria-label={t('Production evidence filters')}>
-      <label>{t('Species')}<select value={entity} onChange={e=>{setEntity(e.target.value);setGrain('');setYear('')}}>{data.entities.map(e=><option key={e.id} value={e.id}>{t(e.name)}{e.botanical?` (${e.botanical})`:''}</option>)}</select></label>
-      <label>{t('Country')}<select value={country} onChange={e=>{setCountry(e.target.value);setGrain('');setYear('')}}><option value="">{t('All countries')}</option>{data.countries.map(c=><option key={c} value={c}>{countryLabel(c,language)}</option>)}</select></label>
-      <label>{t('Metric')}<select value={metric} onChange={e=>{setMetric(e.target.value);setGrain('');setYear('')}}>{Object.entries(metricLabels).map(([key,label])=><option key={key} value={key}>{t(label)}</option>)}</select></label>
-      <label>{t('Year')}<select value={year} onChange={e=>setYear(e.target.value)}><option value="">{t('All available years')}</option>{years.map(y=><option key={y} value={y}>{y}</option>)}</select></label>
-      <label>{t('Comparable history')}<select value={history} onChange={e=>setHistory(e.target.value)}><option value="0">{t('Any available history')}</option>{[2,3,4,5].map(n=><option key={n} value={n}>{t('At least {count} consecutive years',{count:n})}</option>)}</select></label>
+      <label>{t('Species')}<select name="entity" value={entity} onChange={e=>update({entity:e.target.value,scope:'',year:''})}>{data.entities.map(e=><option key={e.id} value={e.id}>{t(e.name)}{e.botanical?` (${e.botanical})`:''}</option>)}</select></label>
+      <label>{t('Country')}<select name="country" value={country} onChange={e=>update({country:e.target.value,scope:'',year:''})}><option value="">{t('All countries')}</option>{data.countries.map(c=><option key={c} value={c}>{countryLabel(c,language)}</option>)}</select></label>
+      <label>{t('Metric')}<select name="metric" value={metric} onChange={e=>update({metric:e.target.value,scope:'',year:''})}>{Object.entries(metricLabels).map(([key,label])=><option key={key} value={key}>{t(label)}</option>)}</select></label>
+      <label>{t('Year')}<select name="year" value={year} onChange={e=>update({year:e.target.value})}><option value="">{t('All available years')}</option>{years.map(y=><option key={y} value={y}>{y}</option>)}</select></label>
+      <label>{t('Comparable history')}<select name="history" value={history} onChange={e=>update({history:e.target.value})}><option value="0">{t('Any available history')}</option>{[2,3,4,5].map(n=><option key={n} value={n}>{t('At least {count} consecutive years',{count:n})}</option>)}</select></label>
     </section>
+    <p className="production-note"><a href={shareLocation}>{t('Share this evidence view')}</a></p>
+    {adjusted&&<p className="production-note" role="status">{t('Some shared filters were unavailable and were reset.')}</p>}
     <dl className="production-kpis" aria-label={t('Selected evidence coverage')}>{[['Countries',summary.countries],['Canonical entities',summary.entities],['Observations',summary.observations],['Comparable series',summary.comparable],['Latest data year',summary.latest??'—']].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{value}</dd></div>)}</dl>
     <p className="production-note">{t('Coverage reflects your filters. Comparable series require at least two consecutive years within the same official source scope.')}</p>
     {!active?<section className="empty-state"><h2>{t('No compatible evidence for these filters')}</h2><p>{t('Missing observations are not zero. Try another country, metric or history length.')}</p></section>:<section className="production-history">
       <h2><EntityName entity={selectedEntity}/></h2><p>{countryLabel(active.country,language)} · {t(metricLabels[active.metric])} · {active.unit}</p>
-      <label className="production-scope">{t('Official source scope')}<select value={active.id} onChange={e=>setGrain(e.target.value)}>{groups.map(s=><option key={s.id} value={s.id}>{countryLabel(s.country,language)} · {scopeLabel(s)} · {s.organisation}</option>)}</select></label>
+      <label className="production-scope">{t('Official source scope')}<select name="scope" value={active.id} onChange={e=>update({scope:e.target.value})}>{groups.map(s=><option key={s.id} value={s.id}>{countryLabel(s.country,language)} · {scopeLabel(s)} · {s.organisation}</option>)}</select></label>
       <p className="production-note">{scopeLabel(active)}</p>
       <p className="production-history-status">{active.history_length>=2?t('{count}-year comparable history available',{count:active.history_length}):t('Insufficient comparable history for a trend')}</p>
       {active.points.length>=2&&<HistoryPlot group={active} format={format}/>}

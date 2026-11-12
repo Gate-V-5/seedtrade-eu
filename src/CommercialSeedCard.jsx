@@ -6,6 +6,8 @@ import {latestTradeUnitValue,latestSeedPrice} from './commercialEvidence.mjs'
 import SnapshotIntelligence from './SnapshotIntelligence.jsx'
 import {compactTonnes,exactTonnes} from './tradeKpiDisplay.mjs'
 import './marketCatalogue.css'
+import CatalogueProductionLink from './CatalogueProductionLink.jsx'
+import {catalogueSeedLocation} from './catalogueProduction.mjs'
 const displayMonth=(period,language)=>new Intl.DateTimeFormat(locale(language),{month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(`${period}-01T00:00:00Z`))
 const categoryById=id=>snapshot.categories.find(c=>c.id===id)
 const available=value=>value!==null&&value!==undefined&&Number.isFinite(Number(value))
@@ -40,7 +42,7 @@ function CardHistory({card}) {
     {slots.map(({period,point})=><span key={period} title={point?`${period}: ${new Intl.NumberFormat(locale(language),{maximumFractionDigits:2}).format(point.volume_t)} t`:period}>{available(point?.volume_t)&&<i style={{height:`${Number(point.volume_t)/maximum*100}%`}}/>}</span>)}
   </div>
 }
-export function SeedCard({card,snapshot=false}) {
+export function SeedCard({card,snapshot=false,productionSearch=''}) {
   const t=useT(),{language}=useLanguage(),hasTrade=available(card.trade_volume_t),price=latestTradeUnitValue(card.price_observations),seedPrice=hasEstimatedRange(card.market_entity_id)?null:latestSeedPrice(card.price_observations)
   return <article className={`catalogue-seed-card${snapshot?" crop-card":""}`} data-entity-id={card.market_entity_id}>
     <div className="catalogue-seed-heading"><h3>{t(card.common_name_en)}</h3><p className="catalogue-botanical"><em>{card.botanical_display_name}</em></p></div>
@@ -56,6 +58,7 @@ export function SeedCard({card,snapshot=false}) {
       <div className="catalogue-card-trade-history">{hasTrade&&<><p className="catalogue-history-label">{t("EU internal trade volume — tonnes")}</p><CardHistory card={card}/><p className="catalogue-period catalogue-trade-period">{snapshot?t('Completed · {period}',{period:displayMonth(card.latest_trade_period,language)}):t('Completed {period}',{period:card.latest_trade_period})}</p></>}</div>
       {!snapshot&&card.CN_status==='PARTIAL'&&<p className="catalogue-note">{t('This customs scope covers only part of the seed market.')}</p>}
     </>}
-    <a className="catalogue-card-cta" href={`/market/seeds/${card.slug}`}>{t('Explore market →')}</a>
+    <a className="catalogue-card-cta" href={snapshot?`/market/seeds/${card.slug}`:catalogueSeedLocation(card,productionSearch)}>{t('Explore market →')}</a>
+    {!snapshot&&<CatalogueProductionLink card={card} search={productionSearch}/>}
   </article>
 }
