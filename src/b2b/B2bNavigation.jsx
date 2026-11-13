@@ -9,9 +9,6 @@ export default function B2bNavigation() {
     <summary><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 21V7h10v14M14 11h6v10M8 3v4M7 11h4M7 15h4M7 19h4M2 21h20"/></svg> {t("B2B")}</summary>
     <div className="b2b-navigation-links">
       <a href="/b2b/register">{t("Register company")}</a>
-      <a href="/b2b/account">{t("Sign in / company account")}</a>
-      <a href="/b2b/account#reviews">{t("Reviewer sign in")}</a>
-      <small>{t("Company approval is required. Access may be unavailable while B2B is closed.")}</small>
     </div>
   </details>;
 }

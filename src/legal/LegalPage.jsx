@@ -22,16 +22,15 @@ export default function LegalPage({kind}) {
   const anchors=kind==='terms'?['operator','eligibility','approval','listing-rules','licence','communications','reports','suspension','termination','law','versions']:
     ['controller','scope','legal-bases','recipients','processors','retention','cookies','rights','updates'];
   return <main className="article">
-    <h1 lang="en">{kind==='terms'?'B2B Terms':'Privacy Notice'}</h1><p>{t('English legal text')}</p>
+    <h1 lang="en">{kind==='terms'?'B2B Terms':'Privacy Notice'}</h1>
     {registry.approval.status!=='APPROVED'&&<p role="note"><strong>{t('Local review draft. Not approved for publication or public acceptance.')}</strong></p>}
-    <p>{t('The legal documents are provided in English. Your interface language does not change the accepted legal version.')}</p>
-    <p>{doc.version}</p>
+    <p>{t('Legal documents are provided in English.')}</p>
     <article lang={locale}>{doc.translations[locale].map((section,i)=><section key={section.heading} id={anchors[i]}>
       {kind==='terms'&&i===3&&<span id="enquiries"/>}
       <h2>{section.heading}</h2><Text text={section.text}/>
     </section>)}</article>
     <p><a href={snapshot.path}>{t('Save or print the English version')}</a> &#183; <a href={`/legal/snapshots/${snapshot.id}.json`} download>{t('Download exact source')}</a></p>
-    <p>SHA-256: <code>{snapshot.id}</code></p>
+    <details><summary>{t('Document details')}</summary><p>{doc.version}</p><p>SHA-256: <code>{snapshot.id}</code></p></details>
     <p><a href="/legal/report/">{t('Contacts and content reports')}</a></p>
   </main>;
 }

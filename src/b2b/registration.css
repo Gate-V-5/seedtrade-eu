@@ -1,0 +1,50 @@
+.b2b-private-shell{min-height:100vh;background:#f3f6f5;color:#142e3e;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+.b2b-site-header{max-width:1160px;margin:0 auto;padding:24px 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #d7e1dc}
+.b2b-brand{font-size:20px;font-weight:800;letter-spacing:.045em;color:#123a2b;text-decoration:none}
+.b2b-site-header .language-select{min-height:44px;min-width:100px;border:1px solid #70868f;border-radius:8px;background:#fff;color:#142e3e;padding:8px 12px;font:inherit}
+.b2b-registration{max-width:1120px;margin:0 auto;padding:56px 40px 64px;display:grid;grid-template-columns:minmax(240px,.85fr) minmax(0,1.15fr);gap:64px;align-items:start}
+.b2b-registration-intro{margin:0;padding:32px 0 0}
+.b2b-eyebrow{font-size:12px;line-height:1.4;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:#0b6b45;margin:0 0 18px}
+.b2b-registration h1{font-size:clamp(30px,3.5vw,44px);line-height:1.13;letter-spacing:-.035em;font-weight:750;margin:0 0 22px;color:#102b3c}
+.b2b-registration-lead{font-size:18px;color:#435b65;margin:0 0 28px;max-width:30ch}
+.b2b-phase-note{font-size:14px;color:#52636d;max-width:37ch;border-top:1px solid #d7e1dc;padding-top:24px;margin:0}
+.b2b-registration-card{margin:0;min-width:0;background:#fff;border:1px solid #d7e1dc;border-radius:18px;padding:32px;box-shadow:0 12px 36px #163e2a08}
+.b2b-registration form,.b2b-registration fieldset{min-width:0;margin:0;padding:0;border:0}
+.b2b-registration fieldset{display:grid;gap:20px}
+.b2b-field{display:flex;flex-direction:column;gap:7px;min-width:0}
+.b2b-field>label{display:block;font-weight:650;font-size:14px;color:#203c4b}
+.b2b-field input,.b2b-field select{display:block;width:100%;min-width:0;min-height:48px;padding:11px 13px;border:1px solid #70868f;border-radius:8px;background:#fff;color:#142e3e;font:inherit;line-height:1.4;box-sizing:border-box}
+.b2b-field input[aria-invalid=true],.b2b-field select[aria-invalid=true]{border-color:#a32235;box-shadow:0 0 0 1px #a32235}
+.b2b-private-shell :is(a,button,input,select,summary):focus-visible,.seedtrade-legal-information summary:focus-visible{outline:3px solid #16734c;outline-offset:3px}
+.b2b-password{position:relative;width:100%}
+.b2b-password input{padding-right:82px}
+.b2b-password-toggle{position:absolute;right:4px;top:4px;bottom:4px;min-width:64px;padding:0 10px;background:#eef4f1;color:#0b5c3b;border:0;border-radius:5px;font:inherit;font-size:13px;font-weight:650;cursor:pointer}
+.b2b-field-help{margin:0;font-size:13px;color:#52636d;line-height:1.5}
+.b2b-field-error,.b2b-error-summary{margin:0;color:#9c2531;font-size:13px;line-height:1.5}
+.b2b-error-summary{margin:0 0 20px;padding:12px 14px;background:#fff3f4;border-left:3px solid #9c2531;border-radius:4px}
+.b2b-registration-legal-links{display:flex;gap:24px;flex-wrap:wrap;border-top:1px solid #e0e7e3;padding-top:20px}
+.b2b-registration a{color:#0b6242;text-decoration:underline;text-underline-offset:3px}
+.b2b-registration-legal-links a{font-size:14px;font-weight:650;min-height:24px}
+.b2b-acceptance{display:grid;grid-template-columns:22px minmax(0,1fr);gap:11px;align-items:start}
+.b2b-acceptance input{width:20px;height:20px;margin:3px 0;accent-color:#0b6b45;cursor:pointer}
+.b2b-acceptance label{font-size:13px;line-height:1.6;font-weight:400;color:#354e59;cursor:pointer}
+.b2b-submit{width:100%;min-height:50px;border:1px solid #0b6242;border-radius:8px;padding:12px 18px;background:#0b6b45;color:#fff;font:inherit;font-size:15px;font-weight:700;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:12px}
+.b2b-submit:hover{background:#075537}
+.b2b-registration fieldset:disabled{opacity:.7}
+.b2b-registration button:disabled{cursor:wait}
+.b2b-availability,.b2b-response{font-size:14px;line-height:1.6;padding:14px 16px;background:#eef4f1;color:#264d3c;border-radius:8px;margin:0 0 22px}
+.b2b-response{margin:20px 0 0}
+.b2b-contact{margin:24px 0 18px;font-size:13px;color:#52636d;line-height:1.7}
+.seedtrade-legal-information{font-size:12px;line-height:1.6}
+.seedtrade-legal-information summary{cursor:pointer;min-height:24px;text-decoration:underline;text-underline-offset:3px;font-weight:600}
+.seedtrade-legal-information p{font-size:12px;line-height:1.7;overflow-wrap:anywhere}
+.b2b-private-shell .seedtrade-legal-information{border-top:1px solid #e0e7e3;padding-top:16px;color:#52636d}
+footer .seedtrade-legal-information{margin-top:8px;max-width:260px}
+.b2b-result h2{font-size:24px;margin:0 0 12px;color:#103e2b}
+.b2b-result p{font-size:16px;color:#435b65}
+.b2b-verification{max-width:650px;margin:0 auto;padding:64px 32px}
+.b2b-verification h1{font-size:32px;line-height:1.2;margin:0 0 20px}
+.b2b-verification a{color:#0b6242}
+@media(max-width:760px){.b2b-site-header{padding:20px 24px}.b2b-registration{grid-template-columns:1fr;padding:28px 24px 44px;gap:24px}.b2b-registration-intro{padding-top:0}.b2b-registration h1{font-size:32px;margin-bottom:14px}.b2b-registration-lead{font-size:16px;margin-bottom:16px;max-width:none}.b2b-phase-note{max-width:none;padding-top:16px}.b2b-registration-card{padding:24px;border-radius:14px}.b2b-brand{font-size:18px}}
+@media(max-width:380px){.b2b-site-header{padding:16px}.b2b-registration{padding:24px 16px 32px}.b2b-registration-card{padding:20px}}
+@media(prefers-reduced-motion:reduce){.b2b-private-shell *{scroll-behavior:auto;transition:none}}

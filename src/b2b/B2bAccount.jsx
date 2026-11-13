@@ -1,3 +1,4 @@
+import B2bLanguageNotice from './B2bLanguageNotice.jsx';
 import {useLanguage,useT} from '../i18n/index.jsx';
 import legalRegistry from '../legal/registry.json';
 import {b2bFetch} from './apiFetch.mjs';
@@ -188,6 +189,6 @@ export default function B2bAccount() {
         </article>)}{reviews.next&&<button disabled={busy} onClick={run(()=>loadPage('reviews',reviews.next,true),'More reviews loaded.')}>{t("More company reviews")}</button>}
       </section>}
     </>}
-    <footer><a href="/legal/report/">{t("Report content")}</a> · <a href="/privacy">{t("Privacy")}</a> · <a href="/terms">{t("Terms")}</a> · <a href="/">{t("Public SeedTrade website")}</a></footer>
+    <footer><B2bLanguageNotice/> · <a href="/privacy">{t("Privacy")}</a> · <a href="/terms">{t("Terms")}</a> · <a href="/">{t("Public SeedTrade website")}</a></footer>
   </main></div></div>;
 }
