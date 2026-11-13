@@ -8,7 +8,7 @@ export async function confirmB2bEmail({location, history, fetcher, signal}) {
   const fragment = url.hash.startsWith('#') ? url.hash.slice(1) : '';
   // Remove the token from the address bar before validation or asynchronous work.
   url.hash = '';
-  history.replaceState(null, '', url.pathname + url.search);
+  history.replaceState(history.state, '', url.pathname + url.search);
   const params = new URLSearchParams(fragment);
   const user = params.get('user');
   const token = params.get('token');

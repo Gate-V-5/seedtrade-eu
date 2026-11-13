@@ -1,8 +1,10 @@
+import {useT} from '../i18n/index.jsx';
 import {useEffect, useRef, useState} from 'react';
 import {confirmB2bEmail} from './confirmEmail.mjs';
 
 // Isolated confirmation view. Does not enable the registration API.
 export default function B2bVerifyEmail() {
+  const t=useT();
   const [status, setStatus] = useState('VERIFYING');
   const pending = useRef(null);
   useEffect(() => {
@@ -32,10 +34,10 @@ export default function B2bVerifyEmail() {
   };
   const [title, detail] = messages[status] || messages.UNAVAILABLE;
   return <main style={{maxWidth:560,margin:'8vh auto',padding:'2rem',fontFamily:'system-ui,sans-serif',lineHeight:1.5}}>
-    <a href="/" style={{color:'inherit'}}>SeedTrade.eu</a>
-    <h1 aria-live="polite">{title}</h1>
-    <p role="status">{detail}</p>
-    <p><a href="/b2b/account">Sign in to your company account</a></p>
-    <a href="/">Return to SeedTrade.eu</a>
+    <a href="/" style={{color:'inherit'}}>{t("SeedTrade.eu")}</a>
+    <h1 aria-live="polite">{t(title)}</h1>
+    <p role="status">{t(detail)}</p>
+    <p><a href="/b2b/account">{t("Sign in to your company account")}</a></p>
+    <a href="/">{t("Return to SeedTrade.eu")}</a>
   </main>;
 }

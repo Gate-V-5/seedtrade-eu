@@ -1,5 +1,6 @@
 import {marketCardNameRows} from './marketCardNames.js'
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
+import {b2bRows} from './b2bMessages.js'
 // English source strings are the canonical keys. An absent key falls back to English.
 const rows = [
   ["Personal data is processed only for stated platform purposes and subject to applicable data-protection rights. Non-essential analytics is disabled. REQUIRES_QUALIFIED_LEGAL_REVIEW.", "Personenbezogene Daten werden nur für die angegebenen Plattformzwecke und unter Wahrung der geltenden Datenschutzrechte verarbeitet. Nicht erforderliche Analysen sind deaktiviert. REQUIRES_QUALIFIED_LEGAL_REVIEW.", "Les données personnelles ne sont traitées qu’aux fins déclarées de la plateforme, dans le respect des droits applicables en matière de protection des données. L’analyse d’audience non essentielle est désactivée. REQUIRES_QUALIFIED_LEGAL_REVIEW.", "Los datos personales solo se tratan para los fines declarados de la plataforma y conforme a los derechos de protección de datos aplicables. El análisis no esencial está desactivado. REQUIRES_QUALIFIED_LEGAL_REVIEW.", "I dati personali sono trattati solo per le finalità dichiarate della piattaforma e nel rispetto dei diritti applicabili in materia di protezione dei dati. Le analisi non essenziali sono disattivate. REQUIRES_QUALIFIED_LEGAL_REVIEW."],
@@ -820,4 +821,4 @@ const rows = [
   ["escaa summary field area", "ESCAA-Flächenübersicht", "Surface de la synthèse ESCAA", "Superficie del resumen ESCAA", "Superficie del riepilogo ESCAA"],
 ]
 const codes = ["DE", "FR", "ES", "IT"]
-export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...marketCardNameRows,...rows,...snapshotIntelligenceRows].map(row => [row[0], row[index + 1]]))]))
+export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...b2bRows,...marketCardNameRows,...rows,...snapshotIntelligenceRows].map(row => [row[0], row[index + 1]]))]))

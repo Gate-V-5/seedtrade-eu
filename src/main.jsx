@@ -1,6 +1,8 @@
 import React from 'react'
 import {createRoot, hydrateRoot} from 'react-dom/client'
 import './styles.css'
+import {LanguageProvider,LanguageSelector} from './i18n/index.jsx'
+import B2bLanguageNotice from './b2b/B2bLanguageNotice.jsx'
 
 // Keep private B2B pages outside the public app's analytics, hash navigation,
 // metadata and consent initialization. This does not activate the B2B API.
@@ -15,7 +17,7 @@ const App = privateRoute
   : (await import('./AppV2')).default
 
 const root = document.getElementById('root')
-const application = <React.StrictMode><App /></React.StrictMode>
+const application = <React.StrictMode>{privateRoute?<LanguageProvider><div className="b2b-language-control" style={{padding:'12px 24px',display:'flex',justifyContent:'flex-end'}}><LanguageSelector/></div><B2bLanguageNotice/><App/></LanguageProvider>:<App/>}</React.StrictMode>
 
 if (root) {
   // Private pages have no pre-rendered HTML. Do not hydrate unrelated SSR markup.

@@ -1,0 +1,7 @@
+.b2b-navigation{position:relative;color:#0b1f33;font-size:13px}
+.b2b-navigation summary{display:flex;align-items:center;gap:5px;cursor:pointer;min-height:44px;font-weight:700}
+.b2b-navigation summary:focus-visible{outline:3px solid #146b49;outline-offset:3px}
+.b2b-navigation-links{position:absolute;right:0;top:100%;width:260px;max-width:85vw;display:grid;gap:10px;padding:16px;background:#fff;border:1px solid #d8e1e8;border-radius:8px;box-shadow:0 6px 18px #0b1f3320;z-index:20}
+.b2b-navigation-links a{min-height:36px;display:flex;align-items:center;white-space:normal}
+.b2b-navigation-links small{font-size:12px;line-height:1.5}
+@media(max-width:1050px){.b2b-navigation-links{position:static;width:auto;max-width:100%;box-shadow:none}.b2b-navigation{width:100%}}

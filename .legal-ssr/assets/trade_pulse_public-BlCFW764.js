@@ -1,0 +1,9140 @@
+import { c as useT, s as useLanguage } from "./i18n-CjINbfYr.js";
+import { c as productionViewPath, r as longestHistory } from "./productionEvidence-BBv-4q2D.js";
+import { Fragment, jsx, jsxs } from "react/jsx-runtime";
+var estimated_market_ranges_public_default = {
+	schema: "SEEDTRADE_ESTIMATED_MARKET_RANGE_V1_1",
+	records: {
+		"white-mustard": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.24",
+			"upper_eur_kg": "3.36"
+		},
+		"brown-mustard": {
+			"state": "RANGE",
+			"lower_eur_kg": "3.69",
+			"upper_eur_kg": "5.54"
+		},
+		"black-mustard": {
+			"state": "RANGE",
+			"lower_eur_kg": "4.52",
+			"upper_eur_kg": "6.79"
+		},
+		"oil-radish": {
+			"state": "RANGE",
+			"lower_eur_kg": "3.04",
+			"upper_eur_kg": "4.56"
+		},
+		"rapeseed": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.39",
+			"upper_eur_kg": "3.59"
+		},
+		"turnip-rape": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.70",
+			"upper_eur_kg": "4.06"
+		},
+		"fodder-kale": {
+			"state": "RANGE",
+			"lower_eur_kg": "7.54",
+			"upper_eur_kg": "11.32"
+		},
+		"fodder-turnip": {
+			"state": "DISCOVERY",
+			"lower_eur_kg": null,
+			"upper_eur_kg": null
+		},
+		"phacelia": {
+			"state": "RANGE",
+			"lower_eur_kg": "5.20",
+			"upper_eur_kg": "7.80"
+		},
+		"sunflower": {
+			"state": "RANGE",
+			"lower_eur_kg": "4.16",
+			"upper_eur_kg": "6.24"
+		},
+		"buckwheat": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.19",
+			"upper_eur_kg": "1.80"
+		},
+		"oat": {
+			"state": "RANGE",
+			"lower_eur_kg": "0.30",
+			"upper_eur_kg": "0.50"
+		},
+		"black-oat": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.44",
+			"upper_eur_kg": "2.16"
+		},
+		"rye": {
+			"state": "RANGE",
+			"lower_eur_kg": "0.33",
+			"upper_eur_kg": "0.54"
+		},
+		"sorghum": {
+			"state": "DISCOVERY",
+			"lower_eur_kg": null,
+			"upper_eur_kg": null
+		},
+		"italian-ryegrass": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.56",
+			"upper_eur_kg": "2.34"
+		},
+		"perennial-ryegrass": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.68",
+			"upper_eur_kg": "2.52"
+		},
+		"hybrid-ryegrass": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.65",
+			"upper_eur_kg": "3.98"
+		},
+		"westerwold-ryegrass": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.56",
+			"upper_eur_kg": "2.34"
+		},
+		"festulolium": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.92",
+			"upper_eur_kg": "2.88"
+		},
+		"meadow-fescue": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.32",
+			"upper_eur_kg": "3.48"
+		},
+		"tall-fescue": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.32",
+			"upper_eur_kg": "3.48"
+		},
+		"cocksfoot": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.96",
+			"upper_eur_kg": "4.44"
+		},
+		"common-vetch": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.08",
+			"upper_eur_kg": "1.62"
+		},
+		"winter-vetch": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.58",
+			"upper_eur_kg": "2.38"
+		},
+		"hungarian-vetch": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.48",
+			"upper_eur_kg": "2.22"
+		},
+		"purple-vetch": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.75",
+			"upper_eur_kg": "4.14"
+		},
+		"field-pea": {
+			"state": "RANGE",
+			"lower_eur_kg": "0.96",
+			"upper_eur_kg": "1.44"
+		},
+		"faba-bean": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.24",
+			"upper_eur_kg": "1.88"
+		},
+		"narrow-leaved-lupin": {
+			"state": "RANGE",
+			"lower_eur_kg": "0.88",
+			"upper_eur_kg": "1.33"
+		},
+		"yellow-lupin": {
+			"state": "RANGE",
+			"lower_eur_kg": "1.87",
+			"upper_eur_kg": "2.81"
+		},
+		"red-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "5.04",
+			"upper_eur_kg": "7.56"
+		},
+		"white-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "6.00",
+			"upper_eur_kg": "9.00"
+		},
+		"persian-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "4.40",
+			"upper_eur_kg": "6.60"
+		},
+		"berseem-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "6.32",
+			"upper_eur_kg": "9.48"
+		},
+		"crimson-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.72",
+			"upper_eur_kg": "4.08"
+		},
+		"balansa-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "3.58",
+			"upper_eur_kg": "5.39"
+		},
+		"alsike-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "10.29",
+			"upper_eur_kg": "15.45"
+		},
+		"subterranean-clover": {
+			"state": "RANGE",
+			"lower_eur_kg": "6.08",
+			"upper_eur_kg": "9.13"
+		},
+		"alfalfa": {
+			"state": "RANGE",
+			"lower_eur_kg": "6.00",
+			"upper_eur_kg": "9.00"
+		},
+		"black-medick": {
+			"state": "RANGE",
+			"lower_eur_kg": "8.05",
+			"upper_eur_kg": "12.09"
+		},
+		"yellow-sweetclover": {
+			"state": "RANGE",
+			"lower_eur_kg": "3.88",
+			"upper_eur_kg": "5.82"
+		},
+		"white-sweetclover": {
+			"state": "RANGE",
+			"lower_eur_kg": "3.88",
+			"upper_eur_kg": "5.82"
+		},
+		"birdsfoot-trefoil": {
+			"state": "RANGE",
+			"lower_eur_kg": "10.24",
+			"upper_eur_kg": "15.36"
+		},
+		"sainfoin": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.68",
+			"upper_eur_kg": "4.02"
+		},
+		"flax": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.85",
+			"upper_eur_kg": "4.29"
+		},
+		"hemp": {
+			"state": "RANGE",
+			"lower_eur_kg": "7.95",
+			"upper_eur_kg": "9.40"
+		},
+		"coriander": {
+			"state": "RANGE",
+			"lower_eur_kg": "4.48",
+			"upper_eur_kg": "6.72"
+		},
+		"caraway": {
+			"state": "RANGE",
+			"lower_eur_kg": "4.96",
+			"upper_eur_kg": "7.44"
+		},
+		"dill": {
+			"state": "RANGE",
+			"lower_eur_kg": "12.80",
+			"upper_eur_kg": "19.20"
+		},
+		"camelina": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.56",
+			"upper_eur_kg": "3.84"
+		},
+		"niger": {
+			"state": "RANGE",
+			"lower_eur_kg": "2.72",
+			"upper_eur_kg": "4.08"
+		},
+		"chicory": {
+			"state": "RANGE",
+			"lower_eur_kg": "14.29",
+			"upper_eur_kg": "21.45"
+		}
+	}
+};
+//#endregion
+//#region src/estimatedMarketRange.mjs
+var rangeCopy = Object.freeze({
+	EN: ["Estimated Market Range", "Price discovery in progress"],
+	DE: ["Geschätzte Marktpreisspanne", "Preisermittlung läuft"],
+	FR: ["Fourchette de prix de marché estimée", "Recherche de prix en cours"],
+	ES: ["Rango estimado de precios de mercado", "Investigación de precios en curso"],
+	IT: ["Intervallo stimato dei prezzi di mercato", "Ricerca dei prezzi in corso"]
+});
+function rangePresentation(entityId, language = "EN") {
+	const record = estimated_market_ranges_public_default.records[entityId];
+	if (!record) return null;
+	const [label, discovery] = rangeCopy[language] || rangeCopy.EN;
+	const low = Number(record.lower_eur_kg), high = Number(record.upper_eur_kg);
+	const valid = record.state === "RANGE" && record.lower_eur_kg !== null && record.upper_eur_kg !== null && Number.isFinite(low) && Number.isFinite(high) && low >= 0 && high >= low;
+	const locale = {
+		EN: "en-GB",
+		DE: "de-DE",
+		FR: "fr-FR",
+		ES: "es-ES",
+		IT: "it-IT"
+	}[language] || "en-GB";
+	const fmt = (n) => new Intl.NumberFormat(locale, {
+		minimumFractionDigits: 2,
+		maximumFractionDigits: 2,
+		useGrouping: false
+	}).format(n);
+	return {
+		label,
+		state: valid ? "RANGE" : "DISCOVERY",
+		value: valid ? `€${fmt(low)} – €${fmt(high)}/kg` : discovery
+	};
+}
+var hasEstimatedRange = (entityId) => Object.hasOwn(estimated_market_ranges_public_default.records, entityId);
+var priceContextCopy = Object.freeze({
+	EN: "Modelled merchant asking prices, excluding VAT; source dates vary. Not a current supplier quotation.",
+	DE: "Modellierte Händler-Angebotspreise ohne MwSt.; Quelldaten variieren. Kein aktuelles Lieferantenangebot.",
+	FR: "Prix demandés par les négociants, modélisés hors TVA ; dates des sources variables. Pas une offre fournisseur actuelle.",
+	ES: "Precios solicitados por comerciantes, modelizados sin IVA; fechas de fuentes variables. No es una cotización actual del proveedor.",
+	IT: "Prezzi richiesti dai commercianti, modellizzati IVA esclusa; date delle fonti variabili. Non è un’offerta attuale del fornitore."
+});
+var historicalContextCopy = Object.freeze({
+	EN: "Historical evidence as of",
+	DE: "Historischer Datenstand",
+	FR: "Données historiques au",
+	ES: "Datos históricos a",
+	IT: "Dati storici al"
+});
+var dillPriceContextCopy = Object.freeze({
+	EN: "Estimate from a 10–24 kg sowing-seed quantity tier. VAT treatment and final pack sizes are unconfirmed; not a current supplier quotation.",
+	DE: "Schätzung aus einer Saatgut-Mengenstaffel von 10–24 kg. MwSt.-Behandlung und endgültige Gebinde sind unbestätigt; kein aktuelles Lieferantenangebot.",
+	FR: "Estimation issue d’un tarif de semences pour 10–24 kg. TVA et conditionnements finaux non confirmés ; pas une offre fournisseur actuelle.",
+	ES: "Estimación de una tarifa de semillas para 10–24 kg. IVA y envases finales sin confirmar; no es una cotización actual del proveedor.",
+	IT: "Stima da una fascia quantitativa di sementi di 10–24 kg. IVA e confezioni finali non confermate; non è un’offerta attuale del fornitore."
+});
+var priceContext = (entityId, language = "EN") => entityId === "dill" ? dillPriceContextCopy[language] || dillPriceContextCopy.EN : priceContextCopy[language] || priceContextCopy.EN;
+//#endregion
+//#region src/EstimatedMarketRange.jsx
+function EstimatedMarketRange({ entityId }) {
+	const { language } = useLanguage(), view = rangePresentation(entityId, language);
+	if (!view) return null;
+	return /* @__PURE__ */ jsxs("div", {
+		className: "catalogue-estimated-range",
+		"data-estimated-range": view.state,
+		children: [/* @__PURE__ */ jsxs("dl", {
+			className: "catalogue-metric",
+			style: { margin: 0 },
+			children: [/* @__PURE__ */ jsx("dt", { children: view.label }), /* @__PURE__ */ jsx("dd", { children: view.value })]
+		}), view.state === "RANGE" && /* @__PURE__ */ jsx("p", {
+			className: "catalogue-note catalogue-price-context",
+			children: priceContext(entityId, language)
+		})]
+	});
+}
+var market_snapshot_public_default = {
+	source: "CANONICAL_CATALOGUE",
+	cards: [
+		{
+			"market_entity_id": "sunflower",
+			"slug": "sunflower",
+			"common_name_en": "Sunflower",
+			"botanical_display_name": "Helianthus annuus",
+			"use_tags": ["OIL_FIBRE", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 2599.542,
+			"trade_volume_yoy": "2.875399108150591796061869100",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 8213.208,
+					"value_eur": 60327157
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 12022.117,
+					"value_eur": 73835641
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 7703.762,
+					"value_eur": 44404724
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 4578.229,
+					"value_eur": 19327651
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 6189.479,
+					"value_eur": 19369849
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 4995.043,
+					"value_eur": 21956454
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 3953.761,
+					"value_eur": 17137414
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 12009.325,
+					"value_eur": 9860079
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 20563.49,
+					"value_eur": 28927368
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 16745.8,
+					"value_eur": 24750971
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 6515.61,
+					"value_eur": 45108716
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 3784.395,
+					"value_eur": 30123529
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 12788.371,
+					"value_eur": 76710744
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 8250.021,
+					"value_eur": 60837720
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 5748.625,
+					"value_eur": 47411783
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 2350.133,
+					"value_eur": 13797177
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 1931.513,
+					"value_eur": 7324211
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 2526.884,
+					"value_eur": 17719944
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 4326.636,
+					"value_eur": 15170442
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 1183.059,
+					"value_eur": 5102171
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 12554.556,
+					"value_eur": 15312133
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 12973.961,
+					"value_eur": 28798063
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 5746.225,
+					"value_eur": 33565984
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 7479.928,
+					"value_eur": 33484198
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 5913.905,
+					"value_eur": 54447717
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 7947.049,
+					"value_eur": 54219759
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 7999.161,
+					"value_eur": 61930820
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 3310.983,
+					"value_eur": 15594851
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 2265.677,
+					"value_eur": 10161929
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 2599.542,
+					"value_eur": 13089806
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": 8.161723877091699,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-01",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 11809357,
+					"value_basis_eur": 96384711,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": 8.053317348382796,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-02",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 15281874,
+					"value_basis_eur": 123069781,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": 11.939028164932225,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-03",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 10044441,
+					"value_basis_eur": 119920864,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": 8.737050153857904,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-04",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 6886549,
+					"value_basis_eur": 60168124,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": 3.8362025059349683,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-05",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 6548055,
+					"value_basis_eur": 25119665,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": 4.476624053056341,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-06",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 5091644,
+					"value_basis_eur": 22793376,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": 6.913147662681693,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-07",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:05.848833+00:00",
+					"quantity_basis_kg": 4070541,
+					"value_basis_eur": 28140251,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": 2.907916593703195,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-08",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:05.848833+00:00",
+					"quantity_basis_kg": 12266412,
+					"value_basis_eur": 35669703,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": 1.4681468784121128,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-09",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 20634210,
+					"value_basis_eur": 30294051,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": 1.8045454917518795,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-10",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 17470101,
+					"value_basis_eur": 31525592,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": 7.1223027874697555,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-11",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 7592190,
+					"value_basis_eur": 54073876,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": 8.558031308369188,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2024-12",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 4969981,
+					"value_basis_eur": 42533253,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2025-01",
+					"price_eur_kg": 6.831952684383177,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-01",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 15024215,
+					"value_basis_eur": 102644726,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -16.292773594570132
+				},
+				{
+					"period": "2025-02",
+					"price_eur_kg": 8.896175855882616,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-02",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 11204311,
+					"value_basis_eur": 99675521,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 10.465979062268982
+				},
+				{
+					"period": "2025-03",
+					"price_eur_kg": 10.095154119635323,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-03",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 7990416,
+					"value_basis_eur": 80664481,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -15.44408824424085
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": 7.785259399390193,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-04",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 3503073,
+					"value_basis_eur": 27272332,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -10.893731153041875
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": 4.332637344951497,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-05",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 2106357,
+					"value_basis_eur": 9126081,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 12.940788142661841
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": 7.107327320299954,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-06",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 2572523,
+					"value_basis_eur": 18283763,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 58.76533825634842
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": 3.945599296414175,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-07",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:05.973696+00:00",
+					"quantity_basis_kg": 4677752,
+					"value_basis_eur": 18456535,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -42.9261533394814
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": 5.0752613564376565,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-08",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:05.848833+00:00",
+					"quantity_basis_kg": 1441231,
+					"value_basis_eur": 7314624,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 74.5325628468035
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": 1.3612519507803469,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-09",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 12910859,
+					"value_basis_eur": 17574932,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -7.280942336462893
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": 2.26962653474881,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-10",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 13263001,
+					"value_basis_eur": 30102059,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 25.772752481037365
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": 5.987625122837702,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-11",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 6700915,
+					"value_basis_eur": 40122567,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -15.931331459654984
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": 5.446065297221929,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2025-12",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 9489929,
+					"value_basis_eur": 51682773,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -36.36310617494426
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": 9.511951547400505,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2026-01",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 9238720,
+					"value_basis_eur": 87878257,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 39.2274213072846
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": 8.943273393039128,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2026-02",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 12508892,
+					"value_basis_eur": 111870441,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": .5294132885802716
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": 8.870110235602063,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2026-03",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 12223365,
+					"value_basis_eur": 108422595,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -12.134969605372536
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": 6.528921199191641,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2026-04",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 4507403,
+					"value_basis_eur": 29428479,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -16.13739678727928
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": 4.982775171074118,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2026-05",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 2380401,
+					"value_basis_eur": 11861003,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 15.005590691318282
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": 5.254477026122103,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:sunflower:2026-06",
+					"cn_codes": ["12060010"],
+					"retrieval_date": "2026-10-04T05:48:06.153209+00:00",
+					"quantity_basis_kg": 2670076,
+					"value_basis_eur": 14029853,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -26.069578769585277
+				}
+			]
+		},
+		{
+			"market_entity_id": "rye",
+			"slug": "rye",
+			"common_name_en": "Rye",
+			"botanical_display_name": "Secale cereale",
+			"use_tags": ["CEREALS_PULSES", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 8192.448,
+			"trade_volume_yoy": "9.841822748965764127853073100",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 15802.389,
+					"value_eur": 3149681
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 12470.845,
+					"value_eur": 2797465
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 23652.834,
+					"value_eur": 4229765
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 14447.248,
+					"value_eur": 2842132
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 17595.938,
+					"value_eur": 3532937
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 18479.261,
+					"value_eur": 4301429
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 11902.58,
+					"value_eur": 7577312
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 29859.815,
+					"value_eur": 10232040
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 39766.226,
+					"value_eur": 16597998
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 23112.677,
+					"value_eur": 7105485
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 15379.452,
+					"value_eur": 3486346
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 13976.545,
+					"value_eur": 2945127
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 14330.392,
+					"value_eur": 3284628
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 15442.565,
+					"value_eur": 3578439
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 11005.021,
+					"value_eur": 2439253
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 11459.099,
+					"value_eur": 2573043
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 13867.575,
+					"value_eur": 3298447
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 7458.405,
+					"value_eur": 2743535
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 8098.585,
+					"value_eur": 5154315
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 12228.108,
+					"value_eur": 6507686
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 17443.131,
+					"value_eur": 9845191
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 12883.587,
+					"value_eur": 3978344
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 6194.235,
+					"value_eur": 1777460
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 3168.766,
+					"value_eur": 709437
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 4163.462,
+					"value_eur": 1025413
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 7120.441,
+					"value_eur": 1507e3
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 8576.111,
+					"value_eur": 1902537
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 6678.294,
+					"value_eur": 1563027
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 6916.481,
+					"value_eur": 1564111
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 8192.448,
+					"value_eur": 2137115
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": .20379893272385644,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-01",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:01.489311+00:00",
+					"quantity_basis_kg": 15906099,
+					"value_basis_eur": 3241646,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": .22728504241697892,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-02",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 12549220,
+					"value_basis_eur": 2852250,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": .18113348540199883,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-03",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:01.489311+00:00",
+					"quantity_basis_kg": 23699820,
+					"value_basis_eur": 4292831,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": .1999229977503467,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-04",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.314574+00:00",
+					"quantity_basis_kg": 14516459,
+					"value_basis_eur": 2902174,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": .20393761654221404,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-05",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.314574+00:00",
+					"quantity_basis_kg": 17620761,
+					"value_basis_eur": 3593536,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": .2557318526997175,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-06",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 18750351,
+					"value_basis_eur": 4795062,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": .6957717105532196,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-07",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 12691397,
+					"value_basis_eur": 8830315,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": .41460894935270326,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-08",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 32283184,
+					"value_basis_eur": 13384897,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": .4480513130853624,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-09",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 41397004,
+					"value_basis_eur": 18547982,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": .3166865748503106,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-10",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 23543082,
+					"value_basis_eur": 7455778,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": .23067588961778804,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-11",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.123875+00:00",
+					"quantity_basis_kg": 15456947,
+					"value_basis_eur": 3565545,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": .21085086604558367,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2024-12",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 13979345,
+					"value_basis_eur": 2947557,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2025-01",
+					"price_eur_kg": .23246674943791784,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-01",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 14424493,
+					"value_basis_eur": 3353215,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 14.066715821768172
+				},
+				{
+					"period": "2025-02",
+					"price_eur_kg": .23367854236786983,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-02",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 15516782,
+					"value_basis_eur": 3625939,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 2.8129875520630954
+				},
+				{
+					"period": "2025-03",
+					"price_eur_kg": .22374076599978082,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-03",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 11069011,
+					"value_basis_eur": 2476589,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 23.52258639711009
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": .2298055973224974,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-04",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 11588112,
+					"value_basis_eur": 2663013,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 14.947054570213325
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": .27771767494794497,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-05",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:01.489311+00:00",
+					"quantity_basis_kg": 14404942,
+					"value_basis_eur": 4000507,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 36.17775850119285
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": .4238656779652549,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-06",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 8006192,
+					"value_basis_eur": 3393550,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 65.74614131582643
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": .7055050496696003,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-07",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 9007421,
+					"value_basis_eur": 6354781,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 1.3989271148494131
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": .6551692859290877,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-08",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 14860863,
+					"value_basis_eur": 9736381,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 58.021018830382864
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": .6010101588317209,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-09",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 18692110,
+					"value_basis_eur": 11234148,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 34.1386893150823
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": .31039596959642324,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-10",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:16.689252+00:00",
+					"quantity_basis_kg": 12919401,
+					"value_basis_eur": 4010130,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -1.9863820425165657
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": .3024531410850934,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-11",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.123875+00:00",
+					"quantity_basis_kg": 6275220,
+					"value_basis_eur": 1897960,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 31.11606140816654
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": .2322658615116516,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2025-12",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.123875+00:00",
+					"quantity_basis_kg": 3242771,
+					"value_basis_eur": 753185,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 10.156465499856292
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": .2566440483449205,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2026-01",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:01.489311+00:00",
+					"quantity_basis_kg": 4232999,
+					"value_basis_eur": 1086374,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 10.400325623109975
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": .22879763472680661,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2026-02",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 7380120,
+					"value_basis_eur": 1688554,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -2.0887273566519537
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": .22468191812791777,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2026-03",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:01.489311+00:00",
+					"quantity_basis_kg": 8630561,
+					"value_basis_eur": 1939131,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": .42064400911985267
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": .25081542421104636,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2026-04",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 6851955,
+					"value_basis_eur": 1718576,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 9.142434794164235
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": .30021734014689594,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2026-05",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:01.489311+00:00",
+					"quantity_basis_kg": 7317562,
+					"value_basis_eur": 2196859,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 8.101632423348025
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": .3197438165451026,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:rye:2026-06",
+					"cn_codes": ["10021000"],
+					"retrieval_date": "2026-10-04T05:35:09.342439+00:00",
+					"quantity_basis_kg": 8661137,
+					"value_basis_eur": 2769345,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -24.56482485677629
+				}
+			]
+		},
+		{
+			"market_entity_id": "barley",
+			"slug": "barley",
+			"common_name_en": "Barley",
+			"botanical_display_name": "Hordeum vulgare",
+			"use_tags": ["CEREALS_PULSES"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 9026.811,
+			"trade_volume_yoy": "-0.4035687316928283330692672500",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 13988.426,
+					"value_eur": 5091672
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 14033.241,
+					"value_eur": 6453899
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 14580.226,
+					"value_eur": 6020823
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 13134.637,
+					"value_eur": 3595614
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 12172.851,
+					"value_eur": 3237942
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 14072.503,
+					"value_eur": 3432583
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 29777.572,
+					"value_eur": 7021896
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 29046.813,
+					"value_eur": 12269279
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 35955.822,
+					"value_eur": 11650427
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 24620.25,
+					"value_eur": 8786625
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 17744.58,
+					"value_eur": 5211150
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 12555.813,
+					"value_eur": 3613223
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 7327.792,
+					"value_eur": 1949702
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 16463.308,
+					"value_eur": 5440084
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 9970.181,
+					"value_eur": 3386772
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 11386.56,
+					"value_eur": 2928444
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 11525.859,
+					"value_eur": 2782296
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 9063.388,
+					"value_eur": 2389467
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 19739.3,
+					"value_eur": 5219664
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 27527.588,
+					"value_eur": 8893669
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 32265.842,
+					"value_eur": 12063186
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 33301.732,
+					"value_eur": 6902879
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 13876.287,
+					"value_eur": 3361212
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 7677.316,
+					"value_eur": 1881651
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 8352.816,
+					"value_eur": 2337013
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 12280.708,
+					"value_eur": 3520777
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 10870.681,
+					"value_eur": 3346581
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 8115.188,
+					"value_eur": 2125996
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 14765.002,
+					"value_eur": 3052620
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 9026.811,
+					"value_eur": 2272920
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": .3927118565223194,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-01",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 16058191,
+					"value_basis_eur": 6306242,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": .48756257302406825,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-02",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 17168141,
+					"value_basis_eur": 8370543,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": .4418862990610526,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-03",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 16325195,
+					"value_basis_eur": 7213880,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": .28796768474750456,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-04",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 13591848,
+					"value_basis_eur": 3914013,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": .27140363550665325,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-05",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 12356242,
+					"value_basis_eur": 3353529,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": .24584252949347507,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-06",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 14141772,
+					"value_basis_eur": 3476649,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": .2450835532383003,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-07",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 30049344,
+					"value_basis_eur": 7364600,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": .45706862827785055,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-08",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 29843223,
+					"value_basis_eur": 13640401,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": .3374613268472304,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-09",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 36865691,
+					"value_basis_eur": 12440745,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": .36702318247386234,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-10",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 25224314,
+					"value_basis_eur": 9257908,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": .2943389750913741,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-11",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 17878706,
+					"value_basis_eur": 5262400,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": .2891913260038047,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2024-12",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 12566065,
+					"value_basis_eur": 3633997,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2025-01",
+					"price_eur_kg": .3166295514164453,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-01",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 9204662,
+					"value_basis_eur": 2914468,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -19.37356966495104
+				},
+				{
+					"period": "2025-02",
+					"price_eur_kg": .3656520755813033,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-02",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 19645123,
+					"value_basis_eur": 7183280,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -25.00407213101382
+				},
+				{
+					"period": "2025-03",
+					"price_eur_kg": .44537192930412595,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-03",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 13248015,
+					"value_basis_eur": 5900294,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": .7888070416484538
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": .28639343527335237,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-04",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 12245567,
+					"value_basis_eur": 3507050,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -.5466757409021472
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": .25890579731543184,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-05",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 12191160,
+					"value_basis_eur": 3156362,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -4.6048897495019165
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": .2699564597503663,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-06",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 9114555,
+					"value_basis_eur": 2460533,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 9.808689451159935
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": .28431196212993615,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-07",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 20043061,
+					"value_basis_eur": 5698482,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 16.00613683509524
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": .36660958093871177,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-08",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 28488148,
+					"value_basis_eur": 10444028,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -19.79113020291321
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": .3856294097427819,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-09",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 33157121,
+					"value_basis_eur": 12786361,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 14.273660139242361
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": .22353255303977962,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-10",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 34208664,
+					"value_basis_eur": 7646750,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -39.09579456722777
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": .2539970338884369,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-11",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 14126913,
+					"value_basis_eur": 3588194,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -13.705946074730157
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": .5717761505684948,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2025-12",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 8032703,
+					"value_basis_eur": 4592908,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 97.71552572810305
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": .2854880139771381,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2026-01",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 8453805,
+					"value_basis_eur": 2413460,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -9.835322477006725
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": .3076021664503498,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2026-02",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 12858453,
+					"value_basis_eur": 3955288,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -15.875722580999263
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": .34228750979646366,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2026-03",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 11820592,
+					"value_basis_eur": 4046041,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -23.14569300959922
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": .27227940400442424,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2026-04",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 8309659,
+					"value_basis_eur": 2262549,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -4.928196505432048
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": .2095545816972075,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2026-05",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 14835605,
+					"value_basis_eur": 3108869,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -19.061456379093144
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": .2749064737006419,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:barley:2026-06",
+					"cn_codes": ["10031000"],
+					"retrieval_date": "2026-10-04T05:36:03.484174+00:00",
+					"quantity_basis_kg": 9228153,
+					"value_basis_eur": 2536879,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 1.833634192288991
+				}
+			]
+		},
+		{
+			"market_entity_id": "italian-ryegrass",
+			"slug": "italian-ryegrass",
+			"common_name_en": "Italian ryegrass",
+			"botanical_display_name": "Lolium multiflorum",
+			"use_tags": ["FODDER_AMENITY", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 3331.899,
+			"trade_volume_yoy": 13.094822292846398,
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 2397.409,
+					"value_eur": 2863540
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 3277.63,
+					"value_eur": 3566182
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 1883.796,
+					"value_eur": 2606064
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 3154.236,
+					"value_eur": 3946680
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 3128.929,
+					"value_eur": 3915034
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 2980.578,
+					"value_eur": 3810525
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 2461.424,
+					"value_eur": 3403961
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 3547.352,
+					"value_eur": 4944070
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 6137.567,
+					"value_eur": 8377491
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 4255.741,
+					"value_eur": 5580146
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 3504.49,
+					"value_eur": 3683637
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 1193.96,
+					"value_eur": 1481340
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 1096.4,
+					"value_eur": 1500494
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 1587.225,
+					"value_eur": 2362067
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 1801.083,
+					"value_eur": 2617288
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 1932.994,
+					"value_eur": 2586931
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 2086.926,
+					"value_eur": 2953463
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 2946.111,
+					"value_eur": 3873097
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 5074.641,
+					"value_eur": 6358136
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 4815.997,
+					"value_eur": 6764864
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 6551.896,
+					"value_eur": 9287919
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 3466.906,
+					"value_eur": 4712315
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 2394.228,
+					"value_eur": 2961744
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 705.146,
+					"value_eur": 869827
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 4065.023,
+					"value_eur": 4362524
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 1976.063,
+					"value_eur": 2916546
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 2478.016,
+					"value_eur": 3689042
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 2533.949,
+					"value_eur": 3722274
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 2077.881,
+					"value_eur": 3002474
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 3331.899,
+					"value_eur": 4476635
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": 1.2689358881292871,
+					"original_price_eur_kg": "1.268935888129287236727854550",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-01",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2935603,
+					"value_basis_eur": 3725092
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": 1.1641780950591771,
+					"original_price_eur_kg": "1.164178095059177155739244787",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-02",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3859175,
+					"value_basis_eur": 4492767
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": 1.4501470859514143,
+					"original_price_eur_kg": "1.450147085951414294273116247",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-03",
+					"retrieval_date": "2026-10-04T06:00:49.814521+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2450268,
+					"value_basis_eur": 3553249
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": 1.3083954723962374,
+					"original_price_eur_kg": "1.308395472396237354524775183",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-04",
+					"retrieval_date": "2026-10-04T06:00:49.814521+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3623727,
+					"value_basis_eur": 4741268
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": 1.292863310640098,
+					"original_price_eur_kg": "1.292863310640097993868410226",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-05",
+					"retrieval_date": "2026-10-04T06:00:43.052664+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3441848,
+					"value_basis_eur": 4449839
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": 1.3593390633652835,
+					"original_price_eur_kg": "1.359339063365283602422511841",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-06",
+					"retrieval_date": "2026-10-04T06:00:50.199629+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3454431,
+					"value_basis_eur": 4695743
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": 1.4535838648914277,
+					"original_price_eur_kg": "1.453583864891427578482733031",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-07",
+					"retrieval_date": "2026-10-04T06:00:50.199629+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3061597,
+					"value_basis_eur": 4450288
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": 1.4536643182603182,
+					"original_price_eur_kg": "1.453664318260318241392199632",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-08",
+					"retrieval_date": "2026-10-04T06:00:50.199629+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 4226980,
+					"value_basis_eur": 6144610
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": 1.4027380496839381,
+					"original_price_eur_kg": "1.402738049683938217928523121",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-09",
+					"retrieval_date": "2026-10-04T06:00:50.199629+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 6797247,
+					"value_basis_eur": 9534757
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": 1.620934983464888,
+					"original_price_eur_kg": "1.620934983464887964638805416",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2024-12",
+					"retrieval_date": "2026-10-04T06:00:50.199629+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 1390677,
+					"value_basis_eur": 2254197
+				},
+				{
+					"period": "2025-02",
+					"price_eur_kg": 1.6095034330554194,
+					"original_price_eur_kg": "1.609503433055419323197645905",
+					"yoy_percent": 38.25233784128241,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2025-02",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2446800,
+					"value_basis_eur": 3938133
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": 1.4765613774309427,
+					"original_price_eur_kg": "1.476561377430942648333952682",
+					"yoy_percent": 12.852834527676936,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2025-04",
+					"retrieval_date": "2026-10-04T06:00:49.814521+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2220075,
+					"value_basis_eur": 3278077
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": 1.4578803473674524,
+					"original_price_eur_kg": "1.457880347367452530299183466",
+					"yoy_percent": .29002769443911003,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2025-08",
+					"retrieval_date": "2026-10-04T06:00:43.217392+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 5782004,
+					"value_basis_eur": 8429470
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": 1.363542537763711,
+					"original_price_eur_kg": "1.363542537763710846944500312",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2025-11",
+					"retrieval_date": "2026-10-04T06:00:43.217392+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2645132,
+					"value_basis_eur": 3606750
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": 1.4081666001672177,
+					"original_price_eur_kg": "1.408166600167217709839178267",
+					"yoy_percent": -13.126274987468012,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2025-12",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 997502,
+					"value_basis_eur": 1404649
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": 1.168579779084022,
+					"original_price_eur_kg": "1.168579779084022034027538359",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2026-01",
+					"retrieval_date": "2026-10-04T06:00:43.217392+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 4550961,
+					"value_basis_eur": 5318161
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": 1.5851873903120408,
+					"original_price_eur_kg": "1.585187390312040741086800795",
+					"yoy_percent": -1.510779178471089,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2026-02",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2761242,
+					"value_basis_eur": 4377086
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": 1.5289906764751222,
+					"original_price_eur_kg": "1.528990676475122184422180490",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2026-03",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3204582,
+					"value_basis_eur": 4899776
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": 1.5192823117248901,
+					"original_price_eur_kg": "1.519282311724890074874974643",
+					"yoy_percent": 2.8932718237745902,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2026-04",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3066178,
+					"value_basis_eur": 4658390
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": 1.5524509591435889,
+					"original_price_eur_kg": "1.552450959143588986978776236",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2026-05",
+					"retrieval_date": "2026-10-04T06:00:43.217392+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 2514587,
+					"value_basis_eur": 3903773
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": 1.385825390072741,
+					"original_price_eur_kg": "1.385825390072741174637487969",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value. Lolium multiflorum includes Westerwolds; not a form-specific price.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:italian-ryegrass:2026-06",
+					"retrieval_date": "2026-10-04T06:00:50.088732+00:00",
+					"cn_codes": ["12092510"],
+					"quantity_basis_kg": 3664637,
+					"value_basis_eur": 5078547
+				}
+			]
+		},
+		{
+			"market_entity_id": "perennial-ryegrass",
+			"slug": "perennial-ryegrass",
+			"common_name_en": "Perennial ryegrass",
+			"botanical_display_name": "Lolium perenne",
+			"use_tags": ["FODDER_AMENITY", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 5251.559,
+			"trade_volume_yoy": "-9.840286131766816962643240570",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 5028.307,
+					"value_eur": 9802494
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 5370.496,
+					"value_eur": 10865777
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 5070.911,
+					"value_eur": 11478988
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 7205.882,
+					"value_eur": 15708988
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 4934.091,
+					"value_eur": 9897636
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 5559.745,
+					"value_eur": 10742966
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 1795.295,
+					"value_eur": 3803240
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 2948.013,
+					"value_eur": 5756307
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 5477.47,
+					"value_eur": 9733364
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 5396.832,
+					"value_eur": 9306730
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 5084.072,
+					"value_eur": 8758750
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 4391.737,
+					"value_eur": 7808530
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 7789.891,
+					"value_eur": 12896656
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 7417.296,
+					"value_eur": 13850496
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 8265.322,
+					"value_eur": 14545112
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 7574.854,
+					"value_eur": 14372164
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 4819.874,
+					"value_eur": 9315304
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 5824.729,
+					"value_eur": 10033788
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 2866.987,
+					"value_eur": 5383371
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 3863.7,
+					"value_eur": 6687317
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 5928.493,
+					"value_eur": 10642020
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 7189.143,
+					"value_eur": 11731804
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 7845.782,
+					"value_eur": 12656567
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 6530.039,
+					"value_eur": 11563373
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 7230.927,
+					"value_eur": 13560472
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 7911.281,
+					"value_eur": 15155601
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 10090.012,
+					"value_eur": 19417091
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 7370.866,
+					"value_eur": 14744620
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 5565.975,
+					"value_eur": 11000693
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 5251.559,
+					"value_eur": 9922227
+				}
+			],
+			"price_observations": [{
+				"period": "2025-02",
+				"price_eur_kg": 1.9083238860961529,
+				"original_price_eur_kg": "1.908323886096152985575560495",
+				"yoy_percent": null,
+				"classification": "PUBLIC_SAFE",
+				"eligible": true,
+				"scope_verified": true,
+				"species_attribution_verified": true,
+				"unit": "EUR_PER_KG",
+				"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+				"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+				"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+				"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+				"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+				"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+				"source_witness_id": "PRICE-WITNESS:perennial-ryegrass:2025-02",
+				"retrieval_date": "2026-10-04T06:01:38.535309+00:00",
+				"cn_codes": ["12092590"],
+				"quantity_basis_kg": 9117304,
+				"value_basis_eur": 17398769
+			}]
+		},
+		{
+			"market_entity_id": "meadow-fescue",
+			"slug": "meadow-fescue",
+			"common_name_en": "Meadow fescue",
+			"botanical_display_name": "Festuca pratensis",
+			"use_tags": ["FODDER_AMENITY", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 122.662,
+			"trade_volume_yoy": "227.3867670216457148957749486",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 120.573,
+					"value_eur": 337599
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 332.089,
+					"value_eur": 787860
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 275.671,
+					"value_eur": 679697
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 297.953,
+					"value_eur": 828295
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 76.264,
+					"value_eur": 168059
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 40.938,
+					"value_eur": 90859
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 23.281,
+					"value_eur": 44400
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 39.111,
+					"value_eur": 124800
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 92.037,
+					"value_eur": 134332
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 210.893,
+					"value_eur": 403343
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 244.445,
+					"value_eur": 492559
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 228.636,
+					"value_eur": 438508
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 413.434,
+					"value_eur": 588672
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 214.763,
+					"value_eur": 616044
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 196.502,
+					"value_eur": 591757
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 157.5,
+					"value_eur": 400234
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 85.011,
+					"value_eur": 172783
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 37.467,
+					"value_eur": 118426
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 29.462,
+					"value_eur": 64724
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 184.128,
+					"value_eur": 198923
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 154.036,
+					"value_eur": 384450
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 247.082,
+					"value_eur": 199731
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 116.493,
+					"value_eur": 264010
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 289.241,
+					"value_eur": 629688
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 269.564,
+					"value_eur": 765481
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 313.292,
+					"value_eur": 784510
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 268.163,
+					"value_eur": 588602
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 216.776,
+					"value_eur": 528769
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 168.159,
+					"value_eur": 326092
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 122.662,
+					"value_eur": 321981
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": 2.9623838485828458,
+					"original_price_eur_kg": "2.962383848582845548977677019",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-01",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 209963,
+					"value_basis_eur": 621991
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": 2.4352254512589715,
+					"original_price_eur_kg": "2.435225451258971711369035436",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-02",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 434839,
+					"value_basis_eur": 1058931
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": 2.6977203719458798,
+					"original_price_eur_kg": "2.697720371945879728849757117",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-03",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 400811,
+					"value_basis_eur": 1081276
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": 2.7957574909805154,
+					"original_price_eur_kg": "2.795757490980515582288588531",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-04",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 343146,
+					"value_basis_eur": 959353
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": 2.6122434106643992,
+					"original_price_eur_kg": "2.612243410664399368395481598",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-05",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 123495,
+					"value_basis_eur": 322599
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": 2.5689790870249607,
+					"original_price_eur_kg": "2.568979087024960647627614122",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-06",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 88940,
+					"value_basis_eur": 228485
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": 2.556433588761175,
+					"original_price_eur_kg": "2.556433588761174968071519796",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-07",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 50112,
+					"value_basis_eur": 128108
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": 3.233703429132976,
+					"original_price_eur_kg": "3.233703429132975880557902177",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-08",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 116006,
+					"value_basis_eur": 375129
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": 1.7216422916946197,
+					"original_price_eur_kg": "1.721642291694619616261907957",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-09",
+					"retrieval_date": "2026-10-04T05:57:18.569738+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 111795,
+					"value_basis_eur": 192471
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": 2.0895142332309415,
+					"original_price_eur_kg": "2.089514233230941506271978770",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-10",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 260763,
+					"value_basis_eur": 544868
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": 2.0873808113889325,
+					"original_price_eur_kg": "2.087380811388932529275985836",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-11",
+					"retrieval_date": "2026-10-04T05:57:18.569738+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 330988,
+					"value_basis_eur": 690898
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": 2.081019129137597,
+					"original_price_eur_kg": "2.081019129137596987365491145",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2024-12",
+					"retrieval_date": "2026-10-04T05:57:18.442943+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 329811,
+					"value_basis_eur": 686343
+				},
+				{
+					"period": "2025-01",
+					"price_eur_kg": 1.8519805810384553,
+					"original_price_eur_kg": "1.851980581038455325335623252",
+					"yoy_percent": -37.4834364586341,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-01",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 588085,
+					"value_basis_eur": 1089122
+				},
+				{
+					"period": "2025-02",
+					"price_eur_kg": 2.686665606906047,
+					"original_price_eur_kg": "2.686665606906046832438374471",
+					"yoy_percent": 10.325128440041764,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-02",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 371153,
+					"value_basis_eur": 997164
+				},
+				{
+					"period": "2025-03",
+					"price_eur_kg": 2.921868123245095,
+					"original_price_eur_kg": "2.921868123245094794733663816",
+					"yoy_percent": 8.308783728297842,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-03",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 293107,
+					"value_basis_eur": 856420
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": 2.153392120045318,
+					"original_price_eur_kg": "2.153392120045318058295502262",
+					"yoy_percent": -17.565410969966877,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-05",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 126219,
+					"value_basis_eur": 271799
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": 3.0077632122010183,
+					"original_price_eur_kg": "3.007763212201018061751930976",
+					"yoy_percent": 17.08009720251158,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-06",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 101762,
+					"value_basis_eur": 306076
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": 2.2489796542288936,
+					"original_price_eur_kg": "2.248979654228893746465094239",
+					"yoy_percent": -12.026674030725392,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-07",
+					"retrieval_date": "2026-10-04T05:57:30.939266+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 65419,
+					"value_basis_eur": 147126
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": 1.2322580959385152,
+					"original_price_eur_kg": "1.232258095938515188560240406",
+					"yoy_percent": -61.89328666207001,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-08",
+					"retrieval_date": "2026-10-04T05:57:30.836824+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 205319,
+					"value_basis_eur": 253006
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": 2.4831883083065707,
+					"original_price_eur_kg": "2.483188308306570610190087666",
+					"yoy_percent": 44.23369594751057,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-09",
+					"retrieval_date": "2026-10-04T05:57:30.836824+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 184336,
+					"value_basis_eur": 457741
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": .9149960967402097,
+					"original_price_eur_kg": "0.9149960967402096391568958853",
+					"yoy_percent": -56.21010461721605,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-10",
+					"retrieval_date": "2026-10-04T05:57:30.836824+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 263882,
+					"value_basis_eur": 241451
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": 2.4404557854332136,
+					"original_price_eur_kg": "2.440455785433213432151220337",
+					"yoy_percent": 16.91473698128645,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-11",
+					"retrieval_date": "2026-10-04T05:57:30.836824+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 165692,
+					"value_basis_eur": 404364
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": 2.2251410774664633,
+					"original_price_eur_kg": "2.225141077466463290860268062",
+					"yoy_percent": 6.925546541640504,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2025-12",
+					"retrieval_date": "2026-10-04T05:57:30.836824+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 344846,
+					"value_basis_eur": 767331
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": 2.8176902581555203,
+					"original_price_eur_kg": "2.817690258155520229272552224",
+					"yoy_percent": 52.14469779027411,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2026-01",
+					"retrieval_date": "2026-10-04T05:57:30.844829+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 357304,
+					"value_basis_eur": 1006772
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": 2.5313249788996286,
+					"original_price_eur_kg": "2.531324978899628591988287479",
+					"yoy_percent": -5.7819115116937825,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2026-02",
+					"retrieval_date": "2026-10-04T05:57:30.844829+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 482219,
+					"value_basis_eur": 1220653
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": 2.3006394805303416,
+					"original_price_eur_kg": "2.300639480530341723341786065",
+					"yoy_percent": -21.261351180518105,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2026-03",
+					"retrieval_date": "2026-10-04T05:57:30.844829+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 334803,
+					"value_basis_eur": 770261
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": 2.5439383758878864,
+					"original_price_eur_kg": "2.543938375887886350547129967",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2026-04",
+					"retrieval_date": "2026-10-04T05:57:30.844829+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 291704,
+					"value_basis_eur": 742077
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": 2.0082978944092935,
+					"original_price_eur_kg": "2.008297894409293641738408879",
+					"yoy_percent": -6.73793798562664,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2026-05",
+					"retrieval_date": "2026-10-04T05:57:30.844829+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 192820,
+					"value_basis_eur": 387240
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": 2.660855660855661,
+					"original_price_eur_kg": "2.660855660855660855660855661",
+					"yoy_percent": -11.53373875769621,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:meadow-fescue:2026-06",
+					"retrieval_date": "2026-10-04T05:57:30.844829+00:00",
+					"cn_codes": ["12092311"],
+					"quantity_basis_kg": 179487,
+					"value_basis_eur": 477589
+				}
+			]
+		},
+		{
+			"market_entity_id": "field-pea",
+			"slug": "field-pea",
+			"common_name_en": "Pea",
+			"botanical_display_name": "Pisum sativum",
+			"use_tags": ["CEREALS_PULSES", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 2610.393,
+			"trade_volume_yoy": "71.54147885921719204561659220",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 7184.192,
+					"value_eur": 9213726
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 9033.459,
+					"value_eur": 12684638
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 8640.098,
+					"value_eur": 13056786
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 8489.905,
+					"value_eur": 7548942
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 2373.727,
+					"value_eur": 2647660
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 926.883,
+					"value_eur": 765365
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 8757.602,
+					"value_eur": 4648377
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 5245.851,
+					"value_eur": 3380017
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 3526.836,
+					"value_eur": 3250327
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 3765.684,
+					"value_eur": 4573089
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 5429.86,
+					"value_eur": 7512718
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 3958.22,
+					"value_eur": 5910924
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 6829.227,
+					"value_eur": 9291192
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 7973.461,
+					"value_eur": 10181359
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 8798.89,
+					"value_eur": 12150447
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 4071.551,
+					"value_eur": 4772945
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 2115.798,
+					"value_eur": 2445626
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 1521.727,
+					"value_eur": 1522962
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 3494.664,
+					"value_eur": 2086637
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 1925.376,
+					"value_eur": 1641080
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 12191.845,
+					"value_eur": 6673470
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 4142.904,
+					"value_eur": 4447716
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 2483.206,
+					"value_eur": 3446536
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 3000.568,
+					"value_eur": 3729526
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 5194.846,
+					"value_eur": 8368341
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 7121.217,
+					"value_eur": 9775416
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 8381.491,
+					"value_eur": 11211611
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 4084.208,
+					"value_eur": 5009027
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 1339.682,
+					"value_eur": 1172307
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 2610.393,
+					"value_eur": 1923999
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2025-06",
+					"price_eur_kg": 1.1595990116058388,
+					"original_price_eur_kg": "1.159599011605838865609061453",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:field-pea:2025-06",
+					"retrieval_date": "2026-10-04T05:31:12.174120+00:00",
+					"cn_codes": ["07131010"],
+					"quantity_basis_kg": 1989085,
+					"value_basis_eur": 2306541
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": .6593597386316317,
+					"original_price_eur_kg": "0.6593597386316316225640485086",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:field-pea:2025-07",
+					"retrieval_date": "2026-10-04T05:31:12.174120+00:00",
+					"cn_codes": ["07131010"],
+					"quantity_basis_kg": 3642981,
+					"value_basis_eur": 2402035
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": .8358094243339503,
+					"original_price_eur_kg": "0.8358094243339503738715928420",
+					"yoy_percent": -27.92254771099687,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:field-pea:2026-06",
+					"retrieval_date": "2026-10-04T05:31:12.174120+00:00",
+					"cn_codes": ["07131010"],
+					"quantity_basis_kg": 2837739,
+					"value_basis_eur": 2371809
+				}
+			]
+		},
+		{
+			"market_entity_id": "red-clover",
+			"slug": "red-clover",
+			"common_name_en": "Red clover",
+			"botanical_display_name": "Trifolium pratense",
+			"use_tags": ["FODDER_AMENITY", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 434.78,
+			"trade_volume_yoy": "17.37233686438390186486982630",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 1070.824,
+					"value_eur": 5220973
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 928.806,
+					"value_eur": 4402693
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 857.331,
+					"value_eur": 4588634
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 876.54,
+					"value_eur": 4175699
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 333.554,
+					"value_eur": 1625061
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 209.95,
+					"value_eur": 934776
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 183.581,
+					"value_eur": 910810
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 462.717,
+					"value_eur": 1145416
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 292.306,
+					"value_eur": 1177710
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 463.091,
+					"value_eur": 2023255
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 639.749,
+					"value_eur": 2863702
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 866.315,
+					"value_eur": 3473837
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 1495.61,
+					"value_eur": 7238046
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 1270.584,
+					"value_eur": 6620685
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 1225.324,
+					"value_eur": 6550234
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 821.655,
+					"value_eur": 4033220
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 556.978,
+					"value_eur": 2716161
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 370.428,
+					"value_eur": 1604514
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 261.405,
+					"value_eur": 1055597
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 343.416,
+					"value_eur": 1427211
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 244.829,
+					"value_eur": 958184
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 584.113,
+					"value_eur": 1696972
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 592.911,
+					"value_eur": 2584519
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 846.932,
+					"value_eur": 3655135
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 1063.988,
+					"value_eur": 4521269
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 1185.445,
+					"value_eur": 6061009
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 1197.38,
+					"value_eur": 5973554
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 799.154,
+					"value_eur": 3920855
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 457.754,
+					"value_eur": 2288198
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 434.78,
+					"value_eur": 2091749
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": 4.940425443380245,
+					"original_price_eur_kg": "4.940425443380244722368706393",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-01",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 1249661,
+					"value_basis_eur": 6173857
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": 4.717802054215817,
+					"original_price_eur_kg": "4.717802054215817193567978603",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-02",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 1043902,
+					"value_basis_eur": 4924923
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": 5.437453428782625,
+					"original_price_eur_kg": "5.437453428782624657072127716",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-03",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 1007865,
+					"value_basis_eur": 5480219
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": 4.893736747027459,
+					"original_price_eur_kg": "4.893736747027458867344079461",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-04",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 1006378,
+					"value_basis_eur": 4924949
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": 4.970630118728188,
+					"original_price_eur_kg": "4.970630118728187860612756704",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-05",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 570210,
+					"value_basis_eur": 2834303
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": 4.7332686324115265,
+					"original_price_eur_kg": "4.733268632411526941754630841",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-06",
+					"retrieval_date": "2026-10-04T05:54:41.701612+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 275112,
+					"value_basis_eur": 1302179
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": 5.328596208830382,
+					"original_price_eur_kg": "5.328596208830382277494799821",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-07",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 272106,
+					"value_basis_eur": 1449943
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": 2.8886092533228425,
+					"original_price_eur_kg": "2.888609253322842293697658528",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-08",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 531247,
+					"value_basis_eur": 1534565
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": 4.382345869138333,
+					"original_price_eur_kg": "4.382345869138332770376646648",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-09",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 349346,
+					"value_basis_eur": 1530955
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": 4.400789203324927,
+					"original_price_eur_kg": "4.400789203324927617446530307",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-10",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 513936,
+					"value_basis_eur": 2261724
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": 4.719145111328078,
+					"original_price_eur_kg": "4.719145111328077193993967859",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-11",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 735394,
+					"value_basis_eur": 3470431
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": 4.307923470915801,
+					"original_price_eur_kg": "4.307923470915800748234744692",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2024-12",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 984985,
+					"value_basis_eur": 4243240
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": 5.09474261134719,
+					"original_price_eur_kg": "5.094742611347190242339908189",
+					"yoy_percent": 4.107410649782617,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-04",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 961542,
+					"value_basis_eur": 4898809
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": 5.071099560545347,
+					"original_price_eur_kg": "5.071099560545346981412960708",
+					"yoy_percent": 2.0212616794521354,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-05",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 671059,
+					"value_basis_eur": 3403007
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": 4.451300360775005,
+					"original_price_eur_kg": "4.451300360775005547507860008",
+					"yoy_percent": -5.957157590966111,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-06",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 401081,
+					"value_basis_eur": 1785332
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": 4.391632967308817,
+					"original_price_eur_kg": "4.391632967308816731616375286",
+					"yoy_percent": -17.583678792715794,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-07",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 326663,
+					"value_basis_eur": 1434584
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": 4.389676634729666,
+					"original_price_eur_kg": "4.389676634729666231961625345",
+					"yoy_percent": 51.96505479860616,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-08",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 397971,
+					"value_basis_eur": 1746964
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": 4.26703912968666,
+					"original_price_eur_kg": "4.267039129686660509672684367",
+					"yoy_percent": -2.6311647436067065,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-09",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 284771,
+					"value_basis_eur": 1215129
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": 2.993872671448647,
+					"original_price_eur_kg": "2.993872671448646992613905040",
+					"yoy_percent": -31.96964150914824,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-10",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 600588,
+					"value_basis_eur": 1798084
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": 4.468934724488345,
+					"original_price_eur_kg": "4.468934724488344628877066877",
+					"yoy_percent": -5.302027823622435,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-11",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 625763,
+					"value_basis_eur": 2796494
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": 4.317169789736737,
+					"original_price_eur_kg": "4.317169789736737517056102045",
+					"yoy_percent": .21463516897086699,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2025-12",
+					"retrieval_date": "2026-10-04T05:54:49.742449+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 847937,
+					"value_basis_eur": 3660688
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": 4.43052014595473,
+					"original_price_eur_kg": "4.430520145954730022339134648",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2026-01",
+					"retrieval_date": "2026-10-04T05:54:41.701612+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 1166115,
+					"value_basis_eur": 5166496
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": 5.052812236679272,
+					"original_price_eur_kg": "5.052812236679271621860528122",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2026-03",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 1306629,
+					"value_basis_eur": 6602151
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": 5.050761757360763,
+					"original_price_eur_kg": "5.050761757360762990051727365",
+					"yoy_percent": -.8632595862344661,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2026-04",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 876132,
+					"value_basis_eur": 4425134
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": 5.06669509250883,
+					"original_price_eur_kg": "5.066695092508830257388318131",
+					"yoy_percent": -.08685430021498908,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2026-05",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 520653,
+					"value_basis_eur": 2637990
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": 4.947958923239412,
+					"original_price_eur_kg": "4.947958923239411778132372745",
+					"yoy_percent": 11.157606142262999,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:red-clover:2026-06",
+					"retrieval_date": "2026-10-04T05:54:41.873392+00:00",
+					"cn_codes": ["12092210"],
+					"quantity_basis_kg": 481927,
+					"value_basis_eur": 2384555
+				}
+			]
+		},
+		{
+			"market_entity_id": "alfalfa",
+			"slug": "alfalfa",
+			"common_name_en": "Alfalfa / lucerne",
+			"botanical_display_name": "Medicago sativa",
+			"use_tags": ["FODDER_AMENITY", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 945.816,
+			"trade_volume_yoy": "8.876170128512687807640772300",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 3412.306,
+					"value_eur": 13447164
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 3721.427,
+					"value_eur": 15562145
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 3851.809,
+					"value_eur": 16386299
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 2479.564,
+					"value_eur": 8064929
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 1453.837,
+					"value_eur": 4510979
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 698.568,
+					"value_eur": 2343718
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 705.103,
+					"value_eur": 1697776
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 1102.481,
+					"value_eur": 3428507
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 1346.057,
+					"value_eur": 3934118
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 1161.852,
+					"value_eur": 2769495
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 1263.011,
+					"value_eur": 3489567
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 1147.844,
+					"value_eur": 4111462
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 2893.202,
+					"value_eur": 12219808
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 3892.888,
+					"value_eur": 16388040
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 4360.205,
+					"value_eur": 18535389
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 2876.487,
+					"value_eur": 11128603
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 1413.351,
+					"value_eur": 3968228
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 868.708,
+					"value_eur": 1880931
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 1166.373,
+					"value_eur": 2598257
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 1573.088,
+					"value_eur": 3516540
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 1423.89,
+					"value_eur": 4130373
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 1835.034,
+					"value_eur": 4833472
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 1383.642,
+					"value_eur": 5035047
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 1454.824,
+					"value_eur": 4818660
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 2822.585,
+					"value_eur": 14008132
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 3792.513,
+					"value_eur": 19061150
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 2995,
+					"value_eur": 13892272
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 1760.065,
+					"value_eur": 8116891
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 929.404,
+					"value_eur": 4129815
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 945.816,
+					"value_eur": 3022469
+				}
+			],
+			"price_observations": [{
+				"period": "2024-01",
+				"price_eur_kg": 4.198091947474246,
+				"original_price_eur_kg": "4.198091947474246646362850302",
+				"yoy_percent": null,
+				"classification": "PUBLIC_SAFE",
+				"eligible": true,
+				"scope_verified": true,
+				"species_attribution_verified": true,
+				"unit": "EUR_PER_KG",
+				"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+				"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+				"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+				"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+				"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+				"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+				"source_witness_id": "PRICE-WITNESS:alfalfa:2024-01",
+				"retrieval_date": "2026-10-04T05:53:39.323562+00:00",
+				"cn_codes": ["12092100"],
+				"quantity_basis_kg": 3977249,
+				"value_basis_eur": 16696857
+			}, {
+				"period": "2024-12",
+				"price_eur_kg": 4.0979661805871315,
+				"original_price_eur_kg": "4.097966180587131211305605179",
+				"yoy_percent": null,
+				"classification": "PUBLIC_SAFE",
+				"eligible": true,
+				"scope_verified": true,
+				"species_attribution_verified": true,
+				"unit": "EUR_PER_KG",
+				"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+				"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+				"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+				"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+				"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+				"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+				"source_witness_id": "PRICE-WITNESS:alfalfa:2024-12",
+				"retrieval_date": "2026-10-04T05:53:39.323562+00:00",
+				"cn_codes": ["12092100"],
+				"quantity_basis_kg": 1856212,
+				"value_basis_eur": 7606694
+			}]
+		},
+		{
+			"market_entity_id": "soybean",
+			"slug": "soybean",
+			"common_name_en": "Soybean",
+			"botanical_display_name": "Glycine max",
+			"use_tags": ["CEREALS_PULSES", "OIL_FIBRE"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 2549.495,
+			"trade_volume_yoy": "38.53255725244762160405747140",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 9972.899,
+					"value_eur": 4808666
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 8038.258,
+					"value_eur": 6728345
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 7973.822,
+					"value_eur": 6894558
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 7701.903,
+					"value_eur": 10020486
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 8865.701,
+					"value_eur": 4196613
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 5279.247,
+					"value_eur": 2498990
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 3897.664,
+					"value_eur": 689543
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 6935.295,
+					"value_eur": 1984601
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 11669.089,
+					"value_eur": 2464526
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 16416.304,
+					"value_eur": 5264821
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 13407.531,
+					"value_eur": 5509054
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 6827.891,
+					"value_eur": 2769444
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 8404.784,
+					"value_eur": 3714423
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 8087.743,
+					"value_eur": 5699159
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 10029.572,
+					"value_eur": 10466141
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 9040.064,
+					"value_eur": 11899824
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 2710.376,
+					"value_eur": 2812654
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 1840.358,
+					"value_eur": 1575005
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 3462.901,
+					"value_eur": 501001
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 2729.013,
+					"value_eur": 228961
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 3683.419,
+					"value_eur": 1726284
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 13580.932,
+					"value_eur": 7273692
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 6883.714,
+					"value_eur": 3147535
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 5053.233,
+					"value_eur": 2229837
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 4424.266,
+					"value_eur": 2307738
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 4023.479,
+					"value_eur": 2545159
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 8694.988,
+					"value_eur": 9836358
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 5552.085,
+					"value_eur": 9121303
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 2040.048,
+					"value_eur": 2381557
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 2549.495,
+					"value_eur": 1867517
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": .48619971933601763,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-01",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 9984181,
+					"value_basis_eur": 4854306,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": .8441551284069381,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-02",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 8074369,
+					"value_basis_eur": 6816020,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": .9476903064116174,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-03",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 8798981,
+					"value_basis_eur": 8338709,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": 1.463125200136748,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-04",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 8128817,
+					"value_basis_eur": 11893477,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": .4739523034869968,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-05",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 8873395,
+					"value_basis_eur": 4205566,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": .47344504041758523,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-06",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 5279880,
+					"value_basis_eur": 2499733,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": .1776828592537865,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-07",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 3898080,
+					"value_basis_eur": 692622,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-08",
+					"price_eur_kg": .2871487934914954,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-08",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:03.474184+00:00",
+					"quantity_basis_kg": 6938368,
+					"value_basis_eur": 1992344,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": .21720052095363535,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-09",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 11689332,
+					"value_basis_eur": 2538929,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": .32090044977662824,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-10",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 16419039,
+					"value_basis_eur": 5268877,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": .41189204237319854,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-11",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 13412818,
+					"value_basis_eur": 5524633,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": .40567319406505004,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2024-12",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 6828499,
+					"value_basis_eur": 2770139,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": null
+				},
+				{
+					"period": "2025-01",
+					"price_eur_kg": .46093411125674466,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-01",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 8488582,
+					"value_basis_eur": 3912677,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -5.196549293318631
+				},
+				{
+					"period": "2025-02",
+					"price_eur_kg": .7110071104479899,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-02",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 8119179,
+					"value_basis_eur": 5772794,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -15.772932424188513
+				},
+				{
+					"period": "2025-03",
+					"price_eur_kg": 1.086498666539793,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-03",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 10488127,
+					"value_basis_eur": 11395336,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 14.647016983192174
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": 1.352279129419454,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-04",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 9400256,
+					"value_basis_eur": 12711770,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -7.5759798756069525
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": 1.1037725254597832,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-05",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 2760432,
+					"value_basis_eur": 3046889,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 132.88683636286325
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": .8505150163906845,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-06",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.265577+00:00",
+					"quantity_basis_kg": 1854407,
+					"value_basis_eur": 1577201,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 79.64387495547913
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": .14547755626267217,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-07",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:03.474184+00:00",
+					"quantity_basis_kg": 3464775,
+					"value_basis_eur": 504047,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -18.12516025820764
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": .08397376451893374,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-08",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 2729281,
+					"value_basis_eur": 229188,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -70.75600997730788
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": .46870728372039233,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-09",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 3683461,
+					"value_basis_eur": 1726465,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 115.79473274856684
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": .5359569456923934,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-10",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 13581173,
+					"value_basis_eur": 7278924,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 67.01657665654916
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": .45806504929145125,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-11",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 6885271,
+					"value_basis_eur": 3153902,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 11.20997789911591
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": .44208035206128393,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2025-12",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 5055029,
+					"value_basis_eur": 2234729,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 8.974504238600488
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": .522204898020619,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2026-01",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.265577+00:00",
+					"quantity_basis_kg": 4424767,
+					"value_basis_eur": 2310635,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 13.292742990276519
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": .6453744428081482,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2026-02",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:03.474184+00:00",
+					"quantity_basis_kg": 4047080,
+					"value_basis_eur": 2611882,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -9.230943921009182
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": 1.187955645191554,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2026-03",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 9326610,
+					"value_basis_eur": 11079599,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 9.337975441320534
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": 1.6617821880706927,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2026-04",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.265577+00:00",
+					"quantity_basis_kg": 5948912,
+					"value_basis_eur": 9885796,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 22.887512786218277
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": 1.1684065225130116,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2026-05",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 2042219,
+					"value_basis_eur": 2386142,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": 5.855735268125528
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": .7348512003036937,
+					"unit": "EUR_PER_KG",
+					"currency": "EUR",
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"methodology": "Observed official seed-customs export unit value: sum(EUR statistical export value)/sum(net weight kg) across the same EU27 exporter reports to EU and third-country country partners. No imports, no interpolation. Not a transaction or certified-seed quote.",
+					"scope": "DIRECT_SPECIES_SEED_FOR_SOWING;EU27_EXPORTS_INTRA_AND_EXTRA;COUNTRY_PARTNERS_ONLY",
+					"source": "Eurostat COMEXT DS-045409",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_witness_id": "P65V2:PRICE:soybean:2026-06",
+					"cn_codes": ["12011000"],
+					"retrieval_date": "2026-10-04T05:45:10.428716+00:00",
+					"quantity_basis_kg": 2549938,
+					"value_basis_eur": 1873825,
+					"quality_certification_context": "Not identified by customs code; sowing-specific, not proof of certification, cultivar, packaging or transaction quality.",
+					"publication_rights": "Official public statistics; attribution and scope disclosure required",
+					"yoy_percent": -13.59926795623566
+				}
+			]
+		},
+		{
+			"market_entity_id": "flax",
+			"slug": "flax",
+			"common_name_en": "Flax / linseed",
+			"botanical_display_name": "Linum usitatissimum",
+			"use_tags": ["OIL_FIBRE", "CATCH_CROP"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 1632.835,
+			"trade_volume_yoy": "16.70067504547355029606944140",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_SPECIES_SPECIFIC",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 929.952,
+					"value_eur": 769327
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 1420.41,
+					"value_eur": 2064685
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 1966.576,
+					"value_eur": 3610925
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 2286.62,
+					"value_eur": 3188641
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 1272.798,
+					"value_eur": 1961376
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 1420.378,
+					"value_eur": 1392478
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 888.613,
+					"value_eur": 865981
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 704.843,
+					"value_eur": 645566
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 1124.153,
+					"value_eur": 856113
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 1291.032,
+					"value_eur": 1377203
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 1234.612,
+					"value_eur": 1179669
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 1370.057,
+					"value_eur": 1271242
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 1707.407,
+					"value_eur": 1587297
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 2200.851,
+					"value_eur": 2970368
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 3070.036,
+					"value_eur": 3740704
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 2825.908,
+					"value_eur": 4886690
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 1873.896,
+					"value_eur": 3190713
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 1399.165,
+					"value_eur": 2013776
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 906.146,
+					"value_eur": 887961
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 753.47,
+					"value_eur": 763552
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 2598.893,
+					"value_eur": 1768907
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 2269.298,
+					"value_eur": 3226668
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 1708.633,
+					"value_eur": 1513068
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 1668.206,
+					"value_eur": 1557701
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 2015.22,
+					"value_eur": 1408588
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 2887.588,
+					"value_eur": 3557636
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 4269.744,
+					"value_eur": 6215468
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 4389.004,
+					"value_eur": 6650909
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 2701.747,
+					"value_eur": 2708675
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 1632.835,
+					"value_eur": 1558633
+				}
+			],
+			"price_observations": [
+				{
+					"period": "2024-01",
+					"price_eur_kg": .8570529524361016,
+					"original_price_eur_kg": "0.8570529524361015940420466792",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-01",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 994704,
+					"value_basis_eur": 852514
+				},
+				{
+					"period": "2024-02",
+					"price_eur_kg": 1.464917405277333,
+					"original_price_eur_kg": "1.464917405277333112845793816",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-02",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1475518,
+					"value_basis_eur": 2161512
+				},
+				{
+					"period": "2024-03",
+					"price_eur_kg": 1.8438500434754117,
+					"original_price_eur_kg": "1.843850043475411652993646037",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-03",
+					"retrieval_date": "2026-10-04T05:46:06.341699+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2273699,
+					"value_basis_eur": 4192360
+				},
+				{
+					"period": "2024-04",
+					"price_eur_kg": 1.4506533662839303,
+					"original_price_eur_kg": "1.450653366283930243074617750",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-04",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2397124,
+					"value_basis_eur": 3477396
+				},
+				{
+					"period": "2024-05",
+					"price_eur_kg": 1.5353988335910862,
+					"original_price_eur_kg": "1.535398833591086101846503568",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-05",
+					"retrieval_date": "2026-10-04T05:46:06.341699+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1341725,
+					"value_basis_eur": 2060083
+				},
+				{
+					"period": "2024-06",
+					"price_eur_kg": 1.0010406983242508,
+					"original_price_eur_kg": "1.001040698324250792620924102",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-06",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1467284,
+					"value_basis_eur": 1468811
+				},
+				{
+					"period": "2024-07",
+					"price_eur_kg": 1.001150276097408,
+					"original_price_eur_kg": "1.001150276097408037606138405",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-07",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 963247,
+					"value_basis_eur": 964355
+				},
+				{
+					"period": "2024-09",
+					"price_eur_kg": .9364102395119379,
+					"original_price_eur_kg": "0.9364102395119379377871507118",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-09",
+					"retrieval_date": "2026-10-04T05:46:06.341699+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1274592,
+					"value_basis_eur": 1193541
+				},
+				{
+					"period": "2024-10",
+					"price_eur_kg": 1.0745765722626834,
+					"original_price_eur_kg": "1.074576572262683523969137852",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-10",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1294790,
+					"value_basis_eur": 1391351
+				},
+				{
+					"period": "2024-11",
+					"price_eur_kg": .9679186381648643,
+					"original_price_eur_kg": "0.9679186381648643590970270734",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-11",
+					"retrieval_date": "2026-10-04T05:46:06.341699+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1277159,
+					"value_basis_eur": 1236186
+				},
+				{
+					"period": "2024-12",
+					"price_eur_kg": .9499487328705436,
+					"original_price_eur_kg": "0.9499487328705435701320474983",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2024-12",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1443420,
+					"value_basis_eur": 1371175
+				},
+				{
+					"period": "2025-01",
+					"price_eur_kg": .9594081596840438,
+					"original_price_eur_kg": "0.9594081596840438127097730064",
+					"yoy_percent": 11.942693500676494,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-01",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1800756,
+					"value_basis_eur": 1727660
+				},
+				{
+					"period": "2025-03",
+					"price_eur_kg": 1.2852759656415327,
+					"original_price_eur_kg": "1.285275965641532645459969035",
+					"yoy_percent": -30.29389943127052,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-03",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 3295374,
+					"value_basis_eur": 4235465
+				},
+				{
+					"period": "2025-04",
+					"price_eur_kg": 1.7485368521246534,
+					"original_price_eur_kg": "1.748536852124653369471438964",
+					"yoy_percent": 20.53443591447328,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-04",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 3030965,
+					"value_basis_eur": 5299754
+				},
+				{
+					"period": "2025-05",
+					"price_eur_kg": 1.7025648502857313,
+					"original_price_eur_kg": "1.702564850285731314119261627",
+					"yoy_percent": 10.887465395793416,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-05",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1879213,
+					"value_basis_eur": 3199482
+				},
+				{
+					"period": "2025-06",
+					"price_eur_kg": 1.442457207072326,
+					"original_price_eur_kg": "1.442457207072326124558331895",
+					"yoy_percent": 44.09576049075823,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-06",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1419335,
+					"value_basis_eur": 2047330
+				},
+				{
+					"period": "2025-07",
+					"price_eur_kg": 1.0665837966000253,
+					"original_price_eur_kg": "1.066583796600025321409251522",
+					"yoy_percent": 6.535834036592814,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-07",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 955713,
+					"value_basis_eur": 1019348
+				},
+				{
+					"period": "2025-08",
+					"price_eur_kg": 1.0281611285755112,
+					"original_price_eur_kg": "1.028161128575511158452625289",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-08",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 769820,
+					"value_basis_eur": 791499
+				},
+				{
+					"period": "2025-09",
+					"price_eur_kg": .6997709706868367,
+					"original_price_eur_kg": "0.6997709706868366772780536163",
+					"yoy_percent": -25.270897181606955,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-09",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2626738,
+					"value_basis_eur": 1838115
+				},
+				{
+					"period": "2025-10",
+					"price_eur_kg": 1.4445283954483767,
+					"original_price_eur_kg": "1.444528395448376657271113895",
+					"yoy_percent": 34.42768367885629,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-10",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2298960,
+					"value_basis_eur": 3320913
+				},
+				{
+					"period": "2025-11",
+					"price_eur_kg": .9137798002927494,
+					"original_price_eur_kg": "0.9137798002927493804437616846",
+					"yoy_percent": -5.593325279360261,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-11",
+					"retrieval_date": "2026-10-04T05:46:14.092105+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1725025,
+					"value_basis_eur": 1576293
+				},
+				{
+					"period": "2025-12",
+					"price_eur_kg": .9905576041392303,
+					"original_price_eur_kg": "0.9905576041392302781659174207",
+					"yoy_percent": 4.274848722201607,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2025-12",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1792024,
+					"value_basis_eur": 1775103
+				},
+				{
+					"period": "2026-01",
+					"price_eur_kg": .7283659125062975,
+					"original_price_eur_kg": "0.7283659125062974280657889260",
+					"yoy_percent": -24.081747152727374,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2026-01",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2090139,
+					"value_basis_eur": 1522386
+				},
+				{
+					"period": "2026-02",
+					"price_eur_kg": 1.243215316109565,
+					"original_price_eur_kg": "1.243215316109564831423841936",
+					"yoy_percent": null,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2026-02",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2946858,
+					"value_basis_eur": 3663579
+				},
+				{
+					"period": "2026-03",
+					"price_eur_kg": 1.5162149511879819,
+					"original_price_eur_kg": "1.516214951187981990817099808",
+					"yoy_percent": 17.968046685691984,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2026-03",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 4576332,
+					"value_basis_eur": 6938703
+				},
+				{
+					"period": "2026-04",
+					"price_eur_kg": 1.534866377788107,
+					"original_price_eur_kg": "1.534866377788107177815402790",
+					"yoy_percent": -12.219958308394506,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2026-04",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 4513546,
+					"value_basis_eur": 6927690
+				},
+				{
+					"period": "2026-05",
+					"price_eur_kg": 1.012446732020413,
+					"original_price_eur_kg": "1.012446732020412815881311050",
+					"yoy_percent": -40.53402830144767,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2026-05",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 2737104,
+					"value_basis_eur": 2771172
+				},
+				{
+					"period": "2026-06",
+					"price_eur_kg": .9879172606119363,
+					"original_price_eur_kg": "0.9879172606119362606007860324",
+					"yoy_percent": -31.51150302634931,
+					"classification": "PUBLIC_SAFE",
+					"eligible": true,
+					"scope_verified": true,
+					"species_attribution_verified": true,
+					"unit": "EUR_PER_KG",
+					"methodology": "Existing published representative unit value; exact reconstruction: sum(EUR export values)/sum(net_weight_kg) across EU27 exporter reports, intra and extra EU, country partners only; no mirrored imports. Not a transaction price.",
+					"scope": "EU-27 seed exports to EU and third-country destinations; representative customs-derived export unit value.",
+					"source": "Eurostat COMEXT DS-045409; existing SeedTrade representative unit-value series",
+					"source_url": "https://ec.europa.eu/eurostat/web/international-trade-in-goods/database",
+					"source_sha256": "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+					"source_dataset": "src/generated/market_public.json + preserved complete COMEXT universe",
+					"source_witness_id": "PRICE-WITNESS:flax:2026-06",
+					"retrieval_date": "2026-10-04T05:46:06.372451+00:00",
+					"cn_codes": ["12040010"],
+					"quantity_basis_kg": 1704001,
+					"value_basis_eur": 1683412
+				}
+			]
+		},
+		{
+			"market_entity_id": "fodder-beet",
+			"slug": "fodder-beet",
+			"common_name_en": "Fodder beet",
+			"botanical_display_name": "Beta vulgaris",
+			"use_tags": ["VEGETABLES"],
+			"public_safe_status": "PUBLIC_SAFE",
+			"trade_volume_t": 16.079,
+			"trade_volume_yoy": "-0.7836603727014685918795507800",
+			"latest_trade_period": "2026-06",
+			"CN_status": "CONFIRMED_COMMERCIAL_ENTITY_SCOPE",
+			"trade_history": [
+				{
+					"period": "2024-01",
+					"volume_t": 139.649,
+					"value_eur": 698411
+				},
+				{
+					"period": "2024-02",
+					"volume_t": 97.54,
+					"value_eur": 4749006
+				},
+				{
+					"period": "2024-03",
+					"volume_t": 77.217,
+					"value_eur": 1078638
+				},
+				{
+					"period": "2024-04",
+					"volume_t": 77.44,
+					"value_eur": 1008408
+				},
+				{
+					"period": "2024-05",
+					"volume_t": 117.854,
+					"value_eur": 2069260
+				},
+				{
+					"period": "2024-06",
+					"volume_t": 993.958,
+					"value_eur": 147081
+				},
+				{
+					"period": "2024-07",
+					"volume_t": 875.766,
+					"value_eur": 350339
+				},
+				{
+					"period": "2024-08",
+					"volume_t": 441.237,
+					"value_eur": 836850
+				},
+				{
+					"period": "2024-09",
+					"volume_t": 294.005,
+					"value_eur": 147340
+				},
+				{
+					"period": "2024-10",
+					"volume_t": 15.764,
+					"value_eur": 106932
+				},
+				{
+					"period": "2024-11",
+					"volume_t": 664.709,
+					"value_eur": 702723
+				},
+				{
+					"period": "2024-12",
+					"volume_t": 428.374,
+					"value_eur": 250639
+				},
+				{
+					"period": "2025-01",
+					"volume_t": 605.143,
+					"value_eur": 1900104
+				},
+				{
+					"period": "2025-02",
+					"volume_t": 43.673,
+					"value_eur": 1466745
+				},
+				{
+					"period": "2025-03",
+					"volume_t": 74.952,
+					"value_eur": 2243332
+				},
+				{
+					"period": "2025-04",
+					"volume_t": 162.376,
+					"value_eur": 1926442
+				},
+				{
+					"period": "2025-05",
+					"volume_t": 1.534,
+					"value_eur": 64537
+				},
+				{
+					"period": "2025-06",
+					"volume_t": 16.206,
+					"value_eur": 32792
+				},
+				{
+					"period": "2025-07",
+					"volume_t": 507.606,
+					"value_eur": 504537
+				},
+				{
+					"period": "2025-08",
+					"volume_t": 127.724,
+					"value_eur": 66880
+				},
+				{
+					"period": "2025-09",
+					"volume_t": 288.494,
+					"value_eur": 1515639
+				},
+				{
+					"period": "2025-10",
+					"volume_t": 88.911,
+					"value_eur": 265565
+				},
+				{
+					"period": "2025-11",
+					"volume_t": 92.251,
+					"value_eur": 391800
+				},
+				{
+					"period": "2025-12",
+					"volume_t": 81.469,
+					"value_eur": 718771
+				},
+				{
+					"period": "2026-01",
+					"volume_t": 27.67,
+					"value_eur": 1364652
+				},
+				{
+					"period": "2026-02",
+					"volume_t": 45.501,
+					"value_eur": 1728234
+				},
+				{
+					"period": "2026-03",
+					"volume_t": 49.279,
+					"value_eur": 2235867
+				},
+				{
+					"period": "2026-04",
+					"volume_t": 31.888,
+					"value_eur": 546380
+				},
+				{
+					"period": "2026-05",
+					"volume_t": 13.751,
+					"value_eur": 130978
+				},
+				{
+					"period": "2026-06",
+					"volume_t": 16.079,
+					"value_eur": 127105
+				}
+			],
+			"price_observations": []
+		}
+	],
+	categories: [
+		{
+			"id": "CEREALS_PULSES",
+			"title": "Cereals & Pulses"
+		},
+		{
+			"id": "VEGETABLES",
+			"title": "Vegetables"
+		},
+		{
+			"id": "OIL_FIBRE",
+			"title": "Oil & Fibre Seeds"
+		},
+		{
+			"id": "MAIZE_SORGHUM",
+			"title": "Maize & Sorghum"
+		},
+		{
+			"id": "FODDER_AMENITY",
+			"title": "Fodder Plants & Amenity Grasses"
+		},
+		{
+			"id": "CATCH_CROP",
+			"title": "Catch / Cover Crops"
+		}
+	]
+};
+//#endregion
+//#region src/commercialEvidence.mjs
+var metricAvailable = (value) => value !== null && value !== void 0 && Number.isFinite(Number(value));
+function eligiblePrices(observations = []) {
+	return observations.filter((p) => p.classification === "PUBLIC_SAFE" && p.eligible === true && p.scope_verified === true && p.species_attribution_verified === true && p.methodology && p.source && /^https:\/\//.test(p.source_url || "") && /^\d{4}-\d{2}(-\d{2})?$/.test(p.period || "") && metricAvailable(p.price_eur_kg) && Number(p.price_eur_kg) > 0).slice().sort((a, b) => a.period.localeCompare(b.period));
+}
+function latestValidPrice(observations) {
+	return eligiblePrices(observations).at(-1) || null;
+}
+function snapshotCandidates(cards) {
+	return cards.filter((c) => c.public_safe_status === "PUBLIC_SAFE" && (metricAvailable(c.trade_volume_t) || latestValidPrice(c.price_observations)));
+}
+function calendarSlots(points, end, count = 12, field = "volume_t") {
+	if (!end) return [];
+	const [year, month] = end.slice(0, 7).split("-").map(Number);
+	return Array.from({ length: count }, (_, i) => {
+		const period = new Date(Date.UTC(year, month - count + i, 1)).toISOString().slice(0, 7);
+		return {
+			period,
+			point: points.find((p) => p.period.slice(0, 7) === period && metricAvailable(p[field])) || null
+		};
+	});
+}
+var rankedExporters = (rows) => rows.slice().sort((a, b) => Number(b.share_percent) - Number(a.share_percent) || a.country.localeCompare(b.country)).slice(0, 5);
+var rankedCorridors = (rows) => rows.slice().sort((a, b) => Number(b.volume_t) - Number(a.volume_t) || `${a.exporter}-${a.importer}`.localeCompare(`${b.exporter}-${b.importer}`)).slice(0, 5);
+var isCustomsUnitValue = (p) => /customs|COMEXT|net weight/i.test(`${p?.methodology || ""} ${p?.source || ""}`);
+var eligibleTradeUnitValues = (observations) => eligiblePrices(observations).filter(isCustomsUnitValue);
+var latestTradeUnitValue = (observations) => eligibleTradeUnitValues(observations).at(-1) || null;
+var eligibleSeedPrices = (observations) => eligiblePrices(observations).filter((p) => p.metric_type === "COMMERCIAL_SEED_PRICE" && p.commercial_evidence_verified === true && p.publication_rights_verified === true && !isCustomsUnitValue(p));
+var latestSeedPrice = (observations) => eligibleSeedPrices(observations).at(-1) || null;
+var snapshot_intelligence_public_default = {
+	schema_version: "1",
+	origin: "APPROVED_SNAPSHOT_12_PUBLIC_PROJECTION;EDITORIAL_COMPRESSION_ONLY",
+	records: [
+		{
+			"entity_id": "sunflower",
+			"presentation": "MARKET_SITUATION",
+			"market_situation": "June 2026 seed dispatches rose slightly; customs unit value fell. Seed-production evidence ends in 2025.",
+			"market_watch": [],
+			"b2b_view": null,
+			"latest_market_evidence": "Latest completed trade: June 2026. Customs values describe shipments, not current offers or available lots.",
+			"as_of": "2026-06",
+			"as_of_precision": "MONTH",
+			"as_of_source_basis": "EUROSTAT_COMEXT_DS045409",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "rye",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany’s 2026 spring and winter seed declarations show planned capacity, not deliverable seed.",
+			"market_watch": ["Approved area by spring/winter form", "Hybrid versus open-pollinated lot availability"],
+			"b2b_view": "Compare hybrid and open-pollinated lots separately.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "barley",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Bavaria’s 2026 spring and winter field results remain separate; final certified quantities and stocks are unconfirmed.",
+			"market_watch": ["Final germination and certified quantity by form", "Next-season spring/winter orders"],
+			"b2b_view": "Check seed class and deliverability by spring/winter form.",
+			"latest_market_evidence": null,
+			"as_of": "2026-09-10",
+			"as_of_precision": "DAY",
+			"as_of_source_basis": "lfl_field_winter/lfl_field_spring",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "italian-ryegrass",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany’s 2026 declarations show seed capacity. Customs data do not separate Westerwolds and other forms.",
+			"market_watch": ["Certified new-harvest quantity", "Availability by commercial form and cultivar"],
+			"b2b_view": "Match the commercial form and cultivar to the intended use.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "perennial-ryegrass",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany reports 2026 seed declarations. The latest customs unit value is from February 2025.",
+			"market_watch": ["New certified-lot availability", "Current variety-specific offers"],
+			"b2b_view": "Compare current offers by variety, germination and delivery terms.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "meadow-fescue",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany reports 2026 seed capacity. External import and export periods differ; no net balance is inferred.",
+			"market_watch": ["Same-period external import and export update", "Certified 2026 lot availability"],
+			"b2b_view": "Verify delivered lots; unmatched flows do not establish shortage.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "field-pea",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany reports 2026 seed declarations. June volume and customs unit value diverged; current availability is unconfirmed.",
+			"market_watch": ["New-crop certified quantity and germination", "Next-season buyer orders by variety"],
+			"b2b_view": "Match variety, germination and treatment when comparing offers.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "red-clover",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany reports 2026 seed declarations. Earlier Irish reseeding payments do not establish mono-species orders.",
+			"market_watch": ["Certified availability by ploidy and cultivar", "Red-clover inclusion in reseeding orders"],
+			"b2b_view": "Compare ploidy, cultivar and germination for deliverable seed.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "alfalfa",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany reports 2026 seed declarations. The latest customs unit value is from December 2024.",
+			"market_watch": ["New certified-lot availability", "Current cultivar-specific offers"],
+			"b2b_view": "Compare cultivar and lot quality; the old value is not a current quote.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "soybean",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Germany reports 2026 seed declarations. June trade rose and unit value fell; variety-level availability is unresolved.",
+			"market_watch": ["Certified availability by maturity group", "New-lot germination and treatment"],
+			"b2b_view": "Match maturity group and certified lot specifications.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "flax",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "Reported 2026 fibre-flax area expanded in France, Belgium and the Netherlands; next-season seed demand is unconfirmed.",
+			"market_watch": ["Oilseed versus fibre sowing contracts", "Seed usage and replacement rate"],
+			"b2b_view": "Separate oilseed and fibre requirements; confirm sowing contracts.",
+			"latest_market_evidence": null,
+			"as_of": "2026-07-30",
+			"as_of_precision": "DAY",
+			"as_of_source_basis": "alliance2026",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		},
+		{
+			"entity_id": "fodder-beet",
+			"presentation": "MARKET_WATCH",
+			"market_situation": "German certification includes domestic and foreign-grown seed; declared 2026 area is not the entire supply.",
+			"market_watch": ["Current certified fodder-beet lots", "Domestic versus foreign production origin"],
+			"b2b_view": "Check fodder-beet scope and lot origin; other beet uses differ.",
+			"latest_market_evidence": null,
+			"as_of": "2026",
+			"as_of_precision": "YEAR",
+			"as_of_source_basis": "DE_BSA_SEED_AUTHORITY",
+			"classification": "PUBLIC_SAFE",
+			"source_checkpoint_sha256": "37a5b41b2719315cb33a3785c67b349e82f13783cf0b90982a73d496b049590a"
+		}
+	]
+};
+//#endregion
+//#region src/i18n/snapshotCompactCopy.js
+var snapshotCompactCopy = {
+	sunflower: [
+		"June 2026 seed trade rose; unit value fell.",
+		"Saatguthandel stieg im Juni 2026; Einheitswert sank.",
+		"Échanges de semences en hausse en juin 2026 ; valeur unitaire en baisse.",
+		"Subieron los intercambios en junio de 2026; bajó el valor unitario.",
+		"Scambi di sementi in aumento a giugno 2026; valore unitario in calo."
+	],
+	rye: [
+		"Germany’s 2026 seed declarations show planned capacity.",
+		"Deutsche Saatgutmeldungen 2026 zeigen geplante Kapazität.",
+		"Les déclarations allemandes 2026 indiquent la capacité prévue.",
+		"Las declaraciones alemanas 2026 indican capacidad prevista.",
+		"Le dichiarazioni tedesche 2026 indicano capacità prevista."
+	],
+	barley: [
+		"Bavaria’s 2026 seed field results remain form-specific.",
+		"Bayerns Saatgut-Feldergebnisse 2026 bleiben nach Anbauform getrennt.",
+		"Résultats semenciers bavarois 2026 séparés par forme saisonnière.",
+		"Resultados semilleros bávaros 2026 separados por forma estacional.",
+		"Risultati sementieri bavaresi 2026 distinti per forma stagionale."
+	],
+	"italian-ryegrass": [
+		"Germany’s 2026 declarations show seed capacity.",
+		"Deutsche Meldungen 2026 zeigen Saatgutkapazität.",
+		"Les déclarations allemandes 2026 indiquent la capacité semencière.",
+		"Las declaraciones alemanas 2026 indican capacidad semillera.",
+		"Le dichiarazioni tedesche 2026 indicano capacità sementiera."
+	],
+	"perennial-ryegrass": [
+		"Latest trade unit value: February 2025.",
+		"Jüngster Handelswert je kg: Februar 2025.",
+		"Dernière valeur unitaire : février 2025.",
+		"Último valor unitario: febrero de 2025.",
+		"Ultimo valore unitario: febbraio 2025."
+	],
+	"meadow-fescue": [
+		"Germany reports seed capacity for 2026.",
+		"Deutschland meldet Saatgutkapazität für 2026.",
+		"L’Allemagne déclare une capacité semencière pour 2026.",
+		"Alemania declara capacidad semillera para 2026.",
+		"La Germania dichiara capacità sementiera per il 2026."
+	],
+	"field-pea": [
+		"June 2026 volume rose while trade unit value fell.",
+		"Junivolumen 2026 stieg; Handelswert je kg sank.",
+		"Volume en hausse en juin 2026 ; valeur unitaire en baisse.",
+		"Subió el volumen en junio de 2026; bajó el valor unitario.",
+		"Volume in aumento a giugno 2026; valore unitario in calo."
+	],
+	"red-clover": [
+		"Germany reports seed declarations for 2026.",
+		"Deutschland meldet Saatgutflächen für 2026.",
+		"L’Allemagne déclare des surfaces semencières pour 2026.",
+		"Alemania declara superficies semilleras para 2026.",
+		"La Germania dichiara superfici sementiere per il 2026."
+	],
+	alfalfa: [
+		"Latest trade unit value: December 2024.",
+		"Jüngster Handelswert je kg: Dezember 2024.",
+		"Dernière valeur unitaire : décembre 2024.",
+		"Último valor unitario: diciembre de 2024.",
+		"Ultimo valore unitario: dicembre 2024."
+	],
+	soybean: [
+		"June 2026 seed trade rose while unit value fell.",
+		"Saatguthandel stieg im Juni 2026; Einheitswert sank.",
+		"Échanges de semences en hausse en juin 2026 ; valeur unitaire en baisse.",
+		"Subieron los intercambios en junio de 2026; bajó el valor unitario.",
+		"Scambi di sementi in aumento a giugno 2026; valore unitario in calo."
+	],
+	flax: [
+		"2026 fibre-flax area grew in France, Belgium and the Netherlands.",
+		"Faserleinfläche 2026 stieg in Frankreich, Belgien und den Niederlanden.",
+		"Surfaces de lin fibre 2026 en hausse en France, Belgique et aux Pays-Bas.",
+		"Más superficie de lino textil en 2026 en Francia, Bélgica y Países Bajos.",
+		"Superficie di lino da fibra 2026 in crescita in Francia, Belgio e Paesi Bassi."
+	],
+	"fodder-beet": [
+		"German certification covers domestic and foreign-grown seed.",
+		"Deutsche Zertifizierung umfasst in- und ausländisches Saatgut.",
+		"Certification allemande : semences produites localement et à l’étranger.",
+		"La certificación alemana cubre semillas nacionales y extranjeras.",
+		"La certificazione tedesca comprende sementi nazionali ed estere."
+	]
+};
+function compactIntelligence(record, language = "EN") {
+	return snapshotCompactCopy[record.entity_id]?.[{
+		EN: 0,
+		DE: 1,
+		FR: 2,
+		ES: 3,
+		IT: 4
+	}[language] ?? 0] || record.market_situation;
+}
+//#endregion
+//#region src/SnapshotIntelligence.jsx
+var records = new Map(snapshot_intelligence_public_default.records.map((record) => [record.entity_id, record]));
+var locales = {
+	EN: "en-GB",
+	DE: "de-DE",
+	FR: "fr-FR",
+	ES: "es-ES",
+	IT: "it-IT"
+};
+function evidenceDate(record, language = "EN") {
+	if (record.as_of_precision === "YEAR") return record.as_of;
+	const date = /* @__PURE__ */ new Date(`${record.as_of}${record.as_of_precision === "MONTH" ? "-01" : ""}T00:00:00Z`);
+	return new Intl.DateTimeFormat(locales[language] || "en-GB", {
+		...record.as_of_precision === "DAY" ? { day: "numeric" } : {},
+		month: "short",
+		year: "numeric",
+		timeZone: "UTC"
+	}).format(date);
+}
+function SnapshotIntelligence({ entityId, compact = false }) {
+	const t = useT(), { language } = useLanguage(), record = records.get(entityId);
+	if (!record || record.classification !== "PUBLIC_SAFE") return null;
+	const watch = record.presentation === "MARKET_WATCH", scoped = hasEstimatedRange(entityId);
+	return /* @__PURE__ */ jsxs("section", {
+		className: `snapshot-intelligence${compact ? " snapshot-intelligence-compact" : ""}`,
+		"data-presentation": record.presentation,
+		"aria-label": t(watch ? "Market watch" : "Market situation"),
+		children: [
+			/* @__PURE__ */ jsx("p", {
+				className: "snapshot-intelligence-badge",
+				children: t(watch ? "Market watch" : "Market situation")
+			}),
+			/* @__PURE__ */ jsx("p", {
+				className: "snapshot-situation",
+				children: compact ? compactIntelligence(record, language) : t(record.market_situation)
+			}),
+			!compact && (watch ? /* @__PURE__ */ jsxs(Fragment, { children: [/* @__PURE__ */ jsxs("div", {
+				className: "snapshot-watch",
+				children: [/* @__PURE__ */ jsx("h4", { children: t("What to watch") }), /* @__PURE__ */ jsx("ul", { children: record.market_watch.slice(0, 2).map((item) => /* @__PURE__ */ jsx("li", { children: t(item) }, item)) })]
+			}), record.b2b_view && /* @__PURE__ */ jsxs("div", {
+				className: "snapshot-b2b",
+				children: [/* @__PURE__ */ jsx("h4", { children: t("B2B view") }), /* @__PURE__ */ jsx("p", { children: t(record.b2b_view) })]
+			})] }) : record.latest_market_evidence && /* @__PURE__ */ jsxs("div", {
+				className: "snapshot-latest",
+				children: [/* @__PURE__ */ jsx("h4", { children: t("Latest market evidence") }), /* @__PURE__ */ jsx("p", { children: t(record.latest_market_evidence) })]
+			})),
+			(!compact || scoped) && /* @__PURE__ */ jsxs("p", {
+				className: "snapshot-as-of",
+				children: [
+					/* @__PURE__ */ jsx("span", { children: scoped ? historicalContextCopy[language] || historicalContextCopy.EN : t("As of") }),
+					" ",
+					/* @__PURE__ */ jsx("time", {
+						dateTime: record.as_of,
+						"data-precision": record.as_of_precision,
+						children: evidenceDate(record, language)
+					})
+				]
+			})
+		]
+	});
+}
+//#endregion
+//#region src/tradeKpiDisplay.mjs
+function compactTonnes(value, locale = "en-GB") {
+	return `${new Intl.NumberFormat(locale, {
+		minimumFractionDigits: 1,
+		maximumFractionDigits: 1
+	}).format(Number(value) / 1e3)}k t`;
+}
+function exactTonnes(value, locale = "en-GB") {
+	return new Intl.NumberFormat(locale, { maximumFractionDigits: 6 }).format(Number(value));
+}
+var catalogue_production_links_default = {
+	version: 1,
+	inputs: {
+		"src/generated/market_catalogue_public.json": "f1f80a402a27a1e1a70e16f04cb9c45292df2e248db85fbac5c0bc1bee99ee30",
+		"public/data/crop-master-v1.json": "963e32c31634610e27a530810efdbb3677e5c3bc2e5b40b175c400d8ea11988b",
+		"src/generated/production_public.json": "458bc3f0328fd7b7b879d2536685a3d485d5de626cd74e7f8096b59cc14308c4",
+		"src/generated/production_coverage_additions.json": "5190b8e3c695a9080becd2b0061a693898284af3da6d42ac269821e6dce6e9dd"
+	},
+	entries: /* @__PURE__ */ JSON.parse("{\"white-mustard\":{\"entity\":\"white-mustard\",\"scope\":\"EXACT\",\"series\":[[\"SCV1-series-04\",\"DE\",\"SEED_PRODUCTION_AREA\",[2022,2023,2024,2025]],[\"SCV1-series-15\",\"PL\",\"SEED_PRODUCTION_AREA\",[2025]],[\"SCV1-series-16\",\"PL\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"brown-mustard\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"black-mustard\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"oil-radish\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"rapeseed\":{\"entity\":\"rapeseed\",\"scope\":\"EXACT\",\"series\":[[\"series-02b0ddaaa6ee2e9b0823\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-07c39cb73a7c69f862cc\",\"IE\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-08ca39842faa677abd85\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-1889c8c1d0c8704f7cf5\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-2477f5969633bf9449c2\",\"FR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-2b7ad3a3bd819e8569de\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-30928fdbb625df88d1fe\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-37b04e60604714a65b22\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-3ea7d726d405acc908ee\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-43937537f76824068da8\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-618f3dfb8faf1ee348f1\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-63cd7a1ab57598b2aa74\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-6fa6174bf5707e3aa0bf\",\"IT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-74dc71f064d54099019f\",\"DE\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-89d16c4e527cedbcb760\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-afcb4ce396bb780b163f\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-bd9ac2d6b5a0ccf2d555\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-d2cb2b1363daa6880883\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-d8f137a558a1b67efa30\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-dc707ecaf5ac202ff04f\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-febfb9b176ee08c8cfb9\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]]]},\"turnip-rape\":{\"entity\":\"turnip-rape\",\"scope\":\"EXACT\",\"series\":[[\"series-08fb29cb35f3d38aa7f2\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021]],[\"series-163f659021a0100cc939\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-1dc5f01b45920c51f046\",\"SK\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-543f18bd7f8322153702\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024]],[\"series-7615b44fc477efb303c0\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-7d558b745a4fa8149936\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-8de14f52c36b5392886d\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-9b8f8a0f97b11fe28b36\",\"SK\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-aa6c877307ebdfd41f6f\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021]],[\"series-d9a3ade9b5645bf67864\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"fodder-kale\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"fodder-turnip\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"phacelia\":{\"entity\":\"phacelia\",\"scope\":\"EXACT\",\"series\":[[\"series-20cb79d7a102d02a36d7\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-212ac460b6955c26ff41\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-40ea6dc988fb8f0c6d51\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-9647ac693f2fd95f887e\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-98fa64ec672b4931bede\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-c6693dc8d1a56e3fa3b0\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-f650a1e56957320aba4f\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]]]},\"sunflower\":{\"entity\":\"sunflower\",\"scope\":\"EXACT\",\"series\":[[\"series-2e8af16e550f5e0a73b2\",\"RO\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-58718a6d4db0bce8633b\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-5b8e9997295a736c9a7d\",\"SK\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-973e8eb3fa549c0353ce\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-9c8e234234125330b538\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-a74b2f4fc31ce7cf66ec\",\"PT\",\"CERTIFIED_QUANTITY\",[2021]],[\"series-b85347440e55bfdff4e3\",\"FR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-c0751bbaf5d1dd2bd687\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-c992620eb29de4573be4\",\"SK\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-de14101f3a00c6b6a736\",\"HU\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-e528aba8b575789caeb4\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-e643efd6118baa28b499\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-e6a1e4bbe857b6be7d9a\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"buckwheat\":{\"entity\":\"buckwheat\",\"scope\":\"EXACT\",\"series\":[[\"series-05a386b4e3acbee824f9\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-0d9dbb9294bced82683f\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-1c205816f51053a4871c\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-1e64df5322f586c47f27\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-225c8a11f6d398bb66c6\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-43f694b65dbda429433b\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-5972e82b67d9e68d89f4\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-6afaa3ddcc0b177084c9\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-6d8306462e4f4eae0312\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-85fe3f7f3a1b50001ec7\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-b3aacecbc3b641f98e03\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-b58681434f64e6f0c2df\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-b62fe33312260c60d333\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-c9c40f168e6292a997c3\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-c9c871f217909966d717\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-e14f4cf960b8637078bc\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-e3f6498182f48c7aa049\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-e57c34d60e84c21388eb\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-e5d33e60e1435d665e81\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-efb98293b5ae5770c0fd\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-fdc3f2f3b400be115e36\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"oat\":{\"entity\":\"oat\",\"scope\":\"EXACT\",\"series\":[[\"series-022c918245d5ebbd36ee\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-03ac5413640efd3691f3\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-067623713a0bef6830ff\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-085eeb70c06b6e546cf5\",\"FI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-09e285dafaa180a11848\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-13d321fc4fa4068d58d2\",\"SE\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-1a9bfc9b237c9926b149\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-38f17d2be8a548c5d2bc\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-3927a14b17df61d05b73\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-39a8d8ff076e04c6e8e6\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-3c0ce56c1693cefe8a8e\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-3c7ac556ef1788f05926\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-3ea8ff756e455a983acc\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-3f518295311e50b62ed1\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-40b8d9421563e07bd031\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-59dc0c8b6a3095e03e4c\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-6cf5e848812aeed4bdff\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-726e9fb64f7a95787f16\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-7722281a2834b7c69784\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-847cd63fcf581ff85bb1\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-85f2ee25791f9a098b0e\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-87c372e1d1b4700ce40a\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-aeb43a9677e9e0bd1278\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023]],[\"series-b11a5afcccd0f32dc873\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-b1ef86e9bc1dce53b053\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-cc5810cd94f954207dc8\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-d03cd9a743d2809e5c67\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-daea4952ea42fc5229f1\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-e6112dbbe340f91e2a14\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"black-oat\":{\"entity\":\"black-oat\",\"scope\":\"EXACT\",\"series\":[[\"series-1da0f6cabff262090c19\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-460f0bee33b50864748c\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-48bfa1508a331f16ae56\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-4b298400d23e2cc3a714\",\"LV\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-9e86b749a3df22c61fad\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-abd8afe9b9ce57b0d6e0\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-af7fcc9f7640358fe9c1\",\"LV\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-b03de66ec379a9549979\",\"LV\",\"CERTIFIED_SEED_AREA\",[2024,2025]]]},\"rye\":{\"entity\":\"rye\",\"scope\":\"EXACT\",\"series\":[[\"series-0dd1a736dc002d6eb295\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-1243779773829c2c05b5\",\"LV\",\"CERTIFIED_SEED_AREA\",[2023]],[\"series-266d4573d517d22099c9\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-635af52eecf27d404e5a\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-638c988dc09cf57e312b\",\"LV\",\"CERTIFIED_QUANTITY\",[2023]],[\"series-6e5dd2cfe4ff8fe41329\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-722e61db1d9f92166a3e\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-97eb684505c15b781bea\",\"LV\",\"SEED_PRODUCTION_AREA\",[2023]],[\"series-a8d2c6b5948374bd1c7f\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-baf6e4584e7c074ee1ac\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-d38f0342074992295e44\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-d52f4eeec4ab1d69b6c8\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-e2859f7a6cf9fbd3a568\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-e80675b1a6a49c530589\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]]]},\"barley\":{\"entity\":\"barley\",\"scope\":\"EXACT\",\"series\":[[\"series-0559cbf96ad6847ea8db\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-0dd5f3ba0058611be9f1\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-1036475e5b60e6b22906\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-1b4c1e6f92a414995944\",\"FR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-1b50656c5ef73838c61d\",\"DE\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-21c681ba1a87fda88974\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-2b6ea7fc8d4814f22b6f\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-2e9ae4482f3bb04cbcc1\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023]],[\"series-352bd0f6ee93925a1a03\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-379f5b5df244e22ab349\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-47333152266fc3b73e15\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-5aa32119d7fe8974007d\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-5bd6ae8c2db4875e67a4\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-5d975e8be12a82f136f0\",\"AT\",\"CERTIFIED_SEED_AREA\",[2023,2025]],[\"series-70493cb67c5414587e76\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-706579bfb55eb87f0265\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-74c1b5c26205653de401\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-75d14eb00ae074bac16d\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-82383f642729a7f326a6\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-89f324993b3d1c5ca0bd\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-8abc6f7da7a046523448\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-8f9b595cdc18c766743a\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-94596afd5f8d782039ef\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-97ae0e33291c43d2ade2\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-a690aa0f6a77fdf8462e\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-a912b31602390dac57c3\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-aaabde02ca948429f4bd\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-af148a07642b4addd00c\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-b19c96e082d73b2c8078\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-c3d4b02a2250c295628a\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-c6812e4d239f40b617d6\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-cd4a1071a4b399bcbf97\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-d6fdca751ede5be1655b\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-f86ef8e6bce10fe64410\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]]]},\"wheat\":{\"entity\":\"common-wheat\",\"scope\":\"EXACT\",\"series\":[[\"series-07a763f37020e400e494\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-0c536e415ce0bef04e0b\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-179a9428ac01b33f1f5d\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-1a099a31f7d353eab4e0\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-1e8100c5dc2b7b454b3d\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-21f8e3ff08e719f23245\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-2ab87b24df682da0a9c0\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-313010d95afca967a14e\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-3c3e2ccca6e9267102d0\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-3c9894b879da485b3c8a\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-3da0d6c2e8d4979b8afa\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-4681917392f9883fbcc7\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-802f579423ded39524f1\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-83408043d660e9c6f2b9\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-9320cc3a857adb35e309\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-94400e12a94090529ff8\",\"FR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-96137ce4633940245fa0\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-a08996cc8948b8ede800\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-a53af7a85094c4d271b7\",\"DE\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-aff7164c7cffa1d5fe67\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-b9ed5e0fc20f3a253be5\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-ba61a31cbfd83abc53c4\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-c12d1c0627bfd1938d45\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-c60efd43bb2782c9fafc\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-ddea49c2a6558237e89d\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-e0385b339c9cb289a850\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-e27a6128a6f3b1dc6635\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-e80fe3cc8a2ce9208603\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-efaaadd25e86e8e5bc2f\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-f242527533c0fe083aad\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-f47a75ad0635c714cee8\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-fd1c3f2f60dc1d4f4396\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]]]},\"triticale\":{\"entity\":\"triticale-group\",\"scope\":\"GROUP\",\"series\":[[\"series-16c9a12d859275b266ec\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-1799a2b1bed77a4b63a2\",\"LV\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-233830b99ccc5f0ae509\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-2cff5a6a739e419e38cd\",\"LV\",\"CERTIFIED_SEED_AREA\",[2022,2023,2024,2025]],[\"series-30f6d3aaf8e81dc902c8\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-44330a13d5572b68a851\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-48903ccebd244781c8ff\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-4a4034d972371ee218c6\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-5552edb775dc8b4e700b\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-6ca0c7480fcc75e732ce\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-6f7b2b1f7c81397a69d9\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-7ebf07ad7c10860ffbb1\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-906c323128e39f35ca05\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024]],[\"series-a1203c9cf3f6f2c59529\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-a138fd81e3e657351c1a\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-a281b5537a65c17e4ea5\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-a44d765dd60adefd1ae1\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-af7d7741b55eebeb2738\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-bccb5b60abcadf7e805f\",\"LV\",\"SEED_PRODUCTION_AREA\",[2022,2023,2024,2025]],[\"series-cb553af7969debffa17f\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-d5f7c1c07a10acf5554a\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-d7a57ed993798aefcc55\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-dbaa84dd0666daf37985\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-dec1a58f890653c29b1c\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024]],[\"series-fb709e6b6c269ac6fb96\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]]]},\"proso-millet\":{\"entity\":\"proso-millet\",\"scope\":\"EXACT\",\"series\":[[\"series-0275eb18f4036928e58e\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-1fef9485fc6cf682ea2f\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-3217675d46a11f191da7\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-34b03eb72eec6eb8c297\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-4015fb6a876683038dc6\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-65ef56f6dcd9caa83aa6\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-682f097ec1478da5a55a\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-6b2f15d4c5e548440a18\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-7542a5ca443e6758d6d4\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-8b1bc9566b09f6084c00\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-bf8d70c295b10b051694\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024]],[\"series-c95c0105799b1f06ea2a\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-cc9e7e221ccef937b6a9\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-e447b5a0a79b5281ef47\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]]]},\"sorghum\":{\"entity\":\"sorghum\",\"scope\":\"EXACT\",\"series\":[[\"series-3ef46c68ab55594bacdf\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-47c10d354c27e01cb314\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-aca2ddf95988ca2b13ba\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-b93e8ecc36f0bf72e364\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-fb594c27ddb4f5423f7e\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]]]},\"sudan-grass\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"sorghum-sudan-hybrid\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"italian-ryegrass\":{\"entity\":\"italian-ryegrass\",\"scope\":\"EXACT\",\"series\":[[\"series-00750d2f6745db05fd2b\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-00c703301dbc7c60367b\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-1073463e2aa2230f2666\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-11eae53a136f9db7e61b\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-15024e502d80522b9dca\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024]],[\"series-251db8a4b7a864718652\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-3f434a3c6b199c16da19\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-443c5280e0f237a90797\",\"SK\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-4e2cc66ba7f83f65aa49\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-567c51a8de2a40548d7b\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-8cf1a6c6665a9e00059f\",\"SK\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-917018cd37b408465497\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-aec1de4d7a3b1ae47b23\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-cb1439219645bd307e4a\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-e0568f3eb25a6bcf7804\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024]],[\"series-e2d1f37b7d631e0917fa\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-e84aa64179c702e22b4e\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"perennial-ryegrass\":{\"entity\":\"perennial-ryegrass\",\"scope\":\"EXACT\",\"series\":[[\"series-1021ff02fd658870b236\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-4549ee37399e3cecc988\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-4aa4d6f5a664b8e7d210\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-510783fbc99b6757a437\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-515ffe592cbf21473244\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-518833e75380b2e90464\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023]],[\"series-834a3b65d6feafcaab25\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-e3ca1717b16a70b18439\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-ed97fec34f3e398983ab\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]]]},\"hybrid-ryegrass\":{\"entity\":\"hybrid-ryegrass\",\"scope\":\"EXACT\",\"series\":[[\"series-04b6a41770b03128719b\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-17bff8943f33ce68429a\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-242bf1ab156effce48cf\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-2b0a7a7b8174f90d152d\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-89af5ee990a07540106d\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-92e246e0e2555e68f422\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-d8e98fd65e7e217644cb\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"westerwold-ryegrass\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"festulolium\":{\"entity\":\"festulolium-group\",\"scope\":\"GROUP\",\"series\":[[\"series-17d1084ac2e0facbe38b\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-18bb9f4b9a67d185d73a\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-8200ac553ca3dd3e91cf\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-f2bd230b33869fb82aa2\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-fe719efdbccdcbf63c2d\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]]]},\"meadow-fescue\":{\"entity\":\"meadow-fescue\",\"scope\":\"EXACT\",\"series\":[[\"series-8af331767917fc5d2f8d\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-8c770a9abceed0e2c30a\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-9f91863551c2847777d9\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-c3a64b41a252a6456d0b\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-fc95c4ba1be7da193aaf\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"tall-fescue\":{\"entity\":\"tall-fescue\",\"scope\":\"EXACT\",\"series\":[[\"SCV1-series-01\",\"DE\",\"SEED_PRODUCTION_AREA\",[2022,2023,2024,2025]],[\"SCV1-series-13\",\"PL\",\"SEED_PRODUCTION_AREA\",[2025]],[\"SCV1-series-14\",\"PL\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"cocksfoot\":{\"entity\":\"cocksfoot\",\"scope\":\"EXACT\",\"series\":[[\"series-038cc317b6c147c146fa\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2025]],[\"series-36add3a3d895d981f4c2\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-42373b828326714557a7\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2025]],[\"series-579e36ecc9a18bcaae9b\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-8b5c1fcb59c1e9344ce9\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2025]],[\"series-93a293dbfe0d75860666\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-a5401b4f5b5bb5231ea7\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-c2eb12deda7de2bc83c6\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024]]]},\"common-vetch\":{\"entity\":\"common-vetch\",\"scope\":\"EXACT\",\"series\":[[\"series-02492ece176f3da75f71\",\"PT\",\"CERTIFIED_SEED_AREA\",[2022,2023,2024,2025]],[\"series-19b411dbb5a00ce26284\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-2037f7f89b4a785de0bb\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-4209f420eea1fc03ee97\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024]],[\"series-4da67a4cb98eaaa1173e\",\"SK\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-707205164f44ad9d9d68\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-70ac9f50a9e3f6f90433\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-7f5c7c648c1449ad675d\",\"LV\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-a9edcb90c6442d358c63\",\"SK\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-b46b49aa9bed58a5ef81\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-b77f86dc4cc574489a5f\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-ba83a5e89ca35ddb505a\",\"LV\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-c3b01c45672d8b6bb6ac\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024]],[\"series-d36380fae98c451575d1\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-fe0e4349e4f0ecde0aba\",\"PT\",\"CERTIFIED_QUANTITY\",[2022,2023,2024,2025]]]},\"winter-vetch\":{\"entity\":\"winter-vetch\",\"scope\":\"EXACT\",\"series\":[[\"series-082bdead4fafe670b6ea\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-1ff06322a711edbd3949\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024]],[\"series-5715fa72ba2103754763\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024]],[\"series-5ef3b8b8ecff93e6d65f\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-63899444a294d54d7ce7\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-9ccd9197a64f86e3845b\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-a6f74447fe2fb1690877\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-b430d8d2961e056913b2\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024]],[\"series-b87221db2d76cdd54a4d\",\"LV\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-cbc9d54fe1014e490945\",\"LV\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-ed3da55f93f414696948\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-ef4226afd8ca01728566\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-f5e3b5790439d32e0216\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"hungarian-vetch\":{\"entity\":\"hungarian-vetch\",\"scope\":\"EXACT\",\"series\":[[\"series-059ccad991fb910d1ec3\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-1303cc354087fadd6d86\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-168cca742b562baca59a\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-94425862f9122bee81d4\",\"ES\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-cbd82c8c9389b678e745\",\"LV\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-d18d89bfc1e28173aaee\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-ee091e675eaa2308f28a\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-f3269c99c51fe79332f5\",\"LV\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-fef83b31c421ffa51642\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"purple-vetch\":{\"entity\":\"purple-vetch\",\"scope\":\"EXACT\",\"series\":[[\"series-35539008d63880b482ce\",\"PT\",\"CERTIFIED_QUANTITY\",[2023,2024,2025]],[\"series-9df13eaa52b20c5292ec\",\"PT\",\"CERTIFIED_SEED_AREA\",[2023,2024,2025]]]},\"field-pea\":{\"entity\":\"field-pea\",\"scope\":\"EXACT\",\"series\":[[\"series-18bf9041fdb779061fb4\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-2182e432cfb27cde26df\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-279d7953c8906f3d4cb2\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-3df4d6059c7f70105c61\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-4311fcebbc23da9e069d\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-46462e7016f0f747366e\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023]],[\"series-49dfe9901b94730dd789\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023]],[\"series-7464f452ae1250ac7e56\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-7e46b16b60410e1f327a\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-89cbefc876c1061a7b86\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023]],[\"series-90341a2753e279d524bc\",\"LV\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-9afae94a538eb164a260\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-9db452cde09dd3eabc9e\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023]],[\"series-a9ee7686201cc3dcf55b\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023]],[\"series-bab449592379aa6a6ea7\",\"LV\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-c61e1e40baabd71457ea\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-c68c8c5c2ff86408ca45\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-d2f8acda3eb035d18b99\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023]],[\"series-d3fecf8de1e3e4519b50\",\"PT\",\"CERTIFIED_QUANTITY\",[2022,2023,2024,2025]],[\"series-d71a13967b964373a0d5\",\"PT\",\"CERTIFIED_SEED_AREA\",[2022,2023,2024,2025]],[\"series-e5870f9be5218e391144\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-e6f9107da3c6115bf0bc\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-f9b219b5af30a19361cb\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"faba-bean\":{\"entity\":\"faba-bean\",\"scope\":\"EXACT\",\"series\":[[\"series-0b4baa9b82cd95d65eeb\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-222668e19268d7cf12e3\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-22b55b618714a5c7d4db\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2024,2025]],[\"series-24c9371f5fcd7db0ab18\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-33b167093106a75f87df\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-4f9cec24c840e0a9d6ca\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-50d08dd4ffefcc290f54\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-567b9e3be38a08844a15\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-7a9715cd597edf4d93cd\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2024,2025]],[\"series-937b70bec8f5f6ba6117\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-9cda0704734e181d9c31\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-b204d1d9b5950502c069\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"narrow-leaved-lupin\":{\"entity\":\"narrow-leaved-lupin\",\"scope\":\"EXACT\",\"series\":[[\"SCV1-series-02\",\"DE\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"SCV1-series-09\",\"PL\",\"SEED_PRODUCTION_AREA\",[2025]],[\"SCV1-series-10\",\"PL\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"yellow-lupin\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"white-lupin\":{\"entity\":\"white-lupin\",\"scope\":\"EXACT\",\"series\":[[\"SCV1-series-03\",\"DE\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"SCV1-series-11\",\"PL\",\"SEED_PRODUCTION_AREA\",[2025]],[\"SCV1-series-12\",\"PL\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"red-clover\":{\"entity\":\"red-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-00639ab39d55b541a381\",\"LT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-0357296375389b6818af\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-3585e532aed97d62f699\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-39937510b5470ba887fc\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-432e50086dcd8ef795a1\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-4b8e3c1b13efa5547c40\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-4d79eef3de24abd9baf2\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-5416c16ce4ec9956929c\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-5ff86c2da223da1dde0b\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-6323f3a8e8aee107fe92\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-77caf7f3ac2c5cc9763f\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022]],[\"series-c2ab7bb09cd3c5a9d6a6\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-c2c1bef9652a4bd225be\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-c60b4530a2861df2a7f1\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-ea5fdb7fb66e03aa7426\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-ed4ee06b5b80d63a9f14\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]]]},\"white-clover\":{\"entity\":\"white-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-1ca4bc0194cd84f03666\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022]],[\"series-3c0a57f51e60393f32d1\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-46daa3939e024bfbb1b8\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-6fcbe14e24199bb568d6\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-9a40dab2af67811270b4\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]]]},\"persian-clover\":{\"entity\":\"persian-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-08ffc7ba3586b948c6d1\",\"ES\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-1d42f892ff47e787d105\",\"PT\",\"CERTIFIED_SEED_AREA\",[2022]],[\"series-26b0093fb11c54803036\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023]],[\"series-35f10752065abbc67de6\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-4a29880d6fc02602cedc\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-570dd396eb3ff6f0f4cb\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-646d7458fba5535d1c6a\",\"PT\",\"CERTIFIED_QUANTITY\",[2022]],[\"series-84bcb593373326ca9d81\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-bfa9dadd43a2ef637caa\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-c0015c7936a0728c6a35\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-dda8bfe1dfe2e1727e4b\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"berseem-clover\":{\"entity\":\"berseem-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-45aa2e2bb20101b082ce\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-56fcd751cf5001158318\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]],[\"series-858ac8f34e8576b98f49\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-9bd0a86f5b471817e1a8\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-badb5d4b4c3323bb09b9\",\"ES\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-c33c6beab1bb9b44540a\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-d5c359bd2bdbd7453b93\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]]]},\"crimson-clover\":{\"entity\":\"crimson-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-023008c1b90f9342d685\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-086579037ef14379c203\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-18ceab7669ba44c23b3c\",\"PT\",\"CERTIFIED_SEED_AREA\",[2022,2023,2024,2025]],[\"series-1c04ac9356220b9d2a6f\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-2808a28364ec97b260fb\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-37126cc72dc935a0c0fa\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-41955a873d0d4ae841d7\",\"PT\",\"CERTIFIED_QUANTITY\",[2022,2023,2024,2025]],[\"series-724cfc5c9cd335be74cc\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-7915a6eb734a9d6f9ccc\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-7efa7eb1f0ee43576478\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-818d79d16494b217cb8b\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-8747733769dbb09c2e90\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-890e799b0dcf75dbf7cb\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024]],[\"series-8c96ab59b934e85b04e9\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-c7ef943cda718b4de09d\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2024,2025]],[\"series-caa2910c0bbc78aed10d\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-ce6769849a00f130593b\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2024,2025]]]},\"balansa-clover\":{\"entity\":\"balansa-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-661c622e1feea27dbcf9\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-e163cd8a53473ee77efa\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2022,2023,2024,2025]]]},\"alsike-clover\":{\"entity\":\"alsike-clover\",\"scope\":\"EXACT\",\"series\":[[\"series-55c97082ff230739fe11\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-55fcf785443e2757245f\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-622aec20cf270e9a6b77\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-cda1242fe83983dc7a02\",\"LV\",\"CERTIFIED_QUANTITY\",[2021,2022]]]},\"subterranean-clover\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"alfalfa\":{\"entity\":\"alfalfa\",\"scope\":\"EXACT\",\"series\":[[\"series-0504a1c18f2f2f5b36df\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-34e4493a18580c4467b8\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-42994bd001037adfd4af\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-45d2d87ce0c8f52f7e55\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-47d681c995cf8fa6362a\",\"LV\",\"CERTIFIED_QUANTITY\",[2021]],[\"series-5c4b95c1d2fb00d7ed7a\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-66d28e27a5618d1e6262\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-b885e7682f1e391a380c\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-c1dcdf4ef193c769c8da\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-c8718da76f3559bb83ae\",\"AT\",\"CERTIFIED_SEED_AREA\",[2023,2025]],[\"series-cbec267c3fc5b8fef0ca\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]]]},\"black-medick\":{\"entity\":\"black-medick\",\"scope\":\"EXACT\",\"series\":[[\"series-8c31acfd25bf13d98ea9\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]]]},\"yellow-sweetclover\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"white-sweetclover\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"birdsfoot-trefoil\":{\"entity\":\"birdsfoot-trefoil\",\"scope\":\"EXACT\",\"series\":[[\"series-a01388e87cac81f904a8\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-bac1f0d00c4e89363428\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-fd41588b02a6d025efc0\",\"AT\",\"CERTIFIED_SEED_AREA\",[2023,2025]]]},\"sainfoin\":{\"entity\":\"sainfoin\",\"scope\":\"EXACT\",\"series\":[[\"series-1187c83915d669ab7cb6\",\"LV\",\"SEED_PRODUCTION_AREA\",[2022,2023]],[\"series-16d0b1eb855d80214210\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-299862ba5157fa2f730f\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-35674bf8165f551b554b\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-5cd963e6b170a13f366b\",\"LV\",\"CERTIFIED_SEED_AREA\",[2022,2023]]]},\"soybean\":{\"entity\":\"soybean\",\"scope\":\"EXACT\",\"series\":[[\"series-06da815cda81df75b7f4\",\"IT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-14eb0d33e601c0cffd8e\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-3c4ec29c7eff371e1500\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-643a9a8ce2b1cad42de6\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-87fa90fbf69aff248a26\",\"FR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-b9a86336151d06f63de3\",\"HU\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-baf7065cd2aebac407dd\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-bb84cda7af7d1ecc8fdc\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-c443338be4d6b3b11709\",\"HR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-c6bdbf27231d6357fae5\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-d2d35c183e3bc739063e\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"chickpea\":{\"entity\":\"chickpea\",\"scope\":\"EXACT\",\"series\":[[\"series-0c4a05203900993f4ff1\",\"PT\",\"CERTIFIED_SEED_AREA\",[2021,2023,2024,2025]],[\"series-74168641ca96a18e06e9\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-8aad36621e67e8642acd\",\"PT\",\"CERTIFIED_QUANTITY\",[2021,2023,2024,2025]],[\"series-c8d5385fba93bea4bc08\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]]]},\"flax\":{\"entity\":\"flax\",\"scope\":\"EXACT\",\"series\":[[\"series-07931edd0bc483ad999f\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-142ed40fe61b969b3898\",\"LV\",\"CERTIFIED_SEED_AREA\",[2022,2023,2024,2025]],[\"series-1a98c5fb9dc121adb0ce\",\"BE\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-2a8a7050f62ecf81ee5f\",\"BG\",\"SEED_PRODUCTION_AREA\",[2022,2023]],[\"series-40651243892d2cdc6a6d\",\"FR\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-6eb841ac92f90eb2c871\",\"SK\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-7ffa559bd6c24b2ebc61\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024]],[\"series-8bd2a1c27e277bb102d5\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-966e5e8d6758ca7ba5de\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-96cdadef3af144bba6c9\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-9b061df71657acddc81b\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-b0f7fc4d784042e5fb92\",\"PT\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-cb459a9030890c5cbaf3\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-d1f7d3c6c8f8c5963f4f\",\"PT\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-d6e1460033a548550975\",\"LV\",\"SEED_PRODUCTION_AREA\",[2022,2023,2024,2025]],[\"series-eb2e639b309b08729dc2\",\"SK\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-ee3b0a14e3a2e60cc9ea\",\"NL\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"hemp\":{\"entity\":\"hemp\",\"scope\":\"EXACT\",\"series\":[[\"series-12cc91d6781ba6562a13\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-2357c84bc05b383fa060\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-2b72a1f8e7c4ba1fe06e\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-389a69762eb9e447b2d0\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-3bc8005d847585913317\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-3c8ed24da19bd0f81e6a\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-479fbcc20487f037e9b9\",\"SK\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-4dc9782ff9aaeb76e7a2\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021,2022,2023,2024,2025]],[\"series-7e00976fbd838fb774b8\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-9d2b826f724c4a2df27c\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-9e3e97f240d5c112cc4a\",\"SI\",\"SEED_PRODUCTION_AREA\",[2024,2025]],[\"series-a3b0802141d41dcc9c43\",\"SK\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-b0249ffed62bde00aaa8\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024,2025]],[\"series-c78053fdbfef3e2a4344\",\"SI\",\"CERTIFIED_QUANTITY\",[2024,2025]],[\"series-d1c5726eea3b25cb93c9\",\"SI\",\"CERTIFIED_QUANTITY\",[2024]],[\"series-d9ecc90586bd4228e1f3\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-e969f0bc962f528f34a3\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2024,2025]],[\"series-eb6052279d9568dfb378\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]],[\"series-f9396ee2965841508970\",\"SI\",\"CERTIFIED_SEED_AREA\",[2024]]]},\"safflower\":{\"entity\":\"safflower\",\"scope\":\"EXACT\",\"series\":[[\"series-09122041cb903be3d915\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-22d6e4cf7c9cf1b385bd\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024]],[\"series-79e945a7fb02f1c18a97\",\"ES\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-87e31b47ef980d737d71\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-9cd941abecf892ee2f3b\",\"LV\",\"CERTIFIED_SEED_AREA\",[2024]],[\"series-c9dd57d03ad6c3b2b9dc\",\"SK\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-d30d7285633a390029ae\",\"SK\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-d890b342e58ae879f0ff\",\"ES\",\"SEED_PRODUCTION_AREA\",[2021,2023,2024,2025]],[\"series-f70ea7d84ee291168fd4\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]],[\"series-fbd580ba58ca72a9ef53\",\"LV\",\"SEED_PRODUCTION_AREA\",[2024]]]},\"coriander\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"caraway\":{\"entity\":\"caraway\",\"scope\":\"EXACT\",\"series\":[[\"series-0841423e966f18659002\",\"AT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-5ca09bcfb34ceb8cd908\",\"LV\",\"SEED_PRODUCTION_AREA\",[2021]],[\"series-6b89caa371282fb2d3fa\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023,2024,2025]],[\"series-98b087d0446a4caac2cf\",\"LV\",\"CERTIFIED_SEED_AREA\",[2021]],[\"series-a20c9e61a4a96a4d511e\",\"LT\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-acd08efce8ff4bafbfce\",\"AT\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"dill\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"camelina\":{\"entity\":\"camelina\",\"scope\":\"EXACT\",\"series\":[[\"series-590a5434a6c2b06088e4\",\"SI\",\"CERTIFIED_SEED_AREA\",[2025]],[\"series-7125f5d10160e4c60a55\",\"SI\",\"CERTIFIED_QUANTITY\",[2025]],[\"series-a66e83eb6ddedf63458a\",\"ES\",\"SEED_PRODUCTION_AREA\",[2024]],[\"series-de5efade42c5272c700f\",\"CZ\",\"SEED_PRODUCTION_AREA\",[2023]],[\"series-f38c29d76602bc6b15db\",\"SI\",\"SEED_PRODUCTION_AREA\",[2025]]]},\"niger\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"quinoa\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"fodder-beet\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"chicory\":{\"entity\":null,\"scope\":\"NONE\",\"series\":[]},\"sugar-beet\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"seed-potatoes\":{\"entity\":null,\"scope\":\"RELATED_ONLY\",\"series\":[]},\"carrot\":{\"entity\":\"carrot\",\"scope\":\"EXACT\",\"series\":[[\"SCV1-series-05\",\"FR\",\"SEED_PRODUCTION_AREA\",[2021,2022,2023,2024,2025]]]}}")
+};
+//#endregion
+//#region src/catalogueProduction.mjs
+function catalogueProductionLink(cardId, search = "") {
+	const entry = catalogue_production_links_default.entries[cardId];
+	if (!entry?.entity || !entry.series.length) return {
+		href: null,
+		scope: entry?.scope || "NONE"
+	};
+	const params = new URLSearchParams(search);
+	const one = (key) => params.getAll(key).length === 1 ? params.get(key) : null;
+	const rawCountry = one("country"), country = rawCountry && entry.series.some((s) => s[1] === rawCountry.toUpperCase()) ? rawCountry.toUpperCase() : "";
+	const local = entry.series.filter((s) => !country || s[1] === country);
+	const selectedScope = local.find((s) => s[0] === one("scope"));
+	const rawMetric = one("metric"), metric = local.some((s) => s[2] === rawMetric) ? rawMetric : selectedScope?.[2] || local[0][2];
+	const metricSeries = local.filter((s) => s[2] === metric);
+	const rawYear = one("year"), year = rawYear && /^\d{4}$/.test(rawYear) && metricSeries.some((s) => s[3].some((y) => String(y) === rawYear)) ? rawYear : "";
+	const points = (s) => s[3].filter((y) => !year || String(y) === year);
+	const rawHistory = one("history"), history = [
+		"2",
+		"3",
+		"4",
+		"5"
+	].includes(rawHistory) && metricSeries.some((s) => longestHistory(points(s)) >= Number(rawHistory)) ? rawHistory : "0";
+	const available = metricSeries.filter((s) => points(s).length && longestHistory(points(s)) >= Number(history));
+	const rawScope = one("scope"), scope = available.find((s) => s[0] === rawScope)?.[0] || available[0][0];
+	const view = {
+		entity: entry.entity,
+		country,
+		metric,
+		year,
+		history,
+		scope
+	};
+	return {
+		href: productionViewPath(view),
+		scope: entry.scope,
+		view
+	};
+}
+function catalogueSeedLocation(card, search = "") {
+	const base = `/market/seeds/${card.slug}`, params = new URLSearchParams(search);
+	if (![
+		"country",
+		"metric",
+		"year",
+		"history",
+		"scope"
+	].some((key) => params.has(key))) return base;
+	const link = catalogueProductionLink(card.market_entity_id, search);
+	return link.href ? base + link.href.slice(link.href.indexOf("?")) : base;
+}
+//#endregion
+//#region src/CatalogueProductionLink.jsx
+function CatalogueProductionLink({ card, search = "" }) {
+	const t = useT(), link = catalogueProductionLink(card.market_entity_id, search);
+	if (!link.href) return link.scope === "RELATED_ONLY" ? /* @__PURE__ */ jsx("p", {
+		className: "catalogue-note",
+		children: t("Only broader taxon evidence is available; not specific to this commercial form.")
+	}) : null;
+	return /* @__PURE__ */ jsxs("a", {
+		className: "catalogue-production-link",
+		href: link.href,
+		children: [t(link.scope === "GROUP" ? "Production evidence — hybrid group, not an individual species" : "Production evidence"), /* @__PURE__ */ jsxs("span", {
+			className: "sr-only",
+			children: [": ", t(card.common_name_en)]
+		})]
+	});
+}
+//#endregion
+//#region src/CommercialSeedCard.jsx
+var displayMonth = (period, language) => new Intl.DateTimeFormat(locale$1(language), {
+	month: "short",
+	year: "numeric",
+	timeZone: "UTC"
+}).format(/* @__PURE__ */ new Date(`${period}-01T00:00:00Z`));
+var categoryById = (id) => market_snapshot_public_default.categories.find((c) => c.id === id);
+var available$1 = (value) => value !== null && value !== void 0 && Number.isFinite(Number(value));
+var locale$1 = (code) => ({
+	EN: "en-GB",
+	DE: "de-DE",
+	FR: "fr-FR",
+	ES: "es-ES",
+	IT: "it-IT"
+})[code] || "en-GB";
+function Metric({ label, value, unit = "", money = false, trend = false, compact = false }) {
+	const t = useT(), { language } = useLanguage();
+	if (!available$1(value)) return null;
+	const number = Number(value), compactVolume = compact && unit === " t", formatted = new Intl.NumberFormat(locale$1(language), {
+		minimumFractionDigits: unit === " €/kg" ? 2 : 0,
+		maximumFractionDigits: money ? 0 : 2,
+		...money ? {
+			style: "currency",
+			currency: "EUR"
+		} : {}
+	}).format(number);
+	return /* @__PURE__ */ jsxs("div", {
+		className: "catalogue-metric",
+		children: [/* @__PURE__ */ jsx("dt", { children: t(label) }), /* @__PURE__ */ jsxs("dd", {
+			title: compactVolume ? `${exactTonnes(number, locale$1(language))} t` : void 0,
+			"aria-label": compactVolume ? `${exactTonnes(number, locale$1(language))} t` : void 0,
+			children: [
+				trend && number > 0 ? "+" : "",
+				unit === " €/kg" ? "€" : "",
+				compactVolume ? Math.abs(number) >= 1e3 ? compactTonnes(number, locale$1(language)) : `${new Intl.NumberFormat(locale$1(language), { maximumFractionDigits: 1 }).format(number)} t` : formatted,
+				compactVolume ? "" : unit === " €/kg" ? "/kg" : unit
+			]
+		})]
+	});
+}
+function Tags({ card }) {
+	const t = useT();
+	return /* @__PURE__ */ jsx("div", {
+		className: "catalogue-tags",
+		children: card.use_tags.map((id) => /* @__PURE__ */ jsx("span", { children: t(categoryById(id)?.title || id) }, id))
+	});
+}
+function CardTrend({ label, value, compact = false }) {
+	const t = useT(), { language } = useLanguage();
+	if (!available$1(value)) return null;
+	const n = Number(value);
+	return /* @__PURE__ */ jsxs("p", {
+		className: `catalogue-yoy ${n < 0 ? "down" : "up"}`,
+		children: [
+			/* @__PURE__ */ jsx("span", {
+				"aria-hidden": "true",
+				children: n < 0 ? "▼" : "▲"
+			}),
+			" ",
+			n > 0 ? "+" : "",
+			new Intl.NumberFormat(locale$1(language), { maximumFractionDigits: 2 }).format(n),
+			"% ",
+			t("YoY"),
+			!compact && /* @__PURE__ */ jsxs("span", {
+				className: "sr-only",
+				children: [" · ", t(label)]
+			})
+		]
+	});
+}
+function CardHistory({ card }) {
+	const t = useT(), { language } = useLanguage(), [year, month] = card.latest_trade_period.split("-").map(Number);
+	const slots = Array.from({ length: 12 }, (_, i) => {
+		const period = new Date(Date.UTC(year, month - 12 + i, 1)).toISOString().slice(0, 7);
+		return {
+			period,
+			point: (card.trade_history || []).find((x) => x.period === period)
+		};
+	});
+	const values = slots.filter((x) => available$1(x.point?.volume_t));
+	if (values.length < 2) return null;
+	const maximum = Math.max(...values.map((x) => Number(x.point.volume_t)));
+	if (maximum <= 0) return null;
+	return /* @__PURE__ */ jsx("div", {
+		className: "catalogue-card-history",
+		role: "img",
+		"aria-label": t("Completed monthly trade volume history"),
+		children: slots.map(({ period, point }) => /* @__PURE__ */ jsx("span", {
+			title: point ? `${period}: ${new Intl.NumberFormat(locale$1(language), { maximumFractionDigits: 2 }).format(point.volume_t)} t` : period,
+			children: available$1(point?.volume_t) && /* @__PURE__ */ jsx("i", { style: { height: `${Number(point.volume_t) / maximum * 100}%` } })
+		}, period))
+	});
+}
+function SeedCard({ card, snapshot = false, productionSearch = "" }) {
+	const t = useT(), { language } = useLanguage(), hasTrade = available$1(card.trade_volume_t), price = latestTradeUnitValue(card.price_observations), seedPrice = hasEstimatedRange(card.market_entity_id) ? null : latestSeedPrice(card.price_observations);
+	return /* @__PURE__ */ jsxs("article", {
+		className: `catalogue-seed-card${snapshot ? " crop-card" : ""}`,
+		"data-entity-id": card.market_entity_id,
+		children: [
+			/* @__PURE__ */ jsxs("div", {
+				className: "catalogue-seed-heading",
+				children: [/* @__PURE__ */ jsx("h3", { children: t(card.common_name_en) }), /* @__PURE__ */ jsx("p", {
+					className: "catalogue-botanical",
+					children: /* @__PURE__ */ jsx("em", { children: card.botanical_display_name })
+				})]
+			}),
+			/* @__PURE__ */ jsx(Tags, { card }),
+			snapshot && /* @__PURE__ */ jsx(SnapshotIntelligence, {
+				entityId: card.market_entity_id,
+				compact: true
+			}),
+			/* @__PURE__ */ jsx(EstimatedMarketRange, { entityId: card.market_entity_id }),
+			(hasTrade || price || seedPrice) && /* @__PURE__ */ jsxs(Fragment, { children: [
+				/* @__PURE__ */ jsxs("div", {
+					className: "catalogue-card-metrics",
+					children: [
+						seedPrice && /* @__PURE__ */ jsxs("div", {
+							className: "catalogue-card-measure catalogue-seed-price-measure",
+							children: [/* @__PURE__ */ jsx("dl", { children: /* @__PURE__ */ jsx(Metric, {
+								label: "Seed price",
+								value: seedPrice.price_eur_kg,
+								unit: " €/kg"
+							}) }), /* @__PURE__ */ jsx("p", {
+								className: "catalogue-period",
+								children: t("Observed · {period}", { period: seedPrice.period })
+							})]
+						}),
+						price && /* @__PURE__ */ jsxs("div", {
+							className: "catalogue-card-measure catalogue-price-measure",
+							title: t("Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation."),
+							children: [
+								/* @__PURE__ */ jsx("dl", { children: /* @__PURE__ */ jsx(Metric, {
+									label: "Trade unit value",
+									value: price.price_eur_kg,
+									unit: " €/kg"
+								}) }),
+								/* @__PURE__ */ jsx("span", {
+									className: "catalogue-metric-help",
+									children: /* @__PURE__ */ jsx("abbr", {
+										title: t("Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation."),
+										tabIndex: "0",
+										"aria-label": t("Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation."),
+										children: "ⓘ"
+									})
+								}),
+								/* @__PURE__ */ jsx(CardTrend, {
+									label: "Trade unit value YoY",
+									value: price.yoy_percent,
+									compact: snapshot
+								}),
+								/* @__PURE__ */ jsx("p", {
+									className: "catalogue-period",
+									children: snapshot ? t("Observed · {period}", { period: displayMonth(price.period, language) }) : t("Observed · {period}", { period: price.period })
+								})
+							]
+						}),
+						hasTrade && /* @__PURE__ */ jsxs("div", {
+							className: "catalogue-card-measure catalogue-volume-measure",
+							children: [/* @__PURE__ */ jsx("dl", { children: /* @__PURE__ */ jsx(Metric, {
+								label: "Trade volume",
+								value: card.trade_volume_t,
+								unit: " t",
+								compact: snapshot
+							}) }), /* @__PURE__ */ jsx(CardTrend, {
+								label: "Volume YoY",
+								value: card.trade_volume_yoy,
+								compact: snapshot
+							})]
+						})
+					]
+				}),
+				/* @__PURE__ */ jsx("div", {
+					className: "catalogue-card-trade-history",
+					children: hasTrade && /* @__PURE__ */ jsxs(Fragment, { children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "catalogue-history-label",
+							children: t("EU internal trade volume — tonnes")
+						}),
+						/* @__PURE__ */ jsx(CardHistory, { card }),
+						/* @__PURE__ */ jsx("p", {
+							className: "catalogue-period catalogue-trade-period",
+							children: snapshot ? t("Completed · {period}", { period: displayMonth(card.latest_trade_period, language) }) : t("Completed {period}", { period: card.latest_trade_period })
+						})
+					] })
+				}),
+				!snapshot && card.CN_status === "PARTIAL" && /* @__PURE__ */ jsx("p", {
+					className: "catalogue-note",
+					children: t("This customs scope covers only part of the seed market.")
+				})
+			] }),
+			/* @__PURE__ */ jsx("a", {
+				className: "catalogue-card-cta",
+				href: snapshot ? `/market/seeds/${card.slug}` : catalogueSeedLocation(card, productionSearch),
+				children: t("Explore market →")
+			}),
+			!snapshot && /* @__PURE__ */ jsx(CatalogueProductionLink, {
+				card,
+				search: productionSearch
+			})
+		]
+	});
+}
+//#endregion
+//#region src/CommercialHistory.jsx
+var available = (value) => value !== null && value !== void 0 && Number.isFinite(Number(value));
+var locale = (code) => ({
+	EN: "en-GB",
+	DE: "de-DE",
+	FR: "fr-FR",
+	ES: "es-ES",
+	IT: "it-IT"
+})[code] || "en-GB";
+function EvidenceHistory({ points, field, title, unit, price = false, source = null, commercial = false }) {
+	const t = useT(), { language } = useLanguage(), usable = points.filter((p) => available(p[field]));
+	if (!usable.length) return null;
+	const last = usable.at(-1), slots = price && usable.some((p) => p.period.length > 7) ? usable.slice(-12).map((point) => ({
+		period: point.period,
+		point
+	})) : calendarSlots(usable, last.period, 12, field), max = Math.max(...usable.map((p) => Number(p[field]))) || 1;
+	const format = (value) => new Intl.NumberFormat(locale(language), {
+		minimumFractionDigits: price ? 2 : 0,
+		maximumFractionDigits: 2
+	}).format(Number(value));
+	return /* @__PURE__ */ jsxs("section", {
+		className: "catalogue-detail-panel catalogue-history-panel",
+		children: [
+			/* @__PURE__ */ jsx("h2", { children: t(title) }),
+			/* @__PURE__ */ jsxs("div", {
+				className: "catalogue-history-chart",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "catalogue-history-axis",
+					children: [
+						/* @__PURE__ */ jsx("span", {
+							className: "catalogue-axis-unit",
+							children: unit
+						}),
+						/* @__PURE__ */ jsx("span", { children: format(max) }),
+						/* @__PURE__ */ jsx("span", { children: "0" })
+					]
+				}), /* @__PURE__ */ jsx("div", {
+					className: "catalogue-evidence-history",
+					style: { gridTemplateColumns: `repeat(${slots.length},minmax(0,1fr))` },
+					"aria-label": t(title),
+					children: slots.map(({ period, point }) => /* @__PURE__ */ jsxs("div", {
+						className: "catalogue-history-slot",
+						children: [point && /* @__PURE__ */ jsx("i", {
+							tabIndex: "0",
+							title: `${period}: ${price ? "€" : ""}${format(point[field])}${price ? "/kg" : " t"}`,
+							"aria-label": `${period}: ${price ? "€" : ""}${format(point[field])}${price ? "/kg" : " t"}`,
+							style: { height: `${Number(point[field]) / max * 100}%` }
+						}), /* @__PURE__ */ jsx("small", {
+							"data-period": period,
+							children: period
+						})]
+					}, period))
+				})]
+			}),
+			price && /* @__PURE__ */ jsxs(Fragment, { children: [/* @__PURE__ */ jsx("p", { children: t("Latest available: €{value}/kg · {period}", {
+				value: format(last[field]),
+				period: last.period
+			}) }), /* @__PURE__ */ jsx("p", {
+				className: "catalogue-note",
+				children: t(commercial ? "Verified commercial seed quotation with publication rights." : "Trade unit value = reported trade value divided by reported net weight. A customs indicator, not a seller quotation.")
+			})] }),
+			source && /* @__PURE__ */ jsxs("p", {
+				className: "catalogue-note",
+				children: [
+					t("Source:"),
+					" ",
+					source
+				]
+			})
+		]
+	});
+}
+var trade_pulse_public_default = {
+	schema: "SEEDTRADE_EU_SEED_TRADE_PULSE_V1",
+	generated_at: "2026-10-04T06:07:29.221883+00:00",
+	classification: "PUBLIC_SAFE",
+	source: "Eurostat COMEXT DS-045409",
+	source_artifact_sha256: "523fbd268bf01dd27c46a957c73c19585363a2d0ae07354453cbec91e56277d3",
+	latest_completed_period: "2026-06",
+	latest_available_partial_period: "2026-07",
+	partial_period_excluded: true,
+	accepted_observations: 153838,
+	excluded_partial_observations: 0,
+	scope: {
+		"rule": "40 verified sowing CN8 codes. Unique reporter-partner-flow-month grain. No species allocation. Comparable 2024–2026 definitions confirmed by official yearly nomenclature evidence.",
+		"included_cn_codes": [
+			{
+				"cn8": "12092945",
+				"crop": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12099180",
+				"crop": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+				"slug": null
+			},
+			{
+				"cn8": "12092980",
+				"crop": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+				"slug": null
+			},
+			{
+				"cn8": "10041000",
+				"crop": "Oats seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12091000",
+				"crop": "Sugar beet seed, for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12092960",
+				"crop": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12099130",
+				"crop": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12075010",
+				"crop": "Mustard seeds for sowing",
+				"slug": "mustard-seed-for-sowing"
+			},
+			{
+				"cn8": "12051010",
+				"crop": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12079920",
+				"crop": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+				"slug": null
+			},
+			{
+				"cn8": "12092380",
+				"crop": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+				"slug": null
+			},
+			{
+				"cn8": "12092311",
+				"crop": "Meadow fescue seed for sowing",
+				"slug": "meadow-fescue"
+			},
+			{
+				"cn8": "12092315",
+				"crop": "Red fescue seed \"Festuca rubra L.\" for sowing",
+				"slug": "red-fescue"
+			},
+			{
+				"cn8": "12011000",
+				"crop": "Soya bean seed, for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12060010",
+				"crop": "Sunflower seeds for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10031000",
+				"crop": "Barley seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "12040010",
+				"crop": "Linseed for sowing",
+				"slug": "flax-linseed-for-sowing"
+			},
+			{
+				"cn8": "12092510",
+				"crop": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+				"slug": "italian-ryegrass"
+			},
+			{
+				"cn8": "12092590",
+				"crop": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+				"slug": "perennial-ryegrass"
+			},
+			{
+				"cn8": "12092950",
+				"crop": "Lupine seed for sowing",
+				"slug": "lupins"
+			},
+			{
+				"cn8": "12092100",
+				"crop": "Alfalfa seed for sowing",
+				"slug": "alfalfa-lucerne"
+			},
+			{
+				"cn8": "10061010",
+				"crop": "Rice in husk for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10082100",
+				"crop": "Millet seed for sowing (excl. grain sorghum)",
+				"slug": null
+			},
+			{
+				"cn8": "12079110",
+				"crop": "Poppy seeds for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "07133310",
+				"crop": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "07131010",
+				"crop": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+				"slug": "field-peas"
+			},
+			{
+				"cn8": "12092400",
+				"crop": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+				"slug": "kentucky-bluegrass"
+			},
+			{
+				"cn8": "10021000",
+				"crop": "Rye seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10071010",
+				"crop": "Hybrid grain sorghum, for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10071090",
+				"crop": "Grain sorghum, for sowing (excl. hybrids)",
+				"slug": null
+			},
+			{
+				"cn8": "12092280",
+				"crop": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+				"slug": null
+			},
+			{
+				"cn8": "12092210",
+				"crop": "Red clover \"Trifolium pratense L.\" seed for sowing",
+				"slug": "red-clover"
+			},
+			{
+				"cn8": "10019110",
+				"crop": "Spelt seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10019120",
+				"crop": "Seed of common wheat or meslin, for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10011100",
+				"crop": "Durum wheat seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10051013",
+				"crop": "Three-cross hybrid maize seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10051015",
+				"crop": "Simple hybrid maize seed for sowing",
+				"slug": null
+			},
+			{
+				"cn8": "10051018",
+				"crop": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+				"slug": null
+			},
+			{
+				"cn8": "10051090",
+				"crop": "Maize seed for sowing (excl. hybrid)",
+				"slug": null
+			},
+			{
+				"cn8": "07129011",
+				"crop": "Dried sweetcorn, hybrid, for sowing",
+				"slug": null
+			}
+		],
+		"mirror_flow_control": "EU internal trade uses exporter-reported dispatches only; mirror import declarations are excluded.",
+		"request_grid_complete": true,
+		"geographic_scope": "EU27 reporting countries; reported country partners only; special territories excluded",
+		"northern_ireland_excluded": true,
+		"taxonomic_precision": {
+			"SPECIES_SPECIFIC": 16,
+			"PARTIAL": 11,
+			"GROUP_LEVEL": 13
+		},
+		"no_species_allocation": true
+	},
+	views: /* @__PURE__ */ JSON.parse("{\"eu_internal_trade\":{\"label\":\"EU Internal Trade\",\"definition\":\"Exporter-reported dispatches where both reporter and partner are EU-27 members; each reported export flow is counted once and mirror import declarations are excluded.\",\"latest\":{\"volume_tonnes\":251015.1,\"trade_value_eur\":400438328.0,\"unit_value_eur_kg\":1.5953,\"observation_count\":3246,\"cn_code_count\":40,\"period\":\"2026-06\",\"volume_yoy_percent\":42.08,\"value_yoy_percent\":9.67,\"unit_value_yoy_percent\":-22.81},\"trade_activity\":{\"state\":\"HIGH\",\"rule\":\"HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast.\"},\"unit_value_range\":{\"status\":\"VERIFIED\",\"period\":\"2026-06\",\"eligible_category_count\":9,\"rule\":\"Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded. Species-specific customs scope only; broad groups excluded. Expanded codes withheld pending established representative-price engine validation.\",\"low\":{\"slug\":\"field-peas\",\"category\":\"Field peas\",\"volume_tonnes\":2610.39,\"observation_count\":135,\"unit_value_eur_kg\":0.7371},\"high\":{\"slug\":\"red-clover\",\"category\":\"Red clover\",\"volume_tonnes\":434.78,\"observation_count\":58,\"unit_value_eur_kg\":4.8111}},\"history\":[{\"volume_tonnes\":189388.84,\"trade_value_eur\":437935719.0,\"unit_value_eur_kg\":2.3124,\"observation_count\":2870,\"cn_code_count\":40,\"period\":\"2025-07\",\"volume_yoy_percent\":-16.28,\"value_yoy_percent\":-5.05},{\"volume_tonnes\":236693.96,\"trade_value_eur\":325733917.0,\"unit_value_eur_kg\":1.3762,\"observation_count\":2977,\"cn_code_count\":40,\"period\":\"2025-08\",\"volume_yoy_percent\":-8.25,\"value_yoy_percent\":-1.21},{\"volume_tonnes\":342346.6,\"trade_value_eur\":353001804.0,\"unit_value_eur_kg\":1.0311,\"observation_count\":3255,\"cn_code_count\":40,\"period\":\"2025-09\",\"volume_yoy_percent\":9.38,\"value_yoy_percent\":3.71},{\"volume_tonnes\":436577.62,\"trade_value_eur\":442825875.0,\"unit_value_eur_kg\":1.0143,\"observation_count\":3166,\"cn_code_count\":40,\"period\":\"2025-10\",\"volume_yoy_percent\":15.66,\"value_yoy_percent\":12.19},{\"volume_tonnes\":376552.64,\"trade_value_eur\":506681557.0,\"unit_value_eur_kg\":1.3456,\"observation_count\":2832,\"cn_code_count\":40,\"period\":\"2025-11\",\"volume_yoy_percent\":27.39,\"value_yoy_percent\":6.63},{\"volume_tonnes\":444759.16,\"trade_value_eur\":507242661.0,\"unit_value_eur_kg\":1.1405,\"observation_count\":2756,\"cn_code_count\":40,\"period\":\"2025-12\",\"volume_yoy_percent\":80.04,\"value_yoy_percent\":17.48},{\"volume_tonnes\":406648.21,\"trade_value_eur\":767559869.0,\"unit_value_eur_kg\":1.8875,\"observation_count\":3314,\"cn_code_count\":40,\"period\":\"2026-01\",\"volume_yoy_percent\":30.79,\"value_yoy_percent\":-3.98},{\"volume_tonnes\":418019.31,\"trade_value_eur\":890250907.0,\"unit_value_eur_kg\":2.1297,\"observation_count\":3841,\"cn_code_count\":40,\"period\":\"2026-02\",\"volume_yoy_percent\":30.12,\"value_yoy_percent\":0.77},{\"volume_tonnes\":429045.31,\"trade_value_eur\":886815860.0,\"unit_value_eur_kg\":2.067,\"observation_count\":4434,\"cn_code_count\":40,\"period\":\"2026-03\",\"volume_yoy_percent\":50.99,\"value_yoy_percent\":11.2},{\"volume_tonnes\":248554.83,\"trade_value_eur\":454635280.0,\"unit_value_eur_kg\":1.8291,\"observation_count\":3892,\"cn_code_count\":40,\"period\":\"2026-04\",\"volume_yoy_percent\":9.29,\"value_yoy_percent\":-8.15},{\"volume_tonnes\":237181.1,\"trade_value_eur\":317099129.0,\"unit_value_eur_kg\":1.3369,\"observation_count\":3335,\"cn_code_count\":40,\"period\":\"2026-05\",\"volume_yoy_percent\":-15.59,\"value_yoy_percent\":-12.33},{\"volume_tonnes\":251015.1,\"trade_value_eur\":400438328.0,\"unit_value_eur_kg\":1.5953,\"observation_count\":3246,\"cn_code_count\":40,\"period\":\"2026-06\",\"volume_yoy_percent\":42.08,\"value_yoy_percent\":9.67}]},\"eu_imports\":{\"label\":\"EU Imports\",\"definition\":\"Reporter-declared EU-27 imports from partners outside the EU-27; EU internal movements and aggregate/special partner codes are excluded.\",\"latest\":{\"volume_tonnes\":22636.9,\"trade_value_eur\":103712274.0,\"unit_value_eur_kg\":4.5816,\"observation_count\":544,\"cn_code_count\":38,\"period\":\"2026-06\",\"volume_yoy_percent\":-12.33,\"value_yoy_percent\":4.62,\"unit_value_yoy_percent\":19.34},\"trade_activity\":{\"state\":\"NORMAL\",\"rule\":\"HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast.\"},\"unit_value_range\":{\"status\":\"VERIFIED\",\"period\":\"2026-06\",\"eligible_category_count\":5,\"rule\":\"Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded. Species-specific customs scope only; broad groups excluded. Expanded codes withheld pending established representative-price engine validation.\",\"low\":{\"slug\":\"italian-ryegrass\",\"category\":\"Italian ryegrass\",\"volume_tonnes\":1434.19,\"observation_count\":13,\"unit_value_eur_kg\":1.1094},\"high\":{\"slug\":\"alfalfa-lucerne\",\"category\":\"Alfalfa / lucerne\",\"volume_tonnes\":168.3,\"observation_count\":5,\"unit_value_eur_kg\":4.5033}},\"history\":[{\"volume_tonnes\":15380.57,\"trade_value_eur\":86893891.0,\"unit_value_eur_kg\":5.6496,\"observation_count\":547,\"cn_code_count\":39,\"period\":\"2025-07\",\"volume_yoy_percent\":-40.06,\"value_yoy_percent\":-16.34},{\"volume_tonnes\":23952.62,\"trade_value_eur\":78019631.0,\"unit_value_eur_kg\":3.2572,\"observation_count\":480,\"cn_code_count\":38,\"period\":\"2025-08\",\"volume_yoy_percent\":-1.53,\"value_yoy_percent\":-7.3},{\"volume_tonnes\":17699.23,\"trade_value_eur\":71464990.0,\"unit_value_eur_kg\":4.0377,\"observation_count\":540,\"cn_code_count\":39,\"period\":\"2025-09\",\"volume_yoy_percent\":-33.62,\"value_yoy_percent\":-7.59},{\"volume_tonnes\":34359.6,\"trade_value_eur\":72948795.0,\"unit_value_eur_kg\":2.1231,\"observation_count\":538,\"cn_code_count\":37,\"period\":\"2025-10\",\"volume_yoy_percent\":57.93,\"value_yoy_percent\":-16.74},{\"volume_tonnes\":21965.24,\"trade_value_eur\":81995232.0,\"unit_value_eur_kg\":3.733,\"observation_count\":512,\"cn_code_count\":36,\"period\":\"2025-11\",\"volume_yoy_percent\":-58.63,\"value_yoy_percent\":-23.33},{\"volume_tonnes\":25042.21,\"trade_value_eur\":115330917.0,\"unit_value_eur_kg\":4.6055,\"observation_count\":517,\"cn_code_count\":37,\"period\":\"2025-12\",\"volume_yoy_percent\":-6.64,\"value_yoy_percent\":4.28},{\"volume_tonnes\":31582.57,\"trade_value_eur\":125084067.0,\"unit_value_eur_kg\":3.9605,\"observation_count\":589,\"cn_code_count\":39,\"period\":\"2026-01\",\"volume_yoy_percent\":-5.4,\"value_yoy_percent\":-9.77},{\"volume_tonnes\":46956.01,\"trade_value_eur\":137582518.0,\"unit_value_eur_kg\":2.93,\"observation_count\":716,\"cn_code_count\":38,\"period\":\"2026-02\",\"volume_yoy_percent\":-14.45,\"value_yoy_percent\":-4.74},{\"volume_tonnes\":26512.63,\"trade_value_eur\":133491715.0,\"unit_value_eur_kg\":5.035,\"observation_count\":768,\"cn_code_count\":39,\"period\":\"2026-03\",\"volume_yoy_percent\":11.02,\"value_yoy_percent\":13.39},{\"volume_tonnes\":31775.93,\"trade_value_eur\":111025964.0,\"unit_value_eur_kg\":3.494,\"observation_count\":708,\"cn_code_count\":39,\"period\":\"2026-04\",\"volume_yoy_percent\":32.61,\"value_yoy_percent\":-2.19},{\"volume_tonnes\":32634.86,\"trade_value_eur\":93646638.0,\"unit_value_eur_kg\":2.8695,\"observation_count\":557,\"cn_code_count\":40,\"period\":\"2026-05\",\"volume_yoy_percent\":22.06,\"value_yoy_percent\":-29.09},{\"volume_tonnes\":22636.9,\"trade_value_eur\":103712274.0,\"unit_value_eur_kg\":4.5816,\"observation_count\":544,\"cn_code_count\":38,\"period\":\"2026-06\",\"volume_yoy_percent\":-12.33,\"value_yoy_percent\":4.62}]},\"eu_exports\":{\"label\":\"EU Exports\",\"definition\":\"Reporter-declared EU-27 exports to partners outside the EU-27; EU internal movements and aggregate/special partner codes are excluded.\",\"latest\":{\"volume_tonnes\":13768.34,\"trade_value_eur\":239420235.0,\"unit_value_eur_kg\":17.3892,\"observation_count\":1041,\"cn_code_count\":40,\"period\":\"2026-06\",\"volume_yoy_percent\":-11.49,\"value_yoy_percent\":6.83,\"unit_value_yoy_percent\":20.7},\"trade_activity\":{\"state\":\"NORMAL\",\"rule\":\"HIGH at volume YoY >= +15%; LOW at <= -15%; otherwise NORMAL. This is descriptive, not a forecast.\"},\"unit_value_range\":{\"status\":\"VERIFIED\",\"period\":\"2026-06\",\"eligible_category_count\":6,\"rule\":\"Category-level aggregate for the same completed month; at least 100 tonnes and 2 verified observations with positive net weight and trade value. Review-only, ambiguous and partial-period rows are excluded. Species-specific customs scope only; broad groups excluded. Expanded codes withheld pending established representative-price engine validation.\",\"low\":{\"slug\":\"red-fescue\",\"category\":\"Red fescue\",\"volume_tonnes\":505.24,\"observation_count\":20,\"unit_value_eur_kg\":1.7033},\"high\":{\"slug\":\"alfalfa-lucerne\",\"category\":\"Alfalfa / lucerne\",\"volume_tonnes\":201.1,\"observation_count\":27,\"unit_value_eur_kg\":5.5226}},\"history\":[{\"volume_tonnes\":15160.68,\"trade_value_eur\":211631600.0,\"unit_value_eur_kg\":13.9592,\"observation_count\":1039,\"cn_code_count\":40,\"period\":\"2025-07\",\"volume_yoy_percent\":-13.98,\"value_yoy_percent\":-1.62},{\"volume_tonnes\":17573.56,\"trade_value_eur\":204897455.0,\"unit_value_eur_kg\":11.6594,\"observation_count\":998,\"cn_code_count\":39,\"period\":\"2025-08\",\"volume_yoy_percent\":11.93,\"value_yoy_percent\":-5.25},{\"volume_tonnes\":26906.1,\"trade_value_eur\":175553405.0,\"unit_value_eur_kg\":6.5247,\"observation_count\":1030,\"cn_code_count\":40,\"period\":\"2025-09\",\"volume_yoy_percent\":25.8,\"value_yoy_percent\":-1.03},{\"volume_tonnes\":22349.39,\"trade_value_eur\":227313853.0,\"unit_value_eur_kg\":10.1709,\"observation_count\":1056,\"cn_code_count\":40,\"period\":\"2025-10\",\"volume_yoy_percent\":28.52,\"value_yoy_percent\":3.62},{\"volume_tonnes\":24304.36,\"trade_value_eur\":257315399.0,\"unit_value_eur_kg\":10.5872,\"observation_count\":978,\"cn_code_count\":40,\"period\":\"2025-11\",\"volume_yoy_percent\":-20.53,\"value_yoy_percent\":11.23},{\"volume_tonnes\":19875.5,\"trade_value_eur\":280186692.0,\"unit_value_eur_kg\":14.0971,\"observation_count\":1034,\"cn_code_count\":39,\"period\":\"2025-12\",\"volume_yoy_percent\":-12.79,\"value_yoy_percent\":-2.48},{\"volume_tonnes\":29355.97,\"trade_value_eur\":298711477.0,\"unit_value_eur_kg\":10.1755,\"observation_count\":1084,\"cn_code_count\":40,\"period\":\"2026-01\",\"volume_yoy_percent\":4.04,\"value_yoy_percent\":-4.41},{\"volume_tonnes\":39574.22,\"trade_value_eur\":390331052.0,\"unit_value_eur_kg\":9.8633,\"observation_count\":1433,\"cn_code_count\":40,\"period\":\"2026-02\",\"volume_yoy_percent\":-0.82,\"value_yoy_percent\":5.99},{\"volume_tonnes\":43019.4,\"trade_value_eur\":383810243.0,\"unit_value_eur_kg\":8.9218,\"observation_count\":1546,\"cn_code_count\":40,\"period\":\"2026-03\",\"volume_yoy_percent\":3.07,\"value_yoy_percent\":5.7},{\"volume_tonnes\":21477.3,\"trade_value_eur\":268380052.0,\"unit_value_eur_kg\":12.496,\"observation_count\":1374,\"cn_code_count\":40,\"period\":\"2026-04\",\"volume_yoy_percent\":-0.98,\"value_yoy_percent\":-5.89},{\"volume_tonnes\":26281.19,\"trade_value_eur\":232235133.0,\"unit_value_eur_kg\":8.8366,\"observation_count\":1069,\"cn_code_count\":40,\"period\":\"2026-05\",\"volume_yoy_percent\":69.34,\"value_yoy_percent\":-3.41},{\"volume_tonnes\":13768.34,\"trade_value_eur\":239420235.0,\"unit_value_eur_kg\":17.3892,\"observation_count\":1041,\"cn_code_count\":40,\"period\":\"2026-06\",\"volume_yoy_percent\":-11.49,\"value_yoy_percent\":6.83}]}}"),
+	extra_eu_balance: {
+		"period": "2026-06",
+		"volume_tonnes": -8868.56,
+		"trade_value_eur": 135707961,
+		"definition": "Extra-EU exports minus extra-EU imports for the same eligible seed CN scope and completed month."
+	},
+	market_context: {
+		"status": "FACTUAL_ONLY",
+		"causal_explanation_status": "WITHHELD_INSUFFICIENT_EVIDENCE",
+		"text": "Extra-EU seed trade balance: EUR 135,707,961 in 2026-06. Scope expanded to verified sowing customs groups. Verified trade evidence confirms the balance and flow changes, but does not support a specific supply, price or weather explanation."
+	},
+	peak_activity: {
+		"period": "2026-02",
+		"volume_tonnes": 504549.54,
+		"volume_yoy_percent": 21.27,
+		"status": "VERIFIED",
+		"definition": "Highest combined eligible volume across EU Internal Trade, EU Imports and EU Exports within the displayed completed-month period."
+	},
+	species_market_context: {
+		"alfalfa-lucerne": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 945.82,
+			"volume_yoy_percent": 8.88,
+			"unit_value_eur_kg": 3.1956,
+			"unit_value_yoy_percent": 47.59,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"field-peas": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 2610.39,
+			"volume_yoy_percent": 71.54,
+			"unit_value_eur_kg": .7371,
+			"unit_value_yoy_percent": -26.35,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"flax-linseed-for-sowing": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 1632.84,
+			"volume_yoy_percent": 16.7,
+			"unit_value_eur_kg": .9546,
+			"unit_value_yoy_percent": -33.68,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"italian-ryegrass": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 3331.9,
+			"volume_yoy_percent": 13.09,
+			"unit_value_eur_kg": 1.3436,
+			"unit_value_yoy_percent": 2.21,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"kentucky-bluegrass": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 419.87,
+			"volume_yoy_percent": -32.79,
+			"unit_value_eur_kg": 2.7277,
+			"unit_value_yoy_percent": -19.91,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"meadow-fescue": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 122.66,
+			"volume_yoy_percent": 227.39,
+			"unit_value_eur_kg": 2.6249,
+			"unit_value_yoy_percent": -16.95,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"perennial-ryegrass": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 5251.56,
+			"volume_yoy_percent": -9.84,
+			"unit_value_eur_kg": 1.8894,
+			"unit_value_yoy_percent": 9.68,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"red-clover": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 434.78,
+			"volume_yoy_percent": 17.37,
+			"unit_value_eur_kg": 4.8111,
+			"unit_value_yoy_percent": 11.07,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		},
+		"red-fescue": {
+			"view": "EU_INTERNAL_TRADE",
+			"period": "2026-06",
+			"volume_tonnes": 2294.55,
+			"volume_yoy_percent": -26.44,
+			"unit_value_eur_kg": 1.5795,
+			"unit_value_yoy_percent": 10.09,
+			"evidence_status": "VERIFIED",
+			"customs_scope": "SPECIES_SPECIFIC",
+			"species_allocation": "NONE_FOR_GROUPS"
+		}
+	},
+	interpretation: "Trade Activity is a deterministic description of completed-month volume, not a forecast, recommendation or transaction price.",
+	customs_entity_rankings: [
+		{
+			"crop": {
+				"slug": "CN-12092945",
+				"crop": "CN 12092945"
+			},
+			"volume": 2009.18,
+			"value": 2856781,
+			"volumeYoy": -12.16,
+			"valueYoy": -25.79,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Timothy grass seed, vetch seed, seeds of the genus Poa palustris L. and Poa trivialis L., seeds of cocksfoot grass \"Dactylis glomerata L.\", and seeds of bent grass \"Agrostis\", for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12099180",
+				"crop": "CN 12099180"
+			},
+			"volume": 2701.41,
+			"value": 162886710,
+			"volumeYoy": 49.49,
+			"valueYoy": 30.07,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Vegetable seeds for sowing (excl. salad beet or beetroot \"Beta vulgaris var. conditiva\")",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092980",
+				"crop": "CN 12092980"
+			},
+			"volume": 6168.68,
+			"value": 15939499,
+			"volumeYoy": 17.84,
+			"valueYoy": 10.6,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Seeds of forage plants, for sowing (excl. cereals and fodder beet seed \"Beta vulgaris var. alba\", sugar beet seed, lucerne seed, clover \"Trifolium spp.\" seed, fesque seed, Kentucky blue grass \"Poa pratensis L.\" seed, ryegrass \"Lolium multiflorum lam., Lolium perenne L.\" seed, Timothy grass seed, vetch seed, seeds of the genus Poa palustris L and Poa trivialis L., cocksfoot grass \"Dactylis glomerata L.\" seed, bent grass \"Agrostis\" seed and lupine seed)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10041000",
+				"crop": "CN 10041000"
+			},
+			"volume": 7030.46,
+			"value": 2386749,
+			"volumeYoy": 30.72,
+			"valueYoy": 30.99,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Oats seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12091000",
+				"crop": "CN 12091000"
+			},
+			"volume": 921.32,
+			"value": 17575120,
+			"volumeYoy": -31.42,
+			"valueYoy": -44.5,
+			"granularity": "PARTIAL",
+			"definition": "Sugar beet seed, for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092960",
+				"crop": "CN 12092960"
+			},
+			"volume": 16.08,
+			"value": 127105,
+			"volumeYoy": -.78,
+			"valueYoy": 287.61,
+			"granularity": "PARTIAL",
+			"definition": "Fodder beet seed \"Beta vulgaris var. alba\", for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12099130",
+				"crop": "CN 12099130"
+			},
+			"volume": 27.23,
+			"value": 304542,
+			"volumeYoy": 24.97,
+			"valueYoy": 6.7,
+			"granularity": "PARTIAL",
+			"definition": "Salad beet seed or beetroot seed \"Beta vulgaris var. conditiva\", for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12075010",
+				"crop": "CN 12075010"
+			},
+			"volume": 3048.16,
+			"value": 4128117,
+			"volumeYoy": 39.68,
+			"valueYoy": 39.75,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Mustard seeds for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12051010",
+				"crop": "CN 12051010"
+			},
+			"volume": 10692.47,
+			"value": 40375382,
+			"volumeYoy": 45.05,
+			"valueYoy": 19.06,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Low erucic acid rape or colza seeds \"yielding a fixed oil which has an erucic acid content of < 2% and yielding a solid component of glucosinolates of < 30 micromoles/g\", for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12079920",
+				"crop": "CN 12079920"
+			},
+			"volume": 1663.39,
+			"value": 4063348,
+			"volumeYoy": -10.46,
+			"valueYoy": -2.29,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Oil seeds and oleaginous fruits, for sowing (excl. edible nuts, olives, soya beans, groundnuts, copra, linseed, rape or colza seeds, sunflower seeds, palm nuts and kernels, cotton, castor oil, sesamum, mustard, safflower, melon and poppy seeds)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092380",
+				"crop": "CN 12092380"
+			},
+			"volume": 1067.65,
+			"value": 2237849,
+			"volumeYoy": -36.36,
+			"valueYoy": -37.87,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Fescue seed, for sowing (excl. meadow fescue \"Festuca pratensis Huds\" seed and red fescue \"Festuca rubra L.\" seed)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092311",
+				"crop": "CN 12092311"
+			},
+			"volume": 122.66,
+			"value": 321981,
+			"volumeYoy": 227.39,
+			"valueYoy": 171.88,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Meadow fescue seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092315",
+				"crop": "CN 12092315"
+			},
+			"volume": 2294.55,
+			"value": 3624235,
+			"volumeYoy": -26.44,
+			"valueYoy": -19.02,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Red fescue seed \"Festuca rubra L.\" for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12011000",
+				"crop": "CN 12011000"
+			},
+			"volume": 2549.49,
+			"value": 1867517,
+			"volumeYoy": 38.53,
+			"valueYoy": 18.57,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Soya bean seed, for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12060010",
+				"crop": "CN 12060010"
+			},
+			"volume": 2599.54,
+			"value": 13089806,
+			"volumeYoy": 2.88,
+			"valueYoy": -26.13,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Sunflower seeds for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10031000",
+				"crop": "CN 10031000"
+			},
+			"volume": 9026.81,
+			"value": 2272920,
+			"volumeYoy": -.4,
+			"valueYoy": -4.88,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Barley seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12040010",
+				"crop": "CN 12040010"
+			},
+			"volume": 1632.84,
+			"value": 1558633,
+			"volumeYoy": 16.7,
+			"valueYoy": -22.6,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Linseed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092510",
+				"crop": "CN 12092510"
+			},
+			"volume": 3331.9,
+			"value": 4476635,
+			"volumeYoy": 13.09,
+			"valueYoy": 15.58,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Italian ryegrass, incl. westerwolds \"Lolium multiflorum L.\", seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092590",
+				"crop": "CN 12092590"
+			},
+			"volume": 5251.56,
+			"value": 9922227,
+			"volumeYoy": -9.84,
+			"valueYoy": -1.11,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Perennial ryegrass \"Lolium perenne L.\", seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092950",
+				"crop": "CN 12092950"
+			},
+			"volume": 10839.55,
+			"value": 3470113,
+			"volumeYoy": 131.57,
+			"valueYoy": 65.02,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Lupine seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092100",
+				"crop": "CN 12092100"
+			},
+			"volume": 945.82,
+			"value": 3022469,
+			"volumeYoy": 8.88,
+			"valueYoy": 60.69,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Alfalfa seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10061010",
+				"crop": "CN 10061010"
+			},
+			"volume": 2934.84,
+			"value": 1412372,
+			"volumeYoy": 426.58,
+			"valueYoy": 313.95,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Rice in husk for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10082100",
+				"crop": "CN 10082100"
+			},
+			"volume": 403.22,
+			"value": 200250,
+			"volumeYoy": 21.8,
+			"valueYoy": 11.63,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Millet seed for sowing (excl. grain sorghum)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12079110",
+				"crop": "CN 12079110"
+			},
+			"volume": 65.16,
+			"value": 182009,
+			"volumeYoy": 155.17,
+			"valueYoy": 162.47,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Poppy seeds for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-07133310",
+				"crop": "CN 07133310"
+			},
+			"volume": 1676.4,
+			"value": 7788047,
+			"volumeYoy": -1.62,
+			"valueYoy": -11.08,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Dried, shelled kidney beans \"Phaseolus vulgaris\", for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-07131010",
+				"crop": "CN 07131010"
+			},
+			"volume": 2610.39,
+			"value": 1923999,
+			"volumeYoy": 71.54,
+			"valueYoy": 26.33,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Peas, \"Pisum sativum\", dried and shelled, for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092400",
+				"crop": "CN 12092400"
+			},
+			"volume": 419.87,
+			"value": 1145262,
+			"volumeYoy": -32.79,
+			"valueYoy": -46.18,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Kentucky blue grass \"Poa pratensis L.\" seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10021000",
+				"crop": "CN 10021000"
+			},
+			"volume": 8192.45,
+			"value": 2137115,
+			"volumeYoy": 9.84,
+			"valueYoy": -22.1,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Rye seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10071010",
+				"crop": "CN 10071010"
+			},
+			"volume": 649.44,
+			"value": 1074011,
+			"volumeYoy": -1.72,
+			"valueYoy": -43.24,
+			"granularity": "PARTIAL",
+			"definition": "Hybrid grain sorghum, for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10071090",
+				"crop": "CN 10071090"
+			},
+			"volume": 188.97,
+			"value": 223612,
+			"volumeYoy": -65.9,
+			"valueYoy": 10.77,
+			"granularity": "PARTIAL",
+			"definition": "Grain sorghum, for sowing (excl. hybrids)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092280",
+				"crop": "CN 12092280"
+			},
+			"volume": 2203.13,
+			"value": 6311866,
+			"volumeYoy": -2.8,
+			"valueYoy": 21.96,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Clover \"Trifolium spp.\" seed for sowing (excl. red clover [Trifolium pratense L.])",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-12092210",
+				"crop": "CN 12092210"
+			},
+			"volume": 434.78,
+			"value": 2091749,
+			"volumeYoy": 17.37,
+			"valueYoy": 30.37,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Red clover \"Trifolium pratense L.\" seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10019110",
+				"crop": "CN 10019110"
+			},
+			"volume": 2861.55,
+			"value": 1672188,
+			"volumeYoy": 43.24,
+			"valueYoy": 61.7,
+			"granularity": "PARTIAL",
+			"definition": "Spelt seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10019120",
+				"crop": "CN 10019120"
+			},
+			"volume": 61878.78,
+			"value": 13126731,
+			"volumeYoy": 55.3,
+			"valueYoy": 20.52,
+			"granularity": "GROUP_LEVEL",
+			"definition": "Seed of common wheat or meslin, for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10011100",
+				"crop": "CN 10011100"
+			},
+			"volume": 12173.98,
+			"value": 3022037,
+			"volumeYoy": -5.75,
+			"valueYoy": -14.14,
+			"granularity": "SPECIES_SPECIFIC",
+			"definition": "Durum wheat seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10051013",
+				"crop": "CN 10051013"
+			},
+			"volume": 704.35,
+			"value": 3070995,
+			"volumeYoy": -54.21,
+			"valueYoy": -35.54,
+			"granularity": "PARTIAL",
+			"definition": "Three-cross hybrid maize seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10051015",
+				"crop": "CN 10051015"
+			},
+			"volume": 13272.19,
+			"value": 35559173,
+			"volumeYoy": 52.73,
+			"valueYoy": -9.57,
+			"granularity": "PARTIAL",
+			"definition": "Simple hybrid maize seed for sowing",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10051018",
+				"crop": "CN 10051018"
+			},
+			"volume": 4469.34,
+			"value": 1556223,
+			"volumeYoy": 80.8,
+			"valueYoy": -16.44,
+			"granularity": "PARTIAL",
+			"definition": "Hybrid maize seed for sowing (excl. three-cross and simple hybrid seed)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-10051090",
+				"crop": "CN 10051090"
+			},
+			"volume": 61812.98,
+			"value": 19215270,
+			"volumeYoy": 98.62,
+			"valueYoy": 93.73,
+			"granularity": "PARTIAL",
+			"definition": "Maize seed for sowing (excl. hybrid)",
+			"species_allocation": "NONE"
+		},
+		{
+			"crop": {
+				"slug": "CN-07129011",
+				"crop": "CN 07129011"
+			},
+			"volume": 122.54,
+			"value": 2217681,
+			"volumeYoy": -77.11,
+			"valueYoy": 104.59,
+			"granularity": "PARTIAL",
+			"definition": "Dried sweetcorn, hybrid, for sowing",
+			"species_allocation": "NONE"
+		}
+	],
+	period_semantics: {
+		"type": "MONTH_ONLY",
+		"start": "2026-06-01",
+		"end": "2026-06-30",
+		"period": "2026-06",
+		"selection": "eu_internal_trade;period==2026-06",
+		"scope": "40 seed-for-sowing CN codes;gross intra-EU exporter dispatches;not a 121-species measured total"
+	}
+};
+//#endregion
+export { market_snapshot_public_default as _, CatalogueProductionLink as a, exactTonnes as c, snapshot_intelligence_public_default as d, eligibleTradeUnitValues as f, snapshotCandidates as g, rankedExporters as h, Tags as i, SnapshotIntelligence as l, rankedCorridors as m, EvidenceHistory as n, catalogueProductionLink as o, latestTradeUnitValue as p, SeedCard as r, compactTonnes as s, trade_pulse_public_default as t, evidenceDate as u, EstimatedMarketRange as v };
