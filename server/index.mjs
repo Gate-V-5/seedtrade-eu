@@ -20,8 +20,8 @@ const server = http.createServer(async (req, res) => {
   let pathname, rawPathname
   try { rawPathname = new URL(req.url, 'http://localhost').pathname; pathname = decodeURIComponent(rawPathname) } catch { res.writeHead(400); return res.end() }
   if (pathname.includes('\0') || pathname.split('/').includes('..') || pathname.startsWith('/api/')) { res.writeHead(404); return res.end() }
-  // Only the three private application pages may open in an approved activation.
-  const b2bPage = /^\/b2b\/(?:register|verify-email|account)\/?$/.test(pathname) && rawPathname === pathname
+  // Only these exact private application pages may open in an approved activation.
+  const b2bPage = /^\/b2b\/(?:register|verify-email|account|reset-password)\/?$/.test(pathname) && rawPathname === pathname
   if (/^\/b2b(?:\/|$)/i.test(pathname) && !b2bPage) {
     res.writeHead(404, {'Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow','X-Content-Type-Options':'nosniff'});
     return res.end()

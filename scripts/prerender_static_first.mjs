@@ -49,7 +49,7 @@ try {
   for (const file of files.sort()) {
     const relative = path.relative(dist, path.dirname(file)).split(path.sep).join('/')
     const route = relative ? `/${relative}` : '/'
-    if (['/b2b/register','/b2b/verify-email','/b2b/account'].includes(route)) continue
+    if (['/b2b/register','/b2b/verify-email','/b2b/account','/b2b/reset-password'].includes(route)) continue
     window.location.pathname = route
     // hydrateRoot requires React's hydratable text-boundary markers. Static
     // markup deliberately omits them and caused production errors #418/#423/#425.
