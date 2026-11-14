@@ -2,6 +2,7 @@ import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {useLanguage,useT} from '../i18n/index.jsx';
 import legalRegistry from '../legal/registry.json';
 import {b2bFetch} from './apiFetch.mjs';
+import B2bLanguageNotice from './B2bLanguageNotice.jsx';
 
 // Stable country values; display names follow the existing interface language.
 const countries='AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW'.split(' ');
@@ -28,15 +29,10 @@ export default function B2bRegister(){
   async function submit(event){
     event.preventDefault();if(!available||submitting.current)return;
     const form=event.currentTarget,values=new FormData(form),invalid={};
-    const legalName=String(values.get('legalName')??'').trim();
+    const legalName=String(values.get('legalName')??'').trim(),number=String(values.get('registrationNumber')??'').trim();
     if(legalName.length<2||legalName.length>255)invalid.legalName='Enter the company legal name (2–255 characters).';
     if(!countries.includes(values.get('registrationCountry')))invalid.registrationCountry='Select the company registration country.';
-    const street=String(values.get('street')??'').trim(),city=String(values.get('city')??'').trim(),postal=String(values.get('postalCode')??'').trim().toUpperCase();
-    const unsafe=/[\u0000-\u001f\u007f-\u009f<>]/;
-    if(street.length<2||street.length>200||unsafe.test(street)||!/\p{L}/u.test(street)||!/\p{N}/u.test(street))invalid.street='Enter the street and building number (2–200 characters).';
-    if(!city||city.length>100||unsafe.test(city)||!/\p{L}/u.test(city))invalid.city='Enter the city (1–100 characters).';
-    const postalPatterns={LT:/^(?:LT[- ]?)?\d{5}$/,DE:/^\d{5}$/,FR:/^\d{5}$/,ES:/^\d{5}$/,IT:/^\d{5}$/};
-    if(!/^[\p{L}\p{N}][\p{L}\p{N} -]{0,19}$/u.test(postal)||(postalPatterns[country]&&!postalPatterns[country].test(postal)))invalid.postalCode='Enter a valid postal code for the selected country (up to 20 characters).';
+    if(number.length<2||number.length>100)invalid.registrationNumber='Enter the company registration number (2–100 characters).';
     if(!values.get('email')||!form.elements.namedItem('email').validity.valid)invalid.email='Enter a valid business email address.';
     const password=String(values.get('password')??'');
     if(password.length<12||password.length>1024)invalid.password='Use a password of 12–1024 characters.';
@@ -48,7 +44,7 @@ export default function B2bRegister(){
       const response=await b2bFetch('/api/b2b/v1/register',{
         method:'POST',headers:{'Content-Type':'application/json'},credentials:'same-origin',cache:'no-store',
         body:JSON.stringify({email:values.get('email'),password:values.get('password'),termsAccepted:values.get('termsAccepted')==='on',locale:'en',uiLanguage:language,legalBundleId:legalRegistry.bundleId,
-          company:{legalName:values.get('legalName'),registrationCountry:values.get('registrationCountry'),registeredAddress:{street:values.get('street'),city:values.get('city'),postalCode:values.get('postalCode')}}})
+          company:{legalName:values.get('legalName'),registrationCountry:values.get('registrationCountry'),registrationNumber:values.get('registrationNumber')}})
       });
       const result=await response.json();
       if(response.status===202&&['PENDING_EMAIL_DELIVERY','PENDING_EMAIL_VERIFICATION'].includes(result.status)){
@@ -77,9 +73,7 @@ export default function B2bRegister(){
           <fieldset disabled={!available||busy}>
             <div className="b2b-field"><label htmlFor="registration-legalName">{t('Company legal name')}</label><input {...inputProps('legalName')} autoComplete="organization" required minLength={2} maxLength={255}/>{error('legalName')}</div>
             <div className="b2b-field"><label htmlFor="registration-registrationCountry">{t('Registration country')}</label><select {...inputProps('registrationCountry')} autoComplete="country" required value={country} onChange={event=>{setCountry(event.target.value);clearError('registrationCountry');}}><option value="">{t('Select a country')}</option>{options.map(item=><option key={item.code} value={item.code}>{item.label}</option>)}</select>{error('registrationCountry')}</div>
-            <div className="b2b-field"><label htmlFor="registration-street">{t('Registered business address (street and building number)')}</label><input {...inputProps('street')} autoComplete="address-line1" required minLength={2} maxLength={200}/>{error('street')}</div>
-            <div className="b2b-field"><label htmlFor="registration-city">{t('City')}</label><input {...inputProps('city')} autoComplete="address-level2" required minLength={1} maxLength={100}/>{error('city')}</div>
-            <div className="b2b-field"><label htmlFor="registration-postalCode">{t('Postal code')}</label><input {...inputProps('postalCode')} autoComplete="postal-code" autoCapitalize="characters" required maxLength={20}/>{error('postalCode')}</div>
+            <div className="b2b-field"><label htmlFor="registration-registrationNumber">{t('Company registration number')}</label><input {...inputProps('registrationNumber')} autoComplete="off" required minLength={2} maxLength={100}/>{error('registrationNumber')}</div>
             <div className="b2b-field"><label htmlFor="registration-email">{t('Business email')}</label><input {...inputProps('email')} type="email" autoComplete="email" inputMode="email" autoCapitalize="none" spellCheck={false} required maxLength={254}/>{error('email')}</div>
             <div className="b2b-field"><label htmlFor="registration-password">{t('Password')}</label><div className="b2b-password"><input {...inputProps('password')} type={showPassword?'text':'password'} autoComplete="new-password" required minLength={12} maxLength={1024}/><button type="button" className="b2b-password-toggle" aria-controls="registration-password" aria-label={t(showPassword?'Hide password':'Show password')} aria-pressed={showPassword} onClick={()=>setShowPassword(value=>!value)}>{t(showPassword?'Hide':'Show')}</button></div><p className="b2b-field-help" id="password-help">{t('Use at least 12 characters. A unique passphrase is a good choice.')}</p>{error('password')}</div>
             <div className="b2b-registration-legal-links" aria-label={t('Registration legal documents')}><a href="/terms" target="_blank" rel="noopener noreferrer">{t('B2B Terms')}</a><a href="/privacy" target="_blank" rel="noopener noreferrer">{t('Privacy Notice')}</a></div>
@@ -91,6 +85,7 @@ export default function B2bRegister(){
         </form>
       </>}
       <p className="b2b-contact">{t('For any questions, requests or further information, please contact the SeedTrade.eu team at')} <a href="mailto:info@seedtrade.eu">info@seedtrade.eu</a>.</p>
+      <B2bLanguageNotice/>
     </section>
   </main>;
 }
