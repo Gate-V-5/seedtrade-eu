@@ -18,4 +18,4 @@ for(const item of news.items){
  assert.ok(!/PUBLIC_SAFE|OFFICIAL_DATA|OFFICIAL_SOURCE|PUBLIC_SOURCE|Checked \d|Market Signal|quantitative engine/.test(visible),`Internal code in editorial UI: ${item.slug}`)
  assert.ok(main.includes('news-references'));assert.ok(!main.includes('evidence-labels'))
 }
-console.log('News presentation build gate PASS: reviewed reference records and all10 clean editorial pages; data/provenance remains internal.')
+console.log(`News presentation build gate PASS: reviewed reference records and all ${news.items.length} clean editorial pages; data/provenance remains internal.`)

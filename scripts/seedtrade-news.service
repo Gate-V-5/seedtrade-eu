@@ -1,0 +1,10 @@
+[Unit]
+Description=SEEDTRADE.EU private news preparation; never deploys
+[Service]
+Type=oneshot
+User=REQUIRES_EXISTING_AUTHORIZED_ACCOUNT_BINDING
+# Templates require actual authorized existing account/path binding before install.
+WorkingDirectory=/opt/seedtrade-news/source
+ExecStart=/usr/bin/python3 scripts/news_pipeline.py tick --private-dir /opt/seedtrade-news/private
+NoNewPrivileges=true
+PrivateTmp=true

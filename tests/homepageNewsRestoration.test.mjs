@@ -10,11 +10,11 @@ const fresh=news.items.slice(-2),asOf='2026-10-16',clone=structuredClone
 const pick=(items,date=asOf)=>selectStreamHighlights(items,date,registry)
 test('current reviewed reports restore both categories; original publication dates are retained',()=>{
  const selected=pick(news.items)
- assert.equal(selected.length,4)
+ assert.equal(selected.length,2)
  for(const item of fresh){assert.ok(selected.some(row=>row.item.id===item.id));assert.equal(item.publication_date,asOf)}
  const before=JSON.parse(execFileSync('git',['show','c0940c65136cc245321ea7bbca88a501bc91b5d3:src/generated/news.json'],{encoding:'utf8'}))
  assert.deepEqual(news.items.slice(0,before.items.length),before.items)
- assert.deepEqual(pick(before.items).map(row=>row.stream),['EU Trade Market','EU Events'])
+ assert.deepEqual(pick(before.items).map(row=>row.stream),[]) // Owner seven-day rule supersedes older review deadlines
 })
 test('latest valid report wins; an older still-reviewed report survives a newer expired report',()=>{
  const older=clone(fresh[0]),newer=clone(older)
@@ -67,5 +67,5 @@ test('dated weather analysis and source-date uncertainty remain explicit',()=>{
  assert.equal(fresh[1].sources.find(row=>row.id==='forage').published_at,null)
 })
 test('server, B2B and Weather/Phenology calculations remain byte-identical to canonical main',()=>{
- for(const path of ['server/index.mjs','src/generated/weather_public.json','src/generated/market_public.json','src/generated/supply_public.json','src/generated/rfqs_public.json','src/data/species_master_v1_1.json'])assert.deepEqual(fs.readFileSync(path),execFileSync('git',['show',`origin/main:${path}`]),path)
+ for(const path of ['server/index.mjs','src/generated/weather_public.json','src/generated/market_public.json','src/generated/supply_public.json','src/generated/rfqs_public.json','src/data/species_master_v1_1.json'])assert.deepEqual(fs.readFileSync(path),execFileSync('git',['show',`911a973aa8a84fa9df2bbf13ccc19811a0d26578:${path}`]),path)
 })

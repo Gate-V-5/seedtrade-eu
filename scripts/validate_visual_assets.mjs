@@ -6,7 +6,7 @@ import assert from 'node:assert/strict'
 import {catalogueImageProps} from '../src/catalogueImages.mjs'
 const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..')
 // Updating this reviewed pin is a deliberate source review,not a runtime override.
-export const INVENTORY_SHA256='18ed56d5f4c41d15e0ef944136adaca3398d5ce776bc68454cff3d97010f8206'
+export const INVENTORY_SHA256='97c5742e760804eaed78f38c9e0f00f0ad5f1938b3b11859218cf0142ce4843a'
 const digest=b=>createHash('sha256').update(b).digest('hex')
 function webpSize(b){
  assert.equal(b.toString('ascii',0,4),'RIFF');assert.equal(b.toString('ascii',8,12),'WEBP')

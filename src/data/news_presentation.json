@@ -1,9 +1,10 @@
 {
   "sources": {
     "https://www.interpom.be/en/": {
-      "title": "The meeting place for the entire potato value chain in Europe",
-      "verified_at": "2026-10-16",
-      "publication_date": null
+      "organization": "INTERPOM / Kortrijk Xpo",
+      "title": "INTERPOM 2026 — Practical information",
+      "publication_date": null,
+      "verified_at": "2026-11-16"
     },
     "https://eciu.net/media/press-releases/chips-are-down-summer-drought-knocks-over-3-million-tonnes-off-uk-and-europes-potato-crop": {
       "title": "Chips are down – summer drought knocks over 3 million tonnes off UK and Europe’s potato crop",
@@ -79,6 +80,30 @@
       "title": "Grass and White Clover Recommended List Varieties for Ireland 2026",
       "verified_at": "2026-10-16",
       "publication_date": null
+    },
+    "https://teagasc.ie/news--events/daily/harvest-report-2026-weather-impact-2/": {
+      "organization": "Teagasc",
+      "title": "Harvest Report 2026 – Weather Impact",
+      "publication_date": "2026-11-12",
+      "verified_at": "2026-11-16"
+    },
+    "https://www.arvalis.fr/infos-techniques/cereales-adapter-les-prochaines-interventions-la-situation": {
+      "organization": "ARVALIS",
+      "title": "Céréales : adapter les prochaines interventions à la situation",
+      "publication_date": "2026-11-12",
+      "verified_at": "2026-11-16"
+    },
+    "https://www.nak.nl/nacontrole-2026-update-3/": {
+      "organization": "NAK",
+      "title": "Nacontrole 2026 - update 3",
+      "publication_date": "2026-11-12",
+      "verified_at": "2026-11-16"
+    },
+    "https://www.interpom.be/en/discover-the-fair/innovation-tour-1/": {
+      "organization": "INTERPOM / Kortrijk Xpo",
+      "title": "INTERPOM 2026 — Innovation Tour",
+      "publication_date": null,
+      "verified_at": "2026-11-16"
     }
   },
   "photo_titles": {

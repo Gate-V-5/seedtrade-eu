@@ -246,5 +246,269 @@
       }
     },
     "original_local_path": "assets/licensed-news-originals/autumn-2026-agronomy-evidence-review.jpg"
+  },
+  "ireland-harvest-weather-november-2026": {
+    "src": "/editorial/brief-weather.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Harvested field in France, before September 2007; context, not Ireland in 2026.",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_PHOTOGRAPH",
+    "creator": "Tractorboy60",
+    "title": "Roundbales",
+    "source_platform": "Wikimedia Commons",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Roundbales.jpg",
+    "licence": "Public domain (author dedication)",
+    "licence_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg#file",
+    "reuse_basis": "Commercial use, redistribution and derivatives permitted; author public-domain dedication and fallback unrestricted permission",
+    "retrieval_date": "2026-10-16",
+    "license_verified_at": "2026-11-16",
+    "article_mapping": "ireland-harvest-weather-november-2026",
+    "changes": "Cropped to 16:9, resized and converted to WebP",
+    "object_position": "50% 50%",
+    "documentary_evidence": false,
+    "image_policy_version": 1,
+    "commercial_use_verified": true,
+    "redistribution_verified": true,
+    "relevance_verified": true,
+    "ai_generated": false,
+    "original_sha256": "95bd46673ee42362390a7f07c8de748287f65ebefa0fdedead57efca1ca875e2",
+    "asset_sha256": "3f8952193588e1e0916c05be0dd79c6745abb27f3423fbab29f956f05381b4aa",
+    "license_evidence_sha256": "07b76156dc173c2937bb4220daab215579636c2834e43f2f7de6cf5fb01158a5",
+    "attribution_required": false,
+    "derivative_licence": "Public domain (author dedication)",
+    "relevance_note": "Real subject-related context photograph; historical location/date disclosed, not evidence of the current reported conditions.",
+    "localizations": {
+      "en": {
+        "alt": "Harvested field in France, before September 2007; context, not Ireland in 2026.",
+        "caption": "Harvested field in France, before September 2007; context, not Ireland in 2026.",
+        "changes": "Cropped to 16:9, resized and converted to WebP",
+        "fallback": "Photograph unavailable"
+      },
+      "de": {
+        "alt": "Abgeerntetes Feld in Frankreich, vor September 2007; Symbolfoto, nicht Irland 2026.",
+        "caption": "Abgeerntetes Feld in Frankreich, vor September 2007; Symbolfoto, nicht Irland 2026.",
+        "changes": "Auf 16:9 zugeschnitten, verkleinert und in WebP konvertiert",
+        "fallback": "Foto nicht verfügbar"
+      },
+      "fr": {
+        "alt": "Champ récolté en France, avant septembre 2007 ; illustration, pas l’Irlande en 2026.",
+        "caption": "Champ récolté en France, avant septembre 2007 ; illustration, pas l’Irlande en 2026.",
+        "changes": "Recadrée en 16:9, redimensionnée et convertie en WebP",
+        "fallback": "Photographie indisponible"
+      },
+      "es": {
+        "alt": "Campo cosechado en Francia, antes de septiembre de 2007; ilustración, no Irlanda en 2026.",
+        "caption": "Campo cosechado en Francia, antes de septiembre de 2007; ilustración, no Irlanda en 2026.",
+        "changes": "Recortada a 16:9, redimensionada y convertida a WebP",
+        "fallback": "Fotografía no disponible"
+      },
+      "it": {
+        "alt": "Campo raccolto in Francia, prima di settembre 2007; illustrazione, non Irlanda nel 2026.",
+        "caption": "Campo raccolto in Francia, prima di settembre 2007; illustrazione, non Irlanda nel 2026.",
+        "changes": "Ritagliata a 16:9, ridimensionata e convertita in WebP",
+        "fallback": "Fotografia non disponibile"
+      }
+    },
+    "original_local_path": "assets/licensed-news-originals/europe-september-2026-climate-retrospective.jpg"
+  },
+  "occitanie-cereal-establishment-november-2026": {
+    "src": "/editorial/brief-agronomist.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": "Winter wheat, England, October 2011; context, not the reported Occitanie fields.",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_PHOTOGRAPH",
+    "creator": "Michael Trolove",
+    "title": "Winter wheat plants at ground level",
+    "source_platform": "Wikimedia Commons",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "reuse_basis": "Commercial use, redistribution and derivatives permitted; attribution and ShareAlike 2.0 required, derivative retains licence",
+    "retrieval_date": "2026-10-16",
+    "license_verified_at": "2026-11-16",
+    "article_mapping": "occitanie-cereal-establishment-november-2026",
+    "changes": "Cropped to 16:9, resized and converted to WebP",
+    "object_position": "50% 50%",
+    "documentary_evidence": false,
+    "image_policy_version": 1,
+    "commercial_use_verified": true,
+    "redistribution_verified": true,
+    "relevance_verified": true,
+    "ai_generated": false,
+    "original_sha256": "c7b564dc710624342717c393a64b0174560aae87d52a139a32f18f5192f4a246",
+    "asset_sha256": "d0dfc145afcf3fcd777d2bf592fc794ad7f592bb428e4cab3acbdd85b17f9901",
+    "license_evidence_sha256": "6798f0ebbdec2d24c5385cd971bf636443c54e520ddba4fb68438a076c6ba743",
+    "attribution_required": true,
+    "derivative_licence": "CC BY-SA 2.0",
+    "relevance_note": "Real subject-related context photograph; historical location/date disclosed, not evidence of the current reported conditions.",
+    "localizations": {
+      "en": {
+        "alt": "Winter wheat, England, October 2011; context, not the reported Occitanie fields.",
+        "caption": "Winter wheat, England, October 2011; context, not the reported Occitanie fields.",
+        "changes": "Cropped to 16:9, resized and converted to WebP",
+        "fallback": "Photograph unavailable"
+      },
+      "de": {
+        "alt": "Winterweizen, England, Oktober 2011; Symbolfoto, nicht die beschriebenen Felder in Okzitanien.",
+        "caption": "Winterweizen, England, Oktober 2011; Symbolfoto, nicht die beschriebenen Felder in Okzitanien.",
+        "changes": "Auf 16:9 zugeschnitten, verkleinert und in WebP konvertiert",
+        "fallback": "Foto nicht verfügbar"
+      },
+      "fr": {
+        "alt": "Blé d’hiver, Angleterre, octobre 2011 ; illustration, pas les parcelles décrites en Occitanie.",
+        "caption": "Blé d’hiver, Angleterre, octobre 2011 ; illustration, pas les parcelles décrites en Occitanie.",
+        "changes": "Recadrée en 16:9, redimensionnée et convertie en WebP",
+        "fallback": "Photographie indisponible"
+      },
+      "es": {
+        "alt": "Trigo de invierno, Inglaterra, octubre de 2011; ilustración, no las parcelas descritas de Occitania.",
+        "caption": "Trigo de invierno, Inglaterra, octubre de 2011; ilustración, no las parcelas descritas de Occitania.",
+        "changes": "Recortada a 16:9, redimensionada y convertida a WebP",
+        "fallback": "Fotografía no disponible"
+      },
+      "it": {
+        "alt": "Frumento invernale, Inghilterra, ottobre 2011; illustrazione, non le parcelle descritte in Occitania.",
+        "caption": "Frumento invernale, Inghilterra, ottobre 2011; illustrazione, non le parcelle descritte in Occitania.",
+        "changes": "Ritagliata a 16:9, ridimensionata e convertita in WebP",
+        "fallback": "Fotografia non disponibile"
+      }
+    },
+    "original_local_path": "assets/licensed-news-originals/autumn-2026-agronomy-evidence-review.jpg"
+  },
+  "netherlands-seed-potato-testing-november-2026": {
+    "src": "/editorial/brief-trade-seed-potatoes.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": "Seed potatoes; historical illustration, not a NAK inspection.",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_PHOTOGRAPH",
+    "creator": "Rasbak",
+    "title": "Aardappel Doré poters (Solanum tuberosum seed potatoes)",
+    "source_platform": "Wikimedia Commons",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Aardappel_Dor%C3%A9_poters_(Solanum_tuberosum_seed_potatoes).jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Aardappel_Dor%C3%A9_poters_%28Solanum_tuberosum_seed_potatoes%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "reuse_basis": "Commercial reuse and derivatives allowed with attribution and ShareAlike; no endorsement implied.",
+    "retrieval_date": "2026-10-02",
+    "license_verified_at": "2026-11-16",
+    "article_mapping": "netherlands-seed-potato-testing-november-2026",
+    "changes": "Cropped to 16:9, resized and converted to WebP; no generative alteration",
+    "object_position": "50% 50%",
+    "documentary_evidence": false,
+    "image_policy_version": 1,
+    "commercial_use_verified": true,
+    "redistribution_verified": true,
+    "relevance_verified": true,
+    "ai_generated": false,
+    "original_local_path": "assets/licensed-news-originals/potato.jpg",
+    "original_sha256": "d4febdfd25ed652268dd0eff9147ab71ba62b4c77fb978246d89d03d508c1747",
+    "asset_sha256": "981fdfda88baa56a4efa5392dcc985464fd57c2d00294ebdcb65920a30bb9461",
+    "license_evidence_sha256": "993655ee622ade84b5aa4e220de599132920ca307f59e0bd35024b3ff8961d12",
+    "attribution_required": true,
+    "derivative_licence": "CC BY-SA 3.0",
+    "relevance_note": "Real seed potatoes illustrate the traded material; not documentary evidence of certification or a particular lot.",
+    "localizations": {
+      "en": {
+        "alt": "Doré seed potatoes, photographed by Rasbak; historical illustration, not a NAK inspection or an available lot.",
+        "caption": "Doré seed potatoes, photographed by Rasbak; historical illustration, not a NAK inspection or an available lot.",
+        "changes": "Cropped to 16:9, resized and converted to WebP",
+        "fallback": "Photograph unavailable"
+      },
+      "de": {
+        "alt": "Pflanzkartoffeln der Sorte Doré, fotografiert von Rasbak; historisches Symbolfoto, keine NAK-Prüfung oder verfügbare Partie.",
+        "caption": "Pflanzkartoffeln der Sorte Doré, fotografiert von Rasbak; historisches Symbolfoto, keine NAK-Prüfung oder verfügbare Partie.",
+        "changes": "Auf 16:9 zugeschnitten, verkleinert und in WebP konvertiert",
+        "fallback": "Foto nicht verfügbar"
+      },
+      "fr": {
+        "alt": "Plants de pomme de terre Doré, photographiés par Rasbak ; illustration historique, pas une inspection NAK ni un lot disponible.",
+        "caption": "Plants de pomme de terre Doré, photographiés par Rasbak ; illustration historique, pas une inspection NAK ni un lot disponible.",
+        "changes": "Recadrée en 16:9, redimensionnée et convertie en WebP",
+        "fallback": "Photographie indisponible"
+      },
+      "es": {
+        "alt": "Patatas de siembra Doré, fotografiadas por Rasbak; imagen histórica ilustrativa, no una inspección NAK ni un lote disponible.",
+        "caption": "Patatas de siembra Doré, fotografiadas por Rasbak; imagen histórica ilustrativa, no una inspección NAK ni un lote disponible.",
+        "changes": "Recortada a 16:9, redimensionada y convertida a WebP",
+        "fallback": "Fotografía no disponible"
+      },
+      "it": {
+        "alt": "Patate da semina Doré, fotografate da Rasbak; immagine storica illustrativa, non un’ispezione NAK o un lotto disponibile.",
+        "caption": "Patate da semina Doré, fotografate da Rasbak; immagine storica illustrativa, non un’ispezione NAK o un lotto disponibile.",
+        "changes": "Ritagliata a 16:9, ridimensionata e convertita in WebP",
+        "fallback": "Fotografia non disponibile"
+      }
+    }
+  },
+  "interpom-2026-innovation-tour-visitor-brief": {
+    "src": "/editorial/brief-events.webp",
+    "width": 1280,
+    "height": 720,
+    "alt": "Kortrijk Xpo in July 2022; venue photograph, not the 2026 fair.",
+    "classification": "PUBLIC_SAFE",
+    "kind": "EDITORIAL_PHOTOGRAPH",
+    "creator": "Marcel Douwe Dekker",
+    "title": "Kortrijk Xpo, 2022",
+    "source_platform": "Wikimedia Commons",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Kortrijk_Xpo,_2022.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kortrijk_Xpo%2C_2022.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "reuse_basis": "Commercial reuse and adaptations permitted under CC BY-SA 4.0; credit Marcel Douwe Dekker, link the licence, indicate the crop/resize and retain ShareAlike 4.0.",
+    "retrieval_date": "2026-11-16",
+    "license_verified_at": "2026-11-16",
+    "article_mapping": "interpom-2026-innovation-tour-visitor-brief",
+    "changes": "Cropped to 16:9, resized and converted to WebP",
+    "object_position": "50% 50%",
+    "documentary_evidence": false,
+    "image_policy_version": 1,
+    "commercial_use_verified": true,
+    "redistribution_verified": true,
+    "relevance_verified": true,
+    "ai_generated": false,
+    "original_sha256": "2dbe258114438bc37c80ab34c67e0626f90487454e95539e1d519a1e48042135",
+    "asset_sha256": "afd5fed8ba6f61572802c1a41810ec34c4193b6a7fcfb05a52a3e9475603b7b2",
+    "license_evidence_sha256": "416e4d7e5b8a49f11cbaa0c966efc6ac8aebc4fcc8642a7bd074a34135b16f0e",
+    "attribution_required": true,
+    "derivative_licence": "CC BY-SA 4.0",
+    "relevance_note": "Real subject-related context photograph; historical location/date disclosed, not evidence of the current reported conditions.",
+    "localizations": {
+      "en": {
+        "alt": "Kortrijk Xpo in July 2022; venue photograph, not the 2026 fair.",
+        "caption": "Kortrijk Xpo in July 2022; venue photograph, not the 2026 fair.",
+        "changes": "Cropped to 16:9, resized and converted to WebP",
+        "fallback": "Photograph unavailable"
+      },
+      "de": {
+        "alt": "Kortrijk Xpo im Juli 2022; Aufnahme des Veranstaltungsorts, nicht der Messe 2026.",
+        "caption": "Kortrijk Xpo im Juli 2022; Aufnahme des Veranstaltungsorts, nicht der Messe 2026.",
+        "changes": "Auf 16:9 zugeschnitten, verkleinert und in WebP konvertiert",
+        "fallback": "Foto nicht verfügbar"
+      },
+      "fr": {
+        "alt": "Kortrijk Xpo en juillet 2022 ; photo du lieu, pas du salon 2026.",
+        "caption": "Kortrijk Xpo en juillet 2022 ; photo du lieu, pas du salon 2026.",
+        "changes": "Recadrée en 16:9, redimensionnée et convertie en WebP",
+        "fallback": "Photographie indisponible"
+      },
+      "es": {
+        "alt": "Kortrijk Xpo en julio de 2022; fotografía del recinto, no de la feria de 2026.",
+        "caption": "Kortrijk Xpo en julio de 2022; fotografía del recinto, no de la feria de 2026.",
+        "changes": "Recortada a 16:9, redimensionada y convertida a WebP",
+        "fallback": "Fotografía no disponible"
+      },
+      "it": {
+        "alt": "Kortrijk Xpo nel luglio 2022; fotografia della sede, non della fiera 2026.",
+        "caption": "Kortrijk Xpo nel luglio 2022; fotografia della sede, non della fiera 2026.",
+        "changes": "Ritagliata a 16:9, ridimensionata e convertita in WebP",
+        "fallback": "Fotografia non disponibile"
+      }
+    },
+    "original_local_path": "assets/licensed-news-originals/brief-interpom-venue.jpg"
   }
 }

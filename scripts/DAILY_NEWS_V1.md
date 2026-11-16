@@ -155,3 +155,142 @@ are on articles. New reference URLs require a reviewed news_presentation entry.
 Build includes validate_news_presentation.mjs after prerender and fails closed
 on internal editorial UI codes. Never alter immutable article content merely to
 pass this check; resolve any contradictory editorial requirements first.
+
+
+## Stage 2 local operating procedure (not activated in production)
+
+Run `python scripts/news_pipeline.py collect` for bounded source discovery or
+`python scripts/news_pipeline.py tick` for due daily/Sunday/Wednesday processing.
+The private queue defaults to the existing workspace private/stage2-news-v1.
+`status` reports actual collection, pending candidates, source failures and real
+review/publication timestamps; null means no such action occurred. A scheduled
+cycle prepares review drafts; it never grants editorial or language approval.
+Source dates missing from accessible evidence remain unknown. Date ambiguity,
+seed relevance and commercial implications require human review.
+
+The timer/service files are LOCAL TEMPLATES ONLY. They are not installed. The
+existing authorized execution account and private paths must be bound during a
+separately authorized production deployment. The due checker uses Europe/Vilnius
+IANA rules, daily checks after07:00 and Wednesday/Sunday18:00 editorial windows;
+missed windows are caught up without running the same window twice.
+
+An actual owner-controlled review supplies a private package, editorial receipt
+and separate exact publication authorization. Receipt covers the entire package,
+all five language versions, claim review and real-photo rights review. Codex must
+not fabricate these inputs. `prepare-publication --package ... --receipt ...
+--authorization ...` reuses existing validation, builds an isolated private copy
+and records an approved handoff. It does not push, deploy or mutate the canonical
+news snapshot. Approved-content digest receipts contain no private reviewer IDs.
+A future authorized deployment uses the existing managed Git/Hostinger process,
+stopping on drift and preserving COMEXT. Never copy candidate/draft queues into
+GitHub public artifacts or the public website. Legacy narrative/image exceptions
+remain immutable. A seven-day highlight cannot be renewed by changing checked_at.
+Daily render-refresh handoffs remove expired selections but cannot approve claims.
+
+
+New article packages carry an explicit editorial_type selected by the reviewer:
+OFFICIAL_UPDATE, RESEARCH_BRIEFING, PRELIMINARY_RESEARCH,
+COMPANY_ANNOUNCEMENT or EDITORIAL_ANALYSIS. This is a public descriptive label,
+not a substitute for individual claim evidence or independent corroboration.
+
+Stage 2 content readiness: `node scripts/validate_news_package.mjs --draft <file>`
+checks the complete pending package without granting approval. Its persisted
+article remains PENDING_OWNER_APPROVAL, DRAFT and publication_eligible=false.
+The pure in-memory publication projection is for structural/selection checks;
+the existing build gate still rejects it without a genuine content-bound receipt.
+Only after exact draft-hash editorial approval (including all languages and image
+rights) AND separate publication authorization does prepare-publication persist
+the approved projection in its private build copy. That copy records both draft
+and projected-content hashes and propagates the reviewed image evidence into the
+existing photography register. Canonical snapshots and historical rights remain
+unchanged until a separately authorized publication.
+
+Do not invent measurement dates for retrospective or procurement analysis.
+Such EDITORIAL_ANALYSIS may carry observation_period=null only with the explicit
+SOURCE_OBSERVATION_WINDOW_NOT_VERIFIED or NO_MEASURED_PERIOD_PROCUREMENT_GUIDANCE
+basis. Dated official observations still require a valid measured range. Source
+publication dates, proposed editorial dates and retrieval dates stay distinct.
+
+
+## Mandatory four-stream coverage (local implementation)
+
+The editorial target is four distinct articles on Wednesday and four on Sunday,
+at 18:00 Europe/Vilnius: one per EU Weather, EU Agronomist, EU Trade Market and
+EU Events. Eight weekly targets are not a guarantee of eight publications.
+Daily discovery maintains separate private, independently ranked shortlists.
+Source-family scope alone cannot establish an article's category. Previously
+screened navigation/background links are skipped before the bounded detail budget.
+
+`python scripts/news_pipeline.py coverage` refreshes private shortlists.json and
+editorial_slots.json without collection or publication. Future targets have
+status SCHEDULED and readiness UNFILLED until actual authorized publication;
+cycle checks record UNFILLED with a concrete missing-topic/package/approval
+reason. Planned slots missed while offline remain in the rolling ledger as
+UNFILLED, never silently disappear or receive backdated filler. Slot UTC instants
+use the IANA offset for each scheduled date, including DST-transition weeks.
+
+One topic cannot supply two categories within a cycle. Pending package presence
+is reported separately from approval, and proposed dates must match the intended
+slot before an authorized local build. Completed/cancelled events cannot satisfy
+an upcoming-event slot. A local approved build is not a published article and
+never marks a slot filled. Missing evidence or approval preserves the public
+archive fallback. The existing two pending packages are not rewritten to meet
+this schedule. Rebinding their dates would change hashes and require exact review.
+Production deployment and scheduler installation remain unauthorized.
+
+
+## Owner's simplified short-news standard
+
+Ordinary verified announcements do not need academic research, multiple
+independent sources, a market forecast, quantified commercial impact or an
+analytical essay. One genuine suitable primary source may support a clearly
+attributed factual brief. Existing evidence-class restrictions still prevent a
+company's performance claim from being presented as an independently proven fact.
+National and regional stories are eligible; EU-wide coverage is not mandatory.
+
+SHORT_NEWS_BRIEF uses an interesting headline, country/region, original source,
+real licensed photograph, accurate proposed/actual publication date and two or
+three paragraphs totalling 500-1000 main-text characters in each of EN/DE/FR/ES/IT.
+No extra public analysis/Why it matters box or paragraph headings are required.
+The legacy article schema/history and approval evidence remain supported.
+
+Prefer a source published within seven days. Retrieval is not publication. A
+future event may instead use documented current programme/visitor relevance
+checked within seven days; its original announcement date may remain unknown.
+Older existing drafts remain intact as backlog, not current short-news slots.
+
+`python scripts/news_pipeline.py prepare-briefs` automatically composes and
+validates one best eligible private package per stream from source-checked
+multilingual editorial inputs. It also runs during Wednesday/Sunday cycles.
+This is template assembly, not an invented automatic translation service:
+new raw candidates missing verified multilingual wording or image evidence are
+held for completion. The four actual input sets were prepared in the current
+editorial task. Date rebinding creates a new dated package/hash; it never rewrites
+the two earlier pending drafts. Packages always remain DRAFT/ineligible until
+real content-bound language/image approval and separate publication authorization.
+
+
+## Permanent owner-approved selection rules
+
+EU Trade Market is an agricultural-seed stream. A commodity-grain price or energy
+bulletin cannot become seed news merely by saying it is useful to seed businesses.
+Discovery retains direct seed-topic leads for verification; automatic selection
+requires a substantiated source-backed seed connection. Publication validation
+requires verified seed-specific source scope/locator, or a seed_sector_connection
+with an explained direct/wider-agriculture link, source IDs, actual seed-related
+source evidence and a precise locator. Article prose and generic disclaimers do
+not establish that connection. One adequate primary source can suffice; no new
+academic or multiple-independent-source quota is introduced. A failed connection
+excludes the Trade item; it is not repaired by inventing a seed-price implication.
+The current French grain/energy brief is excluded pending a genuine replacement.
+
+Geographic diversity covers Europe, including non-EU European markets. Existing
+registered sources continue to be collected without country quotas or an EU-only
+filter. geographic_coverage.json tracks countries/regions in the latest 20 actual
+published snapshot articles; drafts, scheduled slots and future records do not
+count. Use verified story geography, never publisher nationality as a substitute.
+At equal editorial score/eligibility, prefer lower recent country representation,
+then region representation. Missing geography receives no artificial bonus.
+Higher editorial value always takes priority; an important repeat-country story
+is never rejected solely for geographic balance. Original scoring weights,
+publication approvals, five-language format and image rights remain unchanged.

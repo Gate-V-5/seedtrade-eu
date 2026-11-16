@@ -1,3 +1,14 @@
+# Stage 2 owner-authorized presentation extension ? local implementation
+
+The Stage 2 implementation instruction supersedes card restrictions below only
+for the full news page: concise summaries and credible source attribution are
+now shown. Homepage cards remain compact. Localized Browse News and combined
+filters precede featured/latest/archive sections. Preserve immutable historical
+narratives, rights evidence, canonical URLs and legacy photography exceptions.
+No new article becomes public without complete reviewed languages, eligible
+real photography, content-bound private approval and explicit publication
+permission. Existing technical classifications are not customer-facing labels.
+
 # Canonical News Experience V3
 
 This is the single presentation standard for homepage, /news archive and /news/*

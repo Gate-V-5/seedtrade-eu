@@ -18,7 +18,10 @@
       "limitations": "Forecasts are not final harvest or certified-seed statistics.",
       "active": true,
       "last_checked": "2026-10-01",
-      "access_check_status": "VERIFIED_PUBLIC"
+      "access_check_status": "VERIFIED_PUBLIC",
+      "approved_hosts": [
+        "publications.jrc.ec.europa.eu"
+      ]
     },
     {
       "source_id": "copernicus-edo",
@@ -104,7 +107,8 @@
       "limitations": "Trial conditions and regional applicability must be retained.",
       "active": true,
       "last_checked": "2026-10-16",
-      "access_check_status": "VERIFIED_PUBLIC"
+      "access_check_status": "VERIFIED_PUBLIC",
+      "discovery_url": "https://www.arvalis.fr/infos-techniques/tous-les-contenus"
     },
     {
       "source_id": "terres-inovia",
@@ -167,7 +171,8 @@
       "source_type": "RESEARCH_ADVISORY",
       "streams": [
         "EU Agronomist",
-        "EU Events"
+        "EU Events",
+        "EU Weather"
       ],
       "public_url": "https://teagasc.ie/",
       "access_type": "PUBLIC_WEB",
@@ -176,7 +181,8 @@
       "limitations": "Irish assumptions are not automatically transferable.",
       "active": true,
       "last_checked": "2026-10-16",
-      "access_check_status": "VERIFIED_PUBLIC"
+      "access_check_status": "VERIFIED_PUBLIC",
+      "discovery_url": "https://teagasc.ie/news--events/daily/"
     },
     {
       "source_id": "ior-pib",
@@ -370,6 +376,63 @@
       "limitations": "Surface soil moisture is qualitative regional context, not field measurements or certified-seed losses.",
       "active": true,
       "last_checked": "2026-10-16",
+      "access_check_status": "VERIFIED_PUBLIC"
+    },
+    {
+      "source_id": "govuk-seeds",
+      "source_name": "UK Government / Defra and APHA",
+      "country_region": "GB",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Trade Market",
+        "EU Agronomist"
+      ],
+      "public_url": "https://www.gov.uk/government/collections/plant-varieties-and-seeds",
+      "approved_hosts": [
+        "www.gov.uk",
+        "gov.uk"
+      ],
+      "discovery_url": "https://www.gov.uk/search/news-and-communications.atom?keywords=seeds",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "As official notices are released",
+      "reliability_notes": "Primary UK seed/variety and plant-health notices; verify each notice and applicable jurisdiction.",
+      "limitations": "Discovery scope is broad; source date and seed relevance require editorial review.",
+      "active": true,
+      "last_checked": null,
+      "access_check_status": "PENDING_FIRST_COLLECTION"
+    },
+    {
+      "source_id": "driaaf-idf",
+      "source_name": "DRIAAF ?le-de-France",
+      "country_region": "FR",
+      "source_type": "OFFICIAL_DATA",
+      "streams": [
+        "EU Trade Market"
+      ],
+      "public_url": "https://driaaf.ile-de-france.agriculture.gouv.fr/notes-de-conjoncture-de-2026-a4247.html",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Monthly bulletin",
+      "reliability_notes": "First-party regional agricultural bulletin",
+      "limitations": "Commodity crops and regional costs are not certified-seed prices; collector TLS chain currently fails, official page verified separately through web access.",
+      "active": true,
+      "last_checked": "2026-11-16",
+      "access_check_status": "VERIFIED_WEB_READ_COLLECTOR_TLS_BLOCKED"
+    },
+    {
+      "source_id": "interpom",
+      "source_name": "INTERPOM / Kortrijk Xpo",
+      "country_region": "BE",
+      "source_type": "INDUSTRY_SIGNAL",
+      "streams": [
+        "EU Events"
+      ],
+      "public_url": "https://www.interpom.be/en/discover-the-fair/innovation-tour-1/",
+      "access_type": "PUBLIC_WEB",
+      "expected_update_frequency": "Event programme updates",
+      "reliability_notes": "First-party organiser programme and dates",
+      "limitations": "Programme and scheduled dates are announcements, not evidence of attendance or product performance.",
+      "active": true,
+      "last_checked": "2026-11-16",
       "access_check_status": "VERIFIED_PUBLIC"
     }
   ]

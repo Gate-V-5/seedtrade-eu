@@ -33,7 +33,7 @@ const routes = [
   ['confidentiality', 'Commercial Confidentiality', 'How commercially sensitive information is controlled.', true],
   ['disclaimer', 'Market Intelligence Disclaimer', 'Important limitations of derived market intelligence.', true],
   ['insights', 'Research & Partner Insights', 'European seed research, events and transparently labelled partner insights.', true],
-  ['news', 'Daily Seed Market News', 'Verified, source-linked developments across the European seed chain.', true],
+  ['news', 'European Seed Market News', 'Verified, source-linked developments across the European seed chain.', true],
   ['buying-requests', 'Active Seed Marketplace Listings', 'Verified PUBLIC_SAFE seed offers and buying requests; sensitive company and contact details remain private.', true],
 ]
 
@@ -150,12 +150,17 @@ for (const [route, title, description, indexable] of routes) {
   }
   if (newsByRoute.has(route)) {
     const item = newsByRoute.get(route)
+    const visual=JSON.parse(await fs.readFile(path.join(root,'src/data/news_visuals.json'),'utf8'))[item.slug]
     structured.push({
       '@context': 'https://schema.org',
       '@type': 'NewsArticle',
       headline: item.headline,
       description: item.summary,
       datePublished: item.publication_date,
+      ...(item.updated_at ? {dateModified:item.updated_at}:{}),
+      inLanguage:'en',
+      author:{'@type':'Organization',name:'SEEDTRADE.EU'},
+      ...(visual?.kind==='EDITORIAL_PHOTOGRAPH' ? {image:'https://seedtrade.eu'+visual.src}:{}),
       url: item.canonical_url,
       publisher: { '@type': 'Organization', name: 'SeedTrade.eu' },
     })

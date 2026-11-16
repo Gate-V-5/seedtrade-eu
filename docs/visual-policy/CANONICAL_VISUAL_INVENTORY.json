@@ -312,7 +312,7 @@
     },
     {
       "path": "src/data/news_visuals.json",
-      "sha256": "cca00c7dde4cd881b0c4959d0b2bebc0ec589b768837df7781091affbbe86878"
+      "sha256": "1da4e59186c14b57a08b554faa0d291c689c0bf925e1558fd27a1aa4af1f4eef"
     },
     {
       "path": "src/data/news_image_legacy_v1.json",
@@ -320,7 +320,7 @@
     },
     {
       "path": "docs/news-photography-v1/LICENSE_EVIDENCE.json",
-      "sha256": "d923c003e9290002d6d50a8546cc96e1e8b8df5beb5070cccab540ca7d7cf15d"
+      "sha256": "7a9b11c88089903b93536e8b2fb7fa85973ee5eebd00189719b028db40682f19"
     },
     {
       "path": "docs/market-catalogue-v3/OWNER_VISUAL_PROVENANCE.json",
@@ -332,7 +332,7 @@
     },
     {
       "path": "src/generated/news.json",
-      "sha256": "6b6762a44a52a14caf4a43b89b27703f13ae1b20f4f0673913fa53a3585cae8e"
+      "sha256": "1562fdd82a04ce717988004a118f400d35bc020b2427443c008e3bbc0b3cb12b"
     },
     {
       "path": "src/data/catalogue_gate_visuals.json",

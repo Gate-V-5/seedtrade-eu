@@ -10,9 +10,9 @@ const read=file=>JSON.parse(fs.readFileSync(file,'utf8'))
 const news=read('src/generated/news.json'),registry=read('src/data/news_sources.json'),initial=news.items.filter(item=>item.stream).slice(0,4)
 const clone=item=>structuredClone(item),asOf='2026-10-01'
 
-test('reviewed collection and 20 active public source families validate',()=>{
+test('reviewed collection and 23 active public source families validate',()=>{
  assert.deepEqual(validateDailyNews(news,registry),[])
- assert.equal(registry.sources.filter(source=>source.active).length,20)
+ assert.equal(registry.sources.filter(source=>source.active).length,23)
  assert.deepEqual(validateSourceRegistry({...registry,sources:[...registry.sources,registry.sources[0]]}).length>0,true)
  const restricted=clone(registry);restricted.sources[0].access_type='SUBSCRIPTION';assert.ok(validateSourceRegistry(restricted).length)
  assert.ok(validateSourceRegistry({sources:[null]}).length)
@@ -75,7 +75,7 @@ test('continuity references require an earlier public record in the same series'
  assert.deepEqual(validateDailyNews({...news,items:[...news.items,next]},registry),[])
 })
 test('cancelled and completed events never occupy the upcoming homepage slot',()=>{
- const event=initial[3];assert.equal(eventStatus(event,'2026-10-28'),'CONFIRMED');assert.equal(eventStatus(event,'2026-10-29'),'COMPLETED')
+ const event=initial[3];assert.equal(eventStatus(event,'2026-10-28'),'ONGOING');assert.equal(eventStatus(event,'2026-10-29'),'COMPLETED')
  assert.ok(!selectStreamHighlights(news.items,'2026-10-29',registry).some(slot=>slot.stream==='EU Events'))
  for(const status of ['CANCELLED','COMPLETED']){
   const changed={...clone(event),event:{...event.event,status}}
@@ -90,7 +90,7 @@ test('archive recent window, permanent history and combined stream/country/crop/
  assert.ok(recent.length<8);assert.ok(recent.every(item=>item.publication_date>='2026-09-12'))
  assert.equal(filterNewsArchive(news.items,{stream:'EU Agronomist',country:'LV',crop:'winter wheat',from:asOf,to:asOf},asOf,registry)[0].id,initial[1].id)
  assert.deepEqual(filterNewsArchive(news.items,{stream:'EU Agronomist',country:'NL'},asOf,registry),[])
- assert.deepEqual(filterNewsArchive(news.items,{period:'UPCOMING'},asOf,registry).map(item=>item.id),[initial[3].id])
+ assert.deepEqual(filterNewsArchive(news.items,{period:'UPCOMING'},asOf,registry).map(item=>item.slug),[initial[3].slug,'interpom-2026-exhibitor-profile'])
 })
 test('all four historical News records including localization and URLs remain byte-equivalent objects',()=>{
  const original=JSON.parse(execFileSync('git',['show','802c515ec3c6b10dc3eb06e145ecf74d9d2dc12e:src/generated/news.json'],{encoding:'utf8'}))

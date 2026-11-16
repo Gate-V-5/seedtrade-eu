@@ -1,0 +1,8 @@
+[Unit]
+Description=SEEDTRADE.EU private news discovery and editorial due-check (LOCAL TEMPLATE, NOT INSTALLED)
+[Timer]
+OnCalendar=*-*-* *:0/15:00 Europe/Vilnius
+Persistent=true
+Unit=seedtrade-news.service
+[Install]
+WantedBy=timers.target

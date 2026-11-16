@@ -71,14 +71,14 @@
     },
     "daily_news": {
       "source": "Reviewed public primary sources; manual editorial publication only",
-      "as_of": "2026-10-16",
-      "public_records": 10,
-      "stream_records": 6,
+      "as_of": "2026-11-16",
+      "public_records": 14,
+      "stream_records": 10,
       "historical_records": 4,
       "artifact": "news.json",
-      "sha256": "6b6762a44a52a14caf4a43b89b27703f13ae1b20f4f0673913fa53a3585cae8e",
+      "sha256": "1562fdd82a04ce717988004a118f400d35bc020b2427443c008e3bbc0b3cb12b",
       "source_registry_artifact": "src/data/news_sources.json",
-      "source_registry_sha256": "9ff89e6d38648ab022bcb01207d2c385c3cba73fd4bf819e81d579a23c0b9670"
+      "source_registry_sha256": "c543186fe5ffadf3f0cd708cde03c447c9f9f5ae3c83a29d43f807238509804a"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "interpom-2026-exhibitor-profile": {
+    "stream": "EU Events",
+    "verification_date": "2026-11-16",
+    "source_url": "https://www.interpom.be/en/",
+    "event": {
+      "name": "INTERPOM 2026",
+      "start_date": "2026-11-29",
+      "end_date": "2026-12-01",
+      "country": "BE",
+      "location": "Kortrijk Xpo, Kortrijk, Belgium",
+      "organizer": "Kortrijk Xpo / Xpo Group; initiative of Belgapom",
+      "sector_relevance": "Potato and seed-potato value chain",
+      "timezone": "Europe/Brussels",
+      "status": "CONFIRMED",
+      "source_url": "https://www.interpom.be/en/"
+    }
+  },
+  "europe-potato-crop-drought-estimate-2026": {"stream": "EU Weather"},
+  "northern-ireland-seed-potato-rules-update-2026": {"stream": "EU Trade Market"},
+  "europe-summer-crop-heat-drought-2026": {"stream": "EU Agronomist"}
+}

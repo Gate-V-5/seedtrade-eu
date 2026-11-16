@@ -9,6 +9,9 @@ import { build } from 'vite'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dist = path.join(root, 'dist')
+const renderDate=process.env.SEEDTRADE_NEWS_RENDER_DATE || new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Vilnius',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())
+if(!/^\d{4}-\d{2}-\d{2}$/.test(renderDate)||Number.isNaN(Date.parse(renderDate)))throw Error('INVALID_NEWS_RENDER_DATE')
+globalThis.__SEEDTRADE_NEWS_DATE__=renderDate
 
 const storage = {
   getItem() { return null },
@@ -59,6 +62,7 @@ try {
       /<div id="root">[\s\S]*?<\/div>\s*(?=<\/body>)/,
       `<div id="root">${markup}</div><noscript><div class="static-runtime-note">SeedTrade public market intelligence is available without JavaScript. Interactive rotation and filters require JavaScript.</div></noscript>`,
     )
+    if(route==='/'||route==='/news'||route.startsWith('/news/'))html=html.replace('</head>',`<meta name="seedtrade-news-render-date" content="${renderDate}"></head>`)
     await fs.writeFile(file, html, 'utf8')
   }
   process.stdout.write(`static-first prerendered ${files.length} routes\n`)

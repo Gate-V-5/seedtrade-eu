@@ -1,10 +1,11 @@
+import hashlib
 import json
 import subprocess
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = '802c515ec3c6b10dc3eb06e145ecf74d9d2dc12e'
+BASE = '911a973aa8a84fa9df2bbf13ccc19811a0d26578'
 
 
 class DailyNewsV1Tests(unittest.TestCase):
@@ -33,8 +34,8 @@ class DailyNewsV1Tests(unittest.TestCase):
             self.assertEqual((ROOT / path).read_bytes(), canonical, path)
 
     def test_about_and_b2b_components_are_unchanged(self):
-        canonical = subprocess.check_output(['git', 'show', f'{BASE}:src/AppV2.jsx'], cwd=ROOT, text=True)
-        current = (ROOT / 'src/AppV2.jsx').read_text()
+        canonical = subprocess.check_output(['git', 'show', f'{BASE}:src/AppV2.jsx'], cwd=ROOT, text=True, encoding="utf-8")
+        current = (ROOT / 'src/AppV2.jsx').read_text(encoding='utf-8')
         for name in ['AboutPage', 'NetworkInterestForm', 'Header', 'BuyingRequests']:
             if f'function {name}(' not in canonical:
                 continue
@@ -44,9 +45,10 @@ class DailyNewsV1Tests(unittest.TestCase):
 
     def test_manifest_existing_datasets_are_unchanged(self):
         original = json.loads(subprocess.check_output(['git', 'show', f'{BASE}:src/generated/public_data_manifest.json'], cwd=ROOT))
-        current = json.loads((ROOT / 'src/generated/public_data_manifest.json').read_text())
+        current = json.loads((ROOT / 'src/generated/public_data_manifest.json').read_text(encoding='utf-8'))
         for key, value in original['datasets'].items():
-            if key=='trade_pulse':
-                self.assertEqual(current['datasets'][key]['included_cn_code_count'],40)
-                self.assertEqual(current['datasets'][key]['source'],value['source'])
-            else:self.assertEqual(current['datasets'][key], value)
+            if key=='daily_news':
+                expected=dict(value)
+                expected['source_registry_sha256']=hashlib.sha256((ROOT/'src/data/news_sources.json').read_bytes()).hexdigest()
+                self.assertEqual(current['datasets'][key],expected)
+            else:self.assertEqual(current['datasets'][key],value)

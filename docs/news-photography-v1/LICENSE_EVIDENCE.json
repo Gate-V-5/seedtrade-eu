@@ -24,5 +24,57 @@
     "license_evidence_sha256": "cc228b9cd4d484c2c53eaa4d159c39a9222d549818ebcb1f8d7e57660d232537",
     "commercial_use_verified": true,
     "redistribution_verified": true
+  },
+  "ireland-harvest-weather-november-2026": {
+    "creator": "Tractorboy60",
+    "title": "Roundbales",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Roundbales.jpg",
+    "licence": "Public domain (author dedication)",
+    "licence_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg#file",
+    "license_verified_at": "2026-11-16",
+    "original_sha256": "95bd46673ee42362390a7f07c8de748287f65ebefa0fdedead57efca1ca875e2",
+    "license_evidence_sha256": "07b76156dc173c2937bb4220daab215579636c2834e43f2f7de6cf5fb01158a5",
+    "commercial_use_verified": true,
+    "redistribution_verified": true
+  },
+  "occitanie-cereal-establishment-november-2026": {
+    "creator": "Michael Trolove",
+    "title": "Winter wheat plants at ground level",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "license_verified_at": "2026-11-16",
+    "original_sha256": "c7b564dc710624342717c393a64b0174560aae87d52a139a32f18f5192f4a246",
+    "license_evidence_sha256": "6798f0ebbdec2d24c5385cd971bf636443c54e520ddba4fb68438a076c6ba743",
+    "commercial_use_verified": true,
+    "redistribution_verified": true
+  },
+  "netherlands-seed-potato-testing-november-2026": {
+    "creator": "Rasbak",
+    "title": "Aardappel Doré poters (Solanum tuberosum seed potatoes)",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Aardappel_Dor%C3%A9_poters_(Solanum_tuberosum_seed_potatoes).jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Aardappel_Dor%C3%A9_poters_%28Solanum_tuberosum_seed_potatoes%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "license_verified_at": "2026-11-16",
+    "original_sha256": "d4febdfd25ed652268dd0eff9147ab71ba62b4c77fb978246d89d03d508c1747",
+    "license_evidence_sha256": "993655ee622ade84b5aa4e220de599132920ca307f59e0bd35024b3ff8961d12",
+    "commercial_use_verified": true,
+    "redistribution_verified": true
+  },
+  "interpom-2026-innovation-tour-visitor-brief": {
+    "creator": "Marcel Douwe Dekker",
+    "title": "Kortrijk Xpo, 2022",
+    "original_source_url": "https://commons.wikimedia.org/wiki/File:Kortrijk_Xpo,_2022.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kortrijk_Xpo%2C_2022.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_verified_at": "2026-11-16",
+    "original_sha256": "2dbe258114438bc37c80ab34c67e0626f90487454e95539e1d519a1e48042135",
+    "license_evidence_sha256": "416e4d7e5b8a49f11cbaa0c966efc6ac8aebc4fcc8642a7bd074a34135b16f0e",
+    "commercial_use_verified": true,
+    "redistribution_verified": true
   }
 }

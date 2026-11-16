@@ -1814,8 +1814,769 @@
           "publish_conclusion": true
         }
       ]
+    },
+    {
+      "slug": "ireland-harvest-weather-november-2026",
+      "stream": "EU Weather",
+      "category": "WEATHER",
+      "editorial_type": "OFFICIAL_UPDATE",
+      "tags": [
+        "EU Weather",
+        "Ireland"
+      ],
+      "countries": [
+        "IE"
+      ],
+      "geography": {
+        "countries": [
+          "IE"
+        ],
+        "region": "Ireland"
+      },
+      "links": {
+        "crops": [],
+        "countries": [
+          "IE"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "format": "SHORT_NEWS_BRIEF",
+      "schema_version": 2,
+      "canonical_url": "https://seedtrade.eu/news/ireland-harvest-weather-november-2026",
+      "id": "brief-ireland-harvest-weather-november-2026-2026-11-16",
+      "publication_date": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "checked_at": "2026-11-16",
+      "valid_until": "2026-11-18",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "corrections": [],
+      "series_id": "brief-ireland-harvest-weather-november-2026",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "SOURCE_ATTRIBUTED_NEWS_BRIEF",
+      "observation_period": null,
+      "observation_period_basis": "NO_MEASURED_PERIOD_NEWS_BRIEF",
+      "region_codes": [],
+      "species_ids": [],
+      "sources": [
+        {
+          "id": "weather-primary",
+          "source_id": "teagasc",
+          "label": "Teagasc",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://teagasc.ie/news--events/daily/harvest-report-2026-weather-impact-2/",
+          "published_at": "2026-11-12",
+          "checked_at": "2026-11-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible 12 November 2026 date",
+          "scope": "Ireland",
+          "evidence_locator": "Harvest Report 2026 – Weather Impact",
+          "origin_id": "teagasc"
+        }
+      ],
+      "source_name": "Teagasc",
+      "source_url": "https://teagasc.ie/news--events/daily/harvest-report-2026-weather-impact-2/",
+      "source_published_at": "2026-11-12",
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "coverage_limitations": "Ireland; source-attributed short news only, not EU-wide seed supply or prices.",
+      "claims": [
+        {
+          "id": "source-brief",
+          "statement": "Source-attributed summary: Harvest Report 2026 – Weather Impact",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "weather-primary"
+          ],
+          "scope": "Ireland; source-attributed short news only, not EU-wide seed supply or prices.",
+          "limitations": "Source facts and dates only; no unsupported seed-price, demand or EU-wide conclusion.",
+          "publish_conclusion": true
+        }
+      ],
+      "localizations": {
+        "de": {
+          "headline": "Irlands Erntebericht zeigt regionale Wetterunterschiede",
+          "summary": "Irland · Regionale Einordnung des Erntewetters.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Der Teagasc-Bericht vom 12. November beschreibt unterschiedliche Wetterbelastungen für Irlands Ernte 2026: Trockenheit beeinträchtigte einige Regionen, während später Regen die Ernte im Nordwesten erschwerte."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Die Ergebnisse bieten regionalen Kontext für Gespräche zwischen Landwirten, Beratern und Saatgutunternehmen zum Saisonrückblick. Dafür bleiben lokale Feldbeobachtungen nötig: Ein nationaler Erntebericht belegt nicht die Leistung einer einzelnen Sorte. Der Originalbericht enthält die regionale Aufschlüsselung für Leser, die die Bedingungen innerhalb Irlands vergleichen möchten."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Le bilan irlandais souligne les contrastes météorologiques régionaux",
+          "summary": "Irlande · Un éclairage régional sur la météo des cultures.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Dans son point du 12 novembre, Teagasc décrit des contraintes météorologiques contrastées pour la récolte irlandaise de 2026 : la sécheresse a touché certaines régions, tandis que des pluies tardives ont compliqué les récoltes dans le nord-ouest."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Ces constats apportent un contexte régional aux échanges de fin de campagne entre agriculteurs, conseillers et entreprises semencières. Des observations locales restent nécessaires : un bilan national ne démontre pas les performances d’une variété particulière. Le rapport original fournit le détail régional aux lecteurs souhaitant comparer les conditions en Irlande."
+            }
+          ]
+        },
+        "es": {
+          "headline": "El balance irlandés destaca los contrastes meteorológicos regionales",
+          "summary": "Irlanda · Contexto regional sobre el tiempo y los cultivos.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "En su actualización del 12 de noviembre, Teagasc describe presiones meteorológicas distintas sobre la cosecha irlandesa de 2026: la sequía afectó a algunas regiones, mientras que lluvias tardías complicaron la recolección en el noroeste."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Los resultados aportan contexto regional a las conversaciones de fin de campaña entre agricultores, asesores y empresas de semillas. Siguen siendo necesarias las observaciones locales: un balance nacional no demuestra el rendimiento de una variedad concreta. El informe original ofrece el desglose regional para quienes deseen comparar las condiciones dentro de Irlanda."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Il bilancio irlandese evidenzia differenze meteorologiche regionali",
+          "summary": "Irlanda · Un quadro regionale del tempo e delle colture.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Nell’aggiornamento del 12 novembre, Teagasc descrive pressioni meteorologiche diverse sul raccolto irlandese del 2026: la siccità ha colpito alcune regioni, mentre piogge tardive hanno complicato la raccolta nel nord-ovest."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "I risultati offrono un contesto regionale ai confronti di fine campagna tra agricoltori, consulenti e imprese sementiere. Restano necessarie osservazioni locali: un bilancio nazionale non dimostra le prestazioni di una singola varietà. Il rapporto originale presenta la ripartizione regionale per chi desidera confrontare le condizioni nelle diverse aree dell’Irlanda."
+            }
+          ]
+        }
+      },
+      "headline": "Ireland’s harvest review highlights regional weather differences",
+      "summary": "Ireland · A regional crop-weather update.",
+      "why_it_matters": "",
+      "content": [
+        {
+          "id": "1",
+          "heading": "",
+          "body": "Teagasc’s 12 November update highlights contrasting weather pressures on Ireland’s 2026 harvest: dry conditions affected some regions, while late rain complicated harvesting in the northwest.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "2",
+          "heading": "",
+          "body": "The findings offer regional context for meetings between growers, advisers and seed businesses as they review the season. Those conversations still need local field evidence: a national harvest review does not establish the performance of an individual variety. The original report provides the full regional breakdown for readers comparing conditions across Ireland.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        }
+      ],
+      "fingerprint": "dfe0eab3c3b950df8ecb671e8d804d3af49073dc48b9328ab79c2f282e64aefb"
+    },
+    {
+      "slug": "occitanie-cereal-establishment-november-2026",
+      "stream": "EU Agronomist",
+      "category": "AGRONOMY",
+      "editorial_type": "OFFICIAL_UPDATE",
+      "tags": [
+        "EU Agronomist",
+        "Occitanie, France"
+      ],
+      "countries": [
+        "FR"
+      ],
+      "geography": {
+        "countries": [
+          "FR"
+        ],
+        "region": "Occitanie, France"
+      },
+      "links": {
+        "crops": [
+          "winter wheat"
+        ],
+        "countries": [
+          "FR"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "format": "SHORT_NEWS_BRIEF",
+      "schema_version": 2,
+      "canonical_url": "https://seedtrade.eu/news/occitanie-cereal-establishment-november-2026",
+      "id": "brief-occitanie-cereal-establishment-november-2026-2026-11-16",
+      "publication_date": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "checked_at": "2026-11-16",
+      "valid_until": "2026-11-18",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "corrections": [],
+      "series_id": "brief-occitanie-cereal-establishment-november-2026",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "SOURCE_ATTRIBUTED_NEWS_BRIEF",
+      "observation_period": null,
+      "observation_period_basis": "NO_MEASURED_PERIOD_NEWS_BRIEF",
+      "region_codes": [],
+      "species_ids": [],
+      "sources": [
+        {
+          "id": "agronomist-primary",
+          "source_id": "arvalis",
+          "label": "ARVALIS",
+          "source_type": "RESEARCH_ADVISORY",
+          "url": "https://www.arvalis.fr/infos-techniques/cereales-adapter-les-prochaines-interventions-la-situation",
+          "published_at": "2026-11-12",
+          "checked_at": "2026-11-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible 12 November 2026 date",
+          "scope": "Occitanie, France",
+          "evidence_locator": "Céréales : adapter les prochaines interventions à la situation",
+          "origin_id": "arvalis"
+        }
+      ],
+      "source_name": "ARVALIS",
+      "source_url": "https://www.arvalis.fr/infos-techniques/cereales-adapter-les-prochaines-interventions-la-situation",
+      "source_published_at": "2026-11-12",
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "coverage_limitations": "Occitanie, France; source-attributed short news only, not EU-wide seed supply or prices.",
+      "claims": [
+        {
+          "id": "source-brief",
+          "statement": "Source-attributed summary: Céréales : adapter les prochaines interventions à la situation",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "agronomist-primary"
+          ],
+          "scope": "Occitanie, France; source-attributed short news only, not EU-wide seed supply or prices.",
+          "limitations": "Source facts and dates only; no unsupported seed-price, demand or EU-wide conclusion.",
+          "publish_conclusion": true
+        }
+      ],
+      "localizations": {
+        "de": {
+          "headline": "Getreide in Okzitanien: Maßnahmen am Auflaufen ausrichten",
+          "summary": "Frankreich · Praktische Hinweise für junge Getreidebestände.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "ARVALIS berichtet über eine ungleichmäßige Getreideetablierung in Okzitanien, weil geringe Bodenfeuchte die Keimung beeinträchtigt. Der Beitrag vom 12. November behandelt die Anpassung der Unkrautbekämpfung sowie die Beobachtung von Blattläusen und Schnecken an die jeweilige Feldsituation."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Für Landwirte und Saatgutvermehrer lautet die praktische Botschaft, vor Maßnahmen den Entwicklungsstand und die Bodenfeuchte zu prüfen. Ein regionaler Fachhinweis ist ein guter Ausgangspunkt, ersetzt aber keine Feldbegehung. Originalempfehlungen und örtliche Pflanzengesundheitsberichte helfen bei der Entscheidung, welche Situationen zuerst Aufmerksamkeit benötigen und welche später erneut geprüft werden können."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Céréales en Occitanie : adapter les interventions à l’implantation",
+          "summary": "France · Des repères pratiques pour les jeunes céréales.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "ARVALIS décrit une implantation hétérogène des céréales en Occitanie, où le manque d’humidité du sol affecte la germination. Son point du 12 novembre aborde l’adaptation du désherbage et de la surveillance des pucerons et des limaces à la situation de chaque parcelle."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Pour les agriculteurs et les multiplicateurs de semences, le message pratique est de vérifier le stade des cultures et l’humidité du sol avant d’organiser les interventions. Une note régionale constitue un point de départ utile, sans remplacer les visites de parcelles. Consulter les conseils originaux et les bulletins sanitaires locaux pour hiérarchiser les situations à surveiller ou à réévaluer après une évolution des conditions."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Cereales en Occitania: adaptar las labores a la implantación",
+          "summary": "Francia · Orientaciones prácticas para cereales jóvenes.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "ARVALIS describe una implantación desigual de los cereales en Occitania, donde la escasa humedad del suelo afecta a la germinación. Su nota del 12 de noviembre aborda la adaptación del control de malas hierbas y la vigilancia de pulgones y babosas a cada parcela."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Para agricultores y multiplicadores de semillas, el mensaje práctico es comprobar el estado del cultivo y la humedad del suelo antes de planificar las labores. Una nota técnica regional es un punto de partida útil, pero no sustituye las visitas al campo. Consultar la recomendación original y los boletines sanitarios locales ayuda a decidir qué situaciones requieren atención primero y cuáles pueden reevaluarse si cambian las condiciones."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Cereali in Occitania: adeguare gli interventi all’insediamento",
+          "summary": "Francia · Indicazioni pratiche per i giovani cereali.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "ARVALIS descrive un insediamento disomogeneo dei cereali in Occitania, dove la scarsa umidità del terreno influisce sulla germinazione. La nota del 12 novembre affronta l’adattamento del diserbo e del monitoraggio di afidi e limacce alle condizioni delle singole parcelle."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Per agricoltori e moltiplicatori di sementi, il messaggio pratico è verificare lo stadio colturale e l’umidità prima di programmare i lavori. Una nota tecnica regionale è un utile punto di partenza, ma non sostituisce i sopralluoghi. Consultare i consigli originali e i bollettini fitosanitari locali aiuta a stabilire quali situazioni richiedano attenzione immediata e quali possano essere rivalutate dopo un cambiamento delle condizioni."
+            }
+          ]
+        }
+      },
+      "headline": "Occitanie cereals: match field operations to establishment",
+      "summary": "France · Practical guidance for young cereals.",
+      "why_it_matters": "",
+      "content": [
+        {
+          "id": "1",
+          "heading": "",
+          "body": "ARVALIS reports uneven cereal establishment in Occitanie as limited soil moisture affects germination. Its 12 November update discusses adapting weed control and monitoring aphids and slugs to the conditions in individual fields.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "2",
+          "heading": "",
+          "body": "For growers and seed multipliers, the practical message is to check crop stage and soil moisture before planning field operations. A regional technical note is a useful starting point, not a substitute for walking the crop. Consult the original advice and local crop-health bulletins when deciding which situations need attention first and which can be reassessed after conditions change.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        }
+      ],
+      "fingerprint": "a538a345e044c7b0345e9a5dc7d20ae3d3dce538bcc09465adc31e0da3da684e"
+    },
+    {
+      "slug": "netherlands-seed-potato-testing-november-2026",
+      "stream": "EU Trade Market",
+      "category": "TRADE",
+      "editorial_type": "OFFICIAL_UPDATE",
+      "tags": [
+        "EU Trade Market",
+        "Seed potatoes",
+        "Netherlands"
+      ],
+      "countries": [
+        "NL"
+      ],
+      "geography": {
+        "countries": [
+          "NL"
+        ],
+        "region": "Netherlands"
+      },
+      "links": {
+        "crops": [
+          "potato"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "seed_sector_connection": {
+        "kind": "DIRECT_SEED_ACTIVITY",
+        "explanation": "Post-control disease testing of Dutch seed potatoes is directly relevant to seed certification and trade.",
+        "source_ids": [
+          "trade-primary"
+        ],
+        "evidence_locator": "Verwerking op koers; De nacontrole loopt ten einde",
+        "source_evidence": "NAK reports progress on seed-potato post-control samples and disease testing; multiple tests can be performed on the same sample."
+      },
+      "format": "SHORT_NEWS_BRIEF",
+      "schema_version": 2,
+      "canonical_url": "https://seedtrade.eu/news/netherlands-seed-potato-testing-november-2026",
+      "id": "brief-netherlands-seed-potato-testing-november-2026-2026-11-16",
+      "publication_date": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "checked_at": "2026-11-16",
+      "valid_until": "2026-11-18",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "corrections": [],
+      "series_id": "brief-netherlands-seed-potato-testing-november-2026",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "SOURCE_ATTRIBUTED_NEWS_BRIEF",
+      "observation_period": null,
+      "observation_period_basis": "NO_MEASURED_PERIOD_NEWS_BRIEF",
+      "region_codes": [],
+      "species_ids": [],
+      "sources": [
+        {
+          "id": "trade-primary",
+          "source_id": "nak",
+          "label": "NAK",
+          "source_type": "OFFICIAL_DATA",
+          "url": "https://www.nak.nl/nacontrole-2026-update-3/",
+          "published_at": "2026-11-12",
+          "checked_at": "2026-11-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Visible date: 12 november, 2026",
+          "scope": "Netherlands; seed-potato post-control laboratory progress, not available stock or prices.",
+          "evidence_locator": "Verwerking op koers; De nacontrole loopt ten einde",
+          "origin_id": "nak"
+        }
+      ],
+      "source_name": "NAK",
+      "source_url": "https://www.nak.nl/nacontrole-2026-update-3/",
+      "source_published_at": "2026-11-12",
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "coverage_limitations": "Netherlands; NAK’s 12 November seed-potato testing update. Interim progress, not certified saleable stock, disease prevalence across all lots, prices or an EU-wide conclusion.",
+      "claims": [
+        {
+          "id": "source-brief",
+          "statement": "Source-attributed summary: Nacontrole 2026 - update 3",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "trade-primary"
+          ],
+          "scope": "Netherlands; NAK’s 12 November seed-potato testing update. Interim progress, not certified saleable stock, disease prevalence across all lots, prices or an EU-wide conclusion.",
+          "limitations": "Source facts and dates only; no unsupported seed-price, demand or EU-wide conclusion.",
+          "publish_conclusion": true
+        }
+      ],
+      "localizations": {
+        "de": {
+          "headline": "Niederländische Pflanzkartoffelprüfung nähert sich dem Abschluss",
+          "summary": "Niederlande · Neues aus dem NAK-Labor.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Die niederländische Prüfstelle NAK meldet, dass die Nachkontrolle der Pflanzkartoffeln 2026 weit fortgeschritten ist. Laut Mitteilung vom 12. November waren bis Ende der Kalenderwoche 45 mehr als 29.000 Proben im Labor in Emmeloord eingegangen. Weniger als 10 % der geplanten Proben standen noch aus."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "NAK weist zudem darauf hin, dass dieselbe Probe auf mehrere Krankheiten untersucht werden kann, ohne für jeden gewünschten Test eine eigene Probe einzusenden. Für Pflanzkartoffelbetriebe bietet dies einen praktischen Überblick über den Prüfstand. Die vorläufigen Laborzahlen beziffern weder verkaufsfähige zertifizierte Bestände noch künftige Pflanzgutpreise."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Les contrôles néerlandais des plants de pomme de terre touchent à leur fin",
+          "summary": "Pays-Bas · Le dernier point du laboratoire NAK.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "L’organisme néerlandais de certification NAK annonce que le contrôle a posteriori des plants de pomme de terre 2026 est bien avancé. Selon son point du 12 novembre, plus de 29 000 échantillons étaient arrivés au laboratoire d’Emmeloord à la fin de la semaine 45. Moins de 10 % des échantillons prévus restaient à envoyer."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "NAK rappelle aussi qu’un même échantillon peut servir à rechercher plusieurs maladies, sans en envoyer un distinct pour chaque analyse demandée. Pour les entreprises du secteur, ce bilan permet de suivre l’avancement des contrôles. Ces chiffres provisoires de laboratoire ne mesurent ni les stocks certifiés disponibles à la vente ni l’évolution future des prix des plants."
+            }
+          ]
+        },
+        "es": {
+          "headline": "Los controles neerlandeses de patata de siembra se acercan a su fin",
+          "summary": "Países Bajos · La última actualización del laboratorio NAK.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "El organismo neerlandés de certificación NAK indica que el programa de control posterior de patata de siembra de 2026 está muy avanzado. Según su actualización del 12 de noviembre, al cierre de la semana 45 habían llegado más de 29.000 muestras al laboratorio de Emmeloord. Faltaba por enviar menos del 10 % de las muestras previstas."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "NAK recuerda que una misma muestra permite analizar varias enfermedades, evitando envíos separados para cada prueba solicitada. Para las empresas de patata de siembra, el informe facilita el seguimiento de los controles. Son cifras provisionales de laboratorio: no cuantifican las existencias certificadas disponibles para vender ni anticipan los precios de la patata de siembra."
+            }
+          ]
+        },
+        "it": {
+          "headline": "I controlli olandesi sulle patate da semina si avvicinano alla conclusione",
+          "summary": "Paesi Bassi · L’ultimo aggiornamento del laboratorio NAK.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "L’organismo olandese di certificazione NAK comunica che il programma di controllo successivo delle patate da semina 2026 è in fase avanzata. Secondo l’aggiornamento del 12 novembre, alla fine della settimana 45 erano arrivati al laboratorio di Emmeloord oltre 29.000 campioni. Restava da inviare meno del 10% dei campioni previsti."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "NAK ricorda inoltre che sullo stesso campione si possono ricercare diverse malattie, evitando invii separati per ogni analisi richiesta. Per le imprese del settore è un punto di riferimento pratico sull’avanzamento dei controlli. Questi dati provvisori di laboratorio non misurano le scorte certificate disponibili per la vendita né prevedono i prezzi delle patate da semina."
+            }
+          ]
+        }
+      },
+      "headline": "Dutch seed-potato testing approaches the finish line",
+      "summary": "Netherlands · NAK’s latest laboratory update.",
+      "why_it_matters": "",
+      "content": [
+        {
+          "id": "1",
+          "heading": "",
+          "body": "Dutch certification body NAK says its 2026 seed-potato post-control programme is nearing completion. Its 12 November update reports that more than 29,000 samples had reached the Emmeloord laboratory by the end of week 45, with fewer than 10% of planned samples still to arrive.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "2",
+          "heading": "",
+          "body": "NAK also highlights the option of testing the same sample for several diseases, avoiding separate submissions for each requested test. For seed-potato businesses, the update is a practical checkpoint on testing progress. These are interim laboratory figures, not a measure of certified stock available for sale or a forecast of seed prices.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        }
+      ],
+      "fingerprint": "895d57a60cf1d1db05404237881da8e6d1b1e49c28e6a6fd1904cbd639c5d7db"
+    },
+    {
+      "slug": "interpom-2026-innovation-tour-visitor-brief",
+      "stream": "EU Events",
+      "category": "EVENTS",
+      "editorial_type": "OFFICIAL_UPDATE",
+      "tags": [
+        "EU Events",
+        "Kortrijk, Belgium"
+      ],
+      "countries": [
+        "BE"
+      ],
+      "geography": {
+        "countries": [
+          "BE"
+        ],
+        "region": "Kortrijk, Belgium"
+      },
+      "links": {
+        "crops": [],
+        "countries": [
+          "BE"
+        ],
+        "regions": [],
+        "cn_codes": [],
+        "market_categories": [],
+        "market_period": null
+      },
+      "event": {
+        "name": "INTERPOM 2026",
+        "start_date": "2026-11-29",
+        "end_date": "2026-12-01",
+        "country": "BE",
+        "location": "Kortrijk Xpo, Kortrijk, Belgium",
+        "organizer": "Kortrijk Xpo; initiative of Belgapom",
+        "type": "TRADE_FAIR",
+        "sector_relevance": "Potato sector",
+        "source_url": "https://www.interpom.be/en/discover-the-fair/innovation-tour-1/",
+        "checked_at": "2026-11-16",
+        "status": "CONFIRMED",
+        "timezone": "Europe/Brussels"
+      },
+      "current_relevance_reason": "Current visitor planning for the 2026 Innovation Tour; distinct from the historical exhibitor-count article.",
+      "current_relevance_checked_at": "2026-11-16",
+      "format": "SHORT_NEWS_BRIEF",
+      "schema_version": 2,
+      "canonical_url": "https://seedtrade.eu/news/interpom-2026-innovation-tour-visitor-brief",
+      "id": "brief-interpom-2026-innovation-tour-visitor-brief-2026-11-16",
+      "publication_date": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "checked_at": "2026-11-16",
+      "valid_until": "2026-11-22",
+      "classification": "PUBLIC_SAFE",
+      "publication_status": "PUBLIC_SAFE",
+      "publication_eligible": true,
+      "review_status": "APPROVED",
+      "market_engine_input": false,
+      "revision": 1,
+      "corrections": [],
+      "series_id": "brief-interpom-2026-innovation-tour-visitor-brief",
+      "previous_item_id": null,
+      "related_item_ids": [],
+      "assessment_outcome": "SOURCE_ATTRIBUTED_NEWS_BRIEF",
+      "observation_period": null,
+      "observation_period_basis": "NO_MEASURED_PERIOD_NEWS_BRIEF",
+      "region_codes": [],
+      "species_ids": [],
+      "sources": [
+        {
+          "id": "events-primary",
+          "source_id": "interpom",
+          "label": "INTERPOM / Kortrijk Xpo",
+          "source_type": "INDUSTRY_SIGNAL",
+          "url": "https://www.interpom.be/en/discover-the-fair/innovation-tour-1/",
+          "published_at": null,
+          "checked_at": "2026-11-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Original announcement date not verified; current organiser programme checked for a future event",
+          "scope": "Kortrijk, Belgium",
+          "evidence_locator": "INTERPOM 2026 — Innovation Tour",
+          "origin_id": "interpom"
+        },
+        {
+          "id": "event-dates",
+          "source_id": "interpom",
+          "label": "INTERPOM / Kortrijk Xpo",
+          "source_type": "INDUSTRY_SIGNAL",
+          "url": "https://www.interpom.be/en/",
+          "published_at": null,
+          "checked_at": "2026-11-16",
+          "public_access": "VERIFIED_PUBLIC",
+          "date_basis": "Original announcement date not verified; current organiser programme checked for a future event",
+          "scope": "Kortrijk, Belgium",
+          "evidence_locator": "Dates & Opening hours; location and organiser",
+          "origin_id": "interpom"
+        }
+      ],
+      "source_name": "INTERPOM / Kortrijk Xpo",
+      "source_url": "https://www.interpom.be/en/discover-the-fair/innovation-tour-1/",
+      "source_published_at": null,
+      "source_tier": 1,
+      "provenance_class": "PUBLIC_SOURCE",
+      "coverage_limitations": "Kortrijk, Belgium; source-attributed short news only, not EU-wide seed supply or prices.",
+      "claims": [
+        {
+          "id": "source-brief",
+          "statement": "Source-attributed summary: INTERPOM 2026 — Innovation Tour",
+          "evidence_class": "CONFIRMED",
+          "source_ids": [
+            "events-primary",
+            "event-dates"
+          ],
+          "scope": "Kortrijk, Belgium; source-attributed short news only, not EU-wide seed supply or prices.",
+          "limitations": "Source facts and dates only; no unsupported seed-price, demand or EU-wide conclusion.",
+          "publish_conclusion": true
+        }
+      ],
+      "localizations": {
+        "de": {
+          "headline": "INTERPOM Innovation Tour führt durch die Kartoffeltechnik",
+          "summary": "Belgien · Das Programm hilft bei der Planung eines bevorstehenden Besuchs.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Die Innovation Tour der INTERPOM präsentiert von Experten ausgewählte Ausstellerinnovationen entlang der Kartoffelkette. Die Messe findet vom 29. November bis 1. Dezember 2026 in der Kortrijk Xpo in Belgien statt."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Besucher können anhand des Programms interessante Technologien auswählen und Termine zu den für ihr Unternehmen wichtigsten Produkten planen. Die Aufnahme in die Tour belegt keine Produktleistung und ist keine Empfehlung von SEEDTRADE.EU. Vor der Anreise sollten das aktuelle Veranstalterprogramm, Besucherinformationen und Anmeldebedingungen geprüft werden; die Quellenlinks führen zu den neuesten praktischen Angaben."
+            }
+          ]
+        },
+        "fr": {
+          "headline": "Le parcours Innovation d’INTERPOM guide la découverte des technologies de la pomme de terre",
+          "summary": "Belgique · Un programme pour préparer une prochaine visite.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Le parcours Innovation d’INTERPOM présente une sélection d’innovations d’exposants choisies par des experts sur l’ensemble de la filière pomme de terre. Le salon se tiendra à Kortrijk Xpo, en Belgique, du 29 novembre au 1er décembre 2026."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Les visiteurs peuvent utiliser le programme pour repérer des technologies et organiser des rendez-vous autour des produits pertinents pour leur activité. Une sélection dans ce parcours ne prouve pas les performances d’un produit et ne constitue pas une recommandation de SEEDTRADE.EU. Vérifier le programme actuel, les informations visiteurs et les conditions d’inscription auprès de l’organisateur avant le déplacement."
+            }
+          ]
+        },
+        "es": {
+          "headline": "La ruta de innovación de INTERPOM orienta la visita a las tecnologías de la patata",
+          "summary": "Bélgica · Un programa para preparar una próxima visita.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "La ruta de innovación de INTERPOM presenta una selección de innovaciones de expositores elegidas por expertos de toda la cadena de la patata. La feria se celebrará en Kortrijk Xpo, Bélgica, del 29 de noviembre al 1 de diciembre de 2026."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "Los visitantes pueden utilizar el programa para seleccionar tecnologías y organizar reuniones sobre los productos más relevantes para su negocio. Formar parte de la ruta no demuestra el rendimiento de un producto ni supone una recomendación de SEEDTRADE.EU. Antes de viajar, consultar el programa actual, la información para visitantes y las condiciones de inscripción del organizador."
+            }
+          ]
+        },
+        "it": {
+          "headline": "Il percorso innovazione di INTERPOM orienta la visita alle tecnologie della patata",
+          "summary": "Belgio · Un programma per preparare una prossima visita.",
+          "why_it_matters": "",
+          "content": [
+            {
+              "id": "1",
+              "heading": "",
+              "body": "Il percorso innovazione di INTERPOM presenta una selezione di innovazioni degli espositori scelte da esperti lungo l’intera filiera della patata. La fiera si terrà a Kortrijk Xpo, in Belgio, dal 29 novembre al 1° dicembre 2026."
+            },
+            {
+              "id": "2",
+              "heading": "",
+              "body": "I visitatori possono usare il programma per individuare tecnologie e pianificare incontri sui prodotti più rilevanti per la propria attività. La selezione nel percorso non dimostra le prestazioni di un prodotto e non costituisce una raccomandazione di SEEDTRADE.EU. Prima del viaggio, verificare programma aggiornato, informazioni per i visitatori e condizioni d’iscrizione presso l’organizzatore."
+            }
+          ]
+        }
+      },
+      "headline": "INTERPOM Innovation Tour offers a route through potato technology",
+      "summary": "Belgium · A programme to help plan an upcoming visit.",
+      "why_it_matters": "",
+      "content": [
+        {
+          "id": "1",
+          "heading": "",
+          "body": "INTERPOM’s Innovation Tour highlights an expert-selected group of exhibitor innovations across the potato chain. The fair takes place at Kortrijk Xpo, Belgium, from 29 November to 1 December 2026.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "2",
+          "heading": "",
+          "body": "Visitors can use the programme to shortlist technologies and plan meetings around the products most relevant to their business. Inclusion in the tour is not proof of a product’s performance or a recommendation by SEEDTRADE.EU. Check the organiser’s current programme, visitor information and registration conditions before travelling, and use the source links to confirm the latest practical details.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        }
+      ],
+      "fingerprint": "bad2aac3c769170538bdee07cb7b1ca2fdd0331108dcf1a750f99174b2fdc389"
     }
   ],
-  "as_of": "2026-10-16",
+  "as_of": "2026-11-16",
   "editorial_model_version": 2
 }

@@ -45,7 +45,8 @@ export const sitemapUrls=(directory,options)=>sitemapInventory(directory,options
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  const urls=sitemapUrls(path.join(root,'dist'))
  // No invented lastmod or hreflang for the unchanged localStorage language UI.
- const xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls.map(url=>'  <url><loc>'+url+'</loc></url>').join('\n')+'\n</urlset>\n'
+ const news=JSON.parse(fs.readFileSync(path.join(root,'src/generated/news.json'),'utf8'));const modifications=new Map(news.items.map(i=>[i.canonical_url,i.updated_at||i.publication_date]));
+ const xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls.map(url=>'  <url><loc>'+url+'</loc>'+(modifications.has(url)?'<lastmod>'+modifications.get(url)+'</lastmod>':'')+'</url>').join('\n')+'\n</urlset>\n'
  fs.writeFileSync(path.join(root,'dist/sitemap.xml'),xml)
  if(process.argv.includes('--sync-public'))fs.writeFileSync(path.join(root,'public/sitemap.xml'),xml)
  console.log('Sitemap: '+urls.length+' verified nonduplicate public canonical URLs')
