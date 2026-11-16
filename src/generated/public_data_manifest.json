@@ -61,7 +61,7 @@
       "source": "SeedTrade owner-approved listings",
       "active_real_listings": 5,
       "artifact": "rfqs_public.json",
-      "sha256": "5db03a9fac2138b3f013320c377612f883c2b2bea6a0e53b4d5e433171bf6089"
+      "sha256": "d8216a61b527bb49762064aa75770835ccd4d456dfc898738537e6eacd3d5add"
     },
     "species_master": {
       "source": "SeedTrade Species/CN Master",

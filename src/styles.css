@@ -1489,6 +1489,7 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 
 /* Desktop homepage Trade Pulse: keep every metric while removing excess vertical space. */
 @media(min-width:1121px){
+ .dashboard-hero{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
   .dashboard-hero .signal-panel{padding:19px 21px;gap:9px}
   .dashboard-hero .signal-crops{flex:none}
   .dashboard-hero .trade-pulse-card{justify-content:flex-start;padding:12px;gap:8px}
@@ -1731,3 +1732,27 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .pulse-evidence-types{line-height:1.6}
 @media(max-width:1120px){.dashboard-hero .hero-coverage{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:720px){.dashboard-hero .hero-coverage{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-hero .hero-coverage>div{padding:12px 10px 12px 0}.dashboard-hero .hero-coverage strong{font-size:21px}.dashboard-hero .hero-coverage span{font-size:11px}}
+
+/* Stage 1 desktop refinement: compact copy and Pulse, without hiding evidence. */
+@media(min-width:1121px){
+ .dashboard-hero .hero-intro{padding:24px;gap:18px;min-height:0}
+ .dashboard-hero .hero-copy{display:grid;gap:12px}
+ .dashboard-hero .hero-copy .eyebrow{margin:0;line-height:1.5}
+ .dashboard-hero .hero-copy h1{font-size:clamp(32px,2.9vw,44px);line-height:1.1;letter-spacing:-.035em;hyphens:manual;overflow-wrap:break-word}
+ .dashboard-hero .hero-body{font-size:14px;line-height:1.55}
+ .dashboard-hero .hero-actions{margin:0;gap:10px;flex-wrap:wrap}
+ .dashboard-hero .hero-actions .btn{min-height:44px}
+ .dashboard-hero .hero-coverage{padding-top:12px}
+ .dashboard-hero .hero-coverage>div{padding:10px 10px 10px 0;gap:5px}
+ .dashboard-hero .signal-panel{padding:18px;gap:9px}
+ .dashboard-hero .signal-crops .trade-pulse-card>div:first-child{min-height:0;gap:8px;flex-wrap:wrap}
+ .dashboard-hero .trade-pulse-card h2{font-size:22px;line-height:1.2}
+ .dashboard-hero .pulse-flow{padding:8px;gap:5px;min-width:0}
+ .dashboard-hero .pulse-flow-label{min-height:28px;line-height:1.4}
+ .dashboard-hero .signal-panel .pulse-flow dl{margin:0;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .dashboard-hero .signal-panel .pulse-flow dl div{display:grid;grid-template-columns:minmax(0,1fr);align-content:start;gap:2px;min-height:0;padding:4px 0}
+ .dashboard-hero .signal-panel .pulse-flow dl div:last-child{grid-column:1/-1}
+ .dashboard-hero .pulse-flow dt{font-size:11px;line-height:1.35}
+ .dashboard-hero .pulse-flow dd{font-size:clamp(11px,.85vw,12px);line-height:1.4;margin:0;text-align:left;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+ .dashboard-hero .pulse-refresh-evidence{margin-top:5px;gap:3px 12px;font-size:11px}
+}
