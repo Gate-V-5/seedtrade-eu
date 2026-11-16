@@ -47,9 +47,7 @@ import tradePulse from "./generated/trade_pulse_public.json"
 import speciesMaster from "./data/species_master_v1_1.json"
 import cropMasterSummary from "./generated/crop_master_summary.json"
 import { countDistinctSeedSpecies } from "./cropMasterModel.mjs"
-import {stage1Summary,verifiedFreshUpdate} from './stage1Metrics.mjs'
-import {pulseCnRows} from './i18n/stage1Messages.js'
-import { rollingCompletedHistory, rollingCompletedRange, pulseComparisonPeriod, pulseCardPeriod, pulseBarPercent, pulseFormat } from "./tradePulsePeriods.mjs"
+import { rollingCompletedHistory, rollingCompletedRange } from "./tradePulsePeriods.mjs"
 import { priceConfidence, marketSignalConfidence } from "./evidenceConfidence.mjs"
 
 const BASE = "https://seedtrade.eu"
@@ -272,179 +270,45 @@ function NewsCard({ story, compact = false }) {
 }
 
 function SignalPanel() {
-  return <aside className="signal-panel"><div className="signal-top"><div><p className="eyebrow"><T>Market Signal</T></p><span className="data-available"><I18n text="Historical official statistics · {period}" values={{period:tradePulse.latest_completed_period}}/></span><SourceFreshness/></div></div><div className="signal-crops signal-single"><TradePulseSignal/></div><small><T>Activity labels are evidence-gated descriptions of completed trade, not forecasts or trading advice. Individual species intelligence remains available in Market Intelligence.</T></small></aside>
+  return <aside className="signal-panel"><div className="signal-top"><div><p className="eyebrow"><T>Market Signal</T></p><span className="data-available"><T>Verified data available · monthly</T></span></div></div><div className="signal-crops signal-single"><TradePulseSignal/></div><small><T>Activity labels are evidence-gated descriptions of completed trade, not forecasts or trading advice. Individual species intelligence remains available in Market Intelligence.</T></small></aside>
 }
 
-function SourceFreshness() {
-  // Never bake an expiring freshness assertion into static HTML. Evaluate in
-  // the browser, and remove the badge at the source timestamp's seven-day limit.
-  const [fresh,setFresh]=useState(false)
-  useEffect(()=>{
-    const update=()=>setFresh(verifiedFreshUpdate(tradePulse))
-    update()
-    const remaining=Date.parse(tradePulse.refresh?.source_updated_at)+7*86400000-Date.now()
-    const timer=remaining>=0&&remaining<2147483647?window.setTimeout(update,remaining+1):null
-    window.addEventListener('focus',update)
-    return()=>{if(timer!==null)window.clearTimeout(timer);window.removeEventListener('focus',update)}
-  },[])
-  return fresh?<span className="source-fresh"><T>Source updated within 7 days</T></span>:null
-}
-
-function PulseRefreshEvidence() {
-  const {language}=useLanguage(), t=useT()
-  const locale={EN:'en-GB',DE:'de-DE',FR:'fr-FR',ES:'es-ES',IT:'it-IT'}[language]
-  const date=value=>{const d=new Date(value);return value&&!Number.isNaN(d.getTime())?new Intl.DateTimeFormat(locale,{dateStyle:'medium',timeZone:'UTC'}).format(d):null}
-  const fields=[['Last source check: {date}',tradePulse.refresh?.last_check_at],['Last validated refresh: {date}',tradePulse.refresh?.last_success_at],['Source update: {date}',tradePulse.refresh?.source_updated_at]]
-  return <div className="pulse-refresh-evidence">{fields.map(([key,value])=><span key={key}>{date(value)?t(key,{date:date(value)}):t('No verified refresh recorded')}</span>)}</div>
+function TradePulseSignal() {
+  const t=useT()
+  const views=Object.values(tradePulse.views), primary=tradePulse.views.eu_internal_trade
+  const history=completedHistory(primary), max=Math.max(1,...history.map(x=>Number(x.volume_tonnes)||0))
+  return <article className="trade-pulse-card">
+    <div><h2><T>EU Seed Trade Pulse</T></h2><span className={`activity ${primary.trade_activity.state.toLowerCase()}`}><I18n text="{state} activity" values={{state:t(primary.trade_activity.state)}}/></span></div>
+    <div className="pulse-views">{views.map(view=><div className="pulse-flow" key={view.label}><small className="pulse-flow-label"><I18n text={view.label}/></small><dl><div><dt><T>Volume</T></dt><dd>{fmt.format(view.latest.volume_tonnes)} t</dd></div><div><dt><T>Volume YoY</T></dt><dd><Trend value={view.latest.volume_yoy_percent}/></dd></div><div><dt><T>Trade value</T></dt><dd>{eur.format(view.latest.trade_value_eur)}</dd></div><div><dt><T>Trade value YoY</T></dt><dd><Trend value={view.latest.value_yoy_percent}/></dd></div><div><dt><T>Unit value range</T></dt><dd><I18n text={unitValueRangeLabel(view.unit_value_range)}/></dd></div></dl></div>)}</div>
+    <div className="pulse-period-context"><strong><I18n text="Latest completed period: {period}" values={{period:tradePulse.latest_completed_period}}/></strong><span>{completedRange.complete ? <I18n text="Rolling 12 completed months: {start} → {end}" values={{start:completedRange.start,end:completedRange.end}}/> : <T>Rolling chart: Fewer than 12 completed months available</T>}</span></div>
+    <div className="mini-chart trade-pulse-chart" aria-label={t("EU internal seed trade rolling 12-month volume")}>{history.map(point=><i key={point.period} title={`${point.period}: ${fmt.format(point.volume_tonnes)} t`} style={{height:`${Math.max(8,Number(point.volume_tonnes)/max*100)}%`}}/>)}</div>
+    <small><I18n text="YoY compares the latest completed month with the same month one year earlier. Partial {period} is excluded from trends." values={{period:tradePulse.latest_available_partial_period}}/> {tradePulse.source} · <T>Category-level unit values are derived indicators, not market prices.</T></small><a href="/trade-pulse"><T>Open full Trade Pulse →</T></a>
+  </article>
 }
 
 const pulseViews=Object.values(tradePulse.views)
 const categoryRows=tradePulse.customs_entity_rankings || []
-const pulseCnLabels=new Map(pulseCnRows.map(([code,label])=>[code,`CN ${code} · ${label}`]))
-const pulseCategoryKey=code=>pulseCnLabels.get(String(code).replace(/^CN[- ]?/,'')) || String(code)
-const pulseScopeLabels={
-  'EU Internal Trade':'EU reporting countries → EU partners; exporter dispatches only.',
-  'EU Imports':'Non-EU partners → EU reporting countries.',
-  'EU Exports':'EU reporting countries → non-EU partners.',
+function PulseBars({ metric, label }) {
+  const t=useT(), {language}=useLanguage()
+  const periods=completedHistory(tradePulse.views.eu_internal_trade).map(point=>point.period)
+  const values=pulseViews.flatMap(view=>completedHistory(view).map(point=>Number(point[metric])||0))
+  const axis=niceAxis(values), yoyKey=metric==="trade_value_eur"?"value_yoy_percent":"volume_yoy_percent"
+  return <div className="pulse-history" aria-label={t(label)}><div className="pulse-legend">{pulseViews.map(view=><span key={view.label}><I18n text={view.label}/></span>)}</div><div className="pulse-plot"><div className="pulse-y-axis" aria-hidden="true">{[...axis.ticks].reverse().map(value=><small key={value}>{axisLabel(value,metric)}</small>)}</div><div className="pulse-months">{periods.map(period=><div className="pulse-month" key={period}><div className="pulse-cluster">{pulseViews.map(view=>{const point=completedHistory(view).find(item=>item.period===period);if(!point)return null;const value=Number(point[metric])||0, exact=metric==="trade_value_eur"?eur.format(value):`${fmt.format(value)} t`, yoyValue=point[yoyKey];return <i key={view.label} title={`${periodLabel(period,language)} (${period}) · ${t(view.label)} · ${exact}${yoyValue==null?"":` · ${pct(yoyValue)} ${t("YoY")}`}`} style={{height:`${Math.max(3,value/axis.maximum*100)}%`}}/>})}</div><small>{period}</small></div>)}</div></div></div>
 }
-function usePulseFormat() { const {language}=useLanguage();return pulseFormat(language) }
-function PulseChange({value,period}) {
-  const t=useT(), f=usePulseFormat()
-  return typeof value!=='number'||!Number.isFinite(value)?<span className="pulse-comparison-missing">{t('No comparable data')}</span>:<em className={`trend ${value>=0?'up':'down'}`} title={t('YoY: compared with {period}',{period:pulseComparisonPeriod(period)})}>{value>0?'▲ ':value<0?'▼ ':''}{f.percent(value)}</em>
-}
-function PulseRange({range}) {
-  const t=useT(), f=usePulseFormat()
-  return range?.status==='VERIFIED'?<>{f.unitValue(range.low.unit_value_eur_kg)}–{f.unitValue(range.high.unit_value_eur_kg)}/kg</>:<>{t('Range withheld · limited coverage')}</>
-}
-function TradePulseSignal() {
-  const t=useT(), f=usePulseFormat(), primary=tradePulse.views.eu_internal_trade
-  const history=completedHistory(primary), max=Math.max(1,...history.map(x=>x.volume_tonnes).filter(Number.isFinite))
-  return <article className="trade-pulse-card">
-    <div><h2><T>EU Seed Trade Pulse</T></h2><span className={`activity ${primary.trade_activity.state.toLowerCase()}`}><I18n text="{state} activity" values={{state:t(primary.trade_activity.state)}}/></span></div>
-    <div className="pulse-views">{pulseViews.map(view=><div className="pulse-flow" key={view.label}><small className="pulse-flow-label"><I18n text={view.label}/></small><dl>
-      <div><dt><T>Volume</T></dt><dd>{f.number(view.latest.volume_tonnes)} t</dd></div>
-      <div><dt><T>Volume YoY</T></dt><dd><PulseChange value={view.latest.volume_yoy_percent} period={view.latest.period}/></dd></div>
-      <div><dt><T>Trade value</T></dt><dd>{f.currency(view.latest.trade_value_eur)}</dd></div>
-      <div><dt><T>Trade value YoY</T></dt><dd><PulseChange value={view.latest.value_yoy_percent} period={view.latest.period}/></dd></div>
-      <div><dt><T>Unit value range</T></dt><dd><PulseRange range={view.unit_value_range}/></dd></div>
-    </dl></div>)}</div>
-    <div className="pulse-period-context"><strong><I18n text="One month · {period}" values={{period:tradePulse.latest_completed_period}}/></strong><span><I18n text="YoY: compared with {period}" values={{period:pulseComparisonPeriod(tradePulse.latest_completed_period)}}/></span><span>{completedRange.complete?<I18n text="Reporting window: {start} → {end}" values={{start:completedRange.start,end:completedRange.end}}/>:<T>Fewer than 12 completed months available</T>}</span><small><T>Monthly observations, not a rolling total.</T></small></div>
-    <div className="mini-chart trade-pulse-chart" role="img" aria-label={t('EU internal seed trade rolling 12-month volume')}>{history.map(point=><i key={point.period} title={`${point.period}: ${point.volume_tonnes==null?t('Data unavailable'):f.number(point.volume_tonnes)+' t'}`} style={{height:`${pulseBarPercent(point.volume_tonnes,max)??0}%`}}/>)}</div>
-    <PulseRefreshEvidence/>
-    <small className="pulse-evidence-types"><T>Official trade statistics; unit values are derived EUR/kg indicators. Estimated market prices and actual seller offer prices are separate evidence types.</T></small>
-    <small><I18n text="YoY compares the completed month with the same month one year earlier. {period} and later months are excluded from trends." values={{period:tradePulse.latest_available_partial_period}}/> {tradePulse.source}</small><a href="/trade-pulse"><T>Open full Trade Pulse →</T></a>
-  </article>
-}
-
-function PulsePrimaryCard({view}) {
-  const t=useT(), f=usePulseFormat(), context=pulseCardPeriod(view), selected=tradePulse.scope.included_cn_codes.length
-  return <article data-reporting-period={context.period} data-comparison-period={context.comparison} data-aggregation={context.aggregation}>
-    <h2><I18n text={view.label}/></h2>
-    <p className="pulse-card-period"><I18n text="Reporting period: {period}" values={{period:`${f.month(context.period)} (${context.period})`}}/><span><T>Monthly totals</T></span></p>
-    <p className="pulse-card-comparison"><I18n text="YoY: compared with {period}" values={{period:`${f.month(context.comparison)} (${context.comparison})`}}/></p>
-    <p className="pulse-card-scope">{t(pulseScopeLabels[view.label])}</p>
-    <span className="pulse-metric-label"><T>Monthly volume (t)</T></span><strong>{f.number(view.latest.volume_tonnes)} t</strong>
-    <dl>
-      <div><dt><T>Volume YoY</T></dt><dd><PulseChange value={view.latest.volume_yoy_percent} period={context.period}/></dd></div>
-      <div><dt><T>Trade value (EUR)</T></dt><dd>{f.currency(view.latest.trade_value_eur)}</dd></div>
-      <div><dt><T>Value YoY</T></dt><dd><PulseChange value={view.latest.value_yoy_percent} period={context.period}/></dd></div>
-      <div><dt><T>Unit value range</T> · EUR/kg</dt><dd><PulseRange range={view.unit_value_range}/></dd></div>
-    </dl>
-    <p className="pulse-card-coverage"><I18n text="Observed CN categories: {observed} / {selected} selected" values={{observed:view.latest.cn_code_count,selected}}/></p>
-    {view.unit_value_range.status==='VERIFIED'&&<p className="range-attribution"><I18n text="Range endpoints: {low} to {high}" values={{low:t(pulseCategoryKey(view.unit_value_range.low.slug)),high:t(pulseCategoryKey(view.unit_value_range.high.slug))}}/><br/><I18n text="Eligible categories for unit-value range: {count}" values={{count:view.unit_value_range.eligible_category_count}}/></p>}
-    <small className="pulse-range-note"><T>CN-category averages · EUR/kg; not an offer price.</T></small>
-  </article>
-}
-
-function PulseBars({metric,label}) {
-  const t=useT(), f=usePulseFormat(), periods=completedHistory(tradePulse.views.eu_internal_trade).map(point=>point.period)
-  const values=pulseViews.flatMap(view=>completedHistory(view).map(point=>point[metric])).filter(Number.isFinite)
-  const axis=niceAxis(values), isValue=metric==='trade_value_eur', yoyKey=isValue?'value_yoy_percent':'volume_yoy_percent'
-  const metricLabel=isValue?'Trade value (EUR)':'Volume (t)', changeLabel=isValue?'Value YoY (%)':'Volume YoY (%)'
-  const exact=value=>typeof value==='number'&&Number.isFinite(value)?(isValue?f.currency(value):`${f.number(value)} t`):t('Data unavailable')
-  const rows=periods.flatMap(period=>pulseViews.map(view=>({view,period,point:completedHistory(view).find(item=>item.period===period)})))
-  return <div className="pulse-history" aria-label={t(label)}>
-    <p className="pulse-chart-units"><I18n text="Y-axis: {unit}; X-axis: reporting month." values={{unit:isValue?'EUR':t('Volume (t)')}}/></p>
-    <div className="pulse-legend">{pulseViews.map(view=><span key={view.label}><I18n text={view.label}/></span>)}</div>
-    <div className="pulse-plot" aria-hidden="true"><div className="pulse-y-axis">{[...axis.ticks].reverse().map(value=><small key={value} data-tick={value} style={{top:`${(1-value/axis.maximum)*100}%`}}>{isValue?f.currency(value):`${f.number(value)} t`}</small>)}</div>
-      <div className="pulse-months">{periods.map(period=><div className="pulse-month" key={period}><div className="pulse-cluster">{pulseViews.map(view=>{
-        const point=completedHistory(view).find(item=>item.period===period), height=pulseBarPercent(point?.[metric],axis.maximum), comparison=pulseComparisonPeriod(period)
-        const title=`${f.month(period)} (${period}) · ${t(view.label)} · ${exact(point?.[metric])} · ${t('YoY: compared with {period}',{period:comparison})} · ${point?.[yoyKey]==null?t('No comparable data'):f.percent(point[yoyKey])}`
-        return height==null?<span key={view.label} className="pulse-chart-missing" title={title}>—</span>:<i key={view.label} title={title} data-period={period} data-value={point[metric]} style={{height:`${height}%`}}/>
-      })}</div><time className="pulse-month-label" dateTime={period}>{f.month(period)}</time></div>)}</div>
-    </div>
-    <details className="pulse-chart-data"><summary><T>Chart data and comparisons</T></summary><table>
-      <caption><I18n text="Reporting window: {start} → {end}" values={{start:periods[0],end:periods.at(-1)}}/> · <T>Monthly observations, not a rolling total.</T></caption>
-      <thead><tr>{['Reporting month','Flow',metricLabel,'Comparison period',changeLabel].map(key=><th scope="col" key={key}>{t(key)}</th>)}</tr></thead>
-      <tbody>{rows.map(({view,period,point})=><tr key={`${period}-${view.label}`}>
-        <td data-label={t('Reporting month')}>{period}</td><td data-label={t('Flow')}>{t(view.label)}</td><td data-label={t(metricLabel)}>{exact(point?.[metric])}</td><td data-label={t('Comparison period')}>{pulseComparisonPeriod(period)}</td><td data-label={t(changeLabel)}>{point?.[yoyKey]==null?t('No comparable data'):f.percent(point[yoyKey])}</td>
-      </tr>)}</tbody>
-    </table></details>
-  </div>
-}
-
-function PulsePeriodSummary() {
-  return <div className="pulse-period-summary"><b><T>Monthly observations, not a rolling total.</T></b><span>{completedRange.complete?<I18n text="Reporting window: {start} → {end}" values={{start:completedRange.start,end:completedRange.end}}/>:<T>Fewer than 12 completed months available</T>}</span><small><T>Each bar is one month. YoY compares that month with the same month one year earlier.</T></small></div>
-}
-function PulseTableContext() {
-  return <p className="section-note pulse-table-context"><I18n text="EU internal dispatches · {period}; YoY against {comparison}." values={{period:tradePulse.latest_completed_period,comparison:pulseComparisonPeriod(tradePulse.latest_completed_period)}}/> <T>Customs-category statistics; no allocation to individual species.</T></p>
-}
-function Ranking({title,rows,metric,scale='volume',scaleLabel='Volume (t)'}) {
-  const t=useT(), max=Math.max(0,...rows.map(row=>Math.abs(row[scale])).filter(Number.isFinite)), period=tradePulse.latest_completed_period
-  return <article className="pulse-ranking"><h3><I18n text={title}/></h3><p className="pulse-bar-context"><I18n text="Bars show {metric}, relative to the largest displayed magnitude." values={{metric:t(scaleLabel)}}/></p>
-    {!rows.length?<p><T>No eligible categories.</T></p>:<ol className="pulse-ranking-list">{rows.map(row=><li key={row.crop.slug} data-cn={row.crop.slug} data-scale={scale}>
-      <span><b>{t(pulseCategoryKey(row.crop.slug))}</b>{row.granularity==='GROUP_LEVEL'&&<small><T>Trade group</T></small>}<small><T>Volume YoY</T> <PulseChange value={row.volumeYoy} period={period}/></small><small><T>Value YoY</T> <PulseChange value={row.valueYoy} period={period}/></small></span>
-      <i aria-hidden="true" style={{width:`${pulseBarPercent(row[scale],max)??0}%`}}/><strong>{metric(row)}</strong>
-    </li>)}</ol>}
-  </article>
-}
-
-function TradePulseDashboard() {
-  const t=useT(), f=usePulseFormat(), period=tradePulse.latest_completed_period, comparison=pulseComparisonPeriod(period)
-  const topVolume=[...categoryRows].sort((a,b)=>b.volume-a.volume).slice(0,5), topValue=[...categoryRows].sort((a,b)=>b.value-a.value).slice(0,5)
-  const eligibleMovers=categoryRows.filter(row=>row.volume>=100&&row.volumeYoy!=null), up=eligibleMovers.filter(row=>row.volumeYoy>0).sort((a,b)=>b.volumeYoy-a.volumeYoy).slice(0,3), down=eligibleMovers.filter(row=>row.volumeYoy<0).sort((a,b)=>a.volumeYoy-b.volumeYoy).slice(0,3)
-  const internal=tradePulse.views.eu_internal_trade.latest, imports=tradePulse.views.eu_imports.latest, exports=tradePulse.views.eu_exports.latest, peak=tradePulse.peak_activity
-  const change=value=>value==null?t('No comparable data'):f.percent(value)
-  const observations=[t('EU internal seed trade volume was {change} YoY in {period}.',{change:change(internal.volume_yoy_percent),period}),t('Extra-EU imports were {volume} YoY by volume and {value} by value.',{volume:change(imports.volume_yoy_percent),value:change(imports.value_yoy_percent)}),t('Extra-EU exports were {volume} YoY by volume and {value} by value.',{volume:change(exports.volume_yoy_percent),value:change(exports.value_yoy_percent)}),t('The extra-EU trade balance was {value} (exports minus imports).',{value:f.currency(tradePulse.extra_eu_balance.trade_value_eur)})]
-  const contextMatch=tradePulse.market_context.text.match(/^Extra-EU seed trade recorded a EUR ([\d,]+) (deficit|surplus) in ([\d-]+)\. (.*)$/)
-  const marketContextText=contextMatch?`${t('Extra-EU seed trade recorded a EUR {amount} {direction} in {period}.',{amount:f.number(Number(contextMatch[1].replaceAll(',',''))),direction:t(contextMatch[2]),period:contextMatch[3]})} ${t(contextMatch[4])}`:t(tradePulse.market_context.text)
-  return <main className="trade-pulse-dashboard">
-    <header className="pulse-dashboard-head"><div><p className="eyebrow">Eurostat COMEXT · DS-045409</p><h1><T>EU Seed Trade Pulse</T></h1><p><I18n text="Reporting period: {period}" values={{period:`${f.month(period)} (${period})`}}/></p><p><I18n text="EU reporting countries: {count}; country partners only." values={{count:tradePulse.country_coverage?.reporters.length??t('Data unavailable')}}/> <I18n text="Selected seed-for-sowing CN categories: {count}." values={{count:tradePulse.scope.included_cn_codes.length}}/></p></div><span className={`activity ${tradePulse.views.eu_internal_trade.trade_activity.state.toLowerCase()}`}><I18n text="{state} activity" values={{state:t(tradePulse.views.eu_internal_trade.trade_activity.state)}}/></span></header>
-    <section className="pulse-kpis" aria-label={t('Monthly totals')}>{pulseViews.map(view=><PulsePrimaryCard key={view.label} view={view}/>)}</section>
-    <section className="pulse-dashboard-section"><h2><T>Trade activity over time</T></h2><PulsePeriodSummary/>
-      <div className="pulse-chart-grid"><article><h3><T>Monthly volume, tonnes</T></h3><PulseBars metric="volume_tonnes" label="Monthly seed trade volume by flow"/></article><article><h3><T>Monthly trade value, EUR</T></h3><PulseBars metric="trade_value_eur" label="Monthly seed trade value by flow"/></article></div>
-      <div className="peak-activity"><b><T>Peak activity</T></b><span><I18n text="Peak month: {period}; comparison: {comparison}." values={{period:`${f.month(peak.period)} (${peak.period})`,comparison:pulseComparisonPeriod(peak.period)}}/></span><span>{f.number(peak.volume_tonnes)} t · <T>Volume YoY</T> <PulseChange value={peak.volume_yoy_percent} period={peak.period}/></span><small><T>Peak is the largest combined monthly volume across the three trade views, not a 12-month total.</T></small></div>
-    </section>
-    <section className="pulse-dashboard-section seasonality"><h2><T>Seasonality</T></h2><div className="evidence-note"><b><T>Evidence insufficient for a robust seasonality claim.</T></b><span><T>The verified Trade Pulse comparison contains 12 completed months. At least two comparable annual cycles are required before a seasonal pattern is published.</T></span></div></section>
-    <section className="pulse-dashboard-section"><h2><T>Leading CN categories</T></h2><PulseTableContext/><div className="pulse-rank-grid"><Ranking title="By volume" rows={topVolume} metric={row=>`${f.number(row.volume)} t`}/><Ranking title="By trade value" rows={topValue} metric={row=>f.currency(row.value)} scale="value" scaleLabel="Trade value (EUR)"/></div></section>
-    <section className="pulse-dashboard-section"><h2><T>CN categories: volume changes</T></h2><PulseTableContext/><p className="section-note"><T>Latest completed month versus the same month one year earlier; categories below 100 tonnes are excluded from movers.</T></p><div className="pulse-rank-grid"><Ranking title="Largest increases" rows={up} metric={row=>change(row.volumeYoy)} scale="volumeYoy" scaleLabel="Volume YoY (%)"/><Ranking title="Largest decreases" rows={down} metric={row=>change(row.volumeYoy)} scale="volumeYoy" scaleLabel="Volume YoY (%)"/></div><p className="section-note"><T>Trade-value YoY uses declared official values. Customs-group volume is not allocated to individual species.</T></p></section>
-    <section className="pulse-dashboard-section pulse-cn-explanation"><h2><T>Understanding CN codes</T></h2><p><T>The Combined Nomenclature (CN) is the European Union's official system for classifying goods in international trade statistics. Each product category is identified by an eight-digit code.</T></p><p><I18n text="EU Seed Trade Pulse analyses {count} selected CN codes associated with seeds for sowing, using official Eurostat COMEXT data. These codes define which products are included in the reported trade volumes, values and trends." values={{count:tradePulse.scope.included_cn_codes.length}}/></p><p><T>CN classification identifies traded product categories but does not independently verify seed certification, variety or quality.</T></p></section>
-    <section className="pulse-dashboard-section"><h2><T>Extra-EU trade balance</T></h2><p className="section-note"><I18n text="One month · {period}" values={{period}}/> · <T>Units: EUR; one month.</T></p><div className="balance-card"><div><small><T>Imports</T></small><b>{f.currency(imports.trade_value_eur)}</b></div><div><small><T>Exports</T></small><b>{f.currency(exports.trade_value_eur)}</b></div><div><small><T>Balance</T></small><b>{f.currency(tradePulse.extra_eu_balance.trade_value_eur)}</b></div></div><p><T>Balance = extra-EU exports − extra-EU imports.</T></p><div className="market-context-note"><b><T>Market context</T></b><span>{marketContextText}</span></div></section>
-    <section className="pulse-dashboard-section"><h2><T>Market observations</T></h2><p className="section-note"><I18n text="Reporting month: {period}; comparison: {comparison}." values={{period,comparison}}/></p><ul className="observations">{observations.map(item=><li key={item}>{item}</li>)}</ul></section>
-    <section className="pulse-method-compact"><h2><T>Methodology in brief</T></h2><PulseRefreshEvidence/><p><I18n text="{period} and later months have not passed this snapshot’s publication checks." values={{period:tradePulse.latest_available_partial_period}}/></p><p className="pulse-evidence-types"><T>Official trade statistics; unit values are derived EUR/kg indicators. Estimated market prices and actual seller offer prices are separate evidence types.</T></p><p><T>Observed coverage is not zero-filled: selected categories without eligible observations are not assumed to have zero trade.</T></p><p><T>Data:</T> {tradePulse.source}.</p><details className="pulse-chart-data pulse-quality-details"><summary><T>Data quality and coverage</T></summary><p><T>Range eligibility: species-specific CN categories with at least 100 t and two paired observations. Each average is declared trade value divided by net weight.</T></p><p><T>Comparisons are unavailable when the prior value is missing or zero, or reporter coverage differs.</T></p><p><I18n text="{count} accepted observations; missing or suppressed cells are not filled with zero." values={{count:f.number(tradePulse.accepted_observations)}}/></p></details><a href="/methodology"><T>Full methodology →</T></a></section>
-  </main>
-}
+function PulsePeriodSummary() { return <div className="pulse-period-summary"><b><T>Rolling 12-month trade activity</T></b><span>{completedRange.complete ? `${completedRange.start} → ${completedRange.end}` : <T>Fewer than 12 completed months available</T>}</span><small><I18n text="YoY compares each completed month with the same month one year earlier. Partial {period} is excluded from this chart, trends and activity labels." values={{period:tradePulse.latest_available_partial_period}}/></small></div> }
+function TradePulseDashboard() { const t=useT(), {language}=useLanguage(); const contextMatch=tradePulse.market_context.text.match(/^Extra-EU seed trade recorded a EUR ([\d,]+) (deficit|surplus) in ([\d-]+)\. (.*)$/); const marketContextText=contextMatch ? `${t("Extra-EU seed trade recorded a EUR {amount} {direction} in {period}.",{amount:contextMatch[1],direction:t(contextMatch[2]),period:contextMatch[3]})} ${t(contextMatch[4])}` : t(tradePulse.market_context.text); const topVolume=[...categoryRows].sort((a,b)=>b.volume-a.volume).slice(0,5), topValue=[...categoryRows].sort((a,b)=>b.value-a.value).slice(0,5), eligibleMovers=categoryRows.filter(row=>row.volume>=100&&row.volumeYoy!=null), up=[...eligibleMovers].sort((a,b)=>b.volumeYoy-a.volumeYoy).slice(0,3), down=[...eligibleMovers].sort((a,b)=>a.volumeYoy-b.volumeYoy).slice(0,3), internal=tradePulse.views.eu_internal_trade.latest, imports=tradePulse.views.eu_imports.latest, exports=tradePulse.views.eu_exports.latest, peak=tradePulse.peak_activity, observations=[t("EU internal seed trade volume was {change} YoY in {period}.",{change:pct(internal.volume_yoy_percent),period:tradePulse.latest_completed_period}),t("Extra-EU imports were {volume} YoY by volume and {value} by value.",{volume:pct(imports.volume_yoy_percent),value:pct(imports.value_yoy_percent)}),t("Extra-EU exports were {volume} YoY by volume and {value} by value.",{volume:pct(exports.volume_yoy_percent),value:pct(exports.value_yoy_percent)}),t("The extra-EU trade balance was {value} (exports minus imports).",{value:eur.format(tradePulse.extra_eu_balance.trade_value_eur)})]; return <main className="trade-pulse-dashboard"><header className="pulse-dashboard-head"><div><p className="eyebrow"><T>PUBLIC_SAFE · Eurostat COMEXT DS-045409</T></p><h1><T>EU Seed Trade Pulse</T></h1><p><T>Latest completed month</T> <b>{tradePulse.latest_completed_period}</b>; <I18n text="{period} is partial and excluded from trends." values={{period:tradePulse.latest_available_partial_period}}/></p></div><span className={`activity ${tradePulse.views.eu_internal_trade.trade_activity.state.toLowerCase()}`}><I18n text="{state} activity" values={{state:t(tradePulse.views.eu_internal_trade.trade_activity.state)}}/></span></header><section className="pulse-kpis">{pulseViews.map(view=><article key={view.label}><small><I18n text={view.label}/></small><strong>{fmt.format(view.latest.volume_tonnes)} t</strong><Trend value={view.latest.volume_yoy_percent}/><dl><div><dt><T>Trade value</T></dt><dd>{eur.format(view.latest.trade_value_eur)}</dd></div><div><dt><T>Value YoY</T></dt><dd><Trend value={view.latest.value_yoy_percent}/></dd></div><div><dt><T>Unit value range</T></dt><dd><I18n text={unitValueRangeLabel(view.unit_value_range)}/></dd></div></dl>{view.unit_value_range.status==="VERIFIED"&&<p className="range-attribution"><b>{t(view.unit_value_range.low.category)}</b> <T>to</T> <b>{t(view.unit_value_range.high.category)}</b> · <I18n text="{count} eligible categories" values={{count:view.unit_value_range.eligible_category_count}}/></p>}</article>)}</section><section className="pulse-dashboard-section"><h2><T>Trade activity over time</T></h2><PulsePeriodSummary/><div className="pulse-chart-grid"><article><h3><T>Monthly volume, tonnes</T></h3><PulseBars metric="volume_tonnes" label="Monthly seed trade volume by flow"/></article><article><h3><T>Monthly trade value, EUR</T></h3><PulseBars metric="trade_value_eur" label="Monthly seed trade value by flow"/></article></div><div className="peak-activity"><b><T>Peak activity</T></b><span><I18n text="{period} recorded the highest eligible combined trade volume in the displayed period: {volume} t{change}." values={{period:periodLabel(peak.period,language),volume:fmt.format(peak.volume_tonnes),change:peak.volume_yoy_percent==null?"":` (${pct(peak.volume_yoy_percent)} ${t("YoY")})`}}/></span></div></section><section className="pulse-dashboard-section seasonality"><h2><T>Seasonality</T></h2><div className="evidence-note"><b><T>Evidence insufficient for a robust seasonality claim.</T></b><span><T>The verified Trade Pulse comparison contains 12 completed months. At least two comparable annual cycles are required before a seasonal pattern is published.</T></span></div></section><section className="pulse-dashboard-section"><h2><T>Top verified customs trade entities</T></h2><div className="pulse-rank-grid"><Ranking title="By volume" rows={topVolume} metric={row=>`${fmt.format(row.volume)} t`}/><Ranking title="By trade value" rows={topValue} metric={row=>eur.format(row.value)}/></div></section><section className="pulse-dashboard-section"><h2><T>Biggest verified volume movers</T></h2><p className="section-note"><T>Latest completed month versus the same month one year earlier; categories below 100 tonnes are excluded from movers.</T></p><div className="pulse-rank-grid"><Ranking title="Largest increases" rows={up} metric={row=>pct(row.volumeYoy)}/><Ranking title="Largest decreases" rows={down} metric={row=>pct(row.volumeYoy)}/></div><p className="section-note"><T>Trade-value YoY uses declared official values. Customs-group volume is not allocated to individual species.</T></p></section><section className="pulse-dashboard-section"><h2><T>Extra-EU trade balance</T></h2><div className="balance-card"><div><small><T>Imports</T></small><b>{eur.format(imports.trade_value_eur)}</b></div><div><small><T>Exports</T></small><b>{eur.format(exports.trade_value_eur)}</b></div><div><small><T>Balance</T></small><b>{eur.format(tradePulse.extra_eu_balance.trade_value_eur)}</b></div></div><p><I18n text={tradePulse.extra_eu_balance.definition}/></p><div className="market-context-note"><b><T>Market context</T></b><span>{marketContextText}</span></div></section><section className="pulse-dashboard-section"><h2><T>Market observations</T></h2><ul className="observations">{observations.map(item=><li key={item}>{item}</li>)}</ul></section><section className="pulse-method-compact"><h2><T>Methodology in brief</T></h2><p><T>Data:</T> {tradePulse.source}. <T>EU Internal Trade uses exporter-reported intra-EU dispatches; imports and exports are extra-EU flows. Unit-value ranges require at least 100 t and two verified observations per category.</T> <I18n text="Only completed months enter trends; partial {period} is excluded." values={{period:tradePulse.latest_available_partial_period}}/></p><a href="/methodology"><T>Full methodology →</T></a></section></main> }
+function Ranking({ title, rows, metric }) { const t=useT(); const max=Math.max(...rows.map(row=>row.volume)); return <article className="pulse-ranking"><h3><I18n text={title}/></h3>{rows.map(row=><div key={row.crop.slug}><span><b>{t(row.crop.crop)}</b>{row.granularity==="GROUP_LEVEL"&&<small><T>Trade group</T></small>}<small><T>Volume</T> {pct(row.volumeYoy)} · <T>Value</T> {pct(row.valueYoy)}</small></span><i style={{width:`${Math.max(5,row.volume/max*100)}%`}}/><strong>{metric(row)}</strong></div>)}</article> }
 
 function Trend({value}) { if(value==null) return <em className="trend neutral"><T>n/a</T></em>; const up=Number(value)>=0; return <em className={`trend ${up?"up":"down"}`}>{up?"▲":"▼"} {pct(value)} <T>YoY</T></em> }
 
 function HeroCoverageMetrics() {
-  const t=useT(), {language}=useLanguage()
-  const locale={EN:'en-GB',DE:'de-DE',FR:'fr-FR',ES:'es-ES',IT:'it-IT'}[language]
-  const summary=stage1Summary({pulse:tradePulse,species:cropMasterSummary,weather,listings:rfqs})
-  const number=new Intl.NumberFormat(locale,{maximumFractionDigits:0})
-  const money=new Intl.NumberFormat(locale,{style:'currency',currency:'EUR',notation:'compact',maximumFractionDigits:1})
-  const volume=new Intl.NumberFormat(locale,{maximumFractionDigits:0})
-  const value=(n,format=number)=>n==null?t('Data unavailable'):format.format(n)
-  const metrics=[
-    ['seed species',value(summary.species),'Identified seed species; analytical coverage varies by species.'],
-    ['EU seed trade value',value(summary.tradeValue,money),'EU internal dispatches plus extra-EU imports and exports; same completed reporting month. Mirror internal imports are excluded.'],
-    ['EU internal seed trade volume',summary.internalVolume==null?t('Data unavailable'):`${volume.format(summary.internalVolume)} t`,'Exporter-reported intra-EU dispatches, in tonnes; same reporting month as Trade Pulse.'],
-    ['Active Marketplace offers',value(summary.offers),'Only genuine, seller-authorized, active, non-expired public offers are counted. Unverified and demonstration listings are excluded.'],
-    ['Countries covered',value(summary.countries),'EU reporting countries with eligible seed-trade observations in the same completed month; not all trading partners.'],
-    ['weather regions',value(summary.weatherRegions),'Supported weather regions; this is configuration coverage, not a count of current weather observations.'],
-  ]
+  const t=useT()
   return <div className="hero-coverage" aria-label={t("SeedTrade platform coverage")}>
-    {metrics.map(([label,display,description],index)=><div key={label} title={`${t(description)}${index===1||index===2||index===4?` ${summary.period}`:''}`} aria-describedby={`stage1-metric-${index}`}><strong>{display}</strong><span>{t(label)}</span><p id={`stage1-metric-${index}`} className="stage1-visually-hidden">{t(description)}</p></div>)}
+    <div title={t("Identified seed species; analytical coverage varies by species.")}><strong>{countDistinctSeedSpecies(cropMasterSummary.entities)}</strong><span><T>seed species</T></span></div>
+    <div><strong>{fmt.format(publicData.datasets.trade_pulse.accepted_observations ?? publicData.datasets.comext.public_safe_observations)}</strong><span><T>PUBLIC_SAFE EU trade observations</T></span></div>
+    <div><strong><T>EU trade</T></strong><span><T>coverage</T></span></div>
+    <div><strong>{weather.region_count}</strong><span><T>weather regions</T></span></div>
+    <div><strong>{market.latest_completed_period}</strong><span><T>latest completed period</T></span></div>
   </div>
 }
 

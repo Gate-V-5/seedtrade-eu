@@ -1,6 +1,5 @@
 # Dependencies and build output
 node_modules/
-.cache/comext-refresh/
 .seedtrade-ssr/
 dist/
 .vite/
