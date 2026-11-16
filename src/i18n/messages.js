@@ -1,3 +1,4 @@
+import {stage1Rows} from './stage1Messages.js'
 import {marketCardNameRows} from './marketCardNames.js'
 import {snapshotIntelligenceRows} from './snapshotIntelligence.js'
 import {b2bRows} from './b2bMessages.js'
@@ -821,4 +822,4 @@ const rows = [
   ["escaa summary field area", "ESCAA-Flächenübersicht", "Surface de la synthèse ESCAA", "Superficie del resumen ESCAA", "Superficie del riepilogo ESCAA"],
 ]
 const codes = ["DE", "FR", "ES", "IT"]
-export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...b2bRows,...marketCardNameRows,...rows,...snapshotIntelligenceRows].map(row => [row[0], row[index + 1]]))]))
+export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...b2bRows,...marketCardNameRows,...rows,...snapshotIntelligenceRows,...stage1Rows].map(row => [row[0], row[index + 1]]))]))
