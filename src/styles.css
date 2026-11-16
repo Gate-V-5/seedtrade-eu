@@ -1650,3 +1650,84 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .about-hero .eyebrow{color:#76DBB1}
 /* Keep scoped component rules from overriding the accessible focus treatment. */
 #main-content :where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:3px solid #146B49;outline-offset:3px;box-shadow:0 0 0 2px #fff}
+
+/* Stage 1: six aligned evidence-based metrics, preserving the existing hero. */
+/* Directly linked Full Trade Pulse: compact period context and honest scales. */
+.trade-pulse-dashboard .pulse-kpis article{display:flex;flex-direction:column;min-width:0;gap:9px}
+.trade-pulse-dashboard .pulse-kpis h2{font-size:20px;line-height:1.35;min-height:2.7em;margin:0}
+.pulse-card-period,.pulse-card-comparison,.pulse-card-scope{font-size:12px;line-height:1.6;margin:0;color:#536473}
+.pulse-card-period{font-size:13px;color:var(--navy)}
+.pulse-card-period span{display:block;font-weight:750}
+.pulse-card-comparison{min-height:3.2em}
+.pulse-card-scope{min-height:3.2em}
+.pulse-metric-label{font-size:12px;font-weight:700;color:#536473;margin-top:6px}
+.trade-pulse-dashboard .pulse-kpis dl{margin:0;line-height:1.5}
+.trade-pulse-dashboard .pulse-kpis dl div{align-items:baseline;flex-wrap:wrap}
+.trade-pulse-dashboard .pulse-kpis dt{color:#536473}
+.trade-pulse-dashboard .pulse-kpis dd{margin-left:auto;overflow-wrap:anywhere}
+.pulse-card-coverage,.pulse-range-note{font-size:12px;line-height:1.6;color:#536473;margin:5px 0 0}
+.trade-pulse-dashboard .range-attribution{font-size:12px;line-height:1.6;color:#536473;margin:0}
+.pulse-range-note{margin-top:auto}
+.trade-pulse-dashboard .trend.up{color:#126b49}
+.trade-pulse-dashboard .trend.down{color:#aa2f35}
+.trade-pulse-dashboard .trend.neutral,.pulse-comparison-missing{color:#536473;font-size:12px}
+.trade-pulse-dashboard .section-note,.trade-pulse-dashboard .pulse-legend,.trade-pulse-dashboard .pulse-ranking small{color:#536473;line-height:1.6}
+.pulse-chart-units,.pulse-bar-context{font-size:12px;color:#536473;line-height:1.6;margin:0 0 7px}
+.trade-pulse-dashboard .pulse-plot{grid-template-columns:92px minmax(0,1fr);gap:8px;min-width:0}
+.trade-pulse-dashboard .pulse-plot .pulse-months{grid-template-columns:repeat(12,minmax(0,1fr));gap:3px;min-width:0;overflow:visible;min-height:195px}
+.trade-pulse-dashboard .pulse-plot .pulse-months{align-items:start;background:none}
+.trade-pulse-dashboard .pulse-cluster{background:repeating-linear-gradient(to top,transparent 0,transparent calc(25% - 1px),#edf1f3 calc(25% - 1px),#edf1f3 25%)}
+.trade-pulse-dashboard .pulse-cluster i:nth-child(2),.trade-pulse-dashboard .pulse-legend span:nth-child(2):before{background:#9a7414}
+.trade-pulse-dashboard .pulse-month{min-width:0;grid-template-rows:150px auto}
+.trade-pulse-dashboard .pulse-month-label{font-size:10px;color:#536473;line-height:1.3;min-width:0;overflow:visible}
+.trade-pulse-dashboard .pulse-y-axis{padding-right:5px;position:relative;display:block}
+.trade-pulse-dashboard .pulse-y-axis small{color:#536473;font-size:10px;position:absolute;right:5px;transform:translateY(-50%)}
+.pulse-chart-missing{flex:1;min-width:0;color:#536473;font-size:10px}
+.pulse-chart-data{margin-top:6px;font-size:12px;min-width:0}
+.pulse-chart-data summary{min-height:44px;padding:12px 0;cursor:pointer;font-weight:700;color:var(--navy);text-decoration:underline;text-underline-offset:3px}
+.pulse-chart-data table{width:100%;table-layout:fixed;border-collapse:collapse}
+.pulse-chart-data caption{text-align:left;padding:10px 0;line-height:1.6}
+.pulse-chart-data th,.pulse-chart-data td{text-align:left;padding:8px 5px;border-bottom:1px solid var(--line);overflow-wrap:anywhere;line-height:1.5;vertical-align:top}
+.pulse-chart-data th{color:var(--navy)}
+.pulse-ranking-list{list-style:none;padding:0;margin:0}
+.trade-pulse-dashboard .pulse-ranking{display:flex;flex-direction:column;align-items:stretch;align-self:start;gap:10px}
+.trade-pulse-dashboard .pulse-bar-context{min-height:3.2em}
+.trade-pulse-dashboard .pulse-period-summary span{color:#126b49}
+.trade-pulse-dashboard .pulse-period-summary small{color:#536473}
+.trade-pulse-dashboard>section{margin:0}
+.trade-pulse-dashboard .balance-card small{color:#536473}
+.trade-pulse-dashboard .pulse-kpis .pulse-range-note{font-size:12px;font-weight:400;letter-spacing:normal;text-transform:none;color:#536473}
+.pulse-ranking-list li{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);align-items:start}
+.pulse-ranking-list li>span{min-width:0;overflow-wrap:anywhere}
+.pulse-ranking-list strong{font-size:16px;max-width:145px;text-align:right;overflow-wrap:anywhere}
+.trade-pulse-dashboard .pulse-ranking-list i{position:absolute;left:0;bottom:0;height:3px;background:var(--green)}
+.pulse-cn-explanation p{max-width:90ch;font-size:14px;line-height:1.7}
+.trade-pulse-dashboard .peak-activity{display:grid;gap:7px;line-height:1.6}
+.trade-pulse-dashboard .pulse-dashboard-head .eyebrow{color:#c9e4d8}
+@media(max-width:620px){
+ .trade-pulse-dashboard .pulse-plot{grid-template-columns:78px minmax(0,1fr);gap:5px}
+ .trade-pulse-dashboard .pulse-plot .pulse-months{gap:2px}
+ .trade-pulse-dashboard .pulse-month:not(:nth-child(3n+1)):not(:last-child) .pulse-month-label{visibility:hidden}
+ .trade-pulse-dashboard .pulse-y-axis small{font-size:9px}
+ .pulse-card-comparison,.pulse-card-scope,.trade-pulse-dashboard .pulse-kpis h2{min-height:0}
+ .pulse-chart-data thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .pulse-chart-data table,.pulse-chart-data tbody{display:block;width:100%}
+ .pulse-chart-data tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin-top:10px;padding:10px;border:1px solid var(--line);border-radius:6px}
+ .pulse-chart-data td{display:block;min-width:0;border:0;padding:4px 0}
+ .pulse-chart-data td:before{content:attr(data-label);display:block;font-weight:700;color:#536473;font-size:11px;margin-bottom:3px}
+ .pulse-ranking-list strong{max-width:125px;font-size:14px}
+}
+.dashboard-hero .hero-intro,.dashboard-hero .hero-copy{min-width:0;max-width:100%}
+.dashboard-hero .hero-copy h1,.dashboard-hero .hero-copy .eyebrow{overflow-wrap:anywhere;hyphens:auto}
+.dashboard-hero .signal-top .data-available{display:block;font-size:11px;line-height:1.5;color:#d4e0e8}
+.dashboard-hero .hero-coverage{grid-template-columns:repeat(3,minmax(0,1fr));gap:0;align-items:stretch}
+.dashboard-hero .hero-coverage>div{min-width:0;padding:16px 12px 16px 0;display:flex;flex-direction:column;gap:7px}
+.dashboard-hero .hero-coverage strong{font-size:clamp(18px,1.5vw,23px);font-variant-numeric:tabular-nums;line-height:1.3;overflow-wrap:anywhere}
+.dashboard-hero .hero-coverage span{font-size:11px;line-height:1.5;letter-spacing:.02em;max-width:25ch;color:#536473}
+.stage1-visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip-path:inset(50%);white-space:nowrap!important;border:0!important}
+.source-fresh{display:block;font-size:11px;margin-top:5px;color:#b9ead5}
+.pulse-refresh-evidence{display:flex;flex-wrap:wrap;gap:5px 18px;font-size:12px;margin-top:12px;line-height:1.6}
+.signal-panel .pulse-refresh-evidence{color:#cbd8e1}
+.pulse-evidence-types{line-height:1.6}
+@media(max-width:1120px){.dashboard-hero .hero-coverage{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){.dashboard-hero .hero-coverage{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-hero .hero-coverage>div{padding:12px 10px 12px 0}.dashboard-hero .hero-coverage strong{font-size:21px}.dashboard-hero .hero-coverage span{font-size:11px}}
