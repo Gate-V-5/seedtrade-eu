@@ -28,9 +28,9 @@
         "EU_EXPORTS"
       ],
       "artifact": "trade_pulse_public.json",
-      "sha256": "12dd3f38ff65f256bcaa5aa9394140aa2fb4da1838c0b0ad073607cad1b62f9a",
+      "sha256": "b81ddba7dae43461760723343acd44a0080ce10f0a8b847f069e512f17713eaf",
       "included_cn_code_count": 40,
-      "accepted_observations": 130028,
+      "accepted_observations": 120965,
       "source_request_grid": "40 CN8 x 27 EU reporters;2024-01 through 2026-06",
       "baseline_artifact": "data/multisource-trade-v1/trade_pulse_baseline.json",
       "period_semantics": {
