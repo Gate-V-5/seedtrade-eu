@@ -1,13 +1,13 @@
 {
   "schema": "SEEDTRADE_EU_SEED_TRADE_PULSE_V1",
-  "generated_at": "2026-11-16T06:56:28.824650+00:00",
+  "generated_at": "2026-11-16T12:08:24.985240+00:00",
   "classification": "PUBLIC_SAFE",
   "source": "Eurostat COMEXT DS-045409",
-  "source_artifact_sha256": "68fa9d9761f55610cb79735e6ba684fca3600144ad21ed73eff20268cb3dd649",
+  "source_artifact_sha256": "d4d376c4ceaf3d29242bfd65647837d80a883438dd2aee64b5443aaf4734c1fc",
   "latest_completed_period": "2026-08",
   "latest_available_partial_period": "2026-09",
   "partial_period_excluded": true,
-  "accepted_observations": 130028,
+  "accepted_observations": 120965,
   "excluded_partial_observations": 2371,
   "scope": {
     "rule": "40 verified sowing CN8 codes. Unique reporter-partner-flow-month grain. No species allocation. Comparable 2024–2026 definitions confirmed by official yearly nomenclature evidence.",
@@ -1444,15 +1444,15 @@
     "definition": "EU reporting countries with eligible paired observations in this reporting month, across the three trade views; not partner-country count."
   },
   "refresh": {
-    "last_check_at": "2026-11-16T06:45:04.100748+00:00",
-    "last_success_at": "2026-11-16T06:56:28.824650+00:00",
+    "last_check_at": "2026-11-16T12:08:24.985240+00:00",
+    "last_success_at": "2026-11-16T12:08:24.985240+00:00",
     "source_updated_at": "2026-11-13T11:00:00+0100",
     "source_timestamp_verified": true,
-    "source_manifest_sha256": "68fa9d9761f55610cb79735e6ba684fca3600144ad21ed73eff20268cb3dd649",
+    "source_manifest_sha256": "d4d376c4ceaf3d29242bfd65647837d80a883438dd2aee64b5443aaf4734c1fc",
     "publication_rule": "All bounded slices validated; newest month has all 27 reporters, 40 CN codes and 3 flows; 24-month coverage checked against accepted historical reporter sets. Unexplained gaps reject publication. YoY withheld if reporter coverage differs. Absent cells never zero-filled; official data can be revised.",
     "scheduler_status": "LOCAL_IMPLEMENTATION_ONLY_NOT_INSTALLED",
     "errors": [],
-    "verification_mode": "CAPTURED_SOURCE_REPLAY",
+    "verification_mode": "LIVE_SOURCE_CHECK",
     "historical_coverage_sha256": "0d23508897a88e45fa6b275068beb5384ba4c340f471644939ff7380841adafe",
     "revisions_detected": false,
     "revised_periods": []
