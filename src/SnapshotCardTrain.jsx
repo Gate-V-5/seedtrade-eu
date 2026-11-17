@@ -1,9 +1,10 @@
 import {useEffect,useRef,useState} from 'react'
 import {useLanguage} from './i18n/index.jsx'
+import SnapshotPriceGuide from './SnapshotPriceGuide.jsx'
 import {SeedCard} from './CommercialSeedCard.jsx'
 // Measure all automatically eligible cards at the actual shared column width.
 // No species-specific heights, clipped copy, fabricated metrics or rotation-dependent resizing.
-export default function SnapshotCardTrain({cards,position=0,visible=4,shown:providedCards}) {
+export default function SnapshotCardTrain({cards,position=0,visible=3,shown:providedCards}) {
   const root=useRef(null),measure=useRef(null),{language}=useLanguage(),[height,setHeight]=useState(null)
   useEffect(()=>{
     let stopped=false,frame=0,lastWidth=-1
@@ -26,6 +27,7 @@ export default function SnapshotCardTrain({cards,position=0,visible=4,shown:prov
   const shown=providedCards||Array.from({length:Math.min(visible,cards.length)},(_,i)=>cards[(position+i)%cards.length])
   return <div className="snapshot-card-train" ref={root} style={height?{'--snapshot-card-block-size':`${height}px`}:undefined}>
     <div className="crop-grid homepage-crops carousel-train">{shown.map(card=><SeedCard key={card.slug} card={card} snapshot/>)}</div>
+    <SnapshotPriceGuide/>
     <div className="crop-grid homepage-crops snapshot-card-measurement" ref={measure} aria-hidden="true" inert="">{cards.map(card=><SeedCard key={card.slug} card={card} snapshot/>)}</div>
   </div>
 }

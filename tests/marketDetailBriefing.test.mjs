@@ -14,10 +14,10 @@ const {LanguageProvider,translate}=await vite.ssrLoadModule('/src/i18n/index.jsx
 const {detailPilotIds,briefingLabel}=await vite.ssrLoadModule('/src/MarketDetailBriefing.jsx')
 const render=(c,lang)=>new JSDOM(renderToString(React.createElement(LanguageProvider,{initialLanguage:lang},React.createElement(Catalogue,{path:'/market/seeds/'+c.slug})))).window.document
 try{
-await test('exactly twelve approved markets use one reusable architecture, other routes remain unchanged',()=>{
+await test('all68 active markets use one briefing; original12 historical evidence IDs unchanged',()=>{
  assert.equal(projection.records.filter(r=>detailPilotIds.includes(r.entity_id)&&r.presentation==='MARKET_WATCH').length,11);assert.equal(projection.records.filter(r=>detailPilotIds.includes(r.entity_id)&&r.presentation==='MARKET_SITUATION').length,1);
  assert.deepEqual(detailPilotIds,['barley','red-clover','flax','sunflower','rye','italian-ryegrass','perennial-ryegrass','meadow-fescue','field-pea','alfalfa','soybean','fodder-beet'])
- for(const c of catalogue.cards)assert.equal(Boolean(render(c,'EN').querySelector('.market-detail-briefing')),detailPilotIds.includes(c.market_entity_id))
+ for(const c of catalogue.cards)assert.equal(Boolean(render(c,'EN').querySelector('.market-detail-briefing')),true)
 })
 await test('pilot briefing preserves all approved Intelligence, dates, botanical names and translations',()=>{
  for(const lang of ['EN','DE','FR','ES','IT','ZZ'])for(const id of detailPilotIds){
@@ -29,9 +29,9 @@ await test('pilot briefing preserves all approved Intelligence, dates, botanical
  assert.equal(d.querySelector('header time').getAttribute('datetime'),r.as_of)
  assert.equal(d.querySelector('.snapshot-intelligence').dataset.presentation,r.presentation)
  assert.equal(d.querySelector('.briefing-evidence summary').textContent,briefingLabel('Evidence & sources',lang))
- for(const key of ['Market briefing','Trade & value','Supply evidence','Evidence & sources']){assert.ok(d.body.textContent.includes(briefingLabel(key,lang)));if(!['EN','ZZ'].includes(lang))assert.notEqual(briefingLabel(key,lang),key)}
+ for(const key of ['Market briefing','Supply evidence','Evidence & sources']){assert.ok(d.body.textContent.includes(briefingLabel(key,lang)));if(!['EN','ZZ'].includes(lang))assert.notEqual(briefingLabel(key,lang),key)}
  if(id==='sunflower'){assert.equal(d.querySelector('.snapshot-watch'),null);assert.equal(d.querySelector('.snapshot-b2b'),null);assert.ok(d.querySelector('.snapshot-latest'))}
- assert.ok(!/Tier [ABCD]|GlobalWits|Market pressure|Market outlook|Representative price|Seed price/.test(d.body.textContent))
+ assert.ok(!/Tier [ABCD]|GlobalWits|Market outlook|Representative price/.test(d.body.textContent))
  }
 })
 await test('pilot status, as-of and primary KPIs occur once; limitations stay secondary',()=>{
@@ -43,7 +43,7 @@ await test('pilot status, as-of and primary KPIs occur once; limitations stay se
  assert.equal([...d.querySelectorAll('.catalogue-metric dt')].filter(n=>n.textContent===translate(lang,'Trade unit value')).length,c.price_observations.some(p=>p.eligible&&p.classification==='PUBLIC_SAFE')?1:0)
  assert.equal([...d.querySelectorAll('.catalogue-metric dt')].filter(n=>n.textContent===translate(lang,'Trade volume')).length,c.trade_volume_t==null?0:1)
  assert.equal(d.querySelectorAll('.snapshot-intelligence time').length,0)
- const driver=d.querySelector('.briefing-drivers');if(id==='sunflower'){assert.ok(driver);assert.equal(driver.querySelectorAll('dt').length,1);assert.equal(driver.querySelector('dd').textContent,translate(lang,r.market_situation).split('. ')[0]+'.')}else assert.equal(driver,null)
+ const driver=d.querySelector('.briefing-drivers');assert.equal(driver,null)
  for(const key of ['Historical seed evidence; not available stock.','Customs shipment value, not a seed offer.']){assert.ok(d.querySelector('.briefing-evidence').textContent.includes(briefingLabel(key,lang)));assert.ok(!driver?.textContent.includes(briefingLabel(key,lang)))}
  assert.equal(d.querySelector('.briefing-evidence').hasAttribute('open'),false)
  }

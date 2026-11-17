@@ -42,9 +42,9 @@ try{
    categories.forEach((c,i)=>assert.equal(rendered[i].querySelectorAll('[data-estimated-range]').length,c.entity_ids.length))
    for(const id of categories[0].entity_ids.filter(id=>categories[1].entity_ids.includes(id))){const selector=`[data-entity-id="${id}"] [data-estimated-range]`;assert.equal(rendered[0].querySelector(selector).textContent,rendered[1].querySelector(selector).textContent)}
   })
-  await test(`all 53 detail pages retain botanical names and show same two-state range: ${language}`,()=>{
+  await test(`all53 detail pages retain identity; unsupported range sections remain absent: ${language}`,()=>{
    for(const id of ids){const card=catalogue.cards.find(c=>c.market_entity_id===id),doc=render(React.createElement(MarketCatalogue,{path:`/market/seeds/${card.slug}`}),language)
-    assert.equal(doc.querySelectorAll('[data-estimated-range]').length,1,id);assert.equal(doc.querySelector('[data-estimated-range] dd').textContent,rangePresentation(id,language).value,id)
+    assert.equal(doc.querySelectorAll('[data-estimated-range]').length,rangePresentation(id,language).state==='RANGE'?1:0,id);if(rangePresentation(id,language).state==='RANGE')assert.equal(doc.querySelector('[data-estimated-range] dd').textContent,rangePresentation(id,language).value,id)
     assert.equal(doc.querySelector('.catalogue-botanical').textContent,card.botanical_display_name,id)
    }
   })
