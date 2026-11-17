@@ -78,7 +78,7 @@ test('unverified measurement windows stay null only with an explicit editorial-a
 test('ordinary short regional news needs no essay, measured period or multiple primary sources',()=>{
  const {packet}=fixture(),a=packet.article
  Object.assign(a,{format:'SHORT_NEWS_BRIEF',editorial_type:'OFFICIAL_UPDATE',review_status:'PENDING_OWNER_APPROVAL',publication_status:'DRAFT',publication_eligible:false,observation_period:null,observation_period_basis:'NO_MEASURED_PERIOD_NEWS_BRIEF',why_it_matters:''})
- const paragraphs=['Isolated source-based paragraph for testing short brief length. '.repeat(5),'Second isolated paragraph used only in this local test fixture. '.repeat(5)]
+ const paragraphs=['Isolated source-based paragraph for testing news brief length. '.repeat(7),'Second isolated paragraph used only in this local test fixture. '.repeat(7),'Third isolated paragraph explains the practical relevance in this local fixture. '.repeat(5)]
  a.content=paragraphs.map((body,i)=>({id:String(i+1),heading:'',body,claim_ids:[a.claims[0].id]}))
  for(const locale of Object.values(a.localizations)){locale.why_it_matters='';locale.content=a.content.map(({id,heading,body})=>({id,heading,body}))}
  a.fingerprint=fingerprint(a);assert.deepEqual(validateDraftPackage(packet,{imageValidator:()=>[]}),[])

@@ -1848,7 +1848,7 @@
       "canonical_url": "https://seedtrade.eu/news/ireland-harvest-weather-november-2026",
       "id": "brief-ireland-harvest-weather-november-2026-2026-11-16",
       "publication_date": "2026-11-16",
-      "updated_at": "2026-11-16",
+      "updated_at": "2026-11-17",
       "checked_at": "2026-11-16",
       "valid_until": "2026-11-18",
       "classification": "PUBLIC_SAFE",
@@ -1856,8 +1856,14 @@
       "publication_eligible": true,
       "review_status": "APPROVED",
       "market_engine_input": false,
-      "revision": 1,
-      "corrections": [],
+      "revision": 2,
+      "corrections": [
+        {
+          "date": "2026-11-17",
+          "type": "EDITORIAL_EXPANSION",
+          "note": "Expanded source-backed explanation and unique-photo review; original publication date retained."
+        }
+      ],
       "series_id": "brief-ireland-harvest-weather-november-2026",
       "previous_item_id": null,
       "related_item_ids": [],
@@ -1915,6 +1921,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "Teagasc führt die schwächere Ernte auf eine kleinere Getreidefläche sowie Trockenheit von Juni bis Juli und hohe Temperaturen im Mai, Juni und Juli zurück. Die Dürre erreichte ihren Höhepunkt erst im August, als viele Getreidebestände bereits geerntet waren. Dieser zeitliche Unterschied ist wichtig: Der spätere Dürrehöhepunkt erklärt die geringeren Erträge nicht allein."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Regional gab es deutliche Unterschiede. Leichte Böden in den Midlands und im Südosten waren besonders betroffen, schwerere Böden im Nordosten weniger. Donegal erhielt im Sommer ausreichend Regen, doch nasse Phasen im August und September erschwerten die Ernte. Für Saatgutproduzenten und Berater sind daher lokale Böden, Wasserverfügbarkeit und Entwicklungszeitpunkte aussagekräftiger als ein einheitliches Wetterurteil für das ganze Land."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "Die Ergebnisse bieten regionalen Kontext für Gespräche zwischen Landwirten, Beratern und Saatgutunternehmen zum Saisonrückblick. Dafür bleiben lokale Feldbeobachtungen nötig: Ein nationaler Erntebericht belegt nicht die Leistung einer einzelnen Sorte. Der Originalbericht enthält die regionale Aufschlüsselung für Leser, die die Bedingungen innerhalb Irlands vergleichen möchten."
             }
           ]
@@ -1931,6 +1947,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "Teagasc relie la récolte plus faible à une surface céréalière réduite, au temps sec de juin à juillet et aux températures élevées de mai, juin et juillet. Le pic de sécheresse est arrivé en août, alors que de nombreuses céréales étaient déjà récoltées. Ce décalage compte : le pic tardif ne peut expliquer à lui seul la baisse des rendements."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Les contrastes régionaux étaient marqués. Les sols légers des Midlands et du sud-est ont davantage souffert que les sols plus lourds du nord-est. Le Donegal a reçu assez de pluie en été, mais les épisodes humides d’août et septembre ont compliqué la récolte. Pour les producteurs de semences et les conseillers, les sols locaux, l’eau disponible et le calendrier des cultures sont donc plus instructifs qu’un constat météorologique national uniforme."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "Ces constats apportent un contexte régional aux échanges de fin de campagne entre agriculteurs, conseillers et entreprises semencières. Des observations locales restent nécessaires : un bilan national ne démontre pas les performances d’une variété particulière. Le rapport original fournit le détail régional aux lecteurs souhaitant comparer les conditions en Irlande."
             }
@@ -1949,6 +1975,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "Teagasc vincula la menor cosecha con una superficie cerealista reducida, el tiempo seco de junio a julio y las altas temperaturas de mayo, junio y julio. La sequía alcanzó su máximo en agosto, cuando muchos cereales ya se habían cosechado. Esta diferencia temporal importa: ese máximo tardío no explica por sí solo los menores rendimientos."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Hubo contrastes regionales claros. Los suelos ligeros de las Midlands y del sureste sufrieron más que los más pesados del noreste. Donegal recibió suficiente lluvia en verano, pero los episodios húmedos de agosto y septiembre dificultaron la cosecha. Para productores de semillas y asesores, el suelo local, el agua disponible y el calendario del cultivo resultan más útiles que una única descripción meteorológica para todo el país."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "Los resultados aportan contexto regional a las conversaciones de fin de campaña entre agricultores, asesores y empresas de semillas. Siguen siendo necesarias las observaciones locales: un balance nacional no demuestra el rendimiento de una variedad concreta. El informe original ofrece el desglose regional para quienes deseen comparar las condiciones dentro de Irlanda."
             }
           ]
@@ -1965,6 +2001,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "Teagasc collega il raccolto più debole alla minore superficie cerealicola, alle condizioni asciutte da giugno a luglio e alle alte temperature di maggio, giugno e luglio. La siccità ha raggiunto il picco in agosto, quando molti cereali erano già stati raccolti. Il calendario conta: quel picco tardivo non spiega da solo la riduzione delle rese."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Le differenze regionali erano nette. I terreni leggeri delle Midlands e del sud-est hanno sofferto più di quelli pesanti del nord-est. Il Donegal ha ricevuto piogge estive sufficienti, ma i periodi umidi di agosto e settembre hanno ostacolato la raccolta. Per produttori di sementi e consulenti, suolo locale, disponibilità d’acqua e calendario colturale sono quindi più utili di un’unica descrizione meteorologica nazionale."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "I risultati offrono un contesto regionale ai confronti di fine campagna tra agricoltori, consulenti e imprese sementiere. Restano necessarie osservazioni locali: un bilancio nazionale non dimostra le prestazioni di una singola varietà. Il rapporto originale presenta la ripartizione regionale per chi desidera confrontare le condizioni nelle diverse aree dell’Irlanda."
             }
@@ -1986,13 +2032,31 @@
         {
           "id": "2",
           "heading": "",
+          "body": "Teagasc links the weaker harvest to a smaller cereal area and to dry conditions from June into July, alongside high temperatures in May, June and July. It notes that the drought peaked in August, after many cereal crops had already been harvested. The timing matters: the later drought peak should not be treated as the sole explanation for lower yields.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "3",
+          "heading": "",
+          "body": "The regional picture was uneven. Light soils in the midlands and southeast were particularly affected, while heavier northeastern soils were less exposed. Donegal had adequate summer rainfall but wet spells in August and September complicated harvesting. For seed producers and advisers, these contrasts make local soil, water availability and crop timing more useful than a single national weather label.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "4",
+          "heading": "",
           "body": "The findings offer regional context for meetings between growers, advisers and seed businesses as they review the season. Those conversations still need local field evidence: a national harvest review does not establish the performance of an individual variety. The original report provides the full regional breakdown for readers comparing conditions across Ireland.",
           "claim_ids": [
             "source-brief"
           ]
         }
       ],
-      "fingerprint": "dfe0eab3c3b950df8ecb671e8d804d3af49073dc48b9328ab79c2f282e64aefb"
+      "fingerprint": "a8e7b1ff0a06739f012b0d787ae020ae1b84881391432183f30ec292f667a6ed",
+      "brief_standard_version": 2,
+      "previous_revision_package_sha256": "626e4ff8553537d2f8dfec7c37f7ab9f6bc3cdefcfd1fcabe52e72225c7a69ff"
     },
     {
       "slug": "occitanie-cereal-establishment-november-2026",
@@ -2029,7 +2093,7 @@
       "canonical_url": "https://seedtrade.eu/news/occitanie-cereal-establishment-november-2026",
       "id": "brief-occitanie-cereal-establishment-november-2026-2026-11-16",
       "publication_date": "2026-11-16",
-      "updated_at": "2026-11-16",
+      "updated_at": "2026-11-17",
       "checked_at": "2026-11-16",
       "valid_until": "2026-11-18",
       "classification": "PUBLIC_SAFE",
@@ -2037,8 +2101,14 @@
       "publication_eligible": true,
       "review_status": "APPROVED",
       "market_engine_input": false,
-      "revision": 1,
-      "corrections": [],
+      "revision": 2,
+      "corrections": [
+        {
+          "date": "2026-11-17",
+          "type": "EDITORIAL_EXPANSION",
+          "note": "Expanded source-backed explanation and unique-photo review; original publication date retained."
+        }
+      ],
       "series_id": "brief-occitanie-cereal-establishment-november-2026",
       "previous_item_id": null,
       "related_item_ids": [],
@@ -2096,6 +2166,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "Der Regionalbericht beschreibt rasche Aufläufe nach frühen Aussaaten um den 18. Oktober; einzelne Pflanzen erreichten das Einblattstadium. Aussaaten von Ende Oktober keimten noch mit der Restfeuchte. Trotz kühlerer Witterung sorgten geringe Bodenfeuchte und Unterschiede in der vorherigen Bodenbearbeitung für teils stark abweichende Auflaufbedingungen."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "ARVALIS empfiehlt, den Zeitpunkt der Unkrautbekämpfung je Schlag nach Verunkrautung, Bodenfeuchte und verfügbarer Arbeitskapazität zu wählen. In aufgelaufenen Beständen bleiben Blattläuse zu beobachten; mit Regen kann die Schneckenaktivität steigen. Für Saatgutvermehrer und Berater zählt deshalb der tatsächliche Bestand, nicht ein pauschaler Regionalkalender oder die Annahme, dass alle jüngsten Aussaaten bereits aufgelaufen sind."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "Für Landwirte und Saatgutvermehrer lautet die praktische Botschaft, vor Maßnahmen den Entwicklungsstand und die Bodenfeuchte zu prüfen. Ein regionaler Fachhinweis ist ein guter Ausgangspunkt, ersetzt aber keine Feldbegehung. Originalempfehlungen und örtliche Pflanzengesundheitsberichte helfen bei der Entscheidung, welche Situationen zuerst Aufmerksamkeit benötigen und welche später erneut geprüft werden können."
             }
           ]
@@ -2112,6 +2192,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "Le point régional décrit des levées rapides après les premiers semis autour du 18 octobre, certaines plantes atteignant une feuille étalée. Les semis de fin octobre étaient encore en germination grâce à l’humidité résiduelle. Malgré le refroidissement, le manque d’eau et les différences de travail du sol entraînaient des conditions d’implantation variables selon les parcelles."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "ARVALIS recommande de raisonner le désherbage à la parcelle selon le salissement, l’humidité et la capacité d’intervention. Les pucerons restent à surveiller sur les cultures levées ; le retour des pluies peut favoriser les limaces. Pour les multiplicateurs et conseillers, l’intérêt est d’observer le peuplement réel plutôt que de suivre un calendrier régional unique ou de supposer que tous les semis récents ont levé."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "Pour les agriculteurs et les multiplicateurs de semences, le message pratique est de vérifier le stade des cultures et l’humidité du sol avant d’organiser les interventions. Une note régionale constitue un point de départ utile, sans remplacer les visites de parcelles. Consulter les conseils originaux et les bulletins sanitaires locaux pour hiérarchiser les situations à surveiller ou à réévaluer après une évolution des conditions."
             }
@@ -2130,6 +2220,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "El informe regional describe una nascencia rápida de las siembras tempranas, iniciadas hacia el 18 de octubre, con algunas plantas en estado de primera hoja. Las de finales de octubre seguían germinando con la humedad residual. Pese al descenso de temperaturas, la escasa humedad y las diferencias de laboreo generaban condiciones de implantación variables entre parcelas."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "ARVALIS aconseja decidir el momento del control de malas hierbas según cada parcela, su infestación, la humedad y la capacidad de intervenir a tiempo. Conviene observar pulgones en cultivos nacidos; la lluvia puede reactivar las babosas. Para multiplicadores y asesores, lo útil es comprobar la población real, sin aplicar un calendario regional único ni dar por nacidas todas las siembras recientes."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "Para agricultores y multiplicadores de semillas, el mensaje práctico es comprobar el estado del cultivo y la humedad del suelo antes de planificar las labores. Una nota técnica regional es un punto de partida útil, pero no sustituye las visitas al campo. Consultar la recomendación original y los boletines sanitarios locales ayuda a decidir qué situaciones requieren atención primero y cuáles pueden reevaluarse si cambian las condiciones."
             }
           ]
@@ -2146,6 +2246,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "L’aggiornamento regionale descrive emergenze rapide per le prime semine, iniziate intorno al 18 ottobre, con alcune piante alla prima foglia. Le semine di fine ottobre stavano ancora germinando grazie all’umidità residua. Nonostante il raffreddamento, poca acqua nel suolo e differenze nelle lavorazioni precedenti determinavano condizioni d’insediamento variabili tra appezzamenti."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "ARVALIS invita a scegliere il momento del diserbo per singolo campo, considerando infestanti, umidità e capacità d’intervento tempestivo. Nei cereali emersi restano da osservare gli afidi; le piogge possono favorire le limacce. Per moltiplicatori e consulenti è utile valutare la densità effettiva, senza applicare un calendario regionale unico o presumere che tutte le semine recenti siano già emerse."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "Per agricoltori e moltiplicatori di sementi, il messaggio pratico è verificare lo stadio colturale e l’umidità prima di programmare i lavori. Una nota tecnica regionale è un utile punto di partenza, ma non sostituisce i sopralluoghi. Consultare i consigli originali e i bollettini fitosanitari locali aiuta a stabilire quali situazioni richiedano attenzione immediata e quali possano essere rivalutate dopo un cambiamento delle condizioni."
             }
@@ -2167,13 +2277,31 @@
         {
           "id": "2",
           "heading": "",
+          "body": "The regional update describes early sowings around 18 October emerging quickly, with some plants reaching the first-leaf stage. Late-October sowings were still germinating using residual moisture. Despite cooler weather, limited soil moisture and differences in previous cultivation meant that establishment conditions could vary considerably between fields.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "3",
+          "heading": "",
+          "body": "ARVALIS advises deciding weed-control timing field by field, considering weed pressure, available moisture and how quickly the farm can intervene. Aphids still warrant observation in emerged crops; slug activity may increase if rain returns. For seed growers and advisers, the useful lesson is to assess the actual stand rather than apply one regional calendar or assume that all recently sown fields have emerged.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "4",
+          "heading": "",
           "body": "For growers and seed multipliers, the practical message is to check crop stage and soil moisture before planning field operations. A regional technical note is a useful starting point, not a substitute for walking the crop. Consult the original advice and local crop-health bulletins when deciding which situations need attention first and which can be reassessed after conditions change.",
           "claim_ids": [
             "source-brief"
           ]
         }
       ],
-      "fingerprint": "a538a345e044c7b0345e9a5dc7d20ae3d3dce538bcc09465adc31e0da3da684e"
+      "fingerprint": "6e05953e96e34b1350505fdc403971470383f545b5911c3c5dfcf7a1dd1bc4db",
+      "brief_standard_version": 2,
+      "previous_revision_package_sha256": "47b195f4e785649e6c19a982f4abe5ef41df1cef12d12a7399ff067671e0cbee"
     },
     {
       "slug": "netherlands-seed-potato-testing-november-2026",
@@ -2220,7 +2348,7 @@
       "canonical_url": "https://seedtrade.eu/news/netherlands-seed-potato-testing-november-2026",
       "id": "brief-netherlands-seed-potato-testing-november-2026-2026-11-16",
       "publication_date": "2026-11-16",
-      "updated_at": "2026-11-16",
+      "updated_at": "2026-11-17",
       "checked_at": "2026-11-16",
       "valid_until": "2026-11-18",
       "classification": "PUBLIC_SAFE",
@@ -2228,8 +2356,14 @@
       "publication_eligible": true,
       "review_status": "APPROVED",
       "market_engine_input": false,
-      "revision": 1,
-      "corrections": [],
+      "revision": 2,
+      "corrections": [
+        {
+          "date": "2026-11-17",
+          "type": "EDITORIAL_EXPANSION",
+          "note": "Expanded source-backed explanation and unique-photo review; original publication date retained."
+        }
+      ],
       "series_id": "brief-netherlands-seed-potato-testing-november-2026",
       "previous_item_id": null,
       "related_item_ids": [],
@@ -2287,6 +2421,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "Das Labor bearbeitete zuletzt mehr als 3.000 Proben pro Woche. NAK erwartete zum Ende der in der Mitteilung betrachteten Woche rund 31.000 verarbeitete Proben. Dies war ein Ziel im Bericht vom 12. November, keine nachträglich bestätigte Gesamtzahl. Händler sollten einen erwarteten Arbeitsumfang daher nicht mit einem abgeschlossenen Zertifizierungsergebnis gleichsetzen."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Der Bericht behandelt Schleimkrankheit, Kartoffelvirus Y und Blattrollvirus sowie zusätzliche Untersuchungen etwa auf PMTV und Erwinia. Regionale Unterschiede bei virusbedingten Abstufungen blieben bestehen; die genaue Verteilung zwischen den Viren war noch unklar. NAK wollte im Januar bei Erzeugertreffen darauf zurückkommen. Käufer benötigen weiterhin die konkreten Prüf- und Zertifizierungsangaben ihrer Partie; der Überblick belegt deren Gesundheitsstatus nicht."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "NAK weist zudem darauf hin, dass dieselbe Probe auf mehrere Krankheiten untersucht werden kann, ohne für jeden gewünschten Test eine eigene Probe einzusenden. Für Pflanzkartoffelbetriebe bietet dies einen praktischen Überblick über den Prüfstand. Die vorläufigen Laborzahlen beziffern weder verkaufsfähige zertifizierte Bestände noch künftige Pflanzgutpreise."
             }
           ]
@@ -2303,6 +2447,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "Le laboratoire traitait récemment plus de 3 000 échantillons par semaine. NAK prévoyait d’en avoir traité environ 31 000 à la fin de la semaine évoquée dans son annonce. Il s’agissait d’un objectif du rapport du 12 novembre, pas d’un total confirmé ensuite. Les négociants doivent donc distinguer la charge de travail attendue d’un résultat de certification achevé."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Le rapport traite de la pourriture brune, du virus Y et de l’enroulement, ainsi que d’analyses complémentaires comme PMTV ou Erwinia. Les écarts régionaux de déclassement liés aux virus persistaient, mais leur répartition détaillée restait mal connue. NAK prévoyait d’y revenir lors des réunions de producteurs de janvier. Les acheteurs ont toujours besoin des résultats et certificats de leur propre lot : ce bilan ne prouve pas son état sanitaire."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "NAK rappelle aussi qu’un même échantillon peut servir à rechercher plusieurs maladies, sans en envoyer un distinct pour chaque analyse demandée. Pour les entreprises du secteur, ce bilan permet de suivre l’avancement des contrôles. Ces chiffres provisoires de laboratoire ne mesurent ni les stocks certifiés disponibles à la vente ni l’évolution future des prix des plants."
             }
@@ -2321,6 +2475,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "El laboratorio venía procesando más de 3.000 muestras semanales. NAK preveía alcanzar unas 31.000 al final de la semana a la que se refería su anuncio. Era un objetivo del informe del 12 de noviembre, no un total confirmado posteriormente. Los operadores deben distinguir la carga de trabajo prevista de un resultado de certificación ya concluido."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "El informe aborda la podredumbre parda, el virus Y y el enrollado, además de pruebas adicionales como PMTV o Erwinia. Persistían diferencias regionales en las rebajas de categoría por virus, pero su distribución detallada aún no estaba clara. NAK preveía volver sobre ello en las reuniones de productores de enero. Los compradores siguen necesitando los resultados y certificados de su lote: este balance no demuestra su estado sanitario."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "NAK recuerda que una misma muestra permite analizar varias enfermedades, evitando envíos separados para cada prueba solicitada. Para las empresas de patata de siembra, el informe facilita el seguimiento de los controles. Son cifras provisionales de laboratorio: no cuantifican las existencias certificadas disponibles para vender ni anticipan los precios de la patata de siembra."
             }
           ]
@@ -2337,6 +2501,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "Il laboratorio stava trattando oltre 3.000 campioni alla settimana. NAK prevedeva di raggiungere circa 31.000 campioni lavorati entro la fine della settimana richiamata nell’annuncio. Era un obiettivo del rapporto del 12 novembre, non un totale confermato in seguito. Gli operatori devono quindi distinguere il carico di lavoro atteso da un risultato di certificazione già concluso."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Il rapporto riguarda marciume bruno, virus Y e accartocciamento fogliare, oltre ad analisi aggiuntive come PMTV o Erwinia. Persistevano differenze regionali nei declassamenti legati ai virus, ma la loro ripartizione dettagliata non era ancora chiara. NAK prevedeva di riprenderla negli incontri di gennaio con i produttori. Gli acquirenti necessitano comunque dei risultati e certificati della propria partita: il quadro generale non ne dimostra lo stato sanitario."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "NAK ricorda inoltre che sullo stesso campione si possono ricercare diverse malattie, evitando invii separati per ogni analisi richiesta. Per le imprese del settore è un punto di riferimento pratico sull’avanzamento dei controlli. Questi dati provvisori di laboratorio non misurano le scorte certificate disponibili per la vendita né prevedono i prezzi delle patate da semina."
             }
@@ -2358,13 +2532,31 @@
         {
           "id": "2",
           "heading": "",
+          "body": "The laboratory had recently been handling more than 3,000 samples a week. NAK expected processing to reach roughly 31,000 by the end of the week covered by its announcement. That was a target in the 12 November report, not a subsequently verified total. The distinction helps traders read the update without treating an expected workload as a completed certification result.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "3",
+          "heading": "",
+          "body": "The report discusses brown rot, potato virus Y and leafroll, as well as additional tests such as PMTV and Erwinia. It says regional differences in virus-related downgrading persisted, while the detailed balance between viruses was not yet clear. NAK planned to return to that subject at January grower meetings. Buyers still need the actual test and certification information for their own lot; the update cannot establish its health status.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "4",
+          "heading": "",
           "body": "NAK also highlights the option of testing the same sample for several diseases, avoiding separate submissions for each requested test. For seed-potato businesses, the update is a practical checkpoint on testing progress. These are interim laboratory figures, not a measure of certified stock available for sale or a forecast of seed prices.",
           "claim_ids": [
             "source-brief"
           ]
         }
       ],
-      "fingerprint": "895d57a60cf1d1db05404237881da8e6d1b1e49c28e6a6fd1904cbd639c5d7db"
+      "fingerprint": "86ed319f8c044967571335c9df6c24745d7abf98ef2c30abbb7d0fdd0c038f4c",
+      "brief_standard_version": 2,
+      "previous_revision_package_sha256": "5a72e7076edbc212773f650945bca515d46c020f6200689400ffa2fb9258e919"
     },
     {
       "slug": "interpom-2026-innovation-tour-visitor-brief",
@@ -2415,7 +2607,7 @@
       "canonical_url": "https://seedtrade.eu/news/interpom-2026-innovation-tour-visitor-brief",
       "id": "brief-interpom-2026-innovation-tour-visitor-brief-2026-11-16",
       "publication_date": "2026-11-16",
-      "updated_at": "2026-11-16",
+      "updated_at": "2026-11-17",
       "checked_at": "2026-11-16",
       "valid_until": "2026-11-22",
       "classification": "PUBLIC_SAFE",
@@ -2423,8 +2615,14 @@
       "publication_eligible": true,
       "review_status": "APPROVED",
       "market_engine_input": false,
-      "revision": 1,
-      "corrections": [],
+      "revision": 2,
+      "corrections": [
+        {
+          "date": "2026-11-17",
+          "type": "EDITORIAL_EXPANSION",
+          "note": "Expanded source-backed explanation and unique-photo review; original publication date retained."
+        }
+      ],
       "series_id": "brief-interpom-2026-innovation-tour-visitor-brief",
       "previous_item_id": null,
       "related_item_ids": [],
@@ -2497,6 +2695,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "Der Veranstalter beschreibt eine Messe für Anbau, Verarbeitung und Vermarktung mit Angeboten für Erzeuger, Verpacker, Verarbeiter und Händler. Die Innovation Tour umfasst optische Sortierung und Selektion bei der Pflanzung neben Verarbeitungstechnik. Für Pflanzkartoffelbetriebe ergeben sich konkrete Gesprächsthemen; eine Ausstellerankündigung bleibt dabei von unabhängig gemessener Leistung zu unterscheiden."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Die veröffentlichten Besuchsinformationen nennen für alle drei Tage Öffnungszeiten von 09:30 bis 18:00 Uhr. INTERPOM ist eine Initiative von Belgapom und wird von Kortrijk Xpo organisiert. Vor Reise- oder Investitionsentscheidungen lohnt sich der Vergleich mit dem gesamten Ausstellerkatalog und den aktuellen Eintrittsbedingungen. Einsparungen, Eignung für Pflanzgutpartien und Durchsatz sollten beim Anbieter geprüft und nicht aus der Aufnahme in die Tour abgeleitet werden."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "Besucher können anhand des Programms interessante Technologien auswählen und Termine zu den für ihr Unternehmen wichtigsten Produkten planen. Die Aufnahme in die Tour belegt keine Produktleistung und ist keine Empfehlung von SEEDTRADE.EU. Vor der Anreise sollten das aktuelle Veranstalterprogramm, Besucherinformationen und Anmeldebedingungen geprüft werden; die Quellenlinks führen zu den neuesten praktischen Angaben."
             }
           ]
@@ -2513,6 +2721,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "L’organisateur présente un salon couvrant culture, transformation et commercialisation, pour producteurs, conditionneurs, transformateurs et négociants. Le parcours Innovation comprend du tri optique et des technologies de sélection à la plantation, aux côtés d’équipements de transformation. Les entreprises de plants peuvent ainsi préparer des échanges précis avec les fournisseurs, sans confondre annonce d’exposant et performance mesurée indépendamment."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Les informations pratiques publiées indiquent une ouverture de 9 h 30 à 18 h chacun des trois jours. INTERPOM est une initiative de Belgapom organisée par Kortrijk Xpo. Avant d’engager un déplacement ou un investissement, comparer la sélection au catalogue complet et vérifier les conditions d’entrée actuelles. Économies, adaptation aux lots de plants et débit doivent être discutés avec le fournisseur, et non déduits de la présence dans le parcours."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "Les visiteurs peuvent utiliser le programme pour repérer des technologies et organiser des rendez-vous autour des produits pertinents pour leur activité. Une sélection dans ce parcours ne prouve pas les performances d’un produit et ne constitue pas une recommandation de SEEDTRADE.EU. Vérifier le programme actuel, les informations visiteurs et les conditions d’inscription auprès de l’organisateur avant le déplacement."
             }
@@ -2531,6 +2749,16 @@
             {
               "id": "2",
               "heading": "",
+              "body": "El organizador describe una feria que abarca cultivo, transformación y comercialización, con equipos y servicios para productores, envasadores, procesadores y comerciantes. La ruta incluye selección óptica y tecnología de selección en la plantación, junto a equipos de procesado. Las empresas de patata de siembra pueden preparar preguntas concretas, sin confundir un anuncio del expositor con un rendimiento medido de forma independiente."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "La información práctica publicada fija el horario de 09:30 a 18:00 los tres días. INTERPOM es una iniciativa de Belgapom organizada por Kortrijk Xpo. Antes de dedicar tiempo al viaje o presupuestar equipos, conviene comparar la selección con el catálogo completo y comprobar las condiciones de acceso vigentes. Ahorros, adecuación a lotes de siembra y capacidad deben consultarse al proveedor, no deducirse de su inclusión en la ruta."
+            },
+            {
+              "id": "4",
+              "heading": "",
               "body": "Los visitantes pueden utilizar el programa para seleccionar tecnologías y organizar reuniones sobre los productos más relevantes para su negocio. Formar parte de la ruta no demuestra el rendimiento de un producto ni supone una recomendación de SEEDTRADE.EU. Antes de viajar, consultar el programa actual, la información para visitantes y las condiciones de inscripción del organizador."
             }
           ]
@@ -2547,6 +2775,16 @@
             },
             {
               "id": "2",
+              "heading": "",
+              "body": "L’organizzatore presenta una fiera dedicata a coltivazione, trasformazione e commercializzazione, con soluzioni per produttori, confezionatori, trasformatori e commercianti. Il percorso include selezione ottica e tecnologie di selezione alla piantagione accanto agli impianti di lavorazione. Le imprese di patate da semina possono preparare domande concrete, distinguendo un annuncio dell’espositore da prestazioni misurate in modo indipendente."
+            },
+            {
+              "id": "3",
+              "heading": "",
+              "body": "Le informazioni pratiche pubblicate indicano l’apertura dalle 09:30 alle 18:00 in ciascuno dei tre giorni. INTERPOM è un’iniziativa di Belgapom organizzata da Kortrijk Xpo. Prima di impegnare tempo per il viaggio o risorse per un impianto, confrontare la selezione con il catalogo completo e verificare le condizioni d’ingresso. Risparmi, idoneità ai lotti da semina e capacità vanno discussi con il fornitore, non dedotti dalla presenza nel percorso."
+            },
+            {
+              "id": "4",
               "heading": "",
               "body": "I visitatori possono usare il programma per individuare tecnologie e pianificare incontri sui prodotti più rilevanti per la propria attività. La selezione nel percorso non dimostra le prestazioni di un prodotto e non costituisce una raccomandazione di SEEDTRADE.EU. Prima del viaggio, verificare programma aggiornato, informazioni per i visitatori e condizioni d’iscrizione presso l’organizzatore."
             }
@@ -2568,15 +2806,33 @@
         {
           "id": "2",
           "heading": "",
+          "body": "The organiser describes a fair spanning growing, processing and marketing, with equipment and services for growers, packers, processors and traders. The Innovation Tour selection includes optical sorting and planting-selection technology alongside processing equipment. This gives seed-potato businesses concrete subjects for supplier discussions, while keeping the distinction between an exhibitor announcement and independently measured performance.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "3",
+          "heading": "",
+          "body": "The published practical information gives opening hours of 09:30–18:00 on each of the three days. INTERPOM is an initiative of Belgapom and is organised by Kortrijk Xpo. Before committing travel time or an equipment budget, visitors can compare the selected innovations with the wider exhibitor catalogue and check current entry conditions. Any claimed savings, suitability for seed lots or throughput should be discussed with the supplier rather than inferred from selection for the tour.",
+          "claim_ids": [
+            "source-brief"
+          ]
+        },
+        {
+          "id": "4",
+          "heading": "",
           "body": "Visitors can use the programme to shortlist technologies and plan meetings around the products most relevant to their business. Inclusion in the tour is not proof of a product’s performance or a recommendation by SEEDTRADE.EU. Check the organiser’s current programme, visitor information and registration conditions before travelling, and use the source links to confirm the latest practical details.",
           "claim_ids": [
             "source-brief"
           ]
         }
       ],
-      "fingerprint": "bad2aac3c769170538bdee07cb7b1ca2fdd0331108dcf1a750f99174b2fdc389"
+      "fingerprint": "492b7c690eb311916432b4b9f82293d50885bb9a4ed81501f7b7968e35fc579d",
+      "brief_standard_version": 2,
+      "previous_revision_package_sha256": "9de824344d1aa2b224a7cffef7a3d29f7259cbd65e4ab3cc07e2be8f7e45e594"
     }
   ],
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "editorial_model_version": 2
 }

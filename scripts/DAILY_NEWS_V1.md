@@ -294,3 +294,10 @@ then region representation. Missing geography receives no artificial bonus.
 Higher editorial value always takes priority; an important repeat-country story
 is never rejected solely for geographic balance. Original scoring weights,
 publication approvals, five-language format and image rights remain unchanged.
+
+
+## Owner-authorized standard V2, 2026-11-17
+
+All newly prepared briefs require 1,000–2,000 body characters in every EN/DE/FR/ES/IT version, in 3–5 paragraphs covering what, where/when, relevant details and practical seed-sector interest. Missing source-backed detail holds the package; padding is not permitted. Existing canonical URLs and original publication dates survive revisions; updated_at and revision history identify expansions, never renewed freshness.
+
+Every article reserves a different real photograph across all streams. The persistent news_image_use_registry.json retains original/source identities, author, licence, attribution, original/asset SHA-256 and recomputed multi-crop perceptual features. Historical and retired uses remain reserved. Byte/source matches and conservative near-duplicate matches block publication, including renamed, recompressed, resized and common cropped variants. A near-match is held for review; this is not a guarantee against every adversarial image transformation. Missing licensed unique photography holds the article. Existing human factual, five-language, image and exact publication approval gates remain mandatory.

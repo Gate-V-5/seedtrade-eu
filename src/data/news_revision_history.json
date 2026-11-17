@@ -1,0 +1,38 @@
+{
+  "ireland-harvest-weather-november-2026": [
+    {
+      "id": "brief-ireland-harvest-weather-november-2026-2026-11-16",
+      "canonical_url": "https://seedtrade.eu/news/ireland-harvest-weather-november-2026",
+      "publication_date": "2026-11-16",
+      "revision": 1,
+      "package_sha256": "626e4ff8553537d2f8dfec7c37f7ab9f6bc3cdefcfd1fcabe52e72225c7a69ff"
+    }
+  ],
+  "occitanie-cereal-establishment-november-2026": [
+    {
+      "id": "brief-occitanie-cereal-establishment-november-2026-2026-11-16",
+      "canonical_url": "https://seedtrade.eu/news/occitanie-cereal-establishment-november-2026",
+      "publication_date": "2026-11-16",
+      "revision": 1,
+      "package_sha256": "47b195f4e785649e6c19a982f4abe5ef41df1cef12d12a7399ff067671e0cbee"
+    }
+  ],
+  "netherlands-seed-potato-testing-november-2026": [
+    {
+      "id": "brief-netherlands-seed-potato-testing-november-2026-2026-11-16",
+      "canonical_url": "https://seedtrade.eu/news/netherlands-seed-potato-testing-november-2026",
+      "publication_date": "2026-11-16",
+      "revision": 1,
+      "package_sha256": "5a72e7076edbc212773f650945bca515d46c020f6200689400ffa2fb9258e919"
+    }
+  ],
+  "interpom-2026-innovation-tour-visitor-brief": [
+    {
+      "id": "brief-interpom-2026-innovation-tour-visitor-brief-2026-11-16",
+      "canonical_url": "https://seedtrade.eu/news/interpom-2026-innovation-tour-visitor-brief",
+      "publication_date": "2026-11-16",
+      "revision": 1,
+      "package_sha256": "9de824344d1aa2b224a7cffef7a3d29f7259cbd65e4ab3cc07e2be8f7e45e594"
+    }
+  ]
+}

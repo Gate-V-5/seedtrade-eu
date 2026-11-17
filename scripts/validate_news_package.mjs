@@ -38,10 +38,15 @@ function contentErrors(packet,{imageValidator=validateNewsImage}={}){
  }
  if(item.fingerprint!==fingerprint(item))errors.push('Canonical article fingerprint mismatch')
  const news=read(path.join(root,'src/generated/news.json')),registry=read(path.join(root,'src/data/news_sources.json'))
- if(news.items.some(x=>x.slug===item.slug))errors.push('Existing immutable article replacement requires separate revision review')
+ const existing=news.items.find(x=>x.slug===item.slug)
+ if(existing){
+  const historyFile=path.join(root,'src/data/news_revision_history.json'),history=fs.existsSync(historyFile)?read(historyFile):{},receipts=read(path.join(root,'src/data/news_publication_receipts.json'));
+  const prior=(item.revision>existing.revision)?{...existing,package_sha256:receipts[item.slug]?.package_sha256}:history[item.slug]?.find(h=>h.revision===item.revision-1);
+  if(!prior||item.revision!==prior.revision+1||item.previous_revision_package_sha256!==prior.package_sha256||item.publication_date!==prior.publication_date||item.canonical_url!==prior.canonical_url||item.id!==prior.id)errors.push('Exact prior approved revision, original publication date and canonical identity required')
+ }
  const existingVisuals=read(path.join(root,'src/data/news_visuals.json'))
- if(visual.src&&Object.values(existingVisuals).some(v=>v.src===visual.src))errors.push('Distinct article photograph derivative required by existing build gate')
- errors.push(...validateDailyNews({...news,as_of:new Date().toISOString().slice(0,10),items:[...news.items,publicationProjection(packet).article]},registry))
+ if(visual.src&&Object.entries(existingVisuals).some(([slug,v])=>slug!==item.slug&&v.src===visual.src))errors.push('Distinct article photograph derivative required by existing build gate')
+ errors.push(...validateDailyNews({...news,as_of:new Date().toISOString().slice(0,10),items:[...news.items.filter(x=>x.slug!==item.slug),publicationProjection(packet).article]},registry))
  const safeRead=p=>{const resolved=path.resolve(root,p);if(!resolved.startsWith(root+path.sep))throw Error('IMAGE_PATH_OUTSIDE_CHECKOUT');return fs.readFileSync(resolved)}
  try{errors.push(...imageValidator(item,visual,{},safeRead))}catch{errors.push('Photograph assets unavailable')}
  for(const source of item.sources||[]){const ref=packet.references?.[source.url];if(!ref?.title||!ref.verified_at)errors.push('Reviewed human-readable reference required')}

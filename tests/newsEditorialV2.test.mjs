@@ -1,0 +1,20 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import jpeg from 'jpeg-js';
+import {photoFeatures,nearDuplicate,imageIdentityErrors,validateImageUseRegistry,canonicalPhotoSource} from '../scripts/news_image_identity.mjs';
+import {validateNewsRecord} from '../src/news.mjs';import {fingerprint} from '../scripts/validate_daily_news.mjs';import {validateNewsImage} from '../scripts/news_image_policy.mjs';
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8')),news=read('src/generated/news.json'),visuals=read('src/data/news_visuals.json'),registry=read('src/data/news_sources.json'),uses=read('src/data/news_image_use_registry.json'),updated=news.items.filter(i=>i.brief_standard_version===2);
+test('four expanded revisions preserve identity and publication dates, with 1000–2000 characters and four paragraphs in every language',()=>{
+ assert.equal(updated.length,4);for(const item of updated){assert.equal(item.publication_date,'2026-11-16');assert.equal(item.updated_at,'2026-11-17');assert.equal(item.revision,2);assert.deepEqual(validateNewsRecord(item,registry),[]);for(const l of [item,...Object.values(item.localizations)]){assert.equal(l.content.length,4);const n=l.content.map(p=>p.body).join('\n\n').length;assert(n>=1000&&n<=2000)}}
+});
+test('short, oversized, incomplete translations and two-paragraph future packages fail',()=>{
+ for(const modify of [i=>i.localizations.de.content[0].body='x'.repeat(2100),i=>{i.content=i.content.slice(0,2)},i=>{delete i.localizations.it.content[0].body}]){const item=structuredClone(updated[0]);modify(item);item.fingerprint=fingerprint(item);assert(validateNewsRecord(item,registry).length>0)}
+});
+test('persistent registry covers current photographs and all previous article uses, retaining retired duplicates',()=>{const result=validateImageUseRegistry();assert.deepEqual(result.errors,[]);assert.equal(result.photographs,10);assert.equal(uses.entries.length,14);assert(read('src/data/news_image_use_history.json').entries.some(e=>e.article_slugs.length===2))});
+test('same original, renamed photo, encoded source aliases and cross-category reuse fail',()=>{
+ const item=updated.find(i=>i.stream==='EU Trade Market'),v=visuals[item.slug],other={...item,slug:'different-company-free-test-story',stream:'EU Weather'};assert(imageIdentityErrors(other,{...v,article_mapping:other.slug}).some(e=>e.includes('ALREADY_USED')));assert.equal(canonicalPhotoSource('https://commons.wikimedia.org/wiki/File:Aardappel_Dor%C3%A9_poters_(Solanum_tuberosum_seed_potatoes).jpg'),canonicalPhotoSource('https://commons.wikimedia.org/wiki/File:Aardappel_Doré_poters_(Solanum_tuberosum_seed_potatoes).jpg?download=1'));
+});
+test('actual JPEG recompression, resizing and central crop are detected from pixels even with different bytes/URLs',()=>{
+ const original=fs.readFileSync('assets/licensed-news-originals/expanded-weather.jpg'),decoded=jpeg.decode(original,{useTArray:true}),features=photoFeatures(original);
+ for(const crop of [1,.75]){const w=400,h=300,pixels=new Uint8Array(w*h*4);for(let y=0;y<h;y++)for(let x=0;x<w;x++){const sx=Math.floor(decoded.width*((1-crop)/2+(x+.5)*crop/w)),sy=Math.floor(decoded.height*((1-crop)/2+(y+.5)*crop/h)),a=(sy*decoded.width+sx)*4,b=(y*w+x)*4;pixels.set(decoded.data.subarray(a,a+4),b)}const encoded=jpeg.encode({width:w,height:h,data:pixels},65).data;assert.notDeepEqual(encoded,original);assert(nearDuplicate(features,photoFeatures(encoded)),'Resized/recompressed crop must be held')}
+});
+test('missing or invalid licence remains blocked independently of identity checks',()=>{const item=updated[0],v=structuredClone(visuals[item.slug]);v.licence='UNVERIFIED';v.commercial_use_verified=false;assert(validateNewsImage(item,v).some(e=>e.includes('licence')))});
+test('missing historical reservations fail closed',()=>{const result=imageIdentityErrors(updated[0],visuals[updated[0].slug],{registry:{schema_version:0,entries:[]}});assert(result.some(e=>e.includes('REGISTRY_REQUIRED')))});

@@ -95,9 +95,9 @@ class Pipeline(unittest.TestCase):
   self.assertEqual(p.brief_eligibility(event,'2026-11-22'),'ELIGIBLE_CURRENT_FUTURE_EVENT');self.assertIn('STALE',p.brief_eligibility(event,'2026-11-23'));self.assertEqual(p.brief_eligibility({},'2026-11-16'),'SOURCE_VERIFICATION_REQUIRED')
  def test_automatic_brief_assembly_requires_real_multilingual_inputs(self):
   source={'id':'fixture','label':'ISOLATED_TEST_SOURCE','url':'https://news.example.org/fixture','published_at':'2026-11-12'}
-  language={'headline':'Isolated test headline','summary':'Isolated test summary','paragraphs':['Isolated source-based paragraph for a local test. '*6,'Second isolated paragraph for a local test only. '*6]}
+  language={'headline':'Isolated test headline','summary':'Isolated test summary','paragraphs':['Isolated source-based paragraph for a local test. '*8,'Second isolated paragraph for a local test only. '*8,'Third isolated paragraph for a local test only. '*8]}
   data={'article':{'slug':'isolated-brief-fixture','stream':'EU Agronomist'},'languages':{k:dict(language) for k in p.BRIEF_STANDARD['languages']},'sources':[source],'references':{source['url']:{'title':'Isolated fixture'}},'scope':'ISOLATED_TEST_ONLY','visual':{}}
-  packet=p.assemble_brief(data,'2026-11-16');self.assertEqual(packet['article']['review_status'],'PENDING_OWNER_APPROVAL');self.assertFalse(packet['article']['publication_eligible']);self.assertEqual(packet['article']['valid_until'],'2026-11-18');self.assertEqual(len(packet['article']['localizations']),4);self.assertEqual(len(packet['article']['content']),2)
+  packet=p.assemble_brief(data,'2026-11-16');self.assertEqual(packet['article']['review_status'],'PENDING_OWNER_APPROVAL');self.assertFalse(packet['article']['publication_eligible']);self.assertEqual(packet['article']['valid_until'],'2026-11-18');self.assertEqual(len(packet['article']['localizations']),4);self.assertEqual(len(packet['article']['content']),3);self.assertEqual(packet['article']['brief_standard_version'],2)
   del data['languages']['de']
   with self.assertRaises(KeyError):p.assemble_brief(data,'2026-11-16')
  def test_trade_rule_cannot_be_bypassed_by_explicit_category_or_generic_usefulness(self):

@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 WORKSPACE=ROOT.parents[2]
 WEIGHTS={'seed_relevance':.30,'source_reliability':.25,'freshness':.20,'commercial_value':.15,'european_relevance':.10}
 STREAMS=['EU Weather','EU Agronomist','EU Trade Market','EU Events']
-BRIEF_STANDARD={'format':'SHORT_NEWS_BRIEF','main_characters':[500,1000],'paragraphs':[2,3],'languages':['en','de','fr','es','it'],'normal_source_age_days':7,'single_primary_source_allowed':True,'academic_research_required':False,'quantified_market_impact_required':False}
+BRIEF_STANDARD={'format':'SHORT_NEWS_BRIEF','main_characters':[1000,2000],'paragraphs':[3,4,5],'languages':['en','de','fr','es','it'],'normal_source_age_days':7,'single_primary_source_allowed':True,'academic_research_required':False,'quantified_market_impact_required':False}
 SEED_WORDS=r'\bseeds?\b|\bsemences?\b|\bsaatgut\b|\bsement[ei]\b|\bpoot(?:goed|aardappel\w*)\b|\bzaaiza\w*\b'
 
 def positive_seed_evidence(value):
@@ -252,13 +252,13 @@ def assemble_brief(data,publication_date):
  This does not translate unknown facts or replace genuine editorial approval.
  """
  base=data['article'];languages=data['languages'];sources=data['sources']
- article={**base,'format':'SHORT_NEWS_BRIEF','schema_version':2,'canonical_url':'https://seedtrade.eu/news/'+base['slug'],'id':'brief-'+base['slug']+'-'+publication_date,'publication_date':publication_date,'updated_at':publication_date,'checked_at':publication_date,'valid_until':(date.fromisoformat(publication_date)+timedelta(days=6)).isoformat(),'classification':'PUBLIC_SAFE','publication_status':'DRAFT','publication_eligible':False,'review_status':'PENDING_OWNER_APPROVAL','market_engine_input':False,'revision':1,'corrections':[],'series_id':'brief-'+base['slug'],'previous_item_id':None,'related_item_ids':[],'assessment_outcome':'SOURCE_ATTRIBUTED_NEWS_BRIEF','observation_period':None,'observation_period_basis':'NO_MEASURED_PERIOD_NEWS_BRIEF','region_codes':[],'species_ids':base.get('species_ids',[]),'sources':sources,'source_name':sources[0]['label'],'source_url':sources[0]['url'],'source_published_at':sources[0]['published_at'],'source_tier':1,'provenance_class':'PUBLIC_SOURCE','coverage_limitations':data['scope'],'claims':[{'id':'source-brief','statement':'Source-attributed summary: '+data['references'][sources[0]['url']]['title'],'evidence_class':'CONFIRMED','source_ids':[s['id'] for s in sources],'scope':data['scope'],'limitations':'Source facts and dates only; no unsupported seed-price, demand or EU-wide conclusion.','publish_conclusion':True}]}
+ article={**base,'format':'SHORT_NEWS_BRIEF','brief_standard_version':2,'schema_version':2,'canonical_url':'https://seedtrade.eu/news/'+base['slug'],'id':'brief-'+base['slug']+'-'+publication_date,'publication_date':publication_date,'updated_at':publication_date,'checked_at':publication_date,'valid_until':(date.fromisoformat(publication_date)+timedelta(days=6)).isoformat(),'classification':'PUBLIC_SAFE','publication_status':'DRAFT','publication_eligible':False,'review_status':'PENDING_OWNER_APPROVAL','market_engine_input':False,'revision':1,'corrections':[],'series_id':'brief-'+base['slug'],'previous_item_id':None,'related_item_ids':[],'assessment_outcome':'SOURCE_ATTRIBUTED_NEWS_BRIEF','observation_period':None,'observation_period_basis':'NO_MEASURED_PERIOD_NEWS_BRIEF','region_codes':[],'species_ids':base.get('species_ids',[]),'sources':sources,'source_name':sources[0]['label'],'source_url':sources[0]['url'],'source_published_at':sources[0]['published_at'],'source_tier':1,'provenance_class':'PUBLIC_SOURCE','coverage_limitations':data['scope'],'claims':[{'id':'source-brief','statement':'Source-attributed summary: '+data['references'][sources[0]['url']]['title'],'evidence_class':'CONFIRMED','source_ids':[s['id'] for s in sources],'scope':data['scope'],'limitations':'Source facts and dates only; no unsupported seed-price, demand or EU-wide conclusion.','publish_conclusion':True}]}
  if article['source_published_at']:article['valid_until']=min(article['valid_until'],(date.fromisoformat(article['source_published_at'])+timedelta(days=6)).isoformat())
  if article.get('current_relevance_checked_at'):article['valid_until']=min(article['valid_until'],(date.fromisoformat(article['current_relevance_checked_at'])+timedelta(days=6)).isoformat(),article.get('event',{}).get('end_date','9999-12-31'))
  article['localizations']={}
  for lang in BRIEF_STANDARD['languages']:
   loc=languages[lang];paragraphs=loc['paragraphs'];length=len('\n\n'.join(paragraphs))
-  if len(paragraphs) not in [2,3] or not 500<=length<=1000:raise ValueError('SHORT_BRIEF_LENGTH_OR_PARAGRAPHS_REQUIRED_'+lang)
+  if len(paragraphs) not in [3,4,5] or not 1000<=length<=2000:raise ValueError('SHORT_BRIEF_LENGTH_OR_PARAGRAPHS_REQUIRED_'+lang)
   value={'headline':loc['headline'],'summary':loc['summary'],'why_it_matters':'','content':[{'id':str(i+1),'heading':'','body':body,**({'claim_ids':['source-brief']} if lang=='en' else {})} for i,body in enumerate(paragraphs)]}
   if lang=='en':article.update(value)
   else:article['localizations'][lang]=value
@@ -404,8 +404,14 @@ def prepare_publication(package,receipt,authorization,folder):
  # snapshot nor production is modified, even after a real approval is supplied.
  write(target/'approved-package.json',packet)
  checkout=target/'source';shutil.copytree(ROOT,checkout,dirs_exist_ok=True,ignore=shutil.ignore_patterns('.git','node_modules','dist','.legal-ssr','.cache','tmp','__pycache__'))
+ npm='npm.cmd' if os.name=='nt' else 'npm'
+ install=subprocess.run([npm,'ci','--ignore-scripts','--offline'],cwd=checkout,capture_output=True,text=True,timeout=300)
+ if install.returncode:raise ValueError('APPROVED_BUILD_DEPENDENCIES_UNAVAILABLE_NO_PUBLICATION')
  news=load(checkout/'src/generated/news.json');news['items'].append(packet['article']);news['as_of']=max(news['as_of'],packet['article']['publication_date']);write(checkout/'src/generated/news.json',news)
  visuals=load(checkout/'src/data/news_visuals.json');visuals[packet['article']['slug']]=packet['visual'];write(checkout/'src/data/news_visuals.json',visuals)
+ # Reserve the real image only after genuine content-bound approval passed.
+ # The build gate recomputes original identity and retains all prior uses.
+ subprocess.run(['node','--input-type=module','-e',"import {registerApprovedPhotoUse} from './scripts/news_image_identity.mjs';import fs from 'node:fs';const p=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));registerApprovedPhotoUse(p.article,p.visual)",str(target/'approved-package.json')],cwd=checkout,check=True,capture_output=True)
  # This register is updated only AFTER genuine exact-package approval including
  # image-rights review and separate publication authorization have passed.
  rights=load(checkout/'docs/news-photography-v1/LICENSE_EVIDENCE.json',{})
@@ -415,8 +421,15 @@ def prepare_publication(package,receipt,authorization,folder):
  projection_hash=subprocess.check_output(['node','--input-type=module','-e',"import {packageHash} from './scripts/validate_news_package.mjs';import fs from 'node:fs';console.log(packageHash(JSON.parse(fs.readFileSync(process.argv[1],'utf8'))))",str(target/'approved-package.json')],cwd=ROOT,text=True).strip()
  reviews=load(checkout/'src/data/news_publication_receipts.json',{});reviews[packet['article']['slug']]={'status':'APPROVED_AFTER_PRIVATE_VALIDATION','package_sha256':projection_hash,'source_draft_sha256':verified['packageSha256'],'editorial_evidence_reference':load(Path(receipt))['evidence_reference'],'publication_authorization_reference':load(Path(authorization))['evidence_reference']};write(checkout/'src/data/news_publication_receipts.json',reviews)
  manifest=load(checkout/'src/generated/public_data_manifest.json');entry=manifest['datasets']['daily_news'];entry.update(as_of=news['as_of'],public_records=len(news['items']),stream_records=sum(bool(i.get('stream')) for i in news['items']),sha256=hashlib.sha256((checkout/'src/generated/news.json').read_bytes()).hexdigest());write(checkout/'src/generated/public_data_manifest.json',manifest)
+ # Bind only the genuinely approved content additions to protected visual pins.
+ # Existing immutable history is checked by the separate publication boundary.
+ inventory_file=checkout/'docs/visual-policy/CANONICAL_VISUAL_INVENTORY.json';visual_inventory=load(inventory_file)
+ for row in visual_inventory['protected_mapping_files']:
+  if row['path'] in ['src/generated/news.json','src/data/news_visuals.json','docs/news-photography-v1/LICENSE_EVIDENCE.json']:row['sha256']=hashlib.sha256((checkout/row['path']).read_bytes()).hexdigest()
+ write(inventory_file,visual_inventory)
+ validator=checkout/'scripts/validate_visual_assets.mjs';validator.write_text(re.sub(r"INVENTORY_SHA256='[a-f0-9]{64}'","INVENTORY_SHA256='"+hashlib.sha256(inventory_file.read_bytes()).hexdigest()+"'",validator.read_text(encoding='utf-8')),encoding='utf-8')
  npm='npm.cmd' if os.name=='nt' else 'npm'
- for cmd in [[npm,'ci','--ignore-scripts','--offline'],[npm,'run','build']]:
+ for cmd in [[npm,'run','build']]:
   run=subprocess.run(cmd,cwd=checkout,capture_output=True,text=True,timeout=300)
   with (target/'build.log').open('a',encoding='utf-8') as log:log.write(run.stdout+'\n'+run.stderr)
   if run.returncode:raise ValueError('APPROVED_BUILD_FAILED_NO_PUBLICATION')

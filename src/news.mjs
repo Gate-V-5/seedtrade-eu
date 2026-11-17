@@ -80,10 +80,10 @@ function checkNewsRecord(item, registry) {
     sectionIds.add(section.id)
   }
   if(brief){
-    if(![2,3].includes(sections.length))errors.push('Short brief requires two or three paragraphs')
+    if(![3,4,5].includes(sections.length))errors.push('News brief requires three to five paragraphs')
     for(const lang of ['en','de','fr','es','it']){
       const locale=lang==='en'?item:item.localizations?.[lang],paragraphs=locale?.content||[],length=paragraphs.map(p=>p.body||'').join('\n\n').length
-      if(paragraphs.length!==sections.length||length<500||length>1000)errors.push('Short brief main text must be 500–1000 characters: '+lang)
+      if(paragraphs.length!==sections.length||paragraphs.some(p=>!text(p.body))||length<1000||length>2000)errors.push('Short brief main text must be 1000–2000 characters: '+lang)
     }
     const age=item.source_published_at?(Date.parse(item.publication_date)-Date.parse(item.source_published_at))/86400000:null
     const eventException=item.stream==='EU Events'&&item.event?.end_date>=item.publication_date&&text(item.current_relevance_reason)&&validDate(item.current_relevance_checked_at)&&item.current_relevance_checked_at<=item.publication_date&&(Date.parse(item.publication_date)-Date.parse(item.current_relevance_checked_at))/86400000<7

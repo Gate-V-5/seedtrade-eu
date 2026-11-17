@@ -2,6 +2,8 @@ import fs from 'node:fs'
 import assert from 'node:assert/strict'
 import {createHash} from 'node:crypto'
 import {validateNewsImage} from './news_image_policy.mjs'
+import {validateImageUseRegistry} from './news_image_identity.mjs'
+assert.deepEqual(validateImageUseRegistry().errors,[],'Persistent photograph identity/near-duplicate gate')
 const news=JSON.parse(fs.readFileSync('src/generated/news.json'))
 const visuals=JSON.parse(fs.readFileSync('src/data/news_visuals.json'))
 const fixed=JSON.parse(fs.readFileSync('src/data/fixed_editorial_visuals.json'))

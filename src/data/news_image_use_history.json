@@ -1,0 +1,2083 @@
+{
+  "schema_version": 1,
+  "seeded_from_revision": "fda78180ad0a6a6fffef5102d811dd338ce958f7",
+  "note": "All fourteen earlier article uses, including retired duplicates, remain reserved; historical illustrations are explicitly not photographs.",
+  "legacy_original_paths": {
+    "eu-weather-september-2026-baseline": "assets/licensed-news-originals/weather.jpg",
+    "eu-agronomist-latvia-autumn-establishment": "assets/licensed-news-originals/wet.jpg",
+    "eu-trade-market-nak-interim-seed-potato-checks": "assets/licensed-news-originals/potato.jpg",
+    "eu-events-euroseeds-valencia-october-2026": "assets/licensed-news-originals/valencia.jpg"
+  },
+  "entries": [
+    {
+      "photo_id": "nonphoto-8b8dd8d45c855721d7dfcca7b6a4453b9e6722c1e27dd87cea480a0752b6496f",
+      "kind": "HISTORICAL_NONPHOTOGRAPH",
+      "first_article_slug": "interpom-2026-exhibitor-profile",
+      "article_slugs": [
+        "interpom-2026-exhibitor-profile"
+      ],
+      "asset_sha256s": [
+        "8b8dd8d45c855721d7dfcca7b6a4453b9e6722c1e27dd87cea480a0752b6496f"
+      ],
+      "original_kind": "EDITORIAL_ILLUSTRATION"
+    },
+    {
+      "photo_id": "nonphoto-6d357d67c4cc1e43a6a026303a2b5270ed34e66fbd1529820bee20fd677a0d53",
+      "kind": "HISTORICAL_NONPHOTOGRAPH",
+      "first_article_slug": "europe-potato-crop-drought-estimate-2026",
+      "article_slugs": [
+        "europe-potato-crop-drought-estimate-2026"
+      ],
+      "asset_sha256s": [
+        "6d357d67c4cc1e43a6a026303a2b5270ed34e66fbd1529820bee20fd677a0d53"
+      ],
+      "original_kind": "EDITORIAL_ILLUSTRATION"
+    },
+    {
+      "photo_id": "nonphoto-fd0768d882bb560fccbfab721f9eaa4adf0fb548780a6bd9a4c2fab28bd74398",
+      "kind": "HISTORICAL_NONPHOTOGRAPH",
+      "first_article_slug": "northern-ireland-seed-potato-rules-update-2026",
+      "article_slugs": [
+        "northern-ireland-seed-potato-rules-update-2026"
+      ],
+      "asset_sha256s": [
+        "fd0768d882bb560fccbfab721f9eaa4adf0fb548780a6bd9a4c2fab28bd74398"
+      ],
+      "original_kind": "EDITORIAL_ILLUSTRATION"
+    },
+    {
+      "photo_id": "nonphoto-a4b0257459159b95bb3e9f55f56009c714d4e6e35101f8b17ef0879d9fff10b5",
+      "kind": "HISTORICAL_NONPHOTOGRAPH",
+      "first_article_slug": "europe-summer-crop-heat-drought-2026",
+      "article_slugs": [
+        "europe-summer-crop-heat-drought-2026"
+      ],
+      "asset_sha256s": [
+        "a4b0257459159b95bb3e9f55f56009c714d4e6e35101f8b17ef0879d9fff10b5"
+      ],
+      "original_kind": "EDITORIAL_ILLUSTRATION"
+    },
+    {
+      "photo_id": "224928594644075aeb4e99c129911c17bf5346ba8f269c28c716cc2a198f297e",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "eu-weather-september-2026-baseline",
+      "article_slugs": [
+        "eu-weather-september-2026-baseline"
+      ],
+      "original_path": "assets/licensed-news-originals/weather.jpg",
+      "original_sha256": "224928594644075aeb4e99c129911c17bf5346ba8f269c28c716cc2a198f297e",
+      "asset_sha256s": [
+        "cfec1d2236e06b5ca685224a78dc56ae9999c3ce6fc3060cb72e7bd01c497dd4"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Thunderstorm_over_wheat_field_Galley_Common.jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Thunderstorm_over_wheat_field_Galley_Common.jpg",
+      "creator": "Rubbish computer",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 3264,
+        "height": 1836,
+        "signatures": [
+          {
+            "phash": "64cdddc911842d57",
+            "dhash": "7ffffdfdaf020d01",
+            "rgb": [
+              0.5843,
+              0.5506,
+              0.5262
+            ]
+          },
+          {
+            "phash": "69db9ad3800a3f86",
+            "dhash": "7f7fffbeffab010c",
+            "rgb": [
+              0.6052,
+              0.5843,
+              0.5709
+            ]
+          },
+          {
+            "phash": "6dcd89da802e17c3",
+            "dhash": "ffffbe7eff0011e2",
+            "rgb": [
+              0.5938,
+              0.5627,
+              0.5379
+            ]
+          },
+          {
+            "phash": "66cccdd9d06712c1",
+            "dhash": "7fff3effab020916",
+            "rgb": [
+              0.5835,
+              0.5422,
+              0.5061
+            ]
+          },
+          {
+            "phash": "6dcb9ad39380298d",
+            "dhash": "ffffff7eff6e020c",
+            "rgb": [
+              0.5844,
+              0.5642,
+              0.5532
+            ]
+          },
+          {
+            "phash": "64cdcddb91c83885",
+            "dhash": "ffff7efbef0a4ae4",
+            "rgb": [
+              0.5756,
+              0.5451,
+              0.5224
+            ]
+          },
+          {
+            "phash": "66cccdc9d8c51cc4",
+            "dhash": "ffff7eff6606902d",
+            "rgb": [
+              0.5683,
+              0.5273,
+              0.4929
+            ]
+          },
+          {
+            "phash": "6dc9dadaf3804829",
+            "dhash": "fffffffdff5e049b",
+            "rgb": [
+              0.5645,
+              0.5447,
+              0.5358
+            ]
+          },
+          {
+            "phash": "64cdcdcb59c0e82c",
+            "dhash": "fffffdfd7f11b44b",
+            "rgb": [
+              0.5583,
+              0.5281,
+              0.507
+            ]
+          },
+          {
+            "phash": "76cccccd18c9ec06",
+            "dhash": "fffffdff4e0d3b4b",
+            "rgb": [
+              0.5539,
+              0.513,
+              0.4798
+            ]
+          },
+          {
+            "phash": "5ad23787085f8d85",
+            "dhash": "7bffffffbfffd500",
+            "rgb": [
+              0.6317,
+              0.6287,
+              0.6318
+            ]
+          },
+          {
+            "phash": "6dc91ad1ae44d2d2",
+            "dhash": "7fffbffeff940167",
+            "rgb": [
+              0.6051,
+              0.5777,
+              0.553
+            ]
+          },
+          {
+            "phash": "66e60dcce171d8c8",
+            "dhash": "ffbfff77000a9813",
+            "rgb": [
+              0.576,
+              0.5253,
+              0.4758
+            ]
+          },
+          {
+            "phash": "4ad2d0f7a4c072da",
+            "dhash": "fffffffefeff5701",
+            "rgb": [
+              0.5786,
+              0.5772,
+              0.5861
+            ]
+          },
+          {
+            "phash": "6dc9cb58d1c80c6d",
+            "dhash": "fffffefa7f50269d",
+            "rgb": [
+              0.5649,
+              0.5383,
+              0.5178
+            ]
+          },
+          {
+            "phash": "72e6c44dcce40373",
+            "dhash": "fffefe4f012b624d",
+            "rgb": [
+              0.5531,
+              0.5023,
+              0.4549
+            ]
+          },
+          {
+            "phash": "6ad2d2d877b48425",
+            "dhash": "fffffff9fbff3d04",
+            "rgb": [
+              0.5274,
+              0.5272,
+              0.5412
+            ]
+          },
+          {
+            "phash": "65c9cdce18d1c31a",
+            "dhash": "fffff9fbff001271",
+            "rgb": [
+              0.527,
+              0.5013,
+              0.4837
+            ]
+          },
+          {
+            "phash": "73e6c6e10fc8cc0c",
+            "dhash": "fffbfb3f272e8ab6",
+            "rgb": [
+              0.5301,
+              0.4795,
+              0.4334
+            ]
+          },
+          {
+            "phash": "44af0fb31495fc84",
+            "dhash": "3f1fbfbfffefceff",
+            "rgb": [
+              0.7851,
+              0.7938,
+              0.8205
+            ]
+          },
+          {
+            "phash": "4bda34cdb6e46901",
+            "dhash": "ffefceffff2ef840",
+            "rgb": [
+              0.6314,
+              0.6202,
+              0.6032
+            ]
+          },
+          {
+            "phash": "7c70e51fc1031eaa",
+            "dhash": "ff2ef8400b60e00a",
+            "rgb": [
+              0.5281,
+              0.4472,
+              0.3591
+            ]
+          },
+          {
+            "phash": "5580b7f8d4c4a457",
+            "dhash": "e7ffffdfffdffffd",
+            "rgb": [
+              0.622,
+              0.6386,
+              0.6723
+            ]
+          },
+          {
+            "phash": "69cb49da92969694",
+            "dhash": "ffdffffdffd70027",
+            "rgb": [
+              0.5234,
+              0.5137,
+              0.5047
+            ]
+          },
+          {
+            "phash": "1c7a3674e1e0c1e3",
+            "dhash": "ffd700277a341c98",
+            "rgb": [
+              0.5361,
+              0.4496,
+              0.3592
+            ]
+          },
+          {
+            "phash": "75d8c894964953b6",
+            "dhash": "fefeffffffe7e7ef",
+            "rgb": [
+              0.4799,
+              0.5039,
+              0.5554
+            ]
+          },
+          {
+            "phash": "2ddabec2c21f5580",
+            "dhash": "ffe7e7efffff32e7",
+            "rgb": [
+              0.4454,
+              0.4359,
+              0.4395
+            ]
+          },
+          {
+            "phash": "0e7cc9d9b1726390",
+            "dhash": "ffff32e72a94b659",
+            "rgb": [
+              0.5447,
+              0.4582,
+              0.3705
+            ]
+          },
+          {
+            "phash": "64cdddc911842d57",
+            "dhash": "7ffffdfdaf020d01",
+            "rgb": [
+              0.5843,
+              0.5506,
+              0.5262
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    },
+    {
+      "photo_id": "fbad7d7fe206053428289687979f2d8d080b37045454546ab4599f98ec22ae49",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "eu-agronomist-latvia-autumn-establishment",
+      "article_slugs": [
+        "eu-agronomist-latvia-autumn-establishment"
+      ],
+      "original_path": "assets/licensed-news-originals/wet.jpg",
+      "original_sha256": "fbad7d7fe206053428289687979f2d8d080b37045454546ab4599f98ec22ae49",
+      "asset_sha256s": [
+        "504fbc3a522d3dbb5ce285079e57af7b61dc7b00839aefd889313fbbf434e53d"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Waterlogged_cereal_crop_field_-_geograph.org.uk_-_4786867.jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Waterlogged_cereal_crop_field_-_geograph.org.uk_-_4786867.jpg",
+      "creator": "Evelyn Simak",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 640,
+        "height": 360,
+        "signatures": [
+          {
+            "phash": "706432333a5d5acb",
+            "dhash": "fdff301d91b64062",
+            "rgb": [
+              0.5535,
+              0.5415,
+              0.4756
+            ]
+          },
+          {
+            "phash": "716d2633b658d252",
+            "dhash": "fedb091a0b8c8864",
+            "rgb": [
+              0.5836,
+              0.5768,
+              0.5137
+            ]
+          },
+          {
+            "phash": "78643331125fda5a",
+            "dhash": "fef4ac0e98c24855",
+            "rgb": [
+              0.5365,
+              0.5244,
+              0.4555
+            ]
+          },
+          {
+            "phash": "7c763138594eca49",
+            "dhash": "fb001e15a4c55361",
+            "rgb": [
+              0.4854,
+              0.4699,
+              0.3957
+            ]
+          },
+          {
+            "phash": "716d262735269d83",
+            "dhash": "f576123417019162",
+            "rgb": [
+              0.5961,
+              0.5867,
+              0.5209
+            ]
+          },
+          {
+            "phash": "7864373132359dd4",
+            "dhash": "79fa381c11a6b16a",
+            "rgb": [
+              0.5516,
+              0.5362,
+              0.4637
+            ]
+          },
+          {
+            "phash": "7c66333032559ed2",
+            "dhash": "ff003c2b0889a4d3",
+            "rgb": [
+              0.502,
+              0.4824,
+              0.4045
+            ]
+          },
+          {
+            "phash": "716964663566343b",
+            "dhash": "faf50c686e002385",
+            "rgb": [
+              0.6051,
+              0.594,
+              0.5264
+            ]
+          },
+          {
+            "phash": "786c2633322335bd",
+            "dhash": "fae5513921481186",
+            "rgb": [
+              0.5633,
+              0.5452,
+              0.4701
+            ]
+          },
+          {
+            "phash": "7c6633313a3134bc",
+            "dhash": "ff2128560813d5c2",
+            "rgb": [
+              0.5159,
+              0.4928,
+              0.4116
+            ]
+          },
+          {
+            "phash": "73696426b5945574",
+            "dhash": "7dfefa1c0a068255",
+            "rgb": [
+              0.6145,
+              0.6148,
+              0.5572
+            ]
+          },
+          {
+            "phash": "7c6433301bd9525b",
+            "dhash": "ad12880708c34235",
+            "rgb": [
+              0.5082,
+              0.4984,
+              0.4254
+            ]
+          },
+          {
+            "phash": "7733381f48ca4d2c",
+            "dhash": "180d1184d9642170",
+            "rgb": [
+              0.3893,
+              0.3718,
+              0.2883
+            ]
+          },
+          {
+            "phash": "734b6d646f643083",
+            "dhash": "f6fdea783d2b0856",
+            "rgb": [
+              0.6374,
+              0.6344,
+              0.5731
+            ]
+          },
+          {
+            "phash": "7c6c2331303b3de4",
+            "dhash": "a64a250c2104a1c6",
+            "rgb": [
+              0.5403,
+              0.5238,
+              0.4449
+            ]
+          },
+          {
+            "phash": "6763383e3d1486d1",
+            "dhash": "41344710a455b5d1",
+            "rgb": [
+              0.4306,
+              0.4028,
+              0.3112
+            ]
+          },
+          {
+            "phash": "735bc95422c36b70",
+            "dhash": "faf5ebe5f4ac12ca",
+            "rgb": [
+              0.6568,
+              0.6494,
+              0.5844
+            ]
+          },
+          {
+            "phash": "7c4c466b55e0621f",
+            "dhash": "efab903282112629",
+            "rgb": [
+              0.5678,
+              0.5435,
+              0.4578
+            ]
+          },
+          {
+            "phash": "6763f1740abd7900",
+            "dhash": "d5d45c4415048c4c",
+            "rgb": [
+              0.467,
+              0.4283,
+              0.3265
+            ]
+          },
+          {
+            "phash": "4c564aa55a52ae5b",
+            "dhash": "b73d9f7fc1e60301",
+            "rgb": [
+              0.7597,
+              0.7697,
+              0.7109
+            ]
+          },
+          {
+            "phash": "4f313493d510d799",
+            "dhash": "c1e60301c2c0ea74",
+            "rgb": [
+              0.4047,
+              0.4043,
+              0.318
+            ]
+          },
+          {
+            "phash": "7f0ac16c672024fd",
+            "dhash": "c2c0ea746512122d",
+            "rgb": [
+              0.2505,
+              0.2408,
+              0.1911
+            ]
+          },
+          {
+            "phash": "4cadd55c8a525966",
+            "dhash": "dfb3edeb23986e2f",
+            "rgb": [
+              0.774,
+              0.7828,
+              0.7277
+            ]
+          },
+          {
+            "phash": "5f4f43e925187f00",
+            "dhash": "23986e2f55318621",
+            "rgb": [
+              0.5,
+              0.4761,
+              0.3793
+            ]
+          },
+          {
+            "phash": "7f5e38ae03b91a08",
+            "dhash": "55318621928a40b5",
+            "rgb": [
+              0.3402,
+              0.3135,
+              0.2463
+            ]
+          },
+          {
+            "phash": "4c6f2a89a86626af",
+            "dhash": "ee51e77fab0465a2",
+            "rgb": [
+              0.7589,
+              0.7703,
+              0.7104
+            ]
+          },
+          {
+            "phash": "5f49adfdac0000dd",
+            "dhash": "ab0465a2340bc80a",
+            "rgb": [
+              0.5529,
+              0.5012,
+              0.3788
+            ]
+          },
+          {
+            "phash": "777f4f16424184a5",
+            "dhash": "340bc80a2b6399da",
+            "rgb": [
+              0.445,
+              0.3854,
+              0.2891
+            ]
+          },
+          {
+            "phash": "706432333a5d5acb",
+            "dhash": "fdff301d91b64062",
+            "rgb": [
+              0.5535,
+              0.5415,
+              0.4756
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    },
+    {
+      "photo_id": "d4febdfd25ed652268dd0eff9147ab71ba62b4c77fb978246d89d03d508c1747",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "eu-trade-market-nak-interim-seed-potato-checks",
+      "article_slugs": [
+        "eu-trade-market-nak-interim-seed-potato-checks",
+        "netherlands-seed-potato-testing-november-2026"
+      ],
+      "original_path": "assets/licensed-news-originals/potato.jpg",
+      "original_sha256": "d4febdfd25ed652268dd0eff9147ab71ba62b4c77fb978246d89d03d508c1747",
+      "asset_sha256s": [
+        "4fab8d63e670cb502a005b2a6c142d84d2d29301608c3360891774a02805ba31",
+        "981fdfda88baa56a4efa5392dcc985464fd57c2d00294ebdcb65920a30bb9461"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Aardappel_Doré_poters_(Solanum_tuberosum_seed_potatoes).jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Aardappel_Doré_poters_(Solanum_tuberosum_seed_potatoes).jpg",
+      "creator": "Rasbak",
+      "licence": "CC BY-SA 3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 1478,
+        "height": 1501,
+        "signatures": [
+          {
+            "phash": "78cb8296b9493572",
+            "dhash": "5eee7dedec63d3fd",
+            "rgb": [
+              0.7526,
+              0.6312,
+              0.5626
+            ]
+          },
+          {
+            "phash": "79d284a9db2c24dc",
+            "dhash": "4fa77474eeacf1e9",
+            "rgb": [
+              0.7468,
+              0.6345,
+              0.5739
+            ]
+          },
+          {
+            "phash": "7cd286a5c90d32ce",
+            "dhash": "d66772e6ae31e1ed",
+            "rgb": [
+              0.7379,
+              0.6254,
+              0.5639
+            ]
+          },
+          {
+            "phash": "7ec9c394ec0731c2",
+            "dhash": "9774f4eeb4f1e97e",
+            "rgb": [
+              0.7328,
+              0.6184,
+              0.555
+            ]
+          },
+          {
+            "phash": "71d286ad935a2366",
+            "dhash": "5e6aeee8dd6c63d3",
+            "rgb": [
+              0.7396,
+              0.6277,
+              0.5681
+            ]
+          },
+          {
+            "phash": "7cdbc684b9493162",
+            "dhash": "2e4ee4cccd63c1da",
+            "rgb": [
+              0.7306,
+              0.6185,
+              0.5582
+            ]
+          },
+          {
+            "phash": "7cc9c392dc4c3463",
+            "dhash": "aeece9dd6ce3d3dd",
+            "rgb": [
+              0.7255,
+              0.6116,
+              0.5495
+            ]
+          },
+          {
+            "phash": "71d2d68ca1da9923",
+            "dhash": "bcd4ddd199d8c696",
+            "rgb": [
+              0.7356,
+              0.6233,
+              0.5639
+            ]
+          },
+          {
+            "phash": "78f9d286b1c88d31",
+            "dhash": "6cdee1dbdac686bc",
+            "rgb": [
+              0.727,
+              0.6144,
+              0.5544
+            ]
+          },
+          {
+            "phash": "7ee8cb8394cc8c34",
+            "dhash": "54dddb9dd8c7b6f9",
+            "rgb": [
+              0.7215,
+              0.6071,
+              0.5454
+            ]
+          },
+          {
+            "phash": "728489d2516f9da3",
+            "dhash": "c99bb77af3f7b7b8",
+            "rgb": [
+              0.7482,
+              0.6406,
+              0.5845
+            ]
+          },
+          {
+            "phash": "78d286f84b36c6b0",
+            "dhash": "d37b79f7f7bab0e4",
+            "rgb": [
+              0.7305,
+              0.6252,
+              0.5683
+            ]
+          },
+          {
+            "phash": "37c8d0876439c89f",
+            "dhash": "7abaf7b738b0e6ff",
+            "rgb": [
+              0.7248,
+              0.6132,
+              0.5499
+            ]
+          },
+          {
+            "phash": "73e48daad292625a",
+            "dhash": "6d6aefe0ecdeece3",
+            "rgb": [
+              0.7279,
+              0.6233,
+              0.5718
+            ]
+          },
+          {
+            "phash": "7cdbc6a4d8c93841",
+            "dhash": "2beee4cddd69e393",
+            "rgb": [
+              0.7068,
+              0.6055,
+              0.5552
+            ]
+          },
+          {
+            "phash": "378cf892cfc61462",
+            "dhash": "eee8dc5ce3c19bfa",
+            "rgb": [
+              0.7004,
+              0.5927,
+              0.5365
+            ]
+          },
+          {
+            "phash": "7372c40d2aed9ca1",
+            "dhash": "7da8bc8bb37ab086",
+            "rgb": [
+              0.7213,
+              0.6113,
+              0.5566
+            ]
+          },
+          {
+            "phash": "7878d246a4f6c496",
+            "dhash": "acb9933338a48e6e",
+            "rgb": [
+              0.7016,
+              0.5948,
+              0.5419
+            ]
+          },
+          {
+            "phash": "3727ec709079e0c9",
+            "dhash": "b3b37b308e0e6cf1",
+            "rgb": [
+              0.694,
+              0.5808,
+              0.5228
+            ]
+          },
+          {
+            "phash": "4b96a9769128d58d",
+            "dhash": "235f56bebf3f5e7c",
+            "rgb": [
+              0.7971,
+              0.6827,
+              0.6171
+            ]
+          },
+          {
+            "phash": "5fa1de11a61a6196",
+            "dhash": "bf3f5e7cec2e8ede",
+            "rgb": [
+              0.7325,
+              0.6309,
+              0.5779
+            ]
+          },
+          {
+            "phash": "30c6f937c1f80fc0",
+            "dhash": "ec2e8edefcb8e97b",
+            "rgb": [
+              0.7594,
+              0.631,
+              0.5505
+            ]
+          },
+          {
+            "phash": "6cc23657b1adaa28",
+            "dhash": "aba6cbdfcfc2cc9e",
+            "rgb": [
+              0.7299,
+              0.6274,
+              0.5777
+            ]
+          },
+          {
+            "phash": "5e53e125c6b6981a",
+            "dhash": "cfc2cc9e9e9ec8c1",
+            "rgb": [
+              0.6459,
+              0.5599,
+              0.5261
+            ]
+          },
+          {
+            "phash": "1a750786e1c0f9f8",
+            "dhash": "9e9ec8c112392f5f",
+            "rgb": [
+              0.698,
+              0.5836,
+              0.5209
+            ]
+          },
+          {
+            "phash": "6d684bc3b3a1a549",
+            "dhash": "e38b60f0a44f1bde",
+            "rgb": [
+              0.7393,
+              0.6257,
+              0.5668
+            ]
+          },
+          {
+            "phash": "2e293b56c893067e",
+            "dhash": "a44f1bdecc8a193c",
+            "rgb": [
+              0.682,
+              0.577,
+              0.5282
+            ]
+          },
+          {
+            "phash": "1a1ef46579f92025",
+            "dhash": "cc8a193c5c38e1ac",
+            "rgb": [
+              0.7117,
+              0.5826,
+              0.5129
+            ]
+          },
+          {
+            "phash": "7ed1a5a49a5a2135",
+            "dhash": "6e7569edcdac6363",
+            "rgb": [
+              0.7118,
+              0.6074,
+              0.5551
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    },
+    {
+      "photo_id": "0c77b286bb48b357b233041c6596174883fe29e07a6d5ab209d3d47532c8bec2",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "eu-events-euroseeds-valencia-october-2026",
+      "article_slugs": [
+        "eu-events-euroseeds-valencia-october-2026"
+      ],
+      "original_path": "assets/licensed-news-originals/valencia.jpg",
+      "original_sha256": "0c77b286bb48b357b233041c6596174883fe29e07a6d5ab209d3d47532c8bec2",
+      "asset_sha256s": [
+        "4c1a00c7c45396f99b0695d8e6097a400d4b6a88845d4f6f53abb8afc39f482b"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Palacio_de_Congresos_de_València.jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Congresos_de_València.jpg",
+      "creator": "Palacio de Congresos València / Jaume Cusido",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 1920,
+        "height": 1080,
+        "signatures": [
+          {
+            "phash": "517b37d169012e78",
+            "dhash": "374caa61686dea2a",
+            "rgb": [
+              0.4661,
+              0.489,
+              0.4844
+            ]
+          },
+          {
+            "phash": "533eb2624b097b15",
+            "dhash": "7be2249c8cf232f5",
+            "rgb": [
+              0.5142,
+              0.5373,
+              0.542
+            ]
+          },
+          {
+            "phash": "5033b97969097d15",
+            "dhash": "b1659d20b472b44b",
+            "rgb": [
+              0.4953,
+              0.512,
+              0.5014
+            ]
+          },
+          {
+            "phash": "5819dd7d6c242c56",
+            "dhash": "666550a55392d855",
+            "rgb": [
+              0.4696,
+              0.4807,
+              0.4576
+            ]
+          },
+          {
+            "phash": "53beb2b0620a6aba",
+            "dhash": "b6c24d301cea25aa",
+            "rgb": [
+              0.5139,
+              0.5383,
+              0.5419
+            ]
+          },
+          {
+            "phash": "5017b3db61086b9d",
+            "dhash": "e292946478796899",
+            "rgb": [
+              0.4969,
+              0.5144,
+              0.5023
+            ]
+          },
+          {
+            "phash": "581391dd79e5218d",
+            "dhash": "c249a049ea35eaa9",
+            "rgb": [
+              0.4729,
+              0.4845,
+              0.459
+            ]
+          },
+          {
+            "phash": "53b6aeb074d30c62",
+            "dhash": "6484587139f56655",
+            "rgb": [
+              0.507,
+              0.5335,
+              0.538
+            ]
+          },
+          {
+            "phash": "5016a79a7ed02e6a",
+            "dhash": "e52450d1f4e27133",
+            "rgb": [
+              0.4914,
+              0.5104,
+              0.4985
+            ]
+          },
+          {
+            "phash": "581b81dd53f82569",
+            "dhash": "96c5b19ae5665556",
+            "rgb": [
+              0.47,
+              0.4829,
+              0.4573
+            ]
+          },
+          {
+            "phash": "477df44646780e16",
+            "dhash": "5d604a9e64b27a39",
+            "rgb": [
+              0.5472,
+              0.5713,
+              0.5917
+            ]
+          },
+          {
+            "phash": "5013bb6b69691559",
+            "dhash": "6217e631ba6a9976",
+            "rgb": [
+              0.5057,
+              0.5181,
+              0.5057
+            ]
+          },
+          {
+            "phash": "5f1c9c6c26265a6a",
+            "dhash": "b25a8cba3999445e",
+            "rgb": [
+              0.4312,
+              0.4366,
+              0.4025
+            ]
+          },
+          {
+            "phash": "473db5b165014579",
+            "dhash": "f2d3223490c9e9ca",
+            "rgb": [
+              0.5561,
+              0.5843,
+              0.6053
+            ]
+          },
+          {
+            "phash": "5016939673ca6a6e",
+            "dhash": "826c1ac4f8e9b43a",
+            "rgb": [
+              0.525,
+              0.5374,
+              0.5213
+            ]
+          },
+          {
+            "phash": "5f199cd94ce12d41",
+            "dhash": "ca7032e8c0543a6b",
+            "rgb": [
+              0.446,
+              0.4513,
+              0.4137
+            ]
+          },
+          {
+            "phash": "433f4cb3b8e49924",
+            "dhash": "c84d66a90135a12a",
+            "rgb": [
+              0.5294,
+              0.562,
+              0.5803
+            ]
+          },
+          {
+            "phash": "5014239c27f98ff1",
+            "dhash": "29306b09e186caa9",
+            "rgb": [
+              0.5083,
+              0.5224,
+              0.5009
+            ]
+          },
+          {
+            "phash": "5f0b3087905ed23b",
+            "dhash": "11e2e1832a99e2ac",
+            "rgb": [
+              0.4316,
+              0.4402,
+              0.3996
+            ]
+          },
+          {
+            "phash": "5af14718201f7d78",
+            "dhash": "3b2f38355c52592c",
+            "rgb": [
+              0.5399,
+              0.5787,
+              0.6315
+            ]
+          },
+          {
+            "phash": "7c925b4a9a49366c",
+            "dhash": "5c52592cdeff3d56",
+            "rgb": [
+              0.516,
+              0.5247,
+              0.5084
+            ]
+          },
+          {
+            "phash": "47d03b39686d6526",
+            "dhash": "deff3d564c22b1d4",
+            "rgb": [
+              0.3798,
+              0.3837,
+              0.3242
+            ]
+          },
+          {
+            "phash": "483eb8e03b93ec45",
+            "dhash": "73e305b51a9bc9c2",
+            "rgb": [
+              0.5536,
+              0.5941,
+              0.6551
+            ]
+          },
+          {
+            "phash": "7c60a696bad18b49",
+            "dhash": "1a9bc9c2c1e964e3",
+            "rgb": [
+              0.5288,
+              0.5367,
+              0.5245
+            ]
+          },
+          {
+            "phash": "6f2980c0c8abcc7f",
+            "dhash": "c1e964e3ec58baf8",
+            "rgb": [
+              0.3765,
+              0.3738,
+              0.3211
+            ]
+          },
+          {
+            "phash": "49e974ce35531a83",
+            "dhash": "4139a5a292f92457",
+            "rgb": [
+              0.572,
+              0.614,
+              0.6599
+            ]
+          },
+          {
+            "phash": "7d9d6318c6399154",
+            "dhash": "92f9245773435f89",
+            "rgb": [
+              0.5303,
+              0.5439,
+              0.5034
+            ]
+          },
+          {
+            "phash": "5ece0d78500db333",
+            "dhash": "73435f89a7139955",
+            "rgb": [
+              0.3709,
+              0.3775,
+              0.3203
+            ]
+          },
+          {
+            "phash": "517b37d169012e78",
+            "dhash": "374caa61686dea2a",
+            "rgb": [
+              0.4661,
+              0.489,
+              0.4844
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    },
+    {
+      "photo_id": "95bd46673ee42362390a7f07c8de748287f65ebefa0fdedead57efca1ca875e2",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "europe-september-2026-climate-retrospective",
+      "article_slugs": [
+        "europe-september-2026-climate-retrospective",
+        "ireland-harvest-weather-november-2026"
+      ],
+      "original_path": "assets/licensed-news-originals/europe-september-2026-climate-retrospective.jpg",
+      "original_sha256": "95bd46673ee42362390a7f07c8de748287f65ebefa0fdedead57efca1ca875e2",
+      "asset_sha256s": [
+        "c1fd60837e8d26c265aee7814c371d081248f65894cddbd54c5c3f5610651dde",
+        "3f8952193588e1e0916c05be0dd79c6745abb27f3423fbab29f956f05381b4aa"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg",
+      "creator": "Tractorboy60",
+      "licence": "Public domain (author dedication)",
+      "licence_url": "https://commons.wikimedia.org/wiki/File:Roundbales.jpg#file",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 1101,
+        "height": 734,
+        "signatures": [
+          {
+            "phash": "7306286659d735a3",
+            "dhash": "000203539a2d9131",
+            "rgb": [
+              0.7161,
+              0.6695,
+              0.5839
+            ]
+          },
+          {
+            "phash": "660c585e96ac669b",
+            "dhash": "0001025c26c6ce94",
+            "rgb": [
+              0.6981,
+              0.6771,
+              0.6094
+            ]
+          },
+          {
+            "phash": "73060e4ed7a72299",
+            "dhash": "01000f88a6129a12",
+            "rgb": [
+              0.7086,
+              0.6636,
+              0.5766
+            ]
+          },
+          {
+            "phash": "31632f4353b7298c",
+            "dhash": "01024e26954c9635",
+            "rgb": [
+              0.7204,
+              0.6508,
+              0.5453
+            ]
+          },
+          {
+            "phash": "760c594d579c6c26",
+            "dhash": "010105f5558b4d35",
+            "rgb": [
+              0.6998,
+              0.677,
+              0.6081
+            ]
+          },
+          {
+            "phash": "7346486e5ad76622",
+            "dhash": "00015d1354651534",
+            "rgb": [
+              0.7099,
+              0.6632,
+              0.5751
+            ]
+          },
+          {
+            "phash": "39632e6a58d37321",
+            "dhash": "0505d4759a4d2472",
+            "rgb": [
+              0.7209,
+              0.6502,
+              0.5436
+            ]
+          },
+          {
+            "phash": "760c194c59d79d64",
+            "dhash": "000202bb8d0693a9",
+            "rgb": [
+              0.702,
+              0.6775,
+              0.6068
+            ]
+          },
+          {
+            "phash": "7346086e58d7d466",
+            "dhash": "000abda684692264",
+            "rgb": [
+              0.7119,
+              0.6639,
+              0.5739
+            ]
+          },
+          {
+            "phash": "39e32ca34c4a5673",
+            "dhash": "0202e8cd359b2d45",
+            "rgb": [
+              0.7223,
+              0.6505,
+              0.5422
+            ]
+          },
+          {
+            "phash": "6408538dad6db64d",
+            "dhash": "000012099735c287",
+            "rgb": [
+              0.6675,
+              0.6797,
+              0.6392
+            ]
+          },
+          {
+            "phash": "33474e56a6229957",
+            "dhash": "0101eeb533cb6f8a",
+            "rgb": [
+              0.7012,
+              0.657,
+              0.5674
+            ]
+          },
+          {
+            "phash": "1ce02759d03d8f6a",
+            "dhash": "106f21cc190d891a",
+            "rgb": [
+              0.7313,
+              0.6306,
+              0.4974
+            ]
+          },
+          {
+            "phash": "64085b5b929a4d9f",
+            "dhash": "00000087dcd69a4c",
+            "rgb": [
+              0.6726,
+              0.6806,
+              0.6373
+            ]
+          },
+          {
+            "phash": "33474d4c59c566aa",
+            "dhash": "0124b997c63a8c24",
+            "rgb": [
+              0.7037,
+              0.6571,
+              0.5653
+            ]
+          },
+          {
+            "phash": "1cf0a2634fd27195",
+            "dhash": "40f58639ac92a662",
+            "rgb": [
+              0.7321,
+              0.6306,
+              0.4952
+            ]
+          },
+          {
+            "phash": "640c334d734db26e",
+            "dhash": "0202120e525a5a2b",
+            "rgb": [
+              0.6762,
+              0.6804,
+              0.6338
+            ]
+          },
+          {
+            "phash": "33e719a628529976",
+            "dhash": "060a754b5ae3639b",
+            "rgb": [
+              0.7059,
+              0.6568,
+              0.5617
+            ]
+          },
+          {
+            "phash": "1cf084b027ad8f79",
+            "dhash": "0ad858e4b24acb59",
+            "rgb": [
+              0.7319,
+              0.6287,
+              0.4905
+            ]
+          },
+          {
+            "phash": "5235a5954ba5b455",
+            "dhash": "488081008099b494",
+            "rgb": [
+              0.579,
+              0.687,
+              0.7407
+            ]
+          },
+          {
+            "phash": "3043a6669dcb6566",
+            "dhash": "8099b4949c65c3da",
+            "rgb": [
+              0.6724,
+              0.6291,
+              0.5381
+            ]
+          },
+          {
+            "phash": "013f4091b6ff9705",
+            "dhash": "9c65c3da83d3574d",
+            "rgb": [
+              0.8393,
+              0.6494,
+              0.4345
+            ]
+          },
+          {
+            "phash": "5a142d4a69556bb6",
+            "dhash": "0a080208123274a8",
+            "rgb": [
+              0.5941,
+              0.6862,
+              0.7317
+            ]
+          },
+          {
+            "phash": "30e1667499669acb",
+            "dhash": "123274a896494a1a",
+            "rgb": [
+              0.6722,
+              0.6257,
+              0.528
+            ]
+          },
+          {
+            "phash": "41869127fe20ec7d",
+            "dhash": "96494a1a324fd585",
+            "rgb": [
+              0.837,
+              0.6564,
+              0.4421
+            ]
+          },
+          {
+            "phash": "5a92699664bb6493",
+            "dhash": "880808485c75958c",
+            "rgb": [
+              0.6021,
+              0.6814,
+              0.7183
+            ]
+          },
+          {
+            "phash": "30e01df399e84774",
+            "dhash": "5c75958cac1aca48",
+            "rgb": [
+              0.676,
+              0.618,
+              0.5116
+            ]
+          },
+          {
+            "phash": "40037fe4ffdc1320",
+            "dhash": "ac1aca4869daa52d",
+            "rgb": [
+              0.8423,
+              0.6584,
+              0.4419
+            ]
+          },
+          {
+            "phash": "7347186658d7a62a",
+            "dhash": "00045e5734351535",
+            "rgb": [
+              0.7091,
+              0.6618,
+              0.5719
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    },
+    {
+      "photo_id": "c7b564dc710624342717c393a64b0174560aae87d52a139a32f18f5192f4a246",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "autumn-2026-agronomy-evidence-review",
+      "article_slugs": [
+        "autumn-2026-agronomy-evidence-review",
+        "occitanie-cereal-establishment-november-2026"
+      ],
+      "original_path": "assets/licensed-news-originals/autumn-2026-agronomy-evidence-review.jpg",
+      "original_sha256": "c7b564dc710624342717c393a64b0174560aae87d52a139a32f18f5192f4a246",
+      "asset_sha256s": [
+        "c0cfd679ac26f3202cbbbc0c67604c48181f05a7cb5413fcb9be39ab1425a1c1",
+        "d0dfc145afcf3fcd777d2bf592fc794ad7f592bb428e4cab3acbdd85b17f9901"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Winter_wheat_plants_at_ground_level_-_geograph.org.uk_-_2648279.jpg",
+      "creator": "Michael Trolove",
+      "licence": "CC BY-SA 2.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 2560,
+        "height": 1920,
+        "signatures": [
+          {
+            "phash": "78e1693ea649431e",
+            "dhash": "fdfbcb2eada623a7",
+            "rgb": [
+              0.4009,
+              0.409,
+              0.3343
+            ]
+          },
+          {
+            "phash": "70e343bc534314db",
+            "dhash": "fe7d5544a5a5b349",
+            "rgb": [
+              0.4361,
+              0.4449,
+              0.3686
+            ]
+          },
+          {
+            "phash": "7ce169a6495916c9",
+            "dhash": "7fdcad85d69352e7",
+            "rgb": [
+              0.3966,
+              0.3978,
+              0.3117
+            ]
+          },
+          {
+            "phash": "7ffc68834878138c",
+            "dhash": "fc9b65ada69353a4",
+            "rgb": [
+              0.3576,
+              0.351,
+              0.2553
+            ]
+          },
+          {
+            "phash": "70e343ac9f436236",
+            "dhash": "fdfb19650a6a6745",
+            "rgb": [
+              0.4282,
+              0.4394,
+              0.3631
+            ]
+          },
+          {
+            "phash": "7ce169a6a2697216",
+            "dhash": "fbbb4a470c6305ee",
+            "rgb": [
+              0.3905,
+              0.3936,
+              0.307
+            ]
+          },
+          {
+            "phash": "7ffc6883a26c6902",
+            "dhash": "f95e6d3d6a65a7af",
+            "rgb": [
+              0.3534,
+              0.3486,
+              0.2516
+            ]
+          },
+          {
+            "phash": "70e3437cac19e334",
+            "dhash": "fbfb4f6559d60acb",
+            "rgb": [
+              0.4213,
+              0.4352,
+              0.3599
+            ]
+          },
+          {
+            "phash": "7ce1693ea609e116",
+            "dhash": "fbd954da5ba58a4e",
+            "rgb": [
+              0.3845,
+              0.3903,
+              0.3044
+            ]
+          },
+          {
+            "phash": "7ff46c17a204e413",
+            "dhash": "fb09947b568aea49",
+            "rgb": [
+              0.3492,
+              0.3472,
+              0.2503
+            ]
+          },
+          {
+            "phash": "71c768ae572c9291",
+            "dhash": "efffeec26b9b9649",
+            "rgb": [
+              0.4747,
+              0.4901,
+              0.4156
+            ]
+          },
+          {
+            "phash": "7ef84784591688da",
+            "dhash": "fed2daa28b2cab29",
+            "rgb": [
+              0.3891,
+              0.3853,
+              0.2856
+            ]
+          },
+          {
+            "phash": "7f6e20896e19c6c1",
+            "dhash": "951b92c2a9294bd3",
+            "rgb": [
+              0.3041,
+              0.292,
+              0.1779
+            ]
+          },
+          {
+            "phash": "71c753282ac36d6c",
+            "dhash": "bdf9fcaac96d6a66",
+            "rgb": [
+              0.4589,
+              0.4774,
+              0.4019
+            ]
+          },
+          {
+            "phash": "7ff8792684e92221",
+            "dhash": "bd6b4b4cad63adc5",
+            "rgb": [
+              0.3799,
+              0.377,
+              0.2746
+            ]
+          },
+          {
+            "phash": "5bf666b1a1661838",
+            "dhash": "be234d0902ad675c",
+            "rgb": [
+              0.3043,
+              0.2919,
+              0.1751
+            ]
+          },
+          {
+            "phash": "71e7c754293cc2d0",
+            "dhash": "f3e6f3a224b22a15",
+            "rgb": [
+              0.4386,
+              0.4632,
+              0.3917
+            ]
+          },
+          {
+            "phash": "7ff878592606c0c9",
+            "dhash": "f6d56bb7b12a9416",
+            "rgb": [
+              0.3642,
+              0.3657,
+              0.2665
+            ]
+          },
+          {
+            "phash": "5bd56e449189a6a6",
+            "dhash": "1da631b3cd96962a",
+            "rgb": [
+              0.2985,
+              0.2897,
+              0.1737
+            ]
+          },
+          {
+            "phash": "46dc354aaacb3545",
+            "dhash": "fb1fffd2a66a594a",
+            "rgb": [
+              0.5959,
+              0.6313,
+              0.5713
+            ]
+          },
+          {
+            "phash": "7f7b82308c746272",
+            "dhash": "a66a594aa548cb2a",
+            "rgb": [
+              0.3232,
+              0.3185,
+              0.2021
+            ]
+          },
+          {
+            "phash": "733cac68cf535811",
+            "dhash": "a548cb2a1b5c6466",
+            "rgb": [
+              0.2685,
+              0.2316,
+              0.142
+            ]
+          },
+          {
+            "phash": "66ccc631a88e71ad",
+            "dhash": "6ffffd5d26924aae",
+            "rgb": [
+              0.5272,
+              0.57,
+              0.5095
+            ]
+          },
+          {
+            "phash": "65db52a5cac6344a",
+            "dhash": "26924aaece9d5142",
+            "rgb": [
+              0.3426,
+              0.3412,
+              0.208
+            ]
+          },
+          {
+            "phash": "46707986b9b1639a",
+            "dhash": "ce9d5142c6c497ab",
+            "rgb": [
+              0.2922,
+              0.2754,
+              0.1549
+            ]
+          },
+          {
+            "phash": "66f31933cccc8c8c",
+            "dhash": "cfffb7a6965234d2",
+            "rgb": [
+              0.4613,
+              0.5174,
+              0.4668
+            ]
+          },
+          {
+            "phash": "61a5ad985a5acac9",
+            "dhash": "965234d28b29bab9",
+            "rgb": [
+              0.3227,
+              0.314,
+              0.1972
+            ]
+          },
+          {
+            "phash": "4ec686653db8d524",
+            "dhash": "8b29bab95dd9daec",
+            "rgb": [
+              0.2774,
+              0.2552,
+              0.1563
+            ]
+          },
+          {
+            "phash": "7ff8690784597016",
+            "dhash": "5beab529ec466667",
+            "rgb": [
+              0.3714,
+              0.3695,
+              0.2766
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    },
+    {
+      "photo_id": "2dbe258114438bc37c80ab34c67e0626f90487454e95539e1d519a1e48042135",
+      "kind": "PHOTOGRAPH",
+      "first_article_slug": "interpom-2026-innovation-tour-visitor-brief",
+      "article_slugs": [
+        "interpom-2026-innovation-tour-visitor-brief"
+      ],
+      "original_path": "assets/licensed-news-originals/brief-interpom-venue.jpg",
+      "original_sha256": "2dbe258114438bc37c80ab34c67e0626f90487454e95539e1d519a1e48042135",
+      "asset_sha256s": [
+        "afd5fed8ba6f61572802c1a41810ec34c4193b6a7fcfb05a52a3e9475603b7b2"
+      ],
+      "source_identity": "https://commons.wikimedia.org/wiki/File:Kortrijk_Xpo,_2022.jpg",
+      "original_source_url": "https://commons.wikimedia.org/wiki/File:Kortrijk_Xpo,_2022.jpg",
+      "creator": "Marcel Douwe Dekker",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution_required": true,
+      "features": {
+        "algorithm": "DCT64_DHASH64_RGB_MULTICROP_V1",
+        "width": 4571,
+        "height": 3438,
+        "signatures": [
+          {
+            "phash": "66c8d9b1cc64cc66",
+            "dhash": "fafffffff29441ac",
+            "rgb": [
+              0.5135,
+              0.5238,
+              0.5317
+            ]
+          },
+          {
+            "phash": "4cd9b299d9294969",
+            "dhash": "fcfdffffc55de925",
+            "rgb": [
+              0.5506,
+              0.5645,
+              0.5748
+            ]
+          },
+          {
+            "phash": "66d8b988cc656c65",
+            "dhash": "feffffff795fb2da",
+            "rgb": [
+              0.5207,
+              0.5288,
+              0.5329
+            ]
+          },
+          {
+            "phash": "67ce9cccce242626",
+            "dhash": "fffffff17dc2e126",
+            "rgb": [
+              0.4887,
+              0.4912,
+              0.4898
+            ]
+          },
+          {
+            "phash": "4cd892b299ab9966",
+            "dhash": "f9fdffffc9bbf2c4",
+            "rgb": [
+              0.5444,
+              0.5585,
+              0.5702
+            ]
+          },
+          {
+            "phash": "66da99abd8319823",
+            "dhash": "fdffffffb59ff1b5",
+            "rgb": [
+              0.5156,
+              0.5236,
+              0.5289
+            ]
+          },
+          {
+            "phash": "63cadc99ce30cc31",
+            "dhash": "ffffffd7d9c5ca4c",
+            "rgb": [
+              0.4842,
+              0.4866,
+              0.4863
+            ]
+          },
+          {
+            "phash": "4cdc932299739b92",
+            "dhash": "fafbffff9b53a2c9",
+            "rgb": [
+              0.5334,
+              0.5479,
+              0.5609
+            ]
+          },
+          {
+            "phash": "66cad93388519d9a",
+            "dhash": "fafffffff2be6567",
+            "rgb": [
+              0.5051,
+              0.5136,
+              0.52
+            ]
+          },
+          {
+            "phash": "67cbdc31ce188c89",
+            "dhash": "fffffea7b382ca58",
+            "rgb": [
+              0.4743,
+              0.4772,
+              0.4778
+            ]
+          },
+          {
+            "phash": "4997b692da4a4a4b",
+            "dhash": "fffefffffffd6eec",
+            "rgb": [
+              0.607,
+              0.6261,
+              0.6402
+            ]
+          },
+          {
+            "phash": "66d999cc2d646c64",
+            "dhash": "ffffffdf6d6ad6a8",
+            "rgb": [
+              0.5371,
+              0.5422,
+              0.5422
+            ]
+          },
+          {
+            "phash": "71ce84e366313333",
+            "dhash": "ffffc36c2d597463",
+            "rgb": [
+              0.4563,
+              0.4519,
+              0.4425
+            ]
+          },
+          {
+            "phash": "4991e4b492b6b5b4",
+            "dhash": "fcfdfffffff379b1",
+            "rgb": [
+              0.5706,
+              0.5919,
+              0.6106
+            ]
+          },
+          {
+            "phash": "66dcb393dc899211",
+            "dhash": "fdfffffff5ab8a65",
+            "rgb": [
+              0.5077,
+              0.5135,
+              0.5161
+            ]
+          },
+          {
+            "phash": "71cb1ccccb8ec88c",
+            "dhash": "ffff0cf3b762508c",
+            "rgb": [
+              0.4308,
+              0.4266,
+              0.4189
+            ]
+          },
+          {
+            "phash": "49d9936491e46e93",
+            "dhash": "f2f7fffffecaa565",
+            "rgb": [
+              0.5555,
+              0.5776,
+              0.5986
+            ]
+          },
+          {
+            "phash": "66c6dc339c536198",
+            "dhash": "f7fffffef2b63814",
+            "rgb": [
+              0.4957,
+              0.5019,
+              0.5056
+            ]
+          },
+          {
+            "phash": "71e9c33cc50836c7",
+            "dhash": "ffff32a65ccbc93a",
+            "rgb": [
+              0.422,
+              0.4182,
+              0.4109
+            ]
+          },
+          {
+            "phash": "15e4aaaa555555aa",
+            "dhash": "ffffffffffffffef",
+            "rgb": [
+              0.7908,
+              0.8199,
+              0.8427
+            ]
+          },
+          {
+            "phash": "669bc949696d2992",
+            "dhash": "ffffffefaf3e2bfd",
+            "rgb": [
+              0.5797,
+              0.576,
+              0.5668
+            ]
+          },
+          {
+            "phash": "68f8bf1e1f0e05c0",
+            "dhash": "af3e2bfd6fbcb6d8",
+            "rgb": [
+              0.3045,
+              0.2952,
+              0.283
+            ]
+          },
+          {
+            "phash": "55ab5455caa854d5",
+            "dhash": "fefffcfffffffffd",
+            "rgb": [
+              0.7138,
+              0.7535,
+              0.7928
+            ]
+          },
+          {
+            "phash": "66c633b358a46b26",
+            "dhash": "fffffffdf1f14f70",
+            "rgb": [
+              0.4987,
+              0.502,
+              0.4993
+            ]
+          },
+          {
+            "phash": "0f68d0f579431cd2",
+            "dhash": "f1f14f70a394939a",
+            "rgb": [
+              0.2806,
+              0.2735,
+              0.2598
+            ]
+          },
+          {
+            "phash": "5595a9565aaa554a",
+            "dhash": "a4e09ffffdfdf5bc",
+            "rgb": [
+              0.6658,
+              0.7055,
+              0.752
+            ]
+          },
+          {
+            "phash": "6367cc72699c2394",
+            "dhash": "fdfdf5bcccdc5892",
+            "rgb": [
+              0.4657,
+              0.4671,
+              0.4642
+            ]
+          },
+          {
+            "phash": "1e25ed281afb0267",
+            "dhash": "ccdc58926791780c",
+            "rgb": [
+              0.2953,
+              0.277,
+              0.2508
+            ]
+          },
+          {
+            "phash": "66d899abcc29cc64",
+            "dhash": "fffffffff55bcca2",
+            "rgb": [
+              0.5228,
+              0.5267,
+              0.5269
+            ]
+          }
+        ]
+      },
+      "reserved_since": "PRE_STANDARD_V2_PUBLISHED_HISTORY"
+    }
+  ]
+}

@@ -1,30 +1,30 @@
 {
   "ireland-harvest-weather-november-2026": {
     "status": "APPROVED_AFTER_PRIVATE_VALIDATION",
-    "package_sha256": "626e4ff8553537d2f8dfec7c37f7ab9f6bc3cdefcfd1fcabe52e72225c7a69ff",
-    "source_draft_sha256": "d198aa164d0463a8acce32539781bb9c546c22cf9027209458bccea5acff7070",
-    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION",
-    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION"
+    "package_sha256": "1838aa3a49b691e53249be4aa45cbb1813178daaa4d3b24b76bac2abd28d4f58",
+    "previous_package_sha256": "626e4ff8553537d2f8dfec7c37f7ab9f6bc3cdefcfd1fcabe52e72225c7a69ff",
+    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE",
+    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE"
   },
   "occitanie-cereal-establishment-november-2026": {
     "status": "APPROVED_AFTER_PRIVATE_VALIDATION",
-    "package_sha256": "47b195f4e785649e6c19a982f4abe5ef41df1cef12d12a7399ff067671e0cbee",
-    "source_draft_sha256": "6b1eb3aecb170d4e16d5b47f1ce7b787c333bdd6b7face72568c392fdb5708bc",
-    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION",
-    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION"
+    "package_sha256": "96ffe4d62e301781b04f04b79796a13634933edf263e703208f1e6cf90de70c9",
+    "previous_package_sha256": "47b195f4e785649e6c19a982f4abe5ef41df1cef12d12a7399ff067671e0cbee",
+    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE",
+    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE"
   },
   "netherlands-seed-potato-testing-november-2026": {
     "status": "APPROVED_AFTER_PRIVATE_VALIDATION",
-    "package_sha256": "5a72e7076edbc212773f650945bca515d46c020f6200689400ffa2fb9258e919",
-    "source_draft_sha256": "2e04cf947f0c30904feacb3d057f9e10a48b315298a18715019eecb959c55476",
-    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION",
-    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION"
+    "package_sha256": "76a3acce295edcd6639162d797adefcdaa77fce50a50b989775a06a095f69845",
+    "previous_package_sha256": "5a72e7076edbc212773f650945bca515d46c020f6200689400ffa2fb9258e919",
+    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE",
+    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE"
   },
   "interpom-2026-innovation-tour-visitor-brief": {
     "status": "APPROVED_AFTER_PRIVATE_VALIDATION",
-    "package_sha256": "9de824344d1aa2b224a7cffef7a3d29f7259cbd65e4ab3cc07e2be8f7e45e594",
-    "source_draft_sha256": "f54c77eb8fa5867e92e3caf41e70a176d963932293722ccff88e7255411d6eba",
-    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION",
-    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 PRODUCTION PUBLICATION AUTHORIZATION"
+    "package_sha256": "b6e29fa9ef034f39e6b2d302b8f59b3ee3d6ba2c717de91a7937ef865bbb1ab6",
+    "previous_package_sha256": "9de824344d1aa2b224a7cffef7a3d29f7259cbd65e4ab3cc07e2be8f7e45e594",
+    "editorial_evidence_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE",
+    "publication_authorization_reference": "Current owner message: SEEDTRADE.EU — STAGE 2 ARTICLE LENGTH & UNIQUE PHOTOGRAPHY UPDATE"
   }
 }
