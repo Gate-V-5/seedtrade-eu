@@ -9,6 +9,7 @@ import './marketCatalogue.css'
 import {compactTonnes,exactTonnes} from './tradeKpiDisplay.mjs'
 import EvidenceHistory from './CommercialHistory.jsx'
 import SnapshotIntelligence from './SnapshotIntelligence.jsx'
+import SeedIntelligence from './SeedIntelligenceRoute.jsx'
 import MarketDetailBriefing,{detailPilotRecord} from './MarketDetailBriefing.jsx'
 import {SeedCard,Tags} from './CommercialSeedCard.jsx'
 import CatalogueProductionLink from './CatalogueProductionLink.jsx'
@@ -84,7 +85,7 @@ function EuMarketSummary() {
 function CatalogueHome({productionSearch}) {
   const t=useT(),{language}=useLanguage(),[query,setQuery]=useCatalogueSearch(),order=['CEREALS_PULSES','FODDER_AMENITY','CATCH_CROP','OIL_FIBRE','MAIZE_SORGHUM','VEGETABLES']
   const searching=Boolean(query.trim()),filtered=searching?filterCatalogueCards(data.cards,query,language):[]
-  return <main className="market-catalogue"><header className="catalogue-page-head"><p className="eyebrow">{t('European seed market')}</p><h1>{t('European Seed Market')}</h1><p>{t('Choose a category to explore commercial seed types and market intelligence.')}</p></header><EuMarketSummary/><section className="catalogue-category-grid" aria-label={t('Seed market categories')}>{order.map(id=><CategoryTile key={id} category={categoryById(id)}/>)}</section><CataloguePhotoCredits/>
+  return <main className="market-catalogue"><header className="catalogue-page-head"><p className="eyebrow">{t('European seed market')}</p><h1>{t('European Seed Market')}</h1><p>{t('Choose a category to explore commercial seed types and market intelligence.')}</p></header><SeedIntelligence/><EuMarketSummary/><section className="catalogue-category-grid" aria-label={t('Seed market categories')}>{order.map(id=><CategoryTile key={id} category={categoryById(id)}/>)}</section><CataloguePhotoCredits/>
     <section className="catalogue-global-search" aria-labelledby="catalogue-search-title"><h2 id="catalogue-search-title">{t('Search all seed types')}</h2>
       <CatalogueSearch query={query} onChange={setQuery} count={filtered.length} all/>
       <div id="catalogue-search-results">{searching&&(filtered.length?<section className="catalogue-seed-grid" aria-label={t('Search results')}>{filtered.map(card=><SeedCard key={card.market_entity_id} card={card} productionSearch={productionSearch}/>)}</section>:<p className="catalogue-empty">{t('No seed types match your search.')}</p>)}</div>

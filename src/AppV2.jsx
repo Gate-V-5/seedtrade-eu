@@ -1,3 +1,5 @@
+import AnalysisContinuation from './AnalysisContinuation.jsx'
+import MarketIntelligenceBackLink from './MarketIntelligenceBackLink.jsx'
 import NewsPage from './NewsPage.jsx'
 import {newsStream,newsEvent,newsDate,eventStatusLabel} from './news.mjs'
 import B2bLanguageNotice from './b2b/B2bLanguageNotice.jsx'
@@ -127,7 +129,7 @@ export function routeMeta(path, language = "EN") {
   const catalogueMeta = catalogueModule?.catalogueRouteMeta(path)
   if (catalogueMeta) return catalogueMeta
   if (path === "/trade-pulse") return { title: "EU Seed Trade Pulse | SeedTrade.eu", description: "Verified EU internal, import and export seed trade volume, value and activity intelligence.", index: true }
-  if (path === "/weather-evidence") return { title: "Weather & Seed Risk coverage | SeedTrade.eu", description: "Map and list of 23 monitored European seed-production regions; weather exposure is not validated production impact.", index: true }
+  if (path === "/weather-evidence") return { title: "Weather & Seed Risk | SeedTrade.eu", description: "Explore crop-stage weather exposure, transparent yield sensitivities and their connection to seed production and trade.", index: true }
   if (path === "/production-intelligence") return { title: "Seed Production Intelligence | SeedTrade.eu", description: "Official European seed multiplication and certification evidence by species, country, metric and year.", index: true }
   const crop = market.crops.find(x => path === `/market/${x.slug}`)
   if (crop) return { title: `${crop.crop}${crop.botanical_name ? ` (${crop.botanical_name})` : ""} market data | SeedTrade.eu`, description: `${crop.crop}${crop.botanical_name ? ` (${crop.botanical_name})` : ""} representative price, EU trade volume, corridors and evidence status.`, index: true }
@@ -427,6 +429,8 @@ function TradePulseDashboard() {
     <section className="pulse-dashboard-section"><h2><T>Extra-EU trade balance</T></h2><p className="section-note"><I18n text="One month · {period}" values={{period}}/> · <T>Units: EUR; one month.</T></p><div className="balance-card"><div><small><T>Imports</T></small><b>{f.currency(imports.trade_value_eur)}</b></div><div><small><T>Exports</T></small><b>{f.currency(exports.trade_value_eur)}</b></div><div><small><T>Balance</T></small><b>{f.currency(tradePulse.extra_eu_balance.trade_value_eur)}</b></div></div><p><T>Balance = extra-EU exports − extra-EU imports.</T></p><div className="market-context-note"><b><T>Market context</T></b><span>{marketContextText}</span></div></section>
     <section className="pulse-dashboard-section"><h2><T>Market observations</T></h2><p className="section-note"><I18n text="Reporting month: {period}; comparison: {comparison}." values={{period,comparison}}/></p><ul className="observations">{observations.map(item=><li key={item}>{item}</li>)}</ul></section>
     <section className="pulse-method-compact"><h2><T>Methodology in brief</T></h2><PulseRefreshEvidence/><p><I18n text="{period} and later months have not passed this snapshot’s publication checks." values={{period:tradePulse.latest_available_partial_period}}/></p><p className="pulse-evidence-types"><T>Official trade statistics; unit values are derived EUR/kg indicators. Estimated market prices and actual seller offer prices are separate evidence types.</T></p><p><T>Observed coverage is not zero-filled: selected categories without eligible observations are not assumed to have zero trade.</T></p><p><T>Data:</T> {tradePulse.source}.</p><details className="pulse-chart-data pulse-quality-details"><summary><T>Data quality and coverage</T></summary><p><T>Range eligibility: species-specific CN categories with at least 100 t and two paired observations. Each average is declared trade value divided by net weight.</T></p><p><T>Comparisons are unavailable when the prior value is missing or zero, or reporter coverage differs.</T></p><p><I18n text="{count} accepted observations; missing or suppressed cells are not filled with zero." values={{count:f.number(tradePulse.accepted_observations)}}/></p></details><a href="/methodology"><T>Full methodology →</T></a></section>
+    <AnalysisContinuation/>
+    <MarketIntelligenceBackLink/>
   </main>
 }
 
@@ -483,7 +487,7 @@ function Home() {
 function IntelligenceOverview({ expanded = false }) {
   const t=useT()
   const internal=tradePulse.views.eu_internal_trade.latest
-  return <section className={`intelligence-overview ${expanded?"expanded":""}`}><div className="section-head"><div><p className="eyebrow"><T>Market Intelligence</T></p><h2><T>Evidence for commercial seed decisions</T></h2></div>{!expanded&&<a href="/market"><T>Open intelligence →</T></a>}</div><div className="intelligence-grid intelligence-commercial">
+  return <section id="market-intelligence-sections" className={`intelligence-overview ${expanded?"expanded":""}`}><div className="section-head"><div><p className="eyebrow"><T>Market Intelligence</T></p><h2><T>Evidence for commercial seed decisions</T></h2></div>{!expanded&&<a href="/market"><T>Open intelligence →</T></a>}</div><p className="intelligence-journey"><T>Trade shows movement, weather highlights exposure, and production evidence anchors conditional supply and demand indications.</T></p>{expanded&&<p className="intelligence-journey"><T>One seed-market decision: inspect production, check weather exposure, compare trade, then explore conditional supply pressure.</T> <a href="#seed-supply-lab"><T>Choose a country and crop</T> →</a></p>}<div className="intelligence-grid intelligence-commercial">
     <article><div className="intelligence-topic-visual trade" role="img" aria-label={t("EU internal trade, imports and exports as distinct flows")}>
       <FixedEvidenceImage name="market"/>
       <span className="visual-tag"><T>EU · TRADE FLOWS</T></span><span className="visual-caption"><T>Internal · imports · exports</T></span>
@@ -491,11 +495,11 @@ function IntelligenceOverview({ expanded = false }) {
     <article><div className="intelligence-topic-visual weather" role="img" aria-label={t("European geographic context: {count} monitored regions in countries highlighted on the map; country shading does not mean nationwide monitoring",{count:weather.region_count})}>
       <FixedEvidenceImage name="weather"/>
       <span className="visual-tag"><T>EUROPE · WEATHER EXPOSURE</T></span><span className="visual-caption"><I18n text="{count} named regions · not nationwide coverage" values={{count:weather.region_count}}/></span>
-    </div><p className="eyebrow"><T>Weather & Seed Risk</T></p><h3><T>Conditions worth monitoring</T></h3><p><T>Weather exposure across European seed-production regions may matter for establishment, development, flowering, seed filling and harvest. Production effects remain unclaimed without supporting evidence.</T></p><a href="/weather-evidence"><T>View weather evidence →</T></a></article>
+    </div><p className="eyebrow"><T>Weather & Seed Risk</T></p><h3><T>Conditions worth monitoring</T></h3><p><T>Check weather at supported sampling locations and explore crop-stage exposure. Yield effects remain explicit scenarios.</T></p><a href="/weather-evidence"><T>View weather evidence →</T></a></article>
     <article><div className="intelligence-topic-visual production" role="img" aria-label={t("Seed multiplication fields and certification evidence shown separately from commodity crop area")}>
       <FixedEvidenceImage name="production"/>
       <span className="visual-tag"><T>SEED · PRODUCTION</T></span><span className="visual-caption"><T>Certified seed ≠ commodity area</T></span>
-    </div><p className="eyebrow"><T>Seed Production</T></p><h3><T>Is supply tightening or expanding?</T></h3><p><T>Certified-seed and multiplication evidence is kept separate from commodity crop area. Evidence is currently insufficient for an EU-wide supply direction.</T></p><a href="/production-intelligence"><T>View production evidence →</T></a></article>
+    </div><p className="eyebrow"><T>Seed Production</T></p><h3><T>Is supply tightening or expanding?</T></h3><p><T>Compare reported seed area, output and stocks. Explore supply pressure where comparable evidence supports a scenario.</T></p><a href="/production-intelligence"><T>View production evidence →</T></a></article>
   </div></section>
 }
 

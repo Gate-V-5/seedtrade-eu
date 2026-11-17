@@ -1,0 +1,7 @@
+.market-intelligence-back{display:flex;justify-content:flex-start;margin-top:32px;padding-top:12px}
+.market-intelligence-back a{display:inline-flex;align-items:center;gap:10px;box-sizing:border-box;max-width:100%;min-height:44px;padding:11px 15px;border:1px solid #c7dbcf;border-radius:7px;background:#f2f7f4;color:#165b3d;font-size:15px;font-weight:650;line-height:1.5;text-decoration:none;transition:background-color .15s,border-color .15s}
+.market-intelligence-back a svg{flex-shrink:0}
+.market-intelligence-back a:hover{background:#e5f0e9;border-color:#729c83;text-decoration:underline;text-underline-offset:3px}
+.market-intelligence-back a:focus-visible{outline:3px solid #146b49;outline-offset:4px}
+#market-intelligence-sections{scroll-margin-top:110px}
+@media(max-width:700px){.market-intelligence-back{margin-top:24px}#market-intelligence-sections{scroll-margin-top:150px}}

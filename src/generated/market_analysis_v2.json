@@ -1,0 +1,2142 @@
+{
+  "schema": "SEEDTRADE_MULTICROP_ANALYSIS_V2",
+  "as_of": "2026-11-17",
+  "profiles": [
+    {
+      "id": "FR-red-clover",
+      "country": "FR",
+      "entity": "red-clover",
+      "baseline": {
+        "entity": "red-clover",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          4604,
+          4517,
+          17223,
+          18709,
+          1555,
+          6080
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 460.40000000000003,
+        "production": 451.70000000000005,
+        "imports": 1722.3000000000002,
+        "domesticSales": 1870.9,
+        "exports": 155.5,
+        "closing": 608.0
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": {
+        "cn8": "12092210",
+        "scope": "SPECIES_SPECIFIC",
+        "months": [
+          {
+            "period": "2024-07",
+            "imports": 87.68,
+            "imports_flag": null,
+            "exports": 6.555,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-08",
+            "imports": 22.835,
+            "imports_flag": null,
+            "exports": 100.614,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-09",
+            "imports": 74.8,
+            "imports_flag": null,
+            "exports": 39.932,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-10",
+            "imports": 123.6,
+            "imports_flag": null,
+            "exports": 4.161,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-11",
+            "imports": 36.105,
+            "imports_flag": null,
+            "exports": 0.011,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-12",
+            "imports": 135.345,
+            "imports_flag": null,
+            "exports": 6.759,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-01",
+            "imports": 204.371,
+            "imports_flag": null,
+            "exports": 68.289,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-02",
+            "imports": 213.185,
+            "imports_flag": null,
+            "exports": 16.41,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-03",
+            "imports": 283.368,
+            "imports_flag": null,
+            "exports": 20.09,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-04",
+            "imports": 240.213,
+            "imports_flag": null,
+            "exports": 98.027,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-05",
+            "imports": 175.955,
+            "imports_flag": null,
+            "exports": 59.95,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-06",
+            "imports": 178.437,
+            "imports_flag": null,
+            "exports": 35.223,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-07",
+            "imports": 41.915,
+            "imports_flag": null,
+            "exports": 19.13,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-08",
+            "imports": 35.212,
+            "imports_flag": null,
+            "exports": 20.956,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-09",
+            "imports": 61.675,
+            "imports_flag": null,
+            "exports": 15.791,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-10",
+            "imports": 29.012,
+            "imports_flag": null,
+            "exports": 16.363,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-11",
+            "imports": 135.198,
+            "imports_flag": null,
+            "exports": 5.55,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-12",
+            "imports": 92.656,
+            "imports_flag": null,
+            "exports": 25.054,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-01",
+            "imports": 106.0,
+            "imports_flag": null,
+            "exports": 13.45,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-02",
+            "imports": 249.43,
+            "imports_flag": null,
+            "exports": 34.728,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-03",
+            "imports": 278.814,
+            "imports_flag": null,
+            "exports": 63.341,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-04",
+            "imports": 253.995,
+            "imports_flag": null,
+            "exports": 13.319,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-05",
+            "imports": 276.819,
+            "imports_flag": null,
+            "exports": 16.052,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-06",
+            "imports": 67.732,
+            "imports_flag": null,
+            "exports": 5.033,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-07",
+            "imports": 210.165,
+            "imports_flag": null,
+            "exports": 27.034,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-08",
+            "imports": 332.01,
+            "imports_flag": null,
+            "exports": 118.353,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-09",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-10",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          }
+        ],
+        "source": {
+          "title": "Eurostat COMEXT DS-045409, FR/WORLD, red-clover sowing seed CN12092210",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092210&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+          "sha256": "3736ea09d487af669d4f8bf93c1099d6dae152c9b6654784b9604fe30daabe9d",
+          "retrieved_at": "2026-11-17T10:32:46.987255+00:00",
+          "updated_at": "2026-11-13T11:00:00+0100",
+          "grain": "One WORLD aggregate per month and flow; 100 kg * 0.1 = tonnes. Includes national intra-EU movements; no bilateral rows added."
+        },
+        "pilot_reused_unchanged": true
+      },
+      "production_basis": "AREA_PROXY_REUSED_PILOT",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-perennial-ryegrass",
+      "country": "FR",
+      "entity": "perennial-ryegrass",
+      "baseline": {
+        "entity": "perennial-ryegrass",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          54024,
+          18177,
+          81034,
+          99392,
+          4311,
+          49533
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 5402.400000000001,
+        "production": 1817.7,
+        "imports": 8103.400000000001,
+        "domesticSales": 9939.2,
+        "exports": 431.1,
+        "closing": 4953.3
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": {
+        "cn8": "12092590",
+        "scope": "SPECIES_SPECIFIC",
+        "months": [
+          {
+            "period": "2024-07",
+            "imports": 412.478,
+            "imports_flag": null,
+            "exports": 59.313,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-08",
+            "imports": 448.78,
+            "imports_flag": null,
+            "exports": 84.018,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-09",
+            "imports": 483.082,
+            "imports_flag": null,
+            "exports": 83.83,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-10",
+            "imports": 671.976,
+            "imports_flag": null,
+            "exports": 79.963,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-11",
+            "imports": 592.842,
+            "imports_flag": null,
+            "exports": 55.028,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-12",
+            "imports": 394.395,
+            "imports_flag": null,
+            "exports": 16.249,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-01",
+            "imports": 342.972,
+            "imports_flag": null,
+            "exports": 141.27,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-02",
+            "imports": 661.254,
+            "imports_flag": null,
+            "exports": 95.7,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-03",
+            "imports": 892.41,
+            "imports_flag": null,
+            "exports": 227.086,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-04",
+            "imports": 210.343,
+            "imports_flag": null,
+            "exports": 273.334,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-05",
+            "imports": 317.488,
+            "imports_flag": null,
+            "exports": 214.666,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-06",
+            "imports": 264.69,
+            "imports_flag": null,
+            "exports": 170.424,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-07",
+            "imports": 223.943,
+            "imports_flag": null,
+            "exports": 79.986,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-08",
+            "imports": 258.726,
+            "imports_flag": null,
+            "exports": 103.607,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-09",
+            "imports": 359.553,
+            "imports_flag": null,
+            "exports": 164.517,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-10",
+            "imports": 734.603,
+            "imports_flag": null,
+            "exports": 206.689,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-11",
+            "imports": 843.003,
+            "imports_flag": null,
+            "exports": 167.219,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-12",
+            "imports": 497.947,
+            "imports_flag": null,
+            "exports": 68.871,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-01",
+            "imports": 432.839,
+            "imports_flag": null,
+            "exports": 183.793,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-02",
+            "imports": 1211.97,
+            "imports_flag": null,
+            "exports": 342.18,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-03",
+            "imports": 629.029,
+            "imports_flag": null,
+            "exports": 210.885,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-04",
+            "imports": 631.724,
+            "imports_flag": null,
+            "exports": 205.939,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-05",
+            "imports": 299.832,
+            "imports_flag": null,
+            "exports": 166.715,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-06",
+            "imports": 400.854,
+            "imports_flag": null,
+            "exports": 116.868,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-07",
+            "imports": 223.477,
+            "imports_flag": null,
+            "exports": 336.218,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-08",
+            "imports": 339.701,
+            "imports_flag": null,
+            "exports": 87.049,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-09",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-10",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          }
+        ],
+        "source": {
+          "id": "COMEXT-FR-12092590-b38d8b1acbd12d6175ca33e74dcd581431412efc9ad35c62f8cf37e8a95e4772",
+          "entity": "perennial-ryegrass",
+          "country": "FR",
+          "cn8": "12092590",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092590&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+          "sha256": "b38d8b1acbd12d6175ca33e74dcd581431412efc9ad35c62f8cf37e8a95e4772",
+          "file": "b38d8b1acbd12d6175ca33e74dcd581431412efc9ad35c62f8cf37e8a95e4772.json",
+          "publication_date": "2026-11-13T11:00:00+0100",
+          "retrieved_at": "2026-11-17T10:59:23.513603+00:00",
+          "unit": "100 kg; normalized ×0.1 to tonnes",
+          "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+          "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+          "review_status": "VALIDATED_EXACT_SPECIES_GRAIN"
+        }
+      },
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-italian-ryegrass",
+      "country": "FR",
+      "entity": "italian-ryegrass",
+      "baseline": {
+        "entity": "italian-ryegrass",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          49046,
+          27195,
+          36637,
+          63274,
+          5776,
+          43828
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 4904.6,
+        "production": 2719.5,
+        "imports": 3663.7000000000003,
+        "domesticSales": 6327.400000000001,
+        "exports": 577.6,
+        "closing": 4382.8
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": {
+        "cn8": "12092510",
+        "scope": "SPECIES_SPECIFIC",
+        "months": [
+          {
+            "period": "2024-07",
+            "imports": 280.272,
+            "imports_flag": null,
+            "exports": 16.296,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-08",
+            "imports": 422.277,
+            "imports_flag": null,
+            "exports": 64.84,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-09",
+            "imports": 216.016,
+            "imports_flag": null,
+            "exports": 86.295,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-10",
+            "imports": 220.808,
+            "imports_flag": null,
+            "exports": 113.967,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-11",
+            "imports": 152.335,
+            "imports_flag": null,
+            "exports": 35.628,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-12",
+            "imports": 123.67,
+            "imports_flag": null,
+            "exports": 77.347,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-01",
+            "imports": 56.148,
+            "imports_flag": null,
+            "exports": 29.756,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-02",
+            "imports": 213.74,
+            "imports_flag": null,
+            "exports": 131.555,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-03",
+            "imports": 273.31,
+            "imports_flag": null,
+            "exports": 81.153,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-04",
+            "imports": 459.856,
+            "imports_flag": null,
+            "exports": 68.931,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-05",
+            "imports": 373.687,
+            "imports_flag": null,
+            "exports": 83.33,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-06",
+            "imports": 808.901,
+            "imports_flag": null,
+            "exports": 88.453,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-07",
+            "imports": 544.055,
+            "imports_flag": null,
+            "exports": 170.68,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-08",
+            "imports": 436.831,
+            "imports_flag": null,
+            "exports": 288.675,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-09",
+            "imports": 254.237,
+            "imports_flag": null,
+            "exports": 227.881,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-10",
+            "imports": 162.177,
+            "imports_flag": null,
+            "exports": 54.209,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-11",
+            "imports": 43.19,
+            "imports_flag": null,
+            "exports": 4.497,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-12",
+            "imports": 106.877,
+            "imports_flag": null,
+            "exports": 32.772,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-01",
+            "imports": 129.03,
+            "imports_flag": null,
+            "exports": 1.145,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-02",
+            "imports": 118.251,
+            "imports_flag": null,
+            "exports": 72.09,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-03",
+            "imports": 684.917,
+            "imports_flag": null,
+            "exports": 42.41,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-04",
+            "imports": 1030.267,
+            "imports_flag": null,
+            "exports": 75.978,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-05",
+            "imports": 809.65,
+            "imports_flag": null,
+            "exports": 14.517,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-06",
+            "imports": 999.221,
+            "imports_flag": null,
+            "exports": 93.144,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-07",
+            "imports": 728.535,
+            "imports_flag": null,
+            "exports": 72.84,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-08",
+            "imports": 911.005,
+            "imports_flag": null,
+            "exports": 253.647,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-09",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-10",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          }
+        ],
+        "source": {
+          "id": "COMEXT-FR-12092510-812f2c48340c36131dc7510ab1bfeaa1dfc20e1b632da4df251b9de1d6dc40c6",
+          "entity": "italian-ryegrass",
+          "country": "FR",
+          "cn8": "12092510",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092510&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+          "sha256": "812f2c48340c36131dc7510ab1bfeaa1dfc20e1b632da4df251b9de1d6dc40c6",
+          "file": "812f2c48340c36131dc7510ab1bfeaa1dfc20e1b632da4df251b9de1d6dc40c6.json",
+          "publication_date": "2026-11-13T11:00:00+0100",
+          "retrieved_at": "2026-11-17T10:59:23.537571+00:00",
+          "unit": "100 kg; normalized ×0.1 to tonnes",
+          "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+          "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+          "review_status": "VALIDATED_EXACT_SPECIES_GRAIN"
+        }
+      },
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-tall-fescue",
+      "country": "FR",
+      "entity": "tall-fescue",
+      "baseline": {
+        "entity": "tall-fescue",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          23786,
+          13508,
+          30435,
+          37434,
+          2550,
+          27745
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 2378.6,
+        "production": 1350.8000000000002,
+        "imports": 3043.5,
+        "domesticSales": 3743.4,
+        "exports": 255.0,
+        "closing": 2774.5
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": null,
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-red-fescue",
+      "country": "FR",
+      "entity": "red-fescue",
+      "baseline": {
+        "entity": "red-fescue",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          16238,
+          4560,
+          24330,
+          27778,
+          2576,
+          14773
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 1623.8000000000002,
+        "production": 456.0,
+        "imports": 2433.0,
+        "domesticSales": 2777.8,
+        "exports": 257.6,
+        "closing": 1477.3000000000002
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": {
+        "cn8": "12092315",
+        "scope": "SPECIES_SPECIFIC",
+        "months": [
+          {
+            "period": "2024-07",
+            "imports": 19.17,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-08",
+            "imports": 21.533,
+            "imports_flag": null,
+            "exports": 2.815,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-09",
+            "imports": 46.365,
+            "imports_flag": null,
+            "exports": 24.876,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-10",
+            "imports": 22.931,
+            "imports_flag": null,
+            "exports": 19.767,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-11",
+            "imports": 22.958,
+            "imports_flag": null,
+            "exports": 40.83,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-12",
+            "imports": 8.3,
+            "imports_flag": null,
+            "exports": 38.131,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-01",
+            "imports": 15.431,
+            "imports_flag": null,
+            "exports": 77.852,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-02",
+            "imports": 242.099,
+            "imports_flag": null,
+            "exports": 60.443,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-03",
+            "imports": 134.614,
+            "imports_flag": null,
+            "exports": 35.666,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-04",
+            "imports": 44.849,
+            "imports_flag": null,
+            "exports": 4.144,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-05",
+            "imports": 50.7,
+            "imports_flag": null,
+            "exports": 1.927,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-06",
+            "imports": 150.329,
+            "imports_flag": null,
+            "exports": 0.723,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-07",
+            "imports": 24.25,
+            "imports_flag": null,
+            "exports": 6.293,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-08",
+            "imports": 27.659,
+            "imports_flag": null,
+            "exports": 8.816,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-09",
+            "imports": 81.501,
+            "imports_flag": null,
+            "exports": 14.99,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-10",
+            "imports": 233.388,
+            "imports_flag": null,
+            "exports": 31.65,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-11",
+            "imports": 163.972,
+            "imports_flag": null,
+            "exports": 45.673,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-12",
+            "imports": 48.896,
+            "imports_flag": null,
+            "exports": 29.96,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-01",
+            "imports": 103.62,
+            "imports_flag": null,
+            "exports": 11.215,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-02",
+            "imports": 109.817,
+            "imports_flag": null,
+            "exports": 42.043,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-03",
+            "imports": 57.406,
+            "imports_flag": null,
+            "exports": 36.49,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-04",
+            "imports": 70.778,
+            "imports_flag": null,
+            "exports": 27.12,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-05",
+            "imports": 43.19,
+            "imports_flag": null,
+            "exports": 7.652,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-06",
+            "imports": 105.931,
+            "imports_flag": null,
+            "exports": 44.011,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-07",
+            "imports": 7.904,
+            "imports_flag": null,
+            "exports": 32.242,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-08",
+            "imports": 395.474,
+            "imports_flag": null,
+            "exports": 48.888,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-09",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-10",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          }
+        ],
+        "source": {
+          "id": "COMEXT-FR-12092315-2d387c7824abbaa37d79ccce7110d69aa944a5065ed575ef9c27be2d5c34b968",
+          "entity": "red-fescue",
+          "country": "FR",
+          "cn8": "12092315",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092315&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+          "sha256": "2d387c7824abbaa37d79ccce7110d69aa944a5065ed575ef9c27be2d5c34b968",
+          "file": "2d387c7824abbaa37d79ccce7110d69aa944a5065ed575ef9c27be2d5c34b968.json",
+          "publication_date": "2026-11-13T11:00:00+0100",
+          "retrieved_at": "2026-11-17T10:59:24.440816+00:00",
+          "unit": "100 kg; normalized ×0.1 to tonnes",
+          "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+          "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+          "review_status": "VALIDATED_EXACT_SPECIES_GRAIN"
+        }
+      },
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-meadow-fescue",
+      "country": "FR",
+      "entity": "meadow-fescue",
+      "baseline": {
+        "entity": "meadow-fescue",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          4157,
+          252,
+          3316,
+          3948,
+          318,
+          3458
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 415.70000000000005,
+        "production": 25.200000000000003,
+        "imports": 331.6,
+        "domesticSales": 394.8,
+        "exports": 31.8,
+        "closing": 345.8
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": {
+        "cn8": "12092311",
+        "scope": "SPECIES_SPECIFIC",
+        "months": [
+          {
+            "period": "2024-07",
+            "imports": null,
+            "imports_flag": null,
+            "exports": 5.576,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-08",
+            "imports": null,
+            "imports_flag": null,
+            "exports": 1.61,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-09",
+            "imports": 2.065,
+            "imports_flag": null,
+            "exports": 2.03,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-10",
+            "imports": 0.2,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-11",
+            "imports": null,
+            "imports_flag": null,
+            "exports": 17.5,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-12",
+            "imports": 9.75,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-01",
+            "imports": 19.4,
+            "imports_flag": null,
+            "exports": 1.455,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-02",
+            "imports": 44.806,
+            "imports_flag": null,
+            "exports": 1.691,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-03",
+            "imports": 14.038,
+            "imports_flag": null,
+            "exports": 0.059,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-04",
+            "imports": 67.468,
+            "imports_flag": null,
+            "exports": 4.63,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-05",
+            "imports": null,
+            "imports_flag": null,
+            "exports": 1.88,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-06",
+            "imports": 16.425,
+            "imports_flag": null,
+            "exports": 6.094,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-07",
+            "imports": 1.025,
+            "imports_flag": null,
+            "exports": 0.952,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-08",
+            "imports": 13.025,
+            "imports_flag": null,
+            "exports": 1.5,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-09",
+            "imports": 5.083,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-10",
+            "imports": 0.5,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-11",
+            "imports": 23.187,
+            "imports_flag": null,
+            "exports": 2.833,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-12",
+            "imports": 2.01,
+            "imports_flag": null,
+            "exports": 1.74,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-01",
+            "imports": 6.338,
+            "imports_flag": null,
+            "exports": 1.746,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-02",
+            "imports": 37.72,
+            "imports_flag": null,
+            "exports": 2.55,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-03",
+            "imports": 54.457,
+            "imports_flag": null,
+            "exports": 0.13,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-04",
+            "imports": 57.003,
+            "imports_flag": null,
+            "exports": 6.3,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-05",
+            "imports": null,
+            "imports_flag": null,
+            "exports": 1.0,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-06",
+            "imports": 23.185,
+            "imports_flag": null,
+            "exports": 17.8,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-07",
+            "imports": 13.905,
+            "imports_flag": null,
+            "exports": 0.129,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-08",
+            "imports": 5.577,
+            "imports_flag": null,
+            "exports": 3.0,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-09",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-10",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          }
+        ],
+        "source": {
+          "id": "COMEXT-FR-12092311-3d3eff0de4b27c3fb9b0ade9e9b667b4fbc70c48d4dffdfdda795bb1eff52965",
+          "entity": "meadow-fescue",
+          "country": "FR",
+          "cn8": "12092311",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092311&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+          "sha256": "3d3eff0de4b27c3fb9b0ade9e9b667b4fbc70c48d4dffdfdda795bb1eff52965",
+          "file": "3d3eff0de4b27c3fb9b0ade9e9b667b4fbc70c48d4dffdfdda795bb1eff52965.json",
+          "publication_date": "2026-11-13T11:00:00+0100",
+          "retrieved_at": "2026-11-17T10:59:23.551918+00:00",
+          "unit": "100 kg; normalized ×0.1 to tonnes",
+          "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+          "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+          "review_status": "VALIDATED_EXACT_SPECIES_GRAIN"
+        }
+      },
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-alfalfa",
+      "country": "FR",
+      "entity": "alfalfa",
+      "baseline": {
+        "entity": "alfalfa",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          19983,
+          24006,
+          16722,
+          22239,
+          19494,
+          18978
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 1998.3000000000002,
+        "production": 2400.6,
+        "imports": 1672.2,
+        "domesticSales": 2223.9,
+        "exports": 1949.4,
+        "closing": 1897.8000000000002
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": {
+        "cn8": "12092100",
+        "scope": "SPECIES_SPECIFIC",
+        "months": [
+          {
+            "period": "2024-07",
+            "imports": 62.978,
+            "imports_flag": null,
+            "exports": 116.002,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-08",
+            "imports": 7.439,
+            "imports_flag": null,
+            "exports": 206.295,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-09",
+            "imports": 15.068,
+            "imports_flag": null,
+            "exports": 197.842,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-10",
+            "imports": 20.123,
+            "imports_flag": null,
+            "exports": 153.459,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-11",
+            "imports": 56.773,
+            "imports_flag": null,
+            "exports": 181.263,
+            "exports_flag": null
+          },
+          {
+            "period": "2024-12",
+            "imports": 0.524,
+            "imports_flag": null,
+            "exports": 207.814,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-01",
+            "imports": 289.061,
+            "imports_flag": null,
+            "exports": 483.333,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-02",
+            "imports": 226.734,
+            "imports_flag": null,
+            "exports": 453.289,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-03",
+            "imports": 438.437,
+            "imports_flag": null,
+            "exports": 552.566,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-04",
+            "imports": 486.648,
+            "imports_flag": null,
+            "exports": 369.456,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-05",
+            "imports": 77.515,
+            "imports_flag": null,
+            "exports": 364.127,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-06",
+            "imports": 78.764,
+            "imports_flag": null,
+            "exports": 189.324,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-07",
+            "imports": 6.805,
+            "imports_flag": null,
+            "exports": 83.49,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-08",
+            "imports": 33.621,
+            "imports_flag": null,
+            "exports": 360.094,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-09",
+            "imports": 41.746,
+            "imports_flag": null,
+            "exports": 204.53,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-10",
+            "imports": 36.075,
+            "imports_flag": null,
+            "exports": 40.095,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-11",
+            "imports": 87.124,
+            "imports_flag": null,
+            "exports": 42.439,
+            "exports_flag": null
+          },
+          {
+            "period": "2025-12",
+            "imports": 108.204,
+            "imports_flag": null,
+            "exports": 102.054,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-01",
+            "imports": 119.976,
+            "imports_flag": null,
+            "exports": 387.046,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-02",
+            "imports": 205.832,
+            "imports_flag": null,
+            "exports": 646.345,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-03",
+            "imports": 242.579,
+            "imports_flag": null,
+            "exports": 757.989,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-04",
+            "imports": 178.373,
+            "imports_flag": null,
+            "exports": 546.458,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-05",
+            "imports": 160.43,
+            "imports_flag": null,
+            "exports": 277.101,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-06",
+            "imports": 157.997,
+            "imports_flag": null,
+            "exports": 224.907,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-07",
+            "imports": 84.504,
+            "imports_flag": null,
+            "exports": 73.558,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-08",
+            "imports": 153.381,
+            "imports_flag": null,
+            "exports": 167.677,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-09",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          },
+          {
+            "period": "2026-10",
+            "imports": null,
+            "imports_flag": null,
+            "exports": null,
+            "exports_flag": null
+          }
+        ],
+        "source": {
+          "id": "COMEXT-FR-12092100-e139cd2e5b1b703ef55c9ce75f3754412ff13c5b297f6cc0edb3313b2467b38c",
+          "entity": "alfalfa",
+          "country": "FR",
+          "cn8": "12092100",
+          "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092100&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+          "sha256": "e139cd2e5b1b703ef55c9ce75f3754412ff13c5b297f6cc0edb3313b2467b38c",
+          "file": "e139cd2e5b1b703ef55c9ce75f3754412ff13c5b297f6cc0edb3313b2467b38c.json",
+          "publication_date": "2026-11-13T11:00:00+0100",
+          "retrieved_at": "2026-11-17T10:59:24.499988+00:00",
+          "unit": "100 kg; normalized ×0.1 to tonnes",
+          "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+          "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+          "review_status": "VALIDATED_EXACT_SPECIES_GRAIN"
+        }
+      },
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-crimson-clover",
+      "country": "FR",
+      "entity": "crimson-clover",
+      "baseline": {
+        "entity": "crimson-clover",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          6386,
+          5862,
+          23774,
+          26613,
+          1494,
+          7915
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 638.6,
+        "production": 586.2,
+        "imports": 2377.4,
+        "domesticSales": 2661.3,
+        "exports": 149.4,
+        "closing": 791.5
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": null,
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-cocksfoot",
+      "country": "FR",
+      "entity": "cocksfoot",
+      "baseline": {
+        "entity": "cocksfoot",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          19345,
+          8826,
+          3736,
+          9160,
+          3529,
+          19218
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 1934.5,
+        "production": 882.6,
+        "imports": 373.6,
+        "domesticSales": 916.0,
+        "exports": 352.90000000000003,
+        "closing": 1921.8000000000002
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": null,
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    },
+    {
+      "id": "FR-berseem-clover",
+      "country": "FR",
+      "entity": "berseem-clover",
+      "baseline": {
+        "entity": "berseem-clover",
+        "country": "FR",
+        "period": "2024/2025",
+        "unit": "t",
+        "original_unit": "quintal",
+        "original_values": [
+          9121,
+          2175,
+          19461,
+          16008,
+          2252,
+          12497
+        ],
+        "source": "fr-semae-integrale-2024-25",
+        "page": 53,
+        "status": "REPORTED_COMMERCIAL_BALANCE",
+        "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+        "rounding_tolerance_t": 0.3,
+        "opening": 912.1,
+        "production": 217.5,
+        "imports": 1946.1000000000001,
+        "domesticSales": 1600.8000000000002,
+        "exports": 225.20000000000002,
+        "closing": 1249.7
+      },
+      "baseline_source": {
+        "id": "fr-semae-integrale-2024-25",
+        "organisation": "SEMAE / SOCFrance",
+        "title": "fr-integrale.pdf",
+        "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+        "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+        "retrieved_at": "2026-11-17T09:42:35.594208+00:00",
+        "classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE"
+      },
+      "trade": null,
+      "production_basis": "HISTORICAL_COMMERCIAL_QUANTITY_SENSITIVITY",
+      "current_campaigns": [
+        "2025/26",
+        "2026/27"
+      ],
+      "classification": "SCENARIO_NOT_OBSERVED_CURRENT_BALANCE",
+      "missing_current": [
+        "actual production",
+        "opening/closing stocks",
+        "domestic sales"
+      ],
+      "scope_notes": "One species commercial baseline. No addition of certification quantities, organic subsets or nested turf/forage rows. CN groups are never allocated to this species."
+    }
+  ],
+  "pilot_reference_sha256": "27a391366b77163ad6eb534e7b76388c9f84c3b0f8fcecde438daaa2c25ac8a7",
+  "source_registry": [
+    {
+      "id": "dk-industry-2024",
+      "original_url": "https://lf.dk/media/bbnjzma4/beretning-2024_apr-2025.pdf",
+      "sha256": "a72c88fd64055878f0d693e354ede98fbfcf53315d368593b9a777cfce2ff87f",
+      "publication_date": null,
+      "publication_date_status": "NOT_STATED_IN_EXISTING_RECORD",
+      "campaign_or_year": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "country": [
+        "DK"
+      ],
+      "crop_scope": [
+        "meadow-fescue",
+        "oilseed-radish-group",
+        "perennial-ryegrass",
+        "red-clover",
+        "red-fescue",
+        "tall-fescue"
+      ],
+      "unit": [
+        "SOURCE_UNIT_NOT_STATED",
+        "ha",
+        "kg/ha",
+        "t"
+      ],
+      "definition": "Conventional + organic combined; organic quantities are included, not additive. 2024 harvest is preliminary. Cleaning, certification and marketable fractions are not established by this report. Stock table units are unstated: source numbers remain in source units, excluded from automatic balances.",
+      "evidence_classification": "INDUSTRY_REPORTED_NOT_OFFICIAL_STATISTICS",
+      "update_policy": "NEW_HASH_NEW_SNAPSHOT_PENDING_MAPPING_REVIEW; keep accepted history unchanged"
+    },
+    {
+      "id": "dk-bff-2025",
+      "original_url": "https://lf.dk/media/ztffegpq/beretning-2025.pdf",
+      "sha256": "45f5a3e7297d93f738c04088a412bf26b79e6e8b54b235a538e54c591b17b4bb",
+      "publication_date": null,
+      "publication_date_status": "NOT_STATED_IN_EXISTING_RECORD",
+      "campaign_or_year": [
+        "2025"
+      ],
+      "country": [
+        "DK"
+      ],
+      "crop_scope": [
+        "alfalfa",
+        "cocksfoot",
+        "meadow-fescue",
+        "perennial-ryegrass",
+        "red-clover",
+        "red-fescue",
+        "tall-fescue",
+        "white-clover"
+      ],
+      "unit": [
+        "ha",
+        "kg/ha",
+        "t"
+      ],
+      "definition": "INDUSTRY_REPORTED;2025_PRELIMINARY",
+      "evidence_classification": "INDUSTRY_REPORTED;2025_PRELIMINARY",
+      "update_policy": "NEW_HASH_NEW_SNAPSHOT_PENDING_MAPPING_REVIEW; keep accepted history unchanged"
+    },
+    {
+      "id": "fr-semae-integrale-2024-25",
+      "original_url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+      "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243",
+      "publication_date": null,
+      "publication_date_status": "NOT_STATED_IN_EXISTING_RECORD",
+      "campaign_or_year": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2024/2025",
+        "2025"
+      ],
+      "country": [
+        "FR"
+      ],
+      "crop_scope": [
+        "alfalfa",
+        "berseem-clover",
+        "cocksfoot",
+        "crimson-clover",
+        "italian-ryegrass",
+        "meadow-fescue",
+        "perennial-ryegrass",
+        "phacelia",
+        "red-clover",
+        "red-fescue",
+        "tall-fescue"
+      ],
+      "unit": [
+        "ha",
+        "t"
+      ],
+      "definition": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE",
+      "evidence_classification": "OFFICIAL_CONTROL_AREA_AND_INTERPROFESSIONAL_COMMERCIAL_STATISTICS;METRICS_SEPARATE",
+      "update_policy": "NEW_HASH_NEW_SNAPSHOT_PENDING_MAPPING_REVIEW; keep accepted history unchanged"
+    },
+    {
+      "id": "de-bsa-approved-2025",
+      "original_url": "https://www.bundessortenamt.de/bsa/media/Files/Saatgut/P1_mErfbes_LW_Art_20251015.pdf",
+      "sha256": "720bc9f411b1c7fe9d49d0187a952dce9d467c8e73c22251d3a5a57e361d1f15",
+      "publication_date": null,
+      "publication_date_status": "NOT_STATED_IN_EXISTING_RECORD",
+      "campaign_or_year": [
+        "2025"
+      ],
+      "country": [
+        "DE"
+      ],
+      "crop_scope": [
+        "alfalfa",
+        "annual-ryegrass",
+        "cocksfoot",
+        "crimson-clover",
+        "italian-ryegrass",
+        "meadow-fescue",
+        "oilseed-radish-group",
+        "perennial-ryegrass",
+        "phacelia",
+        "red-clover",
+        "red-fescue",
+        "tall-fescue"
+      ],
+      "unit": [
+        "ha"
+      ],
+      "definition": "OFFICIAL_FIELD_APPROVAL;NOT_HARVEST",
+      "evidence_classification": "OFFICIAL_FIELD_APPROVAL;NOT_HARVEST",
+      "update_policy": "NEW_HASH_NEW_SNAPSHOT_PENDING_MAPPING_REVIEW; keep accepted history unchanged"
+    },
+    {
+      "id": "fr-semae-survey-2025",
+      "original_url": "https://www.semae.fr/uploads/2025_Note_conjoncture_FourrageresGazon_VD.pdf",
+      "sha256": "4095a13fcda1004859feb8a86cec63bb773a6bceac02492dc2470a2e365ac1ab",
+      "publication_date": null,
+      "publication_date_status": "NOT_STATED_IN_EXISTING_RECORD",
+      "campaign_or_year": [
+        "2024"
+      ],
+      "country": [
+        "FR"
+      ],
+      "crop_scope": [
+        "alfalfa",
+        "crimson-clover",
+        "red-clover"
+      ],
+      "unit": [
+        "kg/ha"
+      ],
+      "definition": "SURVEY_NOT_CENSUS;2024_HARVEST",
+      "evidence_classification": "SURVEY_NOT_CENSUS;2024_HARVEST",
+      "update_policy": "NEW_HASH_NEW_SNAPSHOT_PENDING_MAPPING_REVIEW; keep accepted history unchanged"
+    },
+    {
+      "id": "COMEXT-FR-12092590-b38d8b1acbd12d6175ca33e74dcd581431412efc9ad35c62f8cf37e8a95e4772",
+      "entity": "perennial-ryegrass",
+      "country": "FR",
+      "cn8": "12092590",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092590&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "sha256": "b38d8b1acbd12d6175ca33e74dcd581431412efc9ad35c62f8cf37e8a95e4772",
+      "file": "b38d8b1acbd12d6175ca33e74dcd581431412efc9ad35c62f8cf37e8a95e4772.json",
+      "publication_date": "2026-11-13T11:00:00+0100",
+      "retrieved_at": "2026-11-17T10:59:23.513603+00:00",
+      "unit": "100 kg; normalized ×0.1 to tonnes",
+      "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+      "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "review_status": "VALIDATED_EXACT_SPECIES_GRAIN",
+      "original_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092590&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "publication_date_status": "OFFICIAL_DATASET_UPDATE_TIMESTAMP_NOT_INITIAL_PUBLICATION",
+      "campaign_or_year": [
+        "2024/25",
+        "2025/26",
+        "2026/27_PARTIAL"
+      ],
+      "requested_period": "2024-07/2026-10",
+      "crop_scope": "perennial-ryegrass",
+      "evidence_classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "update_policy": "APPEND_ONLY_SOURCE_SNAPSHOT; explicit normalized data validation before acceptance"
+    },
+    {
+      "id": "COMEXT-FR-12092510-812f2c48340c36131dc7510ab1bfeaa1dfc20e1b632da4df251b9de1d6dc40c6",
+      "entity": "italian-ryegrass",
+      "country": "FR",
+      "cn8": "12092510",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092510&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "sha256": "812f2c48340c36131dc7510ab1bfeaa1dfc20e1b632da4df251b9de1d6dc40c6",
+      "file": "812f2c48340c36131dc7510ab1bfeaa1dfc20e1b632da4df251b9de1d6dc40c6.json",
+      "publication_date": "2026-11-13T11:00:00+0100",
+      "retrieved_at": "2026-11-17T10:59:23.537571+00:00",
+      "unit": "100 kg; normalized ×0.1 to tonnes",
+      "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+      "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "review_status": "VALIDATED_EXACT_SPECIES_GRAIN",
+      "original_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092510&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "publication_date_status": "OFFICIAL_DATASET_UPDATE_TIMESTAMP_NOT_INITIAL_PUBLICATION",
+      "campaign_or_year": [
+        "2024/25",
+        "2025/26",
+        "2026/27_PARTIAL"
+      ],
+      "requested_period": "2024-07/2026-10",
+      "crop_scope": "italian-ryegrass",
+      "evidence_classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "update_policy": "APPEND_ONLY_SOURCE_SNAPSHOT; explicit normalized data validation before acceptance"
+    },
+    {
+      "id": "COMEXT-FR-12092315-2d387c7824abbaa37d79ccce7110d69aa944a5065ed575ef9c27be2d5c34b968",
+      "entity": "red-fescue",
+      "country": "FR",
+      "cn8": "12092315",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092315&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "sha256": "2d387c7824abbaa37d79ccce7110d69aa944a5065ed575ef9c27be2d5c34b968",
+      "file": "2d387c7824abbaa37d79ccce7110d69aa944a5065ed575ef9c27be2d5c34b968.json",
+      "publication_date": "2026-11-13T11:00:00+0100",
+      "retrieved_at": "2026-11-17T10:59:24.440816+00:00",
+      "unit": "100 kg; normalized ×0.1 to tonnes",
+      "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+      "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "review_status": "VALIDATED_EXACT_SPECIES_GRAIN",
+      "original_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092315&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "publication_date_status": "OFFICIAL_DATASET_UPDATE_TIMESTAMP_NOT_INITIAL_PUBLICATION",
+      "campaign_or_year": [
+        "2024/25",
+        "2025/26",
+        "2026/27_PARTIAL"
+      ],
+      "requested_period": "2024-07/2026-10",
+      "crop_scope": "red-fescue",
+      "evidence_classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "update_policy": "APPEND_ONLY_SOURCE_SNAPSHOT; explicit normalized data validation before acceptance"
+    },
+    {
+      "id": "COMEXT-FR-12092311-3d3eff0de4b27c3fb9b0ade9e9b667b4fbc70c48d4dffdfdda795bb1eff52965",
+      "entity": "meadow-fescue",
+      "country": "FR",
+      "cn8": "12092311",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092311&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "sha256": "3d3eff0de4b27c3fb9b0ade9e9b667b4fbc70c48d4dffdfdda795bb1eff52965",
+      "file": "3d3eff0de4b27c3fb9b0ade9e9b667b4fbc70c48d4dffdfdda795bb1eff52965.json",
+      "publication_date": "2026-11-13T11:00:00+0100",
+      "retrieved_at": "2026-11-17T10:59:23.551918+00:00",
+      "unit": "100 kg; normalized ×0.1 to tonnes",
+      "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+      "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "review_status": "VALIDATED_EXACT_SPECIES_GRAIN",
+      "original_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092311&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "publication_date_status": "OFFICIAL_DATASET_UPDATE_TIMESTAMP_NOT_INITIAL_PUBLICATION",
+      "campaign_or_year": [
+        "2024/25",
+        "2025/26",
+        "2026/27_PARTIAL"
+      ],
+      "requested_period": "2024-07/2026-10",
+      "crop_scope": "meadow-fescue",
+      "evidence_classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "update_policy": "APPEND_ONLY_SOURCE_SNAPSHOT; explicit normalized data validation before acceptance"
+    },
+    {
+      "id": "COMEXT-FR-12092100-e139cd2e5b1b703ef55c9ce75f3754412ff13c5b297f6cc0edb3313b2467b38c",
+      "entity": "alfalfa",
+      "country": "FR",
+      "cn8": "12092100",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092100&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "sha256": "e139cd2e5b1b703ef55c9ce75f3754412ff13c5b297f6cc0edb3313b2467b38c",
+      "file": "e139cd2e5b1b703ef55c9ce75f3754412ff13c5b297f6cc0edb3313b2467b38c.json",
+      "publication_date": "2026-11-13T11:00:00+0100",
+      "retrieved_at": "2026-11-17T10:59:24.499988+00:00",
+      "unit": "100 kg; normalized ×0.1 to tonnes",
+      "definition": "National WORLD monthly sowing-seed flows; no bilateral or EU-total addition",
+      "classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "review_status": "VALIDATED_EXACT_SPECIES_GRAIN",
+      "original_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092100&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "publication_date_status": "OFFICIAL_DATASET_UPDATE_TIMESTAMP_NOT_INITIAL_PUBLICATION",
+      "campaign_or_year": [
+        "2024/25",
+        "2025/26",
+        "2026/27_PARTIAL"
+      ],
+      "requested_period": "2024-07/2026-10",
+      "crop_scope": "alfalfa",
+      "evidence_classification": "OBSERVED_OFFICIAL_CUSTOMS",
+      "update_policy": "APPEND_ONLY_SOURCE_SNAPSHOT; explicit normalized data validation before acceptance"
+    }
+  ],
+  "defaults": {
+    "productionMultiplier": {
+      "low": 0.8,
+      "base": 1,
+      "high": 1.2
+    },
+    "domesticUseMultiplier": {
+      "low": 0.9,
+      "base": 1,
+      "high": 1.1
+    },
+    "stockContinuity": 1,
+    "importScale": 1,
+    "exportScale": 1,
+    "seasonalVariation": 0.2,
+    "weatherSensitivity": 0,
+    "useScopeBridge": true
+  },
+  "principles": [
+    "Historical source observations are immutable and independent of current assumptions.",
+    "Commercial quantity scenarios do not apply an extra cleaning factor to already-reported commercial production.",
+    "Current national customs levels require an explicit historical source-scope bridge.",
+    "Missing/full-year-incomparable customs are kept as evidence; historical annual commercial flows may be carried only as a clearly labelled whole-year assumption, with no addition of partial observations.",
+    "All current conclusions remain conditional; no verified current production/stocks/sales or price forecast is invented."
+  ]
+}

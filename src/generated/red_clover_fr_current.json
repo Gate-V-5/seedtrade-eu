@@ -1,0 +1,419 @@
+{
+  "schema": "FR_RED_CLOVER_CURRENT_CONDITIONAL_V1",
+  "as_of": "2026-11-17",
+  "entity": "red-clover",
+  "country": "FR",
+  "current_campaign": "2026/27",
+  "sources": {
+    "baseline": {
+      "title": "SEMAE Integrale 2024/2025, commercial balance",
+      "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+      "page": 53,
+      "sha256": "cbe91b38a41b2e35dff298b64fc0fcbfc146d2d1208ff9ef6184c43b5fe67243"
+    },
+    "area2025": {
+      "title": "SEMAE / SOCFrance accepted multiplication area",
+      "url": "https://assets.agencezebra.net/SEMAE/integrale-24-25/SEMAE_INTEGRALE_24-25.pdf",
+      "page": 43
+    },
+    "area2026": {
+      "title": "SEMAE September 2026 production-area map",
+      "url": "https://www.semae.fr/uploads/202609-CARTE-FRANCE-DSAF.pdf",
+      "page": 35,
+      "sha256": "89affc529d956971a07fe01492727f26bb0cb524e26a891fdd24aff35facc5c6"
+    },
+    "trade": {
+      "title": "Eurostat COMEXT DS-045409, FR/WORLD, red-clover sowing seed CN12092210",
+      "url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=FR&partner=WORLD&product=12092210&sinceTimePeriod=2024-07&untilTimePeriod=2026-10",
+      "sha256": "3736ea09d487af669d4f8bf93c1099d6dae152c9b6654784b9604fe30daabe9d",
+      "retrieved_at": "2026-11-17T10:32:46.987255+00:00",
+      "updated_at": "2026-11-13T11:00:00+0100",
+      "grain": "One WORLD aggregate per month and flow; 100 kg * 0.1 = tonnes. Includes national intra-EU movements; no bilateral rows added."
+    },
+    "publicIndex": {
+      "title": "SEMAE public statistical release index",
+      "url": "https://www.semae.fr/etudes-donnees-statistiques-semences/",
+      "sha256": "2fd726e4cb0f29499334cfe273e2fc1aec5fabd6fbb41f9ed4235c49c1d2983d",
+      "finding": "Latest linked complete public annual balance is 2024/2025; ongoing monthly series advertised via subscription contact. No contact initiated."
+    },
+    "drought2026": {
+      "title": "Prefecture de l Indre: 2026 drought harvest-loss recognition",
+      "url": "https://www.indre.gouv.fr/Actions-de-l-Etat/Agriculture-foret-chasse-et-appui-aux-territoires/Mesures-conjoncturelles-Mesures-d-urgence-Calamites-ISN/Calamites-agricoles-ISN/Ouverture-de-l-ISN-sur-les-pertes-de-recoltes-2026",
+      "updated_at": "2026-10-28",
+      "sha256": "cb6ecba74b4a0311f6d583ba17d425211094cb909683cc78af6af8b5db8a0429",
+      "finding": "June-August 2026 drought-loss recognition includes red-clover seed crops in Indre. No national loss rate or tonnage provided."
+    }
+  },
+  "historical_baseline": {
+    "entity": "red-clover",
+    "country": "FR",
+    "period": "2024/2025",
+    "unit": "t",
+    "original_unit": "quintal",
+    "original_values": [
+      4604,
+      4517,
+      17223,
+      18709,
+      1555,
+      6080
+    ],
+    "source": "fr-semae-integrale-2024-25",
+    "page": 53,
+    "status": "REPORTED_COMMERCIAL_BALANCE",
+    "scope": "National commercialisation; not total biological supply. Domestic sales are not farm-saved consumption. No addition of certified quantities or nested turf/forage subtotals. Campaign dates are not inferred.",
+    "rounding_tolerance_t": 0.3,
+    "opening": 460.40000000000003,
+    "production": 451.70000000000005,
+    "imports": 1722.3000000000002,
+    "domesticSales": 1870.9,
+    "exports": 155.5,
+    "closing": 608.0
+  },
+  "trade_months": [
+    {
+      "period": "2024-07",
+      "imports": 87.68,
+      "imports_flag": null,
+      "exports": 6.555,
+      "exports_flag": null
+    },
+    {
+      "period": "2024-08",
+      "imports": 22.835,
+      "imports_flag": null,
+      "exports": 100.614,
+      "exports_flag": null
+    },
+    {
+      "period": "2024-09",
+      "imports": 74.8,
+      "imports_flag": null,
+      "exports": 39.932,
+      "exports_flag": null
+    },
+    {
+      "period": "2024-10",
+      "imports": 123.6,
+      "imports_flag": null,
+      "exports": 4.161,
+      "exports_flag": null
+    },
+    {
+      "period": "2024-11",
+      "imports": 36.105,
+      "imports_flag": null,
+      "exports": 0.011,
+      "exports_flag": null
+    },
+    {
+      "period": "2024-12",
+      "imports": 135.345,
+      "imports_flag": null,
+      "exports": 6.759,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-01",
+      "imports": 204.371,
+      "imports_flag": null,
+      "exports": 68.289,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-02",
+      "imports": 213.185,
+      "imports_flag": null,
+      "exports": 16.41,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-03",
+      "imports": 283.368,
+      "imports_flag": null,
+      "exports": 20.09,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-04",
+      "imports": 240.213,
+      "imports_flag": null,
+      "exports": 98.027,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-05",
+      "imports": 175.955,
+      "imports_flag": null,
+      "exports": 59.95,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-06",
+      "imports": 178.437,
+      "imports_flag": null,
+      "exports": 35.223,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-07",
+      "imports": 41.915,
+      "imports_flag": null,
+      "exports": 19.13,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-08",
+      "imports": 35.212,
+      "imports_flag": null,
+      "exports": 20.956,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-09",
+      "imports": 61.675,
+      "imports_flag": null,
+      "exports": 15.791,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-10",
+      "imports": 29.012,
+      "imports_flag": null,
+      "exports": 16.363,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-11",
+      "imports": 135.198,
+      "imports_flag": null,
+      "exports": 5.55,
+      "exports_flag": null
+    },
+    {
+      "period": "2025-12",
+      "imports": 92.656,
+      "imports_flag": null,
+      "exports": 25.054,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-01",
+      "imports": 106.0,
+      "imports_flag": null,
+      "exports": 13.45,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-02",
+      "imports": 249.43,
+      "imports_flag": null,
+      "exports": 34.728,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-03",
+      "imports": 278.814,
+      "imports_flag": null,
+      "exports": 63.341,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-04",
+      "imports": 253.995,
+      "imports_flag": null,
+      "exports": 13.319,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-05",
+      "imports": 276.819,
+      "imports_flag": null,
+      "exports": 16.052,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-06",
+      "imports": 67.732,
+      "imports_flag": null,
+      "exports": 5.033,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-07",
+      "imports": 210.165,
+      "imports_flag": null,
+      "exports": 27.034,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-08",
+      "imports": 332.01,
+      "imports_flag": null,
+      "exports": 118.353,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-09",
+      "imports": null,
+      "imports_flag": null,
+      "exports": null,
+      "exports_flag": null
+    },
+    {
+      "period": "2026-10",
+      "imports": null,
+      "imports_flag": null,
+      "exports": null,
+      "exports_flag": null
+    }
+  ],
+  "trade_campaigns": {
+    "baseline_customs": {
+      "start": "2024-07",
+      "end": "2025-06",
+      "months_expected": 12,
+      "imports_t": 1775.894,
+      "exports_t": 456.021,
+      "reported_months": 12,
+      "missing_months": []
+    },
+    "2025/26": {
+      "start": "2025-07",
+      "end": "2026-06",
+      "months_expected": 12,
+      "imports_t": 1628.458,
+      "exports_t": 248.767,
+      "reported_months": 12,
+      "missing_months": []
+    },
+    "2026/27_reported_window": {
+      "start": "2026-07",
+      "end": "2026-10",
+      "months_expected": 4,
+      "imports_t": null,
+      "exports_t": null,
+      "reported_months": 2,
+      "missing_months": [
+        "2026-09",
+        "2026-10"
+      ]
+    }
+  },
+  "multiplication_areas": [
+    {
+      "year": 2024,
+      "value_ha": 2700,
+      "status": "OBSERVED_OFFICIAL_ACCEPTED_AREA",
+      "source": "area2025"
+    },
+    {
+      "year": 2025,
+      "value_ha": 2292,
+      "status": "OBSERVED_OFFICIAL_ACCEPTED_AREA",
+      "source": "area2025"
+    },
+    {
+      "year": 2026,
+      "value_ha": 3339,
+      "status": "PUBLISHED_MAP_STAGE_NOT_STATED",
+      "source": "area2026",
+      "definition": "Mapped seed-production area, September 2026. Not verified as accepted or seed-harvested area; do not compare directly with 2025 accepted area."
+    }
+  ],
+  "coverage": [
+    {
+      "metric": "Multiplication area",
+      "campaign": "2025/26",
+      "value": 2292,
+      "unit": "ha",
+      "status": "OBSERVED",
+      "source": "area2025",
+      "scope": "2025 accepted field area, not actual harvested hectares"
+    },
+    {
+      "metric": "Multiplication area",
+      "campaign": "2026/27",
+      "value": 3339,
+      "unit": "ha",
+      "status": "PARTIAL_SCOPE",
+      "source": "area2026",
+      "scope": "2026 published mapping; acceptance stage not stated"
+    },
+    {
+      "metric": "Harvest production",
+      "campaign": "2025/26",
+      "value": null,
+      "unit": "t",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "metric": "Harvest production",
+      "campaign": "2026/27",
+      "value": null,
+      "unit": "t",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "metric": "Opening stocks",
+      "campaign": "2025/26",
+      "value": null,
+      "unit": "t",
+      "status": "NOT_AVAILABLE",
+      "historical_carry_forward_proxy_t": 608
+    },
+    {
+      "metric": "Opening stocks",
+      "campaign": "2026/27",
+      "value": null,
+      "unit": "t",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "metric": "Domestic sales",
+      "campaign": "2025/26",
+      "value": null,
+      "unit": "t",
+      "status": "NOT_AVAILABLE"
+    },
+    {
+      "metric": "Domestic sales",
+      "campaign": "2026/27",
+      "value": null,
+      "unit": "t",
+      "status": "NOT_AVAILABLE"
+    }
+  ],
+  "defaults": {
+    "harvestShare": {
+      "low": 0.5,
+      "base": 0.7,
+      "high": 0.9
+    },
+    "marketableYieldKgHa": {
+      "low": 200,
+      "base": 250,
+      "high": 300
+    },
+    "domesticUseMultiplier": {
+      "low": 0.9,
+      "base": 1,
+      "high": 1.1
+    },
+    "remainingTradeMultiplier": {
+      "low": 0.8,
+      "base": 1,
+      "high": 1.2
+    },
+    "useScopeBridge": true,
+    "assumptions": [
+      "Baseline 608 t closing stock rolls forward into 2025/26 only as a continuity assumption. 2026/27 opening stocks are conditional, not verified.",
+      "Seed-harvested shares 50/70/90% and marketable yields 200/250/300 kg/ha are illustrative, not official estimates. No extra cleaning factor is added.",
+      "Yield base 250 kg/ha is a 2024 French survey reference, not a 2025/2026 measurement or calibrated weather response.",
+      "Domestic use remains 90/100/110% of the historical 1870.9 t sales proxy; no new demand measurement.",
+      "SEMAE campaign labels are aligned with July–June customs windows as an assumption; exact campaign boundary concordance is not established.",
+      "COMEXT/SEMAE net-trade level mismatch is carried as an explicit constant historical offset, not a verified correction.",
+      "2026/27 future months use the prior campaign same-month observations at 80/100/120%; observed current months stay fixed. No annualisation of the two reported months."
+    ]
+  }
+}

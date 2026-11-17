@@ -1,0 +1,43 @@
+import {useState,useEffect} from 'react'
+import {useT,useLanguage} from './i18n/index.jsx'
+import catalogue from './generated/market_analysis_v2.json'
+import pilot from './generated/red_clover_fr_current.json'
+import {analyzeSelection,summarizeTrade} from './multiCropAnalysis.mjs'
+import ReportedSeedBalance from './ReportedSeedBalance.jsx'
+import legacy from './productionCoverageData.mjs'
+import {analyticalContract} from './analyticalContract.mjs'
+import MarketPressureSummary from './MarketPressureSummary.jsx'
+import {scenarioDefaults,scenarioOptions} from './analysisScenario.mjs'
+const pressureLabels={SUPPLY_TIGHTENING:'Potential supply tightening',BROADLY_BALANCED:'Broadly balanced',SUPPLY_EASING:'Potential supply easing',INSUFFICIENT_EVIDENCE:'Insufficient evidence'}
+export default function MultiCropScenario({country,entity,year,data,selection={country,entity,year},onWeatherChange,onScenarioChange}){
+ const t=useT(),{language}=useLanguage(),[values,setValues]=useState({...scenarioDefaults,...selection.scenario,weather:selection.weatherSensitivity||0})
+ useEffect(()=>setValues({...scenarioDefaults,...selection.scenario,weather:selection.weatherSensitivity||0}),[selection.scenario,selection.weatherSensitivity])
+ const profile=catalogue.profiles.find(r=>r.country===country&&r.entity===entity),fmt=n=>n==null?t('Not available'):new Intl.NumberFormat(language.toLowerCase(),{maximumFractionDigits:2}).format(n),triple=r=>r?`${fmt(r.low)} / ${fmt(r.base)} / ${fmt(r.high)}`:t('Not available')
+ let result,error
+ try{result=analyzeSelection(catalogue,pilot,{country,entity,year},scenarioOptions({scenario:values,weatherSensitivity:values.weather}))}catch{error=t('Check scenario bounds: low ≤ base ≤ high, with valid non-negative values.')}
+ const field=(key,label,min=0,max=200)=> <label key={key}>{t(label)} (%)<input name={'v2-'+key} type="number" min={min} max={max} value={values[key]} onChange={e=>{const n=Number(e.target.value);if(e.target.value!==''&&n>=min&&n<=max){setValues(v=>({...v,[key]:n}));if(key==='weather')onWeatherChange?.(n);else onScenarioChange?.({[key]:n})}}}/></label>
+ if(result?.status==='HISTORICAL_OBSERVED')return <section id="market-pressure" className="v2-commercial"><span className="s3-evidence-tag">{t('OBSERVED')}</span><p>{t('Historical campaign only. Closing stocks do not establish a current supply or price forecast.')}</p><ReportedSeedBalance data={data} country={country} entity={entity} readOnly/></section>
+ if(!profile||result?.status==='EVIDENCE_ONLY')return <section id="market-pressure" className="v2-evidence-only"><h3>{t('Evidence coverage')} · {t('Insufficient evidence')}</h3><p>{t('Partial coverage for this selection. Available measurements follow below; no comparable commercial balance or market conclusion is generated.')}</p></section>
+ const shared=analyticalContract({data,legacy,catalogue,pilot,selection}),contract={...shared,analysis:result||shared.analysis}
+ const controls=result?.controls||['production','demand','stock','weather'],isArea=profile.production_basis==='AREA_PROXY_REUSED_PILOT',trade=profile.trade&&summarizeTrade(profile.trade.months,year),kind=result?.status==='WITHHELD'?'WITHHELD':'SCENARIO',source=profile.baseline_source
+ return <section id="market-pressure" className="v2-commercial" aria-label={t('Supply and demand analysis')}><p><span className="s3-evidence-tag">{t(kind)}</span> · {t('Current observations remain incomplete')} · {t('Confidence: low')}</p><h3>{t('Supply and demand analysis')}</h3>
+ {result&&<MarketPressureSummary contract={contract} showRange={false}/>}
+ <details><summary>{t('Historical commercial reference')}</summary><ReportedSeedBalance data={data} country={country} entity={entity} readOnly/></details>
+ {profile.trade?<details open className="v2-trade"><summary>{t('Selected country and crop trade')}</summary><p>CN {profile.trade.cn8} · {t('Exact species; national WORLD aggregate only. Never added to bilateral totals.')}</p><p>{t('Reported months')}: {trade.reportedMonths}/12 · {t('Imports')}: {fmt(trade.imports)} {trade.imports!==null?'t':''} · {t('Exports')}: {fmt(trade.exports)} {trade.exports!==null?'t':''}</p><p>{t('Incomplete annual totals stay missing. Reported partial months remain observations; the remainder is a separate assumption.')}</p><ul>{trade.months.filter(r=>r.imports!==null||r.exports!==null).map(r=><li key={r.period}>{r.period} · {t('Imports')} {fmt(r.imports)} t · {t('Exports')} {fmt(r.exports)} t</li>)}</ul><a href={profile.trade.source.url}>{t('Source evidence')}</a></details>:<p className="s3-note">{t('Exact species-level current trade is unavailable. Customs-group values are not allocated. Annual commercial flows below remain explicit historical-continuity assumptions.')}</p>}
+ <h4>{t('Adjust conditional assumptions')}</h4><p>{isArea?t('Area-based sensitivity reuses the red-clover pilot. Accepted or mapped area is not harvested area; marketable-yield bounds are assumptions, with no extra cleaning deduction.'):t('Quantity-based sensitivity starts from reported historical commercial production. It does not invent a harvested area, yield or additional cleaning loss.')}</p>
+ <div className="s3-input-grid">
+  {controls.includes('production')&&<>{field('production','Historical production scale')}{field('productionWidth','Production range width',0,100)}</>}
+  {controls.includes('harvest')&&<>{field('harvestLow','Seed-harvested share low',0,100)}{field('harvestBase','Seed-harvested share base',0,100)}{field('harvestHigh','Seed-harvested share high',0,100)}</>}
+  {controls.includes('marketableYield')&&<><label>{t('Marketable yield base')} (kg/ha)<input name="v2-yield" type="number" min="0" max="5000" value={values.yield} onChange={e=>{const n=Number(e.target.value);if(e.target.value!==''&&n>=0&&n<=5000){setValues(v=>({...v,yield:n}));onScenarioChange?.({yield:n})}}}/></label>{field('yieldWidth','Yield range width',0,100)}</>}
+  {controls.includes('weather')&&field('weather','Weather-related yield sensitivity',-100,100)}
+  {controls.includes('demand')&&field('demand','Historical domestic-use scale')}
+  {controls.includes('stock')&&field('stock','Opening-stock continuity scale')}
+  {controls.includes('imports')&&field('imports','Unobserved import scale')}
+  {controls.includes('exports')&&field('exports','Unobserved export scale')}
+  {controls.includes('tradeVariation')&&field('variation','Unobserved trade range width',0,100)}
+ </div>
+ {controls.includes('scopeBridge')&&<label className="v2-checkbox"><input name="v2-bridge" type="checkbox" checked={values.bridge} onChange={e=>{setValues(v=>({...v,bridge:e.target.checked}));onScenarioChange?.({bridge:e.target.checked})}}/>{t('Use historical scope and campaign-date bridge as an explicit assumption')}</label>}
+ {error?<p role="alert">{error}</p>:result?.closing?<><div className="s3-result" aria-live="polite"><h4>{t('SCENARIO')} · {t('Conditional net availability after use')}</h4><p>{t('Conditional net availability after use')}: <strong>{triple(result.closing)} t</strong></p><p>{t('Low / base / high')} · {t('Conditional base case')}: {t(pressureLabels[result.baseCaseSignal])}</p><p>{t('Compared with the historical closing-stock reference ±5%. This is an exploratory comparison, not an adopted reserve target or a probability interval.')}</p></div></>:<p role="alert">{t('Calculation withheld. Resolve the source-scope assumption or prior-campaign supply gap before continuing.')}</p>}
+ <details><summary>{t('Drivers, evidence and limitations')}</summary><ul><li>{t('Historical balance')}: {profile.baseline.period} · <a href={source.url+'#page=53'}>{source.organisation}</a></li><li>{t('Production, domestic use and stock continuity are scenario inputs. Weather sensitivity is user-entered; no anomaly is automatically converted into yield loss.')}</li><li>{result?.tradeMethod==='HISTORICAL_COMMERCIAL_FLOW_CONTINUITY_SCENARIO'?t('Trade method: whole-year historical commercial flow continuity. Partial customs observations are not added to that assumption.'):t('Trade method: exact customs where comparable, with an explicit historical source-scope bridge. Observed months are never scaled or annualised.')}</li><li>{t('Processing losses are not deducted again from commercial or assumed marketable quantities. No price forecast is generated.')}</li></ul>{result?.steps?.map(step=><p key={step.campaign}><strong>{step.campaign}</strong> · {t('Opening stocks')}: {triple(step.opening)} t · {t('Production')}: {triple(step.production)} t · {t('Net trade')}: {triple(step.netTrade)} t · {t('Domestic use')}: {triple(step.domesticUse)} t · {t('Net availability')}: {triple(step.closing)} t</p>)}</details>
+ </section>
+}

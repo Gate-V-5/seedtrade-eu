@@ -1,6 +1,11 @@
 import {useEffect,useMemo,useState} from 'react'
 import {useT,useLanguage} from './i18n/index.jsx'
 import data from './productionCoverageData.mjs'
+import SeedIntelligence from './SeedIntelligenceRoute.jsx'
+import MarketIntelligenceBackLink from './MarketIntelligenceBackLink.jsx'
+import {analysisKeys} from './analyticalContract.mjs'
+import {uiLanguage} from './i18n/languageState.mjs'
+function retainAnalysis(location){if(typeof window==='undefined')return location;const target=new URL(location,window.location.origin),q=new URLSearchParams(window.location.search);for(const key of Object.values(analysisKeys))if(q.has(key))target.searchParams.set(key,q.get(key));const lang=uiLanguage(q.get('lang'));if(lang)target.searchParams.set('lang',lang.toLowerCase());if(['#seed-supply-lab','#market-pressure','#production-archive'].includes(window.location.hash))target.hash=window.location.hash;return target.pathname+target.search+target.hash}
 import {metricLabels,selectEvidence,coverage,countryLabel,productionViewDefaults,validateProductionView,productionViewFromSearch,productionViewLocation} from './productionEvidence.mjs'
 
 function EntityName({entity}) {
@@ -23,12 +28,14 @@ export default function ProductionIntelligence() {
   const {entity,country,metric,year,history,scope:grain}=view
   useEffect(()=>{
     const restore=event=>{
-      const result=productionViewFromSearch(data,window.location.search)
+      let result=productionViewFromSearch(data,window.location.search)
+      const q=new URLSearchParams(window.location.search)
+      if(q.has('analysis_crop')&&!q.has('entity')){const entity=q.get('analysis_crop'),country=q.get('analysis_country'),rows=data.observations.filter(r=>r.entity===entity&&r.country===country),metric=rows.some(r=>r.metric===result.view.metric)?result.view.metric:rows[0]?.metric;result=validateProductionView(data,{...result.view,entity,country,metric:metric||result.view.metric,scope:'',year:''})}
       setView(result.view)
       // StrictMode can replay the initial effect after URL canonicalisation.
       // Retain that initial notice; a later valid popstate clears it.
       setAdjusted(previous=>result.adjusted||(!event&&previous))
-      window.history.replaceState(window.history.state,'',productionViewLocation(data,result.view))
+      window.history.replaceState(window.history.state,'',retainAnalysis(productionViewLocation(data,result.view)))
     }
     restore();window.addEventListener('popstate',restore)
     return ()=>window.removeEventListener('popstate',restore)
@@ -36,7 +43,7 @@ export default function ProductionIntelligence() {
   const update=patch=>{
     const result=validateProductionView(data,{...view,...patch})
     setView(result.view);setAdjusted(false)
-    window.history.replaceState(window.history.state,'',productionViewLocation(data,result.view))
+    window.history.replaceState(window.history.state,'',retainAnalysis(productionViewLocation(data,result.view)))
   }
   const shareLocation=useMemo(()=>productionViewLocation(data,view),[view])
   const format=value=>new Intl.NumberFormat({EN:'en-GB',DE:'de-DE',FR:'fr-FR',ES:'es-ES',IT:'it-IT'}[language]||'en-GB',{maximumFractionDigits:2}).format(value)
@@ -49,7 +56,8 @@ export default function ProductionIntelligence() {
   const scopeLabel=s=>[t(s.definition.replaceAll('_',' ').toLowerCase()),human(s.season),human(s.category),s.crop_use!=='NOT_SPECIFIED'?human(s.crop_use):null,s.source_botanical,s.species_scope].filter(Boolean).join(' · ')
   return <main className="production-intelligence">
     <div className="page-head"><p className="eyebrow">{t('European Seed Market Intelligence')}</p><h1>{t('Seed Production Intelligence')}</h1><p>{t('Official seed multiplication and certification evidence by species, country, metric and year. Seed-production area is distinct from commodity crop area.')}</p><a href="/market">{t('Market Intelligence')} →</a></div>
-    <section className="production-filters" aria-label={t('Production evidence filters')}>
+    <SeedIntelligence mode="production"/>
+    <details className="production-source-archive"><summary>{t('Source archive and comparable history')}</summary><section id="production-archive" className="production-filters" aria-label={t('Production evidence filters')}>
       <label>{t('Species')}<select name="entity" value={entity} onChange={e=>update({entity:e.target.value,scope:'',year:''})}>{data.entities.map(e=><option key={e.id} value={e.id}>{t(e.name)}{e.botanical?` (${e.botanical})`:''}</option>)}</select></label>
       <label>{t('Country')}<select name="country" value={country} onChange={e=>update({country:e.target.value,scope:'',year:''})}><option value="">{t('All countries')}</option>{data.countries.map(c=><option key={c} value={c}>{countryLabel(c,language)}</option>)}</select></label>
       <label>{t('Metric')}<select name="metric" value={metric} onChange={e=>update({metric:e.target.value,scope:'',year:''})}>{Object.entries(metricLabels).map(([key,label])=><option key={key} value={key}>{t(label)}</option>)}</select></label>
@@ -71,5 +79,7 @@ export default function ProductionIntelligence() {
     </section>}
     <section className="production-comparison"><h2>{t('Available European evidence')}</h2><p>{t('National definitions are not established as equivalent. Countries are listed alphabetically, without ranking, summation or an EU-wide supply conclusion.')}</p><div className="production-comparison-grid">{comparisons.map(s=>{const last=s.points.at(-1),src=data.sources[last.source];return <article key={s.id}><h3>{countryLabel(s.country,language)}</h3><strong>{format(last.value)} {s.unit} · {last.year}</strong><p>{scopeLabel(s)}</p><small>{t('{count} consecutive years',{count:s.history_length})}</small><a href={src.url} target="_blank" rel="noreferrer">{src.organisation} · {t('Official source')} ↗</a></article>})}</div>{!comparisons.length&&<p>{t('No compatible evidence for these filters')}</p>}</section>
     <aside className="production-limitations"><h2>{t('Coverage and limitations')}</h2><p>{t('Official national reporting differs. Coverage varies by species and year; missing values are not zero. Area and certified quantity remain separate. Original certification stages, seasons and source scopes are preserved.')}</p><p>{t('Groups and aggregates retain their original botanical scope; canonical navigation does not permit pooling source categories.')}</p></aside>
+    </details>
+    <MarketIntelligenceBackLink/>
   </main>
 }
