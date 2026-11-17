@@ -1625,13 +1625,14 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .news-photo-attribution details p{margin:4px 0;font-size:12px}
 .news-photo-unavailable{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;background:#f3f5f2;color:var(--muted);font-size:12px;text-align:center}
 .news-image-link .news-photo-unavailable{display:flex;padding:12px}
-.news-article .lead{font-size:18px;line-height:1.65}
+.news-article .lead{max-width:720px;margin:18px auto;font-size:18px;line-height:1.65;text-align:left}
 .news-article .why-panel{padding:14px 16px;margin:22px 0}
 .news-article .why-panel h2{font-size:18px;margin:0 0 8px}
 .news-article .why-panel p{margin:0}
-.news-section{margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}
+.news-article .news-section{max-width:720px;margin:0 auto;padding:0;border:0;font-size:18px;line-height:1.65;text-align:left}
+.news-article .news-section+.news-section{margin-top:18px}
 .news-section h2{font-size:22px;margin:0 0 10px}
-.news-section p{line-height:1.75}
+.news-article .news-section p{margin:0;line-height:inherit}
 .news-continuity{display:flex;flex-direction:column;gap:8px;margin-top:24px;font-size:13px}
 .news-continuity h2{font-size:16px;margin:0}
 .news-references{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
@@ -1640,7 +1641,7 @@ footer{display:grid;grid-template-columns:minmax(220px,1.6fr) repeat(3,minmax(13
 .news-references li{margin:8px 0;line-height:1.6;overflow-wrap:anywhere}
 .news-references .reference-organization{font-weight:600}
 @media(max-width:1120px){.news-list{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}}
-@media(max-width:620px){.news-list,.news-grid{grid-template-columns:minmax(0,1fr);gap:16px}.news-card-body{padding:14px}.news-card h3{font-size:18px}.news-article h1{font-size:30px}.news-hero{margin:16px 0}.news-article .lead{font-size:16px}.news-filters>*{min-width:0;max-width:100%}}
+@media(max-width:620px){.news-list,.news-grid{grid-template-columns:minmax(0,1fr);gap:16px}.news-card-body{padding:14px}.news-card h3{font-size:18px}.news-article h1{font-size:30px}.news-hero{margin:16px 0}.news-article .lead,.news-article .news-section{font-size:16.5px}.news-filters>*{min-width:0;max-width:100%}}
 
 /* Package 1: site-wide keyboard access and explicit motion controls. */
 .skip-link{position:fixed;top:8px;left:16px;transform:translateY(-160%);z-index:1000;padding:12px 18px;background:#fff;color:#0B1F33;border:3px solid #146B49;border-radius:6px}
