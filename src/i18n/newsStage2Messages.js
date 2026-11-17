@@ -1,4 +1,7 @@
 export const newsStage2Rows = [
+ ['Explore Seed Market Intelligence','Saatgutmarktinformationen entdecken','Explorer les informations du marché des semences','Explorar la información del mercado de semillas','Esplora le informazioni sul mercato delle sementi'],
+ ['Back to Homepage','Zur Startseite','Retour à l’accueil','Volver al inicio','Torna alla pagina iniziale'],
+ ['News article navigation','Artikelnavigation','Navigation de l’article','Navegación del artículo','Navigazione dell’articolo'],
  ['Official update','Amtliche Mitteilung','Information officielle','Información oficial','Aggiornamento ufficiale'],
  ['Research briefing','Forschungsbericht','Synthèse de recherche','Informe de investigación','Sintesi di ricerca'],
  ['Preliminary research','Vorläufige Forschungsergebnisse','Recherche préliminaire','Investigación preliminar','Ricerca preliminare'],
