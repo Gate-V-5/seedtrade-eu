@@ -47,37 +47,34 @@
 .catalogue-history-chart .catalogue-history-slot small{font-size:11px;transform:translateX(-50%) rotate(-35deg);margin-top:12px}
 @media(max-width:600px){.catalogue-history-chart{grid-template-columns:42px minmax(0,1fr);gap:6px}.catalogue-history-chart .catalogue-evidence-history,.catalogue-history-chart .catalogue-history-axis{height:150px}.catalogue-history-chart .catalogue-history-slot:nth-child(even) small{visibility:hidden}.catalogue-history-chart .catalogue-history-slot:last-child small{visibility:visible}.catalogue-history-chart .catalogue-history-slot small{font-size:10px}}
 
-/* Homepage Snapshot: readable three/two/one-column summaries without fixed clipping. */
-.market-snapshot .homepage-crops{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.market-snapshot .catalogue-seed-heading,.market-snapshot .catalogue-tags{min-block-size:0}
-.market-snapshot .catalogue-seed-heading h3{margin:0 0 3px;font-size:1.15rem;line-height:1.3}
-.market-snapshot .catalogue-botanical{font-size:.875rem}
-.market-snapshot .catalogue-tags>span{padding:3px 7px}
-.market-snapshot .snapshot-intelligence{border:0;padding:0;gap:5px}
-.market-snapshot .snapshot-situation{font-size:.9rem;line-height:1.45}
-.market-snapshot .catalogue-estimated-range{padding:0;border:0;background:none;margin:0}
-.market-snapshot .catalogue-estimated-range dt{font-size:.8rem}
-.market-snapshot .catalogue-estimated-range dd{font-size:1.15rem}
-.market-snapshot .catalogue-card-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding-top:10px}
-.market-snapshot .catalogue-card-measure dt{font-size:.8rem;line-height:1.3}
+/* Compact Snapshot: reserve only natural identity/metric geometry, no research slots. */
+.market-snapshot .catalogue-seed-heading{min-block-size:52px}
+.market-snapshot .catalogue-tags{min-block-size:44px;align-content:start}
+.market-snapshot .catalogue-card-metrics{grid-template-rows:auto}
+.market-snapshot .catalogue-price-measure{grid-column:1;grid-row:1}
+.market-snapshot .catalogue-volume-measure{grid-column:2;grid-row:1}
+.market-snapshot .catalogue-seed-price-measure{grid-column:1/-1;grid-row:auto}
+.market-snapshot .catalogue-card-measure dt{min-block-size:2.6em;line-height:1.3}
+.market-snapshot .catalogue-price-measure dt{padding-inline-end:16px}
 .market-snapshot .catalogue-card-measure dd{font-size:1.15rem}
-.market-snapshot .catalogue-yoy{font-size:.8rem;line-height:1.35;margin:4px 0}
-.market-snapshot .catalogue-period{font-size:.75rem;line-height:1.35}
+.market-snapshot .catalogue-yoy{font-size:.75rem;line-height:1.4;white-space:normal}
+.market-snapshot .catalogue-period{line-height:1.35;font-size:.72rem}
+.market-snapshot .catalogue-history-label{margin:0 0 4px;font-size:.75rem;line-height:1.3}
+.market-snapshot .catalogue-card-history{height:32px;margin:0 0 4px}
+.market-snapshot .catalogue-card-trade-history{min-block-size:64px}
 .market-snapshot .catalogue-card-cta{padding-top:6px}
-.market-snapshot .catalogue-card-cta:focus-visible,.market-snapshot .carousel-controls button:focus-visible,.snapshot-price-guide summary:focus-visible{outline:3px solid var(--green);outline-offset:4px}
-.market-snapshot .catalogue-card-cta:hover{text-decoration:underline;text-underline-offset:3px}
-.market-snapshot .carousel-controls button{min-width:44px;min-height:44px}
-.snapshot-price-guide{margin:12px 0 0;color:var(--muted);font-size:.85rem;line-height:1.5;max-width:900px}
-.snapshot-price-guide summary{cursor:pointer;color:var(--green);width:fit-content;font-weight:700}
-.snapshot-price-guide p{margin:8px 0 0}
-@media(max-width:1120px){.market-snapshot .homepage-crops{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:620px){.market-snapshot .homepage-crops{grid-template-columns:minmax(0,1fr)}.market-snapshot .catalogue-card-metrics{gap:12px}}
+@media(max-width:620px){
+ .market-snapshot .catalogue-card-metrics{grid-template-columns:minmax(0,1fr);gap:10px}
+ .market-snapshot .catalogue-price-measure,.market-snapshot .catalogue-volume-measure{grid-column:1;grid-row:auto}
+ .market-snapshot .catalogue-card-measure dt{min-block-size:0}
+ .market-snapshot .catalogue-tags,.market-snapshot .catalogue-seed-heading{min-block-size:0}
+}
 
 /* Intelligence candidate: complete readable copy; common measured height across rotation. */
 .snapshot-card-train{position:relative}
-.market-snapshot .snapshot-card-train>.carousel-train>.catalogue-seed-card{height:auto;min-block-size:max(390px,var(--snapshot-card-block-size,0px));gap:10px;padding:18px}
+.market-snapshot .snapshot-card-train>.carousel-train>.catalogue-seed-card{height:auto;min-block-size:var(--snapshot-card-block-size,auto);gap:10px}
 .snapshot-card-measurement{position:absolute;inset:0 0 auto;visibility:hidden;pointer-events:none;z-index:-1;align-items:start}
-.market-snapshot .snapshot-card-measurement>.catalogue-seed-card{height:auto;min-block-size:0;gap:10px;padding:18px}
+.market-snapshot .snapshot-card-measurement>.catalogue-seed-card{height:auto;min-block-size:0;gap:10px}
 .snapshot-intelligence{display:flex;flex-direction:column;gap:9px;border-top:1px solid var(--line);padding-top:10px;min-width:0}
 .snapshot-intelligence p,.snapshot-intelligence h4,.snapshot-intelligence ul{margin:0}
 .snapshot-intelligence-badge{align-self:flex-start;background:#edf4ee;color:#365f43;padding:4px 7px;border-radius:4px;font-size:.69rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase}

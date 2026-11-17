@@ -1,4 +1,3 @@
-import {marketBriefingRows} from './marketBriefingMessages.js'
 import {integratedStage3Rows} from './integratedStage3Messages.js'
 import {multiCropRows} from './multiCropMessages.js'
 import {currentSignalRows} from './currentSignalMessages.js'
@@ -829,6 +828,6 @@ const rows = [
   ["escaa summary field area", "ESCAA-Flächenübersicht", "Surface de la synthèse ESCAA", "Superficie del resumen ESCAA", "Superficie del riepilogo ESCAA"],
 ]
 const codes = ["DE", "FR", "ES", "IT"]
-const existingRows=[...marketBriefingRows,...b2bRows,...marketCardNameRows,...rows,...snapshotIntelligenceRows,...stage1Rows,...newsStage2Rows]
+const existingRows=[...b2bRows,...marketCardNameRows,...rows,...snapshotIntelligenceRows,...stage1Rows,...newsStage2Rows]
 const existingKeys=new Set(existingRows.map(row=>row[0]))
 export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...existingRows,...[...stage3Rows,...stage3CoverageRows,...currentSignalRows,...multiCropRows,...integratedStage3Rows].filter(row=>!existingKeys.has(row[0]))].map(row => [row[0], row[index + 1]]))]))

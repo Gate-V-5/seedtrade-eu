@@ -104,14 +104,14 @@ function circularSlice(items, start, count) {
   return Array.from({ length: Math.min(count, items.length) }, (_, offset) => items[(start + offset) % items.length])
 }
 
-function useCarousel(total, intervalMs = 2500, desktopCount = 4, tabletCount = desktopCount) {
+function useCarousel(total, intervalMs = 2500, desktopCount = 4) {
   const [position,setPosition]=useState(0), [visible,setVisible]=useState(desktopCount), [manualPaused,setManualPaused]=useState(false), [hovered,setHovered]=useState(false), [focused,setFocused]=useState(false), [reduced,setReduced]=useState(false), [touchStart,setTouchStart]=useState(null)
   useEffect(()=>{
-    const mobile=window.matchMedia?.("(max-width: 620px)"), tablet=window.matchMedia?.("(max-width: 1120px)"), motion=window.matchMedia?.("(prefers-reduced-motion: reduce)")
-    const update=()=>{setVisible(mobile?.matches?1:tablet?.matches?tabletCount:desktopCount);setReduced(Boolean(motion?.matches))}
-    update(); tablet?.addEventListener?.("change",update); mobile?.addEventListener?.("change",update); motion?.addEventListener?.("change",update)
-    return()=>{tablet?.removeEventListener?.("change",update);mobile?.removeEventListener?.("change",update);motion?.removeEventListener?.("change",update)}
-  },[desktopCount,tabletCount])
+    const mobile=window.matchMedia?.("(max-width: 620px)"), motion=window.matchMedia?.("(prefers-reduced-motion: reduce)")
+    const update=()=>{setVisible(mobile?.matches?1:desktopCount);setReduced(Boolean(motion?.matches))}
+    update(); mobile?.addEventListener?.("change",update); motion?.addEventListener?.("change",update)
+    return()=>{mobile?.removeEventListener?.("change",update);motion?.removeEventListener?.("change",update)}
+  },[desktopCount])
   useEffect(()=>{if(!carouselCanAdvance({total,manualPaused,hovered,focused,reduced}))return undefined;const timer=window.setInterval(()=>setPosition(value=>(value+1)%total),intervalMs);return()=>window.clearInterval(timer)},[total,intervalMs,manualPaused,hovered,focused,reduced])
   const move=delta=>setPosition(value=>(value+delta+total)%total)
   const handlers={tabIndex:0,onMouseEnter:()=>setHovered(true),onMouseLeave:()=>setHovered(false),onFocus:()=>setFocused(true),onBlur:event=>{if(!event.currentTarget.contains(event.relatedTarget))setFocused(false)},onTouchStart:event=>setTouchStart(event.touches[0]?.clientX??null),onTouchEnd:event=>{const end=event.changedTouches[0]?.clientX;if(touchStart!=null&&end!=null&&Math.abs(end-touchStart)>35)move(end<touchStart?1:-1);setTouchStart(null)}}
@@ -459,7 +459,7 @@ function HeroCoverageMetrics() {
 
 function Home() {
   const t=useT()
-  const marketCarousel=useCarousel(catalogueSnapshot.length,2500,3,2)
+  const marketCarousel=useCarousel(catalogueSnapshot.length,2500,4)
   const productionCrop=market.crops.find(crop=>crop.slug==="red-clover") || market.crops[0], supplyCrop=market.crops.find(crop=>crop.slug==="perennial-ryegrass") || market.crops[0]
   return <>
     <section className="dashboard-hero">
