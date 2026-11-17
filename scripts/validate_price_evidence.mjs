@@ -1,0 +1,13 @@
+import fs from 'node:fs'
+import path from 'node:path'
+import assert from 'node:assert/strict'
+import {createHash} from 'node:crypto'
+import {fileURLToPath} from 'node:url'
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..')
+export function validatePriceEvidence(base=root){
+ const read=p=>JSON.parse(fs.readFileSync(path.join(base,p),'utf8')),ledger=read('data/price-evidence/observations.json'),projection=read('src/generated/price_evidence_public.json'),ids=new Set(read('src/generated/market_catalogue_public.json').cards.map(c=>c.market_entity_id)),seen=new Set()
+ const required=['species','country','type','price','currency','unit','packKg','source','sourceUrl','publicationDate','observationDate','retrievedAt','validUntil','vatBasis','deliveryTerms','certification','qualityContext','variety','status','currentAvailabilityConfirmed','evidenceFile','evidenceSha256','evidenceKind']
+ for(const r of ledger.records){for(const k of required)assert(Object.hasOwn(r,k),'Missing price attribute: '+k);assert(!seen.has(r.id),'Duplicate price identity');seen.add(r.id);assert(ids.has(r.species));assert(['SUPPLIER_ASK','PUBLISHED_PRICE_LIST'].includes(r.type));assert(Number.isFinite(r.price)&&r.price>0&&r.unit==='kg'&&r.packKg>0);assert(/^[A-Z]{3}$/.test(r.currency)&&/^[A-Z]{2}$/.test(r.country)&&/^https:\/\//.test(r.sourceUrl));assert(['EXCLUDED','INCLUDED',null].includes(r.vatBasis));assert.equal(r.status,'VERIFIED_SOURCE_FACTS');assert(!r.currentAvailabilityConfirmed||r.observationDate&&r.evidenceKind==='DIRECT_PROVIDER_HTML');for(const value of [r.observationDate,r.publicationDate,r.validUntil])if(value!==null)assert(/^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value)));assert(Date.parse(r.retrievedAt)<=Date.now()+300000);assert(!r.observationDate||r.observationDate<=r.retrievedAt.slice(0,10));const f=path.resolve(base,'data/price-evidence/evidence',r.evidenceFile);assert(f.startsWith(path.resolve(base,'data/price-evidence/evidence')+path.sep));assert.equal(createHash('sha256').update(fs.readFileSync(f)).digest('hex'),r.evidenceSha256,'Price source capture mismatch')}
+ const expected=ledger.records.map(r=>Object.fromEntries(Object.entries(r).filter(([k])=>!['evidenceFile','sourceLocator'].includes(k))));assert.deepEqual(projection.records,expected,'Price projection must match verified ledger');return {status:'PASS',observations:seen.size,datedDirect:ledger.records.filter(r=>r.observationDate&&r.evidenceKind==='DIRECT_PROVIDER_HTML').length}
+}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))console.log(JSON.stringify(validatePriceEvidence()))
