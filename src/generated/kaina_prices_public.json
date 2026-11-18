@@ -1,0 +1,45 @@
+{
+  "schema": "KAINA_PUBLIC_V1",
+  "records": [
+    {
+      "id": "kaina-000002-phacelia",
+      "species": "phacelia",
+      "country": null,
+      "type": "OWNER_ESTIMATE",
+      "price": null,
+      "currency": "EUR",
+      "unit": "kg",
+      "unitCount": null,
+      "packKg": null,
+      "source": "Owner-supplied pricing input",
+      "sourceUrl": null,
+      "publicationDate": null,
+      "observationDate": null,
+      "receivedDate": "2026-11-18",
+      "retrievedAt": "2026-11-18T06:19:07.892876+00:00",
+      "validUntil": null,
+      "vatBasis": null,
+      "deliveryTerms": null,
+      "certification": null,
+      "qualityContext": null,
+      "variety": null,
+      "declaredSupplier": null,
+      "packaging": null,
+      "status": "OWNER_SUPPLIED_UNVERIFIED",
+      "currentAvailabilityConfirmed": false,
+      "seedSegment": null,
+      "confidence": "OWNER_INPUT_NOT_INDEPENDENTLY_VERIFIED",
+      "commandVersion": 1,
+      "evidenceKind": "KAINA_OWNER_INSTRUCTION",
+      "evidenceSha256": "6f9b9166edc8b4f188e6d209644eb771f4a2bcd68948306635d0bec4d6d09c15",
+      "low": 3.0,
+      "high": 5.0,
+      "midpoint": 4.0,
+      "massEquivalent": {
+        "unit": "t",
+        "low": 3000.0,
+        "high": 5000.0
+      }
+    }
+  ]
+}
