@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "sequence": 2,
+  "input": "KAINA\nphacelia 3.00-5.00 EUR/kg\n",
+  "timestampUTC": "2026-11-18T06:19:07.892876+00:00",
+  "entries": [
+    {
+      "species": "phacelia",
+      "kind": "RANGE",
+      "low": 3.0,
+      "high": 5.0,
+      "midpoint": 4.0,
+      "unit": "kg",
+      "unitCount": null,
+      "metadata": {}
+    }
+  ]
+}

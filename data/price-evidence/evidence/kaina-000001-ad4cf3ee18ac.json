@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "sequence": 1,
+  "input": "KAINA\nfacelija 3.00-4.50 EUR/kg\n",
+  "timestampUTC": "2026-11-18T06:16:33.561201+00:00",
+  "entries": [
+    {
+      "species": "phacelia",
+      "kind": "RANGE",
+      "low": 3.0,
+      "high": 4.5,
+      "midpoint": 3.75,
+      "unit": "kg",
+      "unitCount": null,
+      "metadata": {}
+    }
+  ]
+}

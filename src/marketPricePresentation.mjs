@@ -1,6 +1,6 @@
-import supplierPrices from './generated/price_evidence_public.json' with {type:'json'}
-import publishedOwnerPrices from './generated/kaina_prices_public.json' with {type:'json'}
-const prices={records:[...supplierPrices.records,...publishedOwnerPrices.records]}
+import storedPrices from './generated/price_evidence_public.json' with {type:'json'}
+import publishedPrices from './generated/kaina_prices_public.json' with {type:'json'}
+const prices={records:[...new Map([...storedPrices.records,...publishedPrices.records].map(r=>[r.id,r])).values()]}
 import ranges from './generated/estimated_market_ranges_public.json' with {type:'json'}
 import {supplierEvidence} from './marketBriefingEvidence.mjs'
 import {latestTradeUnitValue} from './commercialEvidence.mjs'
@@ -47,3 +47,15 @@ export function formatPriceUnit(r,language='EN',seeds='seeds'){
  return r.unit
 }
 export function priceEvidenceLabel(type){return {OWNER_ESTIMATE:'Owner indicative estimate',OWNER_SOURCE_RANGE:'Owner-supplied source range',OWNER_MODEL_ESTIMATE:'Benchmark-based seed estimate',MODELLED_RANGE:'Historical modelled range',CUSTOMS_UNIT_VALUE:'Customs trade unit value',SUPPLIER_ASK:'Supplier asking price',PUBLISHED_PRICE_LIST:'Published price list'}[type]}
+
+// Select one supported assessment. Customs and unlike currencies/tax bases are
+// never averaged or promoted to seed selling prices. All source records remain.
+export function indicativeAssessment(entity,registry=prices.records){
+ const owner=registry.filter(r=>r.species===entity&&validOwnerPrice(r)).at(-1)
+ if(owner)return {low:owner.low??owner.price,high:owner.high??owner.price,midpoint:owner.midpoint??null,currency:owner.currency,unit:owner.unit,unitCount:owner.unitCount??null,date:owner.receivedDate??null,dateLabel:'Assessment updated',basis:owner.type,recordId:owner.id,qualification:owner.type==='OWNER_MODEL_ESTIMATE'?(owner.model.wheatProxy?'Wheat-benchmark proxy; indicative seed estimate.':'Indicative seed estimate from a dated wheat benchmark.'):'Indicative, non-binding; confirm commercial terms.'}
+ const supplier=supplierEvidence(entity,registry).filter(r=>['SUPPLIER_ASK','PUBLISHED_PRICE_LIST'].includes(r.type)&&r.currency==='EUR'&&r.unit==='kg'&&r.packKg>=100&&r.vatBasis==='EXCLUDED'&&r.currentAvailabilityConfirmed&&r.observationDate&&r.commercialScope==='BULK_SEED').sort((a,b)=>b.observationDate.localeCompare(a.observationDate)||a.id.localeCompare(b.id))[0]
+ if(supplier)return {low:supplier.price,high:supplier.price,midpoint:null,currency:supplier.currency,unit:supplier.unit,date:supplier.observationDate,dateLabel:'Observed',basis:supplier.type,recordId:supplier.id,qualification:'Indicative supplier reference; not a binding quotation.'}
+ const h=ranges.records[entity]
+ if(h?.state==='RANGE'&&h.lower_eur_kg!=null&&h.upper_eur_kg!=null&&positive(Number(h.lower_eur_kg))&&positive(Number(h.upper_eur_kg))&&Number(h.upper_eur_kg)>=Number(h.lower_eur_kg))return {low:Number(h.lower_eur_kg),high:Number(h.upper_eur_kg),midpoint:arithmeticMidpoint(Number(h.lower_eur_kg),Number(h.upper_eur_kg)),currency:'EUR',unit:'kg',date:null,basis:'MODELLED_RANGE',recordId:entity+'-historical',qualification:'Historical indicative estimate; confirm commercial terms.'}
+ return null
+}

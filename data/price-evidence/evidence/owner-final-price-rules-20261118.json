@@ -1,0 +1,25 @@
+{
+  "source": "Owner instruction: FINAL PRICE CARD COMPLETION (68/68)",
+  "receivedDate": "2026-11-18",
+  "records": [
+    [
+      "soybean",
+      1.5,
+      2.5,
+      2,
+      "kg",
+      null,
+      "OWNER_ESTIMATE"
+    ]
+  ],
+  "barleyFormula": {
+    "premiumEURt": 300,
+    "multiplier": 1,
+    "wheatProxy": true
+  },
+  "soybeanDescription": "Owner-estimated certified seed range; certification class, supplier, VAT, availability and source observation date not supplied.",
+  "soybeanEquivalentEURt": [
+    1500,
+    2500
+  ]
+}

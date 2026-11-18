@@ -41,5 +41,6 @@
         "high": 5000.0
       }
     }
-  ]
+  ],
+  "workflow": "KAINA_UNIFIED_V1"
 }

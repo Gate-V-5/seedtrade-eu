@@ -1,0 +1,19 @@
+{
+  "id": "oda-ebm-dec2026-20261117",
+  "source": "ODA Connect",
+  "sourceUrl": "https://odauk.co.uk/market/",
+  "exchangeReferenceUrl": "https://live.euronext.com/en/product/commodities-futures/EBM-DPAR/instrument",
+  "instrument": "Euronext/MATIF Paris milling wheat",
+  "contract": "2026-12",
+  "value": 235.75,
+  "currency": "EUR",
+  "unit": "t",
+  "observationDate": "2026-11-17",
+  "sourceTime": "19:58:21",
+  "timeZone": null,
+  "classification": "DATED_BENCHMARK_SNAPSHOT",
+  "verification": "ODA published row verified; not independently fetched from exchange feed. Quote is a dated snapshot, not a live price.",
+  "captureSha256": "2628fa6e962f5590da1a67dff248d749a54492e876eeaa0d85019e2fdb1ade30",
+  "retrievedDate": "2026-11-18",
+  "captureFile": "oda-markets-20261118.html"
+}
