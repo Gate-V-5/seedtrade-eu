@@ -1,7 +1,9 @@
 import {brokerageOperators,brokeragePermissions} from './brokerageOperators.mjs';
 // Existing separate MFA auth is mandatory. Company-review permission alone grants nothing here.
 export function createTradingAdmin({repository,auth,workflow,bindings=[],ErrorType}){
- if(!auth?.authenticate||!Array.isArray(bindings)||bindings.some(b=>!Number.isSafeInteger(b.adminId)||!Number.isSafeInteger(b.companyId)||b.adminId<1||b.companyId<1||!brokerageOperators[b.operatorKey]||!Array.isArray(b.permissions)||b.permissions.some(p=>!Object.values(brokeragePermissions).includes(p))))throw Error('INVALID_BROKERAGE_BINDING');
+ // Provisioned MFA administrators use CHAR(32) hex IDs; retain numeric local-fixture compatibility.
+ const validAdminId=id=>(typeof id==='string'&&/^[a-f0-9]{32}$/.test(id))||(Number.isSafeInteger(id)&&id>0);
+ if(!auth?.authenticate||!Array.isArray(bindings)||bindings.some(b=>!validAdminId(b.adminId)||!Number.isSafeInteger(b.companyId)||b.companyId<1||!brokerageOperators[b.operatorKey]||!Array.isArray(b.permissions)||b.permissions.some(p=>!Object.values(brokeragePermissions).includes(p))))throw Error('INVALID_BROKERAGE_BINDING');
  const actor=async(tx,token)=>{const a=await auth.authenticate(tx,token);if(!bindings.some(b=>b.adminId===a.adminId))throw new ErrorType(403,'BROKERAGE_ASSIGNMENT_REQUIRED');return a;};
  return {
   available:token=>repository.transaction(async tx=>{const a=await auth.authenticate(tx,token);return bindings.some(b=>b.adminId===a.adminId&&b.permissions.length>0);}),
