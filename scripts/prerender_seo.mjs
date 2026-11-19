@@ -1,6 +1,8 @@
 #!/usr/bin/env node
+import {confirmedCalendarEvents} from '../src/eventsCalendar.mjs'
 /** Create unique SEO route shells and fail-closed noindex private shells. */
 import fs from 'node:fs/promises'
+import {insightEventSchema} from '../src/partnerInsights.mjs'
 import {listingTitle} from '../src/listingMetadata.mjs'
 import {publicNewsItems} from '../src/news.mjs'
 import {validateDailyNews} from './validate_daily_news.mjs'
@@ -14,6 +16,8 @@ const readJson = async relative => JSON.parse(await fs.readFile(path.join(root, 
 const market = await readJson('src/generated/market_public.json')
 const catalogueRoutes = await readJson('src/generated/market_catalogue_routes.json')
 const insights = await readJson('src/generated/insights.json')
+const eventRegister = await readJson('src/data/events_calendar.json')
+const partnerVisuals = await readJson('src/data/partner_visuals.json')
 const news = await readJson('src/generated/news.json')
 const newsSources = await readJson('src/data/news_sources.json')
 const newsErrors = validateDailyNews(news, newsSources)
@@ -32,6 +36,7 @@ const routes = [
   ['terms', 'Terms of Use', 'SeedTrade terms of use.', true],
   ['confidentiality', 'Commercial Confidentiality', 'How commercially sensitive information is controlled.', true],
   ['disclaimer', 'Market Intelligence Disclaimer', 'Important limitations of derived market intelligence.', true],
+  ['events', 'European Seed Industry Events', 'Verified seed-industry congresses, training and technology events in an interactive annual calendar.', true],
   ['insights', 'Research & Partner Insights', 'European seed research, events and transparently labelled partner insights.', true],
   ['news', 'European Seed Market News', 'Verified, source-linked developments across the European seed chain.', true],
   ['buying-requests', 'Active Seed Marketplace Listings', 'Verified PUBLIC_SAFE seed offers and buying requests; sensitive company and contact details remain private.', true],
@@ -134,6 +139,7 @@ for (const [route, title, description, indexable] of routes) {
       license: 'https://ec.europa.eu/eurostat/about-us/policies/copyright',
     })
   }
+  if(route==='events')structured.push({'@context':'https://schema.org','@type':'CollectionPage',name:'European Seed Industry Events',url:canonical,mainEntity:{'@type':'ItemList',itemListElement:confirmedCalendarEvents(eventRegister).map((event,index)=>({'@type':'ListItem',position:index+1,item:{'@type':'Event',name:event.name,startDate:event.start_date,endDate:event.end_date,url:event.official_url,eventAttendanceMode:'https://schema.org/'+(event.format==='ONLINE'?'OnlineEventAttendanceMode':'OfflineEventAttendanceMode'),organizer:{'@type':'Organization',name:event.organizer},location:event.format==='ONLINE'?{'@type':'VirtualLocation',url:event.official_url}:{'@type':'Place',name:[event.city,event.country].filter(Boolean).join(', ')}}}))}})
   if (articleByRoute.has(route)) {
     const article = articleByRoute.get(route)
     structured.push({
@@ -146,7 +152,9 @@ for (const [route, title, description, indexable] of routes) {
       dateModified: article.updated_date ?? article.publication_date,
       url: article.seo.canonical,
       publisher: { '@type': 'Organization', name: 'SeedTrade.eu' },
+      ...(partnerVisuals[article.slug] ? {image:'https://seedtrade.eu'+partnerVisuals[article.slug].src} : {}),
     })
+    const event=insightEventSchema(article,partnerVisuals[article.slug]); if(event)structured.push(event)
   }
   if (newsByRoute.has(route)) {
     const item = newsByRoute.get(route)
