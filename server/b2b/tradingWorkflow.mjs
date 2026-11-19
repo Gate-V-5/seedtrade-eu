@@ -120,7 +120,7 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
   },
   async operatorAction(tx,a,input,bindings){
    const r=await tx.tradingRecord(recordId(input.id)),binding=bindings.find(b=>b.adminId===a.adminId&&b.companyId===input.operatorCompanyId&&(input.operatorKey==null||b.operatorKey===input.operatorKey));
-   if(!a.platformAdmin||!binding||!Array.isArray(a.conflictCompanyIds)||!r||a.conflictCompanyIds.some(id=>[r.buyerCompanyId,r.sellerCompanyId].includes(id)))fail(403,'BROKERAGE_ASSIGNMENT_REQUIRED');
+   if(!a.platformAdmin||!binding||!brokerageOperators[binding.operatorKey]||!Array.isArray(a.conflictCompanyIds)||!r||a.conflictCompanyIds.some(id=>[r.buyerCompanyId,r.sellerCompanyId].includes(id)))fail(403,'BROKERAGE_ASSIGNMENT_REQUIRED');
    if(!binding.permissions?.includes(brokeragePermissions[input.action]))fail(403,'BROKERAGE_PERMISSION_REQUIRED');
    const currentBroker=await tx.companyForReview(binding.companyId);if(currentBroker?.status!=='VERIFIED')fail(403,'VERIFIED_BROKERAGE_ENTITY_REQUIRED');
    if(r.version!==input.version)fail(409,'RELOAD_REQUIRED');const old=r.version;
