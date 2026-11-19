@@ -1,0 +1,25 @@
+{
+  "checkedDate": "2026-11-18",
+  "officialEventSources": [
+    "https://www.seedtest.org/en/workshops-and-webinars/the-science-and-practice-of-seed-priming-molecular-insights-and-challenges-in-se-product-10117.html",
+    "https://congress.worldseed.org/",
+    "https://congress.worldseed.org/join/join-as-a-delegate/"
+  ],
+  "sourceCaveats": [
+    "No verified Lagrenas founding date, years of experience, machinery inventory, certifications, processing capacity, packaging range or international contracts: no such claims made.",
+    "Official Lagrenas network counts conflict; exact counts omitted.",
+    "Official ISF 2027 programme contains legacy Lisbon material; specific sessions excluded, schedule status qualified.",
+    "Authentic Lagrenas field/facility photographs not supplied; authorised brand hero and explicitly illustrative commercially reusable harvest photo used.",
+    "Real GA4/realtime/member audience data not connected; actual analytics require an owner-supplied measurement ID and a reviewed lawful consent integration before enabling."
+  ],
+  "approval": "OWNER_REVIEW_ONLY; no production publication approval recorded",
+  "originalArticleDateHandling": "Lagrenas original 2026-09-21 retained; revised 2026-11-18. Event article dates are proposed local editorial dates, not proof of live publication.",
+  "harvestRightsEvidence": {
+    "url": "https://commons.wikimedia.org/wiki/File:Harvesting_the_Wheat_Crop_(Unsplash).jpg",
+    "verifiedVia": "File-specific Wikimedia Commons licensing record viewed with web tool on 2026-11-18",
+    "creator": "meri? tuna",
+    "license": "CC0 1.0",
+    "directHtmlRetrieval": "403; no local HTML capture claimed",
+    "optimizedPhotoDownloaded": true
+  }
+}
