@@ -1,4 +1,5 @@
 import {adminConfiguration} from './adminActivation.mjs';
+import {brokerageCoordination} from './brokerageOperators.mjs';
 import {createAdminService} from './adminService.mjs';
 import {createAdminHttp} from './adminHttp.mjs';
 import {companyReviewBinding} from './companyReviewActivation.mjs';
@@ -157,7 +158,7 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
         const db=await guardedPool.getConnection();try{for(const table of ['b2b_trading_records','b2b_listing_preferences','b2b_listing_notices'])await db.execute('SELECT 1 FROM '+table+' LIMIT 0');}finally{db.release();}
         trading=createTradingWorkflow({localOnly:true,simple:true,ErrorType:B2bError,catalogue});
         listingDelivery=createListingNotifications({repository,...mail,origin:env.SEEDTRADE_PUBLIC_ORIGIN});
-        enquiryConfirmation=createEnquiryConfirmation({repository,...mail,origin:env.SEEDTRADE_PUBLIC_ORIGIN,operatorRecipient:dependencies.operatorRecipient??null,ErrorType:B2bError});
+        enquiryConfirmation=createEnquiryConfirmation({repository,...mail,origin:env.SEEDTRADE_PUBLIC_ORIGIN,operatorRecipient:dependencies.operatorRecipient??brokerageCoordination,ErrorType:B2bError});
         if(adminAuth)tradingAdmin=createTradingAdmin({repository,auth:adminAuth,workflow:trading,bindings:dependencies.brokerageBindings??[],ErrorType:B2bError});
       }
       portalService=createB2bPortalService({repository,passwordHasher,mailer:{...mailer,sendPasswordReset:message=>verificationMailer.sendPasswordReset(message)},catalogue,memberOnly,communications:localEnquiries||hostedMarketplace,adminUserIds,notifications,trading,listingDelivery,enquiryConfirmation});

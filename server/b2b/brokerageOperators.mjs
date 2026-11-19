@@ -1,3 +1,5 @@
 export const brokerageOperators=Object.freeze({GATE_V:Object.freeze({key:'GATE_V',name:'MB Gate-V',default:true})});
+// Owner-approved routing plus existing mailbox-control attestation; no new delivery claim.
+export const brokerageCoordination=Object.freeze({email:'info@seedtrade.eu',verified:true,evidenceRef:'private/b2b-public-v1/owner-decisions.json#stage6FinalProductionReadiness.coordination',verificationBasis:'OWNER_ATTESTED_CONTROL_AND_EXPLICIT_ROUTING_AUTHORIZATION_NOT_INDEPENDENT_DELIVERY'});
 export const brokeragePermissions=Object.freeze({ASSIGN_OPERATOR:'broker:assign',CHANGE_OPERATOR:'broker:assign',CONFIRM_MILESTONE:'trade:confirm',APPROVE_COMMISSION:'commission:approve',DOCUMENT:'invoice:draft',APPROVE_INVOICE_DRAFT:'invoice:approve',APPROVE_CORRECTION:'trade:correct',RECORD_SIMULATED_INVOICE:'invoice:simulate',RECORD_SIMULATED_CREDIT:'invoice:simulate',CLOSE:'trade:close'});
 export const defaultBroker=()=>({key:'GATE_V',legalName:'MB Gate-V',companyId:null,identityStatus:'UNBOUND',invoiceIdentityVerified:false,selection:'OWNER_DEFAULT'});
