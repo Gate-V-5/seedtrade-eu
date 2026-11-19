@@ -2,7 +2,7 @@ import {currentLegalRegistry,validateLegalAcceptance,appendLegalAcceptance} from
 // Integrated B2B registration workflow, used by the gated staging runtime.
 // Inject a vetted password hasher, a transactional repository and an email sender.
 // The repository must use parameterized SQL and enforce unique email/company keys.
-import {normalizeCompany} from './domain.mjs';
+import {normalizeRegistrationCompany} from './domain.mjs';
 import {normalizeEmail, issueVerificationToken, hashVerificationToken} from './emailVerification.mjs';
 
 function requireDependency(value, method) {
@@ -18,7 +18,7 @@ export function createRegistrationService({repository, passwordHasher, mailer, l
       const {email,password,company}=input;
       const accepted=validateLegalAcceptance(input,legalRegistry);
       const normalizedEmail = normalizeEmail(email);
-      const normalizedCompany = normalizeCompany(company);
+      const normalizedCompany = normalizeRegistrationCompany(company);
       if (typeof password !== 'string' || password.length < 12 || password.length > 1024)
         throw new TypeError('INVALID_PASSWORD');
       const passwordHash = await passwordHasher.hash(password);
@@ -44,7 +44,7 @@ export function createRegistrationService({repository, passwordHasher, mailer, l
       // Send only after commit; a mail failure must not roll back the committed account.
       // The caller must not report the registration as complete until delivery is handled.
       try {
-        await mailer.sendVerification({email: normalizedEmail, token: issued.token, userId: result.userId});
+        await mailer.sendVerification({email: normalizedEmail, token: issued.token, userId: result.userId, uiLanguage: input.uiLanguage});
       } catch {
         return {...result, status: 'PENDING_EMAIL_DELIVERY'};
       }

@@ -2,6 +2,11 @@ import React,{useEffect,useRef,useState} from 'react';
 import {useLanguage,useT} from '../i18n/index.jsx';
 import {b2bFetch} from './apiFetch.mjs';
 import B2bNavigation from './B2bNavigation.jsx';
+import SellerOffers from './SellerOffers.jsx';
+import BuyerDiscovery from './BuyerDiscovery.jsx';
+import {buyerMessages} from './buyerMessages.mjs';
+import Conversations from './Messaging.jsx';
+import {messagingMessages} from './messagingMessages.mjs';
 
 export default function B2bMemberPage(){
   const t=useT(),{language}=useLanguage(),reset=window.location.pathname.replace(/\/$/,'')==='/b2b/reset-password';
@@ -42,6 +47,8 @@ export default function B2bMemberPage(){
     try{const r=await b2bFetch('/api/b2b/v1/logout',{method:'POST',headers:{'Content-Type':'application/json','X-SeedTrade-CSRF':session.csrfToken},body:'{}'});if(r.ok){setSession(null);setFeedback('You have signed out.');}else setFeedback('Member access is currently unavailable. Please try again later.');}
     catch{setFeedback('Member access is currently unavailable. Please try again later.');}finally{setBusy(false);}
   }
+  const query=new URLSearchParams(window.location.search),memberView=query.get('view')??(query.has('enquiry')?'conversation':'seller'),marketplaceView=memberView==='marketplace',messagingView=['inbox','sent','conversation'].includes(memberView);
+  const mt=key=>messagingMessages[language]?.[key]??buyerMessages[language]?.[key]??t(key);
   const available=reset?capability?.passwordResetAvailable===true:capability?.memberSignInAvailable===true;
   return <main className="member-page"><p className="member-eyebrow">SEEDTRADE.EU</p><h1>{t(reset?'Reset your password':'Member account')}</h1>
     {!available&&<p role="status">{t(capability===null?'Checking member access…':'Member access is currently unavailable. Please try again later.')}</p>}
@@ -51,7 +58,8 @@ export default function B2bMemberPage(){
       <label htmlFor="confirm-password">{t('Confirm new password')}</label><input id="confirm-password" name="confirmPassword" type={show?'text':'password'} autoComplete="new-password" required minLength={12} maxLength={1024} disabled={busy}/>
       <button type="submit" className="member-primary" disabled={busy}>{t(busy?'Please wait…':'Reset password')}</button>
     </form>:<p role="status">{t('This reset link is invalid, expired or already used. Please request a new link.')}</p>)}
-    {!reset&&session&&<><p>{session.user?.email}</p><p><strong>{session.company?.legalName}</strong></p><p>{t('Company status')}: {t(({PENDING:'Pending review',VERIFIED:'Verified company',MORE_INFO:'More information required',REJECTED:'Company not approved'})[session.company?.status]??'Pending review')}</p><p>{t('Marketplace functions are not available in this registration phase.')}</p><button type="button" className="member-primary" disabled={busy} onClick={logout}>{t('Sign out')}</button></>}
+    {!reset&&session&&<><p>{session.user?.email}</p><p><strong>{session.company?.legalName}</strong></p><p>{t('Company status')}: {t(({PENDING:'Pending review',VERIFIED:'Verified company',MORE_INFO:'More information required',REJECTED:'Company not approved'})[session.company?.status]??'Pending review')}</p>{capability?.buyerDiscoveryAvailable===true&&<nav className="member-market-nav" aria-label={mt('Member marketplace navigation')}><a href={'/b2b/account?view=seller&lang='+language.toLowerCase()} aria-current={!marketplaceView&&!messagingView?'page':undefined}>{t('My listings')}</a><a href={'/b2b/account?view=marketplace&lang='+language.toLowerCase()} aria-current={marketplaceView?'page':undefined}>{t('Browse listings')}</a>{capability?.enquiriesAvailable===true&&<><a href={'/b2b/account?view=inbox&lang='+language.toLowerCase()} aria-current={memberView==='inbox'?'page':undefined}>{mt('Inbox')}</a><a href={'/b2b/account?view=sent&lang='+language.toLowerCase()} aria-current={memberView==='sent'?'page':undefined}>{mt('Sent enquiries')}</a></>}</nav>}
+    {capability?.enquiriesAvailable===true&&messagingView?<Conversations session={session} view={memberView} onExpired={()=>setSession(null)}/>:capability?.buyerDiscoveryAvailable===true&&marketplaceView?<BuyerDiscovery session={session} onExpired={()=>setSession(null)} enquiriesAvailable={capability?.enquiriesAvailable===true}/>:capability?.sellerOffersAvailable===true?<SellerOffers session={session} onExpired={()=>setSession(null)}/>:<p>{t('Marketplace functions are not available in this registration phase.')}</p>}<button type="button" className="member-primary" disabled={busy} onClick={logout}>{t('Sign out')}</button></>}
     {feedback&&<p className="member-status" role="status">{t(feedback)}</p>}
     {(!session||reset)&&<B2bNavigation/>}
     <p><a href={'/b2b/register?lang='+language.toLowerCase()}>{t('Register company')}</a></p>

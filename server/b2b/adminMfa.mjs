@@ -1,0 +1,11 @@
+import {createHmac,randomBytes,createCipheriv,createDecipheriv,timingSafeEqual} from 'node:crypto';
+// RFC 6238; secrets are encrypted with a separate owner-held 256-bit key.
+const alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
+export function base32(bytes){let value=0,bits=0,out='';for(const b of bytes){value=(value<<8)|b;bits+=8;while(bits>=5){bits-=5;out+=alphabet[(value>>>bits)&31];}}if(bits)out+=alphabet[(value<<(5-bits))&31];return out;}
+export function decode32(s){if(typeof s!=='string'||!/^[A-Z2-7]{32}$/.test(s))throw Error('ADMIN_MFA_SECRET');let value=0,bits=0,out=[];for(const c of s){value=(value<<5)|alphabet.indexOf(c);bits+=5;if(bits>=8){bits-=8;out.push((value>>>bits)&255);}}return Buffer.from(out);}
+export const newMfaSecret=()=>base32(randomBytes(20));
+export function totp(secret,counter,digits=6){const b=Buffer.alloc(8);b.writeBigUInt64BE(BigInt(counter));const h=createHmac('sha1',decode32(secret)).update(b).digest(),offset=h[h.length-1]&15;return String((h.readUInt32BE(offset)&0x7fffffff)%10**digits).padStart(digits,'0');}
+export function mfaCounter(secret,code,now,last=-1){if(typeof code!=='string'||!/^\d{6}$/.test(code))return null;const current=Math.floor(now/30000);for(const n of [current,current-1,current+1])if(n>=0&&n>Number(last)&&timingSafeEqual(Buffer.from(totp(secret,n)),Buffer.from(code)))return n;return null;}
+export function mfaKey(hex){if(typeof hex!=='string'||!/^[a-f0-9]{64}$/.test(hex)||/^0+$/.test(hex))throw Error('ADMIN_MFA_KEY_REQUIRED');return Buffer.from(hex,'hex');}
+export function encryptMfa(secret,key,adminId){decode32(secret);const iv=randomBytes(12),c=createCipheriv('aes-256-gcm',key,iv);c.setAAD(Buffer.from('seedtrade-admin-v1:'+adminId));const data=Buffer.concat([c.update(secret,'utf8'),c.final()]);return [iv,c.getAuthTag(),data].map(b=>b.toString('hex')).join('.');}
+export function decryptMfa(value,key,adminId){if(typeof value!=='string'||!/^([a-f0-9]{24})\.([a-f0-9]{32})\.([a-f0-9]{64})$/.test(value))throw Error('ADMIN_MFA_SECRET');const [iv,tag,data]=value.split('.').map(s=>Buffer.from(s,'hex')),c=createDecipheriv('aes-256-gcm',key,iv);c.setAAD(Buffer.from('seedtrade-admin-v1:'+adminId));c.setAuthTag(tag);const result=Buffer.concat([c.update(data),c.final()]).toString('utf8');decode32(result);return result;}

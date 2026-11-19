@@ -1,0 +1,15 @@
+.trading-card{display:flex;flex-direction:column;min-width:0}
+.trading-card .trading-badges{display:flex;flex-wrap:wrap;gap:6px;min-height:54px;align-content:start}
+.trading-badges strong,.trading-badges span{font-size:10px;letter-spacing:.025em;line-height:1.45;border-radius:5px;padding:5px 7px;background:#eaf4ee;color:#174b37}
+.trading-badges span{background:#eef1f4;color:#253d51}
+.request-card.trading-card h3{margin:12px 0 3px;font-size:19px;line-height:1.25}
+.trading-card .trading-botanical{margin:0 0 13px;color:#526776;font-size:13px;line-height:1.4}
+.request-card.trading-card .variety{margin:0 0 10px;font-size:13px}
+.trading-card dl{margin:8px 0 16px}.trading-card dl div{align-items:baseline}
+.trading-card dt{font-size:12px}.trading-card dd{font-size:13px;overflow-wrap:anywhere}
+.request-card.trading-card>a{margin-top:auto;padding-top:12px;min-height:38px}
+.trading-card a:focus-visible,.marketplace-detail a:focus-visible{outline:3px solid #178252;outline-offset:4px}
+.trading-draft{font-size:12px;color:#72540d;background:#fff6dc;padding:7px;border-radius:4px}
+.marketplace-type-filter{display:flex;align-items:center;gap:12px;margin:16px 0}.marketplace-type-filter select{padding:10px;border:1px solid var(--line);border-radius:7px;max-width:100%}
+.marketplace-detail .trading-card{max-width:650px}.marketplace-detail .quality-specifications{max-width:760px}
+@media(max-width:620px){.trading-card .trading-badges{min-height:0}.marketplace-type-filter{align-items:stretch;flex-direction:column}}
