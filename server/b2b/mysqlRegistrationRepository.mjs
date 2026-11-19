@@ -1,4 +1,5 @@
 import {adminTransactionMethods} from './adminRepository.mjs';
+import {tradingTransactionMethods} from './tradingRepository.mjs';
 import {literalContains} from './buyerOfferFilters.mjs';
 // Transactional MySQL adapter for B2B registration. Not connected to live runtime.
 // Accepts a mysql2/promise pool; all untrusted values are parameterized.
@@ -13,6 +14,7 @@ export function createMysqlB2bRepository(pool) {
         began = true;
         const tx = {
           ...adminTransactionMethods(db),
+          ...tradingTransactionMethods(db),
           async findLogin(email, lock = false) {
             const [rows] = await db.execute('SELECT id,email,password_hash AS passwordHash,email_verified_at AS verifiedAt FROM b2b_users WHERE email=?' + (lock ? ' FOR UPDATE' : ''),[email]);
             return rows[0] ?? null;

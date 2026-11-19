@@ -23,13 +23,14 @@ async function json(req) {
   if(!body||typeof body!=='object'||Array.isArray(body))throw new B2bError(400,'INVALID_REQUEST');
   return body;
 }
-export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allowedOrigin],resolveClient,enabled=false,memberOnly=false,sellerOnly=false,discoveryOnly=false,communications=false,recoveryEnabled=false,companyReviewEnabled=false,now=()=>Date.now()}) {
+export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allowedOrigin],resolveClient,enabled=false,memberOnly=false,sellerOnly=false,discoveryOnly=false,communications=false,recoveryEnabled=false,companyReviewEnabled=false,tradingEnabled=false,now=()=>Date.now()}) {
   const limit=createB2bRateLimiter({limit:60,now}),authLimit=createB2bRateLimiter({limit:5,windowMs:15*60_000,now});
   const get={'/session':'me','/catalogue':'catalogue','/offers':'offers','/offers/detail':'offerDetail','/enquiries':'enquiries','/messages':'messages','/review-queue':'reviewQueue'};
   const post={'/login':'login','/resend-verification':'resendVerification','/logout':'logout','/profile':'saveProfile',
     '/password-reset/request':'requestPasswordReset','/password-reset/confirm':'resetPassword',
     '/offers/save':'saveOffer','/offers/publish':'publishOffer','/offers/close':'closeOffer',
     '/enquiries/send':'sendEnquiry','/enquiries/reply':'reply','/enquiries/close':'closeEnquiry','/companies/review':'reviewCompany'};
+  if(tradingEnabled){Object.assign(get,{'/trading/policy':'tradingPolicy','/trading/transactions':'transactions','/trading/detail':'transactionDetail','/trading/preferences':'listingPreference'});Object.assign(post,{'/trading/action':'transactionAction','/trading/preferences':'saveListingPreference'});}
   return async(req,res)=>{
     let url;try{url=new URL(req.url,'http://localhost');}catch{return false;}
     const prefix='/api/b2b/v1';if(!url.pathname.startsWith(prefix+'/'))return false;
@@ -39,7 +40,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
     if(!enabled)return respond(404,{error:'NOT_FOUND'});
     const recovery=route.startsWith('/password-reset/');
     const reviewRoutes=companyReviewEnabled?['/review-queue','/companies/review']:[];
-    const sellerRoutes=['/login','/session','/logout','/catalogue','/offers','/offers/save','/offers/publish','/offers/close','/password-reset/request','/password-reset/confirm'];
+    const sellerRoutes=['/login','/session','/logout','/catalogue','/offers','/offers/save','/offers/publish','/offers/close','/password-reset/request','/password-reset/confirm',...(tradingEnabled?Object.keys(get).filter(k=>k.startsWith('/trading/')).concat('/trading/action'):[])];
     if(discoveryOnly&&![...sellerRoutes,...reviewRoutes,'/offers/detail',...(communications?['/enquiries','/messages','/enquiries/send','/enquiries/reply','/enquiries/close']:[])].includes(route))return respond(404,{error:'NOT_FOUND'});
     if(sellerOnly&&(!sellerRoutes.includes(route)||(route==='/offers'&&url.searchParams.get('own')!=='true')))return respond(404,{error:'NOT_FOUND'});
     if((recovery&&!recoveryEnabled)||(memberOnly&&!['/login','/session','/logout','/password-reset/request','/password-reset/confirm',...reviewRoutes].includes(route)))return respond(404,{error:'NOT_FOUND'});
@@ -58,6 +59,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
       } else {
         for(const key of ['after','id'])if(url.searchParams.has(key))input[key]=Number(url.searchParams.get(key));
         input.own=url.searchParams.get('own')==='true';
+        if(route.startsWith('/trading/')){const allowed=route==='/trading/detail'?['id']:route==='/trading/transactions'?['after']:[];for(const k of url.searchParams.keys())if(!allowed.includes(k)||url.searchParams.getAll(k).length!==1||!/^\d+$/.test(url.searchParams.get(k)))return respond(400,{error:'INVALID_REQUEST'});}
         if(url.searchParams.has('direction'))input.direction=url.searchParams.get('direction');
         if(route==='/review-queue'){for(const k of url.searchParams.keys())if(k!=='after'||url.searchParams.getAll(k).length!==1||!/^\d+$/.test(url.searchParams.get(k)))return respond(400,{error:'INVALID_REQUEST'});}
         if(route==='/enquiries'||route==='/messages'){const allowed=route==='/messages'?['id','after']:['direction','after'];for(const key of url.searchParams.keys())if(!allowed.includes(key)||url.searchParams.getAll(key).length!==1)return respond(400,{error:'INVALID_REQUEST'});for(const key of ['id','after'])if(url.searchParams.has(key)&&!/^\d+$/.test(url.searchParams.get(key)))return respond(400,{error:'INVALID_REQUEST'});}

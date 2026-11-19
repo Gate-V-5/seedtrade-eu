@@ -1,0 +1,4 @@
+-- Code/configuration rollback: disable local trading capability and restore previous code.
+-- Retain all three additive tables, commission acceptances, audit and document snapshots.
+-- Never drop real transaction, preference or notification data during rollback.
+-- No destructive SQL is intentionally supplied or automatically run.

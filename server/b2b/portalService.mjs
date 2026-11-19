@@ -29,7 +29,7 @@ const company=row=>({id:id(row.companyId),legalName:row.legalName,country:row.co
   reviewReason:['MORE_INFO','REJECTED'].includes(row.status)&&typeof row.reviewReason==='string'?row.reviewReason.slice(0,100):null});
 const page=rows=>({items:rows.slice(0,50),next:rows.length>50?rows[49].id:null});
 
-export function createB2bPortalService({repository,passwordHasher,mailer,catalogue=[],memberOnly=false,communications=false,adminUserIds=[],reviewActor=null,notifications=null,now=()=>Date.now()}) {
+export function createB2bPortalService({repository,passwordHasher,mailer,catalogue=[],memberOnly=false,communications=false,adminUserIds=[],reviewActor=null,notifications=null,trading=null,listingDelivery=null,now=()=>Date.now()}) {
   const crops=new Map(catalogue.map(c=>[c.id,c]));
   if((!memberOnly&&!crops.size)||new Set(adminUserIds).size!==adminUserIds.length||adminUserIds.some(n=>!Number.isSafeInteger(n)||n<1))throw Error('B2B_PORTAL_CONFIGURATION');
   const admins=new Set(adminUserIds);
@@ -145,6 +145,14 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     return response;
   };
   return {
+    ...(trading?{
+      tradingPolicy:token=>withActor(token,async(tx,a)=>{verified(a);return trading.policy;}),
+      transactions:(token,input)=>withActor(token,async(tx,a)=>{verified(a);return trading.list(tx,a,input);}),
+      transactionDetail:(token,input)=>withActor(token,async(tx,a)=>{verified(a);return trading.detail(tx,a,input);}),
+      transactionAction:(token,input)=>withActor(token,async(tx,a)=>{verified(a);return trading.action(tx,a,input);}),
+      listingPreference:token=>withActor(token,async(tx,a)=>trading.preference(tx,a,{},false)),
+      saveListingPreference:(token,input)=>withActor(token,async(tx,a)=>trading.preference(tx,a,input,true))
+    }:{}),
     drainResetMail:()=>Promise.allSettled([...resetMail]),
     async requestPasswordReset(input) {
       const accepted={status:'REQUEST_ACCEPTED'};
@@ -253,14 +261,16 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
       await audit(tx,a,'OFFER_SAVED','offer',offerId);
       if(input.publicPreviewConfirmed===true)await audit(tx,a,'PUBLIC_PREVIEW_CONFIRMED_V1','offer',offerId);return {id:offerId,status:'DRAFT',version:input.id==null?0:input.version+1};
     }),
-    publishOffer:(token,input)=>withActor(token,async(tx,a)=>{
+    publishOffer:async(token,input)=>{const result=await withActor(token,async(tx,a)=>{
       if(!canPublishOffer({companyStatus:a.company.status,memberRole:a.role}))fail(403,'COMPANY_APPROVAL_REQUIRED');
       const offer=await ownedOffer(tx,a,input.id);checkVersion(offer.version,input.version);
       offerInput({...offer,...(parseProfile(offer.details)??{})});
       if(offer.status!=='DRAFT'||offer.validUntil<new Date(now()).toISOString().slice(0,10))fail(409,'VALID_DRAFT_REQUIRED');
+      if(trading)await trading.beforePublish(tx,a,offer,input);
       await tx.setOfferStatus({id:offer.id,companyId:a.company.id,status:'PUBLISHED',version:input.version});
+      if(trading)await trading.published(tx,a,offer);
       await audit(tx,a,'OFFER_PUBLISHED','offer',offer.id);return {status:'PUBLISHED'};
-    }),
+    });if(trading&&listingDelivery)try{await listingDelivery.drain();}catch{/* Committed outbox remains pending; publication is not lost. */}return result;},
     closeOffer:(token,input)=>withActor(token,async(tx,a)=>{
       editCompany(a);const offer=await ownedOffer(tx,a,input.id);checkVersion(offer.version,input.version);
       if(offer.status==='CLOSED')fail(409,'ALREADY_CLOSED');
@@ -275,10 +285,11 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
       if(typeof quantity!=='number'||!Number.isFinite(quantity)||quantity<=0||quantity>1e9||Math.abs(quantity*1000-Math.round(quantity*1000))>1e-5||!['kg','t'].includes(unit))fail(400,'INVALID_REQUEST');
       const buyerLanguage=input.uiLanguage??'EN';if(!['EN','DE','FR','ES','IT'].includes(buyerLanguage))fail(400,'INVALID_REQUEST');
       if(communications&&!notifications)fail(503,'TEMPORARILY_UNAVAILABLE');
-      const content=input.requestedQuantity==null&&input.requestedUnit==null?body:JSON.stringify({body,quantity,unit});
+      const content=trading?JSON.stringify({body,quantity,unit,proposedPrice:input.proposedPrice??null,proposedDeliveryTerms:input.proposedDeliveryTerms??null}):input.requestedQuantity==null&&input.requestedUnit==null?body:JSON.stringify({body,quantity,unit});
       const operation=notifications?marketplaceOperation('ENQUIRY',a.user.id,offer.id,content,input.requestId):null;
       if(operation){const old=await previousOperation(tx,operation);if(old)return {id:old.enquiryId,notificationId:old.id,notificationState:old.status};}
       const enquiryId=id(await tx.createEnquiry({offerId:offer.id,companyId:a.company.id,userId:a.user.id}));
+      if(trading)await trading.introduced(tx,a,offer,enquiryId,input);
       const messageId=id(await tx.insertMessage({enquiryId,userId:a.user.id,companyId:a.company.id,body}));
       await audit(tx,a,'ENQUIRY_CREATED','enquiry',enquiryId);
       const details=parseProfile(offer.details)??{};
@@ -293,7 +304,7 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     messages:(token,input)=>withActor(token,async(tx,a)=>{
       const enquiry=await participant(tx,a,input.id),result=page(await tx.enquiryMessages({enquiryId:input.id,after:cursor(input.after)}));
       const view=enquiryView(enquiry,a),request=view.listingDirection==='BUY_REQUEST';
-      return {...result,items:result.items.map(m=>({...m,authorSide:m.authorCompanyId===enquiry.buyerCompanyId?(request?'SELLER':'BUYER'):(request?'BUYER':'SELLER')})),enquiry:view};
+      return {...result,items:result.items.map(m=>({...m,authorSide:m.authorCompanyId===enquiry.buyerCompanyId?(request?'SELLER':'BUYER'):(request?'BUYER':'SELLER')})),enquiry:{...view,...(trading?{transactionAvailable:Boolean(await tx.tradingRecord(enquiry.id))}:{})}};
     }),
     reply:(token,input)=>afterCommit(withActor(token,async(tx,a)=>{
       verified(a);if(communications&&!notifications)fail(503,'TEMPORARILY_UNAVAILABLE');const item=await participant(tx,a,input.id);if(item.status==='CLOSED')fail(409,'ENQUIRY_CLOSED');

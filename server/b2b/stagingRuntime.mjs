@@ -19,6 +19,10 @@ import {createB2bPasswordHasher} from './passwordHasher.mjs';
 import {createB2bPortalService} from './portalService.mjs';
 import {createB2bPortalHttp} from './portalHttp.mjs';
 import {createMarketplaceNotifications} from './marketplaceNotifications.mjs';
+import {B2bError} from './portalService.mjs';
+import {createTradingWorkflow} from './tradingWorkflow.mjs';
+import {createTradingAdmin} from './tradingAdmin.mjs';
+import {createListingNotifications} from './listingNotifications.mjs';
 
 export async function createB2bStagingRuntime(env, dependencies = {}) {
   const closed = {handle: handleDisabledB2bApi, close: async () => {}};
@@ -32,6 +36,8 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
   const localSellerOffers=dependencies.localSellerOffers===true;
   const localBuyerDiscovery=dependencies.localBuyerDiscovery===true;
   const localEnquiries=dependencies.localEnquiries===true;
+  const localTrading=dependencies.localTrading===true;
+  if(localTrading&&(production||!localEnquiries))return closed;
   const localPublicPreview=dependencies.localPublicPreview===true;
   if(localPublicPreview&&(!localEnquiries||production))return closed;
   if(localEnquiries&&(!localBuyerDiscovery||!localSellerOffers||production))return closed;
@@ -105,7 +111,7 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
     const closedFlags=['B2B_PORTAL_ENABLED','B2B_PORTAL_STORAGE_VERIFIED','B2B_PLATFORM_ADMIN_ENABLED','B2B_MARKETPLACE_NOTIFICATIONS_ENABLED','B2B_ENQUIRIES_ENABLED','B2B_RUNTIME_VERIFIED','B2B_STORAGE_VERIFIED','B2B_PRIVACY_APPROVED','B2B_DELIVERY_ENABLED','B2B_PROXY_VERIFIED','B2B_RETENTION_DELETION_APPROVED'];
     if(memberOnly&&!hostedMarketplace&&(portalEnabled||localJourney||localResendOnly||localVerifyOnly||localSellerOffers||closedFlags.some(key=>env[key]!==((adminEnabled&&key==='B2B_PORTAL_STORAGE_VERIFIED')?'true':'false'))||
         env.B2B_PLATFORM_ADMIN_USER_IDS||mode!=='smtp'||mail.from!=='network@seedtrade.eu'))throw Error('MEMBER_AUTH_CONFIGURATION');
-    let portalService,previewService,adminAuth,adminReview;
+    let portalService,previewService,adminAuth,adminReview,tradingAdmin;
     if(portalEnabled || localResendOnly || localJourney || localSellerOffers || memberOnly) {
       let catalogue=dependencies.catalogue;
       if(memberOnly&&!hostedMarketplace&&!adminEnabled)catalogue=[];
@@ -145,10 +151,17 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
         if(mode!=='smtp'&&!localEnquiries)throw Error('REAL_NOTIFICATION_SMTP_REQUIRED');
         notifications=createMarketplaceNotifications({repository,...mail,origin:env.SEEDTRADE_PUBLIC_ORIGIN});
       }
-      portalService=createB2bPortalService({repository,passwordHasher,mailer:{...mailer,sendPasswordReset:message=>verificationMailer.sendPasswordReset(message)},catalogue,memberOnly,communications:localEnquiries||hostedMarketplace,adminUserIds,notifications});
+      let trading=null,listingDelivery=null;
+      if(localTrading){
+        const db=await guardedPool.getConnection();try{for(const table of ['b2b_trading_records','b2b_listing_preferences','b2b_listing_notices'])await db.execute('SELECT 1 FROM '+table+' LIMIT 0');}finally{db.release();}
+        trading=createTradingWorkflow({localOnly:true,ErrorType:B2bError,catalogue});
+        listingDelivery=createListingNotifications({repository,...mail,origin:env.SEEDTRADE_PUBLIC_ORIGIN});
+        if(adminAuth)tradingAdmin=createTradingAdmin({repository,auth:adminAuth,workflow:trading,bindings:dependencies.brokerageBindings??[],ErrorType:B2bError});
+      }
+      portalService=createB2bPortalService({repository,passwordHasher,mailer:{...mailer,sendPasswordReset:message=>verificationMailer.sendPasswordReset(message)},catalogue,memberOnly,communications:localEnquiries||hostedMarketplace,adminUserIds,notifications,trading,listingDelivery});
     }
-    const portal=createB2bPortalHttp({service:portalService,allowedOrigin:env.SEEDTRADE_PUBLIC_ORIGIN,allowedOrigins:production?PRODUCTION_BROWSER_ORIGINS:[env.SEEDTRADE_PUBLIC_ORIGIN],resolveClient,enabled:portalEnabled || localResendOnly || localJourney || localSellerOffers || memberOnly,memberOnly:memberOnly&&!hostedMarketplace,sellerOnly:localSellerOffers&&!localBuyerDiscovery,discoveryOnly:localBuyerDiscovery||hostedMarketplace,communications:localEnquiries||hostedMarketplace,recoveryEnabled:memberOnly,companyReviewEnabled});
-    const admin=createAdminHttp({auth:adminAuth,review:adminReview,enabled:adminEnabled,resolveClient,allowedOrigins:production?PRODUCTION_BROWSER_ORIGINS:[env.SEEDTRADE_PUBLIC_ORIGIN]});
+    const portal=createB2bPortalHttp({service:portalService,allowedOrigin:env.SEEDTRADE_PUBLIC_ORIGIN,allowedOrigins:production?PRODUCTION_BROWSER_ORIGINS:[env.SEEDTRADE_PUBLIC_ORIGIN],resolveClient,enabled:portalEnabled || localResendOnly || localJourney || localSellerOffers || memberOnly,memberOnly:memberOnly&&!hostedMarketplace,sellerOnly:localSellerOffers&&!localBuyerDiscovery,discoveryOnly:localBuyerDiscovery||hostedMarketplace,communications:localEnquiries||hostedMarketplace,recoveryEnabled:memberOnly,companyReviewEnabled,tradingEnabled:localTrading});
+    const admin=createAdminHttp({auth:adminAuth,review:adminReview,enabled:adminEnabled,resolveClient,allowedOrigins:production?PRODUCTION_BROWSER_ORIGINS:[env.SEEDTRADE_PUBLIC_ORIGIN],trading:tradingAdmin});
     const preview=createPublicPreviewHttp({service:previewService,enabled:publicPreviewEnabled,resolveClient,allowedOrigins:production?PRODUCTION_BROWSER_ORIGINS:[env.SEEDTRADE_PUBLIC_ORIGIN]});
     const api = createB2bRegistrationModule({pool: guardedPool, mailer,passwordHasher,
       rateLimiter: req => {
@@ -179,7 +192,7 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
           res.writeHead(200, {'Content-Type':'application/json; charset=utf-8', 'Cache-Control':'no-store',
             'X-Content-Type-Options':'nosniff'});
           const available=Boolean(resolveClient(req));
-          res.end(JSON.stringify({...((companyReviewEnabled)?{companyReviewAvailable:available}:{}),...((publicPreviewEnabled)?{publicPreviewAvailable:available}:{}),...(memberOnly?{memberSignInAvailable:available,passwordResetAvailable:available}:{}),...((localSellerOffers||hostedMarketplace)?{memberSignInAvailable:available,sellerOffersAvailable:available,...((localBuyerDiscovery||hostedMarketplace)?{buyerDiscoveryAvailable:available,...((localEnquiries||hostedMarketplace)?{enquiriesAvailable:available}:{})}:{})}:{}),registrationAvailable:available&&!localJourney,
+          res.end(JSON.stringify({...((localTrading)?{tradingAvailable:available}:{}),...((companyReviewEnabled)?{companyReviewAvailable:available}:{}),...((publicPreviewEnabled)?{publicPreviewAvailable:available}:{}),...(memberOnly?{memberSignInAvailable:available,passwordResetAvailable:available}:{}),...((localSellerOffers||hostedMarketplace)?{memberSignInAvailable:available,sellerOffersAvailable:available,...((localBuyerDiscovery||hostedMarketplace)?{buyerDiscoveryAvailable:available,...((localEnquiries||hostedMarketplace)?{enquiriesAvailable:available}:{})}:{})}:{}),registrationAvailable:available&&!localJourney,
             portalAvailable:available&&(portalEnabled||localJourney),
             verificationResendAvailable:available&&portalEnabled&&!localJourney}));
           return true;

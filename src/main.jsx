@@ -8,9 +8,9 @@ import B2bNavigation from './b2b/B2bNavigation.jsx'
 // Keep private B2B pages outside the public app's analytics, hash navigation,
 // metadata and consent initialization. This does not activate the B2B API.
 const pathname = window.location.pathname.replace(/\/$/, '') || '/'
-const privateRoute = ['/b2b/verify-email','/b2b/register','/b2b/account','/b2b/reset-password'].includes(pathname)
+const privateRoute = ['/b2b/verify-email','/b2b/register','/b2b/account','/b2b/reset-password','/b2b/admin'].includes(pathname)
 const App = privateRoute
-  ? (pathname === '/b2b/verify-email'
+  ? (pathname === '/b2b/admin' ? (await import('./b2b/AdminPanel.jsx')).default : pathname === '/b2b/verify-email'
       ? (await import('./b2b/B2bVerifyEmail.jsx')).default
       : ['/b2b/account','/b2b/reset-password'].includes(pathname)
         ? (await import('./b2b/B2bMemberPage.jsx')).default

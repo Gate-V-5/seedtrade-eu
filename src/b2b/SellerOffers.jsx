@@ -1,3 +1,4 @@
+import {CommissionPublication} from './TradingWorkspace.jsx';
 ﻿import './publicPreview.css';
 import {previewMessages} from './previewMessages.mjs';
 import React,{useEffect,useMemo,useRef,useState} from 'react';
@@ -13,9 +14,10 @@ const statusKey={DRAFT:'Draft',PUBLISHED:'Published',CLOSED:'Withdrawn'};
 const categoryKey={SOWING_STATUS_UNKNOWN:'Seed status not specified',CERTIFIED_SOWING:'Certified sowing seed',NON_CERTIFIED_SOWING:'Non-certified sowing seed'};
 const errors={SIGN_IN_REQUIRED:'Please sign in again.',RELOAD_REQUIRED:'This offer changed. Refresh offers before trying again.',NOT_FOUND:'This offer is unavailable.',RATE_LIMITED:'Too many attempts. Please try again later.',COMPANY_APPROVAL_REQUIRED:'Your company must be independently approved before creating or publishing offers.',COMPANY_ADMIN_REQUIRED:'Only your company administrator can manage offers.',INVALID_REQUEST:'Please check the highlighted field.'};
 const numeric=['quantity','priceAmount','germinationPercent','purityPercent','moisturePercent'];
-export default function SellerOffers({session,onExpired}){
+export default function SellerOffers({session,onExpired,tradingPolicy=null,tradingRequired=false}){
  const {language}=useLanguage(),baseT=useT(),t=key=>previewMessages[language]?.[key]??sellerMessages[language]?.[key]??baseT(key);
  const [catalogue,setCatalogue]=useState([]),[page,setPage]=useState({items:[],next:null}),[offer,setOffer]=useState(emptyOffer),[busy,setBusy]=useState(false),[loaded,setLoaded]=useState(false),[feedback,setFeedback]=useState(''),[invalid,setInvalid]=useState('');
+ const [publishTarget,setPublishTarget]=useState(null);
  const lock=useRef(false),mounted=useRef(true),formRef=useRef(null);
  const permitted=session.company.status==='VERIFIED'&&session.role==='COMPANY_ADMIN';
  const today=new Date().toISOString().slice(0,10);
@@ -63,10 +65,11 @@ export default function SellerOffers({session,onExpired}){
   {loaded&&!page.items.length&&<p>{t('No offers yet.')}</p>}
   <ul className="seller-list">{page.items.map(item=><li key={item.id} data-offer-id={item.id} data-offer-status={item.status}>
    <div><h4>{baseT(item.species?.name??item.cropId)}</h4><p><i>{item.species?.botanical}</i></p>{item.details?.variety&&<p>{t('Variety')}: {item.details.variety}</p>}<p>{t((item.details?.listingDirection??item.listingDirection)==='BUY_REQUEST'?'TO BUY · DEMAND':(item.details?.listingDirection??item.listingDirection)==='OFFER'?'FOR SALE · OFFER':'Not specified')} · {t(({CERTIFIED_SEED:'CERTIFIED SEED',COMMODITY:'COMMODITY'})[item.details?.productType??item.productType]??'Not specified')}</p><p>{new Intl.NumberFormat(language.toLowerCase()).format(item.quantity)} {item.unit}{item.priceAmount!=null&&<> · {new Intl.NumberFormat(language.toLowerCase(),{style:'currency',currency:item.currency}).format(item.priceAmount)+' / '+(item.priceUnit??item.details?.priceUnit??item.unit)}</>}</p><p>{t('Listing valid until')}: <time dateTime={item.validUntil}>{item.validUntil}</time></p></div>
-   <div className="seller-offer-state"><span className={'seller-status seller-status-'+item.status.toLowerCase()}>{t(statusKey[item.status]??item.status)}</span>{item.validUntil<today&&<span>{t('Expired')}</span>}<div className="seller-actions"><button type="button" disabled={busy||!permitted||!loaded} onClick={()=>start(item)}>{t('Edit listing')}</button><button type="button" disabled={busy||!permitted||!loaded||item.status!=='DRAFT'||item.validUntil<today} onClick={()=>run(()=>mutation('/offers/publish',{id:item.id,version:item.version},'Offer published.'))}>{t('Submit for publication')}</button><button type="button" disabled={busy||session.role!=='COMPANY_ADMIN'||!loaded||item.status==='CLOSED'} onClick={()=>run(()=>mutation('/offers/close',{id:item.id,version:item.version},'Offer withdrawn.'))}>{t('Withdraw offer')}</button></div></div>
+   <div className="seller-offer-state"><span className={'seller-status seller-status-'+item.status.toLowerCase()}>{t(statusKey[item.status]??item.status)}</span>{item.validUntil<today&&<span>{t('Expired')}</span>}<div className="seller-actions"><button type="button" disabled={busy||!permitted||!loaded} onClick={()=>start(item)}>{t('Edit listing')}</button><button type="button" disabled={busy||!permitted||!loaded||item.status!=='DRAFT'||item.validUntil<today||(tradingRequired&&!tradingPolicy)} onClick={()=>tradingPolicy?setPublishTarget(item):run(()=>mutation('/offers/publish',{id:item.id,version:item.version},'Offer published.'))}>{t('Submit for publication')}</button><button type="button" disabled={busy||session.role!=='COMPANY_ADMIN'||!loaded||item.status==='CLOSED'} onClick={()=>run(()=>mutation('/offers/close',{id:item.id,version:item.version},'Offer withdrawn.'))}>{t('Withdraw offer')}</button></div></div>
   </li>)}</ul>
   {page.next&&<button type="button" disabled={busy} onClick={()=>run(()=>refresh(page.next))}>{t('More offers')}</button>}
   <button type="button" disabled={busy||!permitted||!loaded} onClick={()=>start()}>{t('New listing')}</button>
+  {publishTarget&&tradingPolicy&&<CommissionPublication policy={tradingPolicy} listing={publishTarget} busy={busy} onCancel={()=>setPublishTarget(null)} onConfirm={acceptance=>run(async()=>{await mutation('/offers/publish',{id:publishTarget.id,version:publishTarget.version,...acceptance},'Offer published.');setPublishTarget(null);})}/>}
   <form ref={formRef} aria-label={t('My listings')} noValidate onSubmit={save}><fieldset disabled={busy||!permitted||!loaded}><legend>{t(offer.id?'Edit listing':'New listing')}</legend>
    <p>{t('Editing an offer returns it to draft. Submit it again to publish the changes.')}</p><div className="seller-grid">
     {selection('Listing direction','listingDirection',<><option value="">{t('Not specified')}</option><option value="OFFER">{t('Offer for sale')}</option><option value="BUY_REQUEST">{t('Buying request')}</option></>,!offer.id)}
