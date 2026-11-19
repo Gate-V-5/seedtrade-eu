@@ -16,13 +16,13 @@ async function start(direction='OFFER'){
  const enquiry=await f.service.sendEnquiry(respondent.sessionToken,{offerId:offer.id,requestedQuantity:20,requestedUnit:'t',body:'Synthetic negotiation only',proposedPrice:'500',proposedDeliveryTerms:'EXW synthetic warehouse',requestId:key()});
  let r=(await f.service.transactionDetail(owner.sessionToken,{id:enquiry.id})).transaction;
  const action=async(actor,action,extra={})=>{r=(await f.service.transactionAction(actor.sessionToken,{id:r.enquiryId,version:r.version,requestId:key(),action,...extra})).transaction;return r;};
- const operator=async(action,extra={})=>{r=(await f.admin.action(f.brokerToken,{id:r.enquiryId,version:r.version,action,operatorCompanyId:f.operatorCompanyId,...extra})).transaction;return r;};
+ const operator=async(action,extra={})=>{if(['RECORD_SIMULATED_INVOICE','RECORD_SIMULATED_CREDIT'].includes(action)){for(const approval of ['CONFIRM_MILESTONE','APPROVE_COMMISSION',...(action==='RECORD_SIMULATED_INVOICE'?['APPROVE_INVOICE_DRAFT']:[])]){r=(await f.admin.action(f.brokerToken,{id:r.enquiryId,version:r.version,action:approval,operatorCompanyId:f.operatorCompanyId,evidenceRef:'Synthetic explicit administrative approval',documentHash:r.documents.findLast(d=>d.kind==='COMMISSION_INVOICE_DRAFT')?.hash})).transaction;}}r=(await f.admin.action(f.brokerToken,{id:r.enquiryId,version:r.version,action,operatorCompanyId:f.operatorCompanyId,evidenceRef:'Synthetic operator authorization reference',...extra})).transaction;return r;};
  return {...f,owner,respondent,offer,enquiry,action,operator,get record(){return r;}};
 }
 for(const direction of ['OFFER','BUY_REQUEST'])test(direction+': complete synthetic journey, author payer, bilateral execution, seven draft documents and one commission',async()=>{
  const f=await start(direction),{owner,respondent}=f;
  assert.equal(f.record.payerCompanyId,owner.company.id);assert.equal(f.record.buyerCompanyId,f.b.company.id);assert.equal(f.record.sellerCompanyId,f.s.company.id);
- assert.equal(f.record.commissionAcceptance.termsHash,commissionTermsHash);assert.equal(f.record.operator,null);assert.equal(f.record.status,'ENQUIRY');
+ assert.equal(f.record.commissionAcceptance.termsHash,commissionTermsHash);assert.equal(f.record.operator.key,'GATE_V');assert.equal(f.record.operator.companyId,null);assert.equal(f.record.status,'ENQUIRY');
  await f.action(owner,'PROPOSE',{agreement});await f.action(owner,'ACCEPT',{agreementHash:f.record.agreementHash});await f.action(respondent,'ACCEPT',{agreementHash:f.record.agreementHash});assert.equal(f.record.status,'AGREED');
  await f.action(owner,'CONFIRM_ORDER',{evidenceRef:'synthetic order confirmation'});
  await f.action(owner,'RECORD_EXECUTION',{quantity:'8',evidenceRef:'synthetic first delivery'});assert.equal(f.record.deliveries.length,0);
@@ -30,7 +30,7 @@ for(const direction of ['OFFER','BUY_REQUEST'])test(direction+': complete synthe
  await f.action(respondent,'CONFIRM_EXECUTION',{evidenceRef:'synthetic receipt first delivery'});assert.equal(f.record.status,'PARTIALLY_FULFILLED');assert.equal(f.record.commission.commission,'40.00');
  await f.action(owner,'RECORD_EXECUTION',{quantity:'12',evidenceRef:'synthetic final delivery'});await f.action(respondent,'CONFIRM_EXECUTION',{evidenceRef:'synthetic receipt final delivery'});assert.equal(f.record.status,'FULFILLED');assert.equal(f.record.commission.goodsValue,'10000.00');assert.equal(f.record.commission.commission,'100.00');
  await f.operator('ASSIGN_OPERATOR');await f.action(owner,'COMMISSION_DUE');
- for(const kind of ['ENQUIRY_SUMMARY','NEGOTIATION_SUMMARY','ORDER_CONFIRMATION','TRANSACTION_CONFIRMATION','FULFILMENT_RECORD','COMMISSION_STATEMENT','COMMISSION_INVOICE_DRAFT'])await f.action(owner,'DOCUMENT',{kind});
+ for(const kind of ['ENQUIRY_SUMMARY','NEGOTIATION_SUMMARY','ORDER_CONFIRMATION','TRANSACTION_CONFIRMATION','FULFILMENT_RECORD','COMMISSION_STATEMENT','COMMISSION_INVOICE_DRAFT'])await (kind==='COMMISSION_INVOICE_DRAFT'?f.operator('DOCUMENT',{kind}):f.action(owner,'DOCUMENT',{kind}));
  assert.equal(f.record.documents.length,7);assert(f.record.documents.every(d=>{const {hash,...content}=d;return hash===digest(content)&&d.status==='DRAFT_NOT_ISSUED'&&d.snapshot.payerCompanyId===owner.company.id;}));
  await f.operator('RECORD_SIMULATED_INVOICE',{evidenceRef:'synthetic accounting reference'});assert.equal(f.record.invoice.status,'LOCAL_SIMULATION_NOT_ISSUED');await f.operator('CLOSE',{evidenceRef:'synthetic settlement reference'});assert.equal(f.record.status,'CLOSED');
  await assert.rejects(f.operator('RECORD_SIMULATED_INVOICE',{evidenceRef:'duplicate accounting ref'}));assert.equal(f.record.invoice.commission.commission,'100.00');
@@ -38,8 +38,8 @@ for(const direction of ['OFFER','BUY_REQUEST'])test(direction+': complete synthe
 });
 test('partial refund after invoice creates a traceable credit, never a second commission',async()=>{
  const f=await start();await f.action(f.owner,'PROPOSE',{agreement});await f.action(f.owner,'ACCEPT',{agreementHash:f.record.agreementHash});await f.action(f.respondent,'ACCEPT',{agreementHash:f.record.agreementHash});await f.action(f.owner,'CONFIRM_ORDER',{evidenceRef:'synthetic order'});
- await f.action(f.owner,'RECORD_EXECUTION',{quantity:'20',evidenceRef:'synthetic delivery'});await f.action(f.respondent,'CONFIRM_EXECUTION',{evidenceRef:'synthetic receipt'});await f.operator('ASSIGN_OPERATOR');await f.action(f.owner,'COMMISSION_DUE');await f.action(f.owner,'DOCUMENT',{kind:'COMMISSION_INVOICE_DRAFT'});await f.operator('RECORD_SIMULATED_INVOICE',{evidenceRef:'synthetic original invoice'});
- await f.action(f.owner,'ADJUST_EXECUTION',{deliveryId:1,quantity:'5',evidenceRef:'synthetic return'});await f.action(f.respondent,'CONFIRM_ADJUSTMENT',{evidenceRef:'synthetic return received'});assert.equal(f.record.commission.commission,'75.00');
+ await f.action(f.owner,'RECORD_EXECUTION',{quantity:'20',evidenceRef:'synthetic delivery'});await f.action(f.respondent,'CONFIRM_EXECUTION',{evidenceRef:'synthetic receipt'});await f.operator('ASSIGN_OPERATOR');await f.action(f.owner,'COMMISSION_DUE');await f.operator('DOCUMENT',{kind:'COMMISSION_INVOICE_DRAFT'});await f.operator('RECORD_SIMULATED_INVOICE',{evidenceRef:'synthetic original invoice'});
+ await f.action(f.owner,'ADJUST_EXECUTION',{deliveryId:1,quantity:'5',evidenceRef:'synthetic return'});await f.action(f.respondent,'CONFIRM_ADJUSTMENT',{evidenceRef:'synthetic return received'});await f.operator('APPROVE_CORRECTION',{evidenceRef:'Synthetic reviewed correction evidence'});assert.equal(f.record.commission.commission,'75.00');
  await f.operator('RECORD_SIMULATED_CREDIT',{evidenceRef:'synthetic credit reference'});assert.equal(f.record.credits[0].amountMinor,'2500');assert.equal(f.record.invoice.commission.commission,'100.00');await assert.rejects(f.operator('RECORD_SIMULATED_CREDIT',{evidenceRef:'duplicate credit ref'}));
 });
 test('idempotency, company isolation, permission checks, cancellations and no assumed operator',async()=>{
@@ -49,12 +49,12 @@ test('idempotency, company isolation, permission checks, cancellations and no as
  const input={id:f.record.enquiryId,version:f.record.version,action:'PROPOSE',agreement,requestId:key()};const first=await f.service.transactionAction(f.owner.sessionToken,input),retry=await f.service.transactionAction(f.owner.sessionToken,input);assert.equal(retry.transaction.version,first.transaction.version);assert(retry.replayed);
  await assert.rejects(f.service.transactionAction(f.owner.sessionToken,{...input,agreement:{...agreement,price:'501'}}),e=>e.message==='IDEMPOTENCY_CONFLICT');
  await assert.rejects(f.service.transactionAction(f.respondent.sessionToken,{...input,requestId:key()}),e=>e.status===409);
- assert.equal(first.transaction.operator,null);assert.equal(first.transaction.invoice,null);
+ assert.equal(first.transaction.operator.key,'GATE_V');assert.equal(first.transaction.invoice,null);
  const r=await f.service.transactionAction(f.owner.sessionToken,{id:f.record.enquiryId,version:first.transaction.version,action:'CANCEL',evidenceRef:'synthetic cancellation',requestId:key()});assert.equal(r.transaction.status,'CANCELLED');assert.equal(r.transaction.commission.commission,'0.00');
 });
 test('money precision uses decimal integers, one rounded total, explicit compatible units',()=>{
  assert.equal(executedValue('20','t','500','t'),1000000n);assert.equal(executedValue('1000','kg','500','t'),50000n);
- assert.equal(totals([{goodsMinor:'100'},{goodsMinor:'100'}]).commission,'0.02');assert.equal(totals([{goodsMinor:'49'}]).commission,'0.00');assert.equal(totals([{goodsMinor:'50'}]).commission,'0.01');assert.throws(()=>executedValue('1','t','500','seeds'));assert.equal(commissionTerms.status,'DRAFT');
+ assert.equal(totals([{goodsMinor:'100'},{goodsMinor:'100'}]).commission,'0.02');assert.equal(totals([{goodsMinor:'49'}]).commission,'0.00');assert.equal(totals([{goodsMinor:'50'}]).commission,'0.01');assert.throws(()=>executedValue('1','t','500','seeds'));assert.equal(commissionTerms.status,'OWNER_PROPOSED_NOT_PUBLISHED');
 });
 test('opt-outs and SMTP failures never lose committed publication, and unknown delivery is not resent',async()=>{
  const f=await tradingFixture();await f.service.saveListingPreference(f.b.sessionToken,{enabled:false,language:'EN',cropIds:[]});

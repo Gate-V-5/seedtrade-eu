@@ -1,0 +1,3 @@
+export const brokerageOperators=Object.freeze({GATE_V:Object.freeze({key:'GATE_V',name:'MB Gate-V',default:true}),LAGRENAS:Object.freeze({key:'LAGRENAS',name:'Lagrenas',default:false})});
+export const brokeragePermissions=Object.freeze({ASSIGN_OPERATOR:'broker:assign',CHANGE_OPERATOR:'broker:assign',CONFIRM_MILESTONE:'trade:confirm',APPROVE_COMMISSION:'commission:approve',DOCUMENT:'invoice:draft',APPROVE_INVOICE_DRAFT:'invoice:approve',APPROVE_CORRECTION:'trade:correct',RECORD_SIMULATED_INVOICE:'invoice:simulate',RECORD_SIMULATED_CREDIT:'invoice:simulate',CLOSE:'trade:close'});
+export const defaultBroker=()=>({key:'GATE_V',legalName:'MB Gate-V',companyId:null,identityStatus:'UNBOUND',invoiceIdentityVerified:false,selection:'OWNER_DEFAULT'});

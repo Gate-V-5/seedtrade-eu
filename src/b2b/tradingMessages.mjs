@@ -1,4 +1,9 @@
 const rows=[
+['Change operator','Vermittler ändern','Changer de courtier','Cambiar intermediario','Cambia intermediario'],
+['Confirm commercial milestone','Geschäftsmeilenstein bestätigen','Confirmer l’étape commerciale','Confirmar hito comercial','Conferma fase commerciale'],
+['Approve commission','Provision freigeben','Approuver la commission','Aprobar comisión','Approva commissione'],
+['Approve invoice draft','Rechnungsentwurf freigeben','Approuver le projet de facture','Aprobar borrador de factura','Approva bozza fattura'],
+['Approve correction','Korrektur freigeben','Approuver la correction','Aprobar corrección','Approva rettifica'],
 ['Agreed terms','Vereinbarte Bedingungen','Conditions convenues','Condiciones acordadas','Condizioni concordate'],
 ['Transaction actions','Geschäftsaktionen','Actions de transaction','Acciones de la operación','Azioni della transazione'],
 ['Commission credit','Provisionsgutschrift','Avoir sur commission','Abono de comisión','Accredito commissione'],

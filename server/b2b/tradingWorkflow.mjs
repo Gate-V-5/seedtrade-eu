@@ -1,3 +1,4 @@
+import {brokerageOperators,brokeragePermissions,defaultBroker} from './brokerageOperators.mjs';
 import {digest} from './legalAcceptance.mjs';
 import {commissionTerms,commissionTermsHash,decimal,executedValue,totals} from './commissionTerms.mjs';
 import {offerCurrencies} from './offerOptions.mjs';
@@ -49,7 +50,7 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
     buyerCompanyId:demand?offer.companyId:a.company.id,sellerCompanyId:demand?a.company.id:offer.companyId,payerCompanyId:offer.companyId,
     listingDirection:demand?'BUY_REQUEST':'OFFER',productType:d.productType??null,cropId:offer.cropId,cropName:catalogue.find(c=>c.id===offer.cropId)?.name??'',botanicalName:catalogue.find(c=>c.id===offer.cropId)?.botanical??'',buyerName:demand?owner.legalName:a.company.legalName,sellerName:demand?a.company.legalName:owner.legalName,quality:structuredClone(d.qualityParameters??[]),
     proposedQuantity:input.requestedQuantity??null,proposedUnit:input.requestedUnit??null,proposedPrice:input.proposedPrice??null,proposedDeliveryTerms:input.proposedDeliveryTerms??null,
-    commissionAcceptance:structuredClone(acceptance),rateBasisPoints:100,operator:null,status:'ENQUIRY',version:0,agreement:null,acceptances:[],deliveries:[],documents:[],operations:[],invoice:null,
+    commissionAcceptance:structuredClone(acceptance),rateBasisPoints:100,operator:defaultBroker(),operatorHistory:[],status:'ENQUIRY',version:0,agreement:null,acceptances:[],deliveries:[],documents:[],operations:[],invoice:null,
     listingSnapshot:{id:offer.id,version:offer.version,cropId:offer.cropId,variety:d.variety??null,productType:d.productType??null,certificationClass:d.productType==='COMMODITY'?null:offer.certificationClass??null,quantity:offer.quantity,unit:offer.unit,priceAmount:offer.priceAmount??null,currency:offer.currency,originCountry:offer.originCountry,packaging:d.packaging??null,deliveryTerms:d.deliveryTerms??null,organic:d.organic??null,quality:structuredClone(d.qualityParameters??[])},
     createdAt:clock(),updatedAt:clock(),introductionAt:clock(),localOnly:true,history:[{action:'INTRODUCED',at:clock(),companyId:a.company.id}]};
    if(r.proposedPrice!=null)price(r.proposedPrice);if(r.proposedDeliveryTerms!=null)reference(r.proposedDeliveryTerms);
@@ -71,6 +72,7 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
    if(r.version!==input.version)fail(409,'RELOAD_REQUIRED');
    if(r.history.length>=1000||r.documents.length>=100||r.operations.length>=1000)fail(409,'RECORD_REVIEW_REQUIRED');
    const old=r.version,action=input.action;let evidence=null;
+   if(action==='DOCUMENT'&&input.kind==='COMMISSION_INVOICE_DRAFT')fail(403,'ADMIN_INVOICE_AUTHORIZATION_REQUIRED');
    if(action==='PROPOSE'){
     if(!['ENQUIRY','NEGOTIATION','AGREED'].includes(r.status))fail(409,'INVALID_TRANSITION');const g=input.agreement;
     if(!g||!['kg','t'].includes(g.quantityUnit)||!['kg','t'].includes(g.priceUnit)||!offerCurrencies.includes(g.currency)||g.priceExcludesVat!==true)fail(400,'INVALID_AGREEMENT');
@@ -103,7 +105,7 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
     r.pendingAdjustment={quantity:input.quantity,quantityMilli:(-q).toString(),goodsMinor:(-goods).toString(),adjusts:delivery.id,evidenceRef:evidence,submittedBy:a.company.id};
    }else if(action==='CONFIRM_ADJUSTMENT'){
     if(!r.pendingAdjustment||r.pendingAdjustment.submittedBy===a.company.id)fail(403,'COUNTERPARTY_CONFIRMATION_REQUIRED');evidence=reference(input.evidenceRef);
-    r.deliveries.push({...r.pendingAdjustment,id:r.deliveries.length+1,confirmedBy:a.company.id,confirmationEvidence:evidence,at:clock()});delete r.pendingAdjustment;r.status=r.invoice?'COMMISSION_DUE':'PARTIALLY_FULFILLED';
+    r.pendingAdjustment.confirmedBy=a.company.id;r.pendingAdjustment.confirmationEvidence=evidence;r.pendingAdjustment.confirmedAt=clock();
    }else if(action==='COMMISSION_DUE'){
     if(!['PARTIALLY_FULFILLED','FULFILLED'].includes(r.status)||!r.deliveries.length||r.executionAwaiting||r.pendingAdjustment)fail(409,'INVALID_TRANSITION');r.executionClosed=true;r.status='COMMISSION_DUE';
    }else if(action==='DOCUMENT'){
@@ -117,21 +119,42 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
    r.commission=totals(r.deliveries);r.history.push({action,companyId:a.company.id,userId:a.user.id,evidenceRef:evidence,at:clock()});r.operations.push({key:input.requestId,fingerprint});return persist(tx,a,r,action,old);
   },
   async operatorAction(tx,a,input,bindings){
-   const r=await tx.tradingRecord(recordId(input.id)),binding=bindings.find(b=>b.adminId===a.adminId&&b.companyId===input.operatorCompanyId);
+   const r=await tx.tradingRecord(recordId(input.id)),binding=bindings.find(b=>b.adminId===a.adminId&&b.companyId===input.operatorCompanyId&&(input.operatorKey==null||b.operatorKey===input.operatorKey));
    if(!a.platformAdmin||!binding||!Array.isArray(a.conflictCompanyIds)||!r||a.conflictCompanyIds.some(id=>[r.buyerCompanyId,r.sellerCompanyId].includes(id)))fail(403,'BROKERAGE_ASSIGNMENT_REQUIRED');
+   if(!binding.permissions?.includes(brokeragePermissions[input.action]))fail(403,'BROKERAGE_PERMISSION_REQUIRED');
+   const currentBroker=await tx.companyForReview(binding.companyId);if(currentBroker?.status!=='VERIFIED')fail(403,'VERIFIED_BROKERAGE_ENTITY_REQUIRED');
    if(r.version!==input.version)fail(409,'RELOAD_REQUIRED');const old=r.version;
-   if(input.action==='ASSIGN_OPERATOR'){
-    if(r.operator&&r.operator.companyId!==binding.companyId)fail(409,'OPERATOR_ALREADY_ASSIGNED');const c=await tx.companyForReview(binding.companyId);
+   if(['ASSIGN_OPERATOR','CHANGE_OPERATOR'].includes(input.action)){
+    if(!brokerageOperators[binding.operatorKey])fail(400,'INVALID_OPERATOR');
+    if(r.operator?.companyId&&r.operator.companyId!==binding.companyId&&input.action!=='CHANGE_OPERATOR')fail(409,'OPERATOR_ALREADY_ASSIGNED');
+    if(r.invoice)fail(409,'INVOICED_OPERATOR_IMMUTABLE');
+    const reason=reference(input.evidenceRef);
+    const c=await tx.companyForReview(binding.companyId);
     if(!c||c.status!=='VERIFIED'||[r.buyerCompanyId,r.sellerCompanyId].includes(binding.companyId))fail(400,'VERIFIED_BROKERAGE_ENTITY_REQUIRED');
-    r.operator={companyId:binding.companyId,legalName:c.legalName,country:c.country,registrationNumber:c.number,assignedBy:a.adminId,at:clock(),invoiceIdentityVerified:false};
+    r.operatorHistory??=[];r.operatorHistory.push({previous:structuredClone(r.operator),changedBy:a.adminId,reason,at:clock()});
+    r.operator={key:binding.operatorKey,companyId:binding.companyId,legalName:c.legalName,country:c.country,registrationNumber:c.number,assignedBy:a.adminId,at:clock(),identityStatus:'COMPANY_BOUND_BILLING_UNVERIFIED',invoiceIdentityVerified:false};
+    delete r.commissionApproval;delete r.invoiceDraftApproval;
+   }else if(input.action==='CONFIRM_MILESTONE'){
+    if(!r.operator?.companyId||r.operator.companyId!==binding.companyId||!['AGREED','ORDER_CONFIRMED','PARTIALLY_FULFILLED','FULFILLED','COMMISSION_DUE'].includes(r.status))fail(409,'INVALID_TRANSITION');
+    r.milestoneConfirmations??=[];r.milestoneConfirmations.push({status:r.status,deliveriesHash:digest(r.deliveries),transactionVersion:r.version,adminId:a.adminId,evidenceRef:reference(input.evidenceRef),at:clock()});
+   }else if(input.action==='APPROVE_CORRECTION'){
+    if(r.operator?.companyId!==binding.companyId||!r.pendingAdjustment?.confirmedBy||r.pendingAdjustment.confirmedBy===r.pendingAdjustment.submittedBy)fail(409,'COUNTERPARTY_CONFIRMATION_REQUIRED');
+    r.deliveries.push({...r.pendingAdjustment,id:r.deliveries.length+1,approvedBy:a.adminId,approvalEvidence:reference(input.evidenceRef),at:clock()});delete r.pendingAdjustment;r.status=r.invoice?'COMMISSION_DUE':'PARTIALLY_FULFILLED';r.commission=totals(r.deliveries);delete r.commissionApproval;delete r.invoiceDraftApproval;
+   }else if(input.action==='APPROVE_COMMISSION'){
+    if(r.operator?.companyId!==binding.companyId||r.status!=='COMMISSION_DUE'||r.executionAwaiting||r.pendingAdjustment||!r.milestoneConfirmations?.some(m=>m.deliveriesHash===digest(r.deliveries)))fail(409,'INVALID_TRANSITION');
+    r.commissionApproval={adminId:a.adminId,operatorCompanyId:binding.companyId,calculationHash:digest(totals(r.deliveries)),evidenceRef:reference(input.evidenceRef),at:clock()};
+   }else if(input.action==='APPROVE_INVOICE_DRAFT'){
+    const doc=r.documents.find(d=>d.hash===input.documentHash&&d.kind==='COMMISSION_INVOICE_DRAFT');
+    if(r.operator?.companyId!==binding.companyId||!doc||doc.snapshot.operator?.companyId!==binding.companyId||doc.snapshot.commission.commissionMinor!==totals(r.deliveries).commissionMinor||r.commissionApproval?.calculationHash!==digest(totals(r.deliveries)))fail(409,'CURRENT_COMMISSION_APPROVAL_REQUIRED');
+    r.invoiceDraftApproval={documentHash:doc.hash,adminId:a.adminId,operatorCompanyId:binding.companyId,status:'DRAFT_APPROVED_NOT_FOR_ISSUANCE',evidenceRef:reference(input.evidenceRef),at:clock()};
    }else if(input.action==='DOCUMENT'){
     if(r.operator?.companyId!==binding.companyId)fail(403,'BROKERAGE_ASSIGNMENT_REQUIRED');prepareDocument(r,input.kind);
    }else if(input.action==='RECORD_SIMULATED_INVOICE'){
-    if(r.status!=='COMMISSION_DUE'||r.operator?.companyId!==binding.companyId||r.invoice||r.pendingAdjustment||r.executionAwaiting)fail(409,'INVALID_TRANSITION');
-    if(!r.documents.some(d=>d.kind==='COMMISSION_INVOICE_DRAFT'&&d.snapshot.operator?.companyId===binding.companyId&&d.snapshot.commission.commissionMinor===totals(r.deliveries).commissionMinor))fail(409,'INVOICE_DRAFT_REQUIRED');
+    if(r.status!=='COMMISSION_DUE'||r.operator?.companyId!==binding.companyId||r.invoice||r.pendingAdjustment||r.executionAwaiting||r.commissionApproval?.calculationHash!==digest(totals(r.deliveries))||!r.invoiceDraftApproval)fail(409,'INVALID_TRANSITION');
+    if(!r.documents.some(d=>d.hash===r.invoiceDraftApproval.documentHash&&d.kind==='COMMISSION_INVOICE_DRAFT'&&d.snapshot.operator?.companyId===binding.companyId&&d.snapshot.commission.commissionMinor===totals(r.deliveries).commissionMinor))fail(409,'INVOICE_DRAFT_REQUIRED');
     r.invoice={status:'LOCAL_SIMULATION_NOT_ISSUED',reference:reference(input.evidenceRef),commission:totals(r.deliveries),operatorCompanyId:binding.companyId};r.status='COMMISSION_INVOICED';
    }else if(input.action==='RECORD_SIMULATED_CREDIT'){
-    if(r.status!=='COMMISSION_DUE'||!r.invoice||r.operator?.companyId!==binding.companyId||r.pendingAdjustment||r.executionAwaiting)fail(409,'INVALID_TRANSITION');
+    if(r.status!=='COMMISSION_DUE'||!r.invoice||r.operator?.companyId!==binding.companyId||r.pendingAdjustment||r.executionAwaiting||r.commissionApproval?.calculationHash!==digest(totals(r.deliveries)))fail(409,'INVALID_TRANSITION');
     const credited=(r.credits??[]).reduce((n,c)=>n+BigInt(c.amountMinor),0n),amount=BigInt(r.invoice.commission.commissionMinor)-credited-BigInt(totals(r.deliveries).commissionMinor);
     if(amount<=0n)fail(409,'NO_CREDIT_DUE');r.credits??=[];r.credits.push({status:'LOCAL_SIMULATION_NOT_ISSUED',reference:reference(input.evidenceRef),amountMinor:amount.toString(),at:clock()});r.status='COMMISSION_INVOICED';
    }else if(input.action==='CLOSE'){

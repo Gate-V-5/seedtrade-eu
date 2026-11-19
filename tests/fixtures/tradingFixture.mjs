@@ -1,3 +1,4 @@
+import {brokeragePermissions} from '../../server/b2b/brokerageOperators.mjs';
 import {approvedFixture} from './b2bPortalFixture.mjs';
 import {createB2bPortalService,B2bError} from '../../server/b2b/portalService.mjs';
 import {createTradingWorkflow} from '../../server/b2b/tradingWorkflow.mjs';
@@ -28,6 +29,6 @@ export async function tradingFixture(){
  const service=createB2bPortalService({...h.options,trading:workflow,listingDelivery:notices,notifications,communications:true});
  h.state.companies.get(f.admin.company.id).status='VERIFIED';
  const brokerToken='f'.repeat(64),auth={async authenticate(tx,token){if(token!==brokerToken)throw new B2bError(401,'SIGN_IN_REQUIRED');return {adminId:99,platformAdmin:true,conflictCompanyIds:[]};}};
- const bindings=[{adminId:99,companyId:f.admin.company.id}],admin=createTradingAdmin({repository:h.repository,auth,workflow,bindings,ErrorType:B2bError});
+ const bindings=[{adminId:99,companyId:f.admin.company.id,operatorKey:'GATE_V',permissions:[...new Set(Object.values(brokeragePermissions))]}],admin=createTradingAdmin({repository:h.repository,auth,workflow,bindings,ErrorType:B2bError});
  return {...f,memberAdmin:f.admin,operatorCompanyId:f.admin.company.id,service,workflow,notices,notifications,delivered,transport,admin,auth,bindings,brokerToken};
 }
