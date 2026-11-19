@@ -1,3 +1,13 @@
+# Stage 2 targeted recovery — local implementation
+
+Keep all four category links and the newest approved coverage for each category.
+Prefer genuinely current articles; explicitly label expired fallback as Earlier
+coverage with its original publication date. This does not extend valid_until,
+re-date articles, approve drafts or imply a new publication. Preserve the shared
+16:9 photograph frame. Use bounded four/two/one-column homepage layouts so a
+single eligible story cannot expand into a full-width hero. Browse News and card
+links carry the selected language in their actual URLs, including new-tab use.
+
 # Stage 2 owner-authorized presentation extension ? local implementation
 
 The Stage 2 implementation instruction supersedes card restrictions below only
@@ -25,8 +35,8 @@ Cards use a reserved16:9 media region, width100%, object-fit:cover and the image
 reviewed focal position. There are no side thumbnails, contain gutters or fixed
 pixel image heights. A flex column stretches cards to the row and anchors Read
 more at the bottom. Archive desktop/tablet has2columns; <=620px has1column.
-Homepage uses available verified streams and reflows4/3/1/0cards without empty
-slots. The category navigation remains. Missing images preserve the same media
+Homepage uses approved category coverage with honest archived fallback as defined
+above, without fabricated articles or empty cards. Category navigation remains. Missing images preserve the same media
 box with localized neutral text and article navigation, never an unrelated
 image. Article heroes do not upscale beyond recorded source width; the retained
 640px historical photo needs editorial review before a larger reuse. Existing

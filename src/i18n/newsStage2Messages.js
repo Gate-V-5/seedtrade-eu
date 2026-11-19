@@ -1,4 +1,6 @@
 export const newsStage2Rows = [
+ ['Earlier coverage','Frühere Berichterstattung','Couverture antérieure','Cobertura anterior','Copertura precedente'],
+ ['Recent coverage','Aktuelle Berichterstattung','Couverture récente','Cobertura reciente','Copertura recente'],
  ['Explore Seed Market Intelligence','Saatgutmarktinformationen entdecken','Explorer les informations du marché des semences','Explorar la información del mercado de semillas','Esplora le informazioni sul mercato delle sementi'],
  ['Back to Homepage','Zur Startseite','Retour à l’accueil','Volver al inicio','Torna alla pagina iniziale'],
  ['News article navigation','Artikelnavigation','Navigation de l’article','Navegación del artículo','Navigazione dell’articolo'],

@@ -157,6 +157,17 @@ export function selectStreamHighlights(items,asOf,registry) {
   for(const stream of NEWS_STREAMS){const item=eligible.filter(i=>newsStream(i)===stream).sort((a,b)=>b.publication_date.localeCompare(a.publication_date)||a.slug.localeCompare(b.slug)).find(i=>!seen.has(i.slug));if(item){seen.add(item.slug);result.push({stream,item})}}
   return result
 }
+// Archived fallback is presentation only: existing freshness and approval rules stay strict.
+export function selectHomepageNews(items,asOf,registry) {
+  if(!validDate(asOf))return []
+  const eligible=publicNewsItems(items,registry).filter(item=>item.publication_date<=asOf)
+    .sort((a,b)=>b.publication_date.localeCompare(a.publication_date)||a.slug.localeCompare(b.slug))
+  return NEWS_STREAMS.flatMap(stream=>{
+    const candidates=eligible.filter(item=>newsStream(item)===stream)
+    const item=candidates.find(item=>isCurrentNews(item,asOf))||candidates[0]
+    return item?[{stream,item,archived:!isCurrentNews(item,asOf)}]:[]
+  })
+}
 export const NEWS_FILTER_DEFAULTS={stream:'ALL',q:'',crop:'ALL',country:'ALL',period:'ALL',from:'',to:'',page:1}
 export function parseNewsFilters(search='') {
   const q=new URLSearchParams(search),out={...NEWS_FILTER_DEFAULTS}

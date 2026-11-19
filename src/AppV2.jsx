@@ -31,7 +31,7 @@ import tradeEntityScope from "./generated/trade_entity_scope.json"
 import insights from "./generated/insights.json"
 import news from "./generated/news.json"
 import newsSources from "./data/news_sources.json"
-import { NEWS_STREAMS, publicNewsItems, selectStreamHighlights, filterNewsArchive, eventStatus } from "./news.mjs"
+import { NEWS_STREAMS, publicNewsItems, selectStreamHighlights, selectHomepageNews, filterNewsArchive, eventStatus } from "./news.mjs"
 const publicNews = publicNewsItems(news.items, newsSources).filter(item => item.publication_date <= news.as_of)
 import rfqs from "./generated/rfqs_public.json"
 import weather from "./generated/weather_public.json"
@@ -265,21 +265,23 @@ function useNewsDate() {
   return date
 }
 function DailyNewsHighlights() {
-  const asOf=useNewsDate(),t=useT()
-  const highlights=selectStreamHighlights(publicNews,asOf,newsSources)
-  return <><nav className="news-stream-links" aria-label={t("News streams")}>{NEWS_STREAMS.map(stream=><a key={stream} href={`/news?stream=${encodeURIComponent(stream)}`}><I18n text={stream}/></a>)}</nav>{highlights.length===0&&<p className="news-empty" role="status">{t("No recently published, reviewed update is available. Browse earlier coverage below.")} <a href="/news#news-archive">{t("Browse earlier coverage")}</a></p>}{highlights.length>0 && <div className="news-list" style={{"--news-count":highlights.length}}>{highlights.map(({stream,item})=><NewsCard compact key={stream} story={item}/>)}</div>}</>
+  const asOf=useNewsDate(),t=useT(),{language}=useLanguage()
+  const highlights=selectHomepageNews(publicNews,asOf,newsSources)
+  return <><nav className="news-stream-links" aria-label={t("News streams")}>{NEWS_STREAMS.map(stream=><a key={stream} href={languageHref(`/news?stream=${encodeURIComponent(stream)}`,language)}><I18n text={stream}/></a>)}</nav>{highlights.length===0&&<p className="news-empty" role="status">{t("No recently published, reviewed update is available. Browse earlier coverage below.")} <a href={languageHref('/news#news-archive',language)}>{t("Browse earlier coverage")}</a></p>}{highlights.length>0 && <div className="news-list">{highlights.map(({stream,item,archived})=><NewsCard compact key={stream} story={item} archived={archived} asOf={asOf}/>)}</div>}</>
 }
 function NewsGeography({story}) {const {language}=useLanguage(),t=useT(),codes=story.countries||story.geography?.countries||[];const names=new Intl.DisplayNames([language.toLowerCase()],{type:'region'});return <span className="geography">{codes.length?codes.map(code=>code==='EU'?t('Europe'):names.of(code)).join(', '):t('Europe')}</span>}
-function NewsCard({ story, compact = false, expanded=false }) {
+function NewsCard({ story, compact = false, expanded=false, archived=false, asOf=newsDate() }) {
   const t=useT(),{language}=useLanguage(),event=newsEvent(story)
+  const articleHref=languageHref(`/news/${story.slug}`,language)
   const date=new Intl.DateTimeFormat({EN:'en-GB',DE:'de-DE',FR:'fr-FR',ES:'es-ES',IT:'it-IT'}[language],{day:"numeric",month:"short",year:"numeric"}).format(new Date(story.publication_date+"T12:00:00Z"))
   return <article className={`news-card ${compact ? "compact" : ""}`}>
-    <a className="news-image-link" href={`/news/${story.slug}`} aria-label={t("Read {title}",{title:localizedContentText(story,language,"headline")})}><EditorialVisual item={story} type="news"/></a>
+    <a className="news-image-link" href={articleHref} aria-label={t("Read {title}",{title:localizedContentText(story,language,"headline")})}><EditorialVisual item={story} type="news"/></a>
     <div className="news-card-body">
       <div><span className="category"><I18n text={newsStream(story) || story.category}/></span><NewsGeography story={story}/><time dateTime={story.publication_date}>{date}</time></div>
-      <h3><a href={`/news/${story.slug}`}>{story.format==="SHORT_NEWS_BRIEF"?localizedContentText(story,language,"headline"):<BotanicalText>{localizedContentText(story,language,"headline")}</BotanicalText>}</a></h3>
+      {compact&&<p className="news-coverage-status"><span>{t(archived?'Earlier coverage':'Recent coverage')}</span>{event&&<span>{t(eventStatusLabel(eventStatus(story,asOf)))}</span>}</p>}
+      <h3><a href={articleHref}>{story.format==="SHORT_NEWS_BRIEF"?localizedContentText(story,language,"headline"):<BotanicalText>{localizedContentText(story,language,"headline")}</BotanicalText>}</a></h3>
       {expanded&&<><p className="news-card-summary">{localizedContentText(story,language,"summary")}</p><p className="news-card-source">{t('Source')}: {story.source_name}</p>{event&&<p className="news-card-event">{event.start_date} &ndash; {event.end_date} &middot; {t(eventStatusLabel(eventStatus(story,globalThis.__SEEDTRADE_NEWS_DATE__||newsDate())))}</p>}</>}
-      <a href={`/news/${story.slug}`}><T>Read more →</T></a>
+      <a href={articleHref}><T>Read more →</T></a>
     </div>
   </article>
 }
@@ -464,7 +466,7 @@ function HeroCoverageMetrics() {
 }
 
 function Home() {
-  const t=useT()
+  const t=useT(),{language}=useLanguage()
   const marketCarousel=useCarousel(catalogueSnapshot.length,2500,3,2)
   const productionCrop=market.crops.find(crop=>crop.slug==="red-clover") || market.crops[0], supplyCrop=market.crops.find(crop=>crop.slug==="perennial-ryegrass") || market.crops[0]
   return <>
@@ -481,7 +483,7 @@ function Home() {
       <SignalPanel/>
     </section>
     <main>
-      <section className="top-news"><div className="section-head"><div><p className="eyebrow"><T>Top News</T></p><h2><T>What is changing now</T></h2></div><a href="/news"><T>View all →</T></a></div><DailyNewsHighlights/></section>
+      <section className="top-news"><div className="section-head"><div><p className="eyebrow"><T>Top News</T></p><h2><T>What is changing now</T></h2></div><a href={languageHref('/news',language)}><T>Browse News</T><span aria-hidden="true"> →</span></a></div><DailyNewsHighlights/></section>
       <IntelligenceOverview/><PeriodNote/>
       <section className="market-snapshot" {...marketCarousel.handlers}><div className="section-head"><div><p className="eyebrow"><T>Current market numbers</T></p><h2><T>European Seed Market Snapshot</T></h2></div><a href="/market"><T>All categories →</T></a></div><SnapshotCardTrain cards={catalogueSnapshot} shown={circularSlice(catalogueSnapshot,marketCarousel.position,marketCarousel.visible)}/><div className="carousel-controls"><button className="carousel-pause" type="button" aria-pressed={marketCarousel.manualPaused} onClick={marketCarousel.togglePause}>{t(marketCarousel.manualPaused?"Resume rotation":"Pause rotation")}</button><button type="button" onClick={()=>marketCarousel.move(-1)} aria-label={t("Previous market category")}>←</button><button type="button" onClick={()=>marketCarousel.move(1)} aria-label={t("Next market category")}>→</button></div><p className="rotation-note"><T>Cards advance one position approximately every 2–3 seconds. This is display rotation only.</T></p></section>
       <HomepageEventStrip/><section id="research-insights" className="insights-teaser"><div className="section-head"><div><p className="eyebrow"><T>Research & Partner Insights / Events</T></p><h2><T>Context beyond the numbers</T></h2></div><a href="/insights"><T>View all →</T></a></div><div className="article-grid visual-insights">{featuredInsights(insights).map(a => <ArticleCard key={a.slug} article={a} homepage/>)}</div><PartnerAudience/><p className="muted"><T>Editorial content does not influence Market Signal or quantitative calculations.</T></p></section>

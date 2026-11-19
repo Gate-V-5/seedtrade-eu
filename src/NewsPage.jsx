@@ -4,9 +4,11 @@ import {NEWS_STREAMS,NEWS_FILTER_DEFAULTS,parseNewsFilters,newsFilterUrl,filterN
 import {newsCropLabel} from './newsCropLabels.mjs'
 
 export default function NewsPage({items,registry,asOf,Card,cropLabel=value=>value}) {
- const t=useT(),{language}=useLanguage(),[filters,setFilters]=useState(()=>parseNewsFilters(window.location.search))
- useEffect(()=>{const back=()=>setFilters(parseNewsFilters(window.location.search));window.addEventListener('popstate',back);return()=>window.removeEventListener('popstate',back)},[])
- const change=patch=>{const next={...filters,...patch,page:patch.page??1};window.history.pushState({},'',newsFilterUrl('/news',window.location.search,next));setFilters(next)}
+ // Match the query-neutral static HTML on the first render. Restore deep-link
+ // filters after hydration; otherwise filtered URLs force React to discard SSR.
+ const t=useT(),{language}=useLanguage(),[filters,setFilters]=useState(()=>({...NEWS_FILTER_DEFAULTS}))
+ useEffect(()=>{const back=()=>setFilters(parseNewsFilters(window.location.search));back();window.addEventListener('popstate',back);return()=>window.removeEventListener('popstate',back)},[])
+ const change=patch=>{const next={...filters,...patch,page:patch.page??1};window.history.pushState({...window.history.state},'',newsFilterUrl('/news',window.location.search,next));setFilters(next)}
  const names=new Intl.DisplayNames([language.toLowerCase()],{type:'region'}),country=code=>/^[A-Z]{2}$/.test(code)?names.of(code):code
  const crops=[...new Set(items.flatMap(i=>i.links?.crops||[]))].sort(),countries=[...new Set(items.flatMap(i=>i.countries||i.geography?.countries||[]))].sort()
  const invalidRange=filters.from&&filters.to&&filters.from>filters.to
