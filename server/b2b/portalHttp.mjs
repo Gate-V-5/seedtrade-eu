@@ -23,7 +23,7 @@ async function json(req) {
   if(!body||typeof body!=='object'||Array.isArray(body))throw new B2bError(400,'INVALID_REQUEST');
   return body;
 }
-export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allowedOrigin],resolveClient,enabled=false,memberOnly=false,sellerOnly=false,discoveryOnly=false,communications=false,recoveryEnabled=false,companyReviewEnabled=false,tradingEnabled=false,now=()=>Date.now()}) {
+export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allowedOrigin],resolveClient,enabled=false,memberOnly=false,sellerOnly=false,discoveryOnly=false,communications=false,recoveryEnabled=false,companyReviewEnabled=false,tradingEnabled=false,simpleMarketplace=false,now=()=>Date.now()}) {
   const limit=createB2bRateLimiter({limit:60,now}),authLimit=createB2bRateLimiter({limit:5,windowMs:15*60_000,now});
   const get={'/session':'me','/catalogue':'catalogue','/offers':'offers','/offers/detail':'offerDetail','/enquiries':'enquiries','/messages':'messages','/review-queue':'reviewQueue'};
   const post={'/login':'login','/resend-verification':'resendVerification','/logout':'logout','/profile':'saveProfile',
@@ -31,6 +31,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
     '/offers/save':'saveOffer','/offers/publish':'publishOffer','/offers/close':'closeOffer',
     '/enquiries/send':'sendEnquiry','/enquiries/reply':'reply','/enquiries/close':'closeEnquiry','/companies/review':'reviewCompany'};
   if(tradingEnabled){Object.assign(get,{'/trading/policy':'tradingPolicy','/trading/transactions':'transactions','/trading/detail':'transactionDetail','/trading/preferences':'listingPreference'});Object.assign(post,{'/trading/action':'transactionAction','/trading/preferences':'saveListingPreference'});}
+  if(simpleMarketplace)Object.assign(post,{'/enquiries/confirmation-summary':'enquiryConfirmationSummary','/enquiries/confirm':'confirmEnquiry'});
   return async(req,res)=>{
     let url;try{url=new URL(req.url,'http://localhost');}catch{return false;}
     const prefix='/api/b2b/v1';if(!url.pathname.startsWith(prefix+'/'))return false;
@@ -41,7 +42,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
     const recovery=route.startsWith('/password-reset/');
     const reviewRoutes=companyReviewEnabled?['/review-queue','/companies/review']:[];
     const sellerRoutes=['/login','/session','/logout','/catalogue','/offers','/offers/save','/offers/publish','/offers/close','/password-reset/request','/password-reset/confirm',...(tradingEnabled?Object.keys(get).filter(k=>k.startsWith('/trading/')).concat('/trading/action'):[])];
-    if(discoveryOnly&&![...sellerRoutes,...reviewRoutes,'/offers/detail',...(communications?['/enquiries','/messages','/enquiries/send','/enquiries/reply','/enquiries/close']:[])].includes(route))return respond(404,{error:'NOT_FOUND'});
+    if(discoveryOnly&&![...sellerRoutes,...reviewRoutes,'/offers/detail',...(communications?['/enquiries','/messages','/enquiries/send','/enquiries/reply','/enquiries/close',...(simpleMarketplace?['/enquiries/confirmation-summary','/enquiries/confirm']:[])]:[])].includes(route))return respond(404,{error:'NOT_FOUND'});
     if(sellerOnly&&(!sellerRoutes.includes(route)||(route==='/offers'&&url.searchParams.get('own')!=='true')))return respond(404,{error:'NOT_FOUND'});
     if((recovery&&!recoveryEnabled)||(memberOnly&&!['/login','/session','/logout','/password-reset/request','/password-reset/confirm',...reviewRoutes].includes(route)))return respond(404,{error:'NOT_FOUND'});
     try {
@@ -77,6 +78,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
         // One shared login/resend budget prevents route switching from bypassing the account/IP limit.
         for(const remoteAddress of [address,account])if(!await authLimit({url:'/auth',socket:{remoteAddress}}))return respond(429,{error:'RATE_LIMITED'});
       }
+      if(route==='/enquiries/confirm'&&!await authLimit({url:'/enquiry-confirmation',socket:{remoteAddress:client}}))return respond(429,{error:'RATE_LIMITED'});
       if(route==='/login') {
         const result=await service.login(input,token);const {sessionToken,...safe}=result;
         return respond(200,safe,{'Set-Cookie':cookie(sessionToken)});

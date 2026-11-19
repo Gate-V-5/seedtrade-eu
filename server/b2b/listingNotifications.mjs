@@ -5,7 +5,7 @@ const types={EN:['Certified seed','Commodity'],DE:['Zertifiziertes Saatgut','Han
 export function listingEmail(job,{origin,from}){
  const base=new URL(origin);if(base.protocol!=='https:'||base.origin!==origin||base.username||base.password||!/^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/.test(job.email)||typeof from!=='string'||/[\r\n]/.test(from)||!Number.isSafeInteger(job.offerId)||job.offerId<1)throw Error('INVALID_LISTING_NOTICE');
  const lang=Object.hasOwn(copy,job.language)?job.language:'EN',url=new URL('/b2b/account',origin);url.searchParams.set('view','marketplace');url.searchParams.set('offer',String(job.offerId));url.searchParams.set('lang',lang.toLowerCase());
- const settings=new URL('/b2b/account',origin);settings.searchParams.set('view','transactions');settings.searchParams.set('lang',lang.toLowerCase());
+ const settings=new URL('/b2b/account',origin);settings.searchParams.set('view',job.simpleWorkflow?'seller':'transactions');if(job.simpleWorkflow)settings.hash='listing-notifications';settings.searchParams.set('lang',lang.toLowerCase());
  const safe=v=>String(v).replace(/[\r\n\x00-\x1f]/g,' ').slice(0,200);
  return {from,to:job.email,subject:'SEEDTRADE.EU — '+copy[lang][0],text:[copy[lang][0],directions[lang][job.direction==='BUY_REQUEST'?1:0],job.productType?types[lang][job.productType==='COMMODITY'?1:0]:'',safe(job.product),job.quantity!=null?safe(job.quantity)+' '+safe(job.unit):'',job.price!=null?safe(job.price)+' '+safe(job.currency)+'/'+safe(job.unit):'',url.href,copy[lang][1]+': '+settings.href].filter(Boolean).join('\n'),disableFileAccess:true,disableUrlAccess:true};
 }

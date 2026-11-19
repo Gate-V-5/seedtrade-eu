@@ -5,7 +5,8 @@ import {decryptMfa,mfaCounter} from './adminMfa.mjs';
 export const ADMIN_COOKIE='__Host-seedtrade_platform_admin';
 export const ADMIN_SESSION_SECONDS=30*60;
 const fail=(status,code)=>{throw new B2bError(status,code);};
-export function createAdminService({repository,passwordHasher,key,now=()=>Date.now()}){
+export function createAdminService({repository,passwordHasher,key,memberManagerAdminIds=[],now=()=>Date.now()}){
+ if(!Array.isArray(memberManagerAdminIds)||memberManagerAdminIds.some(id=>typeof id!=='string'||!/^[a-f0-9]{32}$/.test(id))||new Set(memberManagerAdminIds).size!==memberManagerAdminIds.length)throw Error('INVALID_MEMBER_MANAGEMENT_ASSIGNMENT');
  let dummy;
  const audit=(tx,a,action)=>tx.appendAudit({actorUserId:null,adminActorId:a.id,companyId:null,action,entityType:'platform_admin',entityId:a.id});
  const authenticate=async(tx,token)=>{
@@ -14,7 +15,10 @@ export function createAdminService({repository,passwordHasher,key,now=()=>Date.n
   const conflicts=await tx.adminConflicts(a);
   return {adminId:a.id,platformAdmin:true,conflictCompanyIds:conflicts};
  };
+ const permissions=id=>['company:review',...(memberManagerAdminIds.includes(id)?['member:manage']:[])];
  return {authenticate,
+  managedMembers:(token,input)=>repository.transaction(async tx=>{const a=await authenticate(tx,token);if(!memberManagerAdminIds.includes(a.adminId))fail(403,'MEMBER_MANAGEMENT_ASSIGNMENT_REQUIRED');if(typeof input.query!=='string'||input.query.trim().length<2||input.query.length>100)fail(400,'INVALID_REQUEST');return {items:await tx.findManagedMembers(input.query.trim())};}),
+  setCompanyAccess:(token,input)=>repository.transaction(async tx=>{const a=await authenticate(tx,token);if(!memberManagerAdminIds.includes(a.adminId))fail(403,'MEMBER_MANAGEMENT_ASSIGNMENT_REQUIRED');if(!Number.isSafeInteger(input.companyId)||input.companyId<1||typeof input.suspended!=='boolean'||typeof input.reason!=='string'||input.reason.trim().length<3||input.reason.length>200)fail(400,'INVALID_REQUEST');const c=await tx.companyForReview(input.companyId);if(!c)fail(404,'NOT_FOUND');if(c.version!==input.version)fail(409,'RELOAD_REQUIRED');const profile=typeof c.profile==='string'?JSON.parse(c.profile):c.profile??{};await tx.saveProfile({companyId:c.companyId,legalName:c.legalName,country:c.country,number:c.number,profile:{...profile,accessSuspended:input.suspended},version:c.version});await tx.revokeCompanySessions(c.companyId);await tx.appendAudit({actorUserId:null,adminActorId:a.adminId,companyId:c.companyId,action:input.suspended?'MEMBER_COMPANY_SUSPENDED':'MEMBER_COMPANY_ACCESS_REVIEW',entityType:'access_reason',entityId:input.reason.trim()});return {status:'PENDING_INDEPENDENT_REVIEW',suspended:input.suspended};}),
   async login(input){
    let email;try{email=normalizeEmail(input.email);}catch{email='invalid@example.invalid';}
    const validPassword=typeof input.password==='string'&&input.password.length>=12&&input.password.length<=1024;
@@ -30,11 +34,11 @@ export function createAdminService({repository,passwordHasher,key,now=()=>Date.n
     await tx.adminConflicts(current); // Missing real authorization/conflict record fails closed.
     await tx.adminSuccess(current.id,counter);
     const token=randomBytes(32).toString('hex');await tx.adminInsertSession({hash:sessionHash(token),id:current.id,version:current.auth_version,expires:new Date(now()+ADMIN_SESSION_SECONDS*1000)});
-    await audit(tx,current,'ADMIN_LOGIN_MFA');return {sessionToken:token,csrfToken:csrfForSession(token),permissions:['company:review']};
+    await audit(tx,current,'ADMIN_LOGIN_MFA');return {sessionToken:token,csrfToken:csrfForSession(token),permissions:permissions(current.id)};
    });
    if(!result)fail(401,'INVALID_ADMIN_CREDENTIALS');return result;
   },
-  me:token=>repository.transaction(async tx=>{await authenticate(tx,token);return {permissions:['company:review'],csrfToken:csrfForSession(token)};}),
+  me:token=>repository.transaction(async tx=>{const a=await authenticate(tx,token);return {permissions:permissions(a.adminId),csrfToken:csrfForSession(token)};}),
   logout:token=>repository.transaction(async tx=>{const a=await authenticate(tx,token);await tx.adminLogout(sessionHash(token));await audit(tx,{id:a.adminId},'ADMIN_LOGOUT');return {status:'SIGNED_OUT'};})
  };
 }

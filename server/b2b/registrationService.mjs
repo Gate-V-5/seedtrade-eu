@@ -1,3 +1,4 @@
+import {randomBytes} from 'node:crypto';
 import {currentLegalRegistry,validateLegalAcceptance,appendLegalAcceptance} from './legalAcceptance.mjs';
 // Integrated B2B registration workflow, used by the gated staging runtime.
 // Inject a vetted password hasher, a transactional repository and an email sender.
@@ -9,16 +10,18 @@ function requireDependency(value, method) {
   if (!value || typeof value[method] !== 'function') throw new TypeError('MISSING_B2B_DEPENDENCY');
 }
 
-export function createRegistrationService({repository, passwordHasher, mailer, legalRegistry=currentLegalRegistry, now = () => Date.now()}) {
+export function createRegistrationService({repository, passwordHasher, mailer, legalRegistry=currentLegalRegistry, now = () => Date.now(),simpleRegistration=false}) {
   requireDependency(repository, 'transaction');
   requireDependency(passwordHasher, 'hash');
   requireDependency(mailer, 'sendVerification');
   return {
     async register(input) {
-      const {email,password,company}=input;
+      const {email,company}=input;
+      const password=simpleRegistration?randomBytes(32).toString('hex'):input.password;
       const accepted=validateLegalAcceptance(input,legalRegistry);
       const normalizedEmail = normalizeEmail(email);
       const normalizedCompany = normalizeRegistrationCompany(company);
+      if(simpleRegistration){if(!normalizedCompany.registrationNumber)throw new TypeError('INVALID_COMPANY');const names=['contactFirstName','contactLastName'];for(const n of names)if(typeof company[n]!=='string'||!company[n].trim()||company[n].length>100||/[<>\x00-\x1f]/.test(company[n]))throw new TypeError('INVALID_CONTACT_NAME');if(company.vat!=null&&(typeof company.vat!=='string'||company.vat.length>50||/[<>\x00-\x1f]/.test(company.vat)))throw new TypeError('INVALID_VAT');normalizedCompany.registrationContact={contactFirstName:company.contactFirstName.trim(),contactLastName:company.contactLastName.trim(),vat:company.vat??''};}
       if (typeof password !== 'string' || password.length < 12 || password.length > 1024)
         throw new TypeError('INVALID_PASSWORD');
       const passwordHash = await passwordHasher.hash(password);
@@ -51,7 +54,8 @@ export function createRegistrationService({repository, passwordHasher, mailer, l
       return {...result, status: 'PENDING_EMAIL_VERIFICATION'};
     },
 
-    async verifyEmail({userId, token}) {
+    async verifyEmail({userId, token,password}) {
+      const passwordHash=simpleRegistration?await passwordHasher.hash(password):null;
       if (!Number.isSafeInteger(userId) || userId < 1) throw new TypeError('INVALID_USER_ID');
       const tokenHash = hashVerificationToken(token);
       return repository.transaction(async tx => {
@@ -63,6 +67,7 @@ export function createRegistrationService({repository, passwordHasher, mailer, l
         const consumed = await tx.consumeEmailVerification({userId, tokenHash});
         if (consumed !== true) return {status: 'INVALID_OR_EXPIRED'};
         await tx.markEmailVerified({userId});
+        if(simpleRegistration)await tx.replacePassword({userId,passwordHash});
         await tx.appendAudit({actorUserId: userId, companyId: null, action: 'EMAIL_VERIFIED',
           entityType: 'user', entityId: String(userId)});
         return {status: 'EMAIL_VERIFIED'};

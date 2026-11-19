@@ -1,3 +1,4 @@
+import {simpleTerms} from '../../shared/simpleBrokerageTerms.mjs';
 import {brokerageOperators,brokeragePermissions,defaultBroker} from './brokerageOperators.mjs';
 import {digest} from './legalAcceptance.mjs';
 import {commissionTerms,commissionTermsHash,decimal,executedValue,totals} from './commissionTerms.mjs';
@@ -5,8 +6,9 @@ import {offerCurrencies} from './offerOptions.mjs';
 export const DOCUMENT_TYPES=['ENQUIRY_SUMMARY','NEGOTIATION_SUMMARY','ORDER_CONFIRMATION','TRANSACTION_CONFIRMATION','FULFILMENT_RECORD','COMMISSION_STATEMENT','COMMISSION_INVOICE_DRAFT'];
 const asObject=v=>typeof v==='string'?JSON.parse(v):v??{};
 // This candidate deliberately has no production enable switch or invoice-issuance function.
-export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.now(),catalogue=[]}={}){
+export function createTradingWorkflow({localOnly=false,simple=false,ErrorType,now=()=>Date.now(),catalogue=[]}={}){
  if(localOnly!==true||typeof ErrorType!=='function')throw Error('TRADING_LOCAL_ONLY');
+ const activeTerms=simple?simpleTerms:commissionTerms,activeHash=simple?digest(simpleTerms):commissionTermsHash;
  const fail=(status,code)=>{throw new ErrorType(status,code);};
  const reference=v=>{if(typeof v!=='string'||v.length<3||v.length>200||/[<>\x00-\x1f]/.test(v))fail(400,'EVIDENCE_REFERENCE_REQUIRED');return v.trim();};
  const clock=()=>new Date(now()).toISOString();
@@ -22,12 +24,12 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
     const snapshot={listingSnapshot:r.listingSnapshot,transactionId:r.id,listingId:r.listingId,enquiryId:r.enquiryId,buyerCompanyId:r.buyerCompanyId,buyerName:r.buyerName,sellerCompanyId:r.sellerCompanyId,sellerName:r.sellerName,payerCompanyId:r.payerCompanyId,operator:r.operator,agreement:r.agreement,deliveries:r.deliveries,commission:totals(r.deliveries),commissionTermsHash:r.commissionAcceptance.termsHash,transactionVersion:r.version,status:r.status};
     const doc={kind:kind,version:r.documents.filter(d=>d.kind===kind).length+1,status:'DRAFT_NOT_ISSUED',generatedAt:clock(),snapshot:structuredClone(snapshot)};doc.hash=digest(doc);r.documents.push(doc);
  };
- const policy={terms:commissionTerms,hash:commissionTermsHash,localOnly:true,publicationApproved:false};
+ const policy={terms:activeTerms,hash:activeHash,localOnly:true,publicationApproved:false,simpleWorkflow:simple};
  return {
   policy,
   async beforePublish(tx,a,offer,input){
-   if(input.commissionAccepted!==true||input.commissionTermsHash!==commissionTermsHash)fail(400,'COMMISSION_ACCEPTANCE_REQUIRED');manager(a);
-   const acceptance={companyId:a.company.id,userId:a.user.id,listingId:offer.id,listingVersion:offer.version+1,termsVersion:commissionTerms.version,termsHash:commissionTermsHash,terms:commissionTerms,acceptedAt:clock(),scope:'LOCAL_DRAFT_TERMS_TEST_ONLY'};
+   if(input.commissionAccepted!==true||input.commissionTermsHash!==activeHash)fail(400,'COMMISSION_ACCEPTANCE_REQUIRED');manager(a);
+   const acceptance={companyId:a.company.id,userId:a.user.id,listingId:offer.id,listingVersion:offer.version+1,termsVersion:activeTerms.version,termsHash:activeHash,terms:activeTerms,acceptedAt:clock(),scope:'LOCAL_DRAFT_TERMS_TEST_ONLY'};
    await tx.setCommissionAcceptance({id:offer.id,companyId:a.company.id,version:offer.version,acceptance});
    await tx.appendAudit({actorUserId:a.user.id,companyId:a.company.id,action:'COMMISSION_TERMS_ACCEPTED',entityType:'offer',entityId:String(offer.id)});
   },
@@ -37,13 +39,13 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
     const details=asObject(offer.details);
     await tx.enqueueListingNotice({offerId:offer.id,offerVersion:offer.version+1,userId:recipient.userId,email:recipient.email,language:recipient.language,
      direction:details.listingDirection??'OFFER',productType:details.productType??null,product:catalogue.find(c=>c.id===offer.cropId)?.name??offer.cropId,
-     cropId:offer.cropId,quantity:offer.quantity,unit:offer.unit,price:offer.priceAmount,currency:offer.currency});
+     cropId:offer.cropId,simpleWorkflow:simple,quantity:offer.quantity,unit:offer.unit,price:offer.priceAmount,currency:offer.currency});
    }
   },
   async introduced(tx,a,offer,enquiryId,input){
    const existing=await tx.tradingRecord(enquiryId);if(existing)return existing;
    const d=asObject(offer.details),acceptance=d.commissionAcceptance;
-   if(!acceptance||acceptance.termsHash!==commissionTermsHash||digest(acceptance.terms)!==acceptance.termsHash||acceptance.companyId!==offer.companyId||acceptance.listingId!==offer.id||acceptance.listingVersion!==offer.version)fail(409,'LISTING_COMMISSION_ACCEPTANCE_REQUIRED');
+   if(!acceptance||acceptance.termsHash!==activeHash||digest(acceptance.terms)!==acceptance.termsHash||acceptance.companyId!==offer.companyId||acceptance.listingId!==offer.id||acceptance.listingVersion!==offer.version)fail(409,'LISTING_COMMISSION_ACCEPTANCE_REQUIRED');
    const demand=d.listingDirection==='BUY_REQUEST';
    const owner=await tx.companyForReview(offer.companyId);
    const r={id:'ST-'+enquiryId,enquiryId,listingId:offer.id,ownerCompanyId:offer.companyId,respondingCompanyId:a.company.id,
@@ -57,7 +59,7 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
    await tx.saveTradingRecord(r,null);await audit(tx,a,'TRADE_INTRODUCED',r);return r;
   },
   async list(tx,a,input){const after=input.after??0;if(!Number.isSafeInteger(after)||after<0)fail(400,'INVALID_REQUEST');const rows=await tx.listTradingRecords(a.company.id,after);return {items:rows.slice(0,50).map(r=>({id:r.id,enquiryId:r.enquiryId,buyerName:r.buyerName,sellerName:r.sellerName,status:r.status,updatedAt:r.updatedAt})),next:rows.length>50?rows[49].enquiryId:null};},
-  async detail(tx,a,input){const r=await tx.tradingRecord(recordId(input.id));participant(r,a);return {transaction:r};},
+  async detail(tx,a,input){const r=await tx.tradingRecord(recordId(input.id));participant(r,a);if(simple&&r.enquiryConfirmation){const c=r.enquiryConfirmation;r.enquiryConfirmation={state:c.state,confirmedAt:c.confirmedAt??null,summaryHash:c.summaryHash,version:c.version};}return {transaction:r};},
   async preference(tx,a,input,save=false){
    if(!save)return {preference:await tx.listingPreference(a.user.id)};
    if(typeof input.enabled!=='boolean'||!['EN','DE','FR','ES','IT'].includes(input.language)||!Array.isArray(input.cropIds)||input.cropIds.length>100||input.cropIds.some(id=>!catalogue.some(c=>c.id===id))||new Set(input.cropIds).size!==input.cropIds.length)fail(400,'INVALID_REQUEST');
@@ -65,6 +67,7 @@ export function createTradingWorkflow({localOnly=false,ErrorType,now=()=>Date.no
    await tx.appendAudit({actorUserId:a.user.id,companyId:a.company.id,action:input.enabled?'LISTING_NOTICES_OPT_IN':'LISTING_NOTICES_OPT_OUT',entityType:'user',entityId:String(a.user.id)});return {saved:true};
   },
   async action(tx,a,input){
+   if(simple)fail(409,'MANUAL_BROKERAGE_ONLY');
    const r=await tx.tradingRecord(recordId(input.id));participant(r,a);manager(a);
    if(!Number.isSafeInteger(input.version)||input.version<0||typeof input.requestId!=='string'||!/^[a-zA-Z0-9_-]{16,128}$/.test(input.requestId))fail(400,'INVALID_REQUEST');
    const {version:ignoredVersion,...operation}=input;const fingerprint=digest(operation),prior=r.operations.find(o=>o.key===input.requestId);

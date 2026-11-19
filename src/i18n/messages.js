@@ -1,3 +1,4 @@
+import {simpleRows} from '../b2b/simpleMessages.mjs'
 import {marketplaceStage6Rows} from './marketplaceStage6Messages.js'
 import {eventsRows} from './eventsMessages.js'
 import {partnerInsightsRows} from './partnerInsightsMessages.js'
@@ -837,4 +838,4 @@ const existingRows=[...partnerInsightsRows,...priceCardRows,...marketBriefingRow
 const existingKeys=new Set(existingRows.map(row=>row[0]))
 const preservedRows=[...existingRows,...[...stage3Rows,...stage3CoverageRows,...currentSignalRows,...multiCropRows,...integratedStage3Rows,...eventsRows].filter(row=>!existingKeys.has(row[0]))]
 const preservedKeys=new Set(preservedRows.map(row=>row[0]))
-export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...preservedRows,...marketplaceStage6Rows.filter(row=>!preservedKeys.has(row[0]))].map(row => [row[0], row[index + 1]]))]))
+export const messages = Object.fromEntries(codes.map((code, index) => [code, Object.fromEntries([...preservedRows,...[...marketplaceStage6Rows,...simpleRows].filter(row=>!preservedKeys.has(row[0]))].map(row => [row[0], row[index + 1]]))]))

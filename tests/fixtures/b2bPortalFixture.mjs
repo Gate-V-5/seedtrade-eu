@@ -12,13 +12,14 @@ export function portalFixture() {
     let release;const previous=queue;queue=new Promise(resolve=>{release=resolve;});await previous;
     const snapshot=structuredClone(state);
     const tx={
-      async insertCompany(c){if([...state.companies.values()].some(x=>x.country===c.registrationCountry&&x.number===c.registrationNumber))duplicate();const companyId=++state.counter.company;state.companies.set(companyId,{companyId,legalName:c.legalName,country:c.registrationCountry,number:c.registrationNumber,status:'PENDING',profile:null,version:0});return companyId;},
+      async insertCompany(c){if([...state.companies.values()].some(x=>x.country===c.registrationCountry&&x.number===c.registrationNumber))duplicate();const companyId=++state.counter.company;state.companies.set(companyId,{companyId,legalName:c.legalName,country:c.registrationCountry,number:c.registrationNumber,status:'PENDING',profile:c.registrationContact?{registeredAddress:c.registeredAddress,...c.registrationContact}:null,version:0});return companyId;},
       async insertUser(u){if([...state.users.values()].some(x=>x.email===u.email))duplicate();const id=++state.counter.user;state.users.set(id,{id,...u,verifiedAt:null});return id;},
       async insertCompanyMember(m){state.members.push(structuredClone(m));},
       async insertEmailVerification(t){state.tokens.push({...structuredClone(t),consumedAt:null});},
       async consumeEmailVerification(t){const token=state.tokens.find(x=>x.userId===t.userId&&x.tokenHash===t.tokenHash&&!x.consumedAt&&x.expiresAt.getTime()>clock);if(!token)return false;token.consumedAt=clock;return true;},
       async markEmailVerified({userId}){state.users.get(userId).verifiedAt=clock;},
       async appendAudit(a){if(faults.audit)throw Error('synthetic private driver details');state.audit.push(structuredClone(a));},
+      async replacePassword({userId,passwordHash}){state.users.get(userId).passwordHash=passwordHash;for(const [key,s]of state.sessions)if(s.userId===userId)state.sessions.delete(key);},
       async findLogin(email){return structuredClone([...state.users.values()].find(u=>u.email===email)??null);},
       async insertSession(s){for(const [key,value]of state.sessions)if(value.userId===s.userId&&value.expiresAt.getTime()<=clock)state.sessions.delete(key);state.sessions.set(s.tokenHash,structuredClone(s));},
       async revokeSession(hash){state.sessions.delete(hash);},

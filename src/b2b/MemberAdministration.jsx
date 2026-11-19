@@ -1,0 +1,10 @@
+import React,{useState} from 'react';
+import {useT} from '../i18n/index.jsx';
+import {b2bFetch} from './apiFetch.mjs';
+export default function MemberAdministration({session}){
+ const t=useT(),[query,setQuery]=useState(''),[reason,setReason]=useState(''),[items,setItems]=useState([]),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ async function request(path,input){const r=await b2bFetch('/api/b2b/v1/admin/'+path,input?{method:'POST',headers:{'Content-Type':'application/json','X-SeedTrade-CSRF':session.csrfToken},body:JSON.stringify(input)}:{});const d=await r.json();if(!r.ok)throw Error('Changes not saved. Please try again.');return d;}
+ async function search(e){e.preventDefault();if(busy)return;setBusy(true);setError('');try{setItems((await request('members?query='+encodeURIComponent(query))).items);}catch(e){setError(e.message);}finally{setBusy(false);}}
+ async function access(item){if(busy||reason.trim().length<3)return;setBusy(true);setError('');try{await request('members/access',{companyId:item.companyId,version:item.version,suspended:item.suspended!==true&&item.suspended!==1,reason});setItems([]);setReason('');}catch(e){setError(e.message);}finally{setBusy(false);}}
+ return <section className="company-review-card"><h2>{t('Member administration')}</h2><p>{t('Deletion and retention requests use the existing scoped manual procedures.')}</p><form onSubmit={search}><label>{t('Company or email')}<input value={query} onChange={e=>setQuery(e.target.value)} minLength={2} maxLength={100} required/></label><button disabled={busy}>{t('Search')}</button></form><label>{t('Reason')}<input value={reason} onChange={e=>setReason(e.target.value)} minLength={3} maxLength={200}/></label><ul>{items.map(i=><li key={i.userId}><strong>{i.legalName}</strong> — {i.email} <button disabled={busy||reason.trim().length<3} onClick={()=>access(i)}>{t(i.suspended===true||i.suspended===1?'Restore access for review':'Suspend company access')}</button></li>)}</ul>{error&&<p role="status">{t(error)}</p>}</section>;
+}

@@ -1,3 +1,4 @@
+import {createEnquiryConfirmation} from '../../server/b2b/enquiryConfirmation.mjs';
 import {brokeragePermissions} from '../../server/b2b/brokerageOperators.mjs';
 import {approvedFixture} from './b2bPortalFixture.mjs';
 import {createB2bPortalService,B2bError} from '../../server/b2b/portalService.mjs';
@@ -5,7 +6,7 @@ import {createTradingWorkflow} from '../../server/b2b/tradingWorkflow.mjs';
 import {createListingNotifications} from '../../server/b2b/listingNotifications.mjs';
 import {createMarketplaceNotifications} from '../../server/b2b/marketplaceNotifications.mjs';
 import {createTradingAdmin} from '../../server/b2b/tradingAdmin.mjs';
-export async function tradingFixture(){
+export async function tradingFixture({simple=false}={}){
  const f=await approvedFixture(),{h}=f;
  h.state.trades=new Map();h.state.preferences=new Map();h.state.listingJobs=new Map();h.state.listingCounter=0;
  const base=h.repository.transaction.bind(h.repository);
@@ -23,12 +24,13 @@ export async function tradingFixture(){
   async finishListingNotice(id,status){h.state.listingJobs.get(id).status=status;}
  })));
  const delivered=[],transport={async sendMail(m){delivered.push(m);return {accepted:[m.to],rejected:[]};}};
- const workflow=createTradingWorkflow({localOnly:true,ErrorType:B2bError,now:h.options.now,catalogue:h.catalogue});
+ const workflow=createTradingWorkflow({localOnly:true,simple,ErrorType:B2bError,now:h.options.now,catalogue:h.catalogue});
  const notices=createListingNotifications({repository:h.repository,transport,from:'network@seedtrade.eu',origin:'https://staging.seedtrade.eu'});
  const notifications=createMarketplaceNotifications({repository:h.repository,transport,from:'network@seedtrade.eu',origin:'https://staging.seedtrade.eu'});
- const service=createB2bPortalService({...h.options,trading:workflow,listingDelivery:notices,notifications,communications:true});
+ const confirmation=simple?createEnquiryConfirmation({repository:h.repository,transport,from:'network@seedtrade.eu',origin:'https://staging.seedtrade.eu',operatorRecipient:{email:'operations@example.invalid',verified:true,evidenceRef:'ISOLATED_SYNTHETIC_FIXTURE_ONLY'},now:h.options.now,ErrorType:B2bError}):null;
+ const service=createB2bPortalService({...h.options,trading:workflow,listingDelivery:notices,notifications,communications:true,enquiryConfirmation:confirmation});
  h.state.companies.get(f.admin.company.id).status='VERIFIED';
  const brokerToken='f'.repeat(64),auth={async authenticate(tx,token){if(token!==brokerToken)throw new B2bError(401,'SIGN_IN_REQUIRED');return {adminId:99,platformAdmin:true,conflictCompanyIds:[]};}};
  const bindings=[{adminId:99,companyId:f.admin.company.id,operatorKey:'GATE_V',permissions:[...new Set(Object.values(brokeragePermissions))]}],admin=createTradingAdmin({repository:h.repository,auth,workflow,bindings,ErrorType:B2bError});
- return {...f,memberAdmin:f.admin,operatorCompanyId:f.admin.company.id,service,workflow,notices,notifications,delivered,transport,admin,auth,bindings,brokerToken};
+ return {...f,confirmation,memberAdmin:f.admin,operatorCompanyId:f.admin.company.id,service,workflow,notices,notifications,delivered,transport,admin,auth,bindings,brokerToken};
 }

@@ -1,10 +1,11 @@
+import SimpleEmailVerification from './SimpleEmailVerification.jsx';
 import {useT} from '../i18n/index.jsx';
 import {useEffect, useRef, useState} from 'react';
 import {confirmB2bEmail} from './confirmEmail.mjs';
 import B2bLanguageNotice from './B2bLanguageNotice.jsx';
 
 // Isolated confirmation view. Does not enable the registration API.
-export default function B2bVerifyEmail() {
+export function LegacyEmailVerification({originalUrl}) {
   const t=useT();
   const [status, setStatus] = useState('VERIFYING');
   const pending = useRef(null);
@@ -14,7 +15,7 @@ export default function B2bVerifyEmail() {
     // Do not abort the first request and accidentally lose its one-time token.
     if (!pending.current) {
       pending.current = confirmB2bEmail({
-        location: window.location,
+        location: {href:originalUrl??window.location.href},
         history: window.history,
         fetcher: window.fetch.bind(window)
       });
@@ -42,3 +43,5 @@ export default function B2bVerifyEmail() {
     <B2bLanguageNotice/>
   </main>;
 }
+
+export default function B2bVerifyEmail(){const [mode,setMode]=useState(null);const initial=useRef(null);useEffect(()=>{if(initial.current===null){initial.current=window.location.href;window.history.replaceState(window.history.state,'',window.location.pathname+window.location.search);}fetchStatus();async function fetchStatus(){try{const {b2bFetch}=await import('./apiFetch.mjs');const r=await b2bFetch('/api/b2b/v1/status');const s=await r.json();setMode(s.registrationPasswordAfterVerification===true);}catch{setMode(false);}}},[]);return mode===null?null:mode?<SimpleEmailVerification originalUrl={initial.current}/>:<LegacyEmailVerification originalUrl={initial.current}/>;}

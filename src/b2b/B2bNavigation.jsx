@@ -4,7 +4,7 @@ import {useLanguage,useT} from '../i18n/index.jsx';
 import {b2bFetch} from './apiFetch.mjs';
 import './navigation.css';
 
-export default function B2bNavigation(){
+export default function B2bNavigation({onAuthenticated}={}){
   const t=useT(),{language}=useLanguage(),trigger=useRef(null),dialog=useRef(null),sending=useRef(false);
   const [open,setOpen]=useState(false),[view,setView]=useState('login'),[availability,setAvailability]=useState(null),[busy,setBusy]=useState(false),[show,setShow]=useState(false),[feedback,setFeedback]=useState('');
   const close=()=>{dialog.current?.close();setOpen(false);setShow(false);setFeedback('');trigger.current?.focus();};
@@ -29,7 +29,7 @@ export default function B2bNavigation(){
     try{
       const response=await b2bFetch(view==='login'?'/api/b2b/v1/login':'/api/b2b/v1/password-reset/request',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:data.get('email'),...(view==='login'?{password:data.get('password')}:{}),uiLanguage:language})});
       const result=await response.json();
-      if(view==='login'&&response.ok&&result.user&&result.csrfToken){form.reset();close();window.location.assign('/b2b/account?lang='+language.toLowerCase());return;}
+      if(view==='login'&&response.ok&&result.user&&result.csrfToken){form.reset();close();if(onAuthenticated){onAuthenticated(result);return;}window.location.assign('/b2b/account?lang='+language.toLowerCase());return;}
       if(view!=='login'&&response.status===202&&result.status==='REQUEST_ACCEPTED'){
         form.reset();setFeedback('If an eligible account exists, a password-reset link will be sent from network@seedtrade.eu.');
       }else if(response.status===429)setFeedback('Too many attempts. Please try again later.');

@@ -29,7 +29,7 @@ const company=row=>({id:id(row.companyId),legalName:row.legalName,country:row.co
   reviewReason:['MORE_INFO','REJECTED'].includes(row.status)&&typeof row.reviewReason==='string'?row.reviewReason.slice(0,100):null});
 const page=rows=>({items:rows.slice(0,50),next:rows.length>50?rows[49].id:null});
 
-export function createB2bPortalService({repository,passwordHasher,mailer,catalogue=[],memberOnly=false,communications=false,adminUserIds=[],reviewActor=null,notifications=null,trading=null,listingDelivery=null,now=()=>Date.now()}) {
+export function createB2bPortalService({repository,passwordHasher,mailer,catalogue=[],memberOnly=false,communications=false,adminUserIds=[],reviewActor=null,notifications=null,trading=null,listingDelivery=null,enquiryConfirmation=null,now=()=>Date.now()}) {
   const crops=new Map(catalogue.map(c=>[c.id,c]));
   if((!memberOnly&&!crops.size)||new Set(adminUserIds).size!==adminUserIds.length||adminUserIds.some(n=>!Number.isSafeInteger(n)||n<1))throw Error('B2B_PORTAL_CONFIGURATION');
   const admins=new Set(adminUserIds);
@@ -51,7 +51,7 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     const row=await tx.sessionContext(sessionHash(token));
     if(!row||!row.verifiedAt)fail(401,'SIGN_IN_REQUIRED');
     if(!['MEMBER','COMPANY_ADMIN'].includes(row.role))fail(403,'MEMBERSHIP_REQUIRED');
-    id(row.userId);const c=company(row);
+    id(row.userId);const c=company(row);if(c.profile?.accessSuspended===true)fail(403,'COMPANY_ACCESS_SUSPENDED');
     return {user:{id:row.userId,email:row.email},company:c,role:row.role,platformAdmin:admins.has(row.userId)};
   };
   const withActor=(token,work)=>repository.transaction(async tx=>work(tx,await actor(tx,token)));
@@ -109,7 +109,8 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
   };
   const participant=async(tx,a,enquiryId)=>{
     const item=await tx.enquiryForUpdate(id(enquiryId));
-    if(!item||![item.buyerCompanyId,item.sellerCompanyId].includes(a.company.id))fail(404,'NOT_FOUND');return item;
+    if(!item||![item.buyerCompanyId,item.sellerCompanyId].includes(a.company.id))fail(404,'NOT_FOUND');    if(enquiryConfirmation){const r=await tx.tradingRecord(item.id);if(r?.enquiryConfirmation?.state!=="CONFIRMED"&&r?.respondingCompanyId!==a.company.id)fail(404,'NOT_FOUND');}
+return item;
   };
   const previousOperation=async(tx,operation)=>{
     const old=await tx.marketplaceOperation(operation);
@@ -136,7 +137,9 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
   };
   const afterCommit=async(work)=>{
     const result=await work;
-    const {notificationId,notificationState,...response}=result;
+    const {notificationId,notificationState,confirmationToken,...response}=result;
+    if(enquiryConfirmation&&confirmationToken){const sent=await enquiryConfirmation.deliverConfirmation(response.id,confirmationToken);response.confirmationMailStatus=sent.status;}
+    if(enquiryConfirmation&&response.operatorNotificationPending){delete response.operatorNotificationPending;response.operatorMailStatus=(await enquiryConfirmation.deliverOperator(response.id)).status;}
     if(notificationId) {
       let status=notificationState;
       if(!status||status==='PENDING')try{status=(await notifications.deliver(notificationId)).status;}catch{status='UNKNOWN';}
@@ -145,6 +148,10 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     return response;
   };
   return {
+    ...(enquiryConfirmation?{
+      enquiryConfirmationSummary:(token,input)=>withActor(token,(tx,a)=>enquiryConfirmation.view(tx,a,input)),
+      confirmEnquiry:(token,input)=>afterCommit(withActor(token,(tx,a)=>enquiryConfirmation.confirm(tx,a,input)))
+    }:{}),
     ...(trading?{
       tradingPolicy:token=>withActor(token,async(tx,a)=>{verified(a);return trading.policy;}),
       transactions:(token,input)=>withActor(token,async(tx,a)=>{verified(a);return trading.list(tx,a,input);}),
@@ -281,33 +288,36 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
       verified(a);const offer=await tx.offerForUpdate(id(input.offerId));
       if(!offer||offer.status!=='PUBLISHED'||offer.companyStatus!=='VERIFIED'||offer.validUntil<new Date(now()).toISOString().slice(0,10)||!crops.has(offer.cropId))fail(404,'NOT_FOUND');
       if(!canCreateEnquiry({companyStatus:a.company.status,memberRole:a.role,buyerCompanyId:a.company.id,sellerCompanyId:offer.companyId}))fail(403,'ENQUIRY_FORBIDDEN');
-      const body=text(input.body,2000,true),quantity=input.requestedQuantity??(communications?null:Number(offer.quantity)),unit=input.requestedUnit??(communications?null:offer.unit);
+      const body=text(input.body??'',2000,!enquiryConfirmation),quantity=input.requestedQuantity??(communications?null:Number(offer.quantity)),unit=input.requestedUnit??(communications?null:offer.unit);
       if(typeof quantity!=='number'||!Number.isFinite(quantity)||quantity<=0||quantity>1e9||Math.abs(quantity*1000-Math.round(quantity*1000))>1e-5||!['kg','t'].includes(unit))fail(400,'INVALID_REQUEST');
       const buyerLanguage=input.uiLanguage??'EN';if(!['EN','DE','FR','ES','IT'].includes(buyerLanguage))fail(400,'INVALID_REQUEST');
       if(communications&&!notifications)fail(503,'TEMPORARILY_UNAVAILABLE');
       const content=trading?JSON.stringify({body,quantity,unit,proposedPrice:input.proposedPrice??null,proposedDeliveryTerms:input.proposedDeliveryTerms??null}):input.requestedQuantity==null&&input.requestedUnit==null?body:JSON.stringify({body,quantity,unit});
       const operation=notifications?marketplaceOperation('ENQUIRY',a.user.id,offer.id,content,input.requestId):null;
-      if(operation){const old=await previousOperation(tx,operation);if(old)return {id:old.enquiryId,notificationId:old.id,notificationState:old.status};}
+      if(operation){const old=await previousOperation(tx,operation);if(old){const c=enquiryConfirmation?(await tx.tradingRecord(old.enquiryId))?.enquiryConfirmation:null;return {id:old.enquiryId,notificationId:old.id,notificationState:old.status,...(c?{status:c.state,confirmationMailStatus:c.confirmationMail}:{})};}}
       const enquiryId=id(await tx.createEnquiry({offerId:offer.id,companyId:a.company.id,userId:a.user.id}));
       if(trading)await trading.introduced(tx,a,offer,enquiryId,input);
       const messageId=id(await tx.insertMessage({enquiryId,userId:a.user.id,companyId:a.company.id,body}));
       await audit(tx,a,'ENQUIRY_CREATED','enquiry',enquiryId);
       const details=parseProfile(offer.details)??{};
       const snapshot={listingDirection:details.listingDirection??null,productType:details.productType??null,cropId:offer.cropId,variety:typeof details.variety==='string'?details.variety:'',requestedQuantity:quantity,requestedUnit:unit,buyerLanguage};
+      if(enquiryConfirmation){const confirmationToken=await enquiryConfirmation.stage(tx,a,enquiryId,input);const context=await tx.marketplaceNotificationContext(enquiryId,'ENQUIRY');await tx.enqueueMarketplaceNotification({...operation,actorCompanyId:a.company.id,enquiryId,messageId,recipientUserId:null,recipientCompanyId:context.recipientCompanyId,recipientEmail:null,payload:snapshot,status:'SKIPPED'});return {id:enquiryId,status:'PENDING_EMAIL_CONFIRMATION',confirmationToken};}
       return {id:enquiryId,...(operation?{notificationId:await enqueue(tx,a,operation,enquiryId,messageId,snapshot)}:{})};
     })),
     enquiries:(token,input)=>withActor(token,async(tx,a)=>{
       if(input.direction!=null&&!['INBOX','SENT'].includes(input.direction))fail(400,'INVALID_REQUEST');
       const result=page(await tx.listEnquiries({companyId:a.company.id,after:cursor(input.after),direction:input.direction}));
+      if(enquiryConfirmation){const items=[];for(const item of result.items){const r=await tx.tradingRecord(item.id);if(r?.enquiryConfirmation?.state==='CONFIRMED'||r?.respondingCompanyId===a.company.id)items.push({...enquiryView(item,a),confirmationStatus:r?.enquiryConfirmation?.state??null});}return {...result,items};}
       return {...result,items:result.items.map(item=>enquiryView(item,a))};
     }),
     messages:(token,input)=>withActor(token,async(tx,a)=>{
       const enquiry=await participant(tx,a,input.id),result=page(await tx.enquiryMessages({enquiryId:input.id,after:cursor(input.after)}));
-      const view=enquiryView(enquiry,a),request=view.listingDirection==='BUY_REQUEST';
+      const view=enquiryView(enquiry,a);if(enquiryConfirmation){const r=await tx.tradingRecord(enquiry.id);view.confirmationStatus=r?.enquiryConfirmation?.state??null;view.canReply=view.canReply&&view.confirmationStatus==='CONFIRMED';}const request=view.listingDirection==='BUY_REQUEST';
       return {...result,items:result.items.map(m=>({...m,authorSide:m.authorCompanyId===enquiry.buyerCompanyId?(request?'SELLER':'BUYER'):(request?'BUYER':'SELLER')})),enquiry:{...view,...(trading?{transactionAvailable:Boolean(await tx.tradingRecord(enquiry.id))}:{})}};
     }),
     reply:(token,input)=>afterCommit(withActor(token,async(tx,a)=>{
       verified(a);if(communications&&!notifications)fail(503,'TEMPORARILY_UNAVAILABLE');const item=await participant(tx,a,input.id);if(item.status==='CLOSED')fail(409,'ENQUIRY_CLOSED');
+      if(enquiryConfirmation&&(await tx.tradingRecord(item.id))?.enquiryConfirmation?.state!=='CONFIRMED')fail(409,'ENQUIRY_CONFIRMATION_REQUIRED');
       const body=text(input.body,2000,true),operation=notifications?marketplaceOperation(a.company.id===item.sellerCompanyId?'SELLER_REPLY':'BUYER_REPLY',a.user.id,item.id,body,input.requestId):null;
       if(operation){const old=await previousOperation(tx,operation);if(old)return {status:'SAVED',notificationId:old.id,notificationState:old.status};}
       const messageId=id(await tx.insertMessage({enquiryId:item.id,userId:a.user.id,companyId:a.company.id,body}));

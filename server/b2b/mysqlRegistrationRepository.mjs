@@ -212,13 +212,13 @@ export function createMysqlB2bRepository(pool) {
             await db.execute('UPDATE b2b_users SET password_hash=? WHERE id=?',[passwordHash,userId]);
             await db.execute('DELETE FROM b2b_sessions WHERE user_id=?',[userId]);
           },
-          async insertCompany({legalName, registrationCountry, registrationNumber, registeredAddress}) {
+          async insertCompany({legalName, registrationCountry, registrationNumber, registeredAddress,registrationContact}) {
             const [result] = await db.execute(
               registeredAddress
                 ? 'INSERT INTO b2b_companies (legal_name,registration_country,registration_number,profile_json) VALUES (?,?,?,?)'
                 : 'INSERT INTO b2b_companies (legal_name,registration_country,registration_number) VALUES (?,?,?)',
               registeredAddress
-                ? [legalName,registrationCountry,registrationNumber,JSON.stringify({registeredAddress})]
+                ? [legalName,registrationCountry,registrationNumber,JSON.stringify({registeredAddress,...(registrationContact??{})})]
                 : [legalName,registrationCountry,registrationNumber]);
             return result.insertId;
           },

@@ -9,7 +9,7 @@ export default function B2bRegister(){
   const {language}=useLanguage(),t=useT();
   const [available,setAvailable]=useState(null),[busy,setBusy]=useState(false),[status,setStatus]=useState('');
   const [errors,setErrors]=useState({}),[country,setCountry]=useState(''),[showPassword,setShowPassword]=useState(false),[complete,setComplete]=useState(false);
-  const submitting=useRef(false);
+  const submitting=useRef(false);const [simple,setSimple]=useState(false);
   const options=useMemo(()=>{
     let display;try{display=new Intl.DisplayNames([language.toLowerCase()],{type:'region'});}catch{}
     return countries.map(code=>({code,label:display?.of(code)??code})).sort((a,b)=>a.label.localeCompare(b.label,language.toLowerCase()));
@@ -18,7 +18,7 @@ export default function B2bRegister(){
     let active=true;
     b2bFetch('/api/b2b/v1/status',{cache:'no-store',credentials:'same-origin'})
       .then(async response=>response.ok?response.json():{})
-      .then(result=>{if(active)setAvailable(result.registrationAvailable===true&&legalRegistry.approval.status==='APPROVED'&&legalRegistry.missingFacts.length===0);})
+      .then(result=>{if(active){setSimple(result.registrationPasswordAfterVerification===true);setAvailable(result.registrationAvailable===true&&legalRegistry.approval.status==='APPROVED'&&legalRegistry.missingFacts.length===0);}})
       .catch(()=>{if(active)setAvailable(false);});
     return()=>{active=false;};
   },[]);
@@ -39,7 +39,8 @@ export default function B2bRegister(){
     if(!/^[\p{L}\p{N}][\p{L}\p{N} -]{0,19}$/u.test(postal)||(postalPatterns[country]&&!postalPatterns[country].test(postal)))invalid.postalCode='Enter a valid postal code for the selected country (up to 20 characters).';
     if(!values.get('email')||!form.elements.namedItem('email').validity.valid)invalid.email='Enter a valid business email address.';
     const password=String(values.get('password')??'');
-    if(password.length<12||password.length>1024)invalid.password='Use a password of 12–1024 characters.';
+    if(!simple&&(password.length<12||password.length>1024))invalid.password='Use a password of 12–1024 characters.';
+    if(simple){for(const n of ['registrationNumber','contactFirstName','contactLastName'])if(!String(values.get(n)??'').trim())invalid[n]='Please check the highlighted fields.';}
     if(values.get('termsAccepted')!=='on')invalid.termsAccepted='Please accept the English B2B Terms and authority declaration.';
     setErrors(invalid);setStatus('');
     if(Object.keys(invalid).length){form.elements.namedItem(Object.keys(invalid)[0]).focus();return;}
@@ -48,7 +49,7 @@ export default function B2bRegister(){
       const response=await b2bFetch('/api/b2b/v1/register',{
         method:'POST',headers:{'Content-Type':'application/json'},credentials:'same-origin',cache:'no-store',
         body:JSON.stringify({email:values.get('email'),password:values.get('password'),termsAccepted:values.get('termsAccepted')==='on',locale:'en',uiLanguage:language,legalBundleId:legalRegistry.bundleId,
-          company:{legalName:values.get('legalName'),registrationCountry:values.get('registrationCountry'),registeredAddress:{street:values.get('street'),city:values.get('city'),postalCode:values.get('postalCode')}}})
+          company:{legalName:values.get('legalName'),registrationCountry:values.get('registrationCountry'),...(simple?{registrationNumber:values.get('registrationNumber'),vat:values.get('vat'),contactFirstName:values.get('contactFirstName'),contactLastName:values.get('contactLastName')}:{}),registeredAddress:{street:values.get('street'),city:values.get('city'),postalCode:values.get('postalCode')}}})
       });
       const result=await response.json();
       if(response.status===202&&['PENDING_EMAIL_DELIVERY','PENDING_EMAIL_VERIFICATION'].includes(result.status)){
@@ -60,14 +61,14 @@ export default function B2bRegister(){
         setAvailable(false);setStatus('We could not confirm the registration result. Please contact us before registering again.');
       }
     }catch{setAvailable(false);setStatus('We could not confirm the registration result. Please contact us before registering again.');}
-    finally{form.elements.namedItem('password').value='';setShowPassword(false);submitting.current=false;setBusy(false);}
+    finally{if(form.elements.namedItem('password'))form.elements.namedItem('password').value='';setShowPassword(false);submitting.current=false;setBusy(false);}
   }
   return <main className="b2b-registration">
     <section className="b2b-registration-intro" aria-labelledby="registration-heading">
       <p className="b2b-eyebrow">{t('B2B registration')}</p>
       <h1 id="registration-heading">{t('Register your company')}</h1>
       <p className="b2b-registration-lead">{t('Create your business account and confirm your email address.')}</p>
-      <p className="b2b-phase-note">{t('Your company stays pending after email verification. Trading is not available in this registration phase.')}</p>
+      <p className="b2b-phase-note">{t(simple?'Company approval is required before publication.':'Your company stays pending after email verification. Trading is not available in this registration phase.')}</p>
     </section>
     <section className="b2b-registration-card" aria-label={t('Company registration')}>
       {complete?<div className="b2b-result" role="status"><h2>{t('Registration saved')}</h2><p>{t(status)}</p></div>:<>
@@ -76,12 +77,12 @@ export default function B2bRegister(){
           {Object.keys(errors).length>0&&<p className="b2b-error-summary" role="alert">{t('Please check the highlighted fields.')}</p>}
           <fieldset disabled={!available||busy}>
             <div className="b2b-field"><label htmlFor="registration-legalName">{t('Company legal name')}</label><input {...inputProps('legalName')} autoComplete="organization" required minLength={2} maxLength={255}/>{error('legalName')}</div>
-            <div className="b2b-field"><label htmlFor="registration-registrationCountry">{t('Registration country')}</label><select {...inputProps('registrationCountry')} autoComplete="country" required value={country} onChange={event=>{setCountry(event.target.value);clearError('registrationCountry');}}><option value="">{t('Select a country')}</option>{options.map(item=><option key={item.code} value={item.code}>{item.label}</option>)}</select>{error('registrationCountry')}</div>
+            {simple&&<>{[['Company registration number','registrationNumber'],['VAT number (if applicable)','vat'],['First name','contactFirstName'],['Last name','contactLastName']].map(([label,n])=><div className="b2b-field" key={n}><label htmlFor={'registration-'+n}>{t(label)}</label><input {...inputProps(n)} required={n!=='vat'} maxLength={n==='vat'?50:100}/>{error(n)}</div>)}</>}<div className="b2b-field"><label htmlFor="registration-registrationCountry">{t('Registration country')}</label><select {...inputProps('registrationCountry')} autoComplete="country" required value={country} onChange={event=>{setCountry(event.target.value);clearError('registrationCountry');}}><option value="">{t('Select a country')}</option>{options.map(item=><option key={item.code} value={item.code}>{item.label}</option>)}</select>{error('registrationCountry')}</div>
             <div className="b2b-field"><label htmlFor="registration-street">{t('Registered business address (street and building number)')}</label><input {...inputProps('street')} autoComplete="address-line1" required minLength={2} maxLength={200}/>{error('street')}</div>
             <div className="b2b-field"><label htmlFor="registration-city">{t('City')}</label><input {...inputProps('city')} autoComplete="address-level2" required minLength={1} maxLength={100}/>{error('city')}</div>
             <div className="b2b-field"><label htmlFor="registration-postalCode">{t('Postal code')}</label><input {...inputProps('postalCode')} autoComplete="postal-code" autoCapitalize="characters" required maxLength={20}/>{error('postalCode')}</div>
             <div className="b2b-field"><label htmlFor="registration-email">{t('Business email')}</label><input {...inputProps('email')} type="email" autoComplete="email" inputMode="email" autoCapitalize="none" spellCheck={false} required maxLength={254}/>{error('email')}</div>
-            <div className="b2b-field"><label htmlFor="registration-password">{t('Password')}</label><div className="b2b-password"><input {...inputProps('password')} type={showPassword?'text':'password'} autoComplete="new-password" required minLength={12} maxLength={1024}/><button type="button" className="b2b-password-toggle" aria-controls="registration-password" aria-label={t(showPassword?'Hide password':'Show password')} aria-pressed={showPassword} onClick={()=>setShowPassword(value=>!value)}>{t(showPassword?'Hide':'Show')}</button></div><p className="b2b-field-help" id="password-help">{t('Use at least 12 characters. A unique passphrase is a good choice.')}</p>{error('password')}</div>
+            {!simple&&<div className="b2b-field"><label htmlFor="registration-password">{t('Password')}</label><div className="b2b-password"><input {...inputProps('password')} type={showPassword?'text':'password'} autoComplete="new-password" required minLength={12} maxLength={1024}/><button type="button" className="b2b-password-toggle" aria-controls="registration-password" aria-label={t(showPassword?'Hide password':'Show password')} aria-pressed={showPassword} onClick={()=>setShowPassword(value=>!value)}>{t(showPassword?'Hide':'Show')}</button></div><p className="b2b-field-help" id="password-help">{t('Use at least 12 characters. A unique passphrase is a good choice.')}</p>{error('password')}</div>}{simple&&<p>{t('Choose your password after opening the verification email.')}</p>}
             <div className="b2b-registration-legal-links" aria-label={t('Registration legal documents')}><a href="/terms" target="_blank" rel="noopener noreferrer">{t('B2B Terms')}</a><a href="/privacy" target="_blank" rel="noopener noreferrer">{t('Privacy Notice')}</a></div>
             <p className="b2b-field-help" id="registration-language">{t('Legal documents are provided in English.')}</p>
             <div className="b2b-acceptance"><input {...inputProps('termsAccepted')} type="checkbox" required/><label htmlFor="registration-termsAccepted" lang="en">{legalRegistry.documents.authority.document.declarations.en}</label></div>{error('termsAccepted')}

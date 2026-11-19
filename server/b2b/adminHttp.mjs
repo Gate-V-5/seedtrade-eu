@@ -11,12 +11,13 @@ export function createAdminHttp({auth,review,enabled=false,resolveClient,allowed
   const u=new URL(req.url,'http://local.invalid');if(!u.pathname.startsWith('/api/b2b/v1/admin/'))return false;
   const route=u.pathname.slice('/api/b2b/v1/admin/'.length),get={session:async()=>({...await auth.me(token(req)),...(trading?{tradingAvailable:await trading.available(token(req))}:{})}),'review-queue':()=>review.reviewQueue(token(req),{after:Number(u.searchParams.get('after')??0)})};
   if(trading)get['trading/detail']=()=>trading.detail(token(req),{id:Number(u.searchParams.get('id'))});
+  get.members=()=>auth.managedMembers(token(req),{query:u.searchParams.get('query')});
   const send=(s,b,extra={})=>{res.writeHead(s,{...headers,...extra});res.end(JSON.stringify(b));return true;};
   if(!enabled)return send(404,{error:'NOT_FOUND'});
   try{
    const client=resolveClient(req);if(!client||!allowedOrigins.includes(req.headers.origin)||req.headers['sec-fetch-site']==='cross-site')return send(403,{error:'REQUEST_REJECTED'});
-   if(!['GET','POST'].includes(req.method)||!(req.method==='GET'?Object.hasOwn(get,route):['login','logout','companies/review',...(trading?['trading/action']:[])].includes(route)))return send(404,{error:'NOT_FOUND'});
-   for(const k of u.searchParams.keys())if(req.method!=='GET'||!['review-queue','trading/detail'].includes(route)||k!==(route==='review-queue'?'after':'id')||u.searchParams.getAll(k).length!==1||!/^\d+$/.test(u.searchParams.get(k)))return send(400,{error:'INVALID_REQUEST'});
+   if(!['GET','POST'].includes(req.method)||!(req.method==='GET'?Object.hasOwn(get,route):['login','logout','companies/review','members/access',...(trading?['trading/action']:[])].includes(route)))return send(404,{error:'NOT_FOUND'});
+   for(const k of u.searchParams.keys())if(req.method!=='GET'||!['review-queue','trading/detail','members'].includes(route)||k!==(route==='members'?'query':route==='review-queue'?'after':'id')||u.searchParams.getAll(k).length!==1||(route==='members'?(u.searchParams.get(k).length<2||u.searchParams.get(k).length>100):!/^\d+$/.test(u.searchParams.get(k))))return send(400,{error:'INVALID_REQUEST'});
    if(!await rate({url:'/admin',socket:{remoteAddress:client}}))return send(429,{error:'RATE_LIMITED'});
    if(req.method==='GET')return send(200,await get[route]());
    if(!/^application\/json(?:\s*;\s*charset=utf-8)?$/i.test(req.headers['content-type']??''))return send(403,{error:'REQUEST_REJECTED'});
@@ -33,6 +34,7 @@ export function createAdminHttp({auth,review,enabled=false,resolveClient,allowed
    }
    if(route==='logout')return send(200,await auth.logout(token(req)),{'Set-Cookie':cookie()});
    if(route==='trading/action')return send(200,await trading.action(token(req),body));
+   if(route==='members/access')return send(200,await auth.setCompanyAccess(token(req),body));
    if(body.conflictFreeConfirmed!==true)return send(400,{error:'CONFLICT_CONFIRMATION_REQUIRED'});
    return send(200,await review.reviewCompany(token(req),body));
   }catch(e){if(e instanceof B2bError)return send(e.status,{error:e.message},e.status===401?{'Set-Cookie':cookie()}:{});if(e?.code==='B2B_VERSION_CONFLICT')return send(409,{error:'RELOAD_REQUIRED'});return send(503,{error:'TEMPORARILY_UNAVAILABLE'});}

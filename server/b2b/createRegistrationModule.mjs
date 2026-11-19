@@ -42,6 +42,6 @@ export function b2bRegistrationReadiness(env = {}) {
 // Reused by the gated staging runtime and offline tests.
 export function createB2bRegistrationModule(options) {
   const repository = createMysqlB2bRepository(options.pool);
-  const service = createRegistrationService({repository, passwordHasher:options.passwordHasher ?? createB2bPasswordHasher(), mailer:options.mailer});
+  const service = createRegistrationService({repository, passwordHasher:options.passwordHasher ?? createB2bPasswordHasher(), mailer:options.mailer,simpleRegistration:options.simpleRegistration===true});
   return createB2bRegistrationHttp({service, rateLimiter:options.rateLimiter, allowedOrigin:options.allowedOrigin, allowedOrigins:options.allowedOrigins, enabled:options.enabled === true});
 }
