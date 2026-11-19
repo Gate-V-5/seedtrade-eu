@@ -1,4 +1,9 @@
 export const simpleRows=[
+ ['Trading role','Handelsrolle','Rôle commercial','Función comercial','Ruolo commerciale'],
+ ['Buyer and seller','Käufer und Verkäufer','Acheteur et vendeur','Comprador y vendedor','Acquirente e venditore'],
+ ['Company profile','Unternehmensprofil','Profil de l’entreprise','Perfil de empresa','Profilo aziendale'],
+ ['Contact name','Kontaktname','Nom du contact','Nombre del contacto','Nome del contatto'],
+ ['Save company profile','Unternehmensprofil speichern','Enregistrer le profil','Guardar perfil de empresa','Salva profilo aziendale'],
  ['Choose an approved member listing to submit a confirmed enquiry.','Wählen Sie ein freigegebenes Mitgliederinserat, um eine bestätigte Anfrage zu senden.','Choisissez une annonce approuvée d’un membre pour envoyer une demande confirmée.','Elija un anuncio aprobado de un miembro para enviar una consulta confirmada.','Scegli un annuncio approvato di un membro per inviare una richiesta confermata.'],
  ['Listing notifications','Inseratsbenachrichtigungen','Notifications d’annonces','Notificaciones de anuncios','Notifiche degli annunci'],
  ['Email me relevant new listings','Relevante neue Inserate per E-Mail senden','M’envoyer les nouvelles annonces pertinentes','Enviarme anuncios nuevos relevantes','Inviami annunci nuovi pertinenti'],

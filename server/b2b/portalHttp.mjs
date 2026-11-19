@@ -42,7 +42,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
     const recovery=route.startsWith('/password-reset/');
     const reviewRoutes=companyReviewEnabled?['/review-queue','/companies/review']:[];
     const sellerRoutes=['/login','/session','/logout','/catalogue','/offers','/offers/save','/offers/publish','/offers/close','/password-reset/request','/password-reset/confirm',...(tradingEnabled?Object.keys(get).filter(k=>k.startsWith('/trading/')).concat('/trading/action'):[])];
-    if(discoveryOnly&&![...sellerRoutes,...reviewRoutes,'/offers/detail',...(communications?['/enquiries','/messages','/enquiries/send','/enquiries/reply','/enquiries/close',...(simpleMarketplace?['/enquiries/confirmation-summary','/enquiries/confirm']:[])]:[])].includes(route))return respond(404,{error:'NOT_FOUND'});
+    if(discoveryOnly&&![...sellerRoutes,...reviewRoutes,'/offers/detail',...(communications?['/enquiries','/messages','/enquiries/send','/enquiries/reply','/enquiries/close',...(simpleMarketplace?['/profile','/enquiries/confirmation-summary','/enquiries/confirm']:[])]:[])].includes(route))return respond(404,{error:'NOT_FOUND'});
     if(sellerOnly&&(!sellerRoutes.includes(route)||(route==='/offers'&&url.searchParams.get('own')!=='true')))return respond(404,{error:'NOT_FOUND'});
     if((recovery&&!recoveryEnabled)||(memberOnly&&!['/login','/session','/logout','/password-reset/request','/password-reset/confirm',...reviewRoutes].includes(route)))return respond(404,{error:'NOT_FOUND'});
     try {

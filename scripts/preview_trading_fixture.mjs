@@ -13,6 +13,8 @@ const registrationService=createRegistrationService({...f.h.options,simpleRegist
 await f.service.saveOffer(f.s.sessionToken,{...offerInput,quantity:20,unit:'t',priceAmount:500,listingDirection:'OFFER',productType:'COMMODITY',commercialInformation:'Isolated synthetic acceptance lot. Not a real offer.'});
 const published=await f.service.saveOffer(f.s.sessionToken,{...offerInput,listingDirection:'OFFER',productType:'COMMODITY',quantity:20,unit:'t',priceAmount:500});
 await f.service.publishOffer(f.s.sessionToken,{id:published.id,version:0,commissionAccepted:true,commissionTermsHash:f.workflow.policy.hash});
+const pendingInput={email:'pending@example.invalid',termsAccepted:true,locale:'en',legalBundleId:(await import('../server/b2b/legalAcceptance.mjs')).currentLegalRegistry.bundleId,company:{legalName:'Synthetic pending company',registrationCountry:'LT',registrationNumber:'SYN-PENDING-LOCAL',registeredAddress:{street:'Test Street 1',city:'Vilnius',postalCode:'00000'},contactFirstName:'Synthetic',contactLastName:'Representative'}};
+const pendingAccount=await registrationService.register(pendingInput),pendingMail=f.h.mail.at(-1),pendingPassword='synthetic local pending password';await registrationService.verifyEmail({userId:pendingAccount.userId,token:pendingMail.token,password:pendingPassword});const pendingSession=await f.service.login({email:pendingInput.email,password:pendingPassword});
 const root=path.resolve('dist');let portal,admin,registration,origin;
 const mime={'.html':'text/html;charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.svg':'image/svg+xml','.webp':'image/webp','.woff2':'font/woff2'};
 const server=http.createServer(async(req,res)=>{try{
@@ -20,7 +22,7 @@ const server=http.createServer(async(req,res)=>{try{
  if(u.pathname==='/__fixture'){res.writeHead(200,{'Content-Type':'application/json'}).end(JSON.stringify({operatorCompanyId:f.operatorCompanyId,offers:f.h.state.offers.size,transactions:[...f.h.state.trades.values()],notifications:[...f.h.state.listingJobs.values()].map(j=>({status:j.status})),fakeMailCount:f.delivered.length,production:false}));return;}
  if(u.pathname==='/__fixture/mail'){res.writeHead(200,{'Content-Type':'application/json'}).end(JSON.stringify(f.delivered));return;}
  if(u.pathname.startsWith('/api/')){
-  const actor=req.headers['x-fixture-actor']==='buyer'?f.b:f.s;
+  const actor=req.headers['x-fixture-actor']==='buyer'?f.b:req.headers['x-fixture-actor']==='pending'?pendingSession:f.s;
   req.headers.cookie=`${SESSION_COOKIE}=${actor.sessionToken}; ${ADMIN_COOKIE}=${f.brokerToken}`;
   // This fixture injects session context only on loopback. The production handlers are unchanged.
   req.headers.origin=origin;
