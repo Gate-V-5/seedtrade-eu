@@ -1,9 +1,0 @@
-{
-  "reason": "Owner-authorised Stage 5 insight replacement, local only",
-  "onlyProtectedMappingChanged": "src/generated/insights.json",
-  "before": "97454e8232fc6f2d21d995f98637f26d23ab03dcf92b9839de871738be8654e2",
-  "after": "02d5e95b51e825039a1e4874bd3de766289162d9dde3daf513da24d3b9a57b92",
-  "newInventorySha256": "802617bd42783fce7c3fbd392cbdab55504687ea2f6861870409867b37e94073",
-  "allOtherProtectedEntries": "UNCHANGED",
-  "supportingPhotoReview": "Historic mill machine omitted from displayed partner article to avoid suggesting modern Lagrenas equipment"
-}

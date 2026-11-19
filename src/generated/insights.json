@@ -3,583 +3,6 @@
   "classification": "PUBLIC_SAFE",
   "articles": [
     {
-      "slug": "ista-seed-priming-webinar-2026",
-      "category": "EVENT",
-      "author": "SEEDTRADE.EU Editorial",
-      "publication_date": "2026-11-18",
-      "classification": "PUBLIC_SAFE",
-      "market_engine_input": false,
-      "updated_date": "2026-11-18",
-      "editorial_status": "OWNER_REVIEW",
-      "source_checked_date": "2026-11-18",
-      "localizations": {
-        "de": {
-          "title": "Wissenschaft und Praxis des Seed Priming: Was Saatguterzeuger und Prüflabore wissen sollten",
-          "summary": "Ein kostenloses Webinar von ISTA und ISSS am 14. Dezember 2026 verbindet Priming-Forschung mit praktischen Prüffragen für Erzeuger, Aufbereiter und Labore.",
-          "content": [
-            {
-              "heading": "Von der Wasseraufnahme zur Keimleistung",
-              "body": "Beim Seed Priming wird Saatgut kontrolliert befeuchtet. Keimungsprozesse beginnen, bevor die Keimwurzel sichtbar austritt; anschließend wird das Saatgut in der Regel zurückgetrocknet. Die Wasseraufnahme aktiviert Stoffwechsel und zelluläre Reparatur. Eine schnellere oder gleichmäßigere Keimung ist möglich, hängt jedoch von Art, Partie und Behandlung ab. Ein besserer Feldaufgang unter allen Bedingungen ist damit nicht garantiert."
-            },
-            {
-              "heading": "Forschung und Prüfung zusammenbringen",
-              "body": "Die International Seed Testing Association und die International Society for Seed Science veranstalten am 14. Dezember 2026 gemeinsam ein Online-Webinar. Laut offizieller Ankündigung ist die Teilnahme kostenlos und für alle offen. Vorgesehen sind molekulare Mechanismen, Keimung, Saatgutleistung, Lagerfähigkeit und Qualitätsbewertung. Dabei handelt es sich um angekündigte Themen, nicht um neu nachgewiesene Forschungsergebnisse."
-            },
-            {
-              "heading": "Lagerfähigkeit gesondert bewerten",
-              "body": "Der Nutzen einer Behandlung muss gemeinsam mit der Lagerfähigkeit der fertigen Partie betrachtet werden. Befeuchtung und Rücktrocknung können Alterungsprozesse beeinflussen; das Ergebnis hängt von Verfahren und Lagerbedingungen ab. Erzeuger sollten die geplante Lagerdauer prüfen, statt gleiche Haltbarkeit von behandeltem und unbehandeltem Saatgut anzunehmen. Die Fachliteratur beschreibt diesen Zielkonflikt, verspricht aber keine allgemeingültige Lagerfrist."
-            },
-            {
-              "heading": "Fragen für Prüflabore",
-              "body": "Angekündigt sind die Auslegung und Anwendung der ISTA-Vorschriften auf behandeltes, umhülltes, pilliertes und geprimtes Saatgut. Im Mittelpunkt stehen Reinheitsanalyse, Bestimmung anderer Samen und Keimprüfung. Diese Prüfungen beantworten unterschiedliche Fragen zur Partie. Das Webinar kann helfen, Auswirkungen der Behandlung auf die Bewertung zu diskutieren; dieser Beitrag ersetzt weder Vorschriften noch Laborverfahren."
-            },
-            {
-              "heading": "Mit konkreten Fragen teilnehmen",
-              "body": "Erzeuger und Aufbereiter können Fragen zu Partiekennzeichnung, Behandlungsprotokollen, Trocknung, Lagerung und Kundenspezifikationen vorbereiten. Labore können Probenvorbereitung und Ergebnisinterpretation auf den Verwendungszweck beziehen. Für europäische Unternehmen liegt der Nutzen im fundierteren Austausch zwischen Produktion, Qualitätssicherung und Kunden. Ertragssteigerungen oder Zertifizierungserfolge werden nicht zugesagt. Aktuelle Zugangsinformationen stehen bei der offiziellen Anmeldung."
-            }
-          ]
-        },
-        "fr": {
-          "title": "Science et pratique du priming : ce que producteurs de semences et laboratoires doivent savoir",
-          "summary": "Le webinaire gratuit ISTA–ISSS du 14 décembre 2026 relie la science du priming aux questions concrètes des producteurs, préparateurs et laboratoires.",
-          "content": [
-            {
-              "heading": "De l’hydratation à la germination",
-              "body": "Le priming consiste à hydrater les semences de façon contrôlée pour amorcer les processus de germination avant la sortie visible de la radicule. Les graines sont généralement séchées à nouveau pour être manipulées. L’eau réactive le métabolisme et la réparation cellulaire. Une germination plus rapide ou homogène est possible, mais dépend de l’espèce, du lot et du traitement. Une meilleure levée au champ n’est pas garantie dans toutes les situations."
-            },
-            {
-              "heading": "Un lien concret entre science et contrôle",
-              "body": "L’International Seed Testing Association et l’International Society for Seed Science organisent ensemble un webinaire en ligne le 14 décembre 2026. L’annonce officielle précise que la participation est gratuite et ouverte à tous. Les sujets prévus concernent les mécanismes moléculaires, la germination, les performances, la conservation et l’évaluation de la qualité. Il s’agit de thèmes annoncés, pas de nouveaux résultats scientifiques établis."
-            },
-            {
-              "heading": "Évaluer séparément la conservation",
-              "body": "L’intérêt du traitement doit être mis en regard de la conservation du lot fini. L’hydratation et le séchage peuvent modifier sa détérioration ultérieure, selon le procédé et les conditions de stockage. Le producteur doit valider la durée envisagée plutôt que supposer une conservation identique des semences traitées et non traitées. La littérature décrit cet arbitrage entre performance et longévité, sans promettre une durée universelle."
-            },
-            {
-              "heading": "Les questions à apporter au laboratoire",
-              "body": "Le programme annoncé porte sur l’interprétation et l’application des Règles ISTA aux semences traitées, enrobées, pelliculées, granulées et préconditionnées. Il mentionne l’analyse de pureté, la détermination des autres semences et les essais de germination. Ces examens répondent à des questions différentes. Le webinaire permettra de discuter des effets de la préparation et du traitement sur l’évaluation ; cet article ne remplace ni les Règles applicables ni les procédures du laboratoire."
-            },
-            {
-              "heading": "Préparer des questions utiles à l’activité",
-              "body": "Producteurs et préparateurs peuvent interroger l’identification des lots, les enregistrements de traitement, le séchage, le stockage et les spécifications clients. Les laboratoires pourront relier préparation des échantillons et interprétation des résultats à l’usage prévu. Pour la filière européenne, l’intérêt est de mieux articuler production, contrôle qualité et attentes commerciales, sans présumer un gain de rendement ou une certification. Le lien officiel fournit les modalités d’inscription et leurs mises à jour."
-            }
-          ]
-        },
-        "es": {
-          "title": "Ciencia y práctica del priming: claves para productores de semillas y laboratorios",
-          "summary": "El webinario gratuito de ISTA e ISSS del 14 de diciembre de 2026 conecta la ciencia del priming con las necesidades prácticas de producción, procesado y análisis.",
-          "content": [
-            {
-              "heading": "De la hidratación al comportamiento de la semilla",
-              "body": "El priming es una hidratación controlada que inicia procesos de germinación antes de la salida visible de la radícula; normalmente las semillas vuelven a secarse para su manejo. La absorción de agua reactiva el metabolismo y la reparación celular. Puede mejorar la rapidez o uniformidad de germinación, pero la respuesta depende de la especie, el lote y el tratamiento. No garantiza una mejor nascencia en cualquier condición."
-            },
-            {
-              "heading": "Un puente entre ciencia y análisis",
-              "body": "La International Seed Testing Association y la International Society for Seed Science organizan conjuntamente un webinario en línea el 14 de diciembre de 2026. Según el anuncio oficial, la participación es gratuita y abierta a todos. Se abordarán mecanismos moleculares, germinación, comportamiento, conservación y evaluación de calidad. Son temas previstos para el encuentro, no resultados nuevos ya demostrados."
-            },
-            {
-              "heading": "La conservación requiere su propia evaluación",
-              "body": "Las ventajas del tratamiento deben valorarse junto con la conservación del lote terminado. La hidratación y el secado pueden afectar al deterioro posterior, según el proceso y el almacenamiento. Conviene validar el período previsto en vez de asumir que una semilla tratada conserva la misma longevidad que otra sin tratar. La literatura describe esta relación entre rendimiento fisiológico y longevidad, sin ofrecer un plazo universal de conservación."
-            },
-            {
-              "heading": "Preguntas para los laboratorios",
-              "body": "El alcance anunciado incluye la interpretación y aplicación de las Reglas ISTA a semillas tratadas, recubiertas, peletizadas y sometidas a priming, con atención al análisis de pureza, la determinación de otras semillas y la germinación. Cada prueba responde a una pregunta distinta sobre el lote. El encuentro permite examinar cómo la preparación y el tratamiento afectan al análisis; este artículo no sustituye las Reglas ni los procedimientos del laboratorio."
-            },
-            {
-              "heading": "Preparar una participación útil",
-              "body": "Productores y procesadores pueden llevar preguntas sobre identidad del lote, registros de tratamiento, secado, almacenamiento y especificaciones del cliente. Los laboratorios pueden relacionar la preparación de muestras y la interpretación con el uso previsto. Para las empresas europeas, el interés está en mejorar el diálogo entre producción, calidad y clientes, sin dar por hecho aumentos de cosecha ni certificaciones. El enlace oficial ofrece la inscripción y las actualizaciones prácticas."
-            }
-          ]
-        },
-        "it": {
-          "title": "Scienza e pratica del priming: cosa devono sapere produttori sementieri e laboratori",
-          "summary": "Il webinar gratuito ISTA–ISSS del 14 dicembre 2026 collega la scienza del priming alle esigenze pratiche di produttori, impianti di lavorazione e laboratori.",
-          "content": [
-            {
-              "heading": "Dall’idratazione alla prestazione",
-              "body": "Il priming è un’idratazione controllata che avvia i processi germinativi prima dell’emissione visibile della radichetta; normalmente il seme viene poi riasciugato per la movimentazione. L’assorbimento d’acqua riattiva metabolismo e riparazione cellulare. La germinazione può diventare più rapida o uniforme, ma la risposta dipende da specie, lotto e trattamento. Non è garantita una migliore emergenza in ogni condizione di campo."
-            },
-            {
-              "heading": "Collegare scienza e analisi",
-              "body": "L’International Seed Testing Association e l’International Society for Seed Science organizzano insieme un webinar online il 14 dicembre 2026. Secondo l’annuncio ufficiale, la partecipazione è gratuita e aperta a tutti. I temi previsti includono meccanismi molecolari, germinazione, prestazioni, conservabilità e valutazione qualitativa. Sono argomenti annunciati, non nuovi risultati scientifici già dimostrati."
-            },
-            {
-              "heading": "Valutare separatamente la conservabilità",
-              "body": "I benefici del trattamento vanno considerati insieme alla durata del lotto finito. Idratazione e riasciugatura possono incidere sul deterioramento successivo, a seconda del processo e delle condizioni di stoccaggio. Occorre validare l’intervallo previsto senza presumere la stessa conservabilità per semi trattati e non trattati. La letteratura descrive questo compromesso tra prestazioni e longevità, senza promettere una durata universale."
-            },
-            {
-              "heading": "Le domande dei laboratori",
-              "body": "Il programma annunciato comprende interpretazione e applicazione delle Regole ISTA a semi trattati, rivestiti, confettati e sottoposti a priming, con particolare attenzione a purezza, determinazione di altri semi e germinazione. Queste analisi rispondono a domande diverse sul lotto. Il webinar permette di discutere gli effetti della preparazione e del trattamento sulla valutazione; l’articolo non sostituisce le Regole applicabili né le procedure di laboratorio."
-            },
-            {
-              "heading": "Prepararsi con domande operative",
-              "body": "Produttori e lavoratori possono portare quesiti su identità dei lotti, registri di trattamento, essiccazione, stoccaggio e specifiche dei clienti. I laboratori possono collegare preparazione dei campioni e interpretazione all’utilizzo previsto. Per le imprese europee il valore è un dialogo più informato tra produzione, qualità e clientela, senza presumere aumenti di resa o certificazioni. Il collegamento ufficiale fornisce iscrizione e aggiornamenti pratici."
-            }
-          ]
-        }
-      },
-      "title": "The Science and Practice of Seed Priming: What Seed Producers and Testing Laboratories Need to Know",
-      "summary": "A free ISTA–ISSS webinar on 14 December 2026 connects priming science with the practical testing questions facing seed producers, processors and laboratories.",
-      "content": [
-        {
-          "heading": "From hydration to performance",
-          "body": "Seed priming is controlled hydration that starts germination-related processes before visible root emergence; seed is generally dried back for handling. Water uptake reactivates metabolism and cellular repair. Faster or more uniform germination can result, but responses depend on species, seed lot and treatment. Priming is not a guarantee of better field establishment under every condition."
-        },
-        {
-          "heading": "A practical bridge between science and testing",
-          "body": "The International Seed Testing Association and International Society for Seed Science are jointly organising an online webinar on 14 December 2026. Participation is free and open to everyone according to the official listing. The organisers describe a discussion of molecular mechanisms, germination, seed performance, storability and quality assessment. These are planned topics, not newly demonstrated research results."
-        },
-        {
-          "heading": "Storage deserves its own decision",
-          "body": "Treatment benefits need to be considered alongside the storage life of the finished lot. Hydration and drying can affect subsequent deterioration, and the outcome varies with treatment and storage conditions. A producer should validate the intended storage interval rather than assume that an untreated lot and its primed counterpart will keep equally well. The scientific literature identifies this performance–longevity trade-off; it does not provide a universal shelf-life promise."
-        },
-        {
-          "heading": "What laboratories can take to the discussion",
-          "body": "The announced testing scope includes the interpretation and application of ISTA Rules to treated, coated, pelleted and primed seeds, with attention to purity analysis, Other Seed Determination and germination testing. These operations answer different questions about a lot. The webinar is an opportunity to examine how preparation and treatment affect assessment; this article does not substitute for the applicable Rules or laboratory procedures."
-        },
-        {
-          "heading": "Prepare questions that matter commercially",
-          "body": "Seed producers and processors can bring questions about lot identity, treatment records, drying, storage and customer specifications. Laboratories can focus on how sample preparation and result interpretation fit the intended use. For European companies, the value is a better-informed conversation between production, quality control and customers—not an assumed yield increase or certification outcome. Use the official registration link for joining details and any subsequent updates."
-        }
-      ],
-      "seo": {
-        "title": "The Science and Practice of Seed Priming: What Seed Producers and Testing Laboratories Need to Know | SEEDTRADE.EU",
-        "description": "A free ISTA–ISSS webinar on 14 December 2026 connects priming science with the practical testing questions facing seed producers, processors and laboratories.",
-        "canonical": "https://seedtrade.eu/insights/ista-seed-priming-webinar-2026",
-        "og_type": "article",
-        "structured_data_type": "Article"
-      },
-      "claims": [
-        {
-          "claim": "Event date, organiser, format and registration conditions",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "claim": "Practical questions and potential commercial relevance",
-          "provenance_class": "SEEDTRADE_ANALYSIS"
-        }
-      ],
-      "sources": [
-        {
-          "label": "ISTA / ISSS official webinar listing",
-          "url": "https://www.seedtest.org/en/workshops-and-webinars/the-science-and-practice-of-seed-priming-molecular-insights-and-challenges-in-se-product-10117.html",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "label": "ISTA Seed Testing International 132: priming background (2006)",
-          "url": "https://www.seedtest.org/api/rm/DA3Q54A47QB3R3Q/sti132oct2006.pdf",
-          "provenance_class": "SCIENTIFIC_CONTEXT"
-        },
-        {
-          "label": "Seed priming and longevity review (2021)",
-          "url": "https://doi.org/10.1093/jxb/erab004",
-          "provenance_class": "SCIENTIFIC_CONTEXT"
-        }
-      ],
-      "event": {
-        "startDate": "2026-12-14",
-        "endDate": "2026-12-14",
-        "location": "Online",
-        "organizer": "ISTA / ISSS",
-        "organizerUrl": "https://www.seedtest.org/",
-        "attendanceMode": "OnlineEventAttendanceMode",
-        "registrationUrl": "https://register.gotowebinar.com/register/4715352832086858847",
-        "isAccessibleForFree": true
-      },
-      "cta": {
-        "url": "https://register.gotowebinar.com/register/4715352832086858847",
-        "label": "Register for the Webinar",
-        "kind": "registration_cta_click"
-      }
-    },
-    {
-      "slug": "isf-world-seed-congress-toronto-2027",
-      "category": "EVENT",
-      "author": "SEEDTRADE.EU Editorial",
-      "publication_date": "2026-11-18",
-      "classification": "PUBLIC_SAFE",
-      "market_engine_input": false,
-      "updated_date": "2026-11-18",
-      "editorial_status": "OWNER_REVIEW",
-      "source_checked_date": "2026-11-18",
-      "localizations": {
-        "de": {
-          "title": "ISF World Seed Congress 2027: Saatgutgeschäft, Innovation und Partnerschaften in Toronto",
-          "summary": "Vom 17. bis 19. Mai 2027 richtet Toronto den ISF-Kongress aus. Marktzugang, Saatguttechnologie und gezielte Geschäftsgespräche helfen bei der Teilnahmeplanung.",
-          "content": [
-            {
-              "heading": "Treffpunkt des internationalen Saatgutgeschäfts",
-              "body": "Der ISF World Seed Congress bringt Unternehmen und Branchenorganisationen international zusammen. Die Ausgabe 2027 ist für den 17.–19. Mai in Toronto, Kanada, unter dem Motto Cultivating Ventures angekündigt. Für europäische Züchter, Erzeuger und Händler liegt der praktische Reiz darin, bestehende Kontakte mit möglichen Produktions-, Vertriebs- und Technologiepartnerschaften zu verbinden."
-            },
-            {
-              "heading": "Aus der Reise ein Geschäftsprogramm machen",
-              "body": "Internationaler Saatguthandel benötigt Marktzugang, verlässliche Erzeugung und klare Spezifikationen. Unternehmen können Bedürfnisse mit möglichen Partnern abgleichen und Züchtungsinnovation, Saatguttechnik und Branchenentwicklung besprechen. Das sind geschäftliche Teilnahmegründe, keine Zusagen bestimmter Sitzungen oder Abschlüsse. Vor der Buchung sollten Zielarten, Absatzmärkte, Vermehrungsanforderungen und zentrale Partnerfragen feststehen."
-            },
-            {
-              "heading": "Die passende Teilnahmeform wählen",
-              "body": "ISF bietet getrennte Wege für Delegierte, Besucher, Sponsoren und Aussteller. Laut Delegiertenseite muss das Unternehmen oder die Organisation vor dem 1. April 2027 ordentliches ISF-Mitglied sein. Bei Prüfung am 18. November 2026 betrug die frühe Delegiertengebühr 1.650 EUR. Das veröffentlichte Zeitfenster reicht vom 5. Oktober 2026, 12:00 Uhr CET, bis zum 15. Januar 2027, 00:00 Uhr CET. Es handelt sich um eine Veranstalterangabe, nicht um ein Angebot von SEEDTRADE.EU. Leistungen, Steuern und Änderungen sind in den Buchungsbedingungen zu prüfen."
-            },
-            {
-              "heading": "Geschäftsgespräche gezielt organisieren",
-              "body": "Die offiziellen Informationen nennen reservierbare Trading Tables und private Besprechungsräume. Zugang zum Trading Floor haben nur registrierte Delegierte; Aussteller und Begleitpersonen erhalten ihn nicht automatisch. Wer Ausstellung oder Sponsoring erwägt, sollte Sichtbarkeit und Gesprächszugang getrennt prüfen. Konkrete Gespräche über Sorten, Qualität, Schutzrechte, Lieferbedingungen und Zuständigkeiten sind hilfreicher als pauschale Geschäftsversprechen."
-            },
-            {
-              "heading": "Aktuelle Veranstalterinformationen nutzen",
-              "body": "Die Programmseite kündigt den Zeitplan für Dezember 2026 an, enthält aber zugleich noch Angaben zu Lissabon. Diese wurden hier nicht als bestätigtes Toronto-Programm übernommen. Vor themenspezifischer Reiseplanung sollte das offizielle Programm erneut geprüft werden. Die unten verlinkten Teilnahmeoptionen führen zu Zulassung, Ausstellung und Sponsoring. SEEDTRADE.EU liefert redaktionelle Einordnung und ist weder Veranstalter noch Buchungsvermittler."
-            }
-          ]
-        },
-        "fr": {
-          "title": "ISF World Seed Congress 2027 : commerce semencier, innovation et partenariats à Toronto",
-          "summary": "Toronto accueille le congrès de l’ISF du 17 au 19 mai 2027. Accès aux marchés, technologies semencières et rendez-vous ciblés donnent du sens au déplacement.",
-          "content": [
-            {
-              "heading": "Un rendez-vous du commerce semencier international",
-              "body": "Le World Seed Congress de l’ISF réunit entreprises et organisations professionnelles dans un cadre international. L’édition 2027 est annoncée à Toronto, au Canada, du 17 au 19 mai, sous le thème Cultivating Ventures. Pour un obtenteur, un producteur ou un distributeur européen, l’intérêt est de relier ses relations existantes à de futurs partenaires de production, de distribution ou de technologie."
-            },
-            {
-              "heading": "Construire un programme commercial",
-              "body": "Le commerce international des semences repose sur l’accès aux marchés, une production fiable et des spécifications claires. Le congrès permet de confronter les besoins et d’échanger sur la sélection, les technologies et l’évolution de la filière. Ce sont des motifs professionnels de participation, pas la promesse de sessions précises ou de contrats. Définir avant réservation les espèces visées, marchés, besoins de multiplication et questions à poser aux partenaires."
-            },
-            {
-              "heading": "Choisir le bon mode de participation",
-              "body": "L’ISF propose des parcours distincts pour délégués, visiteurs, sponsors et exposants. La page des délégués exige que l’entreprise ou l’organisation soit membre de plein droit de l’ISF avant le 1er avril 2027. Le tarif anticipé affiché lors de la vérification du 18 novembre 2026 est de 1 650 EUR. La période publiée va du 5 octobre 2026 à 12 h CET au 15 janvier 2027 à 00 h CET. Il s’agit d’un tarif de l’organisateur, non d’une offre SEEDTRADE.EU ; prestations, taxes et modifications relèvent des conditions officielles."
-            },
-            {
-              "heading": "Prévoir des rendez-vous utiles",
-              "body": "Les informations officielles décrivent des Trading Tables et des salles privées réservables. L’accès au Trading Floor est réservé aux délégués inscrits ; exposants et accompagnants n’en bénéficient pas automatiquement. Pour une exposition ou un sponsoring, vérifier séparément visibilité et accès aux réunions. Des échanges sur variétés, qualité, propriété intellectuelle, livraison et responsabilités valent mieux qu’une promesse générale de nouveaux contrats."
-            },
-            {
-              "heading": "S’appuyer sur les informations actualisées",
-              "body": "La page du programme annonce un calendrier à venir en décembre 2026 tout en conservant des éléments liés à Lisbonne. Ceux-ci ne sont donc pas repris comme programme confirmé de Toronto. Vérifier la version officielle avant d’organiser un déplacement lié à une session. Les options ci-dessous orientent vers les conditions d’inscription, l’exposition et le sponsoring. SEEDTRADE.EU apporte un éclairage éditorial et n’est ni organisateur ni agent de réservation."
-            }
-          ]
-        },
-        "es": {
-          "title": "ISF World Seed Congress 2027: negocio semillero, innovación y alianzas en Toronto",
-          "summary": "Toronto acoge el congreso de la ISF del 17 al 19 de mayo de 2027. Acceso a mercados, tecnología y reuniones bien definidas orientan la participación.",
-          "content": [
-            {
-              "heading": "Un punto de encuentro internacional",
-              "body": "El World Seed Congress de la ISF reúne a empresas y organizaciones del sector en un entorno internacional. La edición de 2027 está anunciada en Toronto, Canadá, del 17 al 19 de mayo, con el lema Cultivating Ventures. Para obtentores, productores y distribuidores europeos, ofrece la posibilidad de conectar relaciones existentes con posibles socios de producción, distribución y tecnología."
-            },
-            {
-              "heading": "Convertir la asistencia en una agenda comercial",
-              "body": "El comercio internacional de semillas necesita acceso a mercados, producción fiable y especificaciones claras. Las empresas pueden contrastar necesidades y conversar sobre mejora vegetal, tecnología y desarrollo sectorial. Son razones profesionales para asistir, no promesas de sesiones concretas ni de operaciones cerradas. Conviene definir especies, mercados de destino, necesidades de multiplicación y preguntas esenciales antes de reservar."
-            },
-            {
-              "heading": "Elegir la modalidad adecuada",
-              "body": "La ISF ofrece vías distintas para delegados, visitantes, patrocinadores y expositores. La página de delegados indica que la empresa u organización debe ser miembro de pleno derecho de la ISF antes del 1 de abril de 2027. La tarifa anticipada comprobada el 18 de noviembre de 2026 es de 1.650 EUR. El período publicado va del 5 de octubre de 2026 a las 12:00 CET al 15 de enero de 2027 a las 00:00 CET. Es una tarifa del organizador, no una oferta de SEEDTRADE.EU; deben comprobarse servicios incluidos, impuestos y cambios en las condiciones oficiales."
-            },
-            {
-              "heading": "Reservar espacio para las reuniones",
-              "body": "La información oficial describe Trading Tables y salas privadas que pueden reservarse. El Trading Floor está limitado a delegados inscritos; los expositores y acompañantes no acceden automáticamente. Quien valore exponer o patrocinar debe comprobar por separado las opciones de visibilidad y el acceso a reuniones. Hablar de variedades, calidad, propiedad intelectual, entregas y responsabilidades es más útil que una promesa genérica de nuevos negocios."
-            },
-            {
-              "heading": "Consultar información actualizada",
-              "body": "La página del programa anuncia el calendario para diciembre de 2026, pero conserva contenido asociado a Lisboa. No se utiliza aquí como agenda confirmada de Toronto. Antes de planificar viajes vinculados a sesiones concretas, hay que revisar el programa oficial de 2027. Las opciones enlazadas orientan sobre inscripción, exposición y patrocinio. SEEDTRADE.EU aporta contexto editorial y no actúa como organizador ni agente de reservas."
-            }
-          ]
-        },
-        "it": {
-          "title": "ISF World Seed Congress 2027: business sementiero, innovazione e partnership a Toronto",
-          "summary": "Toronto ospita il congresso ISF dal 17 al 19 maggio 2027. Accesso ai mercati, tecnologie e incontri mirati aiutano a pianificare una partecipazione utile.",
-          "content": [
-            {
-              "heading": "Un incontro per il settore sementiero internazionale",
-              "body": "Il World Seed Congress dell’ISF riunisce imprese e organizzazioni di settore in un contesto internazionale. L’edizione 2027 è annunciata a Toronto, in Canada, dal 17 al 19 maggio, con il tema Cultivating Ventures. Per costitutori, produttori e distributori europei, l’interesse è collegare relazioni esistenti a possibili partner di produzione, distribuzione e tecnologia."
-            },
-            {
-              "heading": "Costruire un programma commerciale",
-              "body": "Il commercio internazionale delle sementi richiede accesso ai mercati, produzione affidabile e specifiche chiare. Le imprese possono confrontare esigenze e discutere innovazione varietale, tecnologie e sviluppo del settore. Sono motivi professionali per partecipare, non promesse di sessioni specifiche o contratti. Prima di prenotare conviene definire specie, mercati, esigenze di moltiplicazione e domande essenziali per i potenziali partner."
-            },
-            {
-              "heading": "Scegliere la formula corretta",
-              "body": "ISF propone percorsi distinti per delegati, visitatori, sponsor ed espositori. La pagina dei delegati richiede che l’impresa o l’organizzazione sia membro effettivo dell’ISF prima del 1° aprile 2027. La tariffa anticipata verificata il 18 novembre 2026 è di 1.650 EUR. La finestra pubblicata va dal 5 ottobre 2026 alle 12:00 CET al 15 gennaio 2027 alle 00:00 CET. È una tariffa dell’organizzatore, non un’offerta SEEDTRADE.EU; inclusioni, imposte e modifiche dipendono dalle condizioni ufficiali."
-            },
-            {
-              "heading": "Organizzare gli incontri di lavoro",
-              "body": "Le informazioni ufficiali descrivono Trading Tables e sale private prenotabili. L’accesso al Trading Floor è riservato ai delegati registrati: espositori e accompagnatori non lo ottengono automaticamente. Chi considera esposizione o sponsorizzazione deve verificare separatamente visibilità e accesso agli incontri. Discutere varietà, qualità, proprietà intellettuale, consegne e responsabilità è più utile di una promessa generica di nuovi affari."
-            },
-            {
-              "heading": "Utilizzare informazioni aggiornate",
-              "body": "La pagina del programma annuncia il calendario per dicembre 2026, ma contiene ancora elementi associati a Lisbona. Non sono quindi presentati come agenda confermata di Toronto. Prima di organizzare un viaggio legato a sessioni specifiche, verificare il programma ufficiale 2027. I collegamenti orientano su ammissione, esposizione e sponsorizzazione. SEEDTRADE.EU offre contesto editoriale e non è organizzatore né intermediario di prenotazione."
-            }
-          ]
-        }
-      },
-      "title": "ISF World Seed Congress 2027: Global Seed Business, Innovation and Partnerships Meet in Toronto",
-      "summary": "Toronto hosts the International Seed Federation’s congress on 17–19 May 2027. Plan participation around market access, seed technology and purposeful commercial meetings.",
-      "content": [
-        {
-          "heading": "A meeting point for international seed business",
-          "body": "The ISF World Seed Congress brings companies and industry organisations into one international setting. The 2027 edition is announced for Toronto, Canada, on 17–19 May under the theme Cultivating Ventures. For a European breeder, producer or distributor, the practical attraction is the opportunity to connect existing relationships with prospective production, distribution and technology partners."
-        },
-        {
-          "heading": "Turn attendance into a commercial programme",
-          "body": "International seed trade depends on access requirements, reliable production and clear technical specifications. Companies can use the congress to compare needs with potential partners and discuss breeding innovation, seed technology and industry development. These are commercial reasons to attend, not promises of specific 2027 sessions or transactions. Set meeting objectives before booking: target species, intended markets, multiplication requirements and the questions a prospective partner must answer."
-        },
-        {
-          "heading": "Choose the right participation route",
-          "body": "ISF provides separate routes for delegates, visitors, sponsors and exhibitors. Its delegate page states that the company or organisation must be a bona fide ISF member before 1 April 2027. The early delegate fee shown when checked on 18 November 2026 is EUR 1,650, with the published window running from 5 October 2026 at 12:00 CET to 15 January 2027 at 00:00 CET. This is an organiser-listed fee, not a SEEDTRADE.EU offer; consult official booking terms for inclusions, taxes and changes."
-        },
-        {
-          "heading": "Make room for business meetings",
-          "body": "The official delegate information describes reservable Trading Tables and private meeting rooms. Access to the Trading Floor is limited to registered delegates; exhibitors and guests do not automatically receive it. Companies considering exhibition or sponsorship should therefore check both visibility options and meeting access. A focused conversation about varieties, quality, intellectual property, delivery and responsibilities is more useful than an unqualified promise of new business."
-        },
-        {
-          "heading": "Use current official information",
-          "body": "The programme page says the schedule is coming soon and refers to December 2026. It also retains content associated with Lisbon, so that material has not been treated here as a confirmed Toronto agenda. Recheck the official 2027 programme before arranging session-specific travel or meetings. The registration options below are the starting point for delegate eligibility, exhibition and sponsorship enquiries. SEEDTRADE.EU provides editorial context and is not the organiser or booking agent."
-        }
-      ],
-      "seo": {
-        "title": "ISF World Seed Congress 2027: Global Seed Business, Innovation and Partnerships Meet in Toronto | SEEDTRADE.EU",
-        "description": "Toronto hosts the International Seed Federation’s congress on 17–19 May 2027. Plan participation around market access, seed technology and purposeful commercial meetings.",
-        "canonical": "https://seedtrade.eu/insights/isf-world-seed-congress-toronto-2027",
-        "og_type": "article",
-        "structured_data_type": "Article"
-      },
-      "claims": [
-        {
-          "claim": "Event date, organiser, format and registration conditions",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "claim": "Practical questions and potential commercial relevance",
-          "provenance_class": "SEEDTRADE_ANALYSIS"
-        }
-      ],
-      "sources": [
-        {
-          "label": "ISF World Seed Congress 2027",
-          "url": "https://congress.worldseed.org/",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "label": "Official delegate eligibility and dated fee schedule",
-          "url": "https://congress.worldseed.org/join/join-as-a-delegate/",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "label": "Official participation options",
-          "url": "https://congress.worldseed.org/join/",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "label": "Programme status; legacy Lisbon details excluded",
-          "url": "https://congress.worldseed.org/program-2027/",
-          "provenance_class": "OFFICIAL_SOURCE"
-        }
-      ],
-      "event": {
-        "startDate": "2027-05-17",
-        "endDate": "2027-05-19",
-        "location": "Toronto, Canada",
-        "organizer": "International Seed Federation",
-        "organizerUrl": "https://worldseed.org/",
-        "attendanceMode": "OfflineEventAttendanceMode",
-        "registrationUrl": "https://congress.worldseed.org/join/"
-      },
-      "cta": {
-        "url": "https://congress.worldseed.org/join/",
-        "label": "Explore Registration Options",
-        "kind": "registration_cta_click"
-      }
-    },
-    {
-      "slug": "lagrenas-contract-seed-multiplication-lithuania",
-      "title": "Lagrenas: Contract Seed Multiplication, Processing and Supply Partnerships in Lithuania",
-      "summary": "A Lithuanian cooperative network offers a starting point for discussing contract multiplication and supply partnerships. Match each project to verified farm, processing and quality requirements.",
-      "publication_date": "2026-09-21",
-      "updated_date": "2026-11-18",
-      "category": "PARTNER INSIGHT",
-      "author": "SEEDTRADE.EU Partner Insights",
-      "image": null,
-      "classification": "PUBLIC_SAFE",
-      "market_engine_input": false,
-      "partner_disclosure": "This Partner Insight includes information supplied by Lagrenas. Partner-provided claims are identified and are not treated as independent SeedTrade market evidence.",
-      "content": [
-        {
-          "heading": "A cooperative route to Lithuanian agriculture",
-          "body": "Lagrenas is an agricultural cooperative connecting Lithuanian producer cooperatives. Its official website describes collective purchasing of agricultural inputs, seed-related advice, exchange of experience, product trials and market analysis. This provides a practical introduction for international seed companies seeking a coordinated conversation with growers. Published network totals vary, so this presentation does not use a fixed member or cooperative count or invent a foundation date."
-        },
-        {
-          "heading": "Start with the multiplication specification",
-          "body": "Partner-provided information identifies experienced growers and potential seed crops including flax or linseed, hemp, vetches, caraway and clovers. A breeder or distributor can approach the network with a defined variety, multiplication class, target area, isolation requirements and harvest window. Cereals, oilseeds, legumes, grasses and other crops should be discussed individually; this article does not assert that every species or certification class is currently available."
-        },
-        {
-          "heading": "Connect the field with the finished lot",
-          "body": "A viable multiplication agreement needs a clear route through cleaning, grading, processing, packaging and dispatch. Ask which operations can be provided by a proposed farm, cooperative or contracted processor, and which modern processing technologies are suitable for the particular seed. Equipment brands, capacities, packaging ranges and owned facilities have not been verified here. Confirm these points in a project-specific proposal rather than treating them as established Lagrenas assets."
-        },
-        {
-          "heading": "Make quality and traceability contractual",
-          "body": "Before commissioning production, agree the responsibilities for field records, varietal identity, inspections, sampling, testing and lot traceability. Define acceptance specifications, any required certification, treatment, storage, transport and the handling of rejected lots. These are recommended cooperation topics, not claims of existing Lagrenas certification or a guaranteed quality outcome. International seed companies should verify the relevant operator and process for their crop and destination."
-        },
-        {
-          "heading": "Build a repeatable partnership",
-          "body": "Longer-term cooperation can begin with a clearly scoped project and an agreed review of results. Share the crop, expected volume, delivery destination and required quality documentation; request evidence of suitable experience and available capacity. Lagrenas publishes info@lagren.lt and +370 615 72777 as general contacts. Use the official contact page below to discuss seed multiplication, processing coordination and supply opportunities directly. No availability, production volume or successful international contract is asserted without supporting evidence."
-        }
-      ],
-      "claims": [
-        {
-          "claim": "Company activities and general contacts",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "claim": "Practical questions and potential commercial relevance",
-          "provenance_class": "SEEDTRADE_ANALYSIS"
-        },
-        {
-          "claim": "Potential crops and grower capabilities retained from existing partner-provided material; not independently verified",
-          "provenance_class": "PARTNER_PROVIDED"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Lagrenas official website",
-          "url": "https://www.lagren.lt/",
-          "provenance_class": "OFFICIAL_SOURCE"
-        },
-        {
-          "label": "Lagrenas official general contacts",
-          "url": "https://www.lagren.lt/lt/kontaktai",
-          "provenance_class": "OFFICIAL_SOURCE"
-        }
-      ],
-      "seo": {
-        "title": "Lagrenas: Contract Seed Multiplication, Processing and Supply Partnerships in Lithuania | SEEDTRADE.EU",
-        "description": "A Lithuanian cooperative network offers a starting point for discussing contract multiplication and supply partnerships. Match each project to verified farm, processing and quality requirements.",
-        "canonical": "https://seedtrade.eu/insights/lagrenas-contract-seed-multiplication-lithuania",
-        "og_type": "article",
-        "structured_data_type": "Article"
-      },
-      "localizations": {
-        "de": {
-          "title": "Lagrenas: Saatgutvermehrung, Aufbereitung und Lieferpartnerschaften in Litauen",
-          "summary": "Ein litauisches Genossenschaftsnetzwerk als Ausgangspunkt für Vermehrungs- und Lieferprojekte. Betriebe, Aufbereitung und Qualitätsanforderungen sind projektbezogen abzugleichen.",
-          "content": [
-            {
-              "heading": "Ein genossenschaftlicher Zugang zu Litauen",
-              "body": "Lagrenas verbindet litauische Erzeugergenossenschaften. Die offizielle Website beschreibt gemeinsame Betriebsmittelbeschaffung, Saatgutberatung, Erfahrungsaustausch, Produktversuche und Marktanalysen. Das erleichtert internationalen Saatgutunternehmen einen koordinierten Einstieg ins Gespräch mit Erzeugern. Da veröffentlichte Netzwerkzahlen voneinander abweichen, werden hier weder feste Mitgliederzahlen noch ein unbelegtes Gründungsdatum verwendet."
-            },
-            {
-              "heading": "Mit der Vermehrungsspezifikation beginnen",
-              "body": "Partnerangaben nennen erfahrene Landwirte und mögliche Saatgutkulturen wie Faser- oder Öllein, Hanf, Wicken, Kümmel und Klee. Züchter und Händler können mit Sorte, Vermehrungsklasse, Zielfläche, Isolationsanforderungen und Erntezeitraum anfragen. Getreide, Ölsaaten, Leguminosen, Gräser und weitere Kulturen sind einzeln zu besprechen; die aktuelle Verfügbarkeit jeder Art oder Anerkennungsstufe wird nicht behauptet."
-            },
-            {
-              "heading": "Vom Feld zur fertigen Partie",
-              "body": "Ein tragfähiger Vertrag braucht einen klaren Weg über Reinigung, Sortierung, Aufbereitung, Verpackung und Versand. Zu klären ist, welche Schritte Betrieb, Genossenschaft oder externer Aufbereiter übernehmen können und welche moderne Technik zur Saatgutart passt. Maschinenmarken, Kapazitäten, Verpackungsgrößen und eigene Anlagen sind hier nicht belegt. Sie gehören in ein geprüftes Projektangebot und sind keine zugesagten Lagrenas-Betriebsmittel."
-            },
-            {
-              "heading": "Qualität und Rückverfolgbarkeit vereinbaren",
-              "body": "Vor Produktionsbeginn sollten Zuständigkeiten für Feldaufzeichnungen, Sortenidentität, Kontrollen, Probenahme, Prüfung und Partieverfolgung feststehen. Annahmekriterien, erforderliche Anerkennung, Behandlung, Lagerung, Transport und der Umgang mit abgelehnten Partien sind zu regeln. Das sind empfohlene Vertragspunkte, keine Behauptung bestehender Zertifizierung oder garantierter Qualität. Unternehmen sollten den zuständigen Betreiber und Prozess für Kultur und Zielmarkt prüfen."
-            },
-            {
-              "heading": "Eine wiederholbare Partnerschaft aufbauen",
-              "body": "Längerfristige Zusammenarbeit kann mit einem begrenzten Projekt und einer gemeinsamen Ergebnisbewertung beginnen. Nennen Sie Kultur, geplante Menge, Lieferziel und Qualitätsnachweise; fragen Sie nach belegter Erfahrung und verfügbarer Kapazität. Allgemeine Kontakte sind info@lagren.lt und +370 615 72777. Über die offizielle Kontaktseite lassen sich Vermehrung, Aufbereitungskoordination und Liefermöglichkeiten direkt besprechen. Unbelegte Verfügbarkeiten, Produktionsmengen oder internationale Vertragsreferenzen werden nicht zugesagt."
-            }
-          ],
-          "partner_disclosure": "Dieser Partner Insight enthält von Lagrenas bereitgestellte Informationen. Angaben des Partners sind gekennzeichnet und werden nicht als unabhängige Marktbelege von SeedTrade behandelt."
-        },
-        "fr": {
-          "title": "Lagrenas : multiplication de semences, préparation et partenariats en Lituanie",
-          "summary": "Un réseau coopératif lituanien pour amorcer des projets de multiplication et d’approvisionnement, en vérifiant les exploitations, la préparation et les exigences qualité.",
-          "content": [
-            {
-              "heading": "Un accès coopératif à l’agriculture lituanienne",
-              "body": "Lagrenas relie des coopératives de producteurs lituaniens. Son site officiel décrit les achats collectifs d’intrants, le conseil lié aux semences, le partage d’expérience, les essais de produits et l’analyse de marché. Les entreprises internationales disposent ainsi d’un point d’entrée pour échanger avec des producteurs. Les chiffres publics du réseau divergent ; aucun effectif fixe ni date de création non vérifiée n’est donc avancé ici."
-            },
-            {
-              "heading": "Commencer par le cahier des charges",
-              "body": "Les informations du partenaire mentionnent des agriculteurs expérimentés et des cultures possibles telles que lin textile ou oléagineux, chanvre, vesces, carvi et trèfles. Un obtenteur ou distributeur peut préciser variété, génération de multiplication, surface recherchée, isolement et période de récolte. Céréales, oléagineux, légumineuses, graminées et autres espèces doivent être examinés au cas par cas, sans présumer une disponibilité actuelle pour chaque espèce ou catégorie."
-            },
-            {
-              "heading": "Relier la parcelle au lot fini",
-              "body": "Un contrat viable définit le nettoyage, le calibrage, la préparation, le conditionnement et l’expédition. Il faut préciser les opérations assurées par l’exploitation, la coopérative ou un prestataire et les technologies adaptées au lot. Marques de machines, capacités, formats d’emballage et installations en propre ne sont pas vérifiés ici. Ces éléments doivent figurer dans une proposition contrôlée, pas être considérés comme des actifs acquis de Lagrenas."
-            },
-            {
-              "heading": "Contractualiser qualité et traçabilité",
-              "body": "Avant production, convenir des responsabilités pour registres de parcelle, identité variétale, inspections, prélèvements, analyses et suivi des lots. Définir critères d’acceptation, certification éventuelle, traitement, stockage, transport et gestion des refus. Ce sont des sujets recommandés pour la coopération, pas des affirmations de certification existante ou de résultat garanti. Le donneur d’ordre doit vérifier opérateur et processus pour l’espèce et le marché visés."
-            },
-            {
-              "heading": "Construire une relation reproductible",
-              "body": "Une coopération durable peut commencer par un projet délimité et une évaluation convenue. Communiquer culture, volume envisagé, destination et documents qualité ; demander des preuves d’expérience et de capacité disponible. Les contacts généraux publiés sont info@lagren.lt et +370 615 72777. La page officielle permet de discuter directement multiplication, coordination de la préparation et approvisionnement. Aucune disponibilité, quantité produite ou référence de contrat international n’est affirmée sans preuve."
-            }
-          ],
-          "partner_disclosure": "Ce Partner Insight comprend des informations fournies par Lagrenas. Les affirmations du partenaire sont identifiées et ne sont pas considérées comme des éléments de marché indépendants de SeedTrade."
-        },
-        "es": {
-          "title": "Lagrenas: multiplicación de semillas, procesado y alianzas de suministro en Lituania",
-          "summary": "Una red cooperativa lituana como punto de partida para proyectos de multiplicación y suministro, con requisitos de campo, procesado y calidad verificados para cada caso.",
-          "content": [
-            {
-              "heading": "Una vía cooperativa hacia la agricultura lituana",
-              "body": "Lagrenas conecta cooperativas de productores lituanos. Su web oficial describe compras conjuntas de insumos, asesoramiento sobre semillas, intercambio de experiencia, ensayos de productos y análisis de mercado. Ofrece así una entrada coordinada para empresas internacionales interesadas en contactar con agricultores. Las cifras públicas de la red difieren; no se fija aquí un número de miembros ni una fecha de fundación sin verificar."
-            },
-            {
-              "heading": "Empezar por la especificación",
-              "body": "La información del socio menciona agricultores experimentados y posibles cultivos como lino textil u oleaginoso, cáñamo, vezas, alcaravea y tréboles. Un obtentor o distribuidor puede plantear variedad, clase de multiplicación, superficie, aislamiento y ventana de cosecha. Cereales, oleaginosas, leguminosas, gramíneas y otras especies deben valorarse individualmente, sin asumir disponibilidad actual de todas las especies o categorías."
-            },
-            {
-              "heading": "Conectar el campo con el lote terminado",
-              "body": "Un acuerdo viable necesita definir limpieza, clasificación, procesado, envasado y expedición. Debe concretarse qué operaciones realizarán la explotación, la cooperativa o un procesador contratado y qué tecnologías son adecuadas. No se han verificado marcas de equipos, capacidades, formatos de envase ni instalaciones propias. Estos puntos requieren una propuesta comprobada y no deben tratarse como recursos confirmados de Lagrenas."
-            },
-            {
-              "heading": "Acordar calidad y trazabilidad",
-              "body": "Antes de producir, asignar responsabilidades sobre registros de campo, identidad varietal, inspecciones, muestreo, análisis y trazabilidad de lotes. Definir aceptación, certificación necesaria, tratamiento, almacenamiento, transporte y gestión de rechazos. Son temas recomendados para el contrato, no afirmaciones de certificaciones existentes ni garantías de calidad. Las empresas deben verificar operador y proceso para el cultivo y destino concretos."
-            },
-            {
-              "heading": "Construir una cooperación duradera",
-              "body": "Una relación a largo plazo puede comenzar con un proyecto acotado y una evaluación acordada. Indicar cultivo, volumen previsto, destino y documentación de calidad; pedir pruebas de experiencia y capacidad disponible. Los contactos generales publicados son info@lagren.lt y +370 615 72777. La página oficial permite hablar directamente de multiplicación, coordinación del procesado y suministro. No se afirman disponibilidad, volúmenes producidos ni contratos internacionales sin respaldo."
-            }
-          ],
-          "partner_disclosure": "Este Partner Insight incluye información facilitada por Lagrenas. Las afirmaciones aportadas por el socio se identifican y no se tratan como evidencia de mercado independiente de SeedTrade."
-        },
-        "it": {
-          "title": "Lagrenas: moltiplicazione sementiera, lavorazione e partnership in Lituania",
-          "summary": "Una rete cooperativa lituana per avviare progetti di moltiplicazione e fornitura, verificando per ciascun incarico aziende, lavorazione e requisiti qualitativi.",
-          "content": [
-            {
-              "heading": "Un accesso cooperativo all’agricoltura lituana",
-              "body": "Lagrenas collega cooperative di produttori lituani. Il sito ufficiale descrive acquisti collettivi di mezzi tecnici, consulenza sulle sementi, scambio di esperienze, prove di prodotti e analisi di mercato. Offre alle imprese internazionali un punto di contatto coordinato con gli agricoltori. Poiché i numeri pubblici della rete divergono, non vengono indicati consistenze fisse né date di fondazione non verificate."
-            },
-            {
-              "heading": "Partire dal capitolato di moltiplicazione",
-              "body": "Le informazioni del partner citano agricoltori esperti e possibili colture come lino da fibra o da olio, canapa, vecce, carvi e trifogli. Costitutori e distributori possono specificare varietà, classe di moltiplicazione, superficie, isolamento e periodo di raccolta. Cereali, oleaginose, leguminose, graminacee e altre specie vanno discussi singolarmente, senza presumere una disponibilità attuale per ogni specie o categoria."
-            },
-            {
-              "heading": "Dal campo al lotto finito",
-              "body": "Un accordo sostenibile definisce pulizia, selezione, lavorazione, confezionamento e spedizione. Occorre chiarire le operazioni svolte da azienda agricola, cooperativa o terzista e le tecnologie adatte al seme. Marchi dei macchinari, capacità, formati di confezione e impianti propri non sono verificati qui. Devono essere confermati in una proposta specifica, senza considerarli risorse accertate di Lagrenas."
-            },
-            {
-              "heading": "Rendere contrattuali qualità e tracciabilità",
-              "body": "Prima di produrre, concordare responsabilità per registri di campo, identità varietale, ispezioni, campionamento, analisi e tracciabilità dei lotti. Definire accettazione, eventuale certificazione, trattamento, conservazione, trasporto e gestione dei lotti respinti. Sono temi consigliati per la collaborazione, non dichiarazioni di certificazioni esistenti o risultati garantiti. Imprese e committenti devono verificare operatore e processo per coltura e destinazione."
-            },
-            {
-              "heading": "Costruire una partnership ripetibile",
-              "body": "La collaborazione duratura può iniziare con un progetto circoscritto e una valutazione concordata. Indicare coltura, volume atteso, destinazione e documenti qualitativi; chiedere riscontri su esperienza e capacità disponibile. I contatti generali pubblicati sono info@lagren.lt e +370 615 72777. La pagina ufficiale consente di discutere direttamente moltiplicazione, coordinamento della lavorazione e forniture. Non si affermano disponibilità, volumi prodotti o contratti internazionali senza prove."
-            }
-          ],
-          "partner_disclosure": "Questo Partner Insight comprende informazioni fornite da Lagrenas. Le affermazioni del partner sono identificate e non sono trattate come evidenze di mercato indipendenti di SeedTrade."
-        }
-      },
-      "editorial_status": "OWNER_REVIEW",
-      "source_checked_date": "2026-11-18",
-      "cta": {
-        "url": "mailto:info@lagren.lt",
-        "label": "Discuss Seed Multiplication Cooperation",
-        "kind": "partner_contact_click"
-      },
-      "secondary_cta": {
-        "url": "https://www.lagren.lt/lt/kontaktai",
-        "label": "Official Contact Details",
-        "kind": "external_website_click"
-      },
-      "supporting_images": [
-        "harvest"
-      ]
-    },
-    {
       "slug": "euroseeds-2026-congress-valencia",
       "title": "Euroseeds 2026 Congress: Europe’s seed sector meets in Valencia",
       "summary": "The Euroseeds Congress will bring the European seed sector to Valencia from 25–28 October 2026 for crop-section meetings, innovation and industry exchange.",
@@ -901,11 +324,167 @@
           ]
         }
       }
+    },
+    {
+      "slug": "lagrenas-contract-seed-multiplication-lithuania",
+      "title": "Lagrenas and contract seed multiplication opportunities in Lithuania",
+      "summary": "A transparent Partner Insight on how a Lithuanian cooperative network could help European seed companies identify and coordinate suitable multiplication farms.",
+      "publication_date": "2026-09-21",
+      "updated_date": "2026-09-21",
+      "category": "PARTNER INSIGHT",
+      "author": "SeedTrade Partner Insights",
+      "image": null,
+      "classification": "PUBLIC_SAFE",
+      "market_engine_input": false,
+      "partner_disclosure": "This Partner Insight includes information supplied by Lagrenas. Partner-provided claims are identified and are not treated as independent SeedTrade market evidence.",
+      "content": [
+        {
+          "heading": "Cooperative network",
+          "body": "Lagrenas publicly describes a Lithuanian network of seven agricultural cooperatives and 630 members, supporting collective purchasing, advice, experience sharing, product trials and market analysis."
+        },
+        {
+          "heading": "Potential cooperation model",
+          "body": "A European seed company could work through Lagrenas coordination to identify suitable cooperative or member farms for a contract seed-multiplication project in Lithuania. Any capacity, technical, certification and commercial terms would require project-specific verification."
+        },
+        {
+          "heading": "Partner-provided capabilities",
+          "body": "Lagrenas states that its network includes experienced farmers with modern agricultural equipment and developed agricultural infrastructure. Potential crops identified by the partner include flax or linseed, hemp, vetch species, caraway, clovers and other suitable seed crops."
+        },
+        {
+          "heading": "Commercial boundaries",
+          "body": "No production hectares, volumes, customers, contracts, certification status, equipment inventory, completed projects, yields or commercial results are asserted here. Suitability and capacity are not guaranteed."
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Seven cooperatives and 630 members",
+          "provenance_class": "PUBLIC_SOURCE"
+        },
+        {
+          "claim": "Collective purchasing, advice, experience sharing, trials and market analysis",
+          "provenance_class": "PUBLIC_SOURCE"
+        },
+        {
+          "claim": "Experienced farmers, modern equipment and developed infrastructure",
+          "provenance_class": "PARTNER_PROVIDED"
+        },
+        {
+          "claim": "Potential multiplication crops",
+          "provenance_class": "PARTNER_PROVIDED"
+        },
+        {
+          "claim": "Potential coordination model and benefits",
+          "provenance_class": "SEEDTRADE_ANALYSIS"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Lagrenas official website",
+          "url": "https://www.lagren.lt/",
+          "provenance_class": "PUBLIC_SOURCE"
+        }
+      ],
+      "seo": {
+        "title": "Lagrenas seed multiplication in Lithuania | SeedTrade.eu",
+        "description": "Partner Insight on a Lithuanian cooperative network and potential contract seed multiplication cooperation.",
+        "canonical": "https://seedtrade.eu/insights/lagrenas-contract-seed-multiplication-lithuania",
+        "og_type": "article",
+        "structured_data_type": "Article"
+      },
+      "localizations": {
+        "de": {
+          "title": "Lagrenas und Möglichkeiten der vertraglichen Saatgutvermehrung in Litauen",
+          "summary": "Ein transparenter Partner Insight darüber, wie ein litauisches Genossenschaftsnetzwerk europäischen Saatgutunternehmen helfen könnte, geeignete Vermehrungsbetriebe zu finden und zu koordinieren.",
+          "content": [
+            {
+              "heading": "Genossenschaftsnetzwerk",
+              "body": "Lagrenas beschreibt öffentlich ein litauisches Netzwerk aus sieben landwirtschaftlichen Genossenschaften und 630 Mitgliedern, das gemeinsame Beschaffung, Beratung, Erfahrungsaustausch, Produktversuche und Marktanalysen unterstützt."
+            },
+            {
+              "heading": "Mögliches Kooperationsmodell",
+              "body": "Ein europäisches Saatgutunternehmen könnte über die Koordination von Lagrenas geeignete Genossenschafts- oder Mitgliedsbetriebe für ein vertragliches Saatgutvermehrungsprojekt in Litauen identifizieren. Sämtliche Kapazitäten sowie technische, zertifizierungsbezogene und kaufmännische Bedingungen müssten projektspezifisch geprüft werden."
+            },
+            {
+              "heading": "Vom Partner angegebene Fähigkeiten",
+              "body": "Lagrenas gibt an, dass sein Netzwerk erfahrene Landwirte mit moderner Landtechnik und ausgebauter landwirtschaftlicher Infrastruktur umfasst. Als mögliche Kulturen nennt der Partner Faser- oder Öllein, Hanf, Wickenarten, Kümmel, Kleearten und weitere geeignete Saatgutkulturen."
+            },
+            {
+              "heading": "Kaufmännische Grenzen",
+              "body": "Hier werden keine Produktionsflächen, Mengen, Kunden, Verträge, Zertifizierungsstände, Maschinenbestände, abgeschlossenen Projekte, Erträge oder wirtschaftlichen Ergebnisse behauptet. Eignung und Kapazität sind nicht garantiert."
+            }
+          ],
+          "partner_disclosure": "Dieser Partner Insight enthält von Lagrenas bereitgestellte Informationen. Angaben des Partners sind gekennzeichnet und werden nicht als unabhängige Marktbelege von SeedTrade behandelt."
+        },
+        "fr": {
+          "title": "Lagrenas et les possibilités de multiplication de semences sous contrat en Lituanie",
+          "summary": "Un Partner Insight transparent sur la manière dont un réseau coopératif lituanien pourrait aider les entreprises semencières européennes à identifier et coordonner des exploitations adaptées à la multiplication.",
+          "content": [
+            {
+              "heading": "Réseau coopératif",
+              "body": "Lagrenas décrit publiquement un réseau lituanien de sept coopératives agricoles et de 630 membres, favorisant les achats collectifs, le conseil, le partage d’expérience, les essais de produits et l’analyse de marché."
+            },
+            {
+              "heading": "Modèle de coopération possible",
+              "body": "Une entreprise semencière européenne pourrait s’appuyer sur la coordination de Lagrenas pour identifier des exploitations coopératives ou membres adaptées à un projet de multiplication de semences sous contrat en Lituanie. Toute capacité et toute condition technique, de certification ou commerciale nécessiteraient une vérification propre au projet."
+            },
+            {
+              "heading": "Capacités déclarées par le partenaire",
+              "body": "Lagrenas indique que son réseau comprend des agriculteurs expérimentés disposant de matériel agricole moderne et d’infrastructures agricoles développées. Les cultures possibles citées par le partenaire comprennent le lin textile ou oléagineux, le chanvre, des espèces de vesces, le carvi, les trèfles et d’autres cultures semencières adaptées."
+            },
+            {
+              "heading": "Limites commerciales",
+              "body": "Aucune surface de production, aucun volume, client, contrat, statut de certification, inventaire de matériel, projet achevé, rendement ou résultat commercial n’est affirmé ici. L’adéquation et la capacité ne sont pas garanties."
+            }
+          ],
+          "partner_disclosure": "Ce Partner Insight comprend des informations fournies par Lagrenas. Les affirmations du partenaire sont identifiées et ne sont pas considérées comme des éléments de marché indépendants de SeedTrade."
+        },
+        "es": {
+          "title": "Lagrenas y las oportunidades de multiplicación de semillas bajo contrato en Lituania",
+          "summary": "Un Partner Insight transparente sobre cómo una red cooperativa lituana podría ayudar a empresas europeas de semillas a identificar y coordinar explotaciones adecuadas para la multiplicación.",
+          "content": [
+            {
+              "heading": "Red cooperativa",
+              "body": "Lagrenas describe públicamente una red lituana de siete cooperativas agrícolas y 630 miembros que apoya las compras colectivas, el asesoramiento, el intercambio de experiencias, los ensayos de productos y el análisis de mercado."
+            },
+            {
+              "heading": "Posible modelo de cooperación",
+              "body": "Una empresa europea de semillas podría recurrir a la coordinación de Lagrenas para identificar explotaciones cooperativas o de miembros adecuadas para un proyecto de multiplicación de semillas bajo contrato en Lituania. Cualquier capacidad y las condiciones técnicas, de certificación y comerciales requerirían una verificación específica del proyecto."
+            },
+            {
+              "heading": "Capacidades declaradas por el socio",
+              "body": "Lagrenas afirma que su red incluye agricultores experimentados con equipos agrícolas modernos e infraestructuras agrícolas desarrolladas. Los cultivos potenciales señalados por el socio incluyen lino textil u oleaginoso, cáñamo, especies de veza, alcaravea, tréboles y otros cultivos semilleros adecuados."
+            },
+            {
+              "heading": "Límites comerciales",
+              "body": "Aquí no se afirman superficies de producción, volúmenes, clientes, contratos, estado de certificación, inventario de equipos, proyectos completados, rendimientos ni resultados comerciales. La idoneidad y la capacidad no están garantizadas."
+            }
+          ],
+          "partner_disclosure": "Este Partner Insight incluye información facilitada por Lagrenas. Las afirmaciones aportadas por el socio se identifican y no se tratan como evidencia de mercado independiente de SeedTrade."
+        },
+        "it": {
+          "title": "Lagrenas e le opportunità di moltiplicazione sementiera su contratto in Lituania",
+          "summary": "Un Partner Insight trasparente su come una rete cooperativa lituana potrebbe aiutare le imprese sementiere europee a individuare e coordinare aziende agricole adatte alla moltiplicazione.",
+          "content": [
+            {
+              "heading": "Rete cooperativa",
+              "body": "Lagrenas descrive pubblicamente una rete lituana di sette cooperative agricole e 630 membri, a sostegno di acquisti collettivi, consulenza, scambio di esperienze, prove di prodotti e analisi di mercato."
+            },
+            {
+              "heading": "Possibile modello di cooperazione",
+              "body": "Un’impresa sementiera europea potrebbe avvalersi del coordinamento di Lagrenas per individuare aziende cooperative o associate adatte a un progetto di moltiplicazione sementiera su contratto in Lituania. Qualsiasi capacità e condizione tecnica, di certificazione e commerciale richiederebbe una verifica specifica per il progetto."
+            },
+            {
+              "heading": "Capacità dichiarate dal partner",
+              "body": "Lagrenas afferma che la propria rete comprende agricoltori esperti con attrezzature agricole moderne e infrastrutture agricole sviluppate. Le possibili colture indicate dal partner comprendono lino tessile o da olio, canapa, specie di veccia, carvi, trifogli e altre colture sementiere adatte."
+            },
+            {
+              "heading": "Limiti commerciali",
+              "body": "Non vengono qui affermati ettari di produzione, volumi, clienti, contratti, stato di certificazione, inventari di attrezzature, progetti completati, rese o risultati commerciali. Idoneità e capacità non sono garantite."
+            }
+          ],
+          "partner_disclosure": "Questo Partner Insight comprende informazioni fornite da Lagrenas. Le affermazioni del partner sono identificate e non sono trattate come evidenze di mercato indipendenti di SeedTrade."
+        }
+      }
     }
-  ],
-  "featured_slugs": [
-    "ista-seed-priming-webinar-2026",
-    "isf-world-seed-congress-toronto-2027",
-    "lagrenas-contract-seed-multiplication-lithuania"
   ]
 }
