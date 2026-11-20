@@ -4,7 +4,11 @@ import {simpleFullTerms} from '../shared/simpleBrokerageTerms.mjs';import {simpl
 import {createRegistrationService} from '../server/b2b/registrationService.mjs';import {createB2bPortalService} from '../server/b2b/portalService.mjs';import {currentLegalRegistry} from '../server/b2b/legalAcceptance.mjs';import {profileFor} from './fixtures/b2bPortalFixture.mjs';
 import {Readable} from 'node:stream';import {createB2bPortalHttp} from '../server/b2b/portalHttp.mjs';import {SESSION_COOKIE,csrfForSession} from '../server/b2b/portalService.mjs';
 async function enquiry(direction='OFFER'){
- const f=await tradingFixture({simple:true}),p=f.workflow.policy,o=await f.service.saveOffer(f.s.sessionToken,{...offerInput,listingDirection:direction,productType:'COMMODITY',quantity:20,unit:'t',priceAmount:500});
+ const f=await tradingFixture({simple:true});
+ // The coordinator has no Marketplace company or member, and no billing authority.
+ f.h.state.companies.delete(f.operatorCompanyId);
+ f.h.state.members=f.h.state.members.filter(m=>m.companyId!==f.operatorCompanyId);
+ const p=f.workflow.policy,o=await f.service.saveOffer(f.s.sessionToken,{...offerInput,listingDirection:direction,productType:'COMMODITY',quantity:20,unit:'t',priceAmount:500});
  await f.service.saveListingPreference(f.b.sessionToken,{enabled:true,language:'DE',cropIds:[]});
  await assert.rejects(f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0}),e=>e.message==='COMMISSION_ACCEPTANCE_REQUIRED');
  await f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0,commissionAccepted:true,commissionTermsHash:p.hash});
@@ -26,9 +30,13 @@ for(const direction of ['OFFER','BUY_REQUEST'])test(direction+': publication →
  await f.confirmation.deliverOperator(f.e.id);assert.equal(f.delivered.filter(m=>m.to==='operations@example.invalid').length,1);
  assert.equal((await f.service.enquiries(f.s.sessionToken,{direction:'INBOX'})).items.length,1);
  const r=f.h.state.trades.get(f.e.id);assert.equal(r.payerCompanyId,f.s.company.id);assert.equal(r.operator.key,'GATE_V');assert.equal(r.invoice,null);assert.deepEqual(r.deliveries,[]);assert.deepEqual(r.documents,[]);
+ assert.equal(r.operator.companyId,undefined);assert.equal(r.operator.registrationNumber,'306795035');assert.equal(r.operator.identityStatus,'LEGAL_OPERATOR');
+ assert.equal(r.commissionAcceptance.companyId,f.s.company.id);assert.equal(r.commissionAcceptance.userId,f.s.user.id);assert.equal(r.commissionAcceptance.listingId,f.o.id);assert.equal(r.commissionAcceptance.termsVersion,'brokerage-simple-1pct-v2');assert.equal(r.commissionAcceptance.termsHash,f.workflow.policy.hash);assert(r.commissionAcceptance.acceptedAt);
+ const handoff=JSON.parse(f.delivered.find(m=>m.to==='operations@example.invalid').text);assert.equal(handoff.administration,undefined);assert.equal(handoff.coordination,'MANUAL_OUTSIDE_MARKETPLACE_V1');
+ await assert.rejects(f.workflow.operatorAction(null,{},{} ,[]),e=>e.message==='MANUAL_BROKERAGE_ONLY');
  await assert.rejects(f.service.transactionAction(f.b.sessionToken,{id:f.e.id,action:'RECORD_EXECUTION'}),e=>e.message==='MANUAL_BROKERAGE_ONLY');
 });
-test('five-language terms are versioned local drafts; new labels have all five translations',()=>{for(const l of ['EN','DE','FR','ES','IT']){assert.equal(simpleFullTerms[l].length,10);assert(simpleFullTerms[l].join(' ').includes('MB Gate-V'));}assert(simpleRows.every(row=>row.length===5&&row.every(Boolean)));});
+test('five-language terms are versioned local drafts; new labels have all five translations',()=>{for(const l of ['EN','DE','FR','ES','IT']){assert.equal(simpleFullTerms[l].length,11);assert(simpleFullTerms[l].join(' ').includes('MB Gate-V'));}assert(simpleRows.every(row=>row.length===5&&row.every(Boolean)));});
 test('SMTP failure preserves committed enquiry and cannot generate operator mail before confirmation',async()=>{const f=await tradingFixture({simple:true}),o=await f.service.saveOffer(f.s.sessionToken,{...offerInput,listingDirection:'OFFER',productType:'COMMODITY'});await f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0,commissionAccepted:true,commissionTermsHash:f.workflow.policy.hash});f.transport.sendMail=async()=>{throw Error('synthetic delivery uncertainty');};const e=await f.service.sendEnquiry(f.b.sessionToken,{offerId:o.id,requestedQuantity:1,requestedUnit:'kg',body:'',requestId:'simple-failure-00001'});assert.equal(e.confirmationMailStatus,'UNKNOWN');assert.equal(f.h.state.trades.get(e.id).enquiryConfirmation.state,'PENDING_EMAIL_CONFIRMATION');assert.equal((await f.confirmation.deliverOperator(e.id)).status,'NOT_CLAIMED');});
 test('expired tokens and withdrawn offers cannot confirm; concurrent confirmations notify once',async()=>{
  const expired=await enquiry(),message=expired.delivered.find(m=>m.text.includes('view=confirm-enquiry')),link=new URL(message.text.split('\n').find(l=>l.startsWith('https://'))),token=new URLSearchParams(link.hash.slice(1)).get('token');expired.h.advance(31*60000);await assert.rejects(expired.service.enquiryConfirmationSummary(expired.b.sessionToken,{id:expired.e.id,token}),e=>e.message==='INVALID_OR_EXPIRED');

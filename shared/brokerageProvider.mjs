@@ -1,0 +1,2 @@
+// Existing approved public operator identity; not a Marketplace member or billing grant.
+export const brokerageProvider=Object.freeze({key:'GATE_V',legalName:'MB Gate-V',country:'LT',registrationNumber:'306795035',vatId:'LT100017200917',registeredAddress:'Varnėnų g. 52, LT-37171 Panevėžys, Lithuania',contact:'info@seedtrade.eu',identityStatus:'LEGAL_OPERATOR',selection:'OWNER_MANUAL_BROKERAGE'});

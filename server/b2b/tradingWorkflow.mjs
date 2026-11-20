@@ -1,4 +1,5 @@
 import {simpleTerms} from '../../shared/simpleBrokerageTerms.mjs';
+import {brokerageProvider} from '../../shared/brokerageProvider.mjs';
 import {brokerageOperators,brokeragePermissions,defaultBroker} from './brokerageOperators.mjs';
 import {digest} from './legalAcceptance.mjs';
 import {commissionTerms,commissionTermsHash,decimal,executedValue,totals} from './commissionTerms.mjs';
@@ -6,8 +7,8 @@ import {offerCurrencies} from './offerOptions.mjs';
 export const DOCUMENT_TYPES=['ENQUIRY_SUMMARY','NEGOTIATION_SUMMARY','ORDER_CONFIRMATION','TRANSACTION_CONFIRMATION','FULFILMENT_RECORD','COMMISSION_STATEMENT','COMMISSION_INVOICE_DRAFT'];
 const asObject=v=>typeof v==='string'?JSON.parse(v):v??{};
 // This candidate deliberately has no production enable switch or invoice-issuance function.
-export function createTradingWorkflow({localOnly=false,simple=false,ErrorType,now=()=>Date.now(),catalogue=[]}={}){
- if(localOnly!==true||typeof ErrorType!=='function')throw Error('TRADING_LOCAL_ONLY');
+export function createTradingWorkflow({localOnly=false,simple=false,publicationApproval=null,ErrorType,now=()=>Date.now(),catalogue=[]}={}){
+ if(typeof ErrorType!=='function'||(localOnly!==true&&(!simple||publicationApproval?.termsHash!==digest(simpleTerms)||typeof publicationApproval?.reference!=='string'||!publicationApproval.reference.trim())))throw Error('TRADING_LOCAL_ONLY');
  const activeTerms=simple?simpleTerms:commissionTerms,activeHash=simple?digest(simpleTerms):commissionTermsHash;
  const fail=(status,code)=>{throw new ErrorType(status,code);};
  const reference=v=>{if(typeof v!=='string'||v.length<3||v.length>200||/[<>\x00-\x1f]/.test(v))fail(400,'EVIDENCE_REFERENCE_REQUIRED');return v.trim();};
@@ -24,12 +25,12 @@ export function createTradingWorkflow({localOnly=false,simple=false,ErrorType,no
     const snapshot={listingSnapshot:r.listingSnapshot,transactionId:r.id,listingId:r.listingId,enquiryId:r.enquiryId,buyerCompanyId:r.buyerCompanyId,buyerName:r.buyerName,sellerCompanyId:r.sellerCompanyId,sellerName:r.sellerName,payerCompanyId:r.payerCompanyId,operator:r.operator,agreement:r.agreement,deliveries:r.deliveries,commission:totals(r.deliveries),commissionTermsHash:r.commissionAcceptance.termsHash,transactionVersion:r.version,status:r.status};
     const doc={kind:kind,version:r.documents.filter(d=>d.kind===kind).length+1,status:'DRAFT_NOT_ISSUED',generatedAt:clock(),snapshot:structuredClone(snapshot)};doc.hash=digest(doc);r.documents.push(doc);
  };
- const policy={terms:activeTerms,hash:activeHash,localOnly:true,publicationApproved:false,simpleWorkflow:simple};
+ const policy={terms:activeTerms,hash:activeHash,localOnly,publicationApproved:!localOnly,simpleWorkflow:simple};
  return {
   policy,
   async beforePublish(tx,a,offer,input){
    if(input.commissionAccepted!==true||input.commissionTermsHash!==activeHash)fail(400,'COMMISSION_ACCEPTANCE_REQUIRED');manager(a);
-   const acceptance={companyId:a.company.id,userId:a.user.id,listingId:offer.id,listingVersion:offer.version+1,termsVersion:activeTerms.version,termsHash:activeHash,terms:activeTerms,acceptedAt:clock(),scope:'LOCAL_DRAFT_TERMS_TEST_ONLY'};
+   const acceptance={companyId:a.company.id,userId:a.user.id,listingId:offer.id,listingVersion:offer.version+1,termsVersion:activeTerms.version,termsHash:activeHash,terms:activeTerms,acceptedAt:clock(),scope:localOnly?'LOCAL_DRAFT_TERMS_TEST_ONLY':'LISTING_BROKERAGE_ACCEPTANCE',...(!localOnly?{publicationApprovalRef:publicationApproval.reference}:{})};
    await tx.setCommissionAcceptance({id:offer.id,companyId:a.company.id,version:offer.version,acceptance});
    await tx.appendAudit({actorUserId:a.user.id,companyId:a.company.id,action:'COMMISSION_TERMS_ACCEPTED',entityType:'offer',entityId:String(offer.id)});
   },
@@ -52,9 +53,9 @@ export function createTradingWorkflow({localOnly=false,simple=false,ErrorType,no
     buyerCompanyId:demand?offer.companyId:a.company.id,sellerCompanyId:demand?a.company.id:offer.companyId,payerCompanyId:offer.companyId,
     listingDirection:demand?'BUY_REQUEST':'OFFER',productType:d.productType??null,cropId:offer.cropId,cropName:catalogue.find(c=>c.id===offer.cropId)?.name??'',botanicalName:catalogue.find(c=>c.id===offer.cropId)?.botanical??'',buyerName:demand?owner.legalName:a.company.legalName,sellerName:demand?a.company.legalName:owner.legalName,quality:structuredClone(d.qualityParameters??[]),
     proposedQuantity:input.requestedQuantity??null,proposedUnit:input.requestedUnit??null,proposedPrice:input.proposedPrice??null,proposedDeliveryTerms:input.proposedDeliveryTerms??null,
-    commissionAcceptance:structuredClone(acceptance),rateBasisPoints:100,operator:defaultBroker(),operatorHistory:[],status:'ENQUIRY',version:0,agreement:null,acceptances:[],deliveries:[],documents:[],operations:[],invoice:null,
+    commissionAcceptance:structuredClone(acceptance),rateBasisPoints:100,operator:simple?{...brokerageProvider}:defaultBroker(),operatorHistory:[],status:'ENQUIRY',version:0,agreement:null,acceptances:[],deliveries:[],documents:[],operations:[],invoice:null,
     listingSnapshot:{id:offer.id,version:offer.version,cropId:offer.cropId,variety:d.variety??null,productType:d.productType??null,certificationClass:d.productType==='COMMODITY'?null:offer.certificationClass??null,quantity:offer.quantity,unit:offer.unit,priceAmount:offer.priceAmount??null,currency:offer.currency,originCountry:offer.originCountry,packaging:d.packaging??null,deliveryTerms:d.deliveryTerms??null,organic:d.organic??null,quality:structuredClone(d.qualityParameters??[])},
-    createdAt:clock(),updatedAt:clock(),introductionAt:clock(),localOnly:true,history:[{action:'INTRODUCED',at:clock(),companyId:a.company.id}]};
+    createdAt:clock(),updatedAt:clock(),introductionAt:clock(),localOnly,history:[{action:'INTRODUCED',at:clock(),companyId:a.company.id}]};
    if(r.proposedPrice!=null)price(r.proposedPrice);if(r.proposedDeliveryTerms!=null)reference(r.proposedDeliveryTerms);
    await tx.saveTradingRecord(r,null);await audit(tx,a,'TRADE_INTRODUCED',r);return r;
   },
@@ -122,6 +123,7 @@ export function createTradingWorkflow({localOnly=false,simple=false,ErrorType,no
    r.commission=totals(r.deliveries);r.history.push({action,companyId:a.company.id,userId:a.user.id,evidenceRef:evidence,at:clock()});r.operations.push({key:input.requestId,fingerprint});return persist(tx,a,r,action,old);
   },
   async operatorAction(tx,a,input,bindings){
+   if(simple)fail(409,'MANUAL_BROKERAGE_ONLY');
    const r=await tx.tradingRecord(recordId(input.id)),binding=bindings.find(b=>b.adminId===a.adminId&&b.companyId===input.operatorCompanyId&&(input.operatorKey==null||b.operatorKey===input.operatorKey));
    if(!a.platformAdmin||!binding||!brokerageOperators[binding.operatorKey]||!Array.isArray(a.conflictCompanyIds)||!r||a.conflictCompanyIds.some(id=>[r.buyerCompanyId,r.sellerCompanyId].includes(id)))fail(403,'BROKERAGE_ASSIGNMENT_REQUIRED');
    if(!binding.permissions?.includes(brokeragePermissions[input.action]))fail(403,'BROKERAGE_PERMISSION_REQUIRED');

@@ -7,6 +7,9 @@ const get=new Set(['/status','/session','/catalogue','/offers','/offers/detail',
 const publicGet=new Set(['/public/offers','/public/catalogue']);
 const post=new Set(['/register','/verify-email','/login','/password-reset/request','/password-reset/confirm','/resend-verification','/logout','/profile','/companies/review','/offers/save','/offers/publish','/offers/close','/enquiries/send','/enquiries/reply','/enquiries/close','/admin/login','/admin/logout','/admin/companies/review']);
 const allowedHeaders=new Set(['content-type','x-seedtrade-csrf']);
+// Handlers retain activation, session, Origin and CSRF checks. No financial action routes.
+for(const route of ['/trading/policy','/trading/preferences','/admin/members'])get.add(route);
+for(const route of ['/trading/preferences','/enquiries/confirmation-summary','/enquiries/confirm','/admin/members/access'])post.add(route);
 export function withProductionCors(handle) {
   if(typeof handle!=='function')throw TypeError('INVALID_API_HANDLER');
   return async(req,res)=>{
