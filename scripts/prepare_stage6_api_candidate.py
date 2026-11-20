@@ -44,7 +44,8 @@ def prepare(base_api, output):
     base_package, base_lock = entries['package.json'], entries['package-lock.json']
     paths = git('ls-tree', '-r', '--name-only', 'HEAD', 'server/b2b', 'shared').decode().splitlines()
     paths += ['server/runtimeMail.mjs', 'server/networkProxyPolicy.mjs',
-              'scripts/provision-first-platform-admin.mjs', 'scripts/check_stage6_delivery.mjs']
+              'scripts/provision-first-platform-admin.mjs', 'scripts/check_stage6_delivery.mjs',
+              'scripts/confirm-admin-identity.mjs', 'scripts/enroll-admin-privately.py']
     for name in paths:
         entries[name] = git('show', revision + ':' + name)
     entries['dist/data/crop-master-v1.json'] = git('show', revision + ':public/data/crop-master-v1.json')
