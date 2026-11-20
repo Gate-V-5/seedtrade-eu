@@ -26,6 +26,22 @@ No production configuration is changed. The five-language exact draft is in
 [brokerage-terms-review.html](docs/stage6-simplified-v1/brokerage-terms-review.html).
 Previous accepted legal versions and the three unpublished drafts are preserved.
 
+The bounded final preparation is in
+[release-review.html](docs/stage6-simplified-v1/release-review.html), including
+the supported Privacy Notice draft, exact remaining facts, existing Admin MFA
+enrollment and the single-message delivery check. `node scripts/check_stage6_delivery.mjs`
+defaults to NOT_SENT and creates no transport. Executing a real check requires
+separate explicit authorization for its single designated inbox.
+
+Local API input preparation reuses the sealed dedicated-Admin API archive and its
+unchanged package/lock, overlays committed backend and `shared/` modules, and checks
+relative imports. Run `py scripts/prepare_stage6_api_candidate.py --base-api
+PATH_TO_EXISTING_ADMIN_API_ZIP --output NEW_WORKSPACE_DIRECTORY` from a committed
+candidate. This performs no install, database operation, mail, deployment or activation.
+The existing GitHub-to-Hostinger website build must include the committed `shared/`
+directory. The website entrypoint retains the earlier reviewed private Admin HTML
+route; all privileged API gates and MFA remain unchanged.
+
 Production pilot remains blocked by the existing specific provider/recovery
 privacy facts and completed-notice approval, exact brokerage-text approval,
 operational MFA enrollment for privileged review as applicable, controlled

@@ -1,0 +1,31 @@
+{
+  "status": "BLOCKED_FINAL_TRANSFER_FACTS_AND_OWNER_APPROVAL",
+  "reviewVersion": "privacy-stage6-review-2026-11-20",
+  "textSha256": "46d108ce583c48b9dfc890bac673b69a7410aa6e36352ec057efd337e434723f",
+  "baselineDraftPath": "tmp\\b2b-minimal-legal-v1\\PRIVACY_NOTICE_V1_DRAFT.md",
+  "baselineDraftSha256": "06bff697d6b47648acf494c68da97e75db46cbfea5d7afc51918acb702a17a64",
+  "changedParagraphs": [
+    {
+      "before": "SEEDTRADE.EU uses personal data to provide its professional B2B platform. Registration collects company legal name, registration country, street and building number, city, postal code, business email and password. Passwords are stored as hashes. Existing company profiles may also contain registration or VAT numbers, representative names and roles, phone numbers, business activities and species.",
+      "after": "SEEDTRADE.EU uses personal data to provide its professional B2B platform. Registration collects company legal name, registration country and number, registered address, business email, and the representative's first and last name. VAT details are optional where applicable. After email verification, you set a password, which is stored as a hash. Existing company profiles may also contain representative roles, phone numbers, business activities and species."
+    },
+    {
+      "before": "We record email verification, company-review decisions and evidence of Terms acceptance, representative authority and Privacy Notice presentation. When marketplace functions are enabled, we process offers, enquiries, requested quantities, replies, participants and dates, including commercial information you provide. Business data can identify people, particularly named contacts and sole traders.",
+      "after": "We record email verification, company-review decisions and evidence of Terms acceptance, representative authority and Privacy Notice presentation. When marketplace functions are enabled, we process listings, enquiries, requested quantities, replies, participants and dates, including commercial information you provide. Each listing's brokerage acceptance records the company, user, listing, terms version and hash, and time. An enquiry confirmation uses a single-use email link and the exact summary accepted by its sender. Only after confirmation is the enquiry and necessary contact information sent to MB Gate-V's configured coordination mailbox for manual brokerage. Business data can identify people, particularly named contacts and sole traders."
+    },
+    {
+      "before": "Hostinger provides hosting, database services and transactional email. Recovery arrangements also use encrypted Dropbox and local backup copies. Provider processing and any transfers outside the European Economic Area are subject to GDPR requirements. Contact [info@seedtrade.eu](mailto:info@seedtrade.eu) for information about recipients, processing locations and how to obtain a copy of applicable transfer safeguards.",
+      "after": "Hostinger provides our hosting, database infrastructure and transactional email. Our documented recovery arrangements include encrypted database, application and private-configuration copies in Dropbox and restricted local storage. A copy can contain account and Marketplace records present when it is made; this does not mean that every later record has been uploaded to Dropbox. Dropbox's published privacy information describes possible processing in the United States and other countries, including by service providers. Primary hosting in the EEA does not by itself establish that all provider processing remains there. Contact [info@seedtrade.eu](mailto:info@seedtrade.eu) for information about recipients, processing locations and how to obtain a copy of applicable transfer safeguards."
+    }
+  ],
+  "allOtherDraftContentUnchanged": true,
+  "approvedLegalRegistryChanged": false,
+  "readyForPublication": false,
+  "effectiveDate": null,
+  "missingFacts": [
+    "Applicable Hostinger non-EEA support/subprocessor recipients and destinations plus actually applicable safeguard, or supported no-transfer boundary",
+    "For the documented non-team Dropbox recovery account, applicable recovery/metadata/support destinations and transfer safeguard; no direct live Marketplace request flow or latest-record upload is inferred",
+    "Actual restricted local/off-host recovery storage countries and authorized access countries/roles"
+  ],
+  "closure": "Insert only evidence-backed transfer wording, obtain controller approval of the completed exact Notice and effective date, then seal the immutable publication snapshot. This supported draft is not a complete transfer disclosure."
+}
