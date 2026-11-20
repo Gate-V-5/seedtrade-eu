@@ -13,7 +13,8 @@ export function createAdminService({repository,passwordHasher,key,memberManagerA
   if(typeof token!=='string'||!/^[a-f0-9]{64}$/.test(token))fail(401,'ADMIN_SIGN_IN_REQUIRED');
   const a=await tx.adminSession(sessionHash(token));if(!a||a.state!=='ACTIVE'||a.role!=='COMPANY_REVIEW'||!Number.isSafeInteger(Number(a.last_totp_counter))||Number(a.last_totp_counter)<0)fail(401,'ADMIN_SIGN_IN_REQUIRED');
   const conflicts=await tx.adminConflicts(a);
-  return {adminId:a.id,platformAdmin:true,conflictCompanyIds:conflicts};
+  // Historical acceptance-record protection is separate from declared affiliations.
+  return {adminId:a.id,platformAdmin:true,conflictCompanyIds:[...new Set([...conflicts,1,2,3])],historicalRecordRestrictions:[1,2,3]};
  };
  const permissions=id=>['company:review',...(memberManagerAdminIds.includes(id)?['member:manage']:[])];
  return {authenticate,

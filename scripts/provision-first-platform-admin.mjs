@@ -19,4 +19,4 @@ try{
  const input=JSON.parse(await readFile(inputPath,'utf8'));
  const result=await provisionFirstAdmin({db,input,passwordHasher:createB2bPasswordHasher(),key:mfaKey(process.env.B2B_ADMIN_MFA_KEY),writeEnrollment:v=>writeFile(outPath,JSON.stringify(v)+'\n',{mode:0o600,flag:'wx'})});
  process.stdout.write(result.status+'\n');
-}catch{process.stderr.write('ADMIN_PROVISIONING_STOPPED: verify private inputs, owner assignment, schema and existing first account. No secrets displayed.\n');process.exitCode=1;}finally{await db?.end();}
+}catch{process.stderr.write('ADMIN_PROVISIONING_STOPPED: verify private identity-only input, owner authorization, schema and existing first account. No secrets displayed; review remains disabled.\n');process.exitCode=1;}finally{await db?.end();}

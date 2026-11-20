@@ -60,6 +60,12 @@ No new hosting, storage, monitoring, contract inventory or compliance system is 
 
 ## Minimum Admin identity and exact supported MFA enrollment
 
+**Updated 2026-11-20:** use [private identity-only enrollment](ADMIN_IDENTITY_ENROLLMENT.md).
+The combined reviewer/conflict bootstrap below is historical and is superseded
+for identity creation. Identity enrollment now grants no company-review authority
+and records no unverified personal-affiliation list. Historical test records 1–3
+remain separately protected. Operational review assignment remains a later gate.
+
 Intended login: `info@seedtrade.eu`; role: `COMPANY_REVIEW`; permission:
 `company:review`. Leave member-management assignment and all brokerage/billing
 bindings empty. MB Gate-V is operator/broker and needs no Marketplace Member.
