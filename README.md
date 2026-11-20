@@ -10,8 +10,9 @@ billing authority or transaction administrator to receive confirmed enquiries.
 Existing genuine Member registration, email verification/password setup,
 independent company approval, listings, opted-in notices and confirmed enquiries
 are reused. Publication records explicit acceptance of the exact 1% terms.
-The listing author pays only on executed goods value excluding VAT; enquiries
-alone are free. Negotiation, contracts, delivery and invoicing remain manual.
+The listing author pays only on goods actually delivered and accepted, excluding
+VAT and separately invoiced transport/ancillary services. Enquiries alone are free.
+Negotiation, contracts, delivery and invoicing remain manual.
 
 The historical transaction engine and evidence remain available in their prior
 scope. Simplified mode refuses automated member and operator transaction actions
@@ -22,16 +23,17 @@ The hosted composition is prepared behind all existing Marketplace/registration
 release gates. It additionally requires `B2B_BROKERAGE_TERMS_HASH` to match the
 current `digest(simpleTerms)` and `B2B_BROKERAGE_TERMS_APPROVAL_REF` to reference
 genuine owner acceptance of that exact text. Neither value is approval by itself.
-No production configuration is changed. The five-language exact draft is in
-[brokerage-terms-review.html](docs/stage6-simplified-v1/brokerage-terms-review.html).
+No production configuration is changed. The owner-approved five-language V3 is in
+[v3.html](public/legal/brokerage/v3.html), with its exact canonical hash and
+[approval record](docs/stage6-terms-v3/APPROVAL.json). The earlier V2 review remains historical.
 Previous accepted legal versions and the three unpublished drafts are preserved.
 
-The bounded final preparation is in
-[release-review.html](docs/stage6-simplified-v1/release-review.html), including
-the supported Privacy Notice draft, exact remaining facts, existing Admin MFA
-enrollment and the single-message delivery check. `node scripts/check_stage6_delivery.mjs`
-defaults to NOT_SENT and creates no transport. Executing a real check requires
-separate explicit authorization for its single designated inbox.
+Current bounded release preparation and exact MFA steps are in
+[RELEASE.md](docs/stage6-terms-v3/RELEASE.md). Reuse the existing supported Privacy
+Notice draft and specific remaining provider/recovery facts. The current owner
+instruction supersedes the historical proposal for another real email test:
+preserve SMTP, send no additional test, and leave the real journey to the owner
+after separately authorized publication.
 
 Local API input preparation reuses the sealed dedicated-Admin API archive and its
 unchanged package/lock, overlays committed backend and `shared/` modules, and checks
@@ -43,9 +45,10 @@ directory. The website entrypoint retains the earlier reviewed private Admin HTM
 route; all privileged API gates and MFA remain unchanged.
 
 Production pilot remains blocked by the existing specific provider/recovery
-privacy facts and completed-notice approval, exact brokerage-text approval,
-operational MFA enrollment for privileged review as applicable, controlled
-delivery verification, release/recovery sealing and separate deployment approval.
+privacy facts and completed-notice approval, operational MFA enrollment for
+privileged review, release/recovery sealing and separate deployment approval.
+Brokerage V3 text, its 14-calendar-day payment term and effect from actual
+publication are approved; this does not authorize publication or activation.
 Gate-V Member registration, automated billing and transaction-admin enrollment
 are not V1 release prerequisites. Use the existing GitHub → Hostinger process
 and close-first rollback; do not publish from the local preview.

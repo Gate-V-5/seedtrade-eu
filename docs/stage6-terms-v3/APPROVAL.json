@@ -1,0 +1,26 @@
+{
+  "version": "brokerage-simple-1pct-v3",
+  "canonicalSha256": "8cc4387f69a345d07565e9ea529b5dcd567edabf0c2e59d5b0d5f0936dca021c",
+  "status": "OWNER_APPROVED_NOT_PUBLISHED",
+  "approvalReference": "Owner conversation 2026-11-20: Approve V3, including 14 days and publication-date effect",
+  "approvedEnglishSource": "Owner-supplied full Draft V3 in the same conversation",
+  "approvedPresentationalChanges": [
+    "Remove Draft V3 — For Owner Review label",
+    "The proposed payment term is → The payment term is",
+    "Effective date: To be confirmed upon publication. → Effective date: the actual date of publication of these terms."
+  ],
+  "translations": [
+    "EN",
+    "DE",
+    "FR",
+    "ES",
+    "IT"
+  ],
+  "englishPrevails": true,
+  "effectiveDate": null,
+  "effectiveDateRule": "Actual first production publication date; record it in the authorized release receipt. No publication has occurred.",
+  "deploymentAuthorized": false,
+  "productionActivationAuthorized": false,
+  "historicalV2Review": "docs/stage6-simplified-v1/brokerage-terms-review.json",
+  "privacyCompletionStillRequired": true
+}

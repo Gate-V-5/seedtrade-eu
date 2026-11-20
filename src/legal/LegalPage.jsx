@@ -1,6 +1,7 @@
 import React from 'react';
-import {useT} from '../i18n/index.jsx';
+import {useT,useLanguage} from '../i18n/index.jsx';
 import registry from './registry.json';
+import {simpleFullTerms,simpleTerms} from '../../shared/simpleBrokerageTerms.mjs';
 
 // All text is rendered as text nodes. Legal Markdown cannot inject executable HTML.
 function Text({text}) {
@@ -15,7 +16,7 @@ function Text({text}) {
   });
 }
 export default function LegalPage({kind}) {
-  const t=useT(); const locale='en';
+  const t=useT(); const {language}=useLanguage(); const locale='en';
   const snapshot=registry.documents[kind];
   if(!snapshot)return null;
   const doc=snapshot.document;
@@ -30,6 +31,11 @@ export default function LegalPage({kind}) {
       <h2>{section.heading}</h2><Text text={section.text}/>
     </section>)}</article>
     <p><a href={snapshot.path}>{t('Save or print the English version')}</a> &#183; <a href={`/legal/snapshots/${snapshot.id}.json`} download>{t('Download exact source')}</a></p>
+    {kind==='terms'&&<section id="brokerage" lang={language.toLowerCase()}>
+      <h2>{simpleFullTerms[language][0]}</h2>
+      {simpleFullTerms[language].slice(1).map((paragraph,i)=>/^\d+\. /.test(paragraph)?<h3 key={i}>{paragraph}</h3>:<p key={i}>{paragraph}</p>)}
+      <p>{simpleTerms.version} · <a href="/legal/brokerage/v3.html">{t('Save or print the English version')}</a> · <a href="/legal/brokerage/v3.json" download>{t('Download exact source')}</a></p>
+    </section>}
     <details><summary>{t('Document details')}</summary><p>{doc.version}</p><p>SHA-256: <code>{snapshot.id}</code></p></details>
     <p><a href="/legal/report/">{t('Contacts and content reports')}</a></p>
   </main>;

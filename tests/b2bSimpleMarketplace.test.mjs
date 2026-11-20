@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {tradingFixture} from './fixtures/tradingFixture.mjs';import {offerInput} from './fixtures/b2bPortalFixture.mjs';
-import {simpleFullTerms} from '../shared/simpleBrokerageTerms.mjs';import {simpleRows} from '../src/b2b/simpleMessages.mjs';
+import {simpleFullTerms,simpleTerms} from '../shared/simpleBrokerageTerms.mjs';import {simpleRows} from '../src/b2b/simpleMessages.mjs';
 import {createRegistrationService} from '../server/b2b/registrationService.mjs';import {createB2bPortalService} from '../server/b2b/portalService.mjs';import {currentLegalRegistry} from '../server/b2b/legalAcceptance.mjs';import {profileFor} from './fixtures/b2bPortalFixture.mjs';
 import {Readable} from 'node:stream';import {createB2bPortalHttp} from '../server/b2b/portalHttp.mjs';import {SESSION_COOKIE,csrfForSession} from '../server/b2b/portalService.mjs';
 async function enquiry(direction='OFFER'){
@@ -11,6 +11,7 @@ async function enquiry(direction='OFFER'){
  const p=f.workflow.policy,o=await f.service.saveOffer(f.s.sessionToken,{...offerInput,listingDirection:direction,productType:'COMMODITY',quantity:20,unit:'t',priceAmount:500});
  await f.service.saveListingPreference(f.b.sessionToken,{enabled:true,language:'DE',cropIds:[]});
  await assert.rejects(f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0}),e=>e.message==='COMMISSION_ACCEPTANCE_REQUIRED');
+ for(const acceptance of [{commissionAccepted:false,commissionTermsHash:p.hash},{commissionAccepted:'true',commissionTermsHash:p.hash},{commissionAccepted:true,commissionTermsHash:'fedb40f016f38d54211178b09043bae6592cc612ae1cd8ea661260648d8e6dc0'}])await assert.rejects(f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0,...acceptance}),e=>e.message==='COMMISSION_ACCEPTANCE_REQUIRED');
  await f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0,commissionAccepted:true,commissionTermsHash:p.hash});
  const input={offerId:o.id,requestedQuantity:20,requestedUnit:'t',proposedPrice:'500',body:'',uiLanguage:'FR',requestId:'simple-enquiry-00001'};
  const e=await f.service.sendEnquiry(f.b.sessionToken,input);return {...f,e,input,o};
@@ -31,12 +32,20 @@ for(const direction of ['OFFER','BUY_REQUEST'])test(direction+': publication →
  assert.equal((await f.service.enquiries(f.s.sessionToken,{direction:'INBOX'})).items.length,1);
  const r=f.h.state.trades.get(f.e.id);assert.equal(r.payerCompanyId,f.s.company.id);assert.equal(r.operator.key,'GATE_V');assert.equal(r.invoice,null);assert.deepEqual(r.deliveries,[]);assert.deepEqual(r.documents,[]);
  assert.equal(r.operator.companyId,undefined);assert.equal(r.operator.registrationNumber,'306795035');assert.equal(r.operator.identityStatus,'LEGAL_OPERATOR');
- assert.equal(r.commissionAcceptance.companyId,f.s.company.id);assert.equal(r.commissionAcceptance.userId,f.s.user.id);assert.equal(r.commissionAcceptance.listingId,f.o.id);assert.equal(r.commissionAcceptance.termsVersion,'brokerage-simple-1pct-v2');assert.equal(r.commissionAcceptance.termsHash,f.workflow.policy.hash);assert(r.commissionAcceptance.acceptedAt);
+ assert.equal(r.commissionAcceptance.companyId,f.s.company.id);assert.equal(r.commissionAcceptance.userId,f.s.user.id);assert.equal(r.commissionAcceptance.listingId,f.o.id);assert.equal(r.commissionAcceptance.termsVersion,'brokerage-simple-1pct-v3');assert.equal(r.commissionAcceptance.termsHash,f.workflow.policy.hash);assert.deepEqual(r.commissionAcceptance.terms,simpleTerms);assert(r.commissionAcceptance.acceptedAt);
  const handoff=JSON.parse(f.delivered.find(m=>m.to==='operations@example.invalid').text);assert.equal(handoff.administration,undefined);assert.equal(handoff.coordination,'MANUAL_OUTSIDE_MARKETPLACE_V1');
  await assert.rejects(f.workflow.operatorAction(null,{},{} ,[]),e=>e.message==='MANUAL_BROKERAGE_ONLY');
  await assert.rejects(f.service.transactionAction(f.b.sessionToken,{id:f.e.id,action:'RECORD_EXECUTION'}),e=>e.message==='MANUAL_BROKERAGE_ONLY');
 });
-test('five-language terms are versioned local drafts; new labels have all five translations',()=>{for(const l of ['EN','DE','FR','ES','IT']){assert.equal(simpleFullTerms[l].length,11);assert(simpleFullTerms[l].join(' ').includes('MB Gate-V'));}assert(simpleRows.every(row=>row.length===5&&row.every(Boolean)));});
+test('owner-approved V3 covers all ten sections and commercial limits in five languages',()=>{
+ for(const l of ['EN','DE','FR','ES','IT']){const paragraphs=simpleFullTerms[l],text=paragraphs.join(' ');assert.equal(paragraphs.filter(p=>/^\d+\. /.test(p)).length,10);assert.equal(paragraphs.length,simpleFullTerms.EN.length);for(const value of ['MB Gate-V','306795035','LT100017200917','info@seedtrade.eu','12','14'])assert(text.includes(value));assert(!/draft|owner review|proposed|to be confirmed/i.test(text));}
+ assert.equal(simpleTerms.status,'OWNER_APPROVED');
+ assert(simpleFullTerms.EN.includes('The commission is calculated on the value of goods actually delivered and accepted, excluding VAT and separately invoiced transport or other ancillary services.'));
+ assert(simpleFullTerms.EN.includes('Transactions unrelated to the platform introduction are not automatically commissionable.'));
+ assert(simpleFullTerms.EN.includes('The payment term is 14 calendar days from invoice issuance.'));
+ assert(simpleFullTerms.EN.includes('Effective date: the actual date of publication of these terms.'));
+ assert(simpleRows.every(row=>row.length===5&&row.every(Boolean)));
+});
 test('SMTP failure preserves committed enquiry and cannot generate operator mail before confirmation',async()=>{const f=await tradingFixture({simple:true}),o=await f.service.saveOffer(f.s.sessionToken,{...offerInput,listingDirection:'OFFER',productType:'COMMODITY'});await f.service.publishOffer(f.s.sessionToken,{id:o.id,version:0,commissionAccepted:true,commissionTermsHash:f.workflow.policy.hash});f.transport.sendMail=async()=>{throw Error('synthetic delivery uncertainty');};const e=await f.service.sendEnquiry(f.b.sessionToken,{offerId:o.id,requestedQuantity:1,requestedUnit:'kg',body:'',requestId:'simple-failure-00001'});assert.equal(e.confirmationMailStatus,'UNKNOWN');assert.equal(f.h.state.trades.get(e.id).enquiryConfirmation.state,'PENDING_EMAIL_CONFIRMATION');assert.equal((await f.confirmation.deliverOperator(e.id)).status,'NOT_CLAIMED');});
 test('expired tokens and withdrawn offers cannot confirm; concurrent confirmations notify once',async()=>{
  const expired=await enquiry(),message=expired.delivered.find(m=>m.text.includes('view=confirm-enquiry')),link=new URL(message.text.split('\n').find(l=>l.startsWith('https://'))),token=new URLSearchParams(link.hash.slice(1)).get('token');expired.h.advance(31*60000);await assert.rejects(expired.service.enquiryConfirmationSummary(expired.b.sessionToken,{id:expired.e.id,token}),e=>e.message==='INVALID_OR_EXPIRED');
