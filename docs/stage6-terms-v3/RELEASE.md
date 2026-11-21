@@ -152,3 +152,22 @@ assertions directly without changing application code:
 ```sh
 node --input-type=module -e "await import('./tests/b2bBrokerageV3.test.mjs'); await import('./tests/b2bSimpleMarketplace.test.mjs'); await import('./tests/b2bSimplifiedRelease.test.mjs');"
 ```
+
+## Execution update ? 2026-11-21
+
+The owner accepted the exact final Privacy Notice text SHA-256
+`dfd7267c9fb6c5b3c7653af000316a2f82cd436b59f17ec92c83b67ddfc972b5`
+and directed publication using supported facts, effective upon publication.
+New privacy snapshot: `a17808f0b8f41f0cb4fb6641c7ebb1e6c423def484c28b3908431f93d2a828ba`.
+Existing accepted Terms, authority snapshots and Brokerage V3 are unchanged.
+
+The owner also directed use of the existing minimum company-review role without
+an additional exhaustive affiliation declaration. That prerequisite was an
+internal provisioning policy, not a statutory requirement. Operational review
+now requires actual owner authorization, MFA and the existing per-company
+conflict-free confirmation. Existing recorded conflicts, automatic same-email
+company exclusions and historical-record restrictions 1?3 remain effective.
+Null affiliation/confirmation fields remain null; they do not assert that a
+complete personal affiliation list was verified. No new role or Member account
+is created. The historical preparation instructions below remain preserved;
+this execution update supersedes their obsolete completion prerequisites.
