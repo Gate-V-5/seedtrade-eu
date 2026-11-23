@@ -30,9 +30,9 @@ export function portalFixture() {
       async reviewQueue(after){return [...state.companies.values()].filter(c=>c.companyId>after).sort((a,b)=>a.companyId-b.companyId).slice(0,51).map(c=>structuredClone(c));},
       async decideCompany({companyId,status}){const c=state.companies.get(companyId);c.status=status;c.version++;if(status!=='VERIFIED')for(const o of state.offers.values())if(o.companyId===companyId&&o.status==='PUBLISHED'){o.status='DRAFT';o.version++;}},
       async listOffers({companyId,own,after,filters={},eligibleCropIds,publicPreview=false,offerId=null}){return [...state.offers.values()].filter(o=>{
-        if(o.id<=after)return false;
+        if(publicPreview?(after>0&&o.id>=after):o.id<=after)return false;
         if(own)return o.companyId===companyId;
-        if(publicPreview&&(o.details?.publicPreview?.version!=='public-preview-v1'||!o.details.publicPreview.confirmedByUserId||!o.details.publicPreview.confirmedAt||offerId!=null&&o.id!==offerId))return false;
+        if(publicPreview&&((offerId!=null&&o.id!==offerId)||state.companies.get(o.companyId).profile?.accessSuspended||['CLOSED','DELETED'].includes(state.companies.get(o.companyId).profile?.accountState)))return false;
         if(o.companyId===companyId||o.status!=='PUBLISHED'||state.companies.get(o.companyId).status!=='VERIFIED'||o.validUntil<new Date(clock).toISOString().slice(0,10)||(eligibleCropIds&&!eligibleCropIds.includes(o.cropId)))return false;
         for(const key of ['cropId','originCountry','seedCategory'])if(filters[key]&&o[key]!==filters[key])return false;
         for(const key of ['listingDirection','productType'])if(filters[key]&&o.details?.[key]!==filters[key])return false;
@@ -42,7 +42,7 @@ export function portalFixture() {
         if(filters.currency&&(o.currency!==filters.currency||price==null))return false;
         if(filters.minPriceKg!=null&&(price==null||price<filters.minPriceKg)||filters.maxPriceKg!=null&&(price==null||price>filters.maxPriceKg))return false;
         return true;
-      }).sort((a,b)=>a.id-b.id).slice(0,51).map(o=>({...structuredClone(o),companyName:state.companies.get(o.companyId).legalName,companyCountry:state.companies.get(o.companyId).country}));},
+      }).sort((a,b)=>publicPreview?b.id-a.id:a.id-b.id).slice(0,51).map(o=>({...structuredClone(o),companyName:state.companies.get(o.companyId).legalName,companyCountry:state.companies.get(o.companyId).country}));},
       async publishedOffer({id,companyId,eligibleCropIds}){const o=state.offers.get(id);if(!o||o.companyId===companyId||o.status!=='PUBLISHED'||state.companies.get(o.companyId).status!=='VERIFIED'||o.validUntil<new Date(clock).toISOString().slice(0,10)||!eligibleCropIds.includes(o.cropId))return null;return {...structuredClone(o),companyName:state.companies.get(o.companyId).legalName,companyCountry:state.companies.get(o.companyId).country};},
       async offerForUpdate(id){const o=state.offers.get(id);return o?{...structuredClone(o),companyStatus:state.companies.get(o.companyId).status}:null;},
       async saveOffer(input){const id=input.id??++state.counter.offer,old=state.offers.get(id);state.offers.set(id,{...structuredClone(input),id,currency:input.currency??'EUR',status:'DRAFT',version:old?old.version+1:0});return id;},

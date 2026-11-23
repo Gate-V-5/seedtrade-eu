@@ -1,7 +1,9 @@
+import {readListingSpecifications} from './listingSpecifications.mjs';
+import {publicListingText,publicListingUrl,brokerInterestMailto} from '../../shared/publicListingLinks.mjs';
 import {normalizeBuyerFilters} from './buyerOfferFilters.mjs';
 import {createB2bRateLimiter} from './rateLimiter.mjs';
 export const PUBLIC_PREVIEW_VERSION='public-preview-v1';
-export const publicFilterKeys=Object.freeze(['cropId','variety','originCountry','seedCategory','certificationClass','minQuantityKg','maxQuantityKg']);
+export const publicFilterKeys=Object.freeze(['cropId','variety','originCountry','seedCategory','certificationClass','minQuantityKg','maxQuantityKg','listingDirection','productType','minPriceKg','maxPriceKg','currency']);
 const contacts=/@|https?:|www\.|mailto:|tel:|\+\d[\d ()-]{6,}/i;
 export const safePreviewText=value=>typeof value==='string'&&!contacts.test(value);
 const integer=v=>{if(v==null)return 0;if(!/^(0|[1-9]\d{0,14})$/.test(String(v))||!Number.isSafeInteger(Number(v)))throw TypeError('INVALID_OFFER_FILTER');return Number(v);};
@@ -13,13 +15,14 @@ export function previewQuery(search,crops){
 }
 // Explicit public DTO; never spread a repository row, company or unrestricted details.
 export function previewDto(o,crops){
- const d=typeof o.details==='string'?JSON.parse(o.details):o.details??{},species=crops.get(o.cropId);
- if(!species||!safePreviewText(d.variety??'')||!safePreviewText(o.certificationClass??''))return null;
- return {id:Number(o.id),cropId:o.cropId,species:{id:species.id,name:species.name,botanical:species.botanical},
-  variety:typeof d.variety==='string'?d.variety.slice(0,128):'',quantity:Number(o.quantity),unit:o.unit,
-  originCountry:o.originCountry,seedCategory:o.seedCategory,certificationClass:String(o.certificationClass??'').slice(0,80),
-  certificationDeclaration:'SELLER_DECLARED',availability:d.availability==='AVAILABLE_FROM'?'AVAILABLE_FROM':'AVAILABLE_NOW',
-  availableFrom:d.availability==='AVAILABLE_FROM'&&/^\d{4}-\d{2}-\d{2}$/.test(d.availableFrom??'')?d.availableFrom:null,validUntil:o.validUntil};
+ const d=typeof o.details==='string'?JSON.parse(o.details):o.details??{},species=crops.get(o.cropId);if(!species)return null;
+ const spec=readListingSpecifications(d),direction=['OFFER','BUY_REQUEST'].includes(d.listingDirection)?d.listingDirection:'OFFER';
+ const result={id:Number(o.id),cropId:o.cropId,species:{id:species.id,name:species.name,botanical:species.botanical},variety:publicListingText(d.variety,128),listingDirection:direction,productType:spec.productType,
+ quantity:Number(o.quantity),unit:o.unit,priceAmount:o.priceAmount==null?null:Number(o.priceAmount),currency:o.currency,priceUnit:['kg','t'].includes(d.priceUnit)?d.priceUnit:o.unit,
+ originCountry:o.originCountry,seedCategory:o.seedCategory,certificationClass:publicListingText(o.certificationClass,80),certificationDeclaration:'SELLER_DECLARED',packaging:publicListingText(spec.packaging,200),deliveryTerms:publicListingText(spec.deliveryTerms,200),organic:spec.organic,
+ qualityParameters:spec.qualityParameters.map(q=>({...q,...(q.label?{label:publicListingText(q.label,80)}:{})})).filter(q=>q.parameter!=='other'||q.label),qualitySpecifications:publicListingText(d.qualitySpecifications,2000),
+ availability:d.availability==='AVAILABLE_FROM'?'AVAILABLE_FROM':'AVAILABLE_NOW',availableFrom:d.availability==='AVAILABLE_FROM'&&/^\d{4}-\d{2}-\d{2}$/.test(d.availableFrom??'')?d.availableFrom:null,validUntil:o.validUntil};
+ result.publicUrl=publicListingUrl(result.id);result.interestUrl=brokerInterestMailto({id:result.id,product:species.name,variety:result.variety,direction,url:result.publicUrl});return result;
 }
 export function createPublicPreviewService({repository,catalogue}){
  const crops=new Map(catalogue.map(c=>[c.id,c]));

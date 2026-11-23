@@ -2,7 +2,7 @@ import {useT,useLanguage} from './i18n/index.jsx'
 import {listingTrading} from './listingTrading.mjs'
 import './marketplaceListings.css'
 
-export default function MarketplaceListingCard({request,species,detailHref,localDraft=false}) {
+export default function MarketplaceListingCard({request,species,detailHref,localDraft=false,interestHref,interestLabel}) {
   const t=useT(),{language}=useLanguage(),view=listingTrading(request)
   const href=detailHref || (request.slug?`/buying-requests/${request.slug}?lang=${language.toLowerCase()}`:null)
   const rows=[
@@ -20,5 +20,6 @@ export default function MarketplaceListingCard({request,species,detailHref,local
     {(localDraft||request.demo)&&<p className="trading-draft">{t(localDraft?'Local draft — not published':'Illustrative TEST card')}</p>}
     <dl>{rows.map(([label,value])=><div key={label} className={label==='Price'||label.includes('quantity')?'commercial-primary':'commercial-detail'}><dt>{t(label)}</dt><dd>{t(String(value))}</dd></div>)}</dl>
     {href&&!request.demo&&<a href={href}>{t(view.direction==='OFFER'?'View Offer →':'View Demand →')}</a>}
+    {interestHref&&<a className="button broker-interest" href={interestHref}>{interestLabel??t("I'm interested")}</a>}
   </article>
 }

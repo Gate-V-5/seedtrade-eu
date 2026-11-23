@@ -1,7 +1,6 @@
 import {stageCompanyDecision} from './companyDecisionNotifications.mjs';
 import {mailLanguage} from './messageLanguage.mjs';
 import {normalizeListingSpecifications,readListingSpecifications} from './listingSpecifications.mjs';
-import {PUBLIC_PREVIEW_VERSION,safePreviewText} from './publicPreview.mjs';
 import {marketplaceEntitled} from './marketplaceEntitlement.mjs';
 import {normalizeBuyerFilters} from './buyerOfferFilters.mjs';
 import {offerCountries,offerCurrencies} from './offerOptions.mjs';
@@ -265,12 +264,10 @@ return item;
     }),
     saveOffer:(token,input)=>withActor(token,async(tx,a)=>{
       editCompany(a);verified(a);const content=offerInput(input);
-      if(input.publicPreviewConfirmed!=null&&typeof input.publicPreviewConfirmed!=='boolean')fail(400,'INVALID_REQUEST');
-      if(input.publicPreviewConfirmed===true){if(!safePreviewText(content.details.variety)||!safePreviewText(content.certificationClass))fail(400,'INVALID_REQUEST');content.details.publicPreview={version:PUBLIC_PREVIEW_VERSION,confirmedByUserId:a.user.id,confirmedAt:new Date(now()).toISOString()};}
       if(input.id!=null){const old=await ownedOffer(tx,a,input.id);checkVersion(old.version,input.version);if(!['DRAFT','PUBLISHED','CLOSED'].includes(old.status))fail(409,'DRAFT_REQUIRED');}
       const offerId=id(await tx.saveOffer({...content,companyId:a.company.id,id:input.id??null,version:input.version??0}));
       await audit(tx,a,'OFFER_SAVED','offer',offerId);
-      if(input.publicPreviewConfirmed===true)await audit(tx,a,'PUBLIC_PREVIEW_CONFIRMED_V1','offer',offerId);return {id:offerId,status:'DRAFT',version:input.id==null?0:input.version+1};
+      return {id:offerId,status:'DRAFT',version:input.id==null?0:input.version+1};
     }),
     publishOffer:async(token,input)=>{const result=await withActor(token,async(tx,a)=>{
       if(!canPublishOffer({companyStatus:a.company.status,memberRole:a.role}))fail(403,'COMPANY_APPROVAL_REQUIRED');

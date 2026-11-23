@@ -41,7 +41,7 @@ export function createTradingWorkflow({localOnly=false,simple=false,publicationA
     const details=asObject(offer.details);
     await tx.enqueueListingNotice({offerId:offer.id,offerVersion:offer.version+1,userId:recipient.userId,email:recipient.email,language:recipient.language,
      direction:details.listingDirection??'OFFER',productType:details.productType??null,product:catalogue.find(c=>c.id===offer.cropId)?.name??offer.cropId,botanical:catalogue.find(c=>c.id===offer.cropId)?.botanical??'',
-     cropId:offer.cropId,simpleWorkflow:simple,quantity:offer.quantity,unit:offer.unit,price:offer.priceAmount,currency:offer.currency});
+     cropId:offer.cropId,simpleWorkflow:simple,variety:details.variety??'',quantity:offer.quantity,unit:offer.unit,price:offer.priceAmount,priceUnit:details.priceUnit??offer.unit,currency:offer.currency});
    }
   },
   async introduced(tx,a,offer,enquiryId,input){

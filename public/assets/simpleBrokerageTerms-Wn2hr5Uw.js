@@ -1,0 +1,575 @@
+import{c as e,g as t,l as n,m as r}from"./i18n-BpHKvTsX.js";var i=t(r(),1),a=n(),o={germination:`Germination`,physicalPurity:`Physical purity`,moisture:`Moisture`,otherCropSeeds:`Other crop seeds`,oilContent:`Oil content`,proteinContent:`Protein content`,other:`Other parameter`},s={MIN:`Minimum`,MAX:`Maximum`,EXACT:`Exact`},c={germinationPercent:`germination`,purityPercent:`physicalPurity`,moisturePercent:`moisture`};function l(e=[],t={}){let n=Array.isArray(e)?e.filter(e=>e&&Object.hasOwn(o,e.parameter)&&Object.hasOwn(s,e.operator)&&e.value!==``&&e.value!=null).map(e=>({...e})):[];for(let[e,r]of Object.entries(c))t[e]!=null&&t[e]!==``&&!n.some(e=>e.parameter===r)&&n.push({parameter:r,operator:`EXACT`,value:String(t[e]),unit:`%`});return n}function u({parameters:t=[],legacy:n={},direction:r=`OFFER`,t:c}){let u=e(),d=c??u,f=l(t,n);return f.length?(0,a.jsxs)(`section`,{className:`listing-quality`,"aria-label":d(`Quality specifications`),children:[(0,a.jsx)(`h3`,{children:d(r===`BUY_REQUEST`?`Required Product Quality`:`Declared Product Quality`)}),(0,a.jsx)(`p`,{className:`listing-quality-basis`,children:d(r===`BUY_REQUEST`?`Buyer requirements are not laboratory verification.`:`Seller declarations are not laboratory verification.`)}),(0,a.jsx)(`dl`,{children:f.map((e,t)=>(0,a.jsxs)(i.Fragment,{children:[(0,a.jsx)(`dt`,{children:e.parameter===`other`&&e.label?e.label:d(o[e.parameter])}),(0,a.jsxs)(`dd`,{children:[(0,a.jsx)(`span`,{children:d(s[e.operator])}),` `,(0,a.jsxs)(`strong`,{children:[{MIN:`≥`,MAX:`≤`,EXACT:`=`}[e.operator],` `,e.value,e.unit===`%`?`%`:` `+e.unit]})]})]},e.parameter+`-`+t))})]}):null}var d=Object.freeze({key:`GATE_V`,legalName:`MB Gate-V`,country:`LT`,registrationNumber:`306795035`,vatId:`LT100017200917`,registeredAddress:`Varnėnų g. 52, LT-37171 Panevėžys, Lithuania`,contact:`info@seedtrade.eu`,identityStatus:`LEGAL_OPERATOR`,selection:`OWNER_MANUAL_BROKERAGE`}),f=Object.freeze(Object.fromEntries(Object.entries({EN:`SEEDTRADE.EU — Brokerage and Success Fee Terms
+
+1. Parties and Scope
+
+SEEDTRADE.EU is a professional B2B marketplace operated by MB Gate-V, company registration number 306795035, VAT number LT100017200917, registered at Varnėnų g. 52, LT-37171 Panevėžys, Lithuania.
+
+These terms apply to business entities publishing FOR SALE or TO BUY listings on SEEDTRADE.EU.
+
+The person publishing a listing confirms that they are authorized to act on behalf of the represented company.
+
+2. Free Services and Brokerage Commission
+
+Membership, listing publication, listing notifications and enquiries are free of charge.
+
+When a commercial transaction originating from a published listing is successfully executed, the company that published the listing agrees to pay MB Gate-V a 1% brokerage success fee.
+
+FOR SALE listing: the publishing seller pays.
+
+TO BUY listing: the publishing buyer pays.
+
+The responding company does not incur a standard brokerage commission merely by responding.
+
+Only one standard 1% commission applies to the same transaction.
+
+The commission is calculated on the value of goods actually delivered and accepted, excluding VAT and separately invoiced transport or other ancillary services.
+
+The brokerage commission itself is exclusive of any applicable VAT.
+
+3. When the Commission Becomes Payable
+
+The commission obligation arises when goods covered by the relevant transaction have been delivered and accepted by the buyer.
+
+For partial deliveries, the commission applies only to the quantity actually delivered and accepted.
+
+Documented returns, price adjustments and other justified corrections are reflected in the commission calculation.
+
+A listing, enquiry or email-confirmed expression of interest does not itself create a commission obligation.
+
+Payment for the goods and payment of the brokerage commission are separate obligations.
+
+4. Transactions Originating from SEEDTRADE.EU
+
+A transaction originates from SEEDTRADE.EU when a commercial relationship or specific trading opportunity is established through a listing, enquiry, introduction or communication facilitated by the platform.
+
+The agreed commission applies even when the resulting transaction is subsequently negotiated or completed directly between the parties.
+
+The same commission principle applies to repeat transactions between the introduced parties arising from that commercial relationship during 12 months from the first recorded introduction.
+
+Transactions unrelated to the platform introduction are not automatically commissionable.
+
+Transactions arranged through affiliated companies, representatives or intermediaries for the purpose of avoiding the agreed commission remain subject to these terms where the connection to the original introduction can be established.
+
+5. Transaction Reporting
+
+The listing publisher must inform MB Gate-V when a transaction resulting from the listing has been concluded and when the goods have been delivered and accepted.
+
+The notification should identify the listing reference, counterparty, delivered quantity, final goods value and relevant execution date.
+
+MB Gate-V may request reasonable supporting commercial documents necessary to verify the commission calculation.
+
+Confidential business information must be handled in accordance with the applicable Privacy Notice.
+
+6. Invoicing and Payment
+
+MB Gate-V calculates the brokerage commission using the verified executed goods value and issues a separate commission invoice through its normal accounting process.
+
+The payment term is 14 calendar days from invoice issuance.
+
+Applicable VAT is determined according to the relevant tax rules and transaction circumstances.
+
+Any justified subsequent correction is handled through the appropriate accounting adjustment.
+
+No commission is automatically deducted from the seller's goods invoice.
+
+7. Brokerage Role and Responsibilities
+
+MB Gate-V coordinates commercial introductions and may assist the parties with negotiations and transaction documentation.
+
+Unless separately agreed in writing, MB Gate-V is not the buyer or seller of the goods and does not assume responsibility for their quality, certification, phytosanitary compliance, delivery or payment.
+
+Goods contracts and payments are handled directly between the trading companies.
+
+SEEDTRADE.EU does not hold customer funds or provide escrow services.
+
+8. Disputes
+
+Disputes concerning transaction origin, execution or commission calculation must be submitted to info@seedtrade.eu with the relevant listing reference and supporting evidence.
+
+MB Gate-V will review the available information and communicate its assessment.
+
+Any unresolved dispute is handled under the applicable contractual terms and governing law.
+
+9. Acceptance and Effective Date
+
+Before publishing a listing, the company representative must expressly accept these brokerage terms.
+
+The platform records the accepted terms version, company, authorized user, listing reference and acceptance timestamp.
+
+The accepted version applies to listings published after its effective date. Subsequent amendments do not automatically alter previously accepted terms.
+
+Effective date: the actual date of publication of these terms.
+
+In the event of inconsistencies between language versions, the English version prevails.
+
+10. Contact
+
+MB Gate-V
+
+Company registration number: 306795035
+
+VAT number: LT100017200917
+
+Registered address: Varnėnų g. 52, LT-37171 Panevėžys, Lithuania
+
+Email: info@seedtrade.eu`,DE:`SEEDTRADE.EU — Vermittlungs- und Erfolgsprovisionsbedingungen
+
+1. Parteien und Geltungsbereich
+
+SEEDTRADE.EU ist ein professioneller B2B-Marktplatz, betrieben von MB Gate-V, Unternehmensregisternummer 306795035, Umsatzsteuer-Identifikationsnummer LT100017200917, mit Sitz in Varnėnų g. 52, LT-37171 Panevėžys, Litauen.
+
+Diese Bedingungen gelten für Unternehmen, die VERKAUFSANGEBOTE oder KAUFGESUCHE auf SEEDTRADE.EU veröffentlichen.
+
+Die ein Inserat veröffentlichende Person bestätigt, dass sie zur Vertretung des betreffenden Unternehmens befugt ist.
+
+2. Kostenlose Leistungen und Vermittlungsprovision
+
+Mitgliedschaft, Veröffentlichung von Inseraten, Inseratsbenachrichtigungen und Anfragen sind kostenlos.
+
+Wird ein aus einem veröffentlichten Inserat entstandenes Geschäft erfolgreich ausgeführt, verpflichtet sich das veröffentlichende Unternehmen, MB Gate-V eine Vermittlungs-Erfolgsprovision von 1 % zu zahlen.
+
+VERKAUFSANGEBOT: Der veröffentlichende Verkäufer zahlt.
+
+KAUFGESUCH: Der veröffentlichende Käufer zahlt.
+
+Dem antwortenden Unternehmen entsteht allein durch seine Antwort keine Standard-Vermittlungsprovision.
+
+Für dasselbe Geschäft gilt nur eine Standardprovision von 1 %.
+
+Die Provision berechnet sich aus dem Wert der tatsächlich gelieferten und angenommenen Waren, ohne Umsatzsteuer und ohne gesondert in Rechnung gestellten Transport oder sonstige Nebenleistungen.
+
+Die Vermittlungsprovision selbst versteht sich zuzüglich einer gegebenenfalls anfallenden Umsatzsteuer.
+
+3. Entstehung der Provisionspflicht
+
+Die Provisionspflicht entsteht, wenn die vom betreffenden Geschäft erfassten Waren geliefert und vom Käufer angenommen wurden.
+
+Bei Teillieferungen gilt die Provision nur für die tatsächlich gelieferte und angenommene Menge.
+
+Dokumentierte Rückgaben, Preisanpassungen und andere begründete Korrekturen werden bei der Provisionsberechnung berücksichtigt.
+
+Ein Inserat, eine Anfrage oder eine per E-Mail bestätigte Interessenbekundung begründet für sich allein keine Provisionspflicht.
+
+Die Bezahlung der Waren und die Bezahlung der Vermittlungsprovision sind getrennte Verpflichtungen.
+
+4. Aus SEEDTRADE.EU entstandene Geschäfte
+
+Ein Geschäft stammt aus SEEDTRADE.EU, wenn eine Geschäftsbeziehung oder eine konkrete Handelsmöglichkeit durch ein Inserat, eine Anfrage, eine Kontaktvermittlung oder eine durch die Plattform ermöglichte Kommunikation begründet wird.
+
+Die vereinbarte Provision gilt auch dann, wenn das daraus entstandene Geschäft anschließend direkt zwischen den Parteien ausgehandelt oder abgeschlossen wird.
+
+Dasselbe Provisionsprinzip gilt für Folgegeschäfte zwischen den einander vermittelten Parteien, die aus dieser Geschäftsbeziehung entstehen, während 12 Monaten ab der ersten dokumentierten Kontaktvermittlung.
+
+Geschäfte ohne Zusammenhang mit der Kontaktvermittlung durch die Plattform sind nicht automatisch provisionspflichtig.
+
+Geschäfte, die über verbundene Unternehmen, Vertreter oder Vermittler zur Umgehung der vereinbarten Provision abgewickelt werden, unterliegen weiterhin diesen Bedingungen, wenn der Zusammenhang mit der ursprünglichen Kontaktvermittlung nachgewiesen werden kann.
+
+5. Meldung von Geschäften
+
+Das veröffentlichende Unternehmen muss MB Gate-V informieren, wenn ein aus dem Inserat entstandenes Geschäft abgeschlossen wurde und wenn die Waren geliefert und angenommen wurden.
+
+Die Mitteilung sollte die Inseratsreferenz, die Gegenpartei, die gelieferte Menge, den endgültigen Warenwert und das maßgebliche Ausführungsdatum enthalten.
+
+MB Gate-V kann angemessene geschäftliche Belege anfordern, die zur Überprüfung der Provisionsberechnung erforderlich sind.
+
+Vertrauliche Geschäftsinformationen sind gemäß der geltenden Datenschutzerklärung zu behandeln.
+
+6. Rechnungsstellung und Zahlung
+
+MB Gate-V berechnet die Vermittlungsprovision anhand des überprüften ausgeführten Warenwerts und stellt im Rahmen seiner üblichen Buchhaltung eine separate Provisionsrechnung aus.
+
+Die Zahlungsfrist beträgt 14 Kalendertage ab Rechnungsstellung.
+
+Die anwendbare Umsatzsteuer richtet sich nach den einschlägigen Steuervorschriften und den Umständen des Geschäfts.
+
+Jede begründete nachträgliche Korrektur erfolgt durch eine entsprechende buchhalterische Anpassung.
+
+Von der Warenrechnung des Verkäufers wird keine Provision automatisch abgezogen.
+
+7. Rolle und Verantwortung des Vermittlers
+
+MB Gate-V koordiniert geschäftliche Kontaktvermittlungen und kann die Parteien bei Verhandlungen und der Geschäftsdokumentation unterstützen.
+
+Sofern nicht gesondert schriftlich vereinbart, ist MB Gate-V weder Käufer noch Verkäufer der Waren und übernimmt keine Verantwortung für deren Qualität, Zertifizierung, pflanzengesundheitliche Konformität, Lieferung oder Bezahlung.
+
+Warenverträge und Zahlungen werden direkt zwischen den handelnden Unternehmen abgewickelt.
+
+SEEDTRADE.EU verwahrt keine Kundengelder und bietet keine Treuhanddienste an.
+
+8. Streitigkeiten
+
+Streitigkeiten über die Herkunft eines Geschäfts, seine Ausführung oder die Provisionsberechnung sind unter Angabe der betreffenden Inseratsreferenz und mit Belegen an info@seedtrade.eu zu richten.
+
+MB Gate-V prüft die verfügbaren Informationen und teilt seine Einschätzung mit.
+
+Ungelöste Streitigkeiten werden nach den anwendbaren Vertragsbedingungen und dem geltenden Recht behandelt.
+
+9. Zustimmung und Inkrafttreten
+
+Vor Veröffentlichung eines Inserats muss der Unternehmensvertreter diesen Vermittlungsbedingungen ausdrücklich zustimmen.
+
+Die Plattform erfasst die akzeptierte Bedingungsversion, das Unternehmen, den bevollmächtigten Nutzer, die Inseratsreferenz und den Zeitpunkt der Zustimmung.
+
+Die akzeptierte Version gilt für Inserate, die nach ihrem Inkrafttreten veröffentlicht werden. Spätere Änderungen ändern zuvor akzeptierte Bedingungen nicht automatisch.
+
+Datum des Inkrafttretens: das tatsächliche Veröffentlichungsdatum dieser Bedingungen.
+
+Bei Unstimmigkeiten zwischen Sprachfassungen ist die englische Fassung maßgeblich.
+
+10. Kontakt
+
+MB Gate-V
+
+Unternehmensregisternummer: 306795035
+
+Umsatzsteuer-Identifikationsnummer: LT100017200917
+
+Sitz: Varnėnų g. 52, LT-37171 Panevėžys, Litauen
+
+E-Mail: info@seedtrade.eu`,FR:`SEEDTRADE.EU — Conditions de courtage et de commission de succès
+
+1. Parties et champ d’application
+
+SEEDTRADE.EU est une place de marché B2B professionnelle exploitée par MB Gate-V, numéro d’immatriculation 306795035, numéro de TVA LT100017200917, dont le siège est situé Varnėnų g. 52, LT-37171 Panevėžys, Lituanie.
+
+Les présentes conditions s’appliquent aux entreprises publiant des OFFRES DE VENTE ou des DEMANDES D’ACHAT sur SEEDTRADE.EU.
+
+La personne publiant une annonce confirme qu’elle est autorisée à agir au nom de l’entreprise représentée.
+
+2. Services gratuits et commission de courtage
+
+L’adhésion, la publication d’annonces, les notifications d’annonces et les demandes de renseignements sont gratuites.
+
+Lorsqu’une opération commerciale issue d’une annonce publiée est exécutée avec succès, l’entreprise ayant publié l’annonce s’engage à verser à MB Gate-V une commission de courtage de succès de 1 %.
+
+OFFRE DE VENTE : le vendeur ayant publié l’annonce paie.
+
+DEMANDE D’ACHAT : l’acheteur ayant publié l’annonce paie.
+
+L’entreprise répondante ne doit aucune commission de courtage standard du seul fait de sa réponse.
+
+Une seule commission standard de 1 % s’applique à la même opération.
+
+La commission est calculée sur la valeur des marchandises effectivement livrées et acceptées, hors TVA et hors transport ou autres services accessoires facturés séparément.
+
+La commission de courtage elle-même s’entend hors TVA éventuellement applicable.
+
+3. Naissance de l’obligation de commission
+
+L’obligation de commission naît lorsque les marchandises couvertes par l’opération concernée ont été livrées et acceptées par l’acheteur.
+
+Pour les livraisons partielles, la commission s’applique uniquement à la quantité effectivement livrée et acceptée.
+
+Les retours documentés, ajustements de prix et autres corrections justifiées sont pris en compte dans le calcul de la commission.
+
+Une annonce, une demande ou une manifestation d’intérêt confirmée par courriel ne crée pas à elle seule une obligation de commission.
+
+Le paiement des marchandises et le paiement de la commission de courtage sont des obligations distinctes.
+
+4. Opérations issues de SEEDTRADE.EU
+
+Une opération est issue de SEEDTRADE.EU lorsqu’une relation commerciale ou une opportunité commerciale précise est établie par une annonce, une demande, une mise en relation ou une communication facilitée par la plateforme.
+
+La commission convenue s’applique même si l’opération qui en résulte est ensuite négociée ou réalisée directement entre les parties.
+
+Le même principe de commission s’applique aux opérations répétées entre les parties mises en relation, issues de cette relation commerciale, pendant 12 mois à compter de la première mise en relation enregistrée.
+
+Les opérations sans rapport avec la mise en relation par la plateforme ne donnent pas automatiquement lieu à commission.
+
+Les opérations organisées par l’intermédiaire de sociétés affiliées, de représentants ou d’intermédiaires afin d’éviter la commission convenue restent soumises aux présentes conditions lorsque le lien avec la mise en relation initiale peut être établi.
+
+5. Déclaration des opérations
+
+L’entreprise ayant publié l’annonce doit informer MB Gate-V lorsqu’une opération issue de l’annonce a été conclue et lorsque les marchandises ont été livrées et acceptées.
+
+La notification devrait indiquer la référence de l’annonce, la contrepartie, la quantité livrée, la valeur finale des marchandises et la date d’exécution concernée.
+
+MB Gate-V peut demander les justificatifs commerciaux raisonnables nécessaires à la vérification du calcul de la commission.
+
+Les informations commerciales confidentielles doivent être traitées conformément à la Notice de confidentialité applicable.
+
+6. Facturation et paiement
+
+MB Gate-V calcule la commission de courtage à partir de la valeur vérifiée des marchandises effectivement exécutée et émet une facture de commission distincte par son processus comptable habituel.
+
+Le délai de paiement est de 14 jours calendaires à compter de l’émission de la facture.
+
+La TVA applicable est déterminée selon les règles fiscales pertinentes et les circonstances de l’opération.
+
+Toute correction ultérieure justifiée fait l’objet de l’ajustement comptable approprié.
+
+Aucune commission n’est automatiquement déduite de la facture de marchandises du vendeur.
+
+7. Rôle et responsabilités du courtier
+
+MB Gate-V coordonne les mises en relation commerciales et peut assister les parties dans les négociations et la documentation des opérations.
+
+Sauf accord écrit distinct, MB Gate-V n’est ni l’acheteur ni le vendeur des marchandises et n’assume aucune responsabilité quant à leur qualité, certification, conformité phytosanitaire, livraison ou paiement.
+
+Les contrats de marchandises et les paiements sont traités directement entre les entreprises commerçantes.
+
+SEEDTRADE.EU ne détient pas de fonds clients et ne fournit pas de services de séquestre.
+
+8. Différends
+
+Les différends concernant l’origine ou l’exécution d’une opération ou le calcul de la commission doivent être adressés à info@seedtrade.eu avec la référence de l’annonce concernée et les justificatifs.
+
+MB Gate-V examine les informations disponibles et communique son appréciation.
+
+Tout différend non résolu est traité selon les conditions contractuelles applicables et le droit applicable.
+
+9. Acceptation et date d’entrée en vigueur
+
+Avant de publier une annonce, le représentant de l’entreprise doit expressément accepter les présentes conditions de courtage.
+
+La plateforme enregistre la version acceptée, l’entreprise, l’utilisateur autorisé, la référence de l’annonce et l’horodatage de l’acceptation.
+
+La version acceptée s’applique aux annonces publiées après sa date d’entrée en vigueur. Les modifications ultérieures ne changent pas automatiquement les conditions précédemment acceptées.
+
+Date d’entrée en vigueur : la date effective de publication des présentes conditions.
+
+En cas de divergences entre les versions linguistiques, la version anglaise prévaut.
+
+10. Contact
+
+MB Gate-V
+
+Numéro d’immatriculation : 306795035
+
+Numéro de TVA : LT100017200917
+
+Siège : Varnėnų g. 52, LT-37171 Panevėžys, Lituanie
+
+Courriel : info@seedtrade.eu`,ES:`SEEDTRADE.EU — Condiciones de intermediación y comisión por éxito
+
+1. Partes y ámbito de aplicación
+
+SEEDTRADE.EU es un mercado B2B profesional operado por MB Gate-V, número de registro mercantil 306795035, número de IVA LT100017200917, con domicilio en Varnėnų g. 52, LT-37171 Panevėžys, Lituania.
+
+Estas condiciones se aplican a las empresas que publican anuncios SE VENDE o SE COMPRA en SEEDTRADE.EU.
+
+La persona que publica un anuncio confirma que está autorizada para actuar en nombre de la empresa representada.
+
+2. Servicios gratuitos y comisión de intermediación
+
+La afiliación, la publicación de anuncios, las notificaciones de anuncios y las consultas son gratuitas.
+
+Cuando una operación comercial originada en un anuncio publicado se ejecuta satisfactoriamente, la empresa que publicó el anuncio se compromete a pagar a MB Gate-V una comisión de intermediación por éxito del 1 %.
+
+Anuncio SE VENDE: paga el vendedor que lo publica.
+
+Anuncio SE COMPRA: paga el comprador que lo publica.
+
+La empresa que responde no incurre en una comisión de intermediación estándar por el mero hecho de responder.
+
+Solo se aplica una comisión estándar del 1 % a la misma operación.
+
+La comisión se calcula sobre el valor de las mercancías efectivamente entregadas y aceptadas, excluyendo el IVA y el transporte u otros servicios accesorios facturados por separado.
+
+La propia comisión de intermediación no incluye el IVA que resulte aplicable.
+
+3. Nacimiento de la obligación de comisión
+
+La obligación de comisión nace cuando las mercancías de la operación correspondiente han sido entregadas y aceptadas por el comprador.
+
+En las entregas parciales, la comisión se aplica únicamente a la cantidad efectivamente entregada y aceptada.
+
+Las devoluciones documentadas, los ajustes de precio y otras correcciones justificadas se reflejan en el cálculo de la comisión.
+
+Un anuncio, una consulta o una manifestación de interés confirmada por correo electrónico no crea por sí sola una obligación de comisión.
+
+El pago de las mercancías y el pago de la comisión de intermediación son obligaciones separadas.
+
+4. Operaciones originadas en SEEDTRADE.EU
+
+Una operación se origina en SEEDTRADE.EU cuando se establece una relación comercial o una oportunidad comercial concreta mediante un anuncio, una consulta, una presentación o una comunicación facilitada por la plataforma.
+
+La comisión acordada se aplica aunque la operación resultante se negocie o complete posteriormente de forma directa entre las partes.
+
+El mismo principio de comisión se aplica a las operaciones repetidas entre las partes presentadas, derivadas de esa relación comercial, durante 12 meses desde la primera presentación registrada.
+
+Las operaciones ajenas a la presentación realizada por la plataforma no generan automáticamente una comisión.
+
+Las operaciones organizadas a través de empresas vinculadas, representantes o intermediarios para evitar la comisión acordada siguen sujetas a estas condiciones cuando pueda establecerse su relación con la presentación original.
+
+5. Comunicación de operaciones
+
+La empresa que publica el anuncio debe informar a MB Gate-V cuando se haya concluido una operación derivada del anuncio y cuando las mercancías hayan sido entregadas y aceptadas.
+
+La notificación debería identificar la referencia del anuncio, la contraparte, la cantidad entregada, el valor final de las mercancías y la fecha de ejecución correspondiente.
+
+MB Gate-V puede solicitar documentos comerciales justificativos razonables que sean necesarios para verificar el cálculo de la comisión.
+
+La información comercial confidencial debe tratarse de acuerdo con el Aviso de privacidad aplicable.
+
+6. Facturación y pago
+
+MB Gate-V calcula la comisión de intermediación utilizando el valor verificado de las mercancías ejecutadas y emite una factura de comisión separada mediante su proceso contable habitual.
+
+El plazo de pago es de 14 días naturales desde la emisión de la factura.
+
+El IVA aplicable se determina según las normas fiscales pertinentes y las circunstancias de la operación.
+
+Cualquier corrección posterior justificada se tramita mediante el ajuste contable correspondiente.
+
+No se deduce automáticamente ninguna comisión de la factura de mercancías del vendedor.
+
+7. Función y responsabilidades del intermediario
+
+MB Gate-V coordina las presentaciones comerciales y puede ayudar a las partes con las negociaciones y la documentación de las operaciones.
+
+Salvo acuerdo escrito separado, MB Gate-V no es el comprador ni el vendedor de las mercancías y no asume responsabilidad por su calidad, certificación, cumplimiento fitosanitario, entrega o pago.
+
+Los contratos de mercancías y los pagos se gestionan directamente entre las empresas comerciantes.
+
+SEEDTRADE.EU no mantiene fondos de clientes ni presta servicios de depósito en garantía.
+
+8. Controversias
+
+Las controversias sobre el origen o la ejecución de una operación o el cálculo de la comisión deben remitirse a info@seedtrade.eu con la referencia del anuncio correspondiente y los justificantes.
+
+MB Gate-V revisará la información disponible y comunicará su valoración.
+
+Cualquier controversia no resuelta se tratará conforme a las condiciones contractuales y al derecho aplicables.
+
+9. Aceptación y fecha de entrada en vigor
+
+Antes de publicar un anuncio, el representante de la empresa debe aceptar expresamente estas condiciones de intermediación.
+
+La plataforma registra la versión aceptada, la empresa, el usuario autorizado, la referencia del anuncio y la fecha y hora de aceptación.
+
+La versión aceptada se aplica a los anuncios publicados después de su fecha de entrada en vigor. Las modificaciones posteriores no alteran automáticamente las condiciones aceptadas anteriormente.
+
+Fecha de entrada en vigor: la fecha efectiva de publicación de estas condiciones.
+
+En caso de discrepancias entre las versiones lingüísticas, prevalece la versión inglesa.
+
+10. Contacto
+
+MB Gate-V
+
+Número de registro mercantil: 306795035
+
+Número de IVA: LT100017200917
+
+Domicilio: Varnėnų g. 52, LT-37171 Panevėžys, Lituania
+
+Correo electrónico: info@seedtrade.eu`,IT:`SEEDTRADE.EU — Condizioni di intermediazione e commissione di successo
+
+1. Parti e ambito di applicazione
+
+SEEDTRADE.EU è un mercato B2B professionale gestito da MB Gate-V, numero di registrazione dell’impresa 306795035, partita IVA LT100017200917, con sede in Varnėnų g. 52, LT-37171 Panevėžys, Lituania.
+
+Le presenti condizioni si applicano alle imprese che pubblicano annunci IN VENDITA o RICHIESTE DI ACQUISTO su SEEDTRADE.EU.
+
+La persona che pubblica un annuncio conferma di essere autorizzata ad agire per conto dell’impresa rappresentata.
+
+2. Servizi gratuiti e commissione di intermediazione
+
+L’adesione, la pubblicazione degli annunci, le notifiche degli annunci e le richieste di informazioni sono gratuite.
+
+Quando un’operazione commerciale derivante da un annuncio pubblicato viene eseguita con successo, l’impresa che ha pubblicato l’annuncio si impegna a pagare a MB Gate-V una commissione di intermediazione di successo dell’1%.
+
+Annuncio IN VENDITA: paga il venditore che lo pubblica.
+
+RICHIESTA DI ACQUISTO: paga l’acquirente che la pubblica.
+
+L’impresa che risponde non è soggetta a una commissione di intermediazione standard per il solo fatto di rispondere.
+
+Alla stessa operazione si applica una sola commissione standard dell’1%.
+
+La commissione si calcola sul valore delle merci effettivamente consegnate e accettate, esclusi l’IVA e il trasporto o altri servizi accessori fatturati separatamente.
+
+La commissione di intermediazione stessa è al netto dell’eventuale IVA applicabile.
+
+3. Nascita dell’obbligo di commissione
+
+L’obbligo di commissione nasce quando le merci oggetto dell’operazione pertinente sono state consegnate e accettate dall’acquirente.
+
+Per le consegne parziali, la commissione si applica soltanto alla quantità effettivamente consegnata e accettata.
+
+I resi documentati, gli adeguamenti di prezzo e altre rettifiche giustificate sono considerati nel calcolo della commissione.
+
+Un annuncio, una richiesta o una manifestazione di interesse confermata via email non crea di per sé un obbligo di commissione.
+
+Il pagamento delle merci e il pagamento della commissione di intermediazione sono obblighi separati.
+
+4. Operazioni originate da SEEDTRADE.EU
+
+Un’operazione ha origine da SEEDTRADE.EU quando una relazione commerciale o una specifica opportunità di scambio viene stabilita attraverso un annuncio, una richiesta, una presentazione o una comunicazione facilitata dalla piattaforma.
+
+La commissione concordata si applica anche quando l’operazione risultante viene successivamente negoziata o completata direttamente tra le parti.
+
+Lo stesso principio di commissione si applica alle operazioni ripetute tra le parti presentate, derivanti da tale relazione commerciale, per 12 mesi dalla prima presentazione registrata.
+
+Le operazioni non collegate alla presentazione tramite la piattaforma non sono automaticamente soggette a commissione.
+
+Le operazioni organizzate tramite società collegate, rappresentanti o intermediari allo scopo di evitare la commissione concordata restano soggette alle presenti condizioni quando è possibile stabilire il collegamento con la presentazione originaria.
+
+5. Comunicazione delle operazioni
+
+L’impresa che pubblica l’annuncio deve informare MB Gate-V quando è stata conclusa un’operazione derivante dall’annuncio e quando le merci sono state consegnate e accettate.
+
+La comunicazione dovrebbe indicare il riferimento dell’annuncio, la controparte, la quantità consegnata, il valore finale delle merci e la pertinente data di esecuzione.
+
+MB Gate-V può richiedere ragionevoli documenti commerciali giustificativi necessari per verificare il calcolo della commissione.
+
+Le informazioni commerciali riservate devono essere trattate conformemente all’Informativa sulla privacy applicabile.
+
+6. Fatturazione e pagamento
+
+MB Gate-V calcola la commissione di intermediazione utilizzando il valore verificato delle merci effettivamente eseguito ed emette una fattura di commissione separata tramite il proprio normale processo contabile.
+
+Il termine di pagamento è di 14 giorni di calendario dall’emissione della fattura.
+
+L’IVA applicabile è determinata secondo le pertinenti norme fiscali e le circostanze dell’operazione.
+
+Ogni successiva rettifica giustificata viene gestita mediante l’opportuna rettifica contabile.
+
+Nessuna commissione viene detratta automaticamente dalla fattura delle merci del venditore.
+
+7. Ruolo e responsabilità dell’intermediario
+
+MB Gate-V coordina le presentazioni commerciali e può assistere le parti nelle negoziazioni e nella documentazione delle operazioni.
+
+Salvo separato accordo scritto, MB Gate-V non è l’acquirente né il venditore delle merci e non assume responsabilità per la loro qualità, certificazione, conformità fitosanitaria, consegna o pagamento.
+
+I contratti relativi alle merci e i pagamenti sono gestiti direttamente tra le imprese commerciali.
+
+SEEDTRADE.EU non detiene fondi dei clienti e non fornisce servizi di deposito a garanzia.
+
+8. Controversie
+
+Le controversie sull’origine o sull’esecuzione di un’operazione o sul calcolo della commissione devono essere inviate a info@seedtrade.eu con il riferimento dell’annuncio pertinente e le prove giustificative.
+
+MB Gate-V esaminerà le informazioni disponibili e comunicherà la propria valutazione.
+
+Ogni controversia irrisolta viene trattata secondo le condizioni contrattuali e il diritto applicabili.
+
+9. Accettazione e data di entrata in vigore
+
+Prima di pubblicare un annuncio, il rappresentante dell’impresa deve accettare espressamente le presenti condizioni di intermediazione.
+
+La piattaforma registra la versione accettata, l’impresa, l’utente autorizzato, il riferimento dell’annuncio e la data e l’ora dell’accettazione.
+
+La versione accettata si applica agli annunci pubblicati dopo la sua data di entrata in vigore. Le modifiche successive non cambiano automaticamente le condizioni precedentemente accettate.
+
+Data di entrata in vigore: la data effettiva di pubblicazione delle presenti condizioni.
+
+In caso di incongruenze tra le versioni linguistiche, prevale la versione inglese.
+
+10. Contatto
+
+MB Gate-V
+
+Numero di registrazione dell’impresa: 306795035
+
+Partita IVA: LT100017200917
+
+Sede: Varnėnų g. 52, LT-37171 Panevėžys, Lituania
+
+Email: info@seedtrade.eu`}).map(([e,t])=>[e,Object.freeze(t.split(`
+
+`))]))),p=[[`SEEDTRADE Brokerage Success Fee — 1%`,`SEEDTRADE Vermittlungs-Erfolgsgebühr — 1 %`,`Commission de courtage SEEDTRADE — 1 %`,`Comisión de intermediación SEEDTRADE — 1 %`,`Commissione di intermediazione SEEDTRADE — 1%`],[`Publishing a listing is free.`,`Die Veröffentlichung eines Inserats ist kostenlos.`,`La publication d’une annonce est gratuite.`,`Publicar un anuncio es gratuito.`,`Pubblicare un annuncio è gratuito.`],[`If a transaction resulting from this listing is successfully executed, the company that published the listing pays MB Gate-V a brokerage success fee of 1% of the value of goods actually delivered and accepted, excluding VAT and separately invoiced transport or other ancillary services.`,`Wird ein aus diesem Inserat entstandenes Geschäft erfolgreich ausgeführt, zahlt das veröffentlichende Unternehmen MB Gate-V eine Erfolgsgebühr von 1 % des tatsächlich ausgeführten Warenwerts ohne MwSt.`,`Si une transaction issue de cette annonce est exécutée, l’entreprise qui l’a publiée verse à MB Gate-V une commission de 1 % de la valeur des marchandises effectivement exécutée, hors TVA.`,`Si se ejecuta una operación derivada de este anuncio, la empresa que lo publicó paga a MB Gate-V el 1 % del valor de la mercancía realmente ejecutado, sin IVA.`,`Se viene eseguita una transazione derivante dall’annuncio, l’impresa che lo ha pubblicato paga a MB Gate-V l’1% del valore delle merci effettivamente consegnate e accettate, esclusi l?IVA e il trasporto o altri servizi accessori fatturati separatamente.`],[`For a FOR SALE listing, the seller pays. For a TO BUY listing, the buyer pays.`,`Bei einem VERKAUFSANGEBOT zahlt der Verkäufer, bei einem KAUFGESUCH der Käufer.`,`Pour une OFFRE DE VENTE, le vendeur paie. Pour une DEMANDE D’ACHAT, l’acheteur paie.`,`En un anuncio SE VENDE paga el vendedor; en una solicitud SE COMPRA paga el comprador.`,`Per un annuncio IN VENDITA paga il venditore; per una RICHIESTA DI ACQUISTO paga l’acquirente.`],[`No success fee is charged merely for publishing a listing or submitting an enquiry.`,`Allein die Veröffentlichung oder eine Anfrage löst keine Erfolgsgebühr aus.`,`La publication ou l’envoi d’une demande ne déclenche pas de commission.`,`Publicar o enviar una consulta no genera por sí solo una comisión.`,`Pubblicare o inviare una richiesta non genera di per sé una commissione.`],[`The full brokerage terms explain the commission calculation, invoicing, direct transactions originating from the platform, partial fulfilment, corrections and dispute handling.`,`Die vollständigen Bedingungen erläutern Berechnung, Rechnungsstellung, direkt abgewickelte plattformvermittelte Geschäfte, Teillieferungen, Korrekturen und Streitfälle.`,`Les conditions complètes expliquent le calcul, la facturation, les transactions directes issues de la plateforme, l’exécution partielle, les corrections et les différends.`,`Las condiciones completas explican el cálculo, la facturación, las operaciones directas originadas en la plataforma, el cumplimiento parcial, las correcciones y las controversias.`,`Le condizioni complete spiegano calcolo, fatturazione, operazioni dirette originate dalla piattaforma, esecuzione parziale, rettifiche e controversie.`]],m=Object.freeze(Object.fromEntries([`EN`,`DE`,`FR`,`ES`,`IT`].map((e,t)=>[e,Object.freeze(p.map(e=>e[t]))]))),h=f,g=Object.freeze({version:`brokerage-simple-1pct-v3`,status:`OWNER_APPROVED`,rateBasisPoints:100,provider:`MB Gate-V`,providerIdentity:d,text:h.EN.join(`
+
+`),translations:h});export{s as a,u as i,h as n,o,g as r,l as s,m as t};
