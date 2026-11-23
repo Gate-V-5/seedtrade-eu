@@ -242,7 +242,7 @@ return item;
       if(!['VERIFIED','MORE_INFO','REJECTED'].includes(input.status))fail(400,'INVALID_REQUEST');
       const reason=text(input.reason,100,true),row=await tx.companyForReview(companyId);if(!row)fail(404,'NOT_FOUND');
       checkVersion(row.version,input.version);
-      if(input.status==='VERIFIED')profileInput(parseProfile(row.profile));
+      if(input.status==='VERIFIED'){const p=parseProfile(row.profile);if(p?.accessSuspended===true||p?.accountState==='CLOSED')fail(403,'COMPANY_ACCESS_SUSPENDED');profileInput(p);}
       await tx.decideCompany({companyId,status:input.status,version:input.version});
       await tx.appendAudit({actorUserId:a.adminId?null:a.user.id,...(a.adminId?{adminActorId:a.adminId}:{}),companyId,action:'COMPANY_'+input.status,entityType:'company_review',entityId:JSON.stringify({version:input.version}).slice(0,100)});
       // Store the bounded review reason as an auditable event without exposing it in the marketplace.

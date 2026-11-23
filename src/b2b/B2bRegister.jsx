@@ -52,9 +52,9 @@ export default function B2bRegister(){
           company:{legalName:values.get('legalName'),registrationCountry:values.get('registrationCountry'),...(simple?{registrationNumber:values.get('registrationNumber'),vat:values.get('vat'),contactFirstName:values.get('contactFirstName'),contactLastName:values.get('contactLastName')}:{}),registeredAddress:{street:values.get('street'),city:values.get('city'),postalCode:values.get('postalCode')}}})
       });
       const result=await response.json();
-      if(response.status===202&&['PENDING_EMAIL_DELIVERY','PENDING_EMAIL_VERIFICATION'].includes(result.status)){
+      if(response.status===202&&['REGISTRATION_RECEIVED','PENDING_EMAIL_DELIVERY','PENDING_EMAIL_VERIFICATION'].includes(result.status)){
         form.reset();setCountry('');setAvailable(false);setComplete(true);
-        setStatus(result.status==='PENDING_EMAIL_DELIVERY'?'Your registration was saved. Email delivery is pending. Please contact us before registering again.':'Check your inbox for a confirmation email from network@seedtrade.eu. Your company remains pending review.');
+        setStatus('Request received. If a new account can be created, check your inbox for the confirmation email. If you already registered, sign in or use password recovery. For help or re-registration, contact info@seedtrade.eu.');
       }else if([400,403,404,415,429].includes(response.status)){
         setStatus(response.status===400?'Check your details. If the problem continues, refresh this page to load the current Terms.':response.status===429?'Too many attempts. Please try again later.':'Registration is currently unavailable.');
       }else{
@@ -71,7 +71,7 @@ export default function B2bRegister(){
       <p className="b2b-phase-note">{t(simple?'Company approval is required before publication.':'Your company stays pending after email verification. Trading is not available in this registration phase.')}</p>
     </section>
     <section className="b2b-registration-card" aria-label={t('Company registration')}>
-      {complete?<div className="b2b-result" role="status"><h2>{t('Registration saved')}</h2><p>{t(status)}</p></div>:<>
+      {complete?<div className="b2b-result" role="status"><h2>{t('Registration request received')}</h2><p>{t(status)}</p></div>:<>
         {available!==true&&<p className="b2b-availability" role="status">{t(available===null?'Checking registration availability…':'Company registration is currently unavailable.')}</p>}
         <form noValidate aria-label={t('Company registration')} aria-describedby="registration-language" onSubmit={submit}>
           {Object.keys(errors).length>0&&<p className="b2b-error-summary" role="alert">{t('Please check the highlighted fields.')}</p>}

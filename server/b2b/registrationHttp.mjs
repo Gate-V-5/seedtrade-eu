@@ -45,8 +45,8 @@ export function createB2bRegistrationHttp({service, rateLimiter, allowedOrigin, 
     try {
       if (pathname === '/api/b2b/v1/register') {
         const result = await service.register(body);
-        if (!['PENDING_EMAIL_VERIFICATION','PENDING_EMAIL_DELIVERY'].includes(result?.status)) throw new Error('REGISTRATION_RESULT_INVALID');
-        respond(res, 202, {status: result.status});
+        if (!['PENDING_EMAIL_VERIFICATION','PENDING_EMAIL_DELIVERY','REGISTRATION_RECEIVED'].includes(result?.status)) throw new Error('REGISTRATION_RESULT_INVALID');
+        respond(res, 202, {status:'REGISTRATION_RECEIVED'});
       } else {
         const result = await service.verifyEmail(body);
         if (result?.status === 'EMAIL_VERIFIED') respond(res, 200, {status:'EMAIL_VERIFIED'});
@@ -57,6 +57,8 @@ export function createB2bRegistrationHttp({service, rateLimiter, allowedOrigin, 
       if (error instanceof TypeError && /^INVALID_/.test(error.message)) {
         respond(res, 400, {error:'INVALID_REQUEST'});
       } else {
+        // Retain a bounded diagnostic category, never email, SQL, tokens or body.
+        console.error(JSON.stringify({event:'B2B_REGISTRATION_FAILURE',operation:pathname.endsWith('/register')?'register':'verify',code:/^ER_[A-Z_]+$/.test(error?.code??'')?error.code:'INTERNAL'}));
         // Never leak database details or report an infrastructure failure as success.
         respond(res, 503, {error:'TEMPORARILY_UNAVAILABLE'});
       }

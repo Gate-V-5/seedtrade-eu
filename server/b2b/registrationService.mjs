@@ -27,7 +27,8 @@ export function createRegistrationService({repository, passwordHasher, mailer, l
       const passwordHash = await passwordHasher.hash(password);
       if (typeof passwordHash !== 'string' || !passwordHash) throw new Error('PASSWORD_HASH_FAILED');
       const issued = issueVerificationToken({now: now()});
-      const result = await repository.transaction(async tx => {
+      let result;
+      try { result = await repository.transaction(async tx => {
         requireDependency(tx, 'insertCompany');
         requireDependency(tx, 'insertUser');
         requireDependency(tx, 'insertCompanyMember');
@@ -43,7 +44,12 @@ export function createRegistrationService({repository, passwordHasher, mailer, l
           entityType: 'company', entityId: String(companyId)});
         await appendLegalAcceptance(tx,{userId,companyId},accepted);
         return {companyId, userId};
-      });
+      }); } catch(error) {
+        // The complete transaction has rolled back. Unique company/email keys also
+        // serialize concurrent retries; never link an unauthenticated existing identity.
+        if(error?.code==='ER_DUP_ENTRY')return {status:'REGISTRATION_RECEIVED'};
+        throw error;
+      }
       // Send only after commit; a mail failure must not roll back the committed account.
       // The caller must not report the registration as complete until delivery is handled.
       try {

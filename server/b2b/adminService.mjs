@@ -1,4 +1,5 @@
 import {randomBytes} from 'node:crypto';
+import {createMemberManagement} from './memberManagement.mjs';
 import {normalizeEmail} from './emailVerification.mjs';
 import {B2bError,sessionHash,csrfForSession} from './portalService.mjs';
 import {decryptMfa,mfaCounter} from './adminMfa.mjs';
@@ -18,8 +19,7 @@ export function createAdminService({repository,passwordHasher,key,memberManagerA
  };
  const permissions=id=>['company:review',...(memberManagerAdminIds.includes(id)?['member:manage']:[])];
  return {authenticate,
-  managedMembers:(token,input)=>repository.transaction(async tx=>{const a=await authenticate(tx,token);if(!memberManagerAdminIds.includes(a.adminId))fail(403,'MEMBER_MANAGEMENT_ASSIGNMENT_REQUIRED');if(typeof input.query!=='string'||input.query.trim().length<2||input.query.length>100)fail(400,'INVALID_REQUEST');return {items:await tx.findManagedMembers(input.query.trim())};}),
-  setCompanyAccess:(token,input)=>repository.transaction(async tx=>{const a=await authenticate(tx,token);if(!memberManagerAdminIds.includes(a.adminId))fail(403,'MEMBER_MANAGEMENT_ASSIGNMENT_REQUIRED');if(!Number.isSafeInteger(input.companyId)||input.companyId<1||typeof input.suspended!=='boolean'||typeof input.reason!=='string'||input.reason.trim().length<3||input.reason.length>200)fail(400,'INVALID_REQUEST');const c=await tx.companyForReview(input.companyId);if(!c)fail(404,'NOT_FOUND');if(c.version!==input.version)fail(409,'RELOAD_REQUIRED');const profile=typeof c.profile==='string'?JSON.parse(c.profile):c.profile??{};await tx.saveProfile({companyId:c.companyId,legalName:c.legalName,country:c.country,number:c.number,profile:{...profile,accessSuspended:input.suspended},version:c.version});await tx.revokeCompanySessions(c.companyId);await tx.appendAudit({actorUserId:null,adminActorId:a.adminId,companyId:c.companyId,action:input.suspended?'MEMBER_COMPANY_SUSPENDED':'MEMBER_COMPANY_ACCESS_REVIEW',entityType:'access_reason',entityId:input.reason.trim()});return {status:'PENDING_INDEPENDENT_REVIEW',suspended:input.suspended};}),
+  ...createMemberManagement({repository,authenticate,memberManagerAdminIds,now}),
   async login(input){
    let email;try{email=normalizeEmail(input.email);}catch{email='invalid@example.invalid';}
    const validPassword=typeof input.password==='string'&&input.password.length>=12&&input.password.length<=1024;

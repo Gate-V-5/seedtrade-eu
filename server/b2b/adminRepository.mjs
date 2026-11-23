@@ -1,6 +1,17 @@
 // These methods extend the SAME transactional adapter, not a second review store.
 export function adminTransactionMethods(db){return {
- async findManagedMembers(query){const term='%'+query.replace(/[!%_]/g,c=>'!'+c)+'%';const [rows]=await db.execute("SELECT u.id AS userId,u.email,c.id AS companyId,c.legal_name AS legalName,c.verification_status AS companyStatus,c.profile_version AS version,(JSON_UNQUOTE(JSON_EXTRACT(c.profile_json,'$.accessSuspended'))='true') AS suspended FROM b2b_users u JOIN b2b_company_members m ON m.user_id=u.id JOIN b2b_companies c ON c.id=m.company_id WHERE u.email LIKE ? ESCAPE '!' OR c.legal_name LIKE ? ESCAPE '!' ORDER BY c.id,u.id LIMIT 50",[term,term]);return rows.map(r=>({...r,suspended:Number(r.suspended)===1}));},
+ async findManagedMembers(query,after=0){
+  const term='%'+query.replace(/[!%_]/g,c=>'!'+c)+'%';
+  const [rows]=await db.execute(`SELECT c.id AS companyId,c.legal_name AS legalName,c.registration_country AS country,c.registration_number AS number,c.verification_status AS companyStatus,c.profile_version AS version,c.profile_json AS profile,c.created_at AS createdAt FROM b2b_companies c WHERE c.id>? AND (?='' OR c.legal_name LIKE ? ESCAPE '!' OR c.registration_number LIKE ? ESCAPE '!' OR EXISTS (SELECT 1 FROM b2b_company_members m JOIN b2b_users u ON u.id=m.user_id WHERE m.company_id=c.id AND u.email LIKE ? ESCAPE '!')) ORDER BY c.id LIMIT 51`,[after,query,term,term,term]);
+  const items=rows.slice(0,50);
+  if(items.length){const [members]=await db.execute(`SELECT m.company_id AS companyId,u.id AS userId,u.email,u.email_verified_at AS verifiedAt,m.role FROM b2b_company_members m JOIN b2b_users u ON u.id=m.user_id WHERE m.company_id IN (${items.map(()=>'?').join(',')}) ORDER BY m.company_id,u.id`,items.map(c=>c.companyId));for(const c of items)c.members=members.filter(m=>m.companyId===c.companyId);}
+  return {items,next:rows.length>50?items.at(-1).companyId:null};
+ },
+ async updateManagedCompany({companyId,version,profile}){
+  const [r]=await db.execute("UPDATE b2b_companies SET profile_json=?,profile_version=profile_version+1,verification_status='PENDING' WHERE id=? AND profile_version=?",[JSON.stringify(profile),companyId,version]);
+  if(r.affectedRows!==1)throw Object.assign(Error('RELOAD_REQUIRED'),{code:'B2B_VERSION_CONFLICT'});
+  await db.execute("UPDATE b2b_offers SET status='DRAFT',version=version+1 WHERE company_id=? AND status='PUBLISHED'",[companyId]);
+ },
  async revokeCompanySessions(companyId){await db.execute('DELETE s FROM b2b_sessions s JOIN b2b_company_members m ON m.user_id=s.user_id WHERE m.company_id=?',[companyId]);},
  async adminByEmail(email,lock=false){const [rows]=await db.execute('SELECT * FROM b2b_platform_admins WHERE email=?'+(lock?' FOR UPDATE':''),[email]);return rows[0]??null;},
  async adminSession(hash){const [rows]=await db.execute(`SELECT a.* FROM b2b_platform_admins a JOIN b2b_platform_admin_sessions s ON s.admin_id=a.id WHERE s.token_hash=? AND s.expires_at>UTC_TIMESTAMP(3) AND s.auth_version=a.auth_version AND a.state='ACTIVE' FOR UPDATE`,[hash]);return rows[0]??null;},

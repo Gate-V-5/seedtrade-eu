@@ -145,7 +145,7 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
           await db.execute('SELECT token_hash,admin_id,auth_version,expires_at FROM b2b_platform_admin_sessions LIMIT 0');
           await db.execute('SELECT platform_admin_id FROM b2b_audit_log LIMIT 0');
         }finally{db.release();}
-        adminAuth=createAdminService({repository,passwordHasher,key:adminConfig.key,memberManagerAdminIds:dependencies.memberManagerAdminIds??[]});
+        adminAuth=createAdminService({repository,passwordHasher,key:adminConfig.key,memberManagerAdminIds:dependencies.memberManagerAdminIds??(env.B2B_MEMBER_MANAGER_ADMIN_IDS?env.B2B_MEMBER_MANAGER_ADMIN_IDS.split(','):[])});
         adminReview=createB2bPortalService({repository,passwordHasher,mailer,catalogue,memberOnly:true,adminUserIds:[],reviewActor:adminAuth.authenticate});
       }
       let notifications=null;
