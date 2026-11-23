@@ -3,6 +3,7 @@ import {createAdminService} from '../server/b2b/adminService.mjs';
 import {createRegistrationService} from '../server/b2b/registrationService.mjs';
 import {createB2bRegistrationHttp} from '../server/b2b/registrationHttp.mjs';
 import {createAdminHttp} from '../server/b2b/adminHttp.mjs';
+import {withProductionCors} from '../server/b2b/productionCors.mjs';
 import {portalFixture} from './fixtures/b2bPortalFixture.mjs';
 import {currentLegalRegistry} from '../server/b2b/legalAcceptance.mjs';
 const adminId='c'.repeat(32),token='d'.repeat(64);
@@ -51,4 +52,12 @@ test('new, duplicate and delayed-mail registration HTTP responses are indistingu
 });
 test('unauthenticated administration never enumerates company/member data',async()=>{
  const h=createAdminHttp({enabled:true,resolveClient:()=> '127.0.0.1',allowedOrigins:['https://seedtrade.eu'],auth:createAdminService({repository:{transaction:async fn=>fn({})},passwordHasher:{},key:Buffer.alloc(32),memberManagerAdminIds:[adminId]}),review:{}}),r=res();await h(req('/api/b2b/v1/admin/members?query=&after=0',undefined,'GET'),r);assert.equal(r.status,401);assert(!JSON.stringify(r.body).includes('@'));
+});
+test('production CORS admits only the scoped management action and preserves authentication/CSRF',async()=>{
+ const handler=withProductionCors(createAdminHttp({enabled:true,resolveClient:()=> '127.0.0.1',allowedOrigins:['https://seedtrade.eu'],auth:{},review:{}}));
+ const request=req('/api/b2b/v1/admin/members/action',{});request.headers.host='api.seedtrade.eu';request.method='OPTIONS';request.headers['access-control-request-method']='POST';request.headers['access-control-request-headers']='Content-Type, X-SeedTrade-CSRF';
+ const response=()=>({setHeader(){},writeHead(status){this.status=status},end(body){this.body=body}});
+ const preflight=response();await handler(request,preflight);assert.equal(preflight.status,204);
+ request.method='POST';const anonymous=response();await handler(request,anonymous);assert.equal(anonymous.status,403);assert.equal(JSON.parse(anonymous.body).error,'REQUEST_REJECTED');
+ request.method='OPTIONS';request.headers.origin='https://untrusted.example.invalid';const foreign=response();await handler(request,foreign);assert.equal(foreign.status,403);
 });

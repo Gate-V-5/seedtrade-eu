@@ -9,7 +9,7 @@ const post=new Set(['/register','/verify-email','/login','/password-reset/reques
 const allowedHeaders=new Set(['content-type','x-seedtrade-csrf']);
 // Handlers retain activation, session, Origin and CSRF checks. No financial action routes.
 for(const route of ['/trading/policy','/trading/preferences','/admin/members'])get.add(route);
-for(const route of ['/trading/preferences','/enquiries/confirmation-summary','/enquiries/confirm','/admin/members/access'])post.add(route);
+for(const route of ['/trading/preferences','/enquiries/confirmation-summary','/enquiries/confirm','/admin/members/access','/admin/members/action'])post.add(route);
 export function withProductionCors(handle) {
   if(typeof handle!=='function')throw TypeError('INVALID_API_HANDLER');
   return async(req,res)=>{
