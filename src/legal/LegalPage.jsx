@@ -25,7 +25,7 @@ export default function LegalPage({kind}) {
   return <main className="article">
     <h1 lang="en">{kind==='terms'?'B2B Terms':'Privacy Notice'}</h1>
     {registry.approval.status!=='APPROVED'&&<p role="note"><strong>{t('Local review draft. Not approved for publication or public acceptance.')}</strong></p>}
-    <p>{t('Legal documents are provided in English.')}</p>
+    <p>{t('Legal documents are provided in English.')}</p>{kind==='terms'&&doc.changeNotice&&<aside role="note" lang="en"><h2>Governance revision — {doc.changeNotice.publishedDate}</h2><p>{doc.changeNotice.text}</p><a href={'/legal/snapshots/'+doc.changeNotice.previousSnapshotId+'.html'}>Previous accepted version</a></aside>}
     <article lang={locale}>{doc.translations[locale].map((section,i)=><section key={section.heading} id={anchors[i]}>
       {kind==='terms'&&i===3&&<span id="enquiries"/>}
       <h2>{section.heading}</h2><Text text={section.text}/>

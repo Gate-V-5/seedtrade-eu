@@ -37,6 +37,6 @@ export function createAdminHttp({auth,review,enabled=false,resolveClient,allowed
    if(route==='members/action')return send(200,await auth.manageCompany(token(req),body));
    if(route==='members/access')return send(200,await auth.setCompanyAccess(token(req),body));
    return send(200,await review.reviewCompany(token(req),body));
-  }catch(e){if(e instanceof B2bError)return send(e.status,{error:e.message},e.status===401?{'Set-Cookie':cookie()}:{});if(e?.code==='B2B_VERSION_CONFLICT')return send(409,{error:'RELOAD_REQUIRED'});return send(503,{error:'TEMPORARILY_UNAVAILABLE'});}
+  }catch(e){if(route==='companies/review')console.warn(JSON.stringify({event:'ADMIN_COMPANY_REVIEW_FAILED',status:e instanceof B2bError?e.status:e?.code==='B2B_VERSION_CONFLICT'?409:503,code:/^[A-Z][A-Z0-9_]{0,63}$/.test(e?.code??e?.message??'')?e.code??e.message:'INTERNAL_ERROR'}));if(e instanceof B2bError)return send(e.status,{error:e.message},e.status===401?{'Set-Cookie':cookie()}:{});if(e?.code==='B2B_VERSION_CONFLICT')return send(409,{error:'RELOAD_REQUIRED'});return send(503,{error:'TEMPORARILY_UNAVAILABLE'});}
  };
 }
