@@ -235,10 +235,10 @@ return item;
     }),
     reviewQueue:(token,input)=>withReviewer(token,async(tx,a)=>{
       platform(a);const rows=await tx.reviewQueue(cursor(input.after));
-      return {items:rows.slice(0,50).map(row=>({...company(row),...(a.adminId?{conflicted:a.conflictCompanyIds.includes(row.companyId)}:{})})),next:rows.length>50?rows[49].companyId:null};
+      return {items:rows.slice(0,50).map(row=>company(row)),next:rows.length>50?rows[49].companyId:null};
     }),
     reviewCompany:(token,input)=>withReviewer(token,async(tx,a)=>{
-      platform(a);const companyId=id(input.companyId);if(a.adminId?(a.conflictCompanyIds.includes(companyId)||input.conflictFreeConfirmed!==true):companyId===a.company.id)fail(403,'SELF_APPROVAL_FORBIDDEN');
+      platform(a);const companyId=id(input.companyId);if(a.adminId){if(a.historicalRecordRestrictions?.includes(companyId))fail(403,'HISTORICAL_RECORD_PROTECTED');}else if(companyId===a.company.id)fail(403,'SELF_APPROVAL_FORBIDDEN');
       if(!['VERIFIED','MORE_INFO','REJECTED'].includes(input.status))fail(400,'INVALID_REQUEST');
       const reason=text(input.reason,100,true),row=await tx.companyForReview(companyId);if(!row)fail(404,'NOT_FOUND');
       checkVersion(row.version,input.version);

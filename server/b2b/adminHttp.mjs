@@ -36,7 +36,6 @@ export function createAdminHttp({auth,review,enabled=false,resolveClient,allowed
    if(route==='trading/action')return send(200,await trading.action(token(req),body));
    if(route==='members/action')return send(200,await auth.manageCompany(token(req),body));
    if(route==='members/access')return send(200,await auth.setCompanyAccess(token(req),body));
-   if(body.conflictFreeConfirmed!==true)return send(400,{error:'CONFLICT_CONFIRMATION_REQUIRED'});
    return send(200,await review.reviewCompany(token(req),body));
   }catch(e){if(e instanceof B2bError)return send(e.status,{error:e.message},e.status===401?{'Set-Cookie':cookie()}:{});if(e?.code==='B2B_VERSION_CONFLICT')return send(409,{error:'RELOAD_REQUIRED'});return send(503,{error:'TEMPORARILY_UNAVAILABLE'});}
  };

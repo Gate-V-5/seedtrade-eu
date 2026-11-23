@@ -56,7 +56,7 @@ test('even MFA-confirmed enrollment identities cannot use Admin login or reviewe
  await assert.rejects(service.login({email:input.email,password,otp:totp(f.enrollment.secret,Math.floor(now/30000)+1)}),e=>e.message==='INVALID_ADMIN_CREDENTIALS');
 });
 test('historical test-record restrictions remain independent of any declared affiliation list',async()=>{
- const tx={adminSession:async()=>({id:'b'.repeat(32),state:'ACTIVE',role:'COMPANY_REVIEW',last_totp_counter:1}),adminConflicts:async()=>[9]};
+ const tx={adminSession:async()=>({id:'b'.repeat(32),state:'ACTIVE',role:'COMPANY_REVIEW',last_totp_counter:1,owner_authorization_ref:'Existing owner assignment'}),adminConflicts:async()=>[9]};
  const service=createAdminService({repository:{},passwordHasher:hasher,key});
- const actor=await service.authenticate(tx,'a'.repeat(64));assert.deepEqual(actor.historicalRecordRestrictions,[1,2,3]);assert.deepEqual(actor.conflictCompanyIds,[9,1,2,3]);
+ const actor=await service.authenticate(tx,'a'.repeat(64));assert.deepEqual(actor.historicalRecordRestrictions,[1,2,3]);assert.deepEqual(actor.conflictCompanyIds,[1,2,3]);
 });

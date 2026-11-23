@@ -12,7 +12,7 @@ function fixture(){
  h.state.companies.set(4,{companyId:4,legalName:'Local lifecycle fixture',country:'LT',number:'LOCAL-4',status:'VERIFIED',version:0,profile:{registeredAddress:{street:'Test 1'},accessSuspended:false}});
  h.state.offers.set(1,{id:1,companyId:4,status:'PUBLISHED',version:0});h.state.sessions.set('local',{userId:4});
  h.repository.transaction=work=>base(tx=>work(Object.assign(tx,{
-  adminSession:async()=>({id:adminId,state:'ACTIVE',role:'COMPANY_REVIEW',last_totp_counter:1}),adminConflicts:async()=>[],
+  adminSession:async()=>({id:adminId,state:'ACTIVE',role:'COMPANY_REVIEW',last_totp_counter:1,owner_authorization_ref:'Existing owner assignment'}),adminConflicts:async()=>[],
   findManagedMembers:async()=>({items:[{...h.state.companies.get(4),companyStatus:h.state.companies.get(4).status,members:[{userId:4,email:'member@example.invalid',verifiedAt:new Date(),role:'COMPANY_ADMIN',password_hash:'must-not-escape'}]}],next:null}),
   updateManagedCompany:async({companyId,version,profile})=>{const c=h.state.companies.get(companyId);assert.equal(c.version,version);await tx.saveProfile({...c,companyId,version,profile});},
   revokeCompanySessions:async()=>h.state.sessions.clear()

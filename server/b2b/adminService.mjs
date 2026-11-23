@@ -10,12 +10,13 @@ export function createAdminService({repository,passwordHasher,key,memberManagerA
  if(!Array.isArray(memberManagerAdminIds)||memberManagerAdminIds.some(id=>typeof id!=='string'||!/^[a-f0-9]{32}$/.test(id))||new Set(memberManagerAdminIds).size!==memberManagerAdminIds.length)throw Error('INVALID_MEMBER_MANAGEMENT_ASSIGNMENT');
  let dummy;
  const audit=(tx,a,action)=>tx.appendAudit({actorUserId:null,adminActorId:a.id,companyId:null,action,entityType:'platform_admin',entityId:a.id});
+ const requireOwnerAuthorization=a=>{if(typeof a.owner_authorization_ref!=='string'||!a.owner_authorization_ref.trim())fail(403,'ADMIN_AUTHORIZATION_REQUIRED');};
  const authenticate=async(tx,token)=>{
   if(typeof token!=='string'||!/^[a-f0-9]{64}$/.test(token))fail(401,'ADMIN_SIGN_IN_REQUIRED');
   const a=await tx.adminSession(sessionHash(token));if(!a||a.state!=='ACTIVE'||a.role!=='COMPANY_REVIEW'||!Number.isSafeInteger(Number(a.last_totp_counter))||Number(a.last_totp_counter)<0)fail(401,'ADMIN_SIGN_IN_REQUIRED');
-  const conflicts=await tx.adminConflicts(a);
-  // Historical acceptance-record protection is separate from declared affiliations.
-  return {adminId:a.id,platformAdmin:true,conflictCompanyIds:[...new Set([...conflicts,1,2,3])],historicalRecordRestrictions:[1,2,3]};
+  requireOwnerAuthorization(a);
+  // Retired acceptance records remain protected; affiliations do not veto review.
+  return {adminId:a.id,platformAdmin:true,conflictCompanyIds:[1,2,3],historicalRecordRestrictions:[1,2,3]};
  };
  const permissions=id=>['company:review',...(memberManagerAdminIds.includes(id)?['member:manage']:[])];
  return {authenticate,
@@ -32,7 +33,7 @@ export function createAdminService({repository,passwordHasher,key,memberManagerA
     if(current.state==='DISABLED'||!['ACTIVE','PROVISIONED'].includes(current.state)||current.role!=='COMPANY_REVIEW'||new Date(current.locked_until??0).getTime()>now())return null;
     let counter=null;try{counter=mfaCounter(decryptMfa(current.totp_encrypted,key,current.id),input.otp,now(),current.last_totp_counter);}catch{}
     if(!validPassword||!valid||counter==null){await tx.adminFailure(current.id);await audit(tx,current,'ADMIN_LOGIN_FAILED');return null;}
-    await tx.adminConflicts(current); // Missing real authorization/conflict record fails closed.
+    requireOwnerAuthorization(current);
     await tx.adminSuccess(current.id,counter);
     const token=randomBytes(32).toString('hex');await tx.adminInsertSession({hash:sessionHash(token),id:current.id,version:current.auth_version,expires:new Date(now()+ADMIN_SESSION_SECONDS*1000)});
     await audit(tx,current,'ADMIN_LOGIN_MFA');return {sessionToken:token,csrfToken:csrfForSession(token),permissions:permissions(current.id)};
