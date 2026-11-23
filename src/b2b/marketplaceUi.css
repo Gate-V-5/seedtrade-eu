@@ -40,3 +40,12 @@ main.member-page,main.company-review{max-width:1240px;margin:0 auto;padding:40px
 .company-review-card>ul{padding-left:20px}.company-review :is(h1,h2,h3),.member-page :is(h1,h2,h3){line-height:1.25;letter-spacing:-.015em}
 @media(max-width:1000px){.member-page .seller-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.member-page .seller-list>li{grid-template-columns:1fr}}
 @media(max-width:600px){main.member-page,main.company-review{padding-top:28px}:is(.member-page,.company-review) :is(.company-review-card,.buyer-detail,.trading-publication,.seller-list>li){padding:18px}.member-page .seller-grid{grid-template-columns:minmax(0,1fr)}.member-company-summary{grid-template-columns:1fr;gap:4px}.member-company-summary dd{margin-bottom:10px}.member-page .seller-actions>*{flex:1 1 140px}.member-page .member-market-nav{gap:4px}.member-page .member-market-nav a{padding:8px 10px}.member-page .quality-editor-grid{grid-template-columns:1fr}.member-page .quality-editor-name{grid-column:1/-1}}
+
+.company-review-card form.member-admin-filters{display:grid;grid-template-columns:minmax(140px,1fr) minmax(150px,1fr) minmax(240px,2fr) auto;align-items:end;gap:12px;margin:20px 0}
+.member-admin-filters label{margin:0;display:flex;flex-direction:column;gap:6px}.member-admin-filter-actions,.review-decision-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.company-review .member-admin-filter-actions button,.company-review .review-decision-actions button{width:auto;min-height:44px;flex:0 0 auto;margin:0}.company-review .review-reject{background:#fff;color:#8c2929;border-color:#b77c7c}
+.member-company-profile{margin:18px 0}.member-company-profile>summary{font-weight:650;cursor:pointer;padding:12px 0}.member-company-profile .company-review-card{margin-top:10px}
+@media(max-width:1000px){.company-review-card form.member-admin-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.member-admin-search{grid-column:1/-1}}
+@media(max-width:600px){.company-review-card form.member-admin-filters{grid-template-columns:minmax(0,1fr)}.member-admin-filter-actions{justify-content:flex-start}.review-decision-actions button{flex:1 1 140px}}
+
+.company-review .review-decision-actions button.review-reject{background:#fff;color:#8c2929;border-color:#b77c7c}.member-lifecycle-actions{display:flex;gap:10px;flex-wrap:wrap}

@@ -11,13 +11,13 @@ export function createAdminHttp({auth,review,enabled=false,resolveClient,allowed
   const u=new URL(req.url,'http://local.invalid');if(!u.pathname.startsWith('/api/b2b/v1/admin/'))return false;
   const route=u.pathname.slice('/api/b2b/v1/admin/'.length),get={session:async()=>({...await auth.me(token(req)),...(trading?{tradingAvailable:await trading.available(token(req))}:{})}),'review-queue':()=>review.reviewQueue(token(req),{after:Number(u.searchParams.get('after')??0),scope:u.searchParams.get('scope')??'ACTIVE'})};
   if(trading)get['trading/detail']=()=>trading.detail(token(req),{id:Number(u.searchParams.get('id'))});
-  get.members=()=>auth.managedMembers(token(req),{query:u.searchParams.get('query')??'',after:Number(u.searchParams.get('after')??0)});
+  get.members=()=>auth.managedMembers(token(req),{query:u.searchParams.get('query')??'',after:Number(u.searchParams.get('after')??0),scope:u.searchParams.get('scope')??'ACTIVE',country:u.searchParams.get('country')??''});
   const send=(s,b,extra={})=>{res.writeHead(s,{...headers,...extra});res.end(JSON.stringify(b));return true;};
   if(!enabled)return send(404,{error:'NOT_FOUND'});
   try{
    const client=resolveClient(req);if(!client||!allowedOrigins.includes(req.headers.origin)||req.headers['sec-fetch-site']==='cross-site')return send(403,{error:'REQUEST_REJECTED'});
    if(!['GET','POST'].includes(req.method)||!(req.method==='GET'?Object.hasOwn(get,route):['login','logout','companies/review','members/access','members/action',...(trading?['trading/action']:[])].includes(route)))return send(404,{error:'NOT_FOUND'});
-   for(const k of u.searchParams.keys())if(req.method!=='GET'||!['review-queue','trading/detail','members'].includes(route)||!(route==='members'?['query','after','scope']:route==='review-queue'?['after']:['id']).includes(k)||u.searchParams.getAll(k).length!==1||(route==='members'&&k==='scope'?!['ACTIVE','ARCHIVED'].includes(u.searchParams.get(k)):route==='members'&&k==='query'?(u.searchParams.get(k).length>100||(u.searchParams.get(k).length===1)):!/^\d+$/.test(u.searchParams.get(k))))return send(400,{error:'INVALID_REQUEST'});
+   for(const k of u.searchParams.keys())if(req.method!=='GET'||!['review-queue','trading/detail','members'].includes(route)||!(route==='members'?['query','after','scope','country']:route==='review-queue'?['after']:['id']).includes(k)||u.searchParams.getAll(k).length!==1||(route==='members'&&k==='country'?(u.searchParams.get(k)!==''&&!/^[A-Z]{2}$/.test(u.searchParams.get(k))):route==='members'&&k==='scope'?!['ACTIVE','ARCHIVED'].includes(u.searchParams.get(k)):route==='members'&&k==='query'?(u.searchParams.get(k).length>100||(u.searchParams.get(k).length===1)):!/^\d+$/.test(u.searchParams.get(k))))return send(400,{error:'INVALID_REQUEST'});
    if(!await rate({url:'/admin',socket:{remoteAddress:client}}))return send(429,{error:'RATE_LIMITED'});
    if(req.method==='GET')return send(200,await get[route]());
    if(!/^application\/json(?:\s*;\s*charset=utf-8)?$/i.test(req.headers['content-type']??''))return send(403,{error:'REQUEST_REJECTED'});

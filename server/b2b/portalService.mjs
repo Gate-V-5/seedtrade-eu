@@ -240,16 +240,17 @@ return item;
     });if(decisionNotifications)try{await decisionNotifications.drain();}catch{}return result;},
     reviewCompany:async(token,input)=>{const result=await withReviewer(token,async(tx,a)=>{
       platform(a);const companyId=id(input.companyId);if(a.adminId){if(a.historicalRecordRestrictions?.includes(companyId))fail(403,'HISTORICAL_RECORD_PROTECTED');}else if(companyId===a.company.id)fail(403,'SELF_APPROVAL_FORBIDDEN');
-      if(!['VERIFIED','MORE_INFO','REJECTED'].includes(input.status))fail(400,'INVALID_REQUEST');
-      const reason=text(input.reason,100,true),row=await tx.companyForReview(companyId);if(!row)fail(404,'NOT_FOUND');
+      if(!(a.adminId?['VERIFIED','REJECTED']:['VERIFIED','MORE_INFO','REJECTED']).includes(input.status))fail(400,'INVALID_REQUEST');
+      const reason=text(input.reason??'',100,!a.adminId),row=await tx.companyForReview(companyId);if(!row)fail(404,'NOT_FOUND');
       checkVersion(row.version,input.version);
       if(decisionNotifications&&['CLOSED','DELETED'].includes(parseProfile(row.profile)?.accountState))fail(403,'COMPANY_ACCESS_CLOSED');
+      if(a.adminId&&row.status===input.status)return {status:row.status,alreadyRecorded:true,notificationIds:[]};
       if(input.status==='VERIFIED'){normalizeCompany({legalName:row.legalName,registrationCountry:row.country,registrationNumber:row.number});const p=parseProfile(row.profile);if(p?.accessSuspended===true||p?.accountState==='CLOSED')fail(403,'COMPANY_ACCESS_SUSPENDED');profileInput(p);}
       const staged=decisionNotifications?await stageCompanyDecision(tx,{company:row,status:input.status,adminId:a.adminId,passwordHasher,now}):{ids:[]};
       await tx.decideCompany({companyId,status:input.status,version:input.version,...(staged.rejectedProfile?{rejectedProfile:staged.rejectedProfile}:{})});
       await tx.appendAudit({actorUserId:a.adminId?null:a.user.id,...(a.adminId?{adminActorId:a.adminId}:{}),companyId,action:'COMPANY_'+input.status,entityType:'company_review',entityId:JSON.stringify({version:input.version}).slice(0,100)});
       // Store the bounded review reason as an auditable event without exposing it in the marketplace.
-      await tx.appendAudit({actorUserId:a.adminId?null:a.user.id,...(a.adminId?{adminActorId:a.adminId}:{}),companyId,action:'REVIEW_REASON',entityType:'review_reason',entityId:reason.slice(0,100)});
+      if(reason)await tx.appendAudit({actorUserId:a.adminId?null:a.user.id,...(a.adminId?{adminActorId:a.adminId}:{}),companyId,action:'REVIEW_REASON',entityType:'review_reason',entityId:reason.slice(0,100)});
       return {status:input.status,...(decisionNotifications?{notificationIds:staged.ids,reRegistrationReady:!!staged.rejectedProfile}:{})};
     });if(decisionNotifications&&result.notificationIds?.length){try{const sent=await decisionNotifications.deliverMany(result.notificationIds);result.notificationStatus=sent.every(x=>x.status==='fulfilled'&&x.value.status==='SENT')?'SENT':'QUEUED_OR_REVIEW_REQUIRED';}catch{result.notificationStatus='QUEUED_OR_REVIEW_REQUIRED';}}return result;},
     offers:(token,input)=>withActor(token,async(tx,a)=>{

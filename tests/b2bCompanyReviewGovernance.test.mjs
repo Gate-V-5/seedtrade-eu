@@ -9,7 +9,7 @@ test('explicit dedicated Admin decision can approve an affiliated company withou
  const h=portalFixture();h.state.counter.company=8;const registered=await h.register('affiliated');const member=await h.service.login(registered);await h.service.saveProfile(member.sessionToken,profileFor(member.company));let c=(await h.service.me(member.sessionToken)).company;
  const service=createB2bPortalService({...h.options,memberOnly:true,adminUserIds:[],reviewActor:async()=>({adminId,platformAdmin:true,conflictCompanyIds:[c.id],historicalRecordRestrictions:[1,2,3]})});
  const queue=await service.reviewQueue(token,{});assert(!Object.hasOwn(queue.items[0],'conflicted'));assert.equal(h.state.companies.get(c.id).status,'PENDING');
- await assert.rejects(service.reviewCompany(token,{companyId:c.id,version:c.version,status:'VERIFIED',reason:''}),e=>e.status===400);
+ await assert.rejects(service.reviewCompany(token,{companyId:c.id,version:c.version,status:'VERIFIED',reason:'x'.repeat(101)}),e=>e.status===400);
  assert.equal((await service.reviewCompany(token,{companyId:c.id,version:c.version,status:'VERIFIED',reason:'Actual company details checked'})).status,'VERIFIED');assert(h.state.audit.some(a=>a.adminActorId===adminId&&a.action==='COMPANY_VERIFIED'));assert(h.state.audit.some(a=>a.adminActorId===adminId&&a.action==='REVIEW_REASON'&&a.entityId==='Actual company details checked'));
  await assert.rejects(service.reviewCompany(token,{companyId:c.id,version:c.version,status:'REJECTED',reason:'Stale decision'}),e=>e.status===409);
 });
