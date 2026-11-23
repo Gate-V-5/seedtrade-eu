@@ -21,7 +21,7 @@ export function previewDto(o,crops){
  quantity:Number(o.quantity),unit:o.unit,priceAmount:o.priceAmount==null?null:Number(o.priceAmount),currency:o.currency,priceUnit:['kg','t'].includes(d.priceUnit)?d.priceUnit:o.unit,
  originCountry:o.originCountry,seedCategory:o.seedCategory,certificationClass:publicListingText(o.certificationClass,80),certificationDeclaration:'SELLER_DECLARED',packaging:publicListingText(spec.packaging,200),deliveryTerms:publicListingText(spec.deliveryTerms,200),organic:spec.organic,
  qualityParameters:spec.qualityParameters.map(q=>({...q,...(q.label?{label:publicListingText(q.label,80)}:{})})).filter(q=>q.parameter!=='other'||q.label),qualitySpecifications:publicListingText(d.qualitySpecifications,2000),
- availability:d.availability==='AVAILABLE_FROM'?'AVAILABLE_FROM':'AVAILABLE_NOW',availableFrom:d.availability==='AVAILABLE_FROM'&&/^\d{4}-\d{2}-\d{2}$/.test(d.availableFrom??'')?d.availableFrom:null,validUntil:o.validUntil};
+ availability:direction==='BUY_REQUEST'&&!d.availability?null:d.availability==='AVAILABLE_FROM'?'AVAILABLE_FROM':'AVAILABLE_NOW',availableFrom:d.availability==='AVAILABLE_FROM'&&/^\d{4}-\d{2}-\d{2}$/.test(d.availableFrom??'')?d.availableFrom:null,validUntil:o.validUntil};
  result.publicUrl=publicListingUrl(result.id);result.interestUrl=brokerInterestMailto({id:result.id,product:species.name,variety:result.variety,direction,url:result.publicUrl});return result;
 }
 export function createPublicPreviewService({repository,catalogue}){

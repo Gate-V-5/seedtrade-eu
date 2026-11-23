@@ -3,7 +3,7 @@ import {mailLanguage} from './messageLanguage.mjs';
 import {normalizeListingSpecifications,readListingSpecifications} from './listingSpecifications.mjs';
 import {marketplaceEntitled} from './marketplaceEntitlement.mjs';
 import {normalizeBuyerFilters} from './buyerOfferFilters.mjs';
-import {offerCountries,offerCurrencies} from './offerOptions.mjs';
+import {offerOrigins,offerCurrencies} from './offerOptions.mjs';
 import {currentLegalRegistry} from './legalAcceptance.mjs';
 import {randomBytes,createHash,createHmac} from 'node:crypto';
 import {normalizeEmail,issueVerificationToken,issueResetToken,hashResetToken} from './emailVerification.mjs';
@@ -72,23 +72,28 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
       roles:Array.isArray(input.roles)?input.roles.filter(r=>['BUYER','SELLER','PRODUCER'].includes(r)):[],speciesIds:input.speciesIds,authorityConfirmed:true,authorityDocumentId:currentLegalRegistry.documents.authority.id};
   };
   const offerInput=input=>{
-    const normalized=normalizeOffer(input);
-    if(!crops.has(normalized.cropId)||normalized.quantity>1e9||Math.abs(normalized.quantity*1000-Math.round(normalized.quantity*1000))>1e-5||
-      (normalized.priceAmount!=null&&(normalized.priceAmount>1e9||Math.abs(normalized.priceAmount*100-Math.round(normalized.priceAmount*100))>1e-5)))fail(400,'INVALID_REQUEST');
-    if(!['SOWING_STATUS_UNKNOWN','CERTIFIED_SOWING','NON_CERTIFIED_SOWING'].includes(input.seedCategory)||!offerCountries.includes(input.originCountry))fail(400,'INVALID_REQUEST');
+    const invalid=(field,code='INVALID_LISTING_FIELD')=>{throw Object.assign(new B2bError(400,code),{field});};
+    if(!input||typeof input!=='object')fail(400,'INVALID_REQUEST');const buy=input.listingDirection==='BUY_REQUEST';
+    if(!crops.has(input.cropId))invalid('cropId');
+    if(typeof input.quantity!=='number'||!Number.isFinite(input.quantity)||input.quantity<=0||input.quantity>1e9||Math.abs(input.quantity*1000-Math.round(input.quantity*1000))>1e-5)invalid('quantity');
+    if(!['kg','t'].includes(input.unit))invalid('unit');
+    if(input.priceAmount!=null&&(typeof input.priceAmount!=='number'||!Number.isFinite(input.priceAmount)||input.priceAmount<0||input.priceAmount>1e9||Math.abs(input.priceAmount*100-Math.round(input.priceAmount*100))>1e-5))invalid('priceAmount');
+    const normalized=normalizeOffer(input),seedCategory=buy&&!input.seedCategory?'SOWING_STATUS_UNKNOWN':input.seedCategory;
+    if(!['SOWING_STATUS_UNKNOWN','CERTIFIED_SOWING','NON_CERTIFIED_SOWING'].includes(seedCategory))invalid('seedCategory');
+    if(buy&&!['CERTIFIED_SEED','COMMODITY'].includes(input.productType))invalid('productType');
+    const originCountry=buy&&(input.originCountry==null||input.originCountry==='')?null:input.originCountry;
+    if((!buy&&originCountry==null)||(originCountry!==null&&!offerOrigins.includes(originCountry)))invalid('originCountry');
     const date=input.validUntil,parsed=new Date(date+'T00:00:00Z');
-    if(typeof date!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(parsed.getTime())||parsed.toISOString().slice(0,10)!==date||date<new Date(now()).toISOString().slice(0,10)||parsed.getTime()>now()+366*86400000)fail(400,'INVALID_REQUEST');
-    const optionalText=(value,max)=>text(value??'',max);
-    const currency=input.currency??'EUR';
-    if(!offerCurrencies.includes(currency))fail(400,'INVALID_REQUEST');
-    const availability=input.availability??'AVAILABLE_NOW';
-    if(!['AVAILABLE_NOW','AVAILABLE_FROM'].includes(availability))fail(400,'INVALID_REQUEST');
+    if(typeof date!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(parsed.getTime())||parsed.toISOString().slice(0,10)!==date||date<new Date(now()).toISOString().slice(0,10)||parsed.getTime()>now()+366*86400000)invalid('validUntil');
+    const optionalText=(value,max)=>text(value??'',max),currency=buy&&!input.currency?'EUR':input.currency??'EUR';
+    if(!offerCurrencies.includes(currency))invalid('currency');
+    const availability=buy?(input.availability||null):(input.availability??'AVAILABLE_NOW');
+    if(availability!==null&&!['AVAILABLE_NOW','AVAILABLE_FROM'].includes(availability))invalid('availability');
     const availableFrom=availability==='AVAILABLE_FROM'?input.availableFrom:null;
-    if(availableFrom!=null){const d=new Date(availableFrom+'T00:00:00Z');if(typeof availableFrom!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(availableFrom)||!Number.isFinite(d.getTime())||d.toISOString().slice(0,10)!==availableFrom||availableFrom>date)fail(400,'INVALID_REQUEST');}
-    if(availability==='AVAILABLE_FROM'&&!availableFrom)fail(400,'INVALID_REQUEST');
+    if(availability==='AVAILABLE_FROM'){const d=new Date(availableFrom+'T00:00:00Z');if(typeof availableFrom!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(availableFrom)||!Number.isFinite(d.getTime())||d.toISOString().slice(0,10)!==availableFrom||availableFrom>date)invalid('availableFrom');}
     const percent=value=>{if(value==null||value==='')return null;if(typeof value!=='number'||!Number.isFinite(value)||value<0||value>100||Math.abs(value*100-Math.round(value*100))>1e-6)fail(400,'INVALID_REQUEST');return value;};
     return {cropId:normalized.cropId,quantity:normalized.quantity,unit:normalized.unit,priceAmount:normalized.priceAmount??null,currency,
-      seedCategory:input.seedCategory,certificationClass:optionalText(input.certificationClass,80),originCountry:input.originCountry,validUntil:date,
+      seedCategory,certificationClass:optionalText(input.certificationClass,80),originCountry,validUntil:date,
       details:{...normalizeListingSpecifications(input),variety:optionalText(input.variety,128),availability,availableFrom,germinationPercent:percent(input.germinationPercent),purityPercent:percent(input.purityPercent),moisturePercent:percent(input.moisturePercent),qualitySpecifications:optionalText(input.qualitySpecifications,2000),commercialInformation:optionalText(input.commercialInformation,2000)}};
   };
   const publicOffer=o=>{
@@ -98,7 +103,7 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     return {id:o.id,cropId:o.cropId,species:crops.get(o.cropId),companyName:o.companyName,companyCountry:o.companyCountry,
       quantity:Number(o.quantity),unit:o.unit,priceAmount:o.priceAmount==null?null:Number(o.priceAmount),currency:o.currency,
       seedCategory:o.seedCategory,certificationClass:d.productType==='COMMODITY'?'':string(o.certificationClass,80),originCountry:o.originCountry,validUntil:o.validUntil,
-      details:{...readListingSpecifications(d),variety:string(d.variety,128),availability:d.availability==='AVAILABLE_FROM'?'AVAILABLE_FROM':'AVAILABLE_NOW',
+      details:{...readListingSpecifications(d),variety:string(d.variety,128),availability:d.listingDirection==='BUY_REQUEST'&&!d.availability?null:d.availability==='AVAILABLE_FROM'?'AVAILABLE_FROM':'AVAILABLE_NOW',
         availableFrom:typeof d.availableFrom==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d.availableFrom)?d.availableFrom:null,
         germinationPercent:percent(d.germinationPercent),purityPercent:percent(d.purityPercent),moisturePercent:percent(d.moisturePercent),
         qualitySpecifications:string(d.qualitySpecifications,2000),commercialInformation:string(d.commercialInformation,2000)}};

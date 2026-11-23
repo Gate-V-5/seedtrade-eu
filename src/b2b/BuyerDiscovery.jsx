@@ -3,7 +3,7 @@ import {useLanguage,useT} from '../i18n/index.jsx';
 import {b2bFetch} from './apiFetch.mjs';
 import {buyerMessages} from './buyerMessages.mjs';
 import {sellerMessages} from './sellerMessages.mjs';
-import {offerCountries,offerCurrencies,seedCategories} from '../../server/b2b/offerOptions.mjs';
+import {offerOrigins,offerOriginLabel,offerCurrencies,seedCategories} from '../../server/b2b/offerOptions.mjs';
 import './buyerDiscovery.css';
 import {EnquiryForm} from './Messaging.jsx';
 import QualitySpecifications from './QualitySpecifications.jsx';
@@ -17,8 +17,8 @@ export default function BuyerDiscovery({session,onExpired,enquiriesAvailable=fal
  const [query,setQuery]=useState(window.location.search),[filters,setFilters]=useState(()=>valuesFrom(window.location.search)),[catalogue,setCatalogue]=useState([]),[rows,setRows]=useState([]),[next,setNext]=useState(null),[offer,setOffer]=useState(null),[busy,setBusy]=useState(false),[feedback,setFeedback]=useState(''),[invalid,setInvalid]=useState('');
  const generation=useRef(0),controller=useRef(null),moreLock=useRef(false),form=useRef(null),approved=session.company.status==='VERIFIED';
  const params=new URLSearchParams(query),detail=params.has('offer'),offerId=params.get('offer');
- const countries=useMemo(()=>{const d=new Intl.DisplayNames([language.toLowerCase()],{type:'region'});return offerCountries.map(code=>({code,name:d.of(code)??code})).sort((a,b)=>a.name.localeCompare(b.name,language.toLowerCase()));},[language]);
- const country=code=>{try{return new Intl.DisplayNames([language.toLowerCase()],{type:'region'}).of(code)??code}catch{return code}};
+ const countries=useMemo(()=>{const d=new Intl.DisplayNames([language.toLowerCase()],{type:'region'});return offerOrigins.map(code=>({code,name:offerOriginLabel(code,language)})).sort((a,b)=>a.name.localeCompare(b.name,language.toLowerCase()));},[language]);
+ const country=code=>offerOriginLabel(code,language);
  const number=v=>new Intl.NumberFormat(language.toLowerCase(),{maximumFractionDigits:3}).format(v);
  const price=o=>o.priceAmount==null?t('Price on enquiry'):new Intl.NumberFormat(language.toLowerCase(),{style:'currency',currency:o.currency}).format(o.priceAmount)+' / '+(o.priceUnit??o.details?.priceUnit??o.unit);
  function href(id=null){const q=new URLSearchParams(query);q.set('view','marketplace');q.set('lang',language.toLowerCase());q.delete('after');if(id==null)q.delete('offer');else q.set('offer',String(id));return '/b2b/account?'+q;}

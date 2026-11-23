@@ -563,7 +563,7 @@ function BuyingRequestDetail({request}) {
     <MarketplaceListingCard request={request} species={listingSpecies(request)}/>
     <QualitySpecifications parameters={request.qualityParameters} legacy={request} direction={view.direction} t={t}/>
     <aside className="notice"><T>Only approved discovery fields are public. Company identity, contacts and supporting documents remain private. SeedTrade is not a payment intermediary or contractual party.</T></aside>
-    <a className="button" href={requestInterestLink(request,language)}>{publicMarketplaceCopy(language)[7]}</a><p>{publicMarketplaceCopy(language)[8]}</p>
+    <a className="button" href={requestInterestLink(request,language)}>{publicMarketplaceCopy(language)[7]}</a>
   </main>
 }
 

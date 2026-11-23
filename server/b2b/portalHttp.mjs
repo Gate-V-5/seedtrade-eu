@@ -94,7 +94,7 @@ export function createB2bPortalHttp({service,allowedOrigin,allowedOrigins=[allow
       const operation=(method==='GET'?get:post)[route],result=await service[operation](token,input);
       return respond(200,result,route==='/logout'?{'Set-Cookie':cookie('',true)}:{});
     } catch(error) {
-      if(error instanceof B2bError)return respond(error.status,{error:error.message},error.status===401?{'Set-Cookie':cookie('',true)}:{});
+      if(error instanceof B2bError)return respond(error.status,{error:error.message,...(['cropId','quantity','unit','priceAmount','seedCategory','productType','originCountry','validUntil','currency','availability','availableFrom'].includes(error.field)?{field:error.field}:{})},error.status===401?{'Set-Cookie':cookie('',true)}:{});
       if(error instanceof TypeError&&/^INVALID_/.test(error.message))return respond(400,{error:'INVALID_REQUEST'});
       if(error?.code==='B2B_VERSION_CONFLICT')return respond(409,{error:'RELOAD_REQUIRED'});
       if(error?.code==='ER_DUP_ENTRY')return respond(409,{error:'ALREADY_EXISTS'});
