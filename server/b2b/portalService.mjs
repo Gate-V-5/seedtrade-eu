@@ -228,7 +228,7 @@ return item;
     catalogue:token=>withActor(token,async()=>({items:catalogue})),
     saveProfile:(token,input)=>withActor(token,async(tx,a)=>{
       editCompany(a);checkVersion(a.company.version,input.version);
-      const identity=normalizeCompany(input.company),profile={...profileInput(input.profile),uiLanguage:mailLanguage(input.uiLanguage??a.company.profile?.uiLanguage)};
+      const identity=normalizeCompany(input.company),profile={...(a.company.profile??{}),...profileInput(input.profile),uiLanguage:mailLanguage(input.uiLanguage??a.company.profile?.uiLanguage)};
       await tx.saveProfile({companyId:a.company.id,legalName:identity.legalName,country:identity.registrationCountry,number:identity.registrationNumber,profile,version:input.version});
       await audit(tx,a,'COMPANY_PROFILE_UPDATED','company',a.company.id);
       await audit(tx,a,'REPRESENTATIVE_AUTHORITY_RECONFIRMED','legal_snapshot',currentLegalRegistry.documents.authority.id);
