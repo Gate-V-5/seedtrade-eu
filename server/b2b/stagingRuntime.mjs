@@ -1,3 +1,4 @@
+import {createCompanyDecisionNotifications} from './companyDecisionNotifications.mjs';
 import {adminConfiguration} from './adminActivation.mjs';
 import {brokerageCoordination} from './brokerageOperators.mjs';
 import {createAdminService} from './adminService.mjs';
@@ -144,9 +145,10 @@ export async function createB2bStagingRuntime(env, dependencies = {}) {
           await db.execute('SELECT id,totp_encrypted,conflict_company_ids,owner_authorization_ref,auth_version FROM b2b_platform_admins LIMIT 0');
           await db.execute('SELECT token_hash,admin_id,auth_version,expires_at FROM b2b_platform_admin_sessions LIMIT 0');
           await db.execute('SELECT platform_admin_id FROM b2b_audit_log LIMIT 0');
+          if(hostedMarketplace)await db.execute('SELECT id,company_id,decision_version,user_id,status FROM b2b_company_decision_notifications LIMIT 0');
         }finally{db.release();}
         adminAuth=createAdminService({repository,passwordHasher,key:adminConfig.key,memberManagerAdminIds:dependencies.memberManagerAdminIds??(env.B2B_MEMBER_MANAGER_ADMIN_IDS?env.B2B_MEMBER_MANAGER_ADMIN_IDS.split(','):[])});
-        adminReview=createB2bPortalService({repository,passwordHasher,mailer,catalogue,memberOnly:true,adminUserIds:[],reviewActor:adminAuth.authenticate});
+        adminReview=createB2bPortalService({repository,passwordHasher,mailer,catalogue,memberOnly:true,adminUserIds:[],reviewActor:adminAuth.authenticate,decisionNotifications:hostedMarketplace?createCompanyDecisionNotifications({repository,...mail,origin:env.SEEDTRADE_PUBLIC_ORIGIN}):null});
       }
       let notifications=null;
       if(env.B2B_MARKETPLACE_NOTIFICATIONS_ENABLED==='true'||localEnquiries) {

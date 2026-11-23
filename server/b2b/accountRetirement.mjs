@@ -11,15 +11,15 @@ export async function applyMemberAction(tx,{actor,input,passwordHasher,now=()=>D
  const c=await tx.companyForReview(input.companyId);if(!c)fail(404,'NOT_FOUND');if(c.version!==input.version)fail(409,'RELOAD_REQUIRED');
  if(actor.historicalRecordRestrictions.includes(c.companyId)&&!(syntheticCleanupAllowed(actor,c)&&input.syntheticCleanupConfirmed===true&&['CLOSE','REQUEST_DELETION','EXECUTE_DELETION'].includes(input.action)))fail(403,'HISTORICAL_RECORD_PROTECTED');
  const p=accountProfile(c.profile),closed=p.accountState==='CLOSED',suspended=p.accessSuspended===true;
- if(p.accountState==='DELETED'||(input.action==='REOPEN'&&!closed)||(input.action==='REACTIVATE'&&(!suspended||closed))||(input.action==='SUSPEND'&&(closed||suspended))||(input.action==='CLOSE'&&closed)||(input.action==='REQUEST_DELETION'&&(!closed||p.deletionReviewRequestedAt)))fail(409,'INVALID_ACCOUNT_TRANSITION');
+ if((p.identityReleasedAt&&input.action==='REOPEN')||p.accountState==='DELETED'||(input.action==='REOPEN'&&!closed)||(input.action==='REACTIVATE'&&(!suspended||closed))||(input.action==='SUSPEND'&&(closed||suspended))||(input.action==='CLOSE'&&closed)||(input.action==='REQUEST_DELETION'&&(!closed||p.deletionReviewRequestedAt)))fail(409,'INVALID_ACCOUNT_TRANSITION');
  let updated={...p},releasedEmails=[],retained=null;
  if(input.action==='EXECUTE_DELETION'){
   if(!closed||!p.deletionReviewRequestedAt||input.retentionReviewed!==true)fail(409,'RETENTION_REVIEW_REQUIRED');
   retained=await tx.deletionDependencies(c.companyId);if(retained.openEnquiries>0||retained.deliveriesInFlight>0)fail(409,'ACTIVE_DEPENDENCIES_REQUIRE_REVIEW');
   const members=await tx.retirementMembers(c.companyId);
   if(members.some(m=>m.companyIds.length!==1||m.companyIds[0]!==c.companyId))fail(409,'SHARED_IDENTITY_REQUIRES_REVIEW');
-  for(const member of members){const passwordHash=await passwordHasher.hash(randomBytes(32).toString('hex'));await tx.retireMember({userId:member.userId,email:member.email,passwordHash,retiredEmail:`retired-${member.userId}-${randomBytes(16).toString('hex')}@seedtrade.invalid`});releasedEmails.push(member.email);}
-  updated={accountState:'DELETED',accessSuspended:true,deletedAt:new Date(now()).toISOString(),retainedIdentity:{legalName:c.legalName,country:c.country,registrationNumber:c.number},releasedMemberIds:members.map(m=>m.userId)};
+  if(!p.identityReleasedAt)for(const member of members){const passwordHash=await passwordHasher.hash(randomBytes(32).toString('hex'));await tx.retireMember({userId:member.userId,email:member.email,passwordHash,retiredEmail:`retired-${member.userId}-${randomBytes(16).toString('hex')}@seedtrade.invalid`});releasedEmails.push(member.email);}
+  updated={accountState:'DELETED',accessSuspended:true,deletedAt:new Date(now()).toISOString(),retainedIdentity:p.retainedIdentity??{legalName:c.legalName,country:c.country,registrationNumber:c.number},releasedMemberIds:members.map(m=>m.userId)};
   await tx.retireManagedCompany({companyId:c.companyId,version:c.version,profile:updated});
  }else{
   if(input.action==='REQUEST_DELETION')updated.deletionReviewRequestedAt=new Date(now()).toISOString();

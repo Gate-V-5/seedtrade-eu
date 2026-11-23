@@ -1,3 +1,4 @@
+import {decisionTransactionMethods} from './decisionRepository.mjs';
 import {adminTransactionMethods} from './adminRepository.mjs';
 import {tradingTransactionMethods} from './tradingRepository.mjs';
 import {literalContains} from './buyerOfferFilters.mjs';
@@ -14,6 +15,7 @@ export function createMysqlB2bRepository(pool) {
         began = true;
         const tx = {
           ...adminTransactionMethods(db),
+          ...decisionTransactionMethods(db),
           ...tradingTransactionMethods(db),
           async findLogin(email, lock = false) {
             const [rows] = await db.execute('SELECT id,email,password_hash AS passwordHash,email_verified_at AS verifiedAt FROM b2b_users WHERE email=?' + (lock ? ' FOR UPDATE' : ''),[email]);
@@ -58,8 +60,8 @@ export function createMysqlB2bRepository(pool) {
               FROM b2b_companies WHERE id>? AND COALESCE(JSON_UNQUOTE(JSON_EXTRACT(profile_json,'$.accountState')),'ACTIVE') NOT IN ('CLOSED','DELETED') ORDER BY id LIMIT 51`,[after]);
             return rows;
           },
-          async decideCompany({companyId,status,version}) {
-            await db.execute('UPDATE b2b_companies SET verification_status=?,profile_version=profile_version+1 WHERE id=? AND profile_version=?',[status,companyId,version]);
+          async decideCompany({companyId,status,version,rejectedProfile}) {
+            if(rejectedProfile){await db.execute("UPDATE b2b_companies SET verification_status=?,profile_version=profile_version+1,profile_json=?,registration_number=NULL WHERE id=? AND profile_version=?",[status,JSON.stringify(rejectedProfile),companyId,version]);}else await db.execute('UPDATE b2b_companies SET verification_status=?,profile_version=profile_version+1 WHERE id=? AND profile_version=?',[status,companyId,version]);
             if(status !== 'VERIFIED') await db.execute("UPDATE b2b_offers SET status='DRAFT',version=version+1 WHERE company_id=? AND status='PUBLISHED'",[companyId]);
           },
           async listOffers({companyId,own,after,filters={},eligibleCropIds,publicPreview=false,offerId=null}) {

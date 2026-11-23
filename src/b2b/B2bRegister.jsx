@@ -1,3 +1,4 @@
+import './marketplaceUi.css';
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {useLanguage,useT} from '../i18n/index.jsx';
 import legalRegistry from '../legal/registry.json';

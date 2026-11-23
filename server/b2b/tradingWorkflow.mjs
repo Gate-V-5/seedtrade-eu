@@ -35,11 +35,12 @@ export function createTradingWorkflow({localOnly=false,simple=false,publicationA
    await tx.appendAudit({actorUserId:a.user.id,companyId:a.company.id,action:'COMMISSION_TERMS_ACCEPTED',entityType:'offer',entityId:String(offer.id)});
   },
   async published(tx,a,offer){
+   if(await tx.listingPreviouslyPublished(offer.id))return;
    for(const recipient of await tx.eligibleListingRecipients(a.company.id)){
     if(recipient.cropIds?.length&&!recipient.cropIds.includes(offer.cropId))continue;
     const details=asObject(offer.details);
     await tx.enqueueListingNotice({offerId:offer.id,offerVersion:offer.version+1,userId:recipient.userId,email:recipient.email,language:recipient.language,
-     direction:details.listingDirection??'OFFER',productType:details.productType??null,product:catalogue.find(c=>c.id===offer.cropId)?.name??offer.cropId,
+     direction:details.listingDirection??'OFFER',productType:details.productType??null,product:catalogue.find(c=>c.id===offer.cropId)?.name??offer.cropId,botanical:catalogue.find(c=>c.id===offer.cropId)?.botanical??'',
      cropId:offer.cropId,simpleWorkflow:simple,quantity:offer.quantity,unit:offer.unit,price:offer.priceAmount,currency:offer.currency});
    }
   },

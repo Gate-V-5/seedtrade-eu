@@ -1,3 +1,5 @@
+import {stageCompanyDecision} from './companyDecisionNotifications.mjs';
+import {mailLanguage} from './messageLanguage.mjs';
 import {normalizeListingSpecifications,readListingSpecifications} from './listingSpecifications.mjs';
 import {PUBLIC_PREVIEW_VERSION,safePreviewText} from './publicPreview.mjs';
 import {marketplaceEntitled} from './marketplaceEntitlement.mjs';
@@ -29,7 +31,7 @@ const company=row=>({id:id(row.companyId),legalName:row.legalName,country:row.co
   reviewReason:['MORE_INFO','REJECTED'].includes(row.status)&&typeof row.reviewReason==='string'?row.reviewReason.slice(0,100):null});
 const page=rows=>({items:rows.slice(0,50),next:rows.length>50?rows[49].id:null});
 
-export function createB2bPortalService({repository,passwordHasher,mailer,catalogue=[],memberOnly=false,communications=false,adminUserIds=[],reviewActor=null,notifications=null,trading=null,listingDelivery=null,enquiryConfirmation=null,now=()=>Date.now()}) {
+export function createB2bPortalService({repository,passwordHasher,mailer,catalogue=[],memberOnly=false,communications=false,adminUserIds=[],reviewActor=null,notifications=null,trading=null,listingDelivery=null,enquiryConfirmation=null,decisionNotifications=null,now=()=>Date.now()}) {
   const crops=new Map(catalogue.map(c=>[c.id,c]));
   if((!memberOnly&&!crops.size)||new Set(adminUserIds).size!==adminUserIds.length||adminUserIds.some(n=>!Number.isSafeInteger(n)||n<1))throw Error('B2B_PORTAL_CONFIGURATION');
   const admins=new Set(adminUserIds);
@@ -65,11 +67,10 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     if(!input||typeof input!=='object'||Array.isArray(input)||input.authorityConfirmed!==true||input.authorityDocumentId!==currentLegalRegistry.documents.authority.id)fail(400,'INVALID_REQUEST');
     const address=input.registeredAddress;
     if(!address||typeof address!=='object'||Array.isArray(address)||!/^[A-Z]{2}$/.test(address.country??''))fail(400,'INVALID_REQUEST');
-    if(!Array.isArray(input.roles)||!input.roles.length||input.roles.length>3||input.roles.some(r=>!['BUYER','SELLER','PRODUCER'].includes(r))||new Set(input.roles).size!==input.roles.length)fail(400,'INVALID_REQUEST');
     if(!Array.isArray(input.speciesIds)||input.speciesIds.length>100||input.speciesIds.some(c=>!crops.has(c))||new Set(input.speciesIds).size!==input.speciesIds.length)fail(400,'INVALID_REQUEST');
     return {contactName:text(input.contactName,100,true),contactRole:text(input.contactRole??'',80),phone:text(input.phone??'',50),
       vat:text(input.vat??'',50),registeredAddress:{street:text(address.street,200,true),city:text(address.city,100,true),postalCode:text(address.postalCode,20,true),country:address.country},
-      roles:input.roles,speciesIds:input.speciesIds,authorityConfirmed:true,authorityDocumentId:currentLegalRegistry.documents.authority.id};
+      roles:Array.isArray(input.roles)?input.roles.filter(r=>['BUYER','SELLER','PRODUCER'].includes(r)):[],speciesIds:input.speciesIds,authorityConfirmed:true,authorityDocumentId:currentLegalRegistry.documents.authority.id};
   };
   const offerInput=input=>{
     const normalized=normalizeOffer(input);
@@ -227,28 +228,30 @@ return item;
     catalogue:token=>withActor(token,async()=>({items:catalogue})),
     saveProfile:(token,input)=>withActor(token,async(tx,a)=>{
       editCompany(a);checkVersion(a.company.version,input.version);
-      const identity=normalizeCompany(input.company),profile=profileInput(input.profile);
+      const identity=normalizeCompany(input.company),profile={...profileInput(input.profile),uiLanguage:mailLanguage(input.uiLanguage??a.company.profile?.uiLanguage)};
       await tx.saveProfile({companyId:a.company.id,legalName:identity.legalName,country:identity.registrationCountry,number:identity.registrationNumber,profile,version:input.version});
       await audit(tx,a,'COMPANY_PROFILE_UPDATED','company',a.company.id);
       await audit(tx,a,'REPRESENTATIVE_AUTHORITY_RECONFIRMED','legal_snapshot',currentLegalRegistry.documents.authority.id);
       return {status:'PENDING_REVIEW'};
     }),
-    reviewQueue:(token,input)=>withReviewer(token,async(tx,a)=>{
+    reviewQueue:async(token,input)=>{const result=await withReviewer(token,async(tx,a)=>{
       platform(a);const rows=await tx.reviewQueue(cursor(input.after));
       return {items:rows.slice(0,50).map(row=>company(row)),next:rows.length>50?rows[49].companyId:null};
-    }),
-    reviewCompany:(token,input)=>withReviewer(token,async(tx,a)=>{
+    });if(decisionNotifications)try{await decisionNotifications.drain();}catch{}return result;},
+    reviewCompany:async(token,input)=>{const result=await withReviewer(token,async(tx,a)=>{
       platform(a);const companyId=id(input.companyId);if(a.adminId){if(a.historicalRecordRestrictions?.includes(companyId))fail(403,'HISTORICAL_RECORD_PROTECTED');}else if(companyId===a.company.id)fail(403,'SELF_APPROVAL_FORBIDDEN');
       if(!['VERIFIED','MORE_INFO','REJECTED'].includes(input.status))fail(400,'INVALID_REQUEST');
       const reason=text(input.reason,100,true),row=await tx.companyForReview(companyId);if(!row)fail(404,'NOT_FOUND');
       checkVersion(row.version,input.version);
-      if(input.status==='VERIFIED'){const p=parseProfile(row.profile);if(p?.accessSuspended===true||p?.accountState==='CLOSED')fail(403,'COMPANY_ACCESS_SUSPENDED');profileInput(p);}
-      await tx.decideCompany({companyId,status:input.status,version:input.version});
+      if(decisionNotifications&&['CLOSED','DELETED'].includes(parseProfile(row.profile)?.accountState))fail(403,'COMPANY_ACCESS_CLOSED');
+      if(input.status==='VERIFIED'){normalizeCompany({legalName:row.legalName,registrationCountry:row.country,registrationNumber:row.number});const p=parseProfile(row.profile);if(p?.accessSuspended===true||p?.accountState==='CLOSED')fail(403,'COMPANY_ACCESS_SUSPENDED');profileInput(p);}
+      const staged=decisionNotifications?await stageCompanyDecision(tx,{company:row,status:input.status,adminId:a.adminId,passwordHasher,now}):{ids:[]};
+      await tx.decideCompany({companyId,status:input.status,version:input.version,...(staged.rejectedProfile?{rejectedProfile:staged.rejectedProfile}:{})});
       await tx.appendAudit({actorUserId:a.adminId?null:a.user.id,...(a.adminId?{adminActorId:a.adminId}:{}),companyId,action:'COMPANY_'+input.status,entityType:'company_review',entityId:JSON.stringify({version:input.version}).slice(0,100)});
       // Store the bounded review reason as an auditable event without exposing it in the marketplace.
       await tx.appendAudit({actorUserId:a.adminId?null:a.user.id,...(a.adminId?{adminActorId:a.adminId}:{}),companyId,action:'REVIEW_REASON',entityType:'review_reason',entityId:reason.slice(0,100)});
-      return {status:input.status};
-    }),
+      return {status:input.status,...(decisionNotifications?{notificationIds:staged.ids,reRegistrationReady:!!staged.rejectedProfile}:{})};
+    });if(decisionNotifications&&result.notificationIds?.length){try{const sent=await decisionNotifications.deliverMany(result.notificationIds);result.notificationStatus=sent.every(x=>x.status==='fulfilled'&&x.value.status==='SENT')?'SENT':'QUEUED_OR_REVIEW_REQUIRED';}catch{result.notificationStatus='QUEUED_OR_REVIEW_REQUIRED';}}return result;},
     offers:(token,input)=>withActor(token,async(tx,a)=>{
       const own=input.own===true;if(!own)verified(a);
       const filters=own?{}:normalizeBuyerFilters(input,crops);
@@ -256,7 +259,7 @@ return item;
       return {...result,items:result.items.map(o=>own?({...o,quantity:Number(o.quantity),priceAmount:o.priceAmount==null?null:Number(o.priceAmount),details:parseProfile(o.details)??{},species:crops.get(o.cropId)??null}):publicOffer(o))};
     }),
     offerDetail:(token,input)=>withActor(token,async(tx,a)=>{
-      verified(a);const row=await tx.publishedOffer({id:id(input.id),companyId:a.company.id,eligibleCropIds:[...crops.keys()]});
+      verified(a);const own=await tx.offerForUpdate(id(input.id));if(own?.companyId===a.company.id){if(own.status!=='PUBLISHED'||own.validUntil<new Date(now()).toISOString().slice(0,10))fail(404,'NOT_FOUND');return {offer:{...publicOffer({...own,companyName:a.company.legalName,companyCountry:a.company.country}),isOwn:true}};}const row=await tx.publishedOffer({id:id(input.id),companyId:a.company.id,eligibleCropIds:[...crops.keys()]});
       if(!row)fail(404,'NOT_FOUND');return {offer:publicOffer(row)};
     }),
     saveOffer:(token,input)=>withActor(token,async(tx,a)=>{
@@ -276,7 +279,7 @@ return item;
       if(trading)await trading.beforePublish(tx,a,offer,input);
       await tx.setOfferStatus({id:offer.id,companyId:a.company.id,status:'PUBLISHED',version:input.version});
       if(trading)await trading.published(tx,a,offer);
-      await audit(tx,a,'OFFER_PUBLISHED','offer',offer.id);return {status:'PUBLISHED'};
+      await audit(tx,a,'OFFER_PUBLISHED','offer',offer.id);return {status:'PUBLISHED',id:offer.id,version:offer.version+1};
     });if(trading&&listingDelivery)try{await listingDelivery.drain();}catch{/* Committed outbox remains pending; publication is not lost. */}return result;},
     closeOffer:(token,input)=>withActor(token,async(tx,a)=>{
       editCompany(a);const offer=await ownedOffer(tx,a,input.id);checkVersion(offer.version,input.version);

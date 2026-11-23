@@ -34,7 +34,7 @@ for(const direction of ['OFFER','BUY_REQUEST'])test(direction+': complete synthe
  assert.equal(f.record.documents.length,7);assert(f.record.documents.every(d=>{const {hash,...content}=d;return hash===digest(content)&&d.status==='DRAFT_NOT_ISSUED'&&d.snapshot.payerCompanyId===owner.company.id;}));
  await f.operator('RECORD_SIMULATED_INVOICE',{evidenceRef:'synthetic accounting reference'});assert.equal(f.record.invoice.status,'LOCAL_SIMULATION_NOT_ISSUED');await f.operator('CLOSE',{evidenceRef:'synthetic settlement reference'});assert.equal(f.record.status,'CLOSED');
  await assert.rejects(f.operator('RECORD_SIMULATED_INVOICE',{evidenceRef:'duplicate accounting ref'}));assert.equal(f.record.invoice.commission.commission,'100.00');
- assert.equal(f.h.state.listingJobs.size,1);assert.equal([...f.h.state.listingJobs.values()][0].status,'SENT');await f.notices.drain();assert.equal(f.delivered.filter(m=>m.subject.includes('Marktplatz')).length,1);
+ assert.equal(f.h.state.listingJobs.size,1);assert.equal([...f.h.state.listingJobs.values()][0].status,'SENT');await f.notices.drain();assert.equal(f.delivered.filter(m=>m.subject.includes('Verkaufsangebot')||m.subject.includes('Kaufanfrage')).length,1);
 });
 test('partial refund after invoice creates a traceable credit, never a second commission',async()=>{
  const f=await start();await f.action(f.owner,'PROPOSE',{agreement});await f.action(f.owner,'ACCEPT',{agreementHash:f.record.agreementHash});await f.action(f.respondent,'ACCEPT',{agreementHash:f.record.agreementHash});await f.action(f.owner,'CONFIRM_ORDER',{evidenceRef:'synthetic order'});

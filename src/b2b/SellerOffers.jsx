@@ -17,7 +17,7 @@ const numeric=['quantity','priceAmount','germinationPercent','purityPercent','mo
 export default function SellerOffers({session,onExpired,tradingPolicy=null,tradingRequired=false}){
  const {language}=useLanguage(),baseT=useT(),t=key=>previewMessages[language]?.[key]??sellerMessages[language]?.[key]??baseT(key);
  const [catalogue,setCatalogue]=useState([]),[page,setPage]=useState({items:[],next:null}),[offer,setOffer]=useState(emptyOffer),[busy,setBusy]=useState(false),[loaded,setLoaded]=useState(false),[feedback,setFeedback]=useState(''),[invalid,setInvalid]=useState('');
- const [publishTarget,setPublishTarget]=useState(null);
+ const [publishTarget,setPublishTarget]=useState(null),[publishedId,setPublishedId]=useState(null);
  const lock=useRef(false),mounted=useRef(true),formRef=useRef(null);
  const permitted=session.company.status==='VERIFIED'&&session.role==='COMPANY_ADMIN';
  const today=new Date().toISOString().slice(0,10);
@@ -42,7 +42,7 @@ export default function SellerOffers({session,onExpired,tradingPolicy=null,tradi
   setOffer(emptyOffer());setInvalid('');setFeedback(success);
   try{await refresh();}catch{if(mounted.current){setLoaded(false);setFeedback('Offer saved; the list could not be refreshed. Refresh offers before making another change.');}}
  }
- function save(e){e.preventDefault();if(!permitted||!loaded)return;
+ function save(e,acceptance=null){e.preventDefault();if(!permitted||!loaded)return;
   const bad=Array.from(e.currentTarget.elements).find(x=>x.willValidate&&!x.validity.valid);
   if(bad){setInvalid(bad.name);setFeedback('Please check the highlighted field.');bad.focus();return;}
   if(offer.availability==='AVAILABLE_FROM'&&(!offer.availableFrom||offer.availableFrom>offer.validUntil)){setInvalid('availableFrom');setFeedback('Choose an availability date on or before the offer expiry date.');formRef.current.elements.namedItem('availableFrom').focus();return;}
@@ -55,23 +55,27 @@ export default function SellerOffers({session,onExpired,tradingPolicy=null,tradi
   const input={...offer,...Object.fromEntries(numeric.map(k=>[k,offer[k]===''?null:Number(offer[k])])),listingDirection:offer.listingDirection||null,productType:offer.productType||null,organic:offer.organic==='true'?true:offer.organic==='false'?false:offer.organic===true?true:offer.organic===false?false:null,qualityParameters,...legacyQuality};
   // Keep the payload explicit; never send tenant IDs or immutable acceptance data.
   delete input.companyId;delete input.companyName;delete input.species;delete input.details;delete input.status;
-  run(()=>mutation('/offers/save',input,'Offer saved as draft.'));
+  run(async()=>{
+   let saved;try{saved=await request('/offers/save',input);}catch(error){setLoaded(false);throw error;}
+   if(acceptance){setOffer(old=>({...old,id:saved.id,version:saved.version}));const result=await request('/offers/publish',{id:saved.id,version:saved.version,...acceptance});setPublishedId(result.id??saved.id);setFeedback('Listing published. It is now visible in the Member Marketplace.');}
+   else setFeedback('Offer saved as draft.');
+   setOffer(emptyOffer());setInvalid('');await refresh();
+  });
  }
  return <section className="seller-offers" id="seller-offers" aria-labelledby="seller-title">
-  <header className="seller-heading"><div><h2 id="seller-title">{t('My listings')}</h2><p>{t('Drafts are private. Complete offers are restricted to approved members. Public previews require your separate confirmation.')}</p></div><button type="button" disabled={busy} onClick={()=>run(async()=>{const c=await request('/catalogue');if(mounted.current)setCatalogue(c.items);await refresh();if(mounted.current)setLoaded(true);})}>{t('Refresh offers')}</button></header>
-  <p id="seller-feedback" role="status" aria-live="polite">{busy?t('Working…'):t(feedback)}</p>
+  <header className="seller-heading"><div><h2 id="seller-title">{t('My listings')}</h2><p>{t('Drafts are private. Complete offers are restricted to approved members. Public previews require your separate confirmation.')}</p></div><button type="button" disabled={busy} onClick={()=>run(async()=>{const c=await request('/catalogue');if(mounted.current)setCatalogue(c.items);await refresh();if(mounted.current)setLoaded(true);})}>{t('Refresh listings')}</button></header>
+  {publishedId&&<p className="publication-success"><a href={'/b2b/account?view=marketplace&offer='+publishedId+'&lang='+language.toLowerCase()}>{t('View published listing')}</a></p>}<p id="seller-feedback" role="status" aria-live="polite">{busy?t('Working…'):t(feedback)}</p>
   {!permitted&&<p>{t(session.company.status!=='VERIFIED'?'Your company must be independently approved before creating or publishing offers.':'Only your company administrator can manage offers.')}</p>}
-  <h3>{t('My listings')}</h3>
-  {loaded&&!page.items.length&&<p>{t('No offers yet.')}</p>}
+  {loaded&&!page.items.length&&<p>{t('No listings yet.')}</p>}
   <ul className="seller-list">{page.items.map(item=><li key={item.id} data-offer-id={item.id} data-offer-status={item.status}>
    <div><h4>{baseT(item.species?.name??item.cropId)}</h4><p><i>{item.species?.botanical}</i></p>{item.details?.variety&&<p>{t('Variety')}: {item.details.variety}</p>}<p>{t((item.details?.listingDirection??item.listingDirection)==='BUY_REQUEST'?'TO BUY · DEMAND':(item.details?.listingDirection??item.listingDirection)==='OFFER'?'FOR SALE · OFFER':'Not specified')} · {t(({CERTIFIED_SEED:'CERTIFIED SEED',COMMODITY:'COMMODITY'})[item.details?.productType??item.productType]??'Not specified')}</p><p>{new Intl.NumberFormat(language.toLowerCase()).format(item.quantity)} {item.unit}{item.priceAmount!=null&&<> · {new Intl.NumberFormat(language.toLowerCase(),{style:'currency',currency:item.currency}).format(item.priceAmount)+' / '+(item.priceUnit??item.details?.priceUnit??item.unit)}</>}</p><p>{t('Listing valid until')}: <time dateTime={item.validUntil}>{item.validUntil}</time></p></div>
-   <div className="seller-offer-state"><span className={'seller-status seller-status-'+item.status.toLowerCase()}>{t(statusKey[item.status]??item.status)}</span>{item.validUntil<today&&<span>{t('Expired')}</span>}<div className="seller-actions"><button type="button" disabled={busy||!permitted||!loaded} onClick={()=>start(item)}>{t('Edit listing')}</button><button type="button" disabled={busy||!permitted||!loaded||item.status!=='DRAFT'||item.validUntil<today||(tradingRequired&&!tradingPolicy)} onClick={()=>tradingPolicy?setPublishTarget(item):run(()=>mutation('/offers/publish',{id:item.id,version:item.version},'Offer published.'))}>{t('Submit for publication')}</button><button type="button" disabled={busy||session.role!=='COMPANY_ADMIN'||!loaded||item.status==='CLOSED'} onClick={()=>run(()=>mutation('/offers/close',{id:item.id,version:item.version},'Offer withdrawn.'))}>{t('Withdraw offer')}</button></div></div>
+   <div className="seller-offer-state"><span className={'seller-status seller-status-'+item.status.toLowerCase()}>{t(statusKey[item.status]??item.status)}</span>{item.validUntil<today&&<span>{t('Expired')}</span>}<div className="seller-actions"><button type="button" disabled={busy||!permitted||!loaded} onClick={()=>start(item)}>{t('Edit listing')}</button><button type="button" disabled={busy||!permitted||!loaded||item.status!=='DRAFT'||item.validUntil<today||(tradingRequired&&!tradingPolicy)} onClick={()=>tradingPolicy?setPublishTarget(item):run(()=>mutation('/offers/publish',{id:item.id,version:item.version},'Offer published.'))}>{t('Publish Listing')}</button><button type="button" disabled={busy||session.role!=='COMPANY_ADMIN'||!loaded||item.status==='CLOSED'} onClick={()=>run(()=>mutation('/offers/close',{id:item.id,version:item.version},'Offer withdrawn.'))}>{t('Withdraw listing')}</button></div></div>
   </li>)}</ul>
   {page.next&&<button type="button" disabled={busy} onClick={()=>run(()=>refresh(page.next))}>{t('More offers')}</button>}
   <button type="button" disabled={busy||!permitted||!loaded} onClick={()=>start()}>{t('New listing')}</button>
-  {publishTarget&&tradingPolicy&&<CommissionPublication policy={tradingPolicy} listing={publishTarget} busy={busy} onCancel={()=>setPublishTarget(null)} onConfirm={acceptance=>run(async()=>{await mutation('/offers/publish',{id:publishTarget.id,version:publishTarget.version,...acceptance},'Offer published.');setPublishTarget(null);})}/>}
+  {publishTarget&&tradingPolicy&&<CommissionPublication policy={tradingPolicy} listing={publishTarget} busy={busy} onCancel={()=>setPublishTarget(null)} onConfirm={acceptance=>run(async()=>{await mutation('/offers/publish',{id:publishTarget.id,version:publishTarget.version,...acceptance},'Listing published. It is now visible in the Member Marketplace.');setPublishedId(publishTarget.id);setPublishTarget(null);})}/>}
   <form ref={formRef} aria-label={t('My listings')} noValidate onSubmit={save}><fieldset disabled={busy||!permitted||!loaded}><legend>{t(offer.id?'Edit listing':'New listing')}</legend>
-   <p>{t('Editing an offer returns it to draft. Submit it again to publish the changes.')}</p><div className="seller-grid">
+   <p>{t('Editing a listing returns it to draft. Publish it again to make the changes visible.')}</p><div className="seller-grid">
     {selection('Listing direction','listingDirection',<><option value="">{t('Not specified')}</option><option value="OFFER">{t('Offer for sale')}</option><option value="BUY_REQUEST">{t('Buying request')}</option></>,!offer.id)}
     {selection('Product type','productType',<><option value="">{t('Not specified')}</option><option value="CERTIFIED_SEED">{t('Certified seed')}</option><option value="COMMODITY">{t('Commodity')}</option></>,!offer.id)}
     {selection('Seed species','cropId',<><option value="">{t('Select species')}</option>{catalogue.map(c=><option key={c.id} value={c.id}>{baseT(c.name)} — {c.botanical}</option>)}</>)}
@@ -89,10 +93,10 @@ export default function SellerOffers({session,onExpired,tradingPolicy=null,tradi
        {control('Packaging','packaging',{maxLength:200})}
     {control('Delivery terms','deliveryTerms',{maxLength:200})}
     {selection('Organic status','organic',<><option value="">{t('Not specified')}</option><option value="true">{t('Organic')}</option><option value="false">{t('Non-organic')}</option></>,false)}
-   </div>{qualityControls()}
-   {note('Quality notes','qualitySpecifications')}{note('Additional commercial information','commercialInformation')}
+   </div><details className="listing-optional"><summary>{t('Quality parameters (optional)')}</summary>{qualityControls()}</details>
+   <details className="listing-optional" open={Boolean(offer.qualitySpecifications||offer.commercialInformation)}><summary>{t('Additional notes (optional)')}</summary>{note('Quality notes','qualitySpecifications')}{note('Additional commercial information','commercialInformation')}</details>
    <label className="preview-consent"><input type="checkbox" name="publicPreviewConfirmed" checked={offer.publicPreviewConfirmed===true} onChange={e=>setOffer(old=>({...old,publicPreviewConfirmed:e.target.checked}))}/><span>{t('Show a public preview after publication: species, variety, origin, quantity, seller-declared category/certification and availability. Price, company, contacts and private specifications stay restricted. Do not enter contact details in preview fields. Confirm again after editing.')}</span></label>
-   <div className="seller-actions"><button type="submit" className="member-primary">{t(offer.id?'Save changes as draft':'Save draft')}</button>{offer.id&&<button type="button" onClick={()=>start()}>{t('Cancel editing')}</button>}</div>
+   {tradingPolicy&&permitted&&!publishTarget&&<CommissionPublication key={JSON.stringify(offer)} policy={tradingPolicy} listing={{...offer,species:catalogue.find(c=>c.id===offer.cropId)}} busy={busy||!loaded} onCancel={()=>start()} onConfirm={acceptance=>save({preventDefault(){},currentTarget:formRef.current},acceptance)}/>}<div className="seller-actions"><button type="submit" className="member-primary">{t(offer.id?'Save changes as draft':'Save draft')}</button>{offer.id&&<button type="button" onClick={()=>start()}>{t('Cancel editing')}</button>}</div>
   </fieldset></form>
  </section>;
 }
