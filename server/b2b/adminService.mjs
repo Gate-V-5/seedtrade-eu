@@ -19,7 +19,7 @@ export function createAdminService({repository,passwordHasher,key,memberManagerA
  };
  const permissions=id=>['company:review',...(memberManagerAdminIds.includes(id)?['member:manage']:[])];
  return {authenticate,
-  ...createMemberManagement({repository,authenticate,memberManagerAdminIds,now}),
+  ...createMemberManagement({repository,authenticate,memberManagerAdminIds,passwordHasher,now}),
   async login(input){
    let email;try{email=normalizeEmail(input.email);}catch{email='invalid@example.invalid';}
    const validPassword=typeof input.password==='string'&&input.password.length>=12&&input.password.length<=1024;

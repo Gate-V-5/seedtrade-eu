@@ -51,7 +51,7 @@ export function createB2bPortalService({repository,passwordHasher,mailer,catalog
     const row=await tx.sessionContext(sessionHash(token));
     if(!row||!row.verifiedAt)fail(401,'SIGN_IN_REQUIRED');
     if(!['MEMBER','COMPANY_ADMIN'].includes(row.role))fail(403,'MEMBERSHIP_REQUIRED');
-    id(row.userId);const c=company(row);if(c.profile?.accessSuspended===true)fail(403,'COMPANY_ACCESS_SUSPENDED');
+    id(row.userId);const c=company(row);if((c.profile?.accessSuspended===true||['CLOSED','DELETED'].includes(c.profile?.accountState)))fail(403,'COMPANY_ACCESS_SUSPENDED');
     return {user:{id:row.userId,email:row.email},company:c,role:row.role,platformAdmin:admins.has(row.userId)};
   };
   const withActor=(token,work)=>repository.transaction(async tx=>work(tx,await actor(tx,token)));

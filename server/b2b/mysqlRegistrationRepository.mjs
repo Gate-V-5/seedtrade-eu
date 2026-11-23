@@ -55,7 +55,7 @@ export function createMysqlB2bRepository(pool) {
           async reviewQueue(after) {
             const [rows] = await db.execute(`SELECT id AS companyId,legal_name AS legalName,registration_country AS country,
               registration_number AS number,verification_status AS status,profile_json AS profile,profile_version AS version
-              FROM b2b_companies WHERE id>? ORDER BY id LIMIT 51`,[after]);
+              FROM b2b_companies WHERE id>? AND COALESCE(JSON_UNQUOTE(JSON_EXTRACT(profile_json,'$.accountState')),'ACTIVE') NOT IN ('CLOSED','DELETED') ORDER BY id LIMIT 51`,[after]);
             return rows;
           },
           async decideCompany({companyId,status,version}) {
