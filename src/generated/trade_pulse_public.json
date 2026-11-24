@@ -1,6 +1,6 @@
 {
   "schema": "SEEDTRADE_EU_SEED_TRADE_PULSE_V1",
-  "generated_at": "2026-11-16T12:24:14.728015+00:00",
+  "generated_at": "2026-11-24T15:55:45.773515+00:00",
   "classification": "PUBLIC_SAFE",
   "source": "Eurostat COMEXT DS-045409",
   "source_artifact_sha256": "d4d376c4ceaf3d29242bfd65647837d80a883438dd2aee64b5443aaf4734c1fc",
@@ -1444,8 +1444,8 @@
     "definition": "EU reporting countries with eligible paired observations in this reporting month, across the three trade views; not partner-country count."
   },
   "refresh": {
-    "last_check_at": "2026-11-16T12:24:14.728015+00:00",
-    "last_success_at": "2026-11-16T12:24:14.728015+00:00",
+    "last_check_at": "2026-11-24T15:55:45.773515+00:00",
+    "last_success_at": "2026-11-24T15:55:45.773515+00:00",
     "source_updated_at": "2026-11-13T11:00:00+0100",
     "source_timestamp_verified": true,
     "source_manifest_sha256": "d4d376c4ceaf3d29242bfd65647837d80a883438dd2aee64b5443aaf4734c1fc",
